@@ -46,7 +46,7 @@ export default function CrystallineWaterproofing() {
           </p>
 
           <p>
-            Enter Crystalline Waterproofing. In 2026, this technology has shifted from a niche industrial solution to the gold standard for residential and commercial foundations. It is not a coating; it is a chemical transformation that turns the concrete itself into a permanent, self-healing water barrier.
+            Enter Crystalline Waterproofing. In 2026, this technology has shifted from a niche industrial solution to the gold standard for residential and commercial foundations. It is not a coating; it is a chemical transformation that turns the concrete itself into a permanent, self-healing water barrier. It's an essential component of a modern <Link href="/articles/complete-basement-waterproofing-guide" className="text-brand-teal hover:underline font-semibold">basement waterproofing system</Link>.
           </p>
 
           <h2>The Science of the Self-Healing Foundation</h2>
@@ -246,7 +246,7 @@ export default function CrystallineWaterproofing() {
           <h3>2. Topical Slurry (The Retrofit Solution)</h3>
 
           <p>
-            For existing homes with damp basements, a crystalline slurry can be applied to the interior or exterior walls.
+            For existing homes with damp basements, a crystalline slurry can be applied to the interior or exterior walls. Timing is critical - apply this treatment during your <Link href="/articles/pre-finish-audit" className="text-brand-teal hover:underline font-semibold">pre-finish audit phase</Link>, before any framing or drywall installation begins.
           </p>
 
           <ul>
