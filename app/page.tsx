@@ -40,7 +40,7 @@ export default function Home() {
               </div>
               <Link
                 href="/articles/complete-basement-waterproofing-guide"
-                className="inline-block bg-teal-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-teal-700 transition-colors"
+                className="inline-block bg-teal-600 text-white px-8 py-4 rounded-lg font-bold hover:bg-teal-700 transition-colors shadow-md"
               >
                 Read the Complete Guide →
               </Link>
@@ -50,178 +50,106 @@ export default function Home() {
       </section>
 
       {/* Latest Articles Grid */}
-      <section className="bg-gray-50 py-12">
+      <section className="py-16 bg-gray-50">
         <div className="container-custom">
-          <div className="flex items-center justify-between mb-8">
-            <h2 className="text-2xl font-bold text-slate-800">Latest Articles</h2>
-            <Link href="/guides" className="text-teal-600 font-semibold hover:underline">View All →</Link>
+          <div className="flex items-end justify-between mb-10">
+            <div>
+              <h2 className="text-3xl font-bold text-slate-800 mb-2">Latest Articles</h2>
+              <p className="text-gray-500">Expert advice on waterproofing, finishing, and maintenance.</p>
+            </div>
+            <Link href="/guides" className="text-teal-600 font-bold hover:underline flex items-center gap-1">
+              View All →
+            </Link>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <Link href="/articles/basement-finishing-cost" className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-gray-100">
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Card 1: Finishing Cost */}
+            <Link href="/articles/basement-finishing-cost" className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow group border border-gray-100">
               <div className="relative h-48">
-                <Image src="/unfinished-basement-interior.jpg.jpg" alt="Basement finishing cost guide" fill className="object-cover" />
+                <Image src="/unfinished-basement-interior.jpg.jpg" alt="Basement finishing cost guide" fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
               </div>
-              <div className="p-5">
-                <div className="flex items-center gap-2 mb-2">
-                  <span className="bg-amber-50 text-amber-700 text-xs font-semibold px-2 py-1 rounded">Cost Guide</span>
+              <div className="p-6">
+                <div className="flex items-center gap-2 mb-3">
+                  <span className="bg-orange-50 text-orange-700 text-xs font-semibold px-2 py-1 rounded">Cost Guide</span>
                   <span className="text-gray-400 text-xs">18 min read</span>
                 </div>
-                <h3 className="font-bold text-slate-800 text-lg mb-2">Basement Finishing Cost Guide 2026</h3>
+                <h3 className="font-bold text-slate-800 text-xl mb-2">Basement Finishing Cost Guide 2026</h3>
                 <p className="text-gray-500 text-sm">What you'll actually pay in 2026. From $20 to $75 per sq ft, full breakdowns by size and room type.</p>
               </div>
             </Link>
 
-            <Link href="/articles/smart-sump-pumps-guide" className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-gray-100">
+            {/* Card 2: Smart Sump Pumps */}
+            <Link href="/articles/smart-sump-pumps-guide" className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow group border border-gray-100">
               <div className="relative h-48">
-                <Image src="/smart-home-leak-sensors.jpg.jpg" alt="Smart sump pump with phone app" fill className="object-cover" />
+                <Image src="/smart-home-leak-sensors.jpg.jpg" alt="Smart sump pump with phone app" fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
               </div>
-              <div className="p-5">
-                <div className="flex items-center gap-2 mb-2">
-                  <span className="bg-teal-50 text-teal-700 text-xs font-semibold px-2 py-1 rounded">Smart Home</span>
+              <div className="p-6">
+                <div className="flex items-center gap-2 mb-3">
+                  <span className="bg-blue-50 text-blue-700 text-xs font-semibold px-2 py-1 rounded">Smart Home</span>
                   <span className="text-gray-400 text-xs">14 min read</span>
                 </div>
-                <h3 className="font-bold text-slate-800 text-lg mb-2">Smart Sump Pumps & Leak Sensors: The 2026 Guide</h3>
+                <h3 className="font-bold text-slate-800 text-xl mb-2">Smart Sump Pumps & Leak Sensors: The 2026 Guide</h3>
                 <p className="text-gray-500 text-sm">IoT flood prevention systems that text you before disasters. Matter protocol, Thread networks, and predictive monitoring explained.</p>
               </div>
             </Link>
 
-            <Link href="/articles/crystalline-waterproofing" className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-gray-100">
+            {/* Card 3: Interior vs Exterior */}
+            <Link href="/articles/interior-vs-exterior-waterproofing" className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow group border border-gray-100">
               <div className="relative h-48">
-                <Image src="/foundation-waterproofing-construction.jpg.png" alt="Crystalline waterproofing on concrete foundation" fill className="object-cover" />
+                <Image src="/foundation-exterior-membrane-wide.jpg.png" alt="Interior vs Exterior Waterproofing" fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
               </div>
-              <div className="p-5">
-                <div className="flex items-center gap-2 mb-2">
-                  <span className="bg-blue-50 text-blue-700 text-xs font-semibold px-2 py-1 rounded">Technology</span>
-                  <span className="text-gray-400 text-xs">8 min read</span>
-                </div>
-                <h3 className="font-bold text-slate-800 text-lg mb-2">What is Crystalline Waterproofing?</h3>
-                <p className="text-gray-500 text-sm">Discover the self-healing concrete technology that's revolutionizing foundation protection. The invisible armor explained.</p>
-              </div>
-            </Link>
-
-            <Link href="/articles/battery-vs-water-powered-sump-pumps" className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-gray-100">
-              <div className="relative h-48">
-                <Image src="/sump-pump-installation.jpg.png" alt="Battery backup sump pump comparison" fill className="object-cover" />
-              </div>
-              <div className="p-5">
-                <div className="flex items-center gap-2 mb-2">
-                  <span className="bg-orange-50 text-orange-700 text-xs font-semibold px-2 py-1 rounded">Comparison</span>
-                  <span className="text-gray-400 text-xs">11 min read</span>
-                </div>
-                <h3 className="font-bold text-slate-800 text-lg mb-2">Battery vs Water-Powered Sump Pumps</h3>
-                <p className="text-gray-500 text-sm">Power vs. physics: Which backup system is right for your home? Complete 2026 comparison with costs and flow rates.</p>
-              </div>
-            </Link>
-
-            <Link href="/articles/best-basement-flooring" className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-gray-100">
-              <div className="relative h-48">
-                <Image src="/basement-flooring-installation.jpg.png" alt="Best waterproof flooring for basements" fill className="object-cover" />
-              </div>
-              <div className="p-5">
-                <div className="flex items-center gap-2 mb-2">
-                  <span className="bg-purple-50 text-purple-700 text-xs font-semibold px-2 py-1 rounded">Reviews</span>
-                  <span className="text-gray-400 text-xs">12 min read</span>
-                </div>
-                <h3 className="font-bold text-slate-800 text-lg mb-2">Best Waterproof Flooring for Basements 2026</h3>
-                <p className="text-gray-500 text-sm">LVP vs. Ceramic vs. Engineered Wood. We break down the pros, cons, and costs of each waterproof flooring option.</p>
-              </div>
-            </Link>
-
-            <Link href="/articles/pre-finish-audit" className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-gray-100">
-              <div className="relative h-48">
-                <Image src="/unfinished-basement-interior.jpg.jpg" alt="Pre-finish basement audit checklist" fill className="object-cover" />
-              </div>
-              <div className="p-5">
-                <div className="flex items-center gap-2 mb-2">
-                  <span className="bg-green-50 text-green-700 text-xs font-semibold px-2 py-1 rounded">Guides</span>
-                  <span className="text-gray-400 text-xs">10 min read</span>
-                </div>
-                <h3 className="font-bold text-slate-800 text-lg mb-2">The Pre-Finish Audit: 7 Critical Checkpoints</h3>
-                <p className="text-gray-500 text-sm">Don't make costly mistakes. These 7 checkpoints will future-proof your basement before you hang a single sheet of drywall.</p>
-              </div>
-            </Link>
-
-            <Link href="/articles/french-drain-cost" className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-gray-100">
-              <div className="relative h-48">
-                <Image src="/french-drain-trench.jpg" alt="French drain installation" fill className="object-cover" />
-              </div>
-              <div className="p-5">
-                <div className="flex items-center gap-2 mb-2">
-                  <span className="bg-amber-50 text-amber-700 text-xs font-semibold px-2 py-1 rounded">Cost Guide</span>
-                  <span className="text-gray-400 text-xs">10 min read</span>
-                </div>
-                <h3 className="font-bold text-slate-800 text-lg mb-2">French Drain Installation Cost 2026</h3>
-                <p className="text-gray-500 text-sm">Full cost breakdown for yard and interior French drains. Average $1,000–$6,500 depending on length and type.</p>
-              </div>
-            </Link>
-
-            <Link href="/articles/sump-pump-cost" className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-gray-100">
-              <div className="relative h-48">
-                <Image src="/sump-pump-installation.jpg" alt="Sump pump installation" fill className="object-cover" />
-              </div>
-              <div className="p-5">
-                <div className="flex items-center gap-2 mb-2">
-                  <span className="bg-amber-50 text-amber-700 text-xs font-semibold px-2 py-1 rounded">Cost Guide</span>
-                  <span className="text-gray-400 text-xs">9 min read</span>
-                </div>
-                <h3 className="font-bold text-slate-800 text-lg mb-2">Sump Pump Installation Cost 2026</h3>
-                <p className="text-gray-500 text-sm">Pedestal vs. submersible pump pricing, pit excavation, and battery backup costs explained.</p>
-              </div>
-            </Link>
-
-            <Link href="/articles/interior-vs-exterior-waterproofing" className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-gray-100">
-              <div className="relative h-48">
-                <Image src="/foundation-exterior-membrane-wide.jpg.png" alt="Interior vs Exterior Waterproofing" fill className="object-cover" />
-              </div>
-              <div className="p-5">
-                <div className="flex items-center gap-2 mb-2">
+              <div className="p-6">
+                <div className="flex items-center gap-2 mb-3">
                   <span className="bg-teal-50 text-teal-700 text-xs font-semibold px-2 py-1 rounded">Deep Dive</span>
                   <span className="text-gray-400 text-xs">25 min read</span>
                 </div>
-                <h3 className="font-bold text-slate-800 text-lg mb-2">Interior vs. Exterior Waterproofing: The Ultimate 2026 Comparison</h3>
+                <h3 className="font-bold text-slate-800 text-xl mb-2">Interior vs. Exterior Waterproofing: The 2026 Comparison</h3>
                 <p className="text-gray-500 text-sm">A 5,000-word deep dive into which method is best for your foundation, covering costs, longevity, and effectiveness.</p>
               </div>
             </Link>
 
-            <Link href="/articles/mold-remediation-cost" className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-gray-100">
+            {/* Card 4: Insulation */}
+            <Link href="/articles/basement-insulation-guide" className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow group border border-gray-100">
               <div className="relative h-48">
-                <Image src="/basement-mold-wall.jpg" alt="Basement mold remediation" fill className="object-cover" />
+                <Image src="/foundation-waterproofing-construction.jpg.png" alt="Basement rigid foam insulation" fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
               </div>
-              <div className="p-5">
-                <div className="flex items-center gap-2 mb-2">
-                  <span className="bg-red-50 text-red-700 text-xs font-semibold px-2 py-1 rounded">Health & Safety</span>
-                  <span className="text-gray-400 text-xs">8 min read</span>
+              <div className="p-6">
+                <div className="flex items-center gap-2 mb-3">
+                  <span className="bg-purple-50 text-purple-700 text-xs font-semibold px-2 py-1 rounded">Insulation</span>
+                  <span className="text-gray-400 text-xs">15 min read</span>
                 </div>
-                <h3 className="font-bold text-slate-800 text-lg mb-2">Mold Remediation Cost 2026</h3>
-                <p className="text-gray-500 text-sm">Professional mold removal costs $500–$10,000+ by area size. What drives the price and when to call a pro.</p>
+                <h3 className="font-bold text-slate-800 text-xl mb-2">Basement Insulation: The 2026 Guide</h3>
+                <p className="text-gray-500 text-sm">Rigid foam vs. spray foam vs. mineral wool. How to stop energy loss and prevent condensation issues.</p>
               </div>
             </Link>
 
-            <Link href="/articles/foundation-crack-repair-cost" className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-gray-100">
+            {/* Card 5: Foundation Cracks */}
+            <Link href="/articles/foundation-crack-repair-cost" className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow group border border-gray-100">
               <div className="relative h-48">
-                <Image src="/foundation-crack-closeup.jpg.jpg" alt="Foundation crack repair" fill className="object-cover" />
+                <Image src="/foundation-waterproofing-construction.jpg.png" alt="Foundation crack repair" fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
               </div>
-              <div className="p-5">
-                <div className="flex items-center gap-2 mb-2">
-                  <span className="bg-amber-50 text-amber-700 text-xs font-semibold px-2 py-1 rounded">Cost Guide</span>
+              <div className="p-6">
+                <div className="flex items-center gap-2 mb-3">
+                  <span className="bg-orange-50 text-orange-700 text-xs font-semibold px-2 py-1 rounded">Cost Guide</span>
                   <span className="text-gray-400 text-xs">12 min read</span>
                 </div>
-                <h3 className="font-bold text-slate-800 text-lg mb-2">Foundation Crack Repair Cost 2026</h3>
+                <h3 className="font-bold text-slate-800 text-xl mb-2">Foundation Crack Repair Cost 2026</h3>
                 <p className="text-gray-500 text-sm">Epoxy injection vs. polyurethane foam. Expect to pay $350–$1,500 per crack depending on severity and method.</p>
               </div>
             </Link>
 
-            <Link href="/articles/basement-insulation-guide" className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-gray-100">
+            {/* Card 6: French Drains */}
+            <Link href="/articles/french-drain-cost" className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow group border border-gray-100">
               <div className="relative h-48">
-                <Image src="/foundation-waterproofing-construction.jpg.png" alt="Basement rigid foam insulation" fill className="object-cover" />
+                <Image src="/sump-pump-installation.jpg.png" alt="French drain installation" fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
               </div>
-              <div className="p-5">
-                <div className="flex items-center gap-2 mb-2">
-                  <span className="bg-blue-50 text-blue-700 text-xs font-semibold px-2 py-1 rounded">Insulation</span>
-                  <span className="text-gray-400 text-xs">15 min read</span>
+              <div className="p-6">
+                <div className="flex items-center gap-2 mb-3">
+                  <span className="bg-orange-50 text-orange-700 text-xs font-semibold px-2 py-1 rounded">Cost Guide</span>
+                  <span className="text-gray-400 text-xs">10 min read</span>
                 </div>
-                <h3 className="font-bold text-slate-800 text-lg mb-2">Basement Insulation: The 2026 Guide</h3>
-                <p className="text-gray-500 text-sm">Rigid foam vs. spray foam vs. mineral wool. How to stop energy loss and prevent condensation issues.</p>
+                <h3 className="font-bold text-slate-800 text-xl mb-2">French Drain Installation Cost 2026</h3>
+                <p className="text-gray-500 text-sm">Full cost breakdown for yard and interior French drains. Average $1,000–$6,500 depending on length and type.</p>
               </div>
             </Link>
           </div>
@@ -229,30 +157,51 @@ export default function Home() {
       </section>
 
       {/* Lead Form Section */}
-      <section id="get-quotes" className="bg-white py-12 border-t border-gray-200">
+      <section id="get-quotes" className="py-20 bg-white">
         <div className="container-custom">
-          <div className="max-w-2xl mx-auto text-center mb-8">
-            <h2 className="text-3xl font-bold text-slate-800 mb-3">Get Free Quotes from Local Pros</h2>
-            <p className="text-gray-600">Compare quotes from vetted basement waterproofing contractors in your area. No obligation.</p>
+          <div className="max-w-5xl mx-auto bg-slate-800 rounded-3xl overflow-hidden shadow-2xl flex flex-col lg:flex-row">
+            <div className="lg:w-1/2 p-8 lg:p-12 text-white">
+              <h2 className="text-3xl lg:text-4xl font-bold mb-6">Get Free Quotes from Local Pros</h2>
+              <p className="text-slate-300 mb-8 text-lg">
+                Compare quotes from vetted basement waterproofing contractors in your area. No obligation to hire, 100% free service.
+              </p>
+              <div className="space-y-6">
+                <div className="flex items-start gap-4">
+                  <div className="w-10 h-10 rounded-full bg-teal-500/20 flex items-center justify-center shrink-0">
+                    <span className="text-teal-400 font-bold">14</span>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-lg">Expert Guides</h4>
+                    <p className="text-slate-400 text-sm">55,000+ words of engineer-reviewed content</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-4">
+                  <div className="w-10 h-10 rounded-full bg-teal-500/20 flex items-center justify-center shrink-0">
+                    <span className="text-teal-400 font-bold">100%</span>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-lg">Independent Reviews</h4>
+                    <p className="text-slate-400 text-sm">No paid placements or manufacturer influence</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-4">
+                  <div className="w-10 h-10 rounded-full bg-teal-500/20 flex items-center justify-center shrink-0">
+                    <span className="text-teal-400 font-bold">2026</span>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-lg">Updated Pricing Data</h4>
+                    <p className="text-slate-400 text-sm">Current market rates for all basement services</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="lg:w-1/2 bg-white p-8 lg:p-12">
+              <LeadForm />
+              <p className="text-center text-xs text-gray-400 mt-6">
+                By submitting this form, you agree to be contacted by up to 3 contractors. No obligation to hire.
+              </p>
+            </div>
           </div>
-          <div className="flex flex-wrap justify-center gap-8 mb-10">
-            <div className="text-center">
-              <p className="text-3xl font-bold text-teal-600">12</p>
-              <p className="text-sm font-semibold text-slate-800">Expert Guides</p>
-              <p className="text-xs text-gray-500">45,000+ words of content</p>
-            </div>
-            <div className="text-center">
-              <p className="text-3xl font-bold text-teal-600">100%</p>
-              <p className="text-sm font-semibold text-slate-800">Independent Reviews</p>
-              <p className="text-xs text-gray-500">No paid placements</p>
-            </div>
-            <div className="text-center">
-              <p className="text-3xl font-bold text-teal-600">2026</p>
-              <p className="text-sm font-semibold text-slate-800">Updated Pricing Data</p>
-              <p className="text-xs text-gray-500">Current market rates</p>
-            </div>
-          </div>
-          <LeadForm />
         </div>
       </section>
     </>
