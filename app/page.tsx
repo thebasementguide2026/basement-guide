@@ -140,6 +140,48 @@ export default function Home() {
                 <p className="text-gray-500 text-sm">Don't make costly mistakes. These 7 checkpoints will future-proof your basement before you hang a single sheet of drywall.</p>
               </div>
             </Link>
+            
+          <Link href="/articles/french-drain-cost" className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-gray-100">
+            <div className="relative h-48">
+              <Image src="/french-drain-trench.jpg" alt="French drain installation" fill className="object-cover" />
+            </div>
+            <div className="p-5">
+              <div className="flex items-center gap-2 mb-2">
+                <span className="bg-amber-50 text-amber-700 text-xs font-semibold px-2 py-1 rounded">Cost Guide</span>
+                <span className="text-gray-400 text-xs">10 min read</span>
+              </div>
+              <h3 className="font-bold text-slate-800 text-lg mb-2">French Drain Installation Cost 2026</h3>
+              <p className="text-gray-500 text-sm">Full cost breakdown for yard and interior French drains. Average $1,000–$6,500 depending on length and type.</p>
+            </div>
+          </Link>
+
+          <Link href="/articles/sump-pump-cost" className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-gray-100">
+            <div className="relative h-48">
+              <Image src="/sump-pump-installation.jpg" alt="Sump pump installation" fill className="object-cover" />
+            </div>
+            <div className="p-5">
+              <div className="flex items-center gap-2 mb-2">
+                <span className="bg-amber-50 text-amber-700 text-xs font-semibold px-2 py-1 rounded">Cost Guide</span>
+                <span className="text-gray-400 text-xs">9 min read</span>
+              </div>
+              <h3 className="font-bold text-slate-800 text-lg mb-2">Sump Pump Installation Cost 2026</h3>
+              <p className="text-gray-500 text-sm">Pedestal vs. submersible pump pricing, pit excavation, and battery backup costs explained.</p>
+            </div>
+          </Link>
+
+          <Link href="/articles/mold-remediation-cost" className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-gray-100">
+            <div className="relative h-48">
+              <Image src="/basement-mold-wall.jpg" alt="Basement mold remediation" fill className="object-cover" />
+            </div>
+            <div className="p-5">
+              <div className="flex items-center gap-2 mb-2">
+                <span className="bg-red-50 text-red-700 text-xs font-semibold px-2 py-1 rounded">Health &amp; Safety</span>
+                <span className="text-gray-400 text-xs">8 min read</span>
+              </div>
+              <h3 className="font-bold text-slate-800 text-lg mb-2">Mold Remediation Cost 2026</h3>
+              <p className="text-gray-500 text-sm">Professional mold removal costs $500–$10,000+ by area size. What drives the price and when to call a pro.</p>
+            </div>
+          </Link>
           </div>
         </div>
       </section>
