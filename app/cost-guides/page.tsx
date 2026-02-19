@@ -23,21 +23,57 @@ const publishedGuides = [
     priceRange: '$200 – $1,200',
     readTime: '11 min read',
   },
+  {
+    title: 'French Drain Installation Cost 2026',
+    description: 'Full cost breakdown for yard and interior French drains. Average $1,000–$6,500 depending on length and type.',
+    href: '/articles/french-drain-cost',
+    category: 'Drainage',
+    priceRange: '$1,000 – $6,500',
+    readTime: '10 min read',
+  },
+  {
+    title: 'Sump Pump Installation Cost 2026',
+    description: 'Pedestal vs. submersible pump pricing, pit excavation, and battery backup costs explained.',
+    href: '/articles/sump-pump-cost',
+    category: 'Sump Pumps',
+    priceRange: '$600 – $2,000',
+    readTime: '9 min read',
+  },
+  {
+    title: 'Foundation Crack Repair Cost 2026',
+    description: 'Epoxy injection vs. polyurethane foam. Expect to pay $350–$1,500 per crack depending on severity and method.',
+    href: '/articles/foundation-crack-repair-cost',
+    category: 'Foundation',
+    priceRange: '$350 – $1,500',
+    readTime: '12 min read',
+  },
+  {
+    title: 'Basement Waterproofing Cost 2026',
+    description: 'Interior vs exterior waterproofing costs, drainage system pricing, and how to avoid getting overcharged by contractors.',
+    href: '/articles/basement-waterproofing-cost',
+    category: 'Waterproofing',
+    priceRange: '$2,000 – $15,000',
+    readTime: '11 min read',
+  },
+  {
+    title: 'Mold Remediation Cost 2026',
+    description: 'Professional mold removal costs $500–$10,000+ by area size. What drives the price and when to call a pro.',
+    href: '/articles/mold-remediation-cost',
+    category: 'Health & Safety',
+    priceRange: '$500 – $10,000',
+    readTime: '8 min read',
+  },
+  {
+    title: 'Basement Insulation Cost 2026',
+    description: 'Rigid foam vs. spray foam vs. mineral wool pricing. Stop energy loss and prevent condensation issues.',
+    href: '/articles/basement-insulation-guide',
+    category: 'Insulation',
+    priceRange: '$1,500 – $6,000',
+    readTime: '15 min read',
+  },
 ]
 
 const comingSoon = [
-  {
-    title: 'Basement Waterproofing Cost 2026',
-    description: 'Interior vs exterior waterproofing costs, drainage system pricing, and how to avoid getting overcharged.',
-    category: 'Waterproofing',
-    priceRange: '$2,000 – $15,000',
-  },
-  {
-    title: 'French Drain Installation Cost 2026',
-    description: 'Interior and exterior french drain pricing, labor costs by region, and DIY vs professional installation.',
-    category: 'Drainage',
-    priceRange: '$1,500 – $8,000',
-  },
   {
     title: 'Egress Window Installation Cost 2026',
     description: 'Everything that goes into the cost of adding an egress window — permits, excavation, labor, and finishing.',
@@ -45,16 +81,10 @@ const comingSoon = [
     priceRange: '$2,500 – $5,500',
   },
   {
-    title: 'Sump Pump Installation Cost 2026',
-    description: 'New installation vs replacement costs, pedestal vs submersible, and when you need a professional.',
-    category: 'Sump Pumps',
-    priceRange: '$600 – $2,000',
-  },
-  {
-    title: 'Foundation Crack Repair Cost 2026',
-    description: 'DIY epoxy injection vs professional repair — when each is appropriate and what you should expect to pay.',
-    category: 'Foundation',
-    priceRange: '$250 – $3,500',
+    title: 'Basement Waterproofing Paint Cost 2026',
+    description: 'When waterproofing paint makes sense vs. when you need a real system. Costs and effectiveness compared.',
+    category: 'DIY',
+    priceRange: '$50 – $300',
   },
 ]
 
@@ -70,7 +100,6 @@ export default function CostGuidesPage() {
           </p>
         </div>
       </section>
-
       {/* Trust bar */}
       <section className="bg-teal-600 text-white py-4">
         <div className="container-custom">
@@ -82,38 +111,32 @@ export default function CostGuidesPage() {
           </div>
         </div>
       </section>
-
       <section className="py-12">
         <div className="container-custom">
           {/* Published */}
-          {publishedGuides.length > 0 && (
-            <>
-              <h2 className="text-2xl font-bold text-slate-800 mb-6">Published Cost Guides</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
-                {publishedGuides.map((guide) => (
-                  <Link
-                    key={guide.href}
-                    href={guide.href}
-                    className="bg-white rounded-xl p-6 border border-gray-100 shadow-sm hover:shadow-md transition-shadow flex flex-col gap-3"
-                  >
-                    <div className="flex items-center justify-between">
-                      <span className="bg-teal-50 text-teal-700 text-xs font-semibold px-2 py-1 rounded">
-                        {guide.category}
-                      </span>
-                      <span className="text-gray-400 text-xs">{guide.readTime}</span>
-                    </div>
-                    <h3 className="font-bold text-slate-800 text-lg">{guide.title}</h3>
-                    <p className="text-gray-500 text-sm flex-1">{guide.description}</p>
-                    <div className="flex items-center justify-between pt-2 border-t border-gray-100">
-                      <span className="text-teal-600 font-bold text-sm">{guide.priceRange}</span>
-                      <span className="text-teal-600 font-semibold text-sm">Read Guide →</span>
-                    </div>
-                  </Link>
-                ))}
-              </div>
-            </>
-          )}
-
+          <h2 className="text-2xl font-bold text-slate-800 mb-6">Published Cost Guides</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+            {publishedGuides.map((guide) => (
+              <Link
+                key={guide.href}
+                href={guide.href}
+                className="bg-white rounded-xl p-6 border border-gray-100 shadow-sm hover:shadow-md transition-shadow flex flex-col gap-3"
+              >
+                <div className="flex items-center justify-between">
+                  <span className="bg-teal-50 text-teal-700 text-xs font-semibold px-2 py-1 rounded">
+                    {guide.category}
+                  </span>
+                  <span className="text-gray-400 text-xs">{guide.readTime}</span>
+                </div>
+                <h3 className="font-bold text-slate-800 text-lg">{guide.title}</h3>
+                <p className="text-gray-500 text-sm flex-1">{guide.description}</p>
+                <div className="flex items-center justify-between pt-2 border-t border-gray-100">
+                  <span className="text-teal-600 font-bold text-sm">{guide.priceRange}</span>
+                  <span className="text-teal-600 font-semibold text-sm">Read Guide →</span>
+                </div>
+              </Link>
+            ))}
+          </div>
           {/* Coming Soon */}
           <h2 className="text-2xl font-bold text-slate-800 mb-6">Coming Soon</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-12">
@@ -133,10 +156,9 @@ export default function CostGuidesPage() {
               </div>
             ))}
           </div>
-
           {/* CTA */}
           <div className="bg-white rounded-xl border border-teal-200 p-8 text-center">
-            <h3 className="text-xl font-bold text-slate-800 mb-2">Don't Want to Wait?</h3>
+            <h3 className="text-xl font-bold text-slate-800 mb-2">Don&apos;t Want to Wait?</h3>
             <p className="text-gray-600 mb-2">Get free quotes from vetted local contractors right now.</p>
             <p className="text-gray-500 text-sm mb-5">Real prices for your specific home and location — no estimates needed.</p>
             <Link
