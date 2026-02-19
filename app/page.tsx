@@ -140,69 +140,90 @@ export default function Home() {
                 <p className="text-gray-500 text-sm">Don't make costly mistakes. These 7 checkpoints will future-proof your basement before you hang a single sheet of drywall.</p>
               </div>
             </Link>
-            
-          <Link href="/articles/french-drain-cost" className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-gray-100">
-            <div className="relative h-48">
-              <Image src="/french-drain-trench.jpg" alt="French drain installation" fill className="object-cover" />
-            </div>
-            <div className="p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="bg-amber-50 text-amber-700 text-xs font-semibold px-2 py-1 rounded">Cost Guide</span>
-                <span className="text-gray-400 text-xs">10 min read</span>
-              </div>
-              <h3 className="font-bold text-slate-800 text-lg mb-2">French Drain Installation Cost 2026</h3>
-              <p className="text-gray-500 text-sm">Full cost breakdown for yard and interior French drains. Average $1,000–$6,500 depending on length and type.</p>
-            </div>
-          </Link>
 
-          <Link href="/articles/sump-pump-cost" className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-gray-100">
-            <div className="relative h-48">
-              <Image src="/sump-pump-installation.jpg" alt="Sump pump installation" fill className="object-cover" />
-            </div>
-            <div className="p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="bg-amber-50 text-amber-700 text-xs font-semibold px-2 py-1 rounded">Cost Guide</span>
-                <span className="text-gray-400 text-xs">9 min read</span>
+            <Link href="/articles/french-drain-cost" className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-gray-100">
+              <div className="relative h-48">
+                <Image src="/french-drain-trench.jpg" alt="French drain installation" fill className="object-cover" />
               </div>
-              <h3 className="font-bold text-slate-800 text-lg mb-2">Sump Pump Installation Cost 2026</h3>
-              <p className="text-gray-500 text-sm">Pedestal vs. submersible pump pricing, pit excavation, and battery backup costs explained.</p>
-          <Link 
-            href="/articles/interior-vs-exterior-waterproofing" 
-            className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-gray-100"
-          >
-            <div className="relative h-48">
-              <Image 
-                src="/foundation-exterior-membrane-wide.jpg.png" 
-                alt="Interior vs Exterior Waterproofing" 
-                fill 
-                className="object-cover"
-              />
-            </div>
-            <div className="p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="bg-teal-50 text-teal-700 text-xs font-semibold px-2 py-1 rounded">Deep Dive</span>
-                <span className="text-gray-400 text-xs">25 min read</span>
+              <div className="p-5">
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="bg-amber-50 text-amber-700 text-xs font-semibold px-2 py-1 rounded">Cost Guide</span>
+                  <span className="text-gray-400 text-xs">10 min read</span>
+                </div>
+                <h3 className="font-bold text-slate-800 text-lg mb-2">French Drain Installation Cost 2026</h3>
+                <p className="text-gray-500 text-sm">Full cost breakdown for yard and interior French drains. Average $1,000–$6,500 depending on length and type.</p>
               </div>
-              <h3 className="font-bold text-slate-800 text-lg mb-2">Interior vs. Exterior Waterproofing: The Ultimate 2026 Comparison</h3>
-              <p className="text-gray-500 text-sm">A 5,000-word deep dive into which method is best for your foundation, covering costs, longevity, and effectiveness.</p>
-            </div>
-          </Link>
-            </div>
-          </Link>
+            </Link>
 
-          <Link href="/articles/mold-remediation-cost" className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-gray-100">
-            <div className="relative h-48">
-              <Image src="/basement-mold-wall.jpg" alt="Basement mold remediation" fill className="object-cover" />
-            </div>
-            <div className="p-5">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="bg-red-50 text-red-700 text-xs font-semibold px-2 py-1 rounded">Health &amp; Safety</span>
-                <span className="text-gray-400 text-xs">8 min read</span>
+            <Link href="/articles/sump-pump-cost" className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-gray-100">
+              <div className="relative h-48">
+                <Image src="/sump-pump-installation.jpg" alt="Sump pump installation" fill className="object-cover" />
               </div>
-              <h3 className="font-bold text-slate-800 text-lg mb-2">Mold Remediation Cost 2026</h3>
-              <p className="text-gray-500 text-sm">Professional mold removal costs $500–$10,000+ by area size. What drives the price and when to call a pro.</p>
-            </div>
-          </Link>
+              <div className="p-5">
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="bg-amber-50 text-amber-700 text-xs font-semibold px-2 py-1 rounded">Cost Guide</span>
+                  <span className="text-gray-400 text-xs">9 min read</span>
+                </div>
+                <h3 className="font-bold text-slate-800 text-lg mb-2">Sump Pump Installation Cost 2026</h3>
+                <p className="text-gray-500 text-sm">Pedestal vs. submersible pump pricing, pit excavation, and battery backup costs explained.</p>
+              </div>
+            </Link>
+
+            <Link href="/articles/interior-vs-exterior-waterproofing" className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-gray-100">
+              <div className="relative h-48">
+                <Image src="/foundation-exterior-membrane-wide.jpg.png" alt="Interior vs Exterior Waterproofing" fill className="object-cover" />
+              </div>
+              <div className="p-5">
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="bg-teal-50 text-teal-700 text-xs font-semibold px-2 py-1 rounded">Deep Dive</span>
+                  <span className="text-gray-400 text-xs">25 min read</span>
+                </div>
+                <h3 className="font-bold text-slate-800 text-lg mb-2">Interior vs. Exterior Waterproofing: The Ultimate 2026 Comparison</h3>
+                <p className="text-gray-500 text-sm">A 5,000-word deep dive into which method is best for your foundation, covering costs, longevity, and effectiveness.</p>
+              </div>
+            </Link>
+
+            <Link href="/articles/mold-remediation-cost" className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-gray-100">
+              <div className="relative h-48">
+                <Image src="/basement-mold-wall.jpg" alt="Basement mold remediation" fill className="object-cover" />
+              </div>
+              <div className="p-5">
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="bg-red-50 text-red-700 text-xs font-semibold px-2 py-1 rounded">Health & Safety</span>
+                  <span className="text-gray-400 text-xs">8 min read</span>
+                </div>
+                <h3 className="font-bold text-slate-800 text-lg mb-2">Mold Remediation Cost 2026</h3>
+                <p className="text-gray-500 text-sm">Professional mold removal costs $500–$10,000+ by area size. What drives the price and when to call a pro.</p>
+              </div>
+            </Link>
+
+            <Link href="/articles/foundation-crack-repair-cost" className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-gray-100">
+              <div className="relative h-48">
+                <Image src="/foundation-crack-repair.jpg" alt="Foundation crack repair" fill className="object-cover" />
+              </div>
+              <div className="p-5">
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="bg-amber-50 text-amber-700 text-xs font-semibold px-2 py-1 rounded">Cost Guide</span>
+                  <span className="text-gray-400 text-xs">12 min read</span>
+                </div>
+                <h3 className="font-bold text-slate-800 text-lg mb-2">Foundation Crack Repair Cost 2026</h3>
+                <p className="text-gray-500 text-sm">Epoxy injection vs. polyurethane foam. Expect to pay $350–$1,500 per crack depending on severity and method.</p>
+              </div>
+            </Link>
+
+            <Link href="/articles/basement-insulation-guide" className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-gray-100">
+              <div className="relative h-48">
+                <Image src="/basement-insulation-rigid-foam.jpg" alt="Basement rigid foam insulation" fill className="object-cover" />
+              </div>
+              <div className="p-5">
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="bg-blue-50 text-blue-700 text-xs font-semibold px-2 py-1 rounded">Insulation</span>
+                  <span className="text-gray-400 text-xs">15 min read</span>
+                </div>
+                <h3 className="font-bold text-slate-800 text-lg mb-2">Basement Insulation: The 2026 Guide</h3>
+                <p className="text-gray-500 text-sm">Rigid foam vs. spray foam vs. mineral wool. How to stop energy loss and prevent condensation issues.</p>
+              </div>
+            </Link>
           </div>
         </div>
       </section>
@@ -216,9 +237,9 @@ export default function Home() {
           </div>
           <div className="flex flex-wrap justify-center gap-8 mb-10">
             <div className="text-center">
-              <p className="text-3xl font-bold text-teal-600">7</p>
+              <p className="text-3xl font-bold text-teal-600">12</p>
               <p className="text-sm font-semibold text-slate-800">Expert Guides</p>
-              <p className="text-xs text-gray-500">30,000+ words of content</p>
+              <p className="text-xs text-gray-500">45,000+ words of content</p>
             </div>
             <div className="text-center">
               <p className="text-3xl font-bold text-teal-600">100%</p>
