@@ -199,7 +199,7 @@ export default function Home() {
 
             <Link href="/articles/foundation-crack-repair-cost" className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-gray-100">
               <div className="relative h-48">
-                <Image src="/foundation-crack-repair.jpg" alt="Foundation crack repair" fill className="object-cover" />
+                <Image src="/foundation-crack-closeup.jpg.jpg" alt="Foundation crack repair" fill className="object-cover" />
               </div>
               <div className="p-5">
                 <div className="flex items-center gap-2 mb-2">
@@ -213,7 +213,7 @@ export default function Home() {
 
             <Link href="/articles/basement-insulation-guide" className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-gray-100">
               <div className="relative h-48">
-                <Image src="/basement-insulation-rigid-foam.jpg" alt="Basement rigid foam insulation" fill className="object-cover" />
+                <Image src="/foundation-waterproofing-construction.jpg.png" alt="Basement rigid foam insulation" fill className="object-cover" />
               </div>
               <div className="p-5">
                 <div className="flex items-center gap-2 mb-2">
