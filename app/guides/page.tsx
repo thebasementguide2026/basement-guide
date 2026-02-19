@@ -9,6 +9,14 @@ export const metadata: Metadata = {
 
 const guides = [
   {
+    title: 'How to Prevent Basement Mold: The Definitive Guide',
+    description: 'Mold isn\'t just an eyesore—it\'s a biological threat. Learn the 5 pillars of permanent mold prevention for your basement.',
+    href: '/articles/how-to-prevent-basement-mold',
+    image: '/basement-mold-wall.jpg',
+    category: 'Health & Safety',
+    readTime: '22 min read',
+  },
+  {
     title: 'The Complete Basement Waterproofing Guide for 2026',
     description: 'Everything you need to know about stopping basement leaks for good. From hydrostatic pressure to sump pumps, this comprehensive guide covers all aspects of basement waterproofing.',
     href: '/articles/complete-basement-waterproofing-guide',
@@ -137,8 +145,7 @@ export default function GuidesPage() {
       </section>
 
       {/* Guides Grid */}
-      <section className="py-12">
-        <div className="container-custom">
+feat: add mold prevention article to guides listing        <div className="container-custom">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {guides.map((guide) => (
               <Link
