@@ -57,6 +57,19 @@ export default function Home() {
             <Link href="/guides" className="text-teal-600 font-semibold hover:underline">View All →</Link>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <Link href="/articles/basement-finishing-cost" className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-gray-100">
+              <div className="relative h-48">
+                <Image src="/unfinished-basement-interior.jpg.jpg" alt="Basement finishing cost guide" fill className="object-cover" />
+              </div>
+              <div className="p-5">
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="bg-amber-50 text-amber-700 text-xs font-semibold px-2 py-1 rounded">Cost Guide</span>
+                  <span className="text-gray-400 text-xs">18 min read</span>
+                </div>
+                <h3 className="font-bold text-slate-800 text-lg mb-2">Basement Finishing Cost Guide 2026</h3>
+                <p className="text-gray-500 text-sm">What you'll actually pay in 2026. From $20 to $75 per sq ft, full breakdowns by size and room type.</p>
+              </div>
+            </Link>
 
             <Link href="/articles/smart-sump-pumps-guide" className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-gray-100">
               <div className="relative h-48">
@@ -127,7 +140,6 @@ export default function Home() {
                 <p className="text-gray-500 text-sm">Don't make costly mistakes. These 7 checkpoints will future-proof your basement before you hang a single sheet of drywall.</p>
               </div>
             </Link>
-
           </div>
         </div>
       </section>
@@ -141,9 +153,9 @@ export default function Home() {
           </div>
           <div className="flex flex-wrap justify-center gap-8 mb-10">
             <div className="text-center">
-              <p className="text-3xl font-bold text-teal-600">6</p>
+              <p className="text-3xl font-bold text-teal-600">7</p>
               <p className="text-sm font-semibold text-slate-800">Expert Guides</p>
-              <p className="text-xs text-gray-500">26,000+ words of content</p>
+              <p className="text-xs text-gray-500">30,000+ words of content</p>
             </div>
             <div className="text-center">
               <p className="text-3xl font-bold text-teal-600">100%</p>
