@@ -50,7 +50,7 @@ export default function BestBasementFlooring() {
         {/* Main Content */}
         <div className="prose-custom">
           <p className="lead text-lg mb-6">
-            In a basement, the floor is the most technically challenged surface in your home. It sits on a concrete slab that is naturally cold, porous, and prone to "sweating" through vapor drive. In 2026, we no longer accept "water resistant" as a standard. If a floor cannot survive a sump pump failure or a burst pipe, it does not belong in your basement.
+            After completing your <Link href="/articles/pre-finish-audit" className="text-brand-teal hover:underline font-semibold">pre-finish audit</Link> and ensuring proper <Link href="/articles/complete-basement-waterproofing-guide" className="text-brand-teal hover:underline font-semibold">basement waterproofing</Link>, the floor is your final major decision. In a basement, this surface sits on a concrete slab that is naturally cold, porous, and prone to "sweating" through vapor drive. In 2026, we no longer accept "water resistant" as a standard. If a floor cannot survive a sump pump failure or a burst pipe, it does not belong in your basement.
           </p>
 
           <h2 id="lvp">1. Luxury Vinyl Plank (LVP): The 2026 Industry Standard</h2>
