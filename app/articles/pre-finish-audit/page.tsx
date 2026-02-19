@@ -52,7 +52,7 @@ export default function PreFinishAudit() {
         {/* Main Content */}
         <div className="prose-custom">
           <p className="lead text-lg mb-6">
-            Once that drywall is up, you lose the ability to see what your foundation is doing. You are essentially burying your home's most vulnerable systems behind a layer of paper and gypsum. In this guide, we are going to walk through the seven essential checkpoints to future proof your basement.
+            After completing your <Link href="/articles/complete-basement-waterproofing-guide" className="text-brand-teal hover:underline font-semibold">basement waterproofing system</Link>, this pre-finish audit is your last chance to catch problems before drywall goes up. Once that drywall is installed, you lose the ability to see what your foundation is doing. In this guide, we walk through the seven essential checkpoints to future-proof your basement.
           </p>
 
           <h2 id="breathability">1. The Concrete Breathability Test (The 24 Hour Plastic Test)</h2>
@@ -258,7 +258,7 @@ export default function PreFinishAudit() {
 
           <h3>Smart Monitoring</h3>
           <p>
-            In 2026, your pump should be connected to your Wi-Fi. It should text you if the water level rises too high, if the battery is low, or if the primary pump has failed.
+            In 2026, your pump should be connected to your Wi-Fi. Modern <Link href="/articles/smart-sump-pumps-guide" className="text-brand-teal hover:underline font-semibold">smart sump pump systems</Link> text you if the water level rises too high, the battery is low, or the primary pump has failed. Consider whether you need a <Link href="/articles/battery-vs-water-powered-sump-pumps" className="text-brand-teal hover:underline font-semibold">battery backup or water-powered backup system</Link> based on your home's setup.
           </p>
 
           <h3>Dual Pumps</h3>
