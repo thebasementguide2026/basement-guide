@@ -166,6 +166,27 @@ export default function Home() {
               </div>
               <h3 className="font-bold text-slate-800 text-lg mb-2">Sump Pump Installation Cost 2026</h3>
               <p className="text-gray-500 text-sm">Pedestal vs. submersible pump pricing, pit excavation, and battery backup costs explained.</p>
+          <Link 
+            href="/articles/interior-vs-exterior-waterproofing" 
+            className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-gray-100"
+          >
+            <div className="relative h-48">
+              <Image 
+                src="/foundation-exterior-membrane-wide.jpg.png" 
+                alt="Interior vs Exterior Waterproofing" 
+                fill 
+                className="object-cover"
+              />
+            </div>
+            <div className="p-5">
+              <div className="flex items-center gap-2 mb-2">
+                <span className="bg-teal-50 text-teal-700 text-xs font-semibold px-2 py-1 rounded">Deep Dive</span>
+                <span className="text-gray-400 text-xs">25 min read</span>
+              </div>
+              <h3 className="font-bold text-slate-800 text-lg mb-2">Interior vs. Exterior Waterproofing: The Ultimate 2026 Comparison</h3>
+              <p className="text-gray-500 text-sm">A 5,000-word deep dive into which method is best for your foundation, covering costs, longevity, and effectiveness.</p>
+            </div>
+          </Link>
             </div>
           </Link>
 
