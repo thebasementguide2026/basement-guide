@@ -17,6 +17,22 @@ const guides = [
     readTime: '15 min read',
   },
   {
+    title: 'Interior vs. Exterior Basement Waterproofing: The Ultimate 2026 Comparison',
+    description: 'A 5,000-word deep dive into which method is best for your foundation, covering costs, longevity, and effectiveness.',
+    href: '/articles/interior-vs-exterior-waterproofing',
+    image: '/foundation-exterior-membrane-wide.jpg.png',
+    category: 'Deep Dive',
+    readTime: '25 min read',
+  },
+  {
+    title: 'Basement Insulation: The 2026 Guide',
+    description: 'Rigid foam vs. spray foam vs. mineral wool. How to stop energy loss and prevent condensation issues.',
+    href: '/articles/basement-insulation-guide',
+    image: '/foundation-waterproofing-construction.jpg.png',
+    category: 'Insulation',
+    readTime: '15 min read',
+  },
+  {
     title: 'Basement Finishing Cost Guide 2026: What You\'ll Actually Pay',
     description: 'How much does it cost to finish a basement in 2026? Real pricing from $20 to $75 per sq ft, full breakdowns by size, room type, and region.',
     href: '/articles/basement-finishing-cost',
@@ -31,6 +47,14 @@ const guides = [
     image: '/unfinished-basement-interior.jpg.jpg',
     category: 'Finishing',
     readTime: '10 min read',
+  },
+  {
+    title: 'Best Waterproof Flooring for Basements 2026',
+    description: 'LVP vs. Ceramic vs. Engineered Wood. We break down the pros, cons, and costs of each waterproof flooring option for basements.',
+    href: '/articles/best-basement-flooring',
+    image: '/basement-flooring-installation.jpg.png',
+    category: 'Reviews',
+    readTime: '12 min read',
   },
   {
     title: 'Smart Sump Pumps & Leak Sensors: The 2026 Guide',
@@ -49,20 +73,52 @@ const guides = [
     readTime: '11 min read',
   },
   {
-    title: 'Best Waterproof Flooring for Basements 2026',
-    description: 'LVP vs. Ceramic vs. Engineered Wood. We break down the pros, cons, and costs of each waterproof flooring option for basements.',
-    href: '/articles/best-basement-flooring',
-    image: '/basement-flooring-installation.jpg.png',
-    category: 'Reviews',
-    readTime: '12 min read',
-  },
-  {
     title: 'What is Crystalline Waterproofing? Self-Healing Concrete Technology',
     description: "Discover how crystalline waterproofing creates self-healing concrete foundations. The invisible armor that's revolutionizing basement protection.",
     href: '/articles/crystalline-waterproofing',
     image: '/foundation-waterproofing-construction.jpg.png',
     category: 'Technology',
     readTime: '8 min read',
+  },
+  {
+    title: 'Foundation Crack Repair Cost 2026',
+    description: 'Epoxy injection vs. polyurethane foam. Expect to pay $350–$1,500 per crack depending on severity and method.',
+    href: '/articles/foundation-crack-repair-cost',
+    image: '/foundation-waterproofing-construction.jpg.png',
+    category: 'Cost Guide',
+    readTime: '12 min read',
+  },
+  {
+    title: 'French Drain Installation Cost 2026',
+    description: 'Full cost breakdown for yard and interior French drains. Average $1,000–$6,500 depending on length and type.',
+    href: '/articles/french-drain-cost',
+    image: '/sump-pump-installation.jpg.png',
+    category: 'Cost Guide',
+    readTime: '10 min read',
+  },
+  {
+    title: 'Sump Pump Installation Cost 2026',
+    description: 'Pedestal vs. submersible pump pricing, pit excavation, and battery backup costs explained.',
+    href: '/articles/sump-pump-cost',
+    image: '/sump-pump-installation.jpg.png',
+    category: 'Cost Guide',
+    readTime: '9 min read',
+  },
+  {
+    title: 'Mold Remediation Cost 2026',
+    description: 'Professional mold removal costs $500–$10,000+ by area size. What drives the price and when to call a pro.',
+    href: '/articles/mold-remediation-cost',
+    image: '/foundation-waterproofing-construction.jpg.png',
+    category: 'Health & Safety',
+    readTime: '8 min read',
+  },
+  {
+    title: 'Basement Waterproofing Cost 2026',
+    description: 'Interior vs exterior waterproofing costs, drainage system pricing, and how to avoid getting overcharged by contractors.',
+    href: '/articles/basement-waterproofing-cost',
+    image: '/foundation-exterior-membrane-wide.jpg.png',
+    category: 'Cost Guide',
+    readTime: '11 min read',
   },
 ]
 
@@ -76,9 +132,9 @@ export default function GuidesPage() {
           <p className="text-slate-300 text-lg max-w-2xl">
             In-depth guides written for real homeowners — not contractors. Plain English, current data, honest advice.
           </p>
+          <p className="text-teal-400 text-sm mt-3 font-medium">{guides.length} guides published</p>
         </div>
       </section>
-
       {/* Guides Grid */}
       <section className="py-12">
         <div className="container-custom">
@@ -110,15 +166,6 @@ export default function GuidesPage() {
                 </div>
               </Link>
             ))}
-          </div>
-
-          {/* Coming Soon */}
-          <div className="mt-12 bg-white rounded-xl border border-dashed border-teal-300 p-8 text-center">
-            <h3 className="text-lg font-bold text-slate-800 mb-2">More Guides Coming Soon</h3>
-            <p className="text-gray-500 text-sm mb-4">We publish new guides weekly — covering mold removal, drainage systems, egress windows, and more.</p>
-            <Link href="/#get-quotes" className="inline-block bg-teal-600 text-white px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-teal-700 transition-colors">
-              Get Free Contractor Quotes →
-            </Link>
           </div>
         </div>
       </section>
