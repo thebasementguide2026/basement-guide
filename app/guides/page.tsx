@@ -60,7 +60,7 @@ const guides = [
     title: 'Best Waterproof Flooring for Basements 2026',
     description: 'LVP vs. Ceramic vs. Engineered Wood. We break down the pros, cons, and costs of each waterproof flooring option for basements.',
     href: '/articles/best-basement-flooring',
-    image: '/basement-flooring-installation.jpg.png',
+    image: '/tile-flooring-installation.jpg.png',
     category: 'Reviews',
     readTime: '12 min read',
   },
@@ -116,7 +116,7 @@ const guides = [
     title: 'Mold Remediation Cost 2026',
     description: 'Professional mold removal costs $500–$10,000+ by area size. What drives the price and when to call a pro.',
     href: '/articles/mold-remediation-cost',
-    image: '/basement-mold-wall.jpg',
+    image: '/dimple-mat-drainage-board.jpg.png',
     category: 'Health & Safety',
     readTime: '8 min read',
   },
@@ -124,7 +124,7 @@ const guides = [
     title: 'Basement Waterproofing Cost 2026',
     description: 'Interior vs exterior waterproofing costs, drainage system pricing, and how to avoid getting overcharged by contractors.',
     href: '/articles/basement-waterproofing-cost',
-    image: '/dimple-mat-drainage-board.jpg.png',
+    image: '/basement-flooring-installation.jpg.png',
     category: 'Cost Guide',
     readTime: '11 min read',
   },
@@ -138,14 +138,15 @@ export default function GuidesPage() {
         <div className="container-custom">
           <h1 className="text-4xl font-bold mb-4">All Basement Guides</h1>
           <p className="text-slate-300 text-lg max-w-2xl">
-            In-depth guides written for real homeowners — not contractors. Plain English, current data, honest advice.
+            In-depth guides written for real homeowners &#x2014; not contractors. Plain English, current data, honest advice.
           </p>
           <p className="text-teal-400 text-sm mt-3 font-medium">{guides.length} guides published</p>
         </div>
       </section>
 
       {/* Guides Grid */}
-feat: add mold prevention article to guides listing        <div className="container-custom">
+      <section className="py-12">
+        <div className="container-custom">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {guides.map((guide) => (
               <Link
@@ -170,7 +171,7 @@ feat: add mold prevention article to guides listing        <div className="conta
                   </div>
                   <h2 className="font-bold text-slate-800 text-xl mb-2">{guide.title}</h2>
                   <p className="text-gray-500 text-sm flex-1">{guide.description}</p>
-                  <p className="text-teal-600 font-semibold text-sm mt-4">Read Guide →</p>
+                  <p className="text-teal-600 font-semibold text-sm mt-4">Read Guide &#x2192;</p>
                 </div>
               </Link>
             ))}
