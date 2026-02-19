@@ -11,7 +11,7 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative h-[400px] lg:h-[500px] rounded-xl overflow-hidden shadow-lg">
               <Image
-                src="/exterior-waterproofing-membrane.jpg.jpg"
+                src="/exterior-waterproofing-membrane.jpg.png"
                 alt="Professional basement waterproofing - exterior membrane installation"
                 fill
                 className="object-cover"
@@ -98,7 +98,7 @@ export default function Home() {
             {/* Card 3: Interior vs Exterior */}
             <Link href="/articles/interior-vs-exterior-waterproofing" className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow group border border-gray-100">
               <div className="relative h-48">
-                <Image src="/bitumen-waterproofing-membrane.jpg.jpg" alt="Bitumen waterproofing membrane application" fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
+                <Image src="/bitumen-waterproofing-membrane.png" alt="Bitumen waterproofing membrane application" fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
               </div>
               <div className="p-6">
                 <div className="flex items-center gap-2 mb-3">
@@ -113,7 +113,7 @@ export default function Home() {
             {/* Card 4: Insulation */}
             <Link href="/articles/basement-insulation-guide" className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow group border border-gray-100">
               <div className="relative h-48">
-                <Image src="/foundation-concrete-forms.jpg.jpg" alt="Basement foundation concrete forms" fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
+                <Image src="/foundation-concrete-forms.jpg.png" alt="Basement foundation concrete forms" fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
               </div>
               <div className="p-6">
                 <div className="flex items-center gap-2 mb-3">
