@@ -48,7 +48,7 @@ export default function SmartSumpPumpsGuide() {
           <h2>The Evolution of the Humble Sump Pump</h2>
 
           <p>
-            For decades, the sump pump was a "set it and forget it" appliance. It sat in a dark pit, waiting for a mechanical buoy to rise high enough to kick the motor into gear. The problem? Mechanical parts fail. Motors burn out. Power goes out during the very storms that cause the flooding.
+            For decades, the sump pump was a "set it and forget it" appliance. It sat in a dark pit, waiting for a mechanical buoy to rise high enough to kick the motor into gear. Understanding how <Link href="/articles/complete-basement-waterproofing-guide" className="text-brand-teal hover:underline font-semibold">traditional sump pump systems</Link> work is essential context for appreciating smart technology upgrades. The problem? Mechanical parts fail. Motors burn out. Power goes out during the very storms that cause the flooding.
           </p>
 
           <p>
@@ -187,7 +187,7 @@ export default function SmartSumpPumpsGuide() {
           <h3>2. Wayne Basement Guardian (WSS30VN)</h3>
 
           <p>
-            This is perhaps the most consumer-friendly all-in-one smart system. It features a primary pump and a battery backup pump pre-assembled in a single rig.
+            This is perhaps the most consumer-friendly all-in-one smart system. It features a primary pump and a <Link href="/articles/battery-vs-water-powered-sump-pumps" className="text-brand-teal hover:underline font-semibold">battery backup pump</Link> pre-assembled in a single rig. Smart systems work with both battery and water-powered backup options, providing alerts for either configuration.
           </p>
 
           <ul>
