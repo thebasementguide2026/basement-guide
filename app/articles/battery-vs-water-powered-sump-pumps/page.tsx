@@ -38,7 +38,7 @@ export default function BatteryVsWaterPoweredPumps() {
         {/* Main Content */}
         <div className="prose-custom">
           <p className="lead text-lg mb-6">
-            When a severe storm rolls in and the power grid flickers out, your primary sump pump becomes nothing more than an expensive paperweight. In that moment, the only thing standing between you and a catastrophic basement flood is your backup system.
+            When a severe storm rolls in and the power grid flickers out, your primary sump pump becomes nothing more than an expensive paperweight. A reliable <Link href="/articles/complete-basement-waterproofing-guide" className="text-brand-teal hover:underline font-semibold">basement waterproofing system</Link> requires a backup plan for when your primary pump fails or loses power.
           </p>
 
           <p>
@@ -139,7 +139,7 @@ export default function BatteryVsWaterPoweredPumps() {
 
           <ul>
             <li><strong>High Flow Rates:</strong> Modern DC motors are incredibly efficient. Some 2026 models can move over 3,000 gallons per hour, which is nearly as much as a standard plug-in pump.</li>
-            <li><strong>Smart Integration:</strong> These systems are now fully Matter-enabled. They can text you the exact health of the battery, the estimated runtime remaining, and how many times the backup has cycled during a storm.</li>
+            <li><strong>Smart Integration:</strong> Modern <Link href="/articles/smart-sump-pumps-guide" className="text-brand-teal hover:underline font-semibold">smart sump pump systems</Link> are now fully Matter-enabled. They can text you the exact health of the battery, the estimated runtime remaining, and how many times the backup has cycled during a storm.</li>
             <li><strong>Ease of Installation:</strong> Since it doesn't require tapping into your home's plumbing lines, a battery backup is a straightforward project for a handy homeowner.</li>
           </ul>
 
