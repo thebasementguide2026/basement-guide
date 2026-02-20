@@ -34,7 +34,7 @@ const guides = [
   },
   {
     title: 'How to Prevent Basement Mold: The Definitive Guide',
-    description: 'Mold isn\\'t just an eyesore—it\\'s a biological threat. Learn the 5 pillars of permanent mold prevention for your basement.',
+    description: "Mold isn't just an eyesore—it's a biological threat. Learn the 5 pillars of permanent mold prevention for your basement.",
     href: '/articles/how-to-prevent-basement-mold',
     image: '/mold3.png',
     category: 'Health & Safety',
@@ -65,8 +65,8 @@ const guides = [
     readTime: '15 min read',
   },
   {
-    title: 'Basement Finishing Cost Guide 2026: What You\\'ll Actually Pay',
-    description: 'How much does it cost to finish a basement in 2026? Real pricing from $20 to $75 per sq ft, full breakdowns by size, room type, and region.',
+    title: "Basement Finishing Cost Guide 2026: What You'll Actually Pay",
+    description: "How much does it cost to finish a basement in 2026? Real pricing from $20 to $75 per sq ft, full breakdowns by size, room type, and region.",
     href: '/articles/basement-finishing-cost',
     image: '/unfinished-basement-interior.jpg.png',
     category: 'Cost Guide',
@@ -74,7 +74,7 @@ const guides = [
   },
   {
     title: 'The Pre-Finish Audit: 7 Critical Checkpoints',
-    description: 'Don\\'t make costly mistakes. These 7 checkpoints will future-proof your basement before you hang a single sheet of drywall.',
+    description: "Don't make costly mistakes. These 7 checkpoints will future-proof your basement before you hang a single sheet of drywall.",
     href: '/articles/pre-finish-audit',
     image: '/foundation-waterproofing-construction.jpg.png',
     category: 'Finishing',
@@ -106,7 +106,7 @@ const guides = [
   },
   {
     title: 'What is Crystalline Waterproofing? Self-Healing Concrete Technology',
-    description: 'Discover how crystalline waterproofing creates self-healing concrete foundations. The invisible armor that\\'s revolutionizing basement protection.',
+    description: "Discover how crystalline waterproofing creates self-healing concrete foundations. The invisible armor that's revolutionizing basement protection.",
     href: '/articles/crystalline-waterproofing',
     image: '/foundation-exterior-membrane-wide.jpg.png',
     category: 'Technology',
@@ -156,46 +156,46 @@ const guides = [
 
 export default function GuidesPage() {
   return (
-    <div className=\"bg-gray-50 min-h-screen\">
+    <div className="bg-gray-50 min-h-screen">
       {/* Hero Section */}
-      <section className=\"bg-slate-800 text-white py-16\">
-        <div className=\"container-custom\">
-          <h1 className=\"text-4xl md:text-5xl font-bold mb-4\">All Basement Guides</h1>
-          <p className=\"text-slate-300 text-lg max-w-2xl\">
+      <section className="bg-slate-800 text-white py-16">
+        <div className="container-custom">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">All Basement Guides</h1>
+          <p className="text-slate-300 text-lg max-w-2xl">
             In-depth guides written for real homeowners — not contractors. Plain English, current data, honest advice.
           </p>
-          <p className=\"text-teal-400 text-sm mt-3 font-medium\">{guides.length} guides published</p>
+          <p className="text-teal-400 text-sm mt-3 font-medium">{guides.length} guides published</p>
         </div>
       </section>
 
       {/* Guides Grid */}
-      <section className=\"py-12\">
-        <div className=\"container-custom\">
-          <div className=\"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8\">
+      <section className="py-12">
+        <div className="container-custom">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {guides.map((guide) => (
               <Link 
                 key={guide.href}
                 href={guide.href}
-                className=\"bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-gray-100 flex flex-col\"
+                className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-gray-100 flex flex-col"
               >
-                <div className=\"relative h-52\">
+                <div className="relative h-52">
                   <Image
                     src={guide.image}
                     alt={guide.title}
                     fill
-                    className=\"object-cover\"
+                    className="object-cover"
                   />
                 </div>
-                <div className=\"p-6 flex flex-col flex-1\">
-                  <div className=\"flex items-center gap-2 mb-3\">
-                    <span className=\"bg-teal-50 text-teal-700 text-xs font-semibold px-2 py-1 rounded\">
+                <div className="p-6 flex flex-col flex-1">
+                  <div className="flex items-center gap-2 mb-3">
+                    <span className="bg-teal-50 text-teal-700 text-xs font-semibold px-2 py-1 rounded">
                       {guide.category}
                     </span>
-                    <span className=\"text-gray-400 text-xs\">{guide.readTime}</span>
+                    <span className="text-gray-400 text-xs">{guide.readTime}</span>
                   </div>
-                  <h2 className=\"font-bold text-slate-800 text-xl mb-2\">{guide.title}</h2>
-                  <p className=\"text-gray-500 text-sm flex-1\">{guide.description}</p>
-                  <span className=\"text-teal-600 font-semibold text-sm mt-4\">Read Guide &rarr;</span>
+                  <h2 className="font-bold text-slate-800 text-xl mb-2">{guide.title}</h2>
+                  <p className="text-gray-500 text-sm flex-1">{guide.description}</p>
+                  <span className="text-teal-600 font-semibold text-sm mt-4">Read Guide &rarr;</span>
                 </div>
               </Link>
             ))}
