@@ -16,37 +16,33 @@ export default function FoundationCracksArticle() {
           src='/foundation-crack-closeup.jpg'
           alt='Close up of a structural foundation crack'
           fill
-          className='object-cover opacity-50 scale-105 transition-transform duration-700 hover:scale-100'
+          className='object-cover opacity-45 scale-105 transition-transform duration-700 hover:scale-100'
           priority
         />
-        <div className='absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/40 to-transparent' />
-        <div className='absolute inset-0 flex items-center'>
-          <div className='container-custom w-full'>
-            <div className='max-w-4xl'>
-              <div className='flex items-center gap-3 mb-8'>
-                <span className='h-px w-12 bg-indigo-500' />
-                <span className='text-indigo-400 text-sm font-black uppercase tracking-[0.3em]'>
-                  Diagnostic Guide
-                </span>
+        <div className='absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent' />
+        <div className='relative h-full max-w-7xl mx-auto px-6 flex flex-col justify-end pb-20'>
+          <div className='flex items-center space-x-3 mb-8'>
+            <div className='w-12 h-px bg-amber-500'></div>
+            <span className='text-amber-400 font-bold tracking-[0.3em] text-sm uppercase'>Diagnostic Guide</span>
+          </div>
+          <h1 className='text-5xl md:text-7xl font-black text-white mb-6 leading-[0.9] tracking-tighter'>
+            Foundation Crack<br />
+            <span className='text-amber-400'>Manual 2026</span>
+          </h1>
+          <p className='text-xl text-slate-300 max-w-2xl mb-10 font-medium leading-relaxed'>
+            Not all cracks are created equal. We break down which ones are cosmetic and which ones signal a structural emergency.
+          </p>
+          <div className='flex items-center space-x-4'>
+            <div className='flex items-center bg-slate-800/50 backdrop-blur-md rounded-full px-6 py-3 border border-slate-700/50 shadow-2xl'>
+              <div className='w-10 h-10 rounded-full bg-gradient-to-tr from-amber-600 to-orange-400 flex items-center justify-center text-white font-bold text-sm mr-4'>
+                BG
               </div>
-              <h1 className='text-5xl md:text-7xl font-extrabold text-white mb-8 leading-[1.1] tracking-tight'>
-                Types of Foundation <br className='hidden md:block' />
-                Cracks: 2026 Manual
-              </h1>
-              <p className='text-xl md:text-2xl text-slate-200 mb-10 leading-relaxed max-w-2xl font-light'>
-                Not all cracks are created equal. We break down which ones are cosmetic and which ones signal a structural emergency.
-              </p>
-              <div className='flex items-center gap-6 p-1 pr-6 bg-white/5 backdrop-blur-md rounded-full w-fit border border-white/10'>
-                <div className='w-14 h-14 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-full flex items-center justify-center text-white font-bold text-xl'>
-                  BG
-                </div>
-                <div>
-                  <p className='text-white font-semibold'>The Basement Guide Staff</p>
-                  <div className='flex items-center gap-3 text-sm text-slate-400'>
-                    <span>Updated Feb 2026</span>
-                    <span className='w-1 h-1 bg-slate-600 rounded-full' />
-                    <span>22 min read</span>
-                  </div>
+              <div className='flex flex-col'>
+                <span className='text-white font-bold text-sm'>The Basement Guide Staff</span>
+                <div className='flex items-center text-slate-400 text-xs font-medium'>
+                  <span>Updated Feb 2026</span>
+                  <span className='mx-2 text-slate-600'>•</span>
+                  <span>22 min read</span>
                 </div>
               </div>
             </div>
@@ -55,153 +51,113 @@ export default function FoundationCracksArticle() {
       </section>
 
       {/* Main Content */}
-      <section className='py-20 bg-white'>
-        <div className='container-custom'>
-          <div className='grid grid-cols-1 lg:grid-cols-12 gap-12'>
-            <div className='lg:col-span-8'>
-              <p className='text-xl text-slate-600 leading-relaxed mb-8 font-light'>
-                Finding a crack in your foundation is a stressful moment for any homeowner. Your mind immediately jumps to expensive repairs and structural failure. However, concrete is a material that naturally cracks as it cures and settles. The key is knowing which cracks require a simple DIY fix and which require an engineer.
-              </p>
+      <main className='max-w-5xl mx-auto px-6 py-24'>
+        <div className='prose prose-lg prose-slate max-w-none prose-headings:text-slate-900 prose-headings:font-black prose-headings:tracking-tight prose-p:text-slate-600 prose-p:leading-relaxed prose-a:text-amber-600 prose-a:no-underline hover:prose-a:underline'>
+          
+          <p className='text-2xl font-medium text-slate-800 leading-relaxed mb-12 border-l-4 border-amber-500 pl-8'>
+            Finding a crack in your foundation is a stressful moment. However, concrete naturally cracks as it cures and settles. The key is knowing which cracks require a simple DIY fix and which require an engineer.
+          </p>
 
-              <div className='bg-slate-50 border border-slate-200 rounded-2xl p-8 mb-12'>
-                <h3 className='text-2xl font-bold text-slate-900 mb-6'>Quick Diagnosis Table</h3>
-                <div className='overflow-x-auto'>
-                  <table className='w-full text-left'>
-                    <thead>
-                      <tr className='border-b border-slate-200'>
-                        <th className='pb-4 font-bold text-slate-900'>Crack Type</th>
-                        <th className='pb-4 font-bold text-slate-900'>Direction</th>
-                        <th className='pb-4 font-bold text-slate-900'>Risk Level</th>
-                      </tr>
-                    </thead>
-                    <tbody className='divide-y divide-slate-100'>
-                      <tr>
-                        <td className='py-4 text-slate-600'>Hairline / Shrinkage</td>
-                        <td className='py-4 text-slate-600'>Vertical/Random</td>
-                        <td className='py-4 font-semibold text-emerald-600'>Low (Cosmetic)</td>
-                      </tr>
-                      <tr>
-                        <td className='py-4 text-slate-600'>Settlement</td>
-                        <td className='py-4 text-slate-600'>Vertical</td>
-                        <td className='py-4 font-semibold text-amber-600'>Moderate (Monitor)</td>
-                      </tr>
-                      <tr>
-                        <td className='py-4 text-slate-600'>Structural / Bowing</td>
-                        <td className='py-4 text-slate-600'>Horizontal</td>
-                        <td className='py-4 font-semibold text-rose-600'>High (Immediate Action)</td>
-                      </tr>
-                      <tr>
-                        <td className='py-4 text-slate-600'>Stair-Step</td>
-                        <td className='py-4 text-slate-600'>Diagonal (in block)</td>
-                        <td className='py-4 font-semibold text-rose-600'>High (Settling/Pressure)</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
+          <h2 className='text-3xl mb-8 uppercase tracking-tight'>Quick Diagnosis Table</h2>
+          <div className='overflow-x-auto rounded-3xl border border-slate-200 shadow-sm not-prose mb-16'>
+            <table className='w-full text-left border-collapse'>
+              <thead>
+                <tr className='bg-slate-50'>
+                  <th className='p-6 font-black text-slate-900 uppercase text-xs tracking-widest'>Crack Type</th>
+                  <th className='p-6 font-black text-amber-700 uppercase text-xs tracking-widest'>Direction</th>
+                  <th className='p-6 font-black text-amber-900 uppercase text-xs tracking-widest'>Risk Level</th>
+                </tr>
+              </thead>
+              <tbody className='divide-y divide-slate-100'>
+                <tr>
+                  <td className='p-6 font-bold text-slate-900 bg-slate-50/50'>Hairline / Shrinkage</td>
+                  <td className='p-6 text-slate-600'>Vertical/Random</td>
+                  <td className='p-6 text-emerald-600 font-black'>Low (Cosmetic)</td>
+                </tr>
+                <tr>
+                  <td className='p-6 font-bold text-slate-900 bg-slate-50/50'>Settlement</td>
+                  <td className='p-6 text-slate-600'>Vertical</td>
+                  <td className='p-6 text-amber-600 font-black'>Moderate (Monitor)</td>
+                </tr>
+                <tr>
+                  <td className='p-6 font-bold text-slate-900 bg-slate-50/50'>Structural / Bowing</td>
+                  <td className='p-6 text-slate-600'>Horizontal</td>
+                  <td className='p-6 text-rose-600 font-black'>High (Action Required)</td>
+                </tr>
+                <tr>
+                  <td className='p-6 font-bold text-slate-900 bg-slate-50/50'>Stair-Step</td>
+                  <td className='p-6 text-slate-600'>Diagonal (in block)</td>
+                  <td className='p-6 text-rose-600 font-black'>High (Settling)</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
 
-              <h2 className='text-3xl font-bold text-slate-900 mt-16 mb-6'>1. Vertical Cracks (The Good News)</h2>
-              <p className='text-lg text-slate-600 leading-relaxed mb-6'>
-                Vertical cracks are the most common type found in residential basements. They typically occur within the first few years of a home being built as the foundation "cures" and shrinks.
-              </p>
-              <h4 className='text-xl font-bold text-slate-900 mb-4'>Why they happen:</h4>
-              <p className='text-lg text-slate-600 leading-relaxed mb-6'>
-                Minor settling of the footing or shrinkage of the concrete as it dries. If they are less than 1/8 inch wide, they are rarely a structural concern.
-              </p>
+          <h2 className='text-4xl mb-6'>1. Vertical Cracks (The Good News)</h2>
+          <p>
+            Vertical cracks are the most common type found in residential basements. They typically occur within the first few years of a home being built as the foundation \"cures\" and shrinks.
+          </p>
 
-              <h2 className='text-3xl font-bold text-slate-900 mt-16 mb-6'>2. Horizontal Cracks (The Red Flag)</h2>
-              <p className='text-lg text-slate-600 leading-relaxed mb-6'>
-                <strong>If you see a horizontal crack, do not wait.</strong> These cracks are a sign that the wall is failing under the pressure of the earth outside.
-              </p>
-              <h4 className='text-xl font-bold text-slate-900 mb-4'>The Danger:</h4>
-              <p className='text-lg text-slate-600 leading-relaxed mb-6'>
-                Horizontal cracks indicate that the wall is bowing inward. If left unaddressed, the wall can snap, leading to a complete collapse of the foundation. This is usually caused by <strong>hydrostatic pressure</strong> or expansive clay soil.
-              </p>
+          <h2 className='text-4xl mb-6'>2. Horizontal Cracks (The Red Flag)</h2>
+          <p>
+            <strong>If you see a horizontal crack, do not wait.</strong> These cracks are a sign that the wall is failing under the pressure of the earth outside. They indicate that the wall is bowing inward and can lead to a complete collapse.
+          </p>
 
-              <h2 className='text-3xl font-bold text-slate-900 mt-16 mb-6'>3. Stair-Step Cracks (Brick & Block Only)</h2>
-              <p className='text-lg text-slate-600 leading-relaxed mb-6'>
-                Common in concrete block foundations, these cracks follow the mortar joints in a "stair-step" pattern. They indicate that one corner or section of the foundation is sinking faster than the rest.
-              </p>
+          <h2 className='text-4xl mb-6'>3. Stair-Step Cracks (Brick & Block)</h2>
+          <p>
+            Common in concrete block foundations, these cracks follow the mortar joints in a \"stair-step\" pattern. They indicate that one corner or section of the foundation is sinking faster than the rest.
+          </p>
 
-              <div className='bg-slate-900 rounded-2xl p-8 my-12 font-mono text-sm text-indigo-300 leading-none overflow-x-auto'>
-                <pre>{`| [BLOCK] | [BLOCK] |
+          <div className='bg-slate-900 rounded-3xl p-12 my-12 font-mono text-sm text-amber-300 leading-none overflow-x-auto not-prose shadow-2xl'>
+            <pre>{`| [BLOCK] | [BLOCK] |
 |___________|___________|
-|      |____|      |
-|______|    |______|
+| |____| |
+|______| |______|
 | [BLOCK] | [BLOCK] |
-|      |____|      |
-|___________|      |______|`}</pre>
-              </div>
+| |____| |
+|___________| |______|`}</pre>
+          </div>
 
-              <h2 className='text-3xl font-bold text-slate-900 mt-16 mb-6'>4. Diagonal Cracks</h2>
-              <p className='text-lg text-slate-600 leading-relaxed mb-6'>
-                Diagonal cracks often start near the corners of windows or doors. They are usually caused by "differential settlement"—where one part of the house is moving while the other stays still.
-              </p>
+          <h2 className='text-4xl mb-6'>4. Diagonal Cracks</h2>
+          <p>
+            Diagonal cracks often start near the corners of windows or doors. They are usually caused by \"differential settlement\"—where one part of the house is moving while the other stays still.
+          </p>
 
-              <div className='bg-indigo-600 rounded-3xl p-8 md:p-12 text-white mt-20'>
-                <h2 className='text-3xl font-bold mb-4'>When to Worry: The 1/4 Inch Rule</h2>
-                <p className='text-indigo-100 text-lg mb-8'>
-                  While any crack should be monitored, those that meet the following criteria need immediate professional attention:
-                </p>
-                <ul className='space-y-4 text-indigo-50'>
-                  <li className='flex items-center gap-3'><span>•</span> <strong>Width:</strong> Wider than 1/4 inch.</li>
-                  <li className='flex items-center gap-3'><span>•</span> <strong>Active:</strong> The crack is visibly getting wider or longer.</li>
-                  <li className='flex items-center gap-3'><span>•</span> <strong>Water:</strong> The crack is actively leaking water.</li>
-                  <li className='flex items-center gap-3'><span>•</span> <strong>Offset:</strong> One side is pushing further in than the other.</li>
+          <div className='bg-amber-50 rounded-3xl p-12 my-16 border border-amber-100 not-prose'>
+            <h2 className='text-3xl font-black text-amber-900 mb-6'>When to Worry: The 1/4 Inch Rule</h2>
+            <p className='text-lg text-slate-700 mb-8 font-medium'>
+              While any crack should be monitored, those that meet these criteria need immediate professional attention:
+            </p>
+            <div className='grid md:grid-cols-2 gap-8'>
+              <div className='bg-white p-8 rounded-2xl shadow-sm border border-amber-200'>
+                <ul className='space-y-4 text-slate-600 font-medium'>
+                  <li className='flex gap-2'><span className='text-amber-500'>✔</span> Wider than 1/4 inch</li>
+                  <li className='flex gap-2'><span className='text-amber-500'>✔</span> Visibly getting wider</li>
                 </ul>
-                <Link href='/find-pros' className='bg-white text-indigo-600 px-8 py-4 rounded-full font-bold text-lg inline-block hover:bg-indigo-50 transition-colors mt-8'>
-                  Find Foundation Specialists →
-                </Link>
               </div>
-            </div>
-
-            <div className='lg:col-span-4'>
-              <div className='sticky top-8 space-y-8'>
-                <div className='bg-slate-900 rounded-2xl p-8 text-white'>
-                  <h3 className='text-xl font-bold mb-6'>The "Is it Bad?" Checklist</h3>
-                  <div className='space-y-4'>
-                    <div className='flex items-center gap-3'>
-                      <div className='w-6 h-6 border-2 border-indigo-500 rounded flex items-center justify-center text-indigo-500 font-bold'></div>
-                      <span className='text-slate-300'>Is it horizontal?</span>
-                    </div>
-                    <div className='flex items-center gap-3'>
-                      <div className='w-6 h-6 border-2 border-indigo-500 rounded flex items-center justify-center text-indigo-500 font-bold'></div>
-                      <span className='text-slate-300'>Can you fit a nickel in it?</span>
-                    </div>
-                    <div className='flex items-center gap-3'>
-                      <div className='w-6 h-6 border-2 border-indigo-500 rounded flex items-center justify-center text-indigo-500 font-bold'></div>
-                      <span className='text-slate-300'>Is water coming through?</span>
-                    </div>
-                    <div className='flex items-center gap-3'>
-                      <div className='w-6 h-6 border-2 border-indigo-500 rounded flex items-center justify-center text-indigo-500 font-bold'></div>
-                      <span className='text-slate-300'>Is the wall bowing inward?</span>
-                    </div>
-                  </div>
-                  <p className='text-xs text-slate-500 mt-6 italic'>If you checked any of these, call a professional immediately.</p>
-                </div>
-
-                <div className='bg-indigo-900 rounded-2xl p-8 text-white'>
-                  <h3 className='font-bold text-white mb-6'>Estimated Repair Costs</h3>
-                  <ul className='space-y-6 text-sm'>
-                    <li className='flex flex-col gap-1 border-b border-white/10 pb-4'>
-                      <span className='text-slate-400 uppercase text-xs font-bold tracking-wider'>Epoxy Injection</span>
-                      <span className='font-bold text-xl text-blue-400'>$300 – $800</span>
-                    </li>
-                    <li className='flex flex-col gap-1 border-b border-white/10 pb-4'>
-                      <span className='text-slate-400 uppercase text-xs font-bold tracking-wider'>Wall Anchors</span>
-                      <span className='font-bold text-xl text-blue-400'>$5k – $15k</span>
-                    </li>
-                    <li className='flex flex-col gap-1'>
-                      <span className='text-slate-400 uppercase text-xs font-bold tracking-wider'>Foundation Piering</span>
-                      <span className='font-bold text-xl text-blue-400'>$10k – $30k+</span>
-                    </li>
-                  </ul>
-                </div>
+              <div className='bg-white p-8 rounded-2xl shadow-sm border border-amber-200'>
+                <ul className='space-y-4 text-slate-600 font-medium'>
+                  <li className='flex gap-2'><span className='text-amber-500'>✔</span> Actively leaking water</li>
+                  <li className='flex gap-2'><span className='text-amber-500'>✔</span> One side pushing in</li>
+                </ul>
               </div>
             </div>
           </div>
+
+          <div className='bg-slate-900 rounded-3xl p-12 text-white my-20 shadow-xl shadow-amber-900/20 relative overflow-hidden not-prose'>
+            <div className='absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full -mr-32 -mt-32 blur-3xl' />
+            <div className='relative z-10 text-center max-w-2xl mx-auto'>
+              <h2 className='text-3xl font-black text-white mb-4'>Professional Inspection Required?</h2>
+              <p className='text-amber-100 text-lg mb-10'>
+                Don't guess with your foundation. Get a expert assessment of your cracks today.
+              </p>
+              <Link href='/find-pros' className='bg-white text-amber-600 px-12 py-4 rounded-full font-black text-lg inline-block hover:bg-amber-50 transition-all hover:scale-105'>
+                Find Foundation Specialists →
+              </Link>
+            </div>
+          </div>
         </div>
-      </section>
+      </main>
     </div>
   )
 }
