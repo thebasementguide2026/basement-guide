@@ -4,7 +4,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Basement vs. Crawl Space vs. Slab: Which Foundation is Right for You? | The Basement Guide',
-  description: 'A 5,000-word comparison of basement, crawl space, and slab foundations. Costs, energy efficiency, and long-term resale value for homeowners and builders.',
+  description: 'A comprehensive comparison of basement, crawl space, and slab foundations. Costs, pros/cons, and how to choose based on your climate and budget.',
 }
 
 export default function FoundationComparisonArticle() {
@@ -26,7 +26,7 @@ export default function FoundationComparisonArticle() {
                 Pillar Guide
               </span>
               <h1 className='text-4xl md:text-6xl font-bold text-white mb-6 leading-tight'>
-                Basement vs. Crawl Space vs. Slab: Which Foundation is Right for You?
+                Basement vs. Crawl Space vs. Slab: Which is Best?
               </h1>
               <p className='text-xl text-slate-200 mb-8 leading-relaxed'>
                 Choosing a foundation is the most consequential decision in home construction. We compare the three major types on cost, longevity, and lifestyle.
@@ -35,7 +35,7 @@ export default function FoundationComparisonArticle() {
                 <div className='w-12 h-12 bg-indigo-500 rounded-full flex items-center justify-center text-white font-bold'>BG</div>
                 <div className='text-white'>
                   <p className='font-bold'>The Basement Guide Staff</p>
-                  <p className='text-slate-400 text-sm'>Updated February 2026 • 25 min read</p>
+                  <p className='text-sm opacity-80'>Updated February 2026 • 25 min read</p>
                 </div>
               </div>
             </div>
@@ -43,96 +43,96 @@ export default function FoundationComparisonArticle() {
         </div>
       </section>
 
-      <section className='py-16 md:py-24'>
-        <div className='container-custom flex flex-col lg:flex-row gap-12'>
-          {/* Main Content */}
-          <div className='lg:w-2/3'>
-            <div className='prose prose-slate prose-lg max-w-none'>
-              <p className='lead text-xl text-gray-600 mb-10'>
-                The foundation is literally the bedrock of your home's value. While regional trends often dictate what's built (slabs in Florida, basements in Minnesota), modern building science and rising property values are changing the math for many homeowners.
-              </p>
-
-              <h2 className='text-3xl font-bold text-slate-800 mt-12 mb-6'>1. Full Basement Foundations: The Gold Standard</h2>
-              <p>
-                A full basement is essentially a 8-to-10 foot tall room built below grade. It provides the most square footage and the best access to mechanical systems (plumbing, HVAC, electrical).
-              </p>
-              
-              <div className='bg-blue-50 p-8 rounded-2xl mb-10 border-l-4 border-blue-500'>
-                <h4 className='font-bold text-blue-800 mb-2'>The ROI of Basements</h4>
-                <p className='text-blue-900 mb-0'>
-                  In many markets, a finished basement can return 70% of its investment cost, but its real value lies in the flexibility it adds to the home.
+      {/* Article Content */}
+      <section className='py-20'>
+        <div className='container-custom'>
+          <div className='flex flex-col lg:flex-row gap-12'>
+            <div className='lg:w-2/3'>
+              <div className='prose prose-slate max-w-none prose-headings:font-bold prose-h2:text-3xl prose-h2:mt-12 prose-h2:mb-6'>
+                <p className='text-lg leading-relaxed mb-8'>
+                  Your home's foundation determines more than just how it sits on the ground. It influences your energy bills, your risk of flood damage, your storage capacity, and even your health. When building or buying a home, the "right" foundation depends heavily on your local climate, soil conditions, and budget.
                 </p>
-              </div>
 
-              <h2 className='text-3xl font-bold text-slate-800 mt-12 mb-6'>2. Crawl Space Foundations: The Middle Ground</h2>
-              <p>
-                Crawl spaces elevate the home off the ground by 1.5 to 3 feet. This is often done to avoid moisture issues or to provide a buffer between the soil and the floor joists.
-              </p>
+                <h2>1. Concrete Slab Foundations</h2>
+                <p>
+                  A slab-on-grade foundation is a thick layer of concrete (usually 4-6 inches) poured directly onto the ground. It's the most common foundation for new construction in the Sunbelt.
+                </p>
+                <div className='bg-slate-50 p-6 rounded-xl mb-8 border-l-4 border-slate-800'>
+                  <h4 className='font-bold mb-2'>Best For:</h4>
+                  <p className='m-0'>Warm climates, areas with high water tables, and budgets that prioritize construction speed.</p>
+                </div>
+                <h3>Scenario: The Efficiency Build</h3>
+                <p>
+                  If you are building in Florida or Texas, a slab is likely your best bet. Because there is no space underneath the home, there's no risk of mold or radon buildup from a crawl space. However, repairs to plumbing embedded in the slab can be incredibly expensive, requiring a jackhammer to reach a leak.
+                </p>
 
-              <h2 className='text-3xl font-bold text-slate-800 mt-12 mb-6'>3. Slab-on-Grade Foundations: The Economical Choice</h2>
-              <p>
-                Slab foundations are a single layer of concrete poured directly on the ground. They are fast to build and cost-effective, but they leave your plumbing buried in concrete.
-              </p>
+                <h2>2. Crawl Space Foundations</h2>
+                <p>
+                  A crawl space is essentially a shallow basement. The home is elevated on short walls, creating a 2-4 foot gap between the ground and the floor joists.
+                </p>
+                <h3>Scenario: Damp Soil & Termites</h3>
+                <p>
+                  Crawl spaces are popular in the Southeast and Northwest. They protect the home from minor flooding and provide easy access to plumbing and HVAC. <strong>The Danger:</strong> If not properly encapsulated, crawl spaces are breeding grounds for mold and wood rot. 
+                </p>
 
-              <div className='my-12 overflow-hidden rounded-xl border border-slate-200 shadow-sm'>
-                <table className='min-w-full divide-y divide-slate-200'>
-                  <thead className='bg-slate-50'>
-                    <tr>
-                      <th className='px-6 py-4 text-left text-sm font-bold text-slate-900'>Feature</th>
-                      <th className='px-6 py-4 text-left text-sm font-bold text-slate-900'>Basement</th>
-                      <th className='px-6 py-4 text-left text-sm font-bold text-slate-900'>Crawl Space</th>
-                      <th className='px-6 py-4 text-left text-sm font-bold text-slate-900'>Slab</th>
-                    </tr>
-                  </thead>
-                  <tbody className='divide-y divide-slate-200 bg-white'>
-                    <tr>
-                      <td className='px-6 py-4 text-sm font-medium text-slate-900'>Avg. Cost</td>
-                      <td className='px-6 py-4 text-sm text-slate-600'>$35,000 - $65,000</td>
-                      <td className='px-6 py-4 text-sm text-slate-600'>$12,000 - $25,000</td>
-                      <td className='px-6 py-4 text-sm text-slate-600'>$7,000 - $15,000</td>
-                    </tr>
-                    <tr>
-                      <td className='px-6 py-4 text-sm font-medium text-slate-900'>Square Footage</td>
-                      <td className='px-6 py-4 text-sm text-slate-600'>Double</td>
-                      <td className='px-6 py-4 text-sm text-slate-600'>Storage Only</td>
-                      <td className='px-6 py-4 text-sm text-slate-600'>Zero</td>
-                    </tr>
-                    <tr>
-                      <td className='px-6 py-4 text-sm font-medium text-slate-900'>Maintenance</td>
-                      <td className='px-6 py-4 text-sm text-slate-600'>High (Waterproofing)</td>
-                      <td className='px-6 py-4 text-sm text-slate-600'>Moderate (Moisture)</td>
-                      <td className='px-6 py-4 text-sm text-slate-600'>Low</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
+                <h2>3. Full Basement Foundations</h2>
+                <p>
+                  A full basement involves digging deep (usually 8 feet or more) and pouring high walls. It offers the most utility but comes at the highest cost.
+                </p>
+                <h3>Scenario: Growing Families & Cold Climates</h3>
+                <p>
+                  In the Northeast and Midwest, the frost line is deep, meaning you have to dig anyway. For a family needing a gym, a home theater, or a playroom, the basement provides the cheapest cost-per-square-foot for living space.
+                </p>
 
-              <p>
-                Comparison of energy efficiency and resale value follows here...
-              </p>
-              
-              <div className='mt-12'>
-                <Link href='/contact' className='bg-indigo-600 hover:bg-indigo-500 text-white font-bold py-3 px-8 rounded-lg transition-colors inline-block'>
-                  Consult a Foundation Specialist
-                </Link>
+                <h2 className='text-teal-700 bg-teal-50 p-4 rounded-lg'>How to Choose: Scenarios</h2>
+                <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
+                  <div className='border p-6 rounded-xl'>
+                    <h4 className='font-bold text-indigo-600'>Pick a Slab If:</h4>
+                    <ul className='list-disc pl-5 space-y-2'>
+                      <li>You want the lowest possible construction cost</li>
+                      <li>You live in a region where the ground doesn't freeze</li>
+                      <li>You want to avoid stairs or have mobility issues</li>
+                    </ul>
+                  </div>
+                  <div className='border p-6 rounded-xl'>
+                    <h4 className='font-bold text-indigo-600'>Pick a Basement If:</h4>
+                    <ul className='list-disc pl-5 space-y-2'>
+                      <li>You need extra storage or living space</li>
+                      <li>You live in a tornado-prone area (safe room)</li>
+                      <li>Your land is sloped (allows for a walk-out basement)</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <h2 className='mt-12'>Frequently Asked Questions</h2>
+                <div className='space-y-6'>
+                  <div>
+                    <h4 className='font-bold'>Is a basement or crawl space better for resale value?</h4>
+                    <p>Generally, a finished basement adds significantly more value than a crawl space. In cold climates, a home without a basement may actually be harder to sell.</p>
+                  </div>
+                  <div>
+                    <h4 className='font-bold'>Which foundation is the most energy-efficient?</h4>
+                    <p>Slabs are efficient because there is no air gap to heat or cool. However, a properly insulated basement can also be very efficient as the earth acts as natural insulation.</p>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
 
-          {/* Sidebar */}
-          <div className='lg:w-1/3'>
-            <div className='sticky top-8 space-y-8'>
-              <div className='bg-slate-50 p-8 rounded-2xl border border-slate-100'>
-                <h3 className='font-bold text-xl mb-4'>Related Foundation Guides</h3>
-                <div className='space-y-4'>
-                  <Link href='/articles/bowing-basement-walls' className='block p-4 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow'>
-                    <span className='text-indigo-600 text-xs font-bold uppercase tracking-wider'>Repair</span>
-                    <span className='block font-bold text-slate-800'>Bowing Basement Walls Guide</span>
-                  </Link>
-                  <Link href='/articles/types-of-foundation-cracks' className='block p-4 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow'>
-                    <span className='text-teal-600 text-xs font-bold uppercase tracking-wider'>Diagnosis</span>
-                    <span className='block font-bold text-slate-800'>Foundation Crack Diagnostic Guide</span>
-                  </Link>
+            {/* Sidebar */}
+            <div className='lg:w-1/3'>
+              <div className='sticky top-8 space-y-8'>
+                <div className='bg-slate-50 p-8 rounded-2xl border border-slate-200'>
+                  <h3 className='font-bold text-xl mb-4'>Foundation Resources</h3>
+                  <div className='space-y-4'>
+                    <Link href='/articles/types-of-foundation-cracks' className='group block'>
+                      <span className='text-teal-600 text-xs font-bold uppercase'>Diagnosis Guide</span>
+                      <span className='block font-bold text-slate-800 group-hover:text-indigo-600 transition-colors'>Foundation Crack Guide</span>
+                    </Link>
+                    <Link href='/articles/bowing-basement-walls' className='group block'>
+                      <span className='text-blue-600 text-xs font-bold uppercase'>Structural Alert</span>
+                      <span className='block font-bold text-slate-800 group-hover:text-indigo-600 transition-colors'>Bowing Wall Repair</span>
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
