@@ -92,7 +92,7 @@ const guides = [
     title: 'Smart Sump Pumps & Leak Sensors: The 2026 Guide',
     description: 'IoT flood prevention systems that text you before disasters. Matter protocol, Thread networks, and predictive monitoring explained.',
     href: '/articles/smart-sump-pumps-guide',
-    image: '/smart-home-leak-sensors.jpg.png',
+    image: '/smart-home-leak-sensors.jpg.jpg',
     category: 'Smart Home',
     readTime: '14 min read',
   },
@@ -116,7 +116,7 @@ const guides = [
     title: 'Foundation Crack Repair Cost 2026',
     description: 'Epoxy injection vs. polyurethane foam. Expect to pay $350\u20131,500 per crack depending on severity and method.',
     href: '/articles/foundation-crack-repair-cost',
-    image: '/foundation-crack-closeup.jpg',
+    image: '/foundation-crack-closeup.jpg.jpg',
     category: 'Cost Guide',
     readTime: '12 min read',
   },
@@ -167,6 +167,14 @@ const guides = [
     image: '/basement-flooding.jpg',
     category: 'Troubleshooting',
     readTime: '10 min read',
+  },
+  {
+    title: 'How to Finish a Basement: The Complete 2026 Guide',
+    description: 'From permits and moisture science to framing, egress, and lighting. The complete structural, legal, and aesthetic roadmap for finishing your basement in 2026.',
+    href: '/articles/how-to-finish-a-basement',
+    image: '/unfinished-basement-interior.jpg.jpg',
+    category: 'Finishing',
+    readTime: '35 min read',
   },
 ]
 
