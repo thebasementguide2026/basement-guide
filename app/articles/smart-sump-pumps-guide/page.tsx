@@ -14,7 +14,7 @@ export default function SmartSumpPumpsGuide() {
       {/* Article Hero */}
       <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
         <Image
-          src='/smart-home-leak-sensors.jpg'
+                    src='/smart-home-leak-sensors.jpg.jpg'
           alt='Smart sump pump system with IoT monitoring'
           fill
           className='object-cover opacity-45 scale-105 transition-transform duration-700 hover:scale-100'
