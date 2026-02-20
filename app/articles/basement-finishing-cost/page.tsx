@@ -188,7 +188,6 @@ export default function BasementFinishingCost() {
                 ))}
               </div>
             </section>
-
           </div>
 
           {/* Sidebar */}
@@ -199,7 +198,7 @@ export default function BasementFinishingCost() {
                 <div className='absolute top-0 right-0 w-32 h-32 bg-violet-500/10 rounded-full -mr-16 -mt-16 blur-3xl'></div>
                 <h3 className='text-2xl font-bold mb-4 relative z-10'>Get a Finishing Quote</h3>
                 <p className='text-slate-400 mb-8 relative z-10 text-sm leading-relaxed'>
-                  Connect with licensed basement finishing contractors in your area for a detailed cost estimate.
+                   Connect with licensed basement finishing contractors in your area for a detailed cost estimate.
                 </p>
                 <LeadForm />
               </div>
