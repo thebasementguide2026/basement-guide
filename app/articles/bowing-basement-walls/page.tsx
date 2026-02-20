@@ -23,161 +23,192 @@ export default function BowingWallsArticle() {
           <div className='container-custom'>
             <div className='max-w-3xl'>
               <span className='bg-blue-600 text-white px-4 py-1 rounded-full text-sm font-bold uppercase tracking-widest mb-6 inline-block'>
-                Pillar Guide: Structural
+                Structural Pillar Guide
               </span>
               <h1 className='text-4xl md:text-6xl font-bold text-white mb-6 leading-tight'>
-                Bowing Basement Walls: Causes, Repair Methods & Cost
+                Bowing Basement Walls: The 2026 Homeowner's Guide
               </h1>
               <p className='text-xl text-slate-200 mb-8 leading-relaxed'>
-                A bowing wall is a structural emergency in slow motion. Learn how to diagnose the cause and choose the right repair method before the damage becomes irreversible.
+                A bowing wall is a structural emergency in slow motion. This guide covers how to diagnose the cause, measure the deflection, and choose the most cost-effective repair.
               </p>
-              <div className='flex items-center gap-4'>
-                <div className='w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold'>BG</div>
-                <div className='text-white'>
-                  <p className='font-bold'>The Basement Guide Staff</p>
-                  <p className='text-sm opacity-80'>Updated February 2026 • 18 min read</p>
+              <div className='flex items-center gap-4 text-white/80 text-sm'>
+                <div className='flex items-center gap-2'>
+                  <span className='w-8 h-8 rounded-full bg-blue-500 flex items-center justify-center text-white font-bold'>BG</span>
+                  <span>By The Basement Guide Editorial Team</span>
                 </div>
+                <span>•</span>
+                <span>Last Updated: February 19, 2026</span>
+                <span>•</span>
+                <span>18 min read</span>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Article Content */}
+      {/* Main Content */}
       <section className='py-20'>
         <div className='container-custom'>
-          <div className='flex flex-col lg:flex-row gap-12'>
-            <div className='lg:w-2/3'>
-              <div className='prose prose-slate max-w-none prose-headings:font-bold prose-h2:text-3xl prose-h2:mt-12 prose-h2:mb-6'>
-
-                <p className='text-lg leading-relaxed mb-8'>
-                  If your basement walls are leaning inward, even by as little as an inch, you are witnessing the power of <strong>hydrostatic pressure</strong>. Left unchecked, a bowing wall can eventually lead to total foundation failure, costing upwards of $50,000 to replace.
+          <div className='grid grid-cols-1 lg:grid-cols-12 gap-12'>
+            {/* Left Column: Article Body */}
+            <div className='lg:col-span-8'>
+              <div className='prose prose-slate prose-lg max-w-none'>
+                <p className='lead text-xl text-slate-600 mb-12'>
+                  If you've noticed your basement walls are no longer plumb, you aren't just looking at a cosmetic issue. You're looking at the failure of your home's foundation. Left unaddressed, a bowing wall can eventually collapse, leading to catastrophic structural failure and massive repair bills.
                 </p>
 
-                <div className='bg-blue-50 p-6 rounded-xl mb-8 border-l-4 border-blue-600'>
-                  <h4 className='font-bold text-blue-900 mb-2'>The 2-Inch Rule</h4>
-                  <p className='m-0 text-blue-800'>If your wall has bowed more than 2 inches inward, you are likely approaching the point of no return. At 3+ inches, the wall may need complete replacement. Act now, not later.</p>
-                </div>
-
-                <h2>What Causes Basement Walls to Bow?</h2>
-                <p>Understanding what's driving the bowing is the first step to choosing the right repair.</p>
-                <h3>Hydrostatic Pressure</h3>
-                <p>After heavy rain or snowmelt, water saturates the soil around your foundation. Clay soil is especially problematic because it expands when wet. This expanded, water-saturated soil is extraordinarily heavy and pushes against your basement wall with thousands of pounds of force per square foot.</p>
-                <h3>Freeze-Thaw Cycles</h3>
-                <p>In cold climates, water in the soil freezes and expands in winter, pushing the wall inward, then thaws in spring. Each cycle adds a tiny bit of permanent inward movement. Over 20-30 years, this compounding damage becomes significant.</p>
-                <h3>Poor Drainage</h3>
-                <p>Gutters that dump water right at the foundation, grading that slopes toward the house, and no perimeter drainage system—these all funnel water to the exact place you don't want it.</p>
-
-                <h2>How to Diagnose Your Bowing Wall</h2>
-                <h3>The Quarter Test</h3>
-                <p>Hold a quarter horizontally against the wall at multiple points. If it touches the wall and you can see a noticeable gap elsewhere, you have more than superficial bowing. Measure the gap: under 1 inch is early-stage, 1-2 inches is moderate, over 2 inches is severe.</p>
-                <h3>Signs to Look For</h3>
-                <ul className='list-disc pl-5 space-y-2'>
-                  <li>Horizontal cracks running across the center of the wall</li>
-                  <li>Stair-step cracks in block or brick foundations</li>
-                  <li>Visible inward lean — step back and look along the wall</li>
-                  <li>Basement floor cracking near the base of the wall</li>
-                  <li>Doors and windows that no longer open smoothly</li>
-                  <li>Water seeping in directly at the crack line</li>
-                </ul>
-
-                <h2>Repair Methods Compared</h2>
-                <div className='grid grid-cols-1 md:grid-cols-3 gap-6 my-8'>
-                  <div className='bg-slate-50 border border-slate-200 rounded-xl p-6'>
-                    <h4 className='font-bold text-slate-800 mb-2'>Carbon Fiber Straps</h4>
-                    <p className='text-sm text-slate-600 mb-3'>Best for walls that have bowed less than 2 inches and are not actively moving.</p>
-                    <p className='font-bold text-green-600'>$4,000–$8,000</p>
-                    <ul className='text-sm list-disc pl-4 mt-2 space-y-1'>
-                      <li>Minimal excavation</li>
-                      <li>Fast installation (1-2 days)</li>
-                      <li>Prevents further movement</li>
-                      <li>Does NOT push wall back</li>
-                    </ul>
-                  </div>
-                  <div className='bg-slate-50 border border-slate-200 rounded-xl p-6'>
-                    <h4 className='font-bold text-slate-800 mb-2'>Wall Anchors</h4>
-                    <p className='text-sm text-slate-600 mb-3'>Best for walls with moderate bowing where you want to eventually pull the wall back.</p>
-                    <p className='font-bold text-yellow-600'>$5,000–$12,000</p>
-                    <ul className='text-sm list-disc pl-4 mt-2 space-y-1'>
-                      <li>Anchors installed in yard</li>
-                      <li>Wall can be tightened over years</li>
-                      <li>Best long-term solution</li>
-                      <li>Requires yard access</li>
-                    </ul>
-                  </div>
-                  <div className='bg-slate-50 border border-slate-200 rounded-xl p-6'>
-                    <h4 className='font-bold text-slate-800 mb-2'>Steel I-Beams</h4>
-                    <p className='text-sm text-slate-600 mb-3'>Best for severely bowed walls or those where anchor installation is not possible.</p>
-                    <p className='font-bold text-red-600'>$8,000–$18,000</p>
-                    <ul className='text-sm list-disc pl-4 mt-2 space-y-1'>
-                      <li>Floor-to-ceiling steel columns</li>
-                      <li>Very strong stabilization</li>
-                      <li>Takes interior space</li>
-                      <li>Immediate stabilization</li>
-                    </ul>
+                <div className='bg-slate-50 border-l-4 border-blue-600 p-8 mb-12 rounded-r-xl'>
+                  <h3 className='text-blue-900 font-bold mb-4 flex items-center gap-2'>
+                    <svg className=\"w-6 h-6\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth=\"2\" d=\"M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z\"></path></svg>
+                    Comparison at a Glance: Repair Methods
+                  </h3>
+                  <div className='overflow-x-auto'>
+                    <table className='min-w-full text-sm'>
+                      <thead>
+                        <tr className='border-b border-slate-200 text-left'>
+                          <th className='py-3 font-bold'>Method</th>
+                          <th className='py-3 font-bold'>Best For</th>
+                          <th className='py-3 font-bold'>Avg. Cost</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr className='border-b border-slate-100'>
+                          <td className='py-3 font-medium'>Carbon Fiber Straps</td>
+                          <td className='py-3'>Bowing &lt; 2 inches</td>
+                          <td className='py-3'>$500 – $1,200 per strap</td>
+                        </tr>
+                        <tr className='border-b border-slate-100'>
+                          <td className='py-3 font-medium'>Steel I-Beams</td>
+                          <td className='py-3'>Severe bowing/Shearing</td>
+                          <td className='py-3'>$1,500 – $3,000 per beam</td>
+                        </tr>
+                        <tr className='border-b border-slate-100'>
+                          <td className='py-3 font-medium'>Wall Anchors</td>
+                          <td className='py-3'>Straightening the wall</td>
+                          <td className='py-3'>$1,000 – $2,500 per anchor</td>
+                        </tr>
+                      </tbody>
+                    </table>
                   </div>
                 </div>
 
-                <h2>Scenario: Should I Buy a House with a Bowing Wall?</h2>
-                <p>This is one of the most common questions we receive. The short answer: <strong>it depends on what you're buying and what's already been done.</strong></p>
-                <p>If the seller has professional documentation showing the wall was repaired with carbon fiber or wall anchors within the last 5-10 years, and the cracks are stable, this is not necessarily a dealbreaker. Get an independent structural engineer inspection (not just a waterproofing contractor, who has financial incentive to upsell).</p>
-                <p>However, if the bowing wall is undisclosed, unrepaired, or has moved more than 2 inches — <strong>walk away or negotiate a significant price reduction</strong>. We're talking $20,000-$50,000 to properly fix a failed wall, plus interior finishing.
+                <h2>Chapter 1: Why Basement Walls Bow</h2>
+                <p>
+                  Foundations bow because of external pressure. While concrete is incredibly strong in compression (holding up the house), it is relatively weak in <strong>tension</strong> (resisting lateral force from the side).
+                </p>
+                
+                <h3>Hydrostatic Pressure & Expansive Clay</h3>
+                <p>
+                  When soil becomes saturated with water, it expands. In areas with high clay content, this expansion is massive. This creates <strong>hydrostatic pressure</strong> that pushes against the wall. Think of it like a giant hydraulic jack slowly crushing your foundation.
                 </p>
 
-                <h2>Scenario: DIY vs. Professional Repair</h2>
-                <p>There is no reliable DIY fix for a bowing basement wall. Carbon fiber strap systems sold online require professional installation to be effective — the anchor points, tension, and placement must be engineered for your specific wall and soil conditions. A poorly installed strap gives you false security.</p>
-                <p>The only DIY step you can take that genuinely helps is <strong>improving drainage around the foundation:</strong></p>
-                <ul className='list-disc pl-5 space-y-2'>
-                  <li>Clean your gutters and extend downspouts 6 feet from the house</li>
-                  <li>Re-grade the soil around your foundation to slope away from the house</li>
-                  <li>Consider a French drain installation</li>
+                <div className='bg-slate-900 text-blue-400 p-6 rounded-lg font-mono text-sm my-8'>
+                  <p className='text-white mb-2'>// TECHNICAL DIAGRAM: LATERAL FORCE</p>
+                  <pre>
+{\`[ HOUSE WEIGHT ]
+      ||
+      VV
+##############  <-- Soil Line (Rain/Snow)
+#  [SOIL]    #  <-- Expansive Clay
+#   --->     #  <-- Hydrostatic Pressure
+#   --->     #  <-- [LATERAL FORCE]
+#  [WALL]    #  <-- Bowing begins here
+#    ( )     #  <-- Center point deflection
+#            #
+##############  <-- Footing\`}
+                  </pre>
+                </div>
+
+                <h2>Chapter 2: Diagnosing the Severity</h2>
+                <p>
+                  Not all bowing walls require the same fix. The amount of \"deflection\" (how far the wall has moved from its original position) determines the repair method.
+                </p>
+                <ul>
+                  <li><strong>Minor ( &lt; 2 inches ):</strong> Usually fixable with carbon fiber reinforcement. Non-invasive and fast.</li>
+                  <li><strong>Moderate ( 2 – 4 inches ):</strong> Requires steel I-beams or wall anchors to stop further movement.</li>
+                  <li><strong>Severe ( &gt; 4 inches ):</strong> The wall may be beyond simple reinforcement and may require partial or full replacement.</li>
                 </ul>
 
-                <h2>Preventing Future Bowing</h2>
-                <p>Even after repair, if you don't address the root cause — soil pressure and water — the problem will return. Here's what professionals recommend:</p>
-                <ul className='list-disc pl-5 space-y-2'>
-                  <li><strong>Exterior waterproofing:</strong> The most effective solution, but also the most expensive. Excavates all the way to the footing and applies a waterproof membrane.</li>
-                  <li><strong>Interior drainage system:</strong> Channels water away from the wall and into a sump pump before it can create pressure.</li>
-                  <li><strong>Window well covers:</strong> Prevent water pooling in window wells, which drain directly into the wall.</li>
-                </ul>
+                <h2>Chapter 3: The Best Repair Methods for 2026</h2>
+                <p>
+                  In modern foundation repair, there are three primary ways to address a bowing wall.
+                </p>
+
+                <h3>1. Carbon Fiber Straps</h3>
+                <p>
+                  Carbon fiber is 10 times stronger than steel in tension. Contractors apply these high-tech straps to the inside of the wall using industrial-strength epoxy.
+                </p>
+                <div className='flex flex-wrap gap-4 my-4'>
+                  <span className='bg-green-100 text-green-800 px-3 py-1 rounded text-sm font-bold'>✅ Low Profile (Can be painted over)</span>
+                  <span className='bg-green-100 text-green-800 px-3 py-1 rounded text-sm font-bold'>✅ No Excavation Required</span>
+                  <span className='bg-red-100 text-red-800 px-3 py-1 rounded text-sm font-bold'>❌ Cannot straighten the wall</span>
+                </div>
+
+                <h3>2. Steel I-Beams (PowerBraces)</h3>
+                <p>
+                  Vertical steel beams are bolted to the floor and the floor joists above. This creates a \"cage\" that prevents the wall from moving inward any further.
+                </p>
+
+                <h3>3. Wall Anchors</h3>
+                <p>
+                  This involves burying an \"anchor\" plate in your yard and connecting it to a plate on your basement wall via a long steel rod. By tightening the nut inside, you can actually pull the wall back toward its original position over time.
+                </p>
 
                 <h2>Frequently Asked Questions</h2>
                 <div className='space-y-6'>
-                  <div>
-                    <h4 className='font-bold'>How fast does a bowing wall get worse?</h4>
-                    <p>It depends on soil conditions and drainage. A wall can move a small amount over many years, or it can shift dramatically after a single major rain event. Monitoring with a level or plumb line monthly is recommended once bowing is detected.</p>
+                  <div className='border-b border-slate-200 pb-4'>
+                    <h4 className='font-bold text-slate-900'>Can I ignore a bowing wall?</h4>
+                    <p className='text-slate-600'>Absolutely not. Once a wall starts bowing, the structural integrity of the concrete is compromised. It will only get worse, never better, on its own.</p>
                   </div>
-                  <div>
-                    <h4 className='font-bold'>Do I need to get multiple quotes?</h4>
-                    <p>Absolutely. Get at least 3 quotes from companies that specialize in foundation repair, not general contractors. Also consider paying $300-$500 for an independent structural engineer's report before you accept any quote. This can save you thousands.</p>
+                  <div className='border-b border-slate-200 pb-4'>
+                    <h4 className='font-bold text-slate-900'>How long does repair take?</h4>
+                    <p className='text-slate-600'>Most strap or beam installations take 1–2 days. Wall anchors may take slightly longer if excavation is required in the yard.</p>
                   </div>
-                  <div>
-                    <h4 className='font-bold'>Is this covered by homeowners insurance?</h4>
-                    <p>In most cases, no. Standard homeowners insurance excludes damage from settling, hydrostatic pressure, and soil movement. However, if the damage was caused by a sudden event (like a burst water main), it may be covered. Review your specific policy.</p>
-                  </div>
-                  <div>
-                    <h4 className='font-bold'>What happens if I ignore a bowing wall?</h4>
-                    <p>The wall will continue to move inward, especially after each wet season. Eventually the horizontal crack widens, the wall starts to "step" inward, and you risk catastrophic failure — meaning the wall collapses and your home's structure above it is compromised. At that point, total replacement can run $30,000-$100,000+.</p>
-                  </div>
+                </div>
+
+                <div className='bg-blue-900 text-white p-10 rounded-2xl mt-12'>
+                  <h2 className='text-white mt-0'>Get a Professional Assessment</h2>
+                  <p className='text-blue-100 mb-8'>
+                    Structural repairs are not a DIY project. A mistake here can lead to home collapse or massive liability issues. Get a free, no-obligation quote from a structural specialist.
+                  </p>
+                  <Link href='/get-free-quotes' className='bg-teal-500 hover:bg-teal-400 text-white font-bold py-4 px-8 rounded-lg transition-colors inline-block'>
+                    Find Foundation Pros Near Me →
+                  </Link>
                 </div>
               </div>
             </div>
 
-            {/* Sidebar */}
-            <div className='lg:w-1/3'>
+            {/* Right Column: Sidebar */}
+            <div className='lg:col-span-4'>
               <div className='sticky top-8 space-y-8'>
-                <div className='bg-slate-50 p-8 rounded-2xl border border-slate-200'>
-                  <h3 className='font-bold text-xl mb-4'>Foundation Resources</h3>
-                  <div className='space-y-4'>
-                    <Link href='/articles/types-of-foundation-cracks' className='group block'>
-                      <span className='text-teal-600 text-xs font-bold uppercase'>Diagnosis Guide</span>
-                      <span className='block font-bold text-slate-800 group-hover:text-indigo-600 transition-colors'>Foundation Crack Guide</span>
-                    </Link>
-                    <Link href='/articles/basement-vs-crawl-space-vs-slab' className='group block'>
-                      <span className='text-blue-600 text-xs font-bold uppercase'>Foundation Comparison</span>
-                      <span className='block font-bold text-slate-800 group-hover:text-indigo-600 transition-colors'>Basement vs. Slab vs. Crawl</span>
-                    </Link>
+                <div className='bg-slate-50 p-8 rounded-xl border border-slate-200'>
+                  <h3 className='font-bold text-slate-900 mb-4'>Structural Glossary</h3>
+                  <div className='space-y-4 text-sm'>
+                    <div>
+                      <span className='font-bold block'>Deflection</span>
+                      <span className='text-slate-600'>The distance a wall has moved from its original plumb position.</span>
+                    </div>
+                    <div>
+                      <span className='font-bold block'>Expansive Clay</span>
+                      <span className='text-slate-600'>Soil that grows in volume when wet, putting pressure on foundations.</span>
+                    </div>
+                    <div>
+                      <span className='font-bold block'>Shearing</span>
+                      <span className='text-slate-600'>When the bottom of the wall slides inward over the floor slab.</span>
+                    </div>
                   </div>
+                </div>
+                
+                <div className='bg-blue-50 p-8 rounded-xl border border-blue-100'>
+                  <h3 className='font-bold text-blue-900 mb-4'>Cost Summary</h3>
+                  <ul className='space-y-2 text-sm text-blue-800'>
+                    <li>Strap System: $4k – $8k</li>
+                    <li>Beam System: $6k – $12k</li>
+                    <li>Anchor System: $5k – $15k</li>
+                  </ul>
+                  <Link href='/articles/foundation-repair-cost' className='text-blue-600 font-bold mt-4 block hover:underline'>
+                    Full Cost Breakdown →
+                  </Link>
                 </div>
               </div>
             </div>
