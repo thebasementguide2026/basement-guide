@@ -172,7 +172,7 @@ const guides = [
     title: 'How to Finish a Basement: The Complete 2026 Guide',
     description: 'From permits and moisture science to framing, egress, and lighting. The complete structural, legal, and aesthetic roadmap for finishing your basement in 2026.',
     href: '/articles/how-to-finish-a-basement',
-        image: '/finishing a basement guide.jpg',
+            image: '/finishing%20a%20basement%20guide.jpg',
     category: 'Finishing',
     readTime: '35 min read',
   },
