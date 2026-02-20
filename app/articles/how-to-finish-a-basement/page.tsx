@@ -75,7 +75,7 @@ export default function HowToFinishBasement() {
               </div>
 
               <h2 className='text-3xl font-bold text-slate-800 mb-6'>Phase 2: Moisture Science and the 48-Hour Audit</h2>
-              <p className='mb-8'>Water is the only thing that can truly kill a basement project. In 2026, we no longer just stop leaks\u2014we manage the movement of molecules. Concrete is a sponge; it is constantly breathing water vapor from the soil into your home.</p>
+              <p className='mb-8'>Water is the only thing that can truly kill a basement project. In 2026, we no longer just stop leaks—we manage the movement of molecules. Concrete is a sponge; it is constantly breathing water vapor from the soil into your home.</p>
 
               {/* Moisture Management Table */}
               <div className='mb-12 overflow-hidden rounded-2xl border border-slate-200'>
