@@ -15,7 +15,7 @@ export default function HowToFinishBasement() {
       {/* Article Hero */}
       <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
         <Image
-          src='/finishing a basement guide.jpg'
+                    src='/finishing%20a%20basement%20guide.jpg'
           alt='Basement finishing construction'
           fill
           className='object-cover opacity-45 scale-105 transition-transform duration-700 hover:scale-100'
