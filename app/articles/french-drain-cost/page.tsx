@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
+import LeadForm from '@/components/LeadForm'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -33,112 +34,119 @@ const faqSchema = {
 
 export default function FrenchDrainCostPage() {
   return (
-    <>
+    <div className='bg-white min-h-screen'>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
-      <article className="bg-white">
-        {/* Hero */}
-        <section className="bg-slate-800 text-white py-12">
-          <div className="container-custom max-w-4xl">
-            <div className="flex items-center gap-2 mb-4">
-              <Link href="/cost-guides" className="text-teal-400 text-sm hover:underline">
-                Cost Guides
-              </Link>
-              <span className="text-slate-500">›</span>
-              <span className="text-slate-400 text-sm">French Drain Cost</span>
-            </div>
-            <h1 className="text-4xl lg:text-5xl font-bold mb-4 leading-tight">
-              French Drain Installation Cost Guide 2026
-            </h1>
-            <div className="flex flex-wrap items-center gap-4 text-sm text-slate-400">
-              <span>By The Basement Guide Staff</span>
-              <span>·</span>
-              <span>Last updated: February 2026</span>
-              <span>·</span>
-              <span>12 min read</span>
+      
+      {/* Article Hero */}
+      <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
+        <Image
+          src='/french-drain-trench.jpg'
+          alt='French drain installation for cost guide'
+          fill
+          className='object-cover opacity-45 scale-105 transition-transform duration-700 hover:scale-100'
+          priority
+        />
+        <div className='absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent' />
+        <div className='relative h-full max-w-7xl mx-auto px-6 flex flex-col justify-end pb-20'>
+          <div className='flex items-center space-x-3 mb-8'>
+            <div className='w-12 h-px bg-violet-500'></div>
+            <span className='text-violet-400 font-bold tracking-[0.3em] text-sm uppercase'>Cost Guide</span>
+          </div>
+          <h1 className='text-5xl md:text-7xl font-black text-white mb-6 leading-[0.9] tracking-tighter'>
+            French Drain<br />
+            <span className='text-violet-400'>Cost Guide 2026</span>
+          </h1>
+          <p className='text-xl text-slate-300 max-w-2xl mb-10 font-medium leading-relaxed'>
+            Protect your foundation and yard. Real price data from $10 to $85 per linear foot, with full breakdowns by installation type.
+          </p>
+          <div className='flex items-center space-x-4'>
+            <div className='flex items-center bg-slate-800/50 backdrop-blur-md rounded-full px-6 py-3 border border-slate-700/50 shadow-2xl'>
+              <div className='w-10 h-10 rounded-full bg-gradient-to-tr from-violet-600 to-purple-400 flex items-center justify-center text-white font-bold text-sm mr-4'>
+                BG
+              </div>
+              <div className='flex flex-col'>
+                <span className='text-white font-bold text-sm'>The Basement Guide Staff</span>
+                <div className='flex items-center text-slate-400 text-xs font-medium'>
+                  <span>Updated Feb 2026</span>
+                  <span className='mx-2 text-slate-600'>•</span>
+                  <span>12 min read</span>
+                </div>
+              </div>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <div className="container-custom max-w-4xl py-10">
+      {/* Main Content */}
+      <main className='max-w-4xl mx-auto px-6 py-24'>
+        <div className='prose prose-lg prose-slate max-w-none prose-headings:text-slate-900 prose-headings:font-black prose-headings:tracking-tight prose-p:text-slate-600 prose-p:leading-relaxed prose-a:text-violet-600 prose-a:no-underline hover:prose-a:underline'>
           {/* Quick Answer Box */}
-          <div className="bg-teal-50 border-l-4 border-teal-600 rounded-r-xl p-6 mb-10">
-            <p className="text-xs font-bold text-teal-700 uppercase tracking-wide mb-2">Quick Answer</p>
-            <p className="text-slate-800 text-lg font-semibold mb-3">
-              A French drain costs <strong>$5,000</strong> on average in 2026.
+          <div className='bg-violet-50 border-l-4 border-violet-600 rounded-r-3xl p-8 mb-16 not-prose shadow-sm'>
+            <p className='text-xs font-bold text-violet-700 uppercase tracking-widest mb-3'>Quick Answer</p>
+            <p className='text-slate-900 text-2xl font-bold mb-4'>
+              A French drain costs <span className='text-violet-600'>$5,000</span> on average in 2026.
             </p>
-            <p className="text-gray-600 text-sm">
+            <p className='text-slate-600 leading-relaxed font-medium'>
               Expect to pay <strong>$10–$35 per linear foot</strong> for exterior yard drains and <strong>$40–$85 per linear foot</strong> for interior basement systems.
             </p>
           </div>
 
-          <div className="prose prose-lg max-w-none mb-10 text-gray-700 leading-relaxed">
-            <p>
-              Whether you're dealing with a swampy backyard or a basement that seeps during every storm, a French drain is the gold standard for water management. But the cost varies wildly depending on one factor: <strong>Location</strong>.
-            </p>
+          <p className='text-2xl font-medium text-slate-800 leading-relaxed mb-12 border-l-4 border-violet-500 pl-8'>
+            Whether you're dealing with a swampy backyard or a basement that seeps during every storm, a French drain is the gold standard for water management. But the cost varies wildly depending on one factor: <strong>Location</strong>.
+          </p>
+
+          <h2 className='text-4xl mb-6'>2026 French Drain Price Breakdown</h2>
+          
+          <div className='grid grid-cols-1 md:grid-cols-2 gap-6 my-12 not-prose'>
+            <div className='bg-slate-50 rounded-3xl p-8 border border-slate-100'>
+              <div className='text-slate-900 font-black text-xl mb-4'>Interior (Basement)</div>
+              <div className='text-3xl font-black text-violet-600 mb-2'>$4,000 – $12,000+</div>
+              <div className='text-slate-500 text-sm mb-6 font-medium'>Typical for 1,000 sq. ft. basement</div>
+              <ul className='space-y-3 text-slate-600 font-medium'>
+                <li className='flex items-center'><span className='text-violet-500 mr-2'>✔</span> Concrete jackhammering</li>
+                <li className='flex items-center'><span className='text-violet-500 mr-2'>✔</span> Perforated pipe & gravel</li>
+                <li className='flex items-center'><span className='text-violet-500 mr-2'>✔</span> New sump pump & pit</li>
+              </ul>
+            </div>
+            <div className='bg-slate-900 rounded-3xl p-8 text-white'>
+              <div className='text-white font-black text-xl mb-4'>Exterior (Yard/Foundation)</div>
+              <div className='text-3xl font-black text-violet-400 mb-2'>$2,800 – $6,500</div>
+              <div className='text-slate-400 text-sm mb-6 font-medium'>Typical 100-foot installation</div>
+              <ul className='space-y-3 text-slate-300 font-medium'>
+                <li className='flex items-center'><span className='text-violet-400 mr-2'>✔</span> Trench excavation</li>
+                <li className='flex items-center'><span className='text-violet-400 mr-2'>✔</span> Geotextile filter fabric</li>
+                <li className='flex items-center'><span className='text-violet-400 mr-2'>✔</span> Drainage rock & topsoil</li>
+              </ul>
+            </div>
           </div>
 
-          {/* Cost Tables */}
-          <section className="mb-14">
-            <h2 className="text-2xl font-bold text-slate-800 mb-6 text-center">2026 French Drain Price Breakdown</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="bg-white border border-gray-200 rounded-xl overflow-hidden">
-                <div className="bg-slate-100 p-4 font-bold text-slate-800 border-b border-gray-200">
-                  Interior (Basement)
-                </div>
-                <div className="p-6">
-                  <p className="text-3xl font-bold text-teal-600 mb-2">$4,000 – $12,000</p>
-                  <p className="text-sm text-gray-500 mb-4">Typical for a 1,000 sq. ft. basement</p>
-                  <ul className="text-sm space-y-2 text-gray-600">
-                    <li className="flex items-center gap-2">✔ Concrete jackhammering</li>
-                    <li className="flex items-center gap-2">✔ Perforated pipe & gravel</li>
-                    <li className="flex items-center gap-2">✔ New sump pump & pit</li>
-                  </ul>
-                </div>
-              </div>
-              <div className="bg-white border border-gray-200 rounded-xl overflow-hidden">
-                <div className="bg-slate-100 p-4 font-bold text-slate-800 border-b border-gray-200">
-                  Exterior (Yard/Foundation)
-                </div>
-                <div className="p-6">
-                  <p className="text-3xl font-bold text-teal-600 mb-2">$2,800 – $6,500</p>
-                  <p className="text-sm text-gray-500 mb-4">Typical 100-foot installation</p>
-                  <ul className="text-sm space-y-2 text-gray-600">
-                    <li className="flex items-center gap-2">✔ Trench excavation</li>
-                    <li className="flex items-center gap-2">✔ Geotextile filter fabric</li>
-                    <li className="flex items-center gap-2">✔ Drainage rock & topsoil</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </section>
+          <h2 className='text-4xl mb-6'>Key Cost Factors</h2>
+          <p>
+            What makes one 50-foot drain cost twice as much as another?
+          </p>
+          <ul>
+            <li><strong>Trench Depth:</strong> Shallow yard drains (12-18") are cheap. Deep foundation drains (6-8 feet) require heavy machinery and shoring.</li>
+            <li><strong>Obstructions:</strong> Driveways, sidewalks, and utility lines add significantly to labor time.</li>
+            <li><strong>Concrete Disposal:</strong> For interior drains, hauling away old concrete slabs adds $500–$1,000 to the bill.</li>
+          </ul>
 
-          <section className="mb-14 prose prose-slate max-w-none">
-            <h2 className="text-slate-800">Key Cost Factors</h2>
-            <p>What makes one 50-foot drain cost twice as much as another?</p>
-            <ul>
-              <li><strong>Trench Depth:</strong> Shallow yard drains (12-18") are cheap. Deep foundation drains (6-8 feet) require heavy machinery and shoring.</li>
-              <li><strong>Obstructions:</strong> Driveways, sidewalks, and utility lines add significantly to labor time.</li>
-              <li><strong>Concrete Disposal:</strong> For interior drains, hauling away old concrete slabs adds $500–$1,000 to the bill.</li>
-            </ul>
-          </section>
-
-          {/* Final CTA */}
-          <div className="bg-teal-600 rounded-2xl p-8 lg:p-12 text-white text-center">
-            <h2 className="text-3xl font-bold mb-4">Need a Professional Quote?</h2>
-            <p className="mb-8 opacity-90 max-w-lg mx-auto">
-              Get an accurate estimate for your specific yard or basement layout from local drainage experts.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/get-free-quotes" className="bg-white text-teal-700 px-8 py-4 rounded-lg font-bold text-lg">
-                Find Local Pros →
-              </Link>
+          <div className='bg-violet-600 rounded-3xl p-12 text-white my-20 shadow-xl shadow-violet-200 relative overflow-hidden not-prose'>
+            <div className='absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full -mr-32 -mt-32' />
+            <div className='relative z-10 text-center max-w-2xl mx-auto'>
+              <h2 className='text-3xl font-black text-white mb-4'>Get a Professional Quote</h2>
+              <p className='text-violet-100 text-lg mb-10'>
+                Get an accurate estimate for your specific yard or basement layout from local drainage experts.
+              </p>
+              <div className='bg-white rounded-2xl p-8 text-slate-900 shadow-2xl'>
+                <LeadForm />
+              </div>
             </div>
           </div>
         </div>
-      </article>
-    </>
+      </main>
+    </div>
   )
 }
