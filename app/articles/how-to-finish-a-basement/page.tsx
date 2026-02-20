@@ -42,7 +42,7 @@ export default function HowToFinishBasement() {
               <div>
                 <p className='text-white font-bold text-sm leading-none mb-1'>The Basement Guide Staff</p>
                 <p className='text-slate-400 text-xs flex items-center'>
-                  Updated Feb 2026 <span className='mx-2'>\u2022</span> 35 min read
+                  Updated Feb 2026 <span className='mx-2'>•</span> 35 min read
                 </p>
               </div>
             </div>
