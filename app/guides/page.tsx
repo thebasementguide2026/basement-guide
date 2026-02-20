@@ -12,7 +12,7 @@ const guides = [
     title: 'How to Prevent Basement Mold: The Definitive Guide',
     description: 'Mold isn\'t just an eyesore—it\'s a biological threat. Learn the 5 pillars of permanent mold prevention for your basement.',
     href: '/articles/how-to-prevent-basement-mold',
-    image: '/basement-mold-wall.jpg',
+        image: '/mold3.png',
     category: 'Health & Safety',
     readTime: '22 min read',
   },
