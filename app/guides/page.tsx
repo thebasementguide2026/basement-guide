@@ -34,7 +34,7 @@ const guides = [
   },
   {
     title: 'How to Prevent Basement Mold: The Definitive Guide',
-    description: "Mold isn't just an eyesore—it's a biological threat. Learn the 5 pillars of permanent mold prevention for your basement.",
+    description: "Mold isn't just an eyesore\u2014it's a biological threat. Learn the 5 pillars of permanent mold prevention for your basement.",
     href: '/articles/how-to-prevent-basement-mold',
     image: '/mold3.png',
     category: 'Health & Safety',
@@ -114,7 +114,7 @@ const guides = [
   },
   {
     title: 'Foundation Crack Repair Cost 2026',
-    description: 'Epoxy injection vs. polyurethane foam. Expect to pay $350–$1,500 per crack depending on severity and method.',
+    description: 'Epoxy injection vs. polyurethane foam. Expect to pay $350\u20131,500 per crack depending on severity and method.',
     href: '/articles/foundation-crack-repair-cost',
     image: '/foundation-crack-closeup.jpg',
     category: 'Cost Guide',
@@ -122,7 +122,7 @@ const guides = [
   },
   {
     title: 'French Drain Installation Cost 2026',
-    description: 'Full cost breakdown for yard and interior French drains. Average $1,000–$6,500 depending on length and type.',
+    description: 'Full cost breakdown for yard and interior French drains. Average $1,000\u20136,500 depending on length and type.',
     href: '/articles/french-drain-cost',
     image: '/french-drain-trench.jpg',
     category: 'Cost Guide',
@@ -138,7 +138,7 @@ const guides = [
   },
   {
     title: 'Mold Remediation Cost 2026',
-    description: 'Professional mold removal costs $500–$10,000+ by area size. What drives the price and when to call a pro.',
+    description: 'Professional mold removal costs $500\u2013$10,000+ by area size. What drives the price and when to call a pro.',
     href: '/articles/mold-remediation-cost',
     image: '/dimple-mat-drainage-board.jpg.png',
     category: 'Health & Safety',
@@ -152,56 +152,64 @@ const guides = [
     category: 'Cost Guide',
     readTime: '11 min read',
   },
+  {
+    title: 'Sump Pump Buying Guide: How to Choose the Right One (2026)',
+    description: 'From horsepower to pump types, everything you need to know to choose the right sump pump and protect your basement from flooding.',
+    href: '/articles/sump-pump-buying-guide',
+    image: '/sump-pump-installation.jpg.png',
+    category: 'Buying Guide',
+    readTime: '12 min read',
+  },
+  {
+    title: 'Why Your Basement Floods Even With a Sump Pump',
+    description: 'Having a sump pump does not guarantee a dry basement. Here are the most common reasons it is still failing you\u2014and what to do about each one.',
+    href: '/articles/why-basement-floods-with-sump-pump',
+    image: '/basement-flooding.jpg',
+    category: 'Troubleshooting',
+    readTime: '10 min read',
+  },
 ]
 
 export default function GuidesPage() {
   return (
-    <div className="bg-gray-50 min-h-screen">
+    <div className='bg-white min-h-screen'>
+
       {/* Hero Section */}
-      <section className="bg-slate-800 text-white py-16">
-        <div className="container-custom">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">All Basement Guides</h1>
-          <p className="text-slate-300 text-lg max-w-2xl">
-            In-depth guides written for real homeowners — not contractors. Plain English, current data, honest advice.
-          </p>
-          <p className="text-teal-400 text-sm mt-3 font-medium">{guides.length} guides published</p>
+      <section className='bg-slate-900 py-20 px-6'>
+        <div className='max-w-4xl mx-auto'>
+          <h1 className='text-4xl md:text-5xl font-bold text-white mb-4'>All Basement Guides</h1>
+          <p className='text-slate-300 text-xl mb-6'>In-depth guides written for real homeowners &mdash; not contractors. Plain English, current data, honest advice.</p>
+          <p className='text-teal-400 font-semibold'>{guides.length}&nbsp;<span className='text-slate-400 font-normal'>guides published</span></p>
         </div>
       </section>
 
       {/* Guides Grid */}
-      <section className="py-12">
-        <div className="container-custom">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {guides.map((guide) => (
-              <Link 
-                key={guide.href}
-                href={guide.href}
-                className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-gray-100 flex flex-col"
-              >
-                <div className="relative h-52">
-                  <Image
-                    src={guide.image}
-                    alt={guide.title}
-                    fill
-                    className="object-cover"
-                  />
+      <section className='max-w-5xl mx-auto px-6 py-16'>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
+          {guides.map((guide) => (
+            <Link key={guide.href} href={guide.href} className='group block rounded-2xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-lg transition-shadow duration-300'>
+              <div className='relative h-52'>
+                <Image
+                  src={guide.image}
+                  alt={guide.title}
+                  fill
+                  className='object-cover'
+                />
+              </div>
+              <div className='p-6 flex flex-col flex-1'>
+                <div className='flex items-center gap-2 mb-3'>
+                  <span className='bg-teal-50 text-teal-700 text-xs font-semibold px-3 py-1 rounded-full'>{guide.category}</span>
+                  <span className='text-gray-400 text-xs'>{guide.readTime}</span>
                 </div>
-                <div className="p-6 flex flex-col flex-1">
-                  <div className="flex items-center gap-2 mb-3">
-                    <span className="bg-teal-50 text-teal-700 text-xs font-semibold px-2 py-1 rounded">
-                      {guide.category}
-                    </span>
-                    <span className="text-gray-400 text-xs">{guide.readTime}</span>
-                  </div>
-                  <h2 className="font-bold text-slate-800 text-xl mb-2">{guide.title}</h2>
-                  <p className="text-gray-500 text-sm flex-1">{guide.description}</p>
-                  <span className="text-teal-600 font-semibold text-sm mt-4">Read Guide &rarr;</span>
-                </div>
-              </Link>
-            ))}
-          </div>
+                <h2 className='font-bold text-slate-800 text-xl mb-2'>{guide.title}</h2>
+                <p className='text-gray-500 text-sm flex-1'>{guide.description}</p>
+                <span className='text-teal-600 font-semibold text-sm mt-4'>Read Guide &rarr;</span>
+              </div>
+            </Link>
+          ))}
         </div>
       </section>
+
     </div>
   )
 }
