@@ -210,7 +210,7 @@ export default function BasementFinishingCost() {
                   {[
                     { title: 'The Complete Finishing Guide', slug: 'how-to-finish-a-basement' },
                     { title: 'Basement Insulation Guide', slug: 'basement-insulation-guide' },
-                    { title: 'Egress Window Cost Guide', slug: 'egress-window-installation-cost' }
+                    { title: 'Egress Window Cost Guide', slug: 'egress-window-cost' }
                   ].map((article) => (
                     <Link key={article.slug} href={`/articles/${article.slug}`} className='group block p-4 bg-white border border-slate-100 rounded-2xl hover:border-violet-200 hover:shadow-md transition-all'>
                       <p className='text-slate-900 font-bold group-hover:text-violet-600 transition-colors'>{article.title}</p>
