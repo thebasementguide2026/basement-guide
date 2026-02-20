@@ -1,137 +1,194 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import LeadForm from '@/components/LeadForm';
+import type { Metadata } from 'next';
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Basement Insulation: The Complete 2026 Guide',
   description: 'Rigid foam vs. spray foam vs. mineral wool for basement walls. Learn how to stop energy loss, prevent condensation, and choose the right R-value for your climate.',
 };
 
 export default function BasementInsulationGuide() {
   return (
-    <article className="max-w-4xl mx-auto px-4 py-12">
-      <nav className="mb-8">
-        <Link href="/" className="text-teal-600 hover:underline">← Back to Guides</Link>
-      </nav>
-
-      <header className="mb-12">
-        <div className="flex items-center gap-2 mb-4">
-          <span className="bg-blue-50 text-blue-700 text-xs font-semibold px-2 py-1 rounded">Insulation</span>
-          <span className="text-gray-400 text-xs">15 min read</span>
-        </div>
-        <h1 className="text-4xl md:text-5xl font-extrabold text-slate-900 mb-4">
-          Basement Insulation: The 2026 Guide
-        </h1>
-        <p className="text-xl text-slate-600 leading-relaxed">
-          Proper basement insulation can cut heating and cooling costs by 20–30% and eliminate condensation problems that lead to mold. This guide covers every insulation type, R-value requirements, and the right method for your basement walls, rim joists, and ceiling.
-        </p>
-      </header>
-
-      <div className="relative w-full h-64 md:h-80 rounded-2xl overflow-hidden mb-12">
+    <div className="bg-white min-h-screen">
+      {/* Article Hero */}
+      <section className="relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden">
         <Image
           src="/foundation-waterproofing-construction.jpg.png"
           alt="Basement wall insulation installation"
           fill
-          className="object-cover"
+          className="object-cover opacity-50 scale-105 transition-transform duration-700 hover:scale-100"
           priority
         />
-      </div>
-
-      <section className="mb-12">
-        <h2 className="text-3xl font-bold text-slate-900 mb-6">Insulation Types Compared</h2>
-        <div className="grid md:grid-cols-3 gap-6">
-          <div className="bg-slate-50 p-6 rounded-xl border border-slate-200">
-            <h3 className="text-xl font-bold mb-2">Rigid Foam (XPS/EPS)</h3>
-            <p className="text-2xl font-extrabold text-teal-600 mb-2">R-5 per inch</p>
-            <p className="text-slate-600">Most popular for basement walls. Moisture-resistant, continuous coverage eliminates thermal bridging. XPS (blue/pink boards) offers slightly better moisture resistance than EPS.</p>
+        <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/40 to-transparent" />
+        
+        <div className="absolute inset-0 flex items-center">
+          <div className="container mx-auto px-6 w-full">
+            <div className="max-w-4xl">
+              <div className="flex items-center gap-3 mb-8">
+                <span className="h-px w-12 bg-orange-500" />
+                <span className="text-orange-400 text-sm font-black uppercase tracking-[0.3em]">
+                  Efficiency Masterclass
+                </span>
+              </div>
+              
+              <h1 className="text-5xl md:text-7xl font-black text-white mb-8 leading-[1.1] tracking-tight">
+                Basement Insulation: <br className="hidden md:block" />
+                The 2026 Guide
+              </h1>
+              
+              <p className="text-xl md:text-2xl text-slate-200 mb-10 leading-relaxed max-w-2xl font-light">
+                Proper basement insulation can cut heating and cooling costs by 20–30% and eliminate condensation problems that lead to mold.
+              </p>
+              
+              <div className="flex items-center gap-6 p-1 pr-6 bg-white/5 backdrop-blur-md rounded-full w-fit border border-white/10">
+                <div className="w-14 h-14 bg-gradient-to-br from-orange-500 to-red-600 rounded-full flex items-center justify-center text-white font-bold text-xl">
+                  BG
+                </div>
+                <div>
+                  <div className="text-white font-bold tracking-wide">The Basement Guide Staff</div>
+                  <div className="flex items-center gap-3 text-slate-400 text-sm">
+                    <span>Updated Feb 2026</span>
+                    <span className="w-1 h-1 bg-slate-600 rounded-full" />
+                    <span>15 min read</span>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="bg-slate-50 p-6 rounded-xl border border-slate-200">
-            <h3 className="text-xl font-bold mb-2">Closed-Cell Spray Foam</h3>
-            <p className="text-2xl font-extrabold text-teal-600 mb-2">R-6.5 per inch</p>
-            <p className="text-slate-600">Highest R-value per inch. Acts as both insulation and vapor barrier. Excellent for rim joists and irregular surfaces. Higher cost ($1–$2/sqft installed) but most complete solution.</p>
+        </div>
+      </section>
+
+      {/* Main Content */}
+      <main className="container mx-auto px-6 py-20">
+        <div className="max-w-4xl mx-auto">
+          {/* Intro Section */}
+          <div className="prose prose-slate prose-lg max-w-none mb-20">
+            <p className="text-xl leading-relaxed text-slate-600 italic border-l-4 border-orange-500 pl-6 mb-12">
+              This guide covers every insulation type, R-value requirements, and the right method for your basement walls, rim joists, and ceiling.
+            </p>
+
+            <h2 className="text-3xl font-black text-slate-900 mb-8 uppercase tracking-tight">Insulation Types Compared</h2>
+            <p>To choose the right material, you must understand the trade-offs between cost, R-value, and moisture resistance.</p>
           </div>
-          <div className="bg-slate-50 p-6 rounded-xl border border-slate-200">
-            <h3 className="text-xl font-bold mb-2">Mineral Wool (Rockwool)</h3>
-            <p className="text-2xl font-extrabold text-teal-600 mb-2">R-3 to R-4 per inch</p>
-            <p className="text-slate-600">Fire-resistant, vapor-permeable, and excellent soundproofing. Best for above-grade basement walls or finished spaces. Requires vapor barrier in cold climates.</p>
+
+          {/* Types Grid */}
+          <div className="grid md:grid-cols-3 gap-8 mb-20">
+            {[
+              { 
+                title: 'Rigid Foam (XPS/EPS)', 
+                r: 'R-5', 
+                desc: 'Most popular for basement walls. Moisture-resistant, continuous coverage eliminates thermal bridging.',
+                color: 'bg-blue-500' 
+              },
+              { 
+                title: 'Spray Foam', 
+                r: 'R-6.5', 
+                desc: 'Highest R-value per inch. Acts as both insulation and vapor barrier. Excellent for rim joists.',
+                color: 'bg-orange-500' 
+              },
+              { 
+                title: 'Mineral Wool', 
+                r: 'R-4', 
+                desc: 'Fire-resistant, vapor-permeable, and excellent soundproofing. Best for above-grade walls.',
+                color: 'bg-emerald-500' 
+              }
+            ].map((type, i) => (
+              <div key={i} className="bg-slate-50 rounded-3xl p-8 border border-slate-200 relative overflow-hidden group hover:shadow-2xl transition-all duration-500">
+                <div className={`w-12 h-12 ${type.color} rounded-2xl mb-6 flex items-center justify-center text-white font-bold shadow-lg`}>
+                  {type.r}
+                </div>
+                <h3 className="text-xl font-bold text-slate-900 mb-4">{type.title}</h3>
+                <p className="text-slate-600 leading-relaxed text-sm">{type.desc}</p>
+              </div>
+            ))}
+          </div>
+
+          {/* R-Value Requirements */}
+          <section className="mb-20">
+            <h2 className="text-3xl font-black text-slate-900 mb-10 uppercase tracking-tight">R-Value Requirements by Climate Zone</h2>
+            <div className="space-y-4">
+              {[
+                { zone: 'Zones 1–2', area: 'South Florida, Gulf Coast', spec: 'R-13 minimum', color: 'border-yellow-200' },
+                { zone: 'Zones 3–4', area: 'Mid-Atlantic, PNW', spec: 'R-15 to R-19', color: 'border-orange-200' },
+                { zone: 'Zones 5–6', area: 'Northeast, Upper Midwest', spec: 'R-15 to R-20', color: 'border-red-200' },
+                { zone: 'Zones 7–8', area: 'Northern Border, Alaska', spec: 'R-20+', color: 'border-purple-200' }
+              ].map((item, i) => (
+                <div key={i} className={`flex items-center justify-between p-6 bg-white border ${item.color} rounded-2xl shadow-sm hover:shadow-md transition-shadow`}>
+                  <div>
+                    <span className="font-black text-slate-900 block">{item.zone}</span>
+                    <span className="text-slate-500 text-sm">{item.area}</span>
+                  </div>
+                  <div className="text-right">
+                    <span className="text-lg font-bold text-slate-900">{item.spec}</span>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </section>
+
+          {/* Location Table */}
+          <section className="mb-20">
+            <h2 className="text-3xl font-black text-slate-900 mb-10 uppercase tracking-tight text-center">Where to Insulate</h2>
+            <div className="overflow-x-auto rounded-3xl border border-slate-200 shadow-sm">
+              <table className="w-full text-left border-collapse">
+                <thead>
+                  <tr className="bg-slate-50">
+                    <th className="p-6 font-black text-slate-900 uppercase text-xs tracking-widest">Location</th>
+                    <th className="p-6 font-black text-slate-900 uppercase text-xs tracking-widest">Best Method</th>
+                    <th className="p-6 font-black text-slate-900 uppercase text-xs tracking-widest text-right">Target R-Value</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-slate-100">
+                  {[
+                    { loc: 'Foundation Walls', method: '2" rigid foam + framing', r: 'R-15+' },
+                    { loc: 'Rim Joists', method: 'Closed-cell spray foam', r: 'R-13' },
+                    { loc: 'Basement Ceiling', method: 'Fiberglass batts', r: 'R-30+' },
+                    { loc: 'Slab Floor', method: '1–2" EPS under subfloor', r: 'R-5 to R-10' }
+                  ].map((row, i) => (
+                    <tr key={i} className="hover:bg-slate-50 transition-colors">
+                      <td className="p-6 text-slate-900 font-bold">{row.loc}</td>
+                      <td className="p-6 text-slate-600">{row.method}</td>
+                      <td className="p-6 text-slate-900 font-black text-right">{row.r}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          {/* Condensation Section */}
+          <section className="bg-slate-900 rounded-[3rem] p-12 mb-20 relative overflow-hidden text-white">
+            <div className="relative z-10 max-w-2xl">
+              <h2 className="text-3xl font-black mb-6 uppercase tracking-tight">The Condensation Problem</h2>
+              <p className="text-slate-300 text-lg leading-relaxed mb-8">
+                The most common insulation mistake in basements is placing vapor-impermeable insulation on the warm side of the wall — trapping moisture inside the assembly and causing mold on the framing.
+              </p>
+              <div className="flex items-center gap-4 p-6 bg-white/10 rounded-2xl border border-white/10">
+                <div className="text-2xl">⚠️</div>
+                <div className="text-sm font-medium">
+                  <span className="text-orange-400 font-black block mb-1 uppercase tracking-widest">Key Rule</span>
+                  Keep the Dew Point Outside the Assembly. Rigid foam between concrete and framing is essential.
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* Lead Form CTA */}
+          <div className="bg-orange-600 rounded-[3rem] p-12 text-white relative overflow-hidden shadow-2xl shadow-orange-200">
+            <div className="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full -mr-32 -mt-32 blur-3xl" />
+            <div className="relative z-10 text-center max-w-2xl mx-auto">
+              <h2 className="text-4xl font-black mb-6">Get Insulation Quotes</h2>
+              <p className="text-orange-100 text-xl mb-12 font-light">
+                A properly insulated basement pays for itself in energy savings. Compare quotes from licensed contractors who specialize in basement insulation.
+              </p>
+              <div className="bg-white rounded-[2rem] p-8 text-slate-900 shadow-2xl">
+                <LeadForm />
+              </div>
+            </div>
           </div>
         </div>
-      </section>
-
-      <section className="mb-12 bg-teal-50 p-8 rounded-2xl border border-teal-100">
-        <h2 className="text-2xl font-bold text-teal-900 mb-4">R-Value Requirements by Climate Zone</h2>
-        <ul className="space-y-4 text-slate-700">
-          <li><strong>Zones 1–2 (South Florida, Gulf Coast):</strong> R-13 minimum for basement walls. Focus on vapor control — humidity is the primary issue, not heat loss.</li>
-          <li><strong>Zones 3–4 (Mid-Atlantic, Pacific Northwest):</strong> R-15 to R-19 for walls. New York falls in Zone 5 — R-15 continuous or R-19 cavity required by code.</li>
-          <li><strong>Zones 5–6 (Northeast, Upper Midwest):</strong> R-15 to R-20 walls. Rim joist insulation critical — often the largest source of heat loss in older homes.</li>
-          <li><strong>Zones 7–8 (Northern Canada border, Alaska):</strong> R-20+ walls, R-38 rim joists. Thermal bridging must be eliminated through continuous exterior insulation.</li>
-          <li><strong>New York State (Zone 5):</strong> IRC 2021 requires R-15 continuous or R-19 cavity + thermal break for new construction.</li>
-        </ul>
-      </section>
-
-      <section className="mb-12">
-        <h2 className="text-3xl font-bold text-slate-900 mb-6">Where to Insulate in Your Basement</h2>
-        <div className="overflow-x-auto">
-          <table className="w-full border-collapse text-sm">
-            <thead>
-              <tr className="bg-slate-100">
-                <th className="text-left p-4 font-semibold text-slate-700">Location</th>
-                <th className="text-left p-4 font-semibold text-slate-700">Best Method</th>
-                <th className="text-left p-4 font-semibold text-slate-700">Target R-Value (Zone 5)</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr className="border-b border-slate-100">
-                <td className="p-4 font-medium">Foundation Walls</td>
-                <td className="p-4">2" rigid foam + framing or spray foam</td>
-                <td className="p-4 font-bold text-teal-600">R-15 continuous</td>
-              </tr>
-              <tr className="border-b border-slate-100 bg-slate-50">
-                <td className="p-4 font-medium">Rim Joists</td>
-                <td className="p-4">Closed-cell spray foam (2")</td>
-                <td className="p-4 font-bold text-teal-600">R-13 minimum</td>
-              </tr>
-              <tr className="border-b border-slate-100">
-                <td className="p-4 font-medium">Basement Ceiling (unheated)</td>
-                <td className="p-4">Fiberglass batts between joists</td>
-                <td className="p-4 font-bold text-teal-600">R-30 to R-38</td>
-              </tr>
-              <tr className="border-b border-slate-100 bg-slate-50">
-                <td className="p-4 font-medium">Slab Floor</td>
-                <td className="p-4">1–2" EPS under subfloor</td>
-                <td className="p-4 font-bold text-teal-600">R-5 to R-10</td>
-              </tr>
-              <tr>
-                <td className="p-4 font-medium">Window Wells</td>
-                <td className="p-4">Rigid foam cover</td>
-                <td className="p-4 font-bold text-teal-600">R-5</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="mb-12">
-        <h2 className="text-3xl font-bold text-slate-900 mb-6">The Condensation Problem: Why It Matters</h2>
-        <p className="text-lg text-slate-600 mb-4">
-          The most common insulation mistake in basements is placing vapor-impermeable insulation on the warm side of the wall — trapping moisture inside the assembly and causing mold on the framing. In cold climates, the vapor retarder belongs on the interior (warm) side.
-        </p>
-        <div className="bg-amber-50 border border-amber-200 rounded-xl p-6">
-          <h3 className="font-bold text-amber-900 mb-2">Key Rule: Keep the Dew Point Outside the Assembly</h3>
-          <p className="text-amber-800">Rigid foam on the interior face of the foundation wall (between concrete and framing) keeps the framing warm and dry. Never place fiberglass batts directly against concrete — moisture will condense on the cold surface and cause mold.</p>
-        </div>
-      </section>
-
-      <div className="bg-teal-600 rounded-2xl p-8 lg:p-12 text-white text-center">
-        <h2 className="text-3xl font-bold mb-4">Get Insulation Quotes for Your Basement</h2>
-        <p className="mb-8 opacity-90 max-w-lg mx-auto">
-          A properly insulated basement pays for itself in energy savings. Get free quotes from local insulation contractors today.
-        </p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Link href="/#get-quotes" className="bg-white text-teal-700 px-8 py-4 rounded-lg font-bold hover:bg-teal-50 transition shadow-lg">
-            Get Free Quotes →
-          </Link>
-        </div>
-      </div>
-    </article>
+      </main>
+    </div>
   );
 }
