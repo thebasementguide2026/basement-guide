@@ -176,6 +176,14 @@ const guides = [
     category: 'Finishing',
     readTime: '35 min read',
   },
+    {
+    title: 'Smart Sump Pumps & Leak Sensors: The 2026 Guide',
+    description: 'Everything you need to know about smart sump pumps, IoT leak sensors, and Wi-Fi flood monitoring. Matter protocol, battery backups, and top picks for 2026.',
+    href: '/articles/smart-sump-pumps-guide',
+    image: '/smart-home-leak-sensors.jpg.jpg',
+    category: 'Smart Home',
+    readTime: '16 min read',
+  },
 ]
 
 export default function GuidesPage() {
