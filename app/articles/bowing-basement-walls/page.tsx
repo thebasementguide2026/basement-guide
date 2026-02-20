@@ -13,7 +13,7 @@ export default function BowingWallsArticle() {
       {/* Article Hero */}
       <section className="relative h-[60vh] min-h-[400px] bg-slate-900">
         <Image
-          src="/foundation-concrete-forms.jpg.png" // Temporary placeholder
+          src="/bowed-walled.jpg"
           alt="Bowing basement wall with structural cracks"
           fill
           className="object-cover opacity-60"
