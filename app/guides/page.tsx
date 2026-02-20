@@ -1,12 +1,10 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import type { Metadata } from 'next'
-
 export const metadata: Metadata = {
   title: 'Basement Guides | The Basement Guide',
   description: 'In-depth basement waterproofing, finishing, and maintenance guides for homeowners. Expert advice written in plain English.',
 }
-
 const guides = [
   {
     title: 'Bowing Basement Walls: Causes, Repair Methods & Cost',
@@ -68,9 +66,17 @@ const guides = [
     title: "Basement Finishing Cost Guide 2026: What You'll Actually Pay",
     description: "How much does it cost to finish a basement in 2026? Real pricing from $20 to $75 per sq ft, full breakdowns by size, room type, and region.",
     href: '/articles/basement-finishing-cost',
-    image: '/unfinished-basement-interior.jpg.png',
+    image: '/unfinished-basement-interior.jpg.jpg',
     category: 'Cost Guide',
     readTime: '18 min read',
+  },
+  {
+    title: 'Egress Window Installation Cost 2026',
+    description: 'How much does it cost to install an egress window in 2026? Permits, excavation, drainage, and labor costs explained. Average $2,500\u2013$5,500 fully installed.',
+    href: '/articles/egress-window-cost',
+    image: '/unfinished-basement-interior.jpg.jpg',
+    category: 'Cost Guide',
+    readTime: '12 min read',
   },
   {
     title: 'The Pre-Finish Audit: 7 Critical Checkpoints',
@@ -172,33 +178,22 @@ const guides = [
     title: 'How to Finish a Basement: The Complete 2026 Guide',
     description: 'From permits and moisture science to framing, egress, and lighting. The complete structural, legal, and aesthetic roadmap for finishing your basement in 2026.',
     href: '/articles/how-to-finish-a-basement',
-            image: '/finishing%20a%20basement%20guide.jpg',
+    image: '/finishing%20a%20basement%20guide.jpg',
     category: 'Finishing',
     readTime: '35 min read',
   },
-    {
-    title: 'Smart Sump Pumps & Leak Sensors: The 2026 Guide',
-    description: 'Everything you need to know about smart sump pumps, IoT leak sensors, and Wi-Fi flood monitoring. Matter protocol, battery backups, and top picks for 2026.',
-    href: '/articles/smart-sump-pumps-guide',
-    image: '/smart-home-leak-sensors.jpg.jpg',
-    category: 'Smart Home',
-    readTime: '16 min read',
-  },
 ]
-
 export default function GuidesPage() {
   return (
     <div className='bg-white min-h-screen'>
-
       {/* Hero Section */}
       <section className='bg-slate-900 py-20 px-6'>
         <div className='max-w-4xl mx-auto'>
           <h1 className='text-4xl md:text-5xl font-bold text-white mb-4'>All Basement Guides</h1>
-          <p className='text-slate-300 text-xl mb-6'>In-depth guides written for real homeowners &mdash; not contractors. Plain English, current data, honest advice.</p>
+          <p className='text-slate-300 text-xl mb-6'>In-depth guides written for real homeowners — not contractors. Plain English, current data, honest advice.</p>
           <p className='text-teal-400 font-semibold'>{guides.length}&nbsp;<span className='text-slate-400 font-normal'>guides published</span></p>
         </div>
       </section>
-
       {/* Guides Grid */}
       <section className='max-w-5xl mx-auto px-6 py-16'>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
@@ -219,13 +214,12 @@ export default function GuidesPage() {
                 </div>
                 <h2 className='font-bold text-slate-800 text-xl mb-2'>{guide.title}</h2>
                 <p className='text-gray-500 text-sm flex-1'>{guide.description}</p>
-                <span className='text-teal-600 font-semibold text-sm mt-4'>Read Guide &rarr;</span>
+                <span className='text-teal-600 font-semibold text-sm mt-4'>Read Guide →</span>
               </div>
             </Link>
           ))}
         </div>
       </section>
-
     </div>
   )
 }
