@@ -4,8 +4,8 @@ import LeadForm from '@/components/LeadForm'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Interior vs. Exterior Basement Waterproofing: The 2026 Comparison Guide',
-  description: 'Should you waterproof your basement from the inside or outside? A deep dive into costs, methods, lifespan, and which is right for your home.',
+  title: 'Interior vs. Exterior Basement Waterproofing: The Enhanced 2026 Comparison Guide',
+  description: 'Stopping water vs. managing it. We break down the costs, methods, and lifespan of the two primary ways to dry your basement.',
 }
 
 export default function InteriorVsExteriorGuide() {
@@ -24,7 +24,7 @@ export default function InteriorVsExteriorGuide() {
         <div className='relative h-full max-w-7xl mx-auto px-6 flex flex-col justify-end pb-20'>
           <div className='flex items-center space-x-3 mb-8'>
             <div className='w-12 h-px bg-teal-500'></div>
-            <span className='text-teal-400 font-bold tracking-[0.3em] text-sm uppercase'>Comparison Guide</span>
+            <span className='text-teal-400 font-bold tracking-[0.3em] text-sm uppercase'>Expanded Edition</span>
           </div>
           <h1 className='text-5xl md:text-7xl font-black text-white mb-6 leading-[0.9] tracking-tighter'>
             Interior vs. Exterior<br />
@@ -43,7 +43,7 @@ export default function InteriorVsExteriorGuide() {
                 <div className='flex items-center text-slate-400 text-xs font-medium'>
                   <span>Updated Feb 2026</span>
                   <span className='mx-2 text-slate-600'>•</span>
-                  <span>25 min read</span>
+                  <span>35 min read</span>
                 </div>
               </div>
             </div>
@@ -72,23 +72,28 @@ export default function InteriorVsExteriorGuide() {
               <tbody className='divide-y divide-slate-100'>
                 <tr>
                   <td className='p-6 font-bold text-slate-900 bg-slate-50/50'>Primary Goal</td>
-                  <td className='p-6 text-slate-600'>Water Management</td>
-                  <td className='p-6 text-slate-600'>Water Prevention</td>
+                  <td className='p-6 text-slate-600'>Water Management (Redirects water)</td>
+                  <td className='p-6 text-slate-600'>Water Prevention (Blocks water)</td>
                 </tr>
                 <tr>
-                  <td className='p-6 font-bold text-slate-900 bg-slate-50/50'>Average Cost</td>
-                  <td className='p-6 text-teal-600 font-black'>$3,000 – $8,000</td>
-                  <td className='p-6 text-blue-600 font-black'>$15,000 – $35,000+</td>
+                  <td className='p-6 font-bold text-slate-900 bg-slate-50/50'>Average Cost (1k sq ft)</td>
+                  <td className='p-6 text-teal-600 font-black'>$3,000 – $10,000</td>
+                  <td className='p-6 text-blue-600 font-black'>$5,000 – $25,000</td>
                 </tr>
                 <tr>
                   <td className='p-6 font-bold text-slate-900 bg-slate-50/50'>Lifespan</td>
-                  <td className='p-6 text-slate-600'>Lifetime (w/ pump)</td>
-                  <td className='p-6 text-slate-600'>20 – 40 Years</td>
+                  <td className='p-6 text-slate-600'>Lifetime (with maintenance)</td>
+                  <td className='p-6 text-slate-600'>20 – 50 Years</td>
                 </tr>
                 <tr>
                   <td className='p-6 font-bold text-slate-900 bg-slate-50/50'>Invasiveness</td>
-                  <td className='p-6 text-slate-600'>Moderate (Inside)</td>
-                  <td className='p-6 text-slate-600'>High (Excavation)</td>
+                  <td className='p-6 text-slate-600'>Moderate (Interior disruption)</td>
+                  <td className='p-6 text-slate-600'>High (Full excavation)</td>
+                </tr>
+                <tr>
+                  <td className='p-6 font-bold text-slate-900 bg-slate-50/50'>Disruption Time</td>
+                  <td className='p-6 text-slate-600'>2–5 days</td>
+                  <td className='p-6 text-slate-600'>1–2 weeks</td>
                 </tr>
               </tbody>
             </table>
@@ -96,43 +101,56 @@ export default function InteriorVsExteriorGuide() {
 
           <h2 className='text-4xl mb-6'>The Science of Basement Water</h2>
           <p>
-            To choose the right method, you first must understand the enemy. Your basement isn't just a room; it's a hollow box submerged in a sea of soil and groundwater.
+            To choose the right method, you first must understand the enemy. Your basement isn't just a room; it's a hollow box submerged in a sea of soil and groundwater. Water issues aren't random—they stem from physics and environmental factors.
           </p>
-          
+
           <h3 className='text-2xl font-bold mt-10 mb-4'>Hydrostatic Pressure: The Driving Force</h3>
           <p>
-            When it rains, the soil around your home becomes saturated. Water is heavy—a single cubic foot of saturated soil can weigh 120 pounds. As water levels rise, it creates <strong>hydrostatic pressure</strong> against your foundation walls and floor.
+            When it rains or snow melts, the soil around your home becomes saturated. Water is heavy—a single cubic foot of saturated soil can weigh over 120 pounds. As water levels rise, it creates <strong>hydrostatic pressure</strong> against your foundation walls and floor. This pressure forces water through cracks, pores in concrete, or joints, leading to leaks and structural damage.
           </p>
 
           <div className='bg-teal-50 rounded-3xl p-12 my-16 border border-teal-100 not-prose'>
-            <h2 className='text-3xl font-black text-teal-900 mb-6'>Interior Waterproofing</h2>
+            <h2 className='text-3xl font-black text-teal-900 mb-6'>Interior Waterproofing: Managing Water from Within</h2>
             <p className='text-lg text-slate-700 mb-8 font-medium'>
-              Interior waterproofing is the most common solution for existing homes. Instead of trying to fight the massive force of the earth, it works <em>with</em> the water by giving it a controlled path to exit.
+              Interior waterproofing works with the water by giving it a controlled path to exit. It's ideal for basements with occasional seepage but doesn't prevent water from contacting your foundation.
             </p>
             <div className='grid md:grid-cols-2 gap-8'>
               <div className='bg-white p-8 rounded-2xl shadow-sm border border-teal-200'>
-                <h4 className='font-black text-teal-900 mb-4 uppercase tracking-widest text-sm'>The Advantages</h4>
+                <h4 className='font-black text-teal-900 mb-4 uppercase tracking-widest text-sm'>Key Methods & Advantages</h4>
                 <ul className='space-y-3 text-slate-600 font-medium'>
-                  <li className='flex gap-2'><span className='text-teal-500'>✔</span> Usually 1/3 the price</li>
+                  <li className='flex gap-2'><span className='text-teal-500'>✔</span> French Drains & Perforated Pipes</li>
+                  <li className='flex gap-2'><span className='text-teal-500'>✔</span> Modern Sump Pumps with Smart Alerts</li>
+                  <li className='flex gap-2'><span className='text-teal-500'>✔</span> Usually 1/3 the price of exterior</li>
                   <li className='flex gap-2'><span className='text-teal-500'>✔</span> Landscaping stays untouched</li>
-                  <li className='flex gap-2'><span className='text-teal-500'>✔</span> Finished in 2–4 days</li>
                 </ul>
               </div>
               <div className='bg-white p-8 rounded-2xl shadow-sm border border-slate-200'>
                 <h4 className='font-black text-slate-400 mb-4 uppercase tracking-widest text-sm'>The Disadvantages</h4>
                 <ul className='space-y-3 text-slate-500 font-medium'>
-                  <li className='flex gap-2'><span>–</span> Water still touches walls</li>
-                  <li className='flex gap-2'><span>–</span> Messy jackhammering</li>
-                  <li className='flex gap-2'><span>–</span> Reliant on sump pump</li>
+                  <li className='flex gap-2'><span>–</span> Water still touches foundation walls</li>
+                  <li className='flex gap-2'><span>–</span> Messy installation (jackhammering)</li>
+                  <li className='flex gap-2'><span>–</span> Reliant on sump pump performance</li>
+                  <li className='flex gap-2'><span>–</span> Doesn't address grading or root issues</li>
                 </ul>
               </div>
             </div>
           </div>
 
-          <h2 className='text-4xl mb-6'>Exterior Waterproofing</h2>
+          <h2 className='text-4xl mb-6'>Exterior Waterproofing: Preventing Water at the Source</h2>
           <p>
-            Exterior waterproofing is the gold standard for foundation protection. It involves physically sealing the foundation from the outside, ensuring that water never touches the concrete.
+            Exterior waterproofing is the gold standard, involving physically sealing the foundation from the outside. In 2026, advancements like eco-friendly membranes and smart drainage sensors have made it more efficient.
           </p>
+
+          <div className='bg-blue-50 rounded-3xl p-8 my-12 border border-blue-100 not-prose'>
+            <h4 className='font-black text-blue-900 mb-4 uppercase tracking-widest text-sm'>Process Steps</h4>
+            <ol className='list-decimal list-inside space-y-2 text-slate-700 font-medium'>
+              <li>Excavation to the foundation footer (8-10 feet deep)</li>
+              <li>Cleaning, power-washing, and crack repair (epoxy/polyurethane)</li>
+              <li>Application of waterproof membranes (rubberized asphalt or polymer)</li>
+              <li>Installation of exterior French drains and drainage mats</li>
+              <li>Backfilling with gravel and yard regrading</li>
+            </ol>
+          </div>
 
           <div className='relative h-96 rounded-3xl overflow-hidden my-12 shadow-2xl not-prose'>
             <Image 
@@ -146,6 +164,36 @@ export default function InteriorVsExteriorGuide() {
               <p className='text-teal-400 font-black uppercase tracking-widest text-sm mb-2'>Full Prevention</p>
               <h4 className='text-3xl font-black'>Seal the Problem at the Source</h4>
             </div>
+          </div>
+
+          <h3 className='text-2xl font-bold mt-10 mb-4'>Membrane Comparison (2026 Data)</h3>
+          <div className='overflow-x-auto rounded-3xl border border-slate-200 shadow-sm not-prose mb-16'>
+            <table className='w-full text-left border-collapse'>
+              <thead>
+                <tr className='bg-slate-50'>
+                  <th className='p-4 font-black text-slate-900 uppercase text-xs tracking-widest'>Type</th>
+                  <th className='p-4 font-black text-slate-900 uppercase text-xs tracking-widest'>Pros</th>
+                  <th className='p-4 font-black text-slate-900 uppercase text-xs tracking-widest'>Cost/sqft</th>
+                </tr>
+              </thead>
+              <tbody className='divide-y divide-slate-100'>
+                <tr>
+                  <td className='p-4 font-bold text-slate-900'>Sheet Membranes</td>
+                  <td className='p-4 text-slate-600'>Consistent thickness, quick install</td>
+                  <td className='p-4 text-slate-600'>$3–$7</td>
+                </tr>
+                <tr>
+                  <td className='p-4 font-bold text-slate-900'>Cementitious</td>
+                  <td className='p-4 text-slate-600'>Bonds to damp concrete</td>
+                  <td className='p-4 text-slate-600'>$2–$5</td>
+                </tr>
+                <tr>
+                  <td className='p-4 font-bold text-slate-900'>Crystalline</td>
+                  <td className='p-4 text-slate-600'>Self-healing, integral to concrete</td>
+                  <td className='p-4 text-slate-600'>$4–$8</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
 
           <div className='bg-slate-900 rounded-3xl p-12 text-white my-20 shadow-xl shadow-teal-900/20 relative overflow-hidden not-prose'>
