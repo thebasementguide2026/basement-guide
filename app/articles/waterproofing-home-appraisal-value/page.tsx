@@ -14,7 +14,7 @@ export default function WaterproofingAppraisalValueArticle() {
       {/* Article Hero */}
       <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
         <Image
-          src='/waterproofing-home-appraisal-value.jpg'
+          src='/Home apprasial .jpg'
           alt='Professional basement waterproofing adding value to home appraisal'
           fill
           className='object-cover opacity-45 scale-105 transition-transform duration-700 hover:scale-110'
