@@ -14,7 +14,7 @@ export default function DehumidifierMythsArticle() {
       {/* Article Hero */}
       <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
         <Image
-          src='/dehumidifier-myths.jpg'
+                    src='/Dehumidifier Myths-hero image.jpg'
           alt='Dehumidifier in a basement controlling humidity levels'
           fill
           className='object-cover opacity-45 scale-105 transition-transform duration-700 hover:scale-100'
