@@ -14,7 +14,7 @@ export default function HomebuyersBasementInspectionChecklist() {
       {/* Article Hero */}
       <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
         <Image
-          src='/homebuyers-basement-inspection-checklist.jpg'
+          src='/homebuyers checklist.jpg'
           alt='Homebuyer inspecting a basement during a house showing'
           fill
           className='object-cover opacity-45 scale-105 transition-transform duration-700 hover:scale-100'
