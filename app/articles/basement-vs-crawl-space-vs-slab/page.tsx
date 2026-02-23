@@ -464,6 +464,37 @@ export default function FoundationComparisonArticle() {
 
           {/* Lead Form CTA */}
           <div className='bg-slate-900 rounded-[2rem] p-12 text-white mt-20 relative overflow-hidden shadow-2xl not-prose'>
+
+                      {/* Related Guides */}
+          <div className='border-t border-slate-100 pt-16 mt-16'>
+            <h2 className='text-3xl font-bold text-slate-900 mb-8'>Related Guides</h2>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-4 not-prose'>
+              <Link href='/articles/basement-waterproofing-cost' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Basement Waterproofing Cost Guide</h4>
+                <p className='text-slate-600 text-sm'>What to expect for professional waterproofing pricing in 2026.</p>
+              </Link>
+              <Link href='/articles/types-of-foundation-cracks' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Types of Foundation Cracks</h4>
+                <p className='text-slate-600 text-sm'>Identify which cracks are cosmetic and which signal serious issues.</p>
+              </Link>
+              <Link href='/articles/how-to-finish-a-basement' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>How to Finish a Basement</h4>
+                <p className='text-slate-600 text-sm'>Step-by-step guide to finishing your basement and adding value.</p>
+              </Link>
+              <Link href='/articles/radon-and-basement-waterproofing' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Radon & Basement Waterproofing</h4>
+                <p className='text-slate-600 text-sm'>How sealing your home reduces radon risks and prevents water damage.</p>
+              </Link>
+              <Link href='/articles/basement-insulation-guide' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Basement Insulation Guide</h4>
+                <p className='text-slate-600 text-sm'>Proper insulation for your foundation type and climate.</p>
+              </Link>
+              <Link href='/articles/french-drain-cost' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>French Drain Cost Guide</h4>
+                <p className='text-slate-600 text-sm'>Drainage solutions for every foundation type.</p>
+              </Link>
+            </div>
+          </div>
             <div className='absolute top-0 right-0 w-64 h-64 bg-teal-500/10 rounded-full -mr-32 -mt-32 blur-3xl' />
             <div className='relative z-10 text-center max-w-2xl mx-auto'>
               <h2 className='text-3xl font-black text-white mb-4'>Get a Foundation Estimate</h2>
