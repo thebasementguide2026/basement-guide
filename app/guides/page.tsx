@@ -218,7 +218,7 @@ const guides = [
     title: 'How to Hire a Basement Waterproofing Contractor Without Getting Scammed',
     description: 'A step-by-step guide to vetting contractors, spotting scams, asking the right questions, and getting realistic 2026 pricing.',
     href: '/articles/how-to-hire-basement-waterproofing-contractor',
-    image: '/placeholder-hero.jpg',
+    image: '/hire-waterproofing-contractor.jpg',
     category: 'Hiring Guide',
     readTime: '20 min read',
   },
