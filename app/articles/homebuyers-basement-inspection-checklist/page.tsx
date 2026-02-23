@@ -4,7 +4,7 @@ import LeadForm from '@/components/LeadForm'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'The Homebuyer\u2019s Basement Inspection Checklist: Don\u2019t Buy a Money Pit',
+  title: 'The Homebuyer's Basement Inspection Checklist: Don't Buy a Money Pit',
   description: 'A detailed 2026 homebuyer basement inspection checklist to spot red flags like hidden mold, fresh paint cover-ups, water damage, and foundation issues before you buy.',
 }
 
@@ -27,11 +27,11 @@ export default function HomebuyersBasementInspectionChecklist() {
             <span className='text-teal-400 font-bold tracking-[0.3em] text-sm uppercase'>Expanded Edition</span>
           </div>
           <h1 className='text-5xl md:text-7xl font-black text-white mb-6 leading-[0.9] tracking-tighter'>
-            Homebuyer\u2019s Basement<br />
+            Homebuyer's Basement<br />
             <span className='text-teal-400'>Inspection Checklist</span>
           </h1>
           <p className='text-xl text-slate-300 max-w-2xl mb-10 font-medium leading-relaxed'>
-            Don\u2019t buy a money pit. Spot hidden water damage, mold, foundation issues, and fresh-paint cover-ups before you sign.
+            Don't buy a money pit. Spot hidden water damage, mold, foundation issues, and fresh-paint cover-ups before you sign.
           </p>
           <div className='flex items-center space-x-4'>
             <div className='flex items-center bg-slate-800/50 backdrop-blur-md rounded-full px-6 py-3 border border-slate-700/50 shadow-2xl'>
@@ -57,7 +57,7 @@ export default function HomebuyersBasementInspectionChecklist() {
             Sellers sometimes use quick fixes like fresh paint to mask serious problems, especially mold or water stains, hoping buyers overlook them during walkthroughs.
           </p>
           <p>
-            In this comprehensive 2026 guide we provide a detailed homebuyer\u2019s basement inspection checklist focused on spotting red flags early. We emphasize how to detect fresh paint used to hide mold or water damage, explain common signs of trouble, and offer tips on what to do next. Use this during showings, open houses, or before your professional home inspection to protect your investment and negotiate effectively.
+            In this comprehensive 2026 guide we provide a detailed homebuyer's basement inspection checklist focused on spotting red flags early. We emphasize how to detect fresh paint used to hide mold or water damage, explain common signs of trouble, and offer tips on what to do next. Use this during showings, open houses, or before your professional home inspection to protect your investment and negotiate effectively.
           </p>
           <p>
             Always hire a qualified home inspector for a full evaluation, but your own eyes and nose can catch issues that trigger deeper scrutiny. Basements are prone to moisture in many regions, so pay close attention.
@@ -190,7 +190,7 @@ export default function HomebuyersBasementInspectionChecklist() {
             {/* Step 4 - Fresh Paint */}
             <div className='bg-amber-50 border-2 border-amber-300 rounded-2xl p-8 my-8 not-prose'>
               <h3 className='text-2xl font-bold text-slate-900 mb-2'>4. Spotting Fresh Paint Used to Hide Mold or Water Damage</h3>
-              <p className='text-amber-800 font-medium mb-6'>Sellers sometimes apply a quick coat of paint over problem areas to make the basement look clean. Here\u2019s how to detect it:</p>
+              <p className='text-amber-800 font-medium mb-6'>Sellers sometimes apply a quick coat of paint over problem areas to make the basement look clean. Here's how to detect it:</p>
               <div className='space-y-4'>
                 <div className='flex items-start space-x-3'>
                   <span className='text-amber-600 font-bold text-lg mt-0.5'>&#128269;</span>
@@ -284,7 +284,7 @@ export default function HomebuyersBasementInspectionChecklist() {
               <div className='space-y-4'>
                 <div className='flex items-start space-x-3'>
                   <span className='text-red-500 font-bold text-lg mt-0.5'>&#9888;</span>
-                  <p className='text-slate-700'><strong>High radon potential:</strong> Basements are prime spots \u2014 ask about prior testing.</p>
+                  <p className='text-slate-700'><strong>High radon potential:</strong> Basements are prime spots — ask about prior testing.</p>
                 </div>
                 <div className='flex items-start space-x-3'>
                   <span className='text-red-500 font-bold text-lg mt-0.5'>&#9888;</span>
@@ -356,11 +356,42 @@ export default function HomebuyersBasementInspectionChecklist() {
           <div className='border-t border-slate-100 pt-16 mt-16'>
             <h2 className='text-3xl font-bold text-slate-900 mb-6'>Final Thoughts</h2>
             <p>
-              A thorough basement inspection during home buying prevents expensive surprises. Trust your senses \u2014 especially smell \u2014 and look beyond surface appearances like fresh paint. Use this checklist to spot potential money pits early, then rely on professionals for confirmation.
+              A thorough basement inspection during home buying prevents expensive surprises. Trust your senses — especially smell — and look beyond surface appearances like fresh paint. Use this checklist to spot potential money pits early, then rely on professionals for confirmation.
             </p>
             <p>
-              Protect your future home by being vigilant. A dry, sound basement adds value \u2014 a problematic one can drain your budget.
+              Protect your future home by being vigilant. A dry, sound basement adds value — a problematic one can drain your budget.
             </p>
+          </div>
+
+                    {/* Related Guides */}
+          <div className='border-t border-slate-100 pt-16 mt-16'>
+            <h2 className='text-3xl font-bold text-slate-900 mb-8'>Related Guides</h2>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-4 not-prose'>
+              <Link href='/articles/how-to-prevent-basement-mold' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>How to Prevent Basement Mold</h4>
+                <p className='text-slate-600 text-sm'>Learn the critical steps to prevent mold growth and protect your family.</p>
+              </Link>
+              <Link href='/articles/types-of-foundation-cracks' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Types of Foundation Cracks</h4>
+                <p className='text-slate-600 text-sm'>Identify which cracks are cosmetic and which signal serious structural issues.</p>
+              </Link>
+              <Link href='/articles/radon-and-basement-waterproofing' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Radon & Basement Waterproofing</h4>
+                <p className='text-slate-600 text-sm'>How sealing your home reduces radon risks and prevents water damage.</p>
+              </Link>
+              <Link href='/articles/complete-basement-waterproofing-guide' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Complete Basement Waterproofing Guide</h4>
+                <p className='text-slate-600 text-sm'>Everything you need to know about keeping your basement dry.</p>
+              </Link>
+              <Link href='/articles/mold-remediation-cost' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Mold Remediation Cost Guide</h4>
+                <p className='text-slate-600 text-sm'>What to expect for professional mold removal pricing in 2026.</p>
+              </Link>
+              <Link href='/articles/sump-pump-buying-guide' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Sump Pump Buying Guide</h4>
+                <p className='text-slate-600 text-sm'>Choose the right sump pump to protect your basement from flooding.</p>
+              </Link>
+            </div>
           </div>
 
           {/* Lead Form CTA */}
