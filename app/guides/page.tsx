@@ -182,6 +182,30 @@ const guides = [
     category: 'Finishing',
     readTime: '35 min read',
   },
+    {
+    title: 'Dehumidifier Myths: Why Your 30-Pint Unit Is Failing',
+    description: 'Why your 30-pint unit is failing and the science-based guidelines to choose the right dehumidifier for your space.',
+    href: '/articles/dehumidifier-myths',
+    image: '/Dehumidifier%20Myths-hero%20image.jpg',
+    category: 'Health & Safety',
+    readTime: '30 min read',
+  },
+  {
+    title: 'Radon and Basement Waterproofing: How Sealing Reduces Radon Risks',
+    description: 'How sealing your home reduces radon risks and prevents water damage — your complete 2026 guide.',
+    href: '/articles/radon-and-basement-waterproofing',
+    image: '/Radon%20and%20waterproofing.jpg',
+    category: 'Health & Safety',
+    readTime: '28 min read',
+  },
+  {
+    title: 'How Much Value Does Waterproofing Add to Your Home Appraisal?',
+    description: 'A professionally waterproofed basement protects your home and boosts its market appeal — here\'s what the numbers say for 2026.',
+    href: '/articles/waterproofing-home-appraisal-value',
+    image: '/Home%20apprasial%20.jpg',
+    category: 'Home Value',
+    readTime: '22 min read',
+  },
 ]
 export default function GuidesPage() {
   return (
