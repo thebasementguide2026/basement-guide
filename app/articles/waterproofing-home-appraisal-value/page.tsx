@@ -371,6 +371,37 @@ export default function WaterproofingAppraisalValueArticle() {
             </p>
           </div>
 
+                    {/* Related Guides */}
+          <div className='border-t border-slate-100 pt-16 mt-16'>
+            <h2 className='text-3xl font-bold text-slate-900 mb-8'>Related Guides</h2>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-4 not-prose'>
+              <Link href='/articles/basement-waterproofing-cost' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Basement Waterproofing Cost Guide</h4>
+                <p className='text-slate-600 text-sm'>What to expect for professional waterproofing pricing in 2026.</p>
+              </Link>
+              <Link href='/articles/homebuyers-basement-inspection-checklist' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Homebuyer's Basement Inspection Checklist</h4>
+                <p className='text-slate-600 text-sm'>Spot hidden water damage, mold, and foundation issues before you buy.</p>
+              </Link>
+              <Link href='/articles/how-to-finish-a-basement' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>How to Finish a Basement</h4>
+                <p className='text-slate-600 text-sm'>Step-by-step guide to finishing your basement and adding value.</p>
+              </Link>
+              <Link href='/articles/interior-vs-exterior-waterproofing' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Interior vs. Exterior Waterproofing</h4>
+                <p className='text-slate-600 text-sm'>Compare methods to find the best waterproofing solution for your home.</p>
+              </Link>
+              <Link href='/articles/mold-remediation-cost' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Mold Remediation Cost Guide</h4>
+                <p className='text-slate-600 text-sm'>What to expect for professional mold removal pricing in 2026.</p>
+              </Link>
+              <Link href='/articles/basement-finishing-cost' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Basement Finishing Cost Guide</h4>
+                <p className='text-slate-600 text-sm'>Budget estimates for finishing your basement in 2026.</p>
+              </Link>
+            </div>
+          </div>
+
           {/* Lead Form CTA */}
           <div className='bg-slate-900 rounded-[2rem] p-12 text-white mt-20 relative overflow-hidden shadow-2xl not-prose'>
             <div className='absolute top-0 right-0 w-64 h-64 bg-teal-500/10 rounded-full -mr-32 -mt-32 blur-3xl' />
