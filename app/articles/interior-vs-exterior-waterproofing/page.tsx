@@ -194,6 +194,37 @@ export default function InteriorVsExteriorGuide() {
                 </tr>
               </tbody>
             </table>
+
+                      {/* Related Guides */}
+          <div className='border-t border-slate-100 pt-16 mt-16'>
+            <h2 className='text-3xl font-bold text-slate-900 mb-8'>Related Guides</h2>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-4 not-prose'>
+              <Link href='/articles/basement-waterproofing-cost' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Basement Waterproofing Cost Guide</h4>
+                <p className='text-slate-600 text-sm'>What to expect for professional waterproofing pricing in 2026.</p>
+              </Link>
+              <Link href='/articles/french-drain-cost' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>French Drain Cost Guide</h4>
+                <p className='text-slate-600 text-sm'>Costs for interior and exterior drainage solutions.</p>
+              </Link>
+              <Link href='/articles/waterproofing-home-appraisal-value' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Waterproofing & Home Appraisal Value</h4>
+                <p className='text-slate-600 text-sm'>How waterproofing boosts your home value and ROI.</p>
+              </Link>
+              <Link href='/articles/crystalline-waterproofing' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Crystalline Waterproofing Guide</h4>
+                <p className='text-slate-600 text-sm'>Self-healing waterproofing technology explained.</p>
+              </Link>
+              <Link href='/articles/sump-pump-buying-guide' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Sump Pump Buying Guide</h4>
+                <p className='text-slate-600 text-sm'>Choose the right sump pump to complement your waterproofing.</p>
+              </Link>
+              <Link href='/articles/homebuyers-basement-inspection-checklist' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Homebuyer's Basement Inspection Checklist</h4>
+                <p className='text-slate-600 text-sm'>Spot waterproofing issues before you buy a home.</p>
+              </Link>
+            </div>
+          </div>
           </div>
 
           <div className='bg-slate-900 rounded-3xl p-12 text-white my-20 shadow-xl shadow-teal-900/20 relative overflow-hidden not-prose'>
