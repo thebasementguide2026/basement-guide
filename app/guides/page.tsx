@@ -206,6 +206,14 @@ const guides = [
     category: 'Home Value',
     readTime: '22 min read',
   },
+    {
+    title: 'The Homebuyer\u2019s Basement Inspection Checklist',
+    description: 'Don\u2019t buy a money pit. A detailed 2026 checklist to spot hidden mold, fresh paint cover-ups, water damage, and foundation issues before you buy.',
+    href: '/articles/homebuyers-basement-inspection-checklist',
+    image: '/homebuyers-basement-inspection-checklist.jpg',
+    category: 'Buying Guide',
+    readTime: '25 min read',
+  },
 ]
 export default function GuidesPage() {
   return (
