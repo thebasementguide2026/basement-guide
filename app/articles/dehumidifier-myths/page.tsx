@@ -384,6 +384,37 @@ export default function DehumidifierMythsArticle() {
             </p>
           </div>
 
+
+                    {/* Related Guides */}
+          <div className='border-t border-slate-100 pt-16 mt-16'>
+            <h2 className='text-3xl font-bold text-slate-900 mb-8'>Related Guides</h2>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-4 not-prose'>
+              <Link href='/articles/how-to-prevent-basement-mold' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>How to Prevent Basement Mold</h4>
+                <p className='text-slate-600 text-sm'>Critical steps to prevent mold growth and protect your family.</p>
+              </Link>
+              <Link href='/articles/basement-insulation-guide' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Basement Insulation Guide</h4>
+                <p className='text-slate-600 text-sm'>Proper insulation works hand-in-hand with humidity control.</p>
+              </Link>
+              <Link href='/articles/basement-waterproofing-cost' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Basement Waterproofing Cost Guide</h4>
+                <p className='text-slate-600 text-sm'>What to expect for professional waterproofing pricing in 2026.</p>
+              </Link>
+              <Link href='/articles/sump-pump-buying-guide' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Sump Pump Buying Guide</h4>
+                <p className='text-slate-600 text-sm'>Choose the right sump pump to protect your basement from flooding.</p>
+              </Link>
+              <Link href='/articles/best-basement-flooring' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Best Basement Flooring Options</h4>
+                <p className='text-slate-600 text-sm'>Choose moisture-resistant flooring for your basement.</p>
+              </Link>
+              <Link href='/articles/mold-remediation-cost' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Mold Remediation Cost Guide</h4>
+                <p className='text-slate-600 text-sm'>What to expect for professional mold removal pricing in 2026.</p>
+              </Link>
+            </div>
+          </div>
           {/* Lead Form CTA */}
           <div className='bg-slate-900 rounded-[2rem] p-12 text-white mt-20 relative overflow-hidden shadow-2xl not-prose'>
             <div className='absolute top-0 right-0 w-64 h-64 bg-teal-500/10 rounded-full -mr-32 -mt-32 blur-3xl' />
