@@ -40,7 +40,7 @@
     <priority>0.5</priority>
   </url>
   
-  <!-- Articles (22 total) -->
+  <!-- Articles (25 total) -->
   <url>
     <loc>https://thebasement.guide/articles/basement-finishing-cost</loc>
     <lastmod>2026-02-20</lastmod>
@@ -170,6 +170,24 @@
   <url>
     <loc>https://thebasement.guide/articles/why-basement-floods-with-sump-pump</loc>
     <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+    <url>
+    <loc>https://thebasement.guide/articles/dehumidifier-myths</loc>
+    <lastmod>2026-02-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://thebasement.guide/articles/radon-and-basement-waterproofing</loc>
+    <lastmod>2026-02-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://thebasement.guide/articles/waterproofing-home-appraisal-value</loc>
+    <lastmod>2026-02-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
