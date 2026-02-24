@@ -14,7 +14,7 @@ export default function MustyBasementSmellArticle() {
       {/* Article Hero */}
       <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
         <Image
-          src='/Musty Basement Smell.jpg'
+          src='/%3AMusty%20Basement%20Smell.jpg'
           alt='Damp basement with visible moisture and condensation on walls'
           fill
           className='object-cover opacity-45 scale-105 transition-transform duration-700 hover:scale-100'
