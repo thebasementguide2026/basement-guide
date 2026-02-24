@@ -51,7 +51,7 @@ export default function HomebuyersBasementInspectionChecklist() {
       <main className='max-w-4xl mx-auto px-6 py-20'>
         <div className='prose prose-lg prose-slate max-w-none'>
           <p className='text-xl text-slate-700 leading-relaxed'>
-            Buying a home with a basement can add valuable space for storage, recreation, or even future living areas, but a problematic basement often becomes one of the most expensive regrets. Hidden water damage, mold growth, foundation issues, and poor drainage can turn a dream home into a costly money pit with repairs running tens of thousands of dollars.
+            Buying a home with a basement can add valuable space for storage, recreation, or even future living areas, but a problematic basement often becomes one of the most expensive regrets. Hidden water damage, <Link href="/articles/how-to-prevent-basement-mold" className="text-teal-400 underline hover:text-teal-300">mold growth</Link>, <Link href="/articles/types-of-foundation-cracks" className="text-teal-400 underline hover:text-teal-300">foundation issues</Link>, and poor drainage can turn a dream home into a costly money pit with repairs running tens of thousands of dollars.
           </p>
           <p>
             Sellers sometimes use quick fixes like fresh paint to mask serious problems, especially mold or water stains, hoping buyers overlook them during walkthroughs.
@@ -67,7 +67,7 @@ export default function HomebuyersBasementInspectionChecklist() {
           <div className='border-t border-slate-100 pt-16 mt-16'>
             <h2 className='text-3xl font-bold text-slate-900 mt-0 mb-6'>Why Basement Problems Are a Big Deal for Homebuyers</h2>
             <p>
-              Basements account for hidden defects in many homes. Water intrusion leads to mold, structural damage, and health risks. A damp or moldy basement can lower home value by 10 to 25 percent, require expensive waterproofing or remediation, and complicate financing or insurance. Spotting issues early lets you request repairs, credits, or walk away if problems are severe.
+              Basements account for hidden defects in many homes. Water intrusion leads to mold, structural damage, and health risks. A damp or moldy basement can <Link href="/articles/waterproofing-home-appraisal-value" className="text-teal-400 underline hover:text-teal-300">lower home value by 10 to 25 percent</Link>, require expensive <Link href="/articles/basement-waterproofing-cost" className="text-teal-400 underline hover:text-teal-300">waterproofing</Link> or <Link href="/articles/mold-remediation-cost" className="text-teal-400 underline hover:text-teal-300">remediation</Link>, and complicate financing or insurance. Spotting issues early lets you request repairs, credits, or walk away if problems are severe.
             </p>
             <div className='space-y-4 not-prose my-8'>
               <div className='flex items-start space-x-3'>
@@ -262,7 +262,7 @@ export default function HomebuyersBasementInspectionChecklist() {
                 </div>
                 <div className='flex items-start space-x-3'>
                   <span className='text-teal-500 font-bold text-lg mt-0.5'>&#10004;</span>
-                  <p className='text-slate-700'><strong>Sump pump:</strong> Test if possible, ask seller, listen for operation, and check discharge line.</p>
+                  <p className='text-slate-700'><strong><Link href="/articles/sump-pump-buying-guide" className="text-teal-400 underline hover:text-teal-300">Sump pump</Link>:</strong> Test if possible, ask seller, listen for operation, and check discharge line.</p>
                 </div>
                 <div className='flex items-start space-x-3'>
                   <span className='text-teal-500 font-bold text-lg mt-0.5'>&#10004;</span>
@@ -270,7 +270,7 @@ export default function HomebuyersBasementInspectionChecklist() {
                 </div>
                 <div className='flex items-start space-x-3'>
                   <span className='text-teal-500 font-bold text-lg mt-0.5'>&#10004;</span>
-                  <p className='text-slate-700'><strong>Windows and egress:</strong> Ensure windows open easily and have proper wells for emergency exit.</p>
+                  <p className='text-slate-700'><strong>Windows and <Link href="/articles/egress-window-cost" className="text-teal-400 underline hover:text-teal-300">egress</Link>:</strong> Ensure windows open easily and have proper wells for emergency exit.</p>
                 </div>
               </div>
               <div className='bg-red-50 border-l-4 border-red-500 p-4 rounded-r-xl mt-6'>
@@ -284,7 +284,7 @@ export default function HomebuyersBasementInspectionChecklist() {
               <div className='space-y-4'>
                 <div className='flex items-start space-x-3'>
                   <span className='text-red-500 font-bold text-lg mt-0.5'>&#9888;</span>
-                  <p className='text-slate-700'><strong>High radon potential:</strong> Basements are prime spots — ask about prior testing.</p>
+                  <p className='text-slate-700'><strong>High <Link href="/articles/radon-and-basement-waterproofing" className="text-teal-400 underline hover:text-teal-300">radon</Link> potential:</strong> Basements are prime spots — ask about prior testing.</p>
                 </div>
                 <div className='flex items-start space-x-3'>
                   <span className='text-red-500 font-bold text-lg mt-0.5'>&#9888;</span>
@@ -343,7 +343,7 @@ export default function HomebuyersBasementInspectionChecklist() {
               </div>
               <div className='border-b border-slate-100 pb-8'>
                 <h4 className='text-xl font-bold text-slate-900 mb-3'>How much could basement issues cost to fix?</h4>
-                <p className='text-slate-600 leading-relaxed'>Waterproofing averages $5,000 to $10,000, mold remediation $2,000 to $6,000+, and foundation repairs $10,000 or more.</p>
+                <p className='text-slate-600 leading-relaxed'><Link href="/articles/basement-waterproofing-cost" className="text-teal-400 underline hover:text-teal-300">Waterproofing averages $5,000 to $10,000</Link>, mold remediation $2,000 to $6,000+, and <Link href="/articles/foundation-crack-repair-cost" className="text-teal-400 underline hover:text-teal-300">foundation repairs $10,000</Link> or more.</p>
               </div>
               <div className='border-b border-slate-100 pb-8'>
                 <h4 className='text-xl font-bold text-slate-900 mb-3'>Should I skip the professional inspection if the basement looks fine?</h4>
@@ -359,7 +359,7 @@ export default function HomebuyersBasementInspectionChecklist() {
               A thorough basement inspection during home buying prevents expensive surprises. Trust your senses — especially smell — and look beyond surface appearances like fresh paint. Use this checklist to spot potential money pits early, then rely on professionals for confirmation.
             </p>
             <p>
-              Protect your future home by being vigilant. A dry, sound basement adds value — a problematic one can drain your budget.
+              Protect your future home by being vigilant. A dry, sound basement <Link href="/articles/waterproofing-home-appraisal-value" className="text-teal-400 underline hover:text-teal-300">adds value</Link> — a problematic one can drain your budget.
             </p>
           </div>
 
