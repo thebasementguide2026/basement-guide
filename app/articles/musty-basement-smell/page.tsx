@@ -46,7 +46,7 @@ export default function MustyBasementSmellArticle() {
       {/* Main Content */}
       <article className='max-w-4xl mx-auto px-6 py-16'>
         <p className='text-xl text-slate-700 leading-relaxed mb-8'>
-          That damp, earthy smell in your basement is extremely common, and it almost always means excess moisture is at work. Even without visible water, hidden dampness creates ideal conditions for mold, mildew, or decaying organic material to release musty microbial odors. Ignoring it can lead to bigger problems like mold growth, health issues, or damage to stored items and finishes.
+          That damp, earthy smell in your basement is extremely common, and it almost always means excess moisture is at work. Even without visible water, hidden dampness creates ideal conditions for mold, mildew, or decaying organic material to release musty microbial odors. Ignoring it can lead to bigger problems like <Link href='/articles/how-to-prevent-basement-mold' className='text-teal-600 underline hover:text-teal-800'>mold growth</Link>, health issues, or damage to stored items and finishes.
         </p>
         <p className='text-xl text-slate-700 leading-relaxed mb-12'>
           The good news is that most musty smells are fixable with the right steps. This guide covers why it happens, how to find the source (a key step many skip), quick DIY fixes, longer-term solutions, and when to call professionals.
@@ -190,7 +190,7 @@ export default function MustyBasementSmellArticle() {
           <div className='grid md:grid-cols-2 gap-6 mb-8'>
             <div className='bg-slate-50 rounded-2xl p-6'>
               <h3 className='text-xl font-bold text-slate-900 mb-3'>Run a Dehumidifier</h3>
-              <p className='text-slate-600'>Get a 50-pint or larger unit and run it continuously, aiming for 40&ndash;50% humidity. Connect a drain hose or empty the tank regularly. This alone often cuts the smell significantly within a week.</p>
+              <p className='text-slate-600'>Get a <Link href='/articles/dehumidifier-myths' className='text-teal-600 underline hover:text-teal-800'>50-pint or larger unit</Link> and run it continuously, aiming for 40&ndash;50% humidity. Connect a drain hose or empty the tank regularly. This alone often cuts the smell significantly within a week.</p>
             </div>
             <div className='bg-slate-50 rounded-2xl p-6'>
               <h3 className='text-xl font-bold text-slate-900 mb-3'>Improve Airflow</h3>
@@ -235,7 +235,7 @@ export default function MustyBasementSmellArticle() {
             <div className='flex items-start space-x-4 p-5 bg-white border border-slate-200 rounded-2xl shadow-sm'>
               <span className='flex-shrink-0 w-10 h-10 bg-teal-100 text-teal-700 rounded-xl flex items-center justify-center font-bold'>2</span>
               <div>
-                <h3 className='text-lg font-bold text-slate-900 mb-1'>Crystalline Waterproofing or Sealant</h3>
+                <h3 className='text-lg font-bold text-slate-900 mb-1'><Link href='/articles/crystalline-waterproofing' className='text-teal-600 underline hover:text-teal-800'>Crystalline Waterproofing</Link> or Sealant</h3>
                 <p className='text-slate-600'>Apply professional-grade waterproofing products to walls and floors to block moisture migration through concrete.</p>
               </div>
             </div>
@@ -243,14 +243,14 @@ export default function MustyBasementSmellArticle() {
               <span className='flex-shrink-0 w-10 h-10 bg-teal-100 text-teal-700 rounded-xl flex items-center justify-center font-bold'>3</span>
               <div>
                 <h3 className='text-lg font-bold text-slate-900 mb-1'>Interior Perimeter Drains and Sump Pump</h3>
-                <p className='text-slate-600'>If seepage is ongoing, a perimeter drainage system combined with a reliable sump pump is the gold standard for keeping water out.</p>
+                <p className='text-slate-600'>If seepage is ongoing, a <Link href='/articles/french-drain-cost' className='text-teal-600 underline hover:text-teal-800'>perimeter drainage system</Link> combined with a reliable <Link href='/articles/sump-pump-buying-guide' className='text-teal-600 underline hover:text-teal-800'>sump pump</Link> is the gold standard for keeping water out.</p>
               </div>
             </div>
             <div className='flex items-start space-x-4 p-5 bg-white border border-slate-200 rounded-2xl shadow-sm'>
               <span className='flex-shrink-0 w-10 h-10 bg-teal-100 text-teal-700 rounded-xl flex items-center justify-center font-bold'>4</span>
               <div>
                 <h3 className='text-lg font-bold text-slate-900 mb-1'>Improved Insulation and Vapor Barriers</h3>
-                <p className='text-slate-600'>Proper insulation paired with vapor barriers stops condensation at the source and prevents moisture from reaching interior surfaces.</p>
+                <p className='text-slate-600'><Link href='/articles/basement-insulation-guide' className='text-teal-600 underline hover:text-teal-800'>Proper insulation</Link> paired with vapor barriers stops condensation at the source and prevents moisture from reaching interior surfaces.</p>
               </div>
             </div>
             <div className='flex items-start space-x-4 p-5 bg-white border border-slate-200 rounded-2xl shadow-sm'>
@@ -277,12 +277,12 @@ export default function MustyBasementSmellArticle() {
           <div className='grid md:grid-cols-3 gap-6 mb-8'>
             <div className='bg-red-50 border border-red-200 rounded-2xl p-6 text-center'>
               <p className='text-3xl font-black text-red-600 mb-2'>$300&ndash;$600</p>
-              <p className='text-slate-700 font-semibold'>Mold Inspection</p>
+              <p className='text-slate-700 font-semibold'><Link href='/articles/mold-remediation-cost' className='text-teal-600 underline hover:text-teal-800'>Mold Inspection</Link></p>
               <p className='text-slate-500 text-sm mt-1'>Professional testing and identification</p>
             </div>
             <div className='bg-teal-50 border border-teal-200 rounded-2xl p-6 text-center'>
               <p className='text-3xl font-black text-teal-600 mb-2'>Often Free</p>
-              <p className='text-slate-700 font-semibold'>Waterproofing Assessment</p>
+              <p className='text-slate-700 font-semibold'><Link href='/articles/basement-waterproofing-cost' className='text-teal-600 underline hover:text-teal-800'>Waterproofing Assessment</Link></p>
               <p className='text-slate-500 text-sm mt-1'>Many contractors offer free evaluations</p>
             </div>
             <div className='bg-amber-50 border border-amber-200 rounded-2xl p-6 text-center'>
