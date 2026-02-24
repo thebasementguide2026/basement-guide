@@ -207,7 +207,7 @@ export default function DehumidifierMythsArticle() {
             </div>
             <div className='flex items-start space-x-4'>
               <span className='flex-shrink-0 w-8 h-8 rounded-full bg-teal-600 text-white flex items-center justify-center font-bold text-sm'>2</span>
-              <p className='text-slate-700'><span className='font-bold text-slate-900'>Assess dampness level:</span> Moderately damp (occasional musty smell), Very damp (visible condensation), Wet (standing water or frequent flooding), Extremely wet (post-flood conditions).</p>
+              <p className='text-slate-700'><span className='font-bold text-slate-900'>Assess dampness level:</span> Moderately damp (<Link href='/articles/musty-basement-smell' className='text-teal-600 underline hover:text-teal-800'>occasional musty smell</Link>), Very damp (visible condensation), Wet (standing water or frequent flooding), Extremely wet (post-flood conditions).</p>
             </div>
             <div className='flex items-start space-x-4'>
               <span className='flex-shrink-0 w-8 h-8 rounded-full bg-teal-600 text-white flex items-center justify-center font-bold text-sm'>3</span>
