@@ -238,6 +238,14 @@ const guides = [
     category: 'Renovation',
     readTime: '18 min read',
   },
+    {
+    title: 'Musty Basement Smell: Causes, Fixes, and How to Eliminate It for Good',
+    description: 'Find out what causes that musty basement smell and how to get rid of it permanently. Covers mold, humidity, drain issues, and proven fixes.',
+    href: '/articles/musty-basement-smell',
+    image: '/%3AMusty%20Basement%20Smell.jpg',
+    category: 'Health & Safety',
+    readTime: '14 min read',
+  },
 ]
 export default function GuidesPage() {
   return (
