@@ -226,7 +226,7 @@ const guides = [
     title: 'Water in My Basement: Your Immediate Emergency Plan',
     description: 'If water is flooding your basement right now, follow this step-by-step emergency plan. Safety first, stop the source, remove water fast.',
     href: '/articles/basement-emergency-water-plan',
-    image: '/basement-emergency-water-plan.jpg',
+    image: '/Flooded%20Basement.jpg',
     category: 'Emergency',
     readTime: '6 min read',
   },
