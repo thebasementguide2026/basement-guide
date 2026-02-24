@@ -14,7 +14,7 @@ export default function BasementEmergencyWaterPlan() {
       {/* Article Hero */}
       <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
         <Image
-          src='/basement-emergency-water-plan.jpg'
+          src='/Flooded%20Basement.jpg'
           alt='Flooded basement with standing water'
           fill
           className='object-cover opacity-45 scale-105 transition-transform duration-700 hover:scale-100'
