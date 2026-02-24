@@ -161,6 +161,21 @@ export default function HowToFinishBasement() {
 
         </aside>
 
+                  {/* Related Guides */}
+          <div className='mb-20'>
+            <h2 className='text-3xl font-bold text-slate-900 mb-8'>Related Guides</h2>
+            <div className='grid md:grid-cols-2 gap-6'>
+              <Link href='/articles/basement-adu-rental-suite' className='block bg-slate-50 rounded-xl p-6 border border-slate-100 hover:border-teal-300 hover:shadow-lg transition-all'>
+                <h3 className='font-bold text-slate-900 mb-2'>Basement ADU & Rental Suite Guide</h3>
+                <p className='text-slate-600 text-sm'>Convert your finished basement into a legal, profitable rental apartment.</p>
+              </Link>
+              <Link href='/articles/basement-finishing-cost' className='block bg-slate-50 rounded-xl p-6 border border-slate-100 hover:border-teal-300 hover:shadow-lg transition-all'>
+                <h3 className='font-bold text-slate-900 mb-2'>Basement Finishing Cost Guide</h3>
+                <p className='text-slate-600 text-sm'>Full breakdown of costs to finish your basement from start to move-in.</p>
+              </Link>
+            </div>
+          </div>
+
       </div>
 
     </div>
