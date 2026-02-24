@@ -143,6 +143,21 @@ export default function EgressWindowCost() {
             </div>
           </div>
         </div>
+
+                  {/* Related Guides */}
+          <div className='max-w-3xl mx-auto px-6 mb-16'>
+            <h2 className='text-3xl font-bold text-slate-900 mb-8'>Related Guides</h2>
+            <div className='grid md:grid-cols-2 gap-6'>
+              <Link href='/articles/basement-adu-rental-suite' className='block bg-slate-50 rounded-xl p-6 border border-slate-100 hover:border-teal-300 hover:shadow-lg transition-all'>
+                <h3 className='font-bold text-slate-900 mb-2'>Basement ADU & Rental Suite Guide</h3>
+                <p className='text-slate-600 text-sm'>Egress windows are a must for basement ADUs — learn the full process.</p>
+              </Link>
+              <Link href='/articles/how-to-finish-a-basement' className='block bg-slate-50 rounded-xl p-6 border border-slate-100 hover:border-teal-300 hover:shadow-lg transition-all'>
+                <h3 className='font-bold text-slate-900 mb-2'>How to Finish a Basement</h3>
+                <p className='text-slate-600 text-sm'>The complete roadmap to transforming your basement into livable space.</p>
+              </Link>
+            </div>
+          </div>
       </main>
     </div>
   );
