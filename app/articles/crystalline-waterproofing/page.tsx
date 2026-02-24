@@ -59,7 +59,7 @@ export default function CrystallineWaterproofing() {
           </p>
 
           <p>
-            Concrete is naturally porous, filled with millions of microscopic "capillary" tunnels that act like a hard sponge. Over time, water seeps through these pores, leading to the gradual rot of rebar and the inevitable dampness of basements. Traditionally, we tried to solve this by wrapping foundations in plastic sheets or painting them with thick black tar—"barrier" methods that eventually fail.
+            Concrete is naturally porous, filled with millions of microscopic "capillary" tunnels that act like a hard sponge. Over time, water seeps through these pores, leading to the gradual rot of rebar and the inevitable <Link href="/articles/why-basement-floods-without-rain" className="text-cyan-600 hover:underline font-semibold">dampness of basements</Link>. Traditionally, we tried to solve this by wrapping foundations in plastic sheets or painting them with thick black tar—"barrier" methods that eventually fail.
           </p>
 
           <p>
@@ -101,7 +101,7 @@ export default function CrystallineWaterproofing() {
 
           <h3>How the "Self-Healing" Works</h3>
           <p>
-            The most revolutionary aspect of this tech is its ability to lie dormant. If a new hairline crack forms five or ten years later and water begins to seep in, the chemicals "wake up." Upon contact with the new moisture, the crystallization process restarts, growing fresh crystals that plug the new crack from the inside out.
+            The most revolutionary aspect of this tech is its ability to lie dormant. If a new <Link href="/articles/types-of-foundation-cracks" className="text-cyan-600 hover:underline font-semibold">hairline crack</Link> forms five or ten years later and water begins to seep in, the chemicals "wake up." Upon contact with the new moisture, the crystallization process restarts, growing fresh crystals that plug the new crack from the inside out.
           </p>
 
           <h2>The Three Ways Crystalline Tech is Applied</h2>
@@ -112,11 +112,11 @@ export default function CrystallineWaterproofing() {
             </div>
             <div className="bg-cyan-50 rounded-3xl p-8 border border-cyan-100 text-center">
               <h3 className="font-black text-cyan-900 mb-2">Topical Slurry</h3>
-              <p className="text-sm text-slate-600">Applied to existing walls. Perfect for retrofitting old basements during a pre-finish audit.</p>
+              <p className="text-sm text-slate-600">Applied to existing walls. Perfect for retrofitting old basements during a <Link href="/articles/pre-finish-audit" className="text-cyan-600 hover:underline font-semibold">pre-finish audit</Link>.</p>
             </div>
             <div className="bg-slate-900 rounded-3xl p-8 text-center">
               <h3 className="font-black text-white mb-2">Dry Shake</h3>
-              <p className="text-sm text-slate-400">Sprinkled onto fresh floor slabs. Provides a dense, waterproof finish for garage or basement floors.</p>
+              <p className="text-sm text-slate-400">Sprinkled onto fresh floor slabs. Provides a dense, waterproof finish for garage or <Link href="/articles/best-basement-flooring" className="text-cyan-600 hover:underline font-semibold">basement floors</Link>.</p>
             </div>
           </div>
 
@@ -154,6 +154,29 @@ export default function CrystallineWaterproofing() {
               </div>
             </div>
           </div>
+
+                  {/* Related Guides */}
+        <div className='border-t border-slate-100 pt-16 mt-16'>
+          <h2 className='text-3xl font-bold text-slate-900 mb-8'>Related Guides</h2>
+          <div className='grid grid-cols-1 md:grid-cols-2 gap-4 not-prose'>
+            <Link href='/articles/interior-vs-exterior-waterproofing' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+              <h4 className='text-lg font-bold text-slate-900 mb-2'>Interior vs. Exterior Waterproofing</h4>
+              <p className='text-slate-600 text-sm'>Compare methods to find the best waterproofing solution for your home.</p>
+            </Link>
+            <Link href='/articles/foundation-crack-repair-cost' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+              <h4 className='text-lg font-bold text-slate-900 mb-2'>Foundation Crack Repair Cost Guide</h4>
+              <p className='text-slate-600 text-sm'>What to expect for professional crack repair pricing in 2026.</p>
+            </Link>
+            <Link href='/articles/basement-waterproofing-cost' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+              <h4 className='text-lg font-bold text-slate-900 mb-2'>Basement Waterproofing Cost Guide</h4>
+              <p className='text-slate-600 text-sm'>What to expect for professional waterproofing pricing in 2026.</p>
+            </Link>
+            <Link href='/articles/how-to-prevent-basement-mold' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+              <h4 className='text-lg font-bold text-slate-900 mb-2'>How to Prevent Basement Mold</h4>
+              <p className='text-slate-600 text-sm'>Critical steps to prevent mold growth and protect your family.</p>
+            </Link>
+          </div>
+        </div>
 
           <div className='bg-teal-600 rounded-[3rem] p-12 text-white my-20 relative overflow-hidden not-prose'>
             <div className='absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full -mr-32 -mt-32' />
