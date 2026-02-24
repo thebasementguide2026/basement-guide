@@ -246,6 +246,14 @@ const guides = [
     category: 'Health & Safety',
     readTime: '14 min read',
   },
+    {
+    title: 'Basement Efflorescence: What That White Powder Really Means',
+    description: 'Learn what causes white powder on basement walls, whether efflorescence is dangerous, how to clean it safely, and how to stop it from returning.',
+    href: '/articles/basement-efflorescence',
+    image: '/Efflorescence.jpg',
+    category: 'Diagnosis',
+    readTime: '12 min read',
+  },
 ]
 export default function GuidesPage() {
   return (
