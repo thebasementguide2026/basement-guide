@@ -140,7 +140,7 @@ export default function MustyBasementSmellArticle() {
                 <h3 className='text-xl font-bold text-slate-900'>Inspect for Visible Clues</h3>
               </div>
               <ul className='text-slate-600 ml-11 space-y-2'>
-                <li>&bull; White powdery efflorescence on concrete (mineral deposits from water passing through)</li>
+                <li>&bull; White powdery <Link href='/articles/basement-efflorescence' className='text-teal-600 underline hover:text-teal-800'>efflorescence</Link> on concrete (mineral deposits from water passing through)</li>
                 <li>&bull; Dark spots, fuzzy growth, or discoloration on walls, baseboards, or corners</li>
                 <li>&bull; Bubbling or peeling paint, warped wood, or damp-feeling surfaces</li>
                 <li>&bull; Foggy windows or condensation on pipes</li>
