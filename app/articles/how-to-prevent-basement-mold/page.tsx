@@ -51,7 +51,7 @@ export default function PreventMoldArticle() {
             <div className="lg:w-2/3">
               <div className="prose prose-slate prose-lg max-w-none">
                 <p className="lead text-2xl text-slate-700 font-medium mb-8">
-                  Most homeowners don't realize they have a mold problem until they smell that unmistakable "basement musk." By then, it's often too late. Thousands of spores have already colonized your walls, your storage, and—most dangerously—your HVAC system.
+                  Most homeowners don't realize they have a mold problem until they smell that unmistakable <Link href='/articles/musty-basement-smell' className='text-teal-600 underline hover:text-teal-800'>"basement musk."</Link> By then, it's often too late. Thousands of spores have already colonized your walls, your storage, and—most dangerously—your HVAC system.
                 </p>
 
                 <h2 className="text-3xl font-bold text-slate-800 mt-12 mb-6">The Silent Health Crisis</h2>
