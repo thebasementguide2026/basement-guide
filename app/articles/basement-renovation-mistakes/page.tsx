@@ -14,7 +14,7 @@ export default function BasementRenovationMistakes() {
       {/* Article Hero */}
       <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
         <Image
-          src='/basement-renovation-mistakes.jpg'
+          src='/Basement%20renovation%20mistakes.jpg'
           alt='Basement renovation with exposed framing and waterproofing'
           fill
           className='object-cover opacity-40'
