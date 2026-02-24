@@ -258,7 +258,7 @@ const guides = [
     title: 'Basement ADU & Rental Suite: How to Create a Profitable Legal Basement Apartment',
     description: 'Complete 2026 guide to converting your basement into a legal ADU or rental suite. Waterproofing, egress, zoning, costs, and design tips.',
     href: '/articles/basement-adu-rental-suite',
-    image: '/Basement ADU.jpg',
+    image: '/The Basement Guide.jpg',
     category: 'Finishing',
     readTime: '18 min read',
   },
