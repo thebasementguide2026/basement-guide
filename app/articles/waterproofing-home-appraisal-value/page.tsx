@@ -56,7 +56,7 @@ export default function WaterproofingAppraisalValueArticle() {
         <div className='prose prose-lg prose-slate max-w-none'>
 
           <p className='text-2xl font-medium text-slate-800 leading-relaxed mb-8'>
-            A professionally waterproofed basement protects your home from water damage, mold, and structural issues while boosting its market appeal and appraisal value. Buyers and appraisers view a dry, usable basement as a major plus, especially in regions with high humidity or frequent rain.
+            A professionally waterproofed basement protects your home from water damage, <Link href="/articles/how-to-prevent-basement-mold" className="text-teal-400 underline hover:text-teal-300">mold</Link>, and structural issues while boosting its market appeal and appraisal value. Buyers and appraisers view a dry, usable basement as a major plus, especially in regions with high humidity or frequent rain.
           </p>
 
           <p>
@@ -72,7 +72,7 @@ export default function WaterproofingAppraisalValueArticle() {
             <h2 className='text-3xl font-bold text-slate-900 mt-0 mb-6'>Why Basement Waterproofing Matters for Home Value and Appraisals</h2>
 
             <p>
-              Appraisers assess homes based on condition, functionality, and market comparables. A wet or damp basement raises red flags for potential foundation problems, mold growth, and repair costs, often leading to lower valuations or buyer negotiations. Professional waterproofing eliminates these concerns by creating a dry, reliable space.
+              Appraisers assess homes based on condition, functionality, and market comparables. A wet or damp basement raises red flags for potential <Link href="/articles/types-of-foundation-cracks" className="text-teal-400 underline hover:text-teal-300">foundation problems</Link>, <Link href="/articles/mold-remediation-cost" className="text-teal-400 underline hover:text-teal-300">mold growth</Link>, and repair costs, often leading to lower valuations or buyer negotiations. Professional waterproofing eliminates these concerns by creating a dry, reliable space.
             </p>
 
             <h3 className='text-2xl font-bold text-slate-900 mt-10 mb-4'>Key Benefits That Influence Appraisals</h3>
@@ -141,7 +141,7 @@ export default function WaterproofingAppraisalValueArticle() {
             </div>
 
             <p>
-              When combined with finishing the basement, ROI improves dramatically. Finished basements recoup 60% to 75% of costs nationally per recent remodeling reports, with waterproofing as a prerequisite for full credit.
+              When combined with <Link href="/articles/how-to-finish-a-basement" className="text-teal-400 underline hover:text-teal-300">finishing the basement</Link>, ROI improves dramatically. <Link href="/articles/basement-finishing-cost" className="text-teal-400 underline hover:text-teal-300">Finished basements</Link> recoup 60% to 75% of costs nationally per recent remodeling reports, with waterproofing as a prerequisite for full credit.
             </p>
 
             <h3 className='text-2xl font-bold text-slate-900 mt-10 mb-4'>Factors Influencing Added Value</h3>
@@ -177,7 +177,7 @@ export default function WaterproofingAppraisalValueArticle() {
                 <p className='text-2xl font-bold text-slate-900'>$2,000–$5,000</p>
               </div>
               <div className='bg-slate-50 border border-slate-100 rounded-2xl p-6'>
-                <p className='text-teal-700 font-bold text-sm uppercase mb-2'>Full Interior Drainage + Sump Pump</p>
+                <p className='text-teal-700 font-bold text-sm uppercase mb-2'>Full <Link href="/articles/interior-vs-exterior-waterproofing" className="text-teal-400 underline hover:text-teal-300">Interior Drainage</Link> + <Link href="/articles/sump-pump-buying-guide" className="text-teal-400 underline hover:text-teal-300">Sump Pump</Link></p>
                 <p className='text-2xl font-bold text-slate-900'>$4,000–$8,000</p>
               </div>
               <div className='bg-slate-50 border border-slate-100 rounded-2xl p-6'>
@@ -347,7 +347,7 @@ export default function WaterproofingAppraisalValueArticle() {
               </div>
               <div className='border-b border-slate-100 pb-8'>
                 <h4 className='text-xl font-bold text-slate-900 mb-3'>Is it better to waterproof before selling?</h4>
-                <p className='text-slate-600 leading-relaxed'>Absolutely. It removes a major buyer objection and can increase offers while supporting higher appraisals.</p>
+                <p className='text-slate-600 leading-relaxed'>Absolutely. It removes a major <Link href="/articles/homebuyers-basement-inspection-checklist" className="text-teal-400 underline hover:text-teal-300">buyer objection</Link> and can increase offers while supporting higher appraisals.</p>
               </div>
               <div className='border-b border-slate-100 pb-8'>
                 <h4 className='text-xl font-bold text-slate-900 mb-3'>What if I plan to stay long term?</h4>
