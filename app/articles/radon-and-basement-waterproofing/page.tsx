@@ -56,7 +56,7 @@ export default function RadonWaterproofingArticle() {
         <div className='prose prose-lg prose-slate max-w-none'>
 
           <p className='text-2xl font-medium text-slate-800 leading-relaxed mb-8'>
-            Radon gas poses a serious health threat in many homes while basement water damage can lead to costly repairs and mold growth. These issues often share common entry points through foundation cracks and gaps. Basement waterproofing not only protects against moisture but also plays a key role in radon mitigation by sealing those vulnerabilities.
+            Radon gas poses a serious health threat in many homes while basement water damage can lead to costly repairs and <Link href="/articles/how-to-prevent-basement-mold" className="text-teal-400 underline hover:text-teal-300">mold growth</Link>. These issues often share common entry points through <Link href="/articles/types-of-foundation-cracks" className="text-teal-400 underline hover:text-teal-300">foundation cracks</Link> and gaps. Basement waterproofing not only protects against moisture but also plays a key role in radon mitigation by sealing those vulnerabilities.
           </p>
 
           <p>
@@ -135,7 +135,7 @@ export default function RadonWaterproofingArticle() {
               </div>
               <div className='flex items-start space-x-3'>
                 <span className='text-red-500 font-bold text-lg mt-0.5'>⚠</span>
-                <p className='text-slate-700'>Crawl spaces and unfinished basements</p>
+                <p className='text-slate-700'><Link href="/articles/basement-vs-crawl-space-vs-slab" className="text-teal-400 underline hover:text-teal-300">Crawl spaces</Link> and unfinished basements</p>
               </div>
               <div className='flex items-start space-x-3'>
                 <span className='text-red-500 font-bold text-lg mt-0.5'>⚠</span>
@@ -156,10 +156,10 @@ export default function RadonWaterproofingArticle() {
             <div className='grid grid-cols-1 md:grid-cols-2 gap-6 not-prose my-8'>
               <div className='bg-slate-50 border border-slate-100 rounded-2xl p-6'>
                 <p className='text-teal-700 font-bold text-sm uppercase mb-2'>Interior Drainage</p>
-                <p className='text-slate-700'>French drains or sump pumps to collect and redirect water away from the foundation.</p>
+                <p className='text-slate-700'><Link href="/articles/french-drain-cost" className="text-teal-400 underline hover:text-teal-300">French drains</Link> or <Link href="/articles/sump-pump-buying-guide" className="text-teal-400 underline hover:text-teal-300">sump pumps</Link> to collect and redirect water away from the foundation.</p>
               </div>
               <div className='bg-slate-50 border border-slate-100 rounded-2xl p-6'>
-                <p className='text-teal-700 font-bold text-sm uppercase mb-2'>Exterior Membranes</p>
+                <p className='text-teal-700 font-bold text-sm uppercase mb-2'><Link href="/articles/interior-vs-exterior-waterproofing" className="text-teal-400 underline hover:text-teal-300">Exterior Membranes</Link></p>
                 <p className='text-slate-700'>Applied to foundation walls to block moisture from penetrating the structure.</p>
               </div>
               <div className='bg-slate-50 border border-slate-100 rounded-2xl p-6'>
@@ -226,7 +226,7 @@ export default function RadonWaterproofingArticle() {
                 <div className='space-y-3'>
                   <div className='flex items-start space-x-3'>
                     <span className='text-teal-500 font-bold text-lg mt-0.5'>✔</span>
-                    <p className='text-slate-700'>Seal foundation cracks with epoxy or caulk.</p>
+                    <p className='text-slate-700'>Seal <Link href="/articles/foundation-crack-repair-cost" className="text-teal-400 underline hover:text-teal-300">foundation cracks</Link> with epoxy or caulk.</p>
                   </div>
                   <div className='flex items-start space-x-3'>
                     <span className='text-teal-500 font-bold text-lg mt-0.5'>✔</span>
@@ -345,7 +345,7 @@ export default function RadonWaterproofingArticle() {
             </div>
 
             <p>
-              ROI includes health benefits, reduced repair costs, and higher home value — up to $5,000 in radon-safe homes.
+              ROI includes health benefits, reduced repair costs, and higher <Link href="/articles/waterproofing-home-appraisal-value" className="text-teal-400 underline hover:text-teal-300">home value</Link> — up to $5,000 in radon-safe homes.
             </p>
           </div>
 
@@ -416,7 +416,7 @@ export default function RadonWaterproofingArticle() {
               </div>
               <div className='border-b border-slate-100 pb-8'>
                 <h4 className='text-xl font-bold text-slate-900 mb-3'>Is radon mitigation worth the cost?</h4>
-                <p className='text-slate-600 leading-relaxed'>Yes, it prevents lung cancer risks and adds home value, with low ongoing costs of $50–$100 yearly for fan electricity.</p>
+                <p className='text-slate-600 leading-relaxed'>Yes, it prevents lung cancer risks and adds <Link href="/articles/waterproofing-home-appraisal-value" className="text-teal-400 underline hover:text-teal-300">home value</Link>, with low ongoing costs of $50–$100 yearly for fan electricity.</p>
               </div>
               <div className='border-b border-slate-100 pb-8'>
                 <h4 className='text-xl font-bold text-slate-900 mb-3'>What if my home has a crawl space?</h4>
