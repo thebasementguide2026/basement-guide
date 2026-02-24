@@ -408,6 +408,10 @@ export default function CompleteBasementWaterproofingGuide() {
               <h4 className='text-lg font-bold text-slate-900 mb-2'>How to Hire a Waterproofing Contractor</h4>
               <p className='text-slate-600 text-sm'>Red flags, questions to ask, and tips for finding the right professional.</p>
             </Link>
+                          <Link href='/articles/basement-adu-rental-suite' className='block bg-slate-50 rounded-xl p-6 border border-slate-100 hover:border-teal-300 hover:shadow-lg transition-all'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Basement ADU & Rental Suite Guide</h4>
+                <p className='text-slate-600 text-sm'>Convert your basement into a legal, profitable rental apartment.</p>
+              </Link>
           </div>
         </div>
 
