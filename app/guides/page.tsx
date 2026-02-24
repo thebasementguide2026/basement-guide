@@ -230,6 +230,14 @@ const guides = [
     category: 'Emergency',
     readTime: '6 min read',
   },
+  {
+    title: 'Basement Renovation Mistakes: The 10 Most Expensive Errors',
+    description: 'Avoid the 10 most costly basement renovation mistakes. Real 2026 fix costs from $2,000 to $25,000 and how to dodge each one.',
+    href: '/articles/basement-renovation-mistakes',
+    image: '/basement-renovation-mistakes.jpg',
+    category: 'Renovation',
+    readTime: '18 min read',
+  },
 ]
 export default function GuidesPage() {
   return (
