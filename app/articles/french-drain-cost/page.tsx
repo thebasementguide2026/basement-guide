@@ -457,6 +457,10 @@ export default function FrenchDrainCostPage() {
               <h3 className='font-bold text-violet-700 mb-1'>Mold Remediation Cost Guide</h3>
               <p className='text-sm text-slate-600'>What to expect for professional mold removal pricing in 2026.</p>
             </Link>
+            <Link href='/articles/basement-insulation-guide' className='group block bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:shadow-lg transition-shadow'>
+              <h3 className='font-bold text-violet-700 mb-1'>Basement Insulation Guide</h3>
+              <p className='text-sm text-slate-600'>R-values, materials, and installation methods for below-grade walls.</p>
+            </Link>
           </section>
 
           {/* Lead Form CTA */}
