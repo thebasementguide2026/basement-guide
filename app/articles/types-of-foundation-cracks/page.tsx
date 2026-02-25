@@ -38,7 +38,7 @@ export default function FoundationCracksArticle() {
             <div className='w-10 h-10 rounded-full bg-slate-700 flex items-center justify-center text-white font-bold text-sm'>BG</div>
             <div>
               <p className='text-white font-medium'>The Basement Guide Staff</p>
-              <p className='text-slate-400 text-sm'>Updated Feb 2026 \u00b7 15 min read</p>
+              <p className='text-slate-400 text-sm'>Updated Feb 2026 · 15 min read</p>
             </div>
           </div>
         </div>
@@ -171,10 +171,10 @@ export default function FoundationCracksArticle() {
           </div>
           <h2 className='text-3xl font-bold text-slate-900 mb-6'>How to Monitor Cracks at Home</h2>
           <ul className='space-y-3 mb-8'>
-            <li className='flex items-start gap-3 text-lg text-slate-600'><span className='text-teal-500 mt-1'>\u2713</span>Take clear photos with a ruler next to the crack for scale.</li>
-            <li className='flex items-start gap-3 text-lg text-slate-600'><span className='text-teal-500 mt-1'>\u2713</span>Mark the ends with a pencil and write the date.</li>
-            <li className='flex items-start gap-3 text-lg text-slate-600'><span className='text-teal-500 mt-1'>\u2713</span>Check every 30 days.</li>
-            <li className='flex items-start gap-3 text-lg text-slate-600'><span className='text-teal-500 mt-1'>\u2713</span>Measure the widest point.</li>
+            <li className='flex items-start gap-3 text-lg text-slate-600'><span className='text-teal-500 mt-1'>✓</span>Take clear photos with a ruler next to the crack for scale.</li>
+            <li className='flex items-start gap-3 text-lg text-slate-600'><span className='text-teal-500 mt-1'>✓</span>Mark the ends with a pencil and write the date.</li>
+            <li className='flex items-start gap-3 text-lg text-slate-600'><span className='text-teal-500 mt-1'>✓</span>Check every 30 days.</li>
+            <li className='flex items-start gap-3 text-lg text-slate-600'><span className='text-teal-500 mt-1'>✓</span>Measure the widest point.</li>
           </ul>
           <p className='text-lg text-slate-600 leading-relaxed mb-12'>
             If any crack grows wider than 1/4 inch, starts leaking, or new cracks appear quickly, get professional help immediately.
@@ -194,19 +194,19 @@ export default function FoundationCracksArticle() {
             <div className='bg-slate-50 rounded-xl p-6 border border-slate-200'>
               <h3 className='text-xl font-bold text-slate-900 mb-2'>1. Emecole Metro DIY Basement Wall Crack Repair Kit</h3>
               <p className='text-slate-600 mb-3'>Best all-around epoxy kit for vertical and settlement cracks. Strong bond, easy to use, and comes with full instructions.</p>
-              <a href='https://amzn.to/4sdUWJ2' target='_blank' rel='noopener noreferrer nofollow' className='inline-flex items-center gap-2 bg-amber-500 hover:bg-amber-600 text-white font-semibold px-5 py-2.5 rounded-lg transition-colors text-sm'>Check Price on Amazon \u2192</a>
+              <a href='https://amzn.to/4sdUWJ2' target='_blank' rel='noopener noreferrer nofollow' className='inline-flex items-center gap-2 bg-amber-500 hover:bg-amber-600 text-white font-semibold px-5 py-2.5 rounded-lg transition-colors text-sm'>Check Price on Amazon →</a>
             </div>
 
             <div className='bg-slate-50 rounded-xl p-6 border border-slate-200'>
               <h3 className='text-xl font-bold text-slate-900 mb-2'>2. Applied Technologies Polyurethane Foundation Crack Repair Kit</h3>
               <p className='text-slate-600 mb-3'>Excellent for actively leaking cracks. The polyurethane expands when it meets water and creates a flexible, waterproof seal. 40 ft version.</p>
-              <a href='https://amzn.to/3ZQWrRf' target='_blank' rel='noopener noreferrer nofollow' className='inline-flex items-center gap-2 bg-amber-500 hover:bg-amber-600 text-white font-semibold px-5 py-2.5 rounded-lg transition-colors text-sm'>Check Price on Amazon \u2192</a>
+              <a href='https://amzn.to/3ZQWrRf' target='_blank' rel='noopener noreferrer nofollow' className='inline-flex items-center gap-2 bg-amber-500 hover:bg-amber-600 text-white font-semibold px-5 py-2.5 rounded-lg transition-colors text-sm'>Check Price on Amazon →</a>
             </div>
 
             <div className='bg-slate-50 rounded-xl p-6 border border-slate-200'>
               <h3 className='text-xl font-bold text-slate-900 mb-2'>3. Loctite PL Premium Construction Adhesive</h3>
               <p className='text-slate-600 mb-3'>Great for sealing the surface after injection or for small non-structural cracks. Bonds extremely well to concrete and stays flexible.</p>
-              <a href='https://amzn.to/4s8EDwX' target='_blank' rel='noopener noreferrer nofollow' className='inline-flex items-center gap-2 bg-amber-500 hover:bg-amber-600 text-white font-semibold px-5 py-2.5 rounded-lg transition-colors text-sm'>Check Price on Amazon \u2192</a>
+              <a href='https://amzn.to/4s8EDwX' target='_blank' rel='noopener noreferrer nofollow' className='inline-flex items-center gap-2 bg-amber-500 hover:bg-amber-600 text-white font-semibold px-5 py-2.5 rounded-lg transition-colors text-sm'>Check Price on Amazon →</a>
             </div>
           </div>
 
@@ -217,10 +217,10 @@ export default function FoundationCracksArticle() {
           </div>
           <h2 className='text-3xl font-bold text-slate-900 mb-6'>Prevention Tips to Stop New Cracks</h2>
           <ul className='space-y-3 mb-12'>
-            <li className='flex items-start gap-3 text-lg text-slate-600'><span className='text-teal-500 mt-1'>\u2022</span>Keep gutters clean and extend downspouts at least 10 feet from the foundation.</li>
-            <li className='flex items-start gap-3 text-lg text-slate-600'><span className='text-teal-500 mt-1'>\u2022</span>Regrade soil so it slopes away from the house.</li>
-            <li className='flex items-start gap-3 text-lg text-slate-600'><span className='text-teal-500 mt-1'>\u2022</span>Run a <Link href='/articles/dehumidifier-myths' className='text-teal-600 underline hover:text-teal-800'>dehumidifier</Link> to keep basement humidity at 40 to 50 percent.</li>
-            <li className='flex items-start gap-3 text-lg text-slate-600'><span className='text-teal-500 mt-1'>\u2022</span>Address any water seepage early with proper <Link href='/articles/complete-basement-waterproofing-guide' className='text-teal-600 underline hover:text-teal-800'>waterproofing</Link>.</li>
+            <li className='flex items-start gap-3 text-lg text-slate-600'><span className='text-teal-500 mt-1'>•</span>Keep gutters clean and extend downspouts at least 10 feet from the foundation.</li>
+            <li className='flex items-start gap-3 text-lg text-slate-600'><span className='text-teal-500 mt-1'>•</span>Regrade soil so it slopes away from the house.</li>
+            <li className='flex items-start gap-3 text-lg text-slate-600'><span className='text-teal-500 mt-1'>•</span>Run a <Link href='/articles/dehumidifier-myths' className='text-teal-600 underline hover:text-teal-800'>dehumidifier</Link> to keep basement humidity at 40 to 50 percent.</li>
+            <li className='flex items-start gap-3 text-lg text-slate-600'><span className='text-teal-500 mt-1'>•</span>Address any water seepage early with proper <Link href='/articles/complete-basement-waterproofing-guide' className='text-teal-600 underline hover:text-teal-800'>waterproofing</Link>.</li>
           </ul>
 
           {/* Final Thoughts */}
