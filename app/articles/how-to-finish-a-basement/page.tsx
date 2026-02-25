@@ -173,6 +173,10 @@ export default function HowToFinishBasement() {
                 <h3 className='font-bold text-slate-900 mb-2'>Basement Finishing Cost Guide</h3>
                 <p className='text-slate-600 text-sm'>Full breakdown of costs to finish your basement from start to move-in.</p>
               </Link>
+                            <Link href='/articles/basement-bathroom-guide' className='block bg-slate-50 rounded-xl p-6 border border-slate-100 hover:border-teal-300 hover:shadow-lg transition-all'>
+                <h3 className='font-bold text-slate-900 mb-2'>Basement Bathroom Guide</h3>
+                <p className='text-slate-600 text-sm'>How to add a bathroom in your basement the right way. Plumbing, costs, and code requirements.</p>
+              </Link>
             </div>
           </div>
 
