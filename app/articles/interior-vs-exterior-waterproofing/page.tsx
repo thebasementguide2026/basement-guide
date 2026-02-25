@@ -394,10 +394,7 @@ export default function InteriorVsExteriorWaterproofing() {
               Prices increase with clay soil, deep footings, high water tables, and added <Link href='/articles/mold-remediation-cost' className='text-amber-800 hover:underline'>mold remediation</Link>. Sources: This Old House (Dec 2025), Angi (2026), HomeGuide (Jan 2026), Fixr (Feb 2026).
             </p>
           </div>
-            </p>
-          </div>
-
-          {/* Exterior Advantages and Disadvantages */}
+            * Exterior Advantages and Disadvantages */}
           <div className='grid grid-cols-1 md:grid-cols-2 gap-6 my-8 not-prose'>
             <div className='bg-teal-50 rounded-2xl p-6 border border-teal-100'>
               <h4 className='font-bold text-slate-900 mb-3'>Exterior Advantages</h4>
@@ -722,7 +719,7 @@ export default function InteriorVsExteriorWaterproofing() {
               <p className='text-slate-500 text-sm'>Self-healing waterproofing technology explained for 2026.</p>
             </Link>
           </div>
-        </article>
+        
 
         {/* Lead Form CTA */}
         <section className='bg-teal-700 rounded-2xl p-8 md:p-12 mt-12'>
@@ -734,5 +731,6 @@ export default function InteriorVsExteriorWaterproofing() {
         </section>
       </div>
     </main>
+        </div>
   )
 }
