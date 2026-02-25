@@ -221,6 +221,7 @@ export default function FoundationCracksArticle() {
             <li className='flex items-start gap-3 text-lg text-slate-600'><span className='text-teal-500 mt-1'>•</span>Regrade soil so it slopes away from the house.</li>
             <li className='flex items-start gap-3 text-lg text-slate-600'><span className='text-teal-500 mt-1'>•</span>Run a <Link href='/articles/dehumidifier-myths' className='text-teal-600 underline hover:text-teal-800'>dehumidifier</Link> to keep basement humidity at 40 to 50 percent.</li>
             <li className='flex items-start gap-3 text-lg text-slate-600'><span className='text-teal-500 mt-1'>•</span>Address any water seepage early with proper <Link href='/articles/complete-basement-waterproofing-guide' className='text-teal-600 underline hover:text-teal-800'>waterproofing</Link>.</li>
+                          <li className='flex items-start gap-3 text-lg text-slate-600'><span className='text-teal-500 mt-1'>•</span>Test for <Link href='/articles/radon-and-basement-waterproofing' className='text-teal-600 underline hover:text-teal-800'>radon</Link> — foundation cracks are a common entry point. Pick up an <a href='https://amzn.to/4rMpXDV' target='_blank' rel='noopener noreferrer nofollow' className='text-teal-600 underline hover:text-teal-800'>affordable radon detector</a> for peace of mind.</li>
           </ul>
 
           {/* Final Thoughts */}
