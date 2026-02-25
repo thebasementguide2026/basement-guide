@@ -286,23 +286,27 @@ export default function DehumidifierMythsArticle() {
           <div className='grid grid-cols-1 md:grid-cols-2 gap-6 my-8 not-prose'>
             <div className='bg-slate-50 border border-slate-100 rounded-2xl p-6'>
               <p className='text-teal-700 font-bold text-sm uppercase tracking-wider mb-2'>Budget (Under $200)</p>
-              <p className='text-slate-900 font-bold text-lg mb-1'>Frigidaire 30-Pint</p>
+              <p className='text-slate-900 font-bold text-lg mb-1'>Frigidaire 35-Pint</p>
               <p className='text-slate-600 text-sm'>Energy Star rated with auto humidistat. Suitable for small, mildly damp spaces.</p>
+                            <a href='https://amzn.to/4aC5lbu' target='_blank' rel='noopener noreferrer' className='inline-block mt-3 px-4 py-2 bg-teal-600 text-white text-sm font-bold rounded-lg hover:bg-teal-700 transition-colors'>Check Price on Amazon →</a>
             </div>
             <div className='bg-slate-50 border border-slate-100 rounded-2xl p-6'>
               <p className='text-teal-700 font-bold text-sm uppercase tracking-wider mb-2'>Mid-Range ($200–$400)</p>
-              <p className='text-slate-900 font-bold text-lg mb-1'>Midea 50-Pint Wi-Fi Enabled</p>
+              <p className='text-slate-900 font-bold text-lg mb-1'>hOmeLabs 4,500 Sq Ft Energy Star</p>
               <p className='text-slate-600 text-sm'>Low-temperature operation to 41°F with built-in pump. Excellent for basements.</p>
+                            <a href='https://amzn.to/3ZVlz9w' target='_blank' rel='noopener noreferrer' className='inline-block mt-3 px-4 py-2 bg-teal-600 text-white text-sm font-bold rounded-lg hover:bg-teal-700 transition-colors'>Check Price on Amazon →</a>
             </div>
             <div className='bg-slate-50 border border-slate-100 rounded-2xl p-6'>
               <p className='text-teal-700 font-bold text-sm uppercase tracking-wider mb-2'>Premium Portable (Over $400)</p>
               <p className='text-slate-900 font-bold text-lg mb-1'>AprilAire E070</p>
               <p className='text-slate-600 text-sm'>70-pint capacity, quiet operation (45 dB), optional HEPA filter. Ideal for allergy sufferers.</p>
+                            <a href='https://amzn.to/4s9XQhO' target='_blank' rel='noopener noreferrer' className='inline-block mt-3 px-4 py-2 bg-teal-600 text-white text-sm font-bold rounded-lg hover:bg-teal-700 transition-colors'>Check Price on Amazon →</a>
             </div>
             <div className='bg-slate-50 border border-slate-100 rounded-2xl p-6'>
               <p className='text-teal-700 font-bold text-sm uppercase tracking-wider mb-2'>Whole House (Over $1,000)</p>
               <p className='text-slate-900 font-bold text-lg mb-1'>Santa Fe Compact 70</p>
               <p className='text-slate-600 text-sm'>Ducted installation, highly efficient for larger homes. Professional installation required.</p>
+                            <a href='https://amzn.to/4kWQCez' target='_blank' rel='noopener noreferrer' className='inline-block mt-3 px-4 py-2 bg-teal-600 text-white text-sm font-bold rounded-lg hover:bg-teal-700 transition-colors'>Check Price on Amazon →</a>
             </div>
           </div>
 
