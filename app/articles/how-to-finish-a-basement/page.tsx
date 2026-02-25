@@ -181,6 +181,10 @@ export default function HowToFinishBasement() {
                 <h3 className='font-bold text-slate-900 mb-2'>Basement Home Gym Guide</h3>
                 <p className='text-slate-600 text-sm'>Build a great workout space below ground with the right flooring, ventilation, and equipment.</p>
               </Link>
+                            <Link href='/articles/sump-pump-buying-guide' className='block bg-slate-50 rounded-xl p-6 border border-slate-100 hover:border-teal-300 hover:shadow-lg transition-all'>
+                <h3 className='font-bold text-slate-900 mb-2'>Sump Pump Buying Guide</h3>
+                <p className='text-slate-600 text-sm'>Choose the right sump pump to protect your basement from flooding.</p>
+              </Link>
             </div>
           </div>
 
