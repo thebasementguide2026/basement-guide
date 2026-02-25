@@ -137,6 +137,10 @@ export default function PreventMoldArticle() {
                       <p className="text-teal-600 text-xs font-bold uppercase mb-1">Insulation</p>
                       <h4 className="font-bold text-slate-800 group-hover:text-teal-600 transition-colors">Condensation-Free Insulation Methods</h4>
                     </Link>
+                                        <Link href="/articles/sump-pump-buying-guide" className="group block">
+                      <p className="text-teal-600 text-xs font-bold uppercase mb-1">Buying Guide</p>
+                      <h4 className="font-bold text-slate-800 group-hover:text-teal-600 transition-colors">Sump Pump Buying Guide</h4>
+                    </Link>
                   </div>
                 </div>
 
