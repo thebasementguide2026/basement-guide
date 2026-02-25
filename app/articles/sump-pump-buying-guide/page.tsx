@@ -333,6 +333,10 @@ export default function SumpPumpBuyingGuide() {
               <h3 className='font-bold text-slate-900 mb-2'>Basement Insulation Guide</h3>
               <p className='text-slate-600 text-sm'>R-values, materials, and installation methods for below-grade walls.</p>
             </Link>
+                          <Link href='/articles/interior-vs-exterior-waterproofing' className='block bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:shadow-lg transition-shadow'>
+              <h3 className='font-bold text-slate-900 mb-2'>Interior vs. Exterior Waterproofing</h3>
+              <p className='text-slate-600 text-sm'>Compare costs, methods, and lifespans to choose the right approach.</p>
+            </Link>
             </div>
           </div>
 
