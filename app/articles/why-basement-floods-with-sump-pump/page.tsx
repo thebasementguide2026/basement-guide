@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Image from 'next/image';
 import LeadForm from '@/components/LeadForm';
 import type { Metadata } from 'next';
@@ -81,7 +82,7 @@ export default function WhyBasementFloods() {
                 A sump pump only removes water collected in the pit from the floor. If water seeps through foundation wall cracks, the pump will never catch it. This is a waterproofing issue.
               </p>
               <div className='bg-red-50 border border-red-100 rounded-3xl p-8'>
-                <p className='text-slate-700 font-semibold'>Water entering through walls requires interior or exterior waterproofing, not a better pump.</p>
+                <p className='text-slate-700 font-semibold'>Water entering through walls requires <Link href='/articles/interior-vs-exterior-waterproofing' className='text-violet-600 hover:underline'>interior or exterior waterproofing</Link>, not a better pump. A properly installed <Link href='/articles/french-drain-cost' className='text-violet-600 hover:underline'>French drain system</Link> is often the real solution.</p>
               </div>
             </section>
 
@@ -94,6 +95,27 @@ export default function WhyBasementFloods() {
           </div>
 
           <div className='lg:col-span-4'>
+
+          {/* Related Guides */}
+          <h2 className='text-2xl font-bold text-slate-900 mb-6'>Related Guides</h2>
+          <div className='grid grid-cols-1 sm:grid-cols-2 gap-4 mb-20'>
+            <Link href='/articles/french-drain-cost' className='block bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:shadow-lg transition-shadow'>
+              <h3 className='font-bold text-violet-700 mb-1'>French Drain Cost Guide</h3>
+              <p className='text-slate-600 text-sm'>Complete pricing for interior and exterior French drain installations in 2026.</p>
+            </Link>
+            <Link href='/articles/sump-pump-buying-guide' className='block bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:shadow-lg transition-shadow'>
+              <h3 className='font-bold text-violet-700 mb-1'>Sump Pump Buying Guide</h3>
+              <p className='text-slate-600 text-sm'>How to choose the right sump pump for your basement in 2026.</p>
+            </Link>
+            <Link href='/articles/complete-basement-waterproofing-guide' className='block bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:shadow-lg transition-shadow'>
+              <h3 className='font-bold text-violet-700 mb-1'>Complete Waterproofing Guide</h3>
+              <p className='text-slate-600 text-sm'>The full playbook for keeping your basement dry in 2026.</p>
+            </Link>
+            <Link href='/articles/interior-vs-exterior-waterproofing' className='block bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:shadow-lg transition-shadow'>
+              <h3 className='font-bold text-violet-700 mb-1'>Interior vs. Exterior Waterproofing</h3>
+              <p className='text-slate-600 text-sm'>Understand which approach works best for your situation.</p>
+            </Link>
+          </div>
             <div className='sticky top-12 bg-indigo-600 rounded-[3rem] p-12 text-white'>
               <h2 className='text-3xl font-black mb-6'>Get a Free Waterproofing Quote</h2>
               <p className='text-indigo-100 mb-8'>Not sure what is causing your flooding? Connect with a local expert for a free diagnosis.</p>
