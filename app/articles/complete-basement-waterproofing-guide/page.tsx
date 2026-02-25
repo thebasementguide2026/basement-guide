@@ -412,6 +412,10 @@ export default function CompleteBasementWaterproofingGuide() {
                 <h4 className='text-lg font-bold text-slate-900 mb-2'>Basement ADU & Rental Suite Guide</h4>
                 <p className='text-slate-600 text-sm'>Convert your basement into a legal, profitable rental apartment.</p>
               </Link>
+                          <Link href='/articles/types-of-foundation-cracks' className='block bg-slate-50 rounded-xl p-6 hover:bg-slate-100 transition-colors'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Types of Foundation Cracks</h4>
+                <p className='text-slate-600 text-sm'>Diagnose whether your crack is cosmetic or a structural red flag.</p>
+              </Link>
               <Link href='/articles/basement-home-gym' className='block bg-slate-50 rounded-xl p-6 border border-slate-100 hover:border-teal-300 hover:shadow-lg transition-all'>
                 <h4 className='text-lg font-bold text-slate-900 mb-2'>Basement Home Gym Guide</h4>
                 <p className='text-slate-600 text-sm'>Build a great workout space below ground with the right waterproofing, flooring, and ventilation.</p>
