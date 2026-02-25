@@ -420,6 +420,10 @@ export default function CompleteBasementWaterproofingGuide() {
                 <h4 className='text-lg font-bold text-slate-900 mb-2'>Basement Home Gym Guide</h4>
                 <p className='text-slate-600 text-sm'>Build a great workout space below ground with the right waterproofing, flooring, and ventilation.</p>
               </Link>
+                          <Link href='/articles/mold-remediation-cost' className='block bg-slate-50 rounded-2xl p-6'>
+                                            <h4 className='text-lg font-bold text-slate-900 mb-2'>Mold Remediation Cost Guide</h4>
+                                            <p className='text-slate-600 text-sm'>What to expect for professional mold removal pricing in 2026.</p>
+                                          </Link>
           </div>
         </div>
 
