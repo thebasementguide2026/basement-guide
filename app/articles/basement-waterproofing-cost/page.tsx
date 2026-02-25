@@ -83,7 +83,7 @@ export default function BasementWaterproofingCostPage() {
           </div>
 
           <p className='text-xl leading-relaxed text-slate-600 italic border-l-4 border-indigo-500 pl-6 mb-12'>
-            A wet basement is a threat to your home's structural integrity. This guide breaks down current market rates for every major waterproofing method.
+            A wet basement is a threat to your home's structural integrity. This guide breaks down current market rates for every major waterproofing method. For a full comparison of approaches, see our <Link href='/articles/interior-vs-exterior-waterproofing' className='text-indigo-600 hover:underline'>interior vs. exterior waterproofing guide</Link>.
           </p>
 
           <h2 className='text-3xl uppercase tracking-tight'>Cost by Method (2026)</h2>
