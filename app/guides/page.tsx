@@ -274,7 +274,7 @@ const guides = [
     title: 'Basement Home Gym Guide: How to Build a Great Workout Space Below Ground',
     description: 'Complete 2026 guide to building a basement home gym. Waterproofing, flooring, equipment, ventilation, and costs explained in plain English.',
     href: '/articles/basement-home-gym',
-    image: '/Basement Home Gym.jpg',
+        image: '/gym image.jpg',
     category: 'Finishing',
     readTime: '18 min read',
   },
