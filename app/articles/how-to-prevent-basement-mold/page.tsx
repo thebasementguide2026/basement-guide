@@ -1,161 +1,286 @@
 import Link from 'next/link'
 import Image from 'next/image'
+import LeadForm from '@/components/LeadForm'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'How to Prevent Basement Mold: The Definitive Guide | The Basement Guide',
-  description: 'Learn the critical steps to prevent basement mold, protect your family\'s health, and maintain your home\'s structural integrity. A comprehensive 2026 guide.',
+  description: 'Learn the critical steps to prevent basement mold with science-based methods. The 5 pillars of mold prevention, recommended tools, seasonal checklists, and expert tips for 2026.',
 }
 
 export default function PreventMoldArticle() {
   return (
-    <div className="bg-white min-h-screen">
+    <div className='bg-white min-h-screen'>
       {/* Article Hero */}
-      <section className="relative h-[60vh] min-h-[400px] bg-slate-900">
+      <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
         <Image
-          src="/basement-mold-wall.jpg" // Temporary placeholder until user uploads new one
-          alt="Basement mold on foundation wall"
+          src='/basement-mold-wall.jpg'
+          alt='Basement mold on foundation wall'
           fill
-          className="object-cover opacity-60"
+          className='object-cover opacity-45 scale-105 transition-transform duration-700 hover:scale-100'
           priority
         />
-        <div className="absolute inset-0 flex items-center">
-          <div className="container-custom">
-            <div className="max-w-3xl">
-              <span className="bg-red-600 text-white px-4 py-1 rounded-full text-sm font-bold uppercase tracking-widest mb-6 inline-block">
-                Pillar Guide: Health & Safety
-              </span>
-              <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
-                How to Prevent Basement Mold: The Definitive Guide
-              </h1>
-              <p className="text-xl text-slate-200 mb-8 leading-relaxed">
-                Mold isn't just an eyesore—it's a biological threat to your family's health and your home's foundation. Learn why prevention is your only real defense.
-              </p>
-              <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-teal-500 rounded-full flex items-center justify-center text-white font-bold">BG</div>
-                <div className="text-white">
-                  <p className="font-bold">The Basement Guide Staff</p>
-                  <p className="text-slate-400 text-sm">Updated February 2026 • 22 min read</p>
-                </div>
-              </div>
+        <div className='absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent' />
+        <div className='relative h-full max-w-7xl mx-auto px-6 flex flex-col justify-end pb-20'>
+          <div className='flex items-center space-x-3 mb-8'>
+            <div className='w-12 h-12 bg-teal-500'></div>
+            <span className='text-teal-400 font-bold tracking-[0.3em] text-sm uppercase'>Expanded Edition</span>
+          </div>
+          <h1 className='text-5xl md:text-7xl font-black text-white mb-6 leading-[0.9] tracking-tighter'>
+            How to Prevent Basement Mold<br />
+            <span className='text-teal-400'>The Definitive Guide</span>
+          </h1>
+          <p className='text-xl text-slate-300 max-w-2xl mb-10 font-medium leading-relaxed'>
+            Mold is more than an eyesore. It threatens your family's health and your home's value. Prevention is your best defense.
+          </p>
+          <div className='flex items-center gap-4'>
+            <div className='w-12 h-12 bg-teal-500 rounded-full flex items-center justify-center text-white font-bold'>BG</div>
+            <div className='text-white'>
+              <p className='font-bold'>The Basement Guide Staff</p>
+              <p className='text-slate-400 text-sm'>Updated Feb 2026 &nbsp;&middot;&nbsp; 25 min read</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Article Content */}
-      <section className="py-16">
-        <div className="container-custom">
-          <div className="flex flex-col lg:flex-row gap-12">
-            {/* Main Content */}
-            <div className="lg:w-2/3">
-              <div className="prose prose-slate prose-lg max-w-none">
-                <p className="lead text-2xl text-slate-700 font-medium mb-8">
-                  Most homeowners don't realize they have a mold problem until they smell that unmistakable <Link href='/articles/musty-basement-smell' className='text-teal-600 underline hover:text-teal-800'>"basement musk."</Link> By then, it's often too late. Thousands of spores have already colonized your walls, your storage, and—most dangerously—your HVAC system.
-                </p>
+      {/* Main Content */}
+      <article className='max-w-4xl mx-auto px-6 py-16'>
+        <div className='prose prose-lg prose-slate max-w-none'>
+          <p className='text-xl text-slate-700 leading-relaxed mb-8'>
+            Most homeowners spot basement mold only after the musty smell hits or fuzzy patches appear. By then spores have often spread. The good news? Consistent habits and the right tools prevent almost all of it.
+          </p>
 
-                <h2 className="text-3xl font-bold text-slate-800 mt-12 mb-6">The Silent Health Crisis</h2>
-                <p>
-                  Exposure to basement mold isn't a minor inconvenience. In 2026, medical research has solidified the link between "Toxic Basement Syndrome" and chronic respiratory issues. For children and the elderly, living in a home with active mold growth can lead to permanent lung damage, chronic asthma, and neurological symptoms often mistaken for fatigue or brain fog.
-                </p>
-                <div className="bg-red-50 border-l-4 border-red-600 p-6 my-8">
-                  <h4 className="text-red-800 font-bold mb-2 uppercase text-sm tracking-widest">Warning: The "Mycotoxin" Threat</h4>
-                  <p className="text-red-900 m-0">
-                    Certain strains like <em>Stachybotrys chartarum</em> (Black Mold) release mycotoxins into the air. These microscopic poisons can penetrate drywall and insulation, making remediation incredibly expensive and health risks severe.
-                  </p>
-                </div>
-
-                <h2 className="text-3xl font-bold text-slate-800 mt-12 mb-6">Why Basements Are Mold Factories</h2>
-                <p>
-                  Mold requires three things to thrive: moisture, a food source (cellulose), and stagnant air. Your basement provides all three in abundance:
-                </p>
-                <ul className="list-disc pl-6 space-y-4 my-6">
-                  <li><strong>Concrete Porosity:</strong> Concrete looks solid but acts like a hard sponge, wicking moisture from the earth through capillary action.</li>
-                  <li><strong>Organic Food Sources:</strong> Drywall paper, wood studs, cardboard boxes, and even dust are feasts for mold colonies.</li>
-                  <li><strong>The Dew Point Trap:</strong> Cool basement walls meet warm, humid air in the summer, creating invisible condensation—the perfect "kickstarter" for mold growth.</li>
-                </ul>
-
-                <h2 className="text-3xl font-bold text-slate-800 mt-12 mb-6 font-bold">The 5 Pillars of Mold Prevention</h2>
-                
-                <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-4">1. Relative Humidity Control (The 45% Rule)</h3>
-                <p>
-                  The single most important factor is humidity. In 2026, we recommend a commercial-grade dehumidifier that maintains a relative humidity (RH) of <strong>45% or lower</strong>. Anything above 60% is an invitation for mold to colonize.
-                </p>
-
-                <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-4">2. Exterior Water Management</h3>
-                <p>
-                  90% of basement moisture starts outside. Clogged gutters, downspouts that discharge at the foundation, and poor yard grading are the primary culprits. If your soil doesn't slope 6 inches away from the house over the first 10 feet, you are essentially "watering" your basement.
-                </p>
-
-                <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-4">3. Foundation Sealing & Waterproofing</h3>
-                <p>
-                  Cracks as thin as a hair can allow water vapor to enter. Professional injection sealing and exterior membrane application (see our <Link href="/articles/complete-basement-waterproofing-guide" className="text-teal-600 font-bold hover:underline">Complete Waterproofing Guide</Link>) create a physical barrier that stops the moisture source at the root.
-                </p>
-
-                <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-4">4. Strategic Airflow</h3>
-                <p>
-                  Stagnant air pockets behind furniture or in corners are prime real estate for mold. Ensure your HVAC system is properly sized for the basement and consider supplemental air filtration with HEPA-grade units to scrub spores from the environment.
-                </p>
-
-                <h3 className="text-2xl font-bold text-slate-800 mt-8 mb-4">5. "Smart" Monitoring</h3>
-                <p>
-                  Don't wait for a flood. Modern <Link href="/articles/smart-sump-pumps-guide" className="text-teal-600 font-bold hover:underline">smart leak sensors</Link> can alert your phone the second humidity spikes or a pipe starts sweating.
-                </p>
-
-                <h2 className="text-3xl font-bold text-slate-800 mt-12 mb-6">Conclusion: Don't Negotiate with Mold</h2>
-                <p>
-                  If you find mold, do not simply bleach it. Bleach kills surface mold but leaves the "roots" (hyphae) alive inside porous materials like wood and drywall. Address the moisture source first, then remediate properly.
-                </p>
-                <div className="bg-slate-800 text-white p-8 rounded-2xl my-12 shadow-xl">
-                  <h3 className="text-2xl font-bold mb-4">Worried about the cost of mold?</h3>
-                  <p className="text-slate-300 mb-6">
-                    Prevention is cheap. Professional remediation is not. Our latest data shows that ignoring a mold issue for just 6 months can triple the cleanup costs.
-                  </p>
-                  <Link href="/articles/mold-remediation-cost" className="inline-block bg-teal-500 text-white px-8 py-3 rounded-lg font-bold hover:bg-teal-600 transition-colors">
-                    Check Mold Remediation Costs →
-                  </Link>
-                </div>
-              </div>
+          {/* Why Basements Are Mold Factories */}
+          <h2 className='text-3xl font-bold text-slate-900 mt-16 mb-6'>Why Basements Are Mold Factories</h2>
+          <p className='text-slate-700 mb-6'>
+            Basements offer mold everything it needs: ground moisture, organic food like drywall and cardboard, and poor airflow. Concrete wicks water, and cool walls cause condensation when warm air arrives. But you do not have to live with it. The five pillars below give you a complete playbook.
+          </p>
+          <div className='grid grid-cols-1 md:grid-cols-3 gap-4 my-8 not-prose'>
+            <div className='bg-slate-50 border border-slate-100 rounded-2xl p-6'>
+              <p className='text-teal-700 font-bold text-sm uppercase tracking-wider mb-2'>Concrete Porosity</p>
+              <p className='text-slate-600 text-sm'>Concrete looks solid but acts like a hard sponge, wicking moisture from the earth through capillary action.</p>
             </div>
-
-            {/* Sidebar */}
-            <div className="lg:w-1/3">
-              <div className="sticky top-8 space-y-8">
-                {/* Related Guides */}
-                <div className="bg-slate-50 p-6 rounded-2xl border border-slate-200">
-                  <h3 className="font-bold text-slate-800 text-xl mb-6">Related Health Guides</h3>
-                  <div className="space-y-6">
-                    <Link href="/articles/mold-remediation-cost" className="group block">
-                      <p className="text-teal-600 text-xs font-bold uppercase mb-1">Cost Guide</p>
-                      <h4 className="font-bold text-slate-800 group-hover:text-teal-600 transition-colors">Mold Remediation Cost 2026</h4>
-                    </Link>
-                    <Link href="/articles/smart-sump-pumps-guide" className="group block">
-                      <p className="text-teal-600 text-xs font-bold uppercase mb-1">Smart Home</p>
-                      <h4 className="font-bold text-slate-800 group-hover:text-teal-600 transition-colors">Smart Sensors for Flood Prevention</h4>
-                    </Link>
-                    <Link href="/articles/basement-insulation-guide" className="group block">
-                      <p className="text-teal-600 text-xs font-bold uppercase mb-1">Insulation</p>
-                      <h4 className="font-bold text-slate-800 group-hover:text-teal-600 transition-colors">Condensation-Free Insulation Methods</h4>
-                    </Link>
-                                        <Link href="/articles/sump-pump-buying-guide" className="group block">
-                      <p className="text-teal-600 text-xs font-bold uppercase mb-1">Buying Guide</p>
-                      <h4 className="font-bold text-slate-800 group-hover:text-teal-600 transition-colors">Sump Pump Buying Guide</h4>
-                    </Link>
-                  </div>
-                </div>
-
-                {/* Newsletter/Lead CTA */}
-                <div className="bg-teal-600 p-8 rounded-2xl text-white shadow-lg">
-                  <h3 className="text-2xl font-bold mb-4">Suspect a Mold Issue?</h3>
-                  <p className="text-teal-50 mb-6 italic">"The smell of damp is the smell of mold eating your home."</p>
-                  <p className="text-teal-50 mb-8">Get free, no-obligation quotes from licensed mold remediation specialists in your area.</p>
-                  <Link href="/#get-quotes" className="block w-full bg-white text-teal-600 text-center py-4 rounded-xl font-bold hover:bg-teal-50 transition-colors">
-                    Get Expert Help Now
-                  </Link>
-                </div>
-              </div>
+            <div className='bg-slate-50 border border-slate-100 rounded-2xl p-6'>
+              <p className='text-teal-700 font-bold text-sm uppercase tracking-wider mb-2'>Organic Food Sources</p>
+              <p className='text-slate-600 text-sm'>Drywall paper, wood studs, cardboard boxes, and even dust are feasts for mold colonies.</p>
+            </div>
+            <div className='bg-slate-50 border border-slate-100 rounded-2xl p-6'>
+              <p className='text-teal-700 font-bold text-sm uppercase tracking-wider mb-2'>The Dew Point Trap</p>
+              <p className='text-slate-600 text-sm'>Cool basement walls meet warm, humid air, creating invisible condensation that kickstarts mold growth.</p>
             </div>
           </div>
+
+          {/* The 5 Pillars */}
+          <h2 className='text-3xl font-bold text-slate-900 mt-16 mb-6'>The 5 Pillars of Mold Prevention</h2>
+
+          {/* Pillar 1 */}
+          <div className='bg-teal-50 border-l-4 border-teal-500 rounded-r-2xl p-6 my-8'>
+            <h3 className='text-xl font-bold text-slate-900 mb-2'>1. Relative Humidity Control &mdash; The 45 Percent Rule</h3>
+            <p className='text-slate-700 mb-4'>
+              Keep humidity at 45 percent or lower year-round. Above 55 percent and mold feels welcome.
+            </p>
+            <p className='text-slate-700 font-semibold mb-2'>Action steps:</p>
+            <ul className='list-disc pl-6 text-slate-600 space-y-1'>
+              <li>Run a properly sized <Link href='/articles/dehumidifier-myths' className='text-teal-700 underline'>dehumidifier</Link> with humidistat and auto-drain hose 24/7 in humid seasons.</li>
+              <li>Place it near the dampest spot and pair with central AC when possible.</li>
+              <li>Clean coils monthly.</li>
+              <li>Skip cheap undersized units &mdash; choose 50&ndash;70 pint capacity for most basements.</li>
+            </ul>
+          </div>
+
+          {/* Pillar 2 */}
+          <div className='bg-teal-50 border-l-4 border-teal-500 rounded-r-2xl p-6 my-8'>
+            <h3 className='text-xl font-bold text-slate-900 mb-2'>2. Exterior Water Management</h3>
+            <p className='text-slate-700 mb-4'>
+              Ninety percent of basement water issues start outside.
+            </p>
+            <p className='text-slate-700 font-semibold mb-2'>Action steps:</p>
+            <ul className='list-disc pl-6 text-slate-600 space-y-1'>
+              <li>Clean gutters and downspouts twice a year and add extensions that carry water six feet away.</li>
+              <li>Re-grade soil to slope away from the foundation.</li>
+              <li>Seal <Link href='/articles/types-of-foundation-cracks' className='text-teal-700 underline'>foundation cracks</Link> and keep window wells clear with covers.</li>
+            </ul>
+          </div>
+
+          {/* Pillar 3 */}
+          <div className='bg-teal-50 border-l-4 border-teal-500 rounded-r-2xl p-6 my-8'>
+            <h3 className='text-xl font-bold text-slate-900 mb-2'>3. Foundation Sealing &amp; Waterproofing</h3>
+            <p className='text-slate-700 mb-4'>
+              Even tiny cracks let vapor through.
+            </p>
+            <p className='text-slate-700 font-semibold mb-2'>What works:</p>
+            <ul className='list-disc pl-6 text-slate-600 space-y-1'>
+              <li>Seal minor cracks with masonry sealer or epoxy.</li>
+              <li>Add interior sealants and vapor barrier paint on finished walls.</li>
+              <li>Maintain a <Link href='/articles/sump-pump-guide' className='text-teal-700 underline'>sump pump</Link> with battery backup and test it monthly.</li>
+            </ul>
+          </div>
+
+          {/* Pillar 4 */}
+          <div className='bg-teal-50 border-l-4 border-teal-500 rounded-r-2xl p-6 my-8'>
+            <h3 className='text-xl font-bold text-slate-900 mb-2'>4. Strategic Airflow</h3>
+            <p className='text-slate-700 mb-4'>
+              Stagnant air behind boxes is a mold magnet.
+            </p>
+            <p className='text-slate-700 font-semibold mb-2'>Easy wins:</p>
+            <ul className='list-disc pl-6 text-slate-600 space-y-1'>
+              <li>Keep furniture six inches from walls.</li>
+              <li>Vent bathroom and kitchen fans outside.</li>
+              <li>Run a ceiling fan or oscillating fans on low.</li>
+              <li>Service HVAC yearly and change filters every 60&ndash;90 days.</li>
+            </ul>
+          </div>
+
+          {/* Pillar 5 */}
+          <div className='bg-teal-50 border-l-4 border-teal-500 rounded-r-2xl p-6 my-8'>
+            <h3 className='text-xl font-bold text-slate-900 mb-2'>5. Smart Monitoring</h3>
+            <p className='text-slate-700 mb-4'>
+              Catch issues early.
+            </p>
+            <p className='text-slate-700 font-semibold mb-2'>Daily habit:</p>
+            <ul className='list-disc pl-6 text-slate-600 space-y-1'>
+              <li>Use digital hygrometers in two or three spots and check weekly.</li>
+              <li>Install smart leak sensors near water sources.</li>
+              <li>Walk the basement monthly with a flashlight, looking behind items.</li>
+            </ul>
+          </div>
+
+          {/* What to Do If You Spot Early Signs */}
+          <h2 className='text-3xl font-bold text-slate-900 mt-16 mb-6'>What to Do If You Spot Early Signs</h2>
+          <p className='text-slate-700 mb-4'>
+            Musty smell, small spots, or allergy symptoms that improve when you leave the basement? Fix the moisture source first. Treat light growth with a non-toxic product instead of bleach. Wipe hard surfaces, discard badly affected items, and improve ventilation.
+          </p>
+          <div className='bg-red-50 border border-red-200 rounded-2xl p-6 my-8 not-prose'>
+            <p className='text-red-800 font-bold text-lg mb-2'>⚠️ When to Call a Pro</p>
+            <p className='text-red-700'>
+              For growth over ten square feet or health concerns, call a professional immediately. Check our <Link href='/articles/mold-remediation-cost' className='text-red-800 underline font-semibold'>mold remediation cost guide</Link> for pricing details.
+            </p>
+          </div>
+
+          {/* Recommended Tools */}
+          <h2 className='text-3xl font-bold text-slate-900 mt-16 mb-6'>Recommended Tools &amp; Products</h2>
+          <p className='text-slate-700 mb-8'>
+            These four tools help thousands of readers stay ahead of mold. They are the ones we use ourselves.
+          </p>
+          <div className='grid grid-cols-1 md:grid-cols-2 gap-6 my-8 not-prose'>
+            <div className='bg-slate-50 border border-slate-100 rounded-2xl p-6'>
+              <p className='text-teal-700 font-bold text-sm uppercase tracking-wider mb-2'>Mold Test Kit</p>
+              <p className='text-slate-900 font-bold text-lg mb-1'>My Mold Detective Mold Test Kit</p>
+              <p className='text-slate-600 text-sm'>Includes air sampling plates and surface swabs with lab results in days. Perfect for checking after water events or every spring.</p>
+              <a href='https://amzn.to/3MFyPvT' target='_blank' rel='noopener noreferrer' className='inline-block mt-3 px-4 py-2 bg-teal-600 text-white text-sm font-bold rounded-lg hover:bg-teal-700 transition-colors'>Check Price on Amazon →</a>
+            </div>
+            <div className='bg-slate-50 border border-slate-100 rounded-2xl p-6'>
+              <p className='text-teal-700 font-bold text-sm uppercase tracking-wider mb-2'>Mold Control Spray</p>
+              <p className='text-slate-900 font-bold text-lg mb-1'>Concrobium Mold Control Spray</p>
+              <p className='text-slate-600 text-sm'>EPA-registered, bleach-free spray that kills mold and leaves a protective barrier. Odorless and safe around kids and pets once dry. Great for walls, joists, and furniture.</p>
+              <a href='https://amzn.to/46nCgOy' target='_blank' rel='noopener noreferrer' className='inline-block mt-3 px-4 py-2 bg-teal-600 text-white text-sm font-bold rounded-lg hover:bg-teal-700 transition-colors'>Check Price on Amazon →</a>
+            </div>
+            <div className='bg-slate-50 border border-slate-100 rounded-2xl p-6'>
+              <p className='text-teal-700 font-bold text-sm uppercase tracking-wider mb-2'>HEPA Air Purifier</p>
+              <p className='text-slate-900 font-bold text-lg mb-1'>Levoit Core 600S True HEPA Air Purifier</p>
+              <p className='text-slate-600 text-sm'>Handles large basements quietly with an app for real-time air quality. Captures 99.97 percent of mold spores. Run on auto and watch the musty smell vanish.</p>
+              <a href='https://amzn.to/4kVbxP3' target='_blank' rel='noopener noreferrer' className='inline-block mt-3 px-4 py-2 bg-teal-600 text-white text-sm font-bold rounded-lg hover:bg-teal-700 transition-colors'>Check Price on Amazon →</a>
+            </div>
+            <div className='bg-slate-50 border border-slate-100 rounded-2xl p-6'>
+              <p className='text-teal-700 font-bold text-sm uppercase tracking-wider mb-2'>Moisture Meter</p>
+              <p className='text-slate-900 font-bold text-lg mb-1'>Klein Tools ET140 Pinless Moisture Meter</p>
+              <p className='text-slate-600 text-sm'>Scans drywall, concrete, and wood without holes. Instant readings with clear alerts. Check suspect areas monthly to catch damp spots early.</p>
+              <a href='https://amzn.to/4qXiocj' target='_blank' rel='noopener noreferrer' className='inline-block mt-3 px-4 py-2 bg-teal-600 text-white text-sm font-bold rounded-lg hover:bg-teal-700 transition-colors'>Check Price on Amazon →</a>
+            </div>
+          </div>
+
+          {/* Seasonal Checklist */}
+          <h2 className='text-3xl font-bold text-slate-900 mt-16 mb-6'>Seasonal Prevention Checklist</h2>
+          <div className='grid grid-cols-1 md:grid-cols-2 gap-4 my-8 not-prose'>
+            <div className='bg-green-50 border border-green-100 rounded-2xl p-6'>
+              <p className='text-green-800 font-bold text-lg mb-2'>🌱 Spring</p>
+              <p className='text-slate-600 text-sm'>Deep clean, test humidity, clean gutters.</p>
+            </div>
+            <div className='bg-yellow-50 border border-yellow-100 rounded-2xl p-6'>
+              <p className='text-yellow-800 font-bold text-lg mb-2'>☀️ Summer</p>
+              <p className='text-slate-600 text-sm'>Run dehumidifier non-stop, keep windows closed on muggy days.</p>
+            </div>
+            <div className='bg-orange-50 border border-orange-100 rounded-2xl p-6'>
+              <p className='text-orange-800 font-bold text-lg mb-2'>🍂 Fall</p>
+              <p className='text-slate-600 text-sm'>Inspect grading and HVAC before rains.</p>
+            </div>
+            <div className='bg-blue-50 border border-blue-100 rounded-2xl p-6'>
+              <p className='text-blue-800 font-bold text-lg mb-2'>❄️ Winter</p>
+              <p className='text-slate-600 text-sm'>Watch for pipe condensation and use a small heater if needed.</p>
+            </div>
+          </div>
+
+          {/* Conclusion */}
+          <h2 className='text-3xl font-bold text-slate-900 mt-16 mb-6'>Don't Negotiate with Mold</h2>
+          <p className='text-slate-700 mb-4'>
+            Prevention is simple and effective when you stay consistent. Address moisture first, monitor with the right tools, and protect your space. Thousands have turned damp basements into dry, usable areas with these steps.
+          </p>
+          <p className='text-slate-700 mb-8'>
+            If the smell returns, act early. Prevention costs far less than remediation. The musty smell really is mold eating your home. Stop it before it starts.
+          </p>
+
+          {/* FAQ Section */}
+          <h2 className='text-3xl font-bold text-slate-900 mt-16 mb-6'>Frequently Asked Questions</h2>
+          <div className='space-y-6 my-8'>
+            <div>
+              <h4 className='font-bold text-slate-900 mb-2'>How often should I check for mold?</h4>
+              <p className='text-slate-600'>Monthly visual walk-through plus weekly humidity checks is plenty.</p>
+            </div>
+            <div>
+              <h4 className='font-bold text-slate-900 mb-2'>Can I use regular bleach?</h4>
+              <p className='text-slate-600'>Only on non-porous surfaces for cleaning. It does not kill roots and can damage materials.</p>
+            </div>
+            <div>
+              <h4 className='font-bold text-slate-900 mb-2'>Will a dehumidifier solve everything?</h4>
+              <p className='text-slate-600'>It handles the biggest factor but works best with good drainage and airflow.</p>
+            </div>
+            <div>
+              <h4 className='font-bold text-slate-900 mb-2'>Are these products safe for kids and pets?</h4>
+              <p className='text-slate-600'>Yes. Concrobium and the Levoit purifier are low-VOC and family-friendly once dry or installed.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      {/* Related Guides */}
+      <section className='max-w-7xl mx-auto px-6 py-16'>
+        <h2 className='text-3xl font-bold text-slate-900 mb-8'>Related Guides</h2>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
+          <Link href='/articles/mold-remediation-cost' className='group block bg-white rounded-2xl border border-slate-200 p-6 hover:shadow-lg transition-shadow'>
+            <h4 className='font-bold text-slate-900 group-hover:text-teal-700 transition-colors mb-2'>Mold Remediation Cost Guide</h4>
+            <p className='text-slate-500 text-sm'>What to expect for professional mold removal pricing in 2026.</p>
+          </Link>
+          <Link href='/articles/dehumidifier-myths' className='group block bg-white rounded-2xl border border-slate-200 p-6 hover:shadow-lg transition-shadow'>
+            <h4 className='font-bold text-slate-900 group-hover:text-teal-700 transition-colors mb-2'>Dehumidifier Myths &amp; Sizing Guide</h4>
+            <p className='text-slate-500 text-sm'>Why your 30-pint unit is failing and the science of proper sizing.</p>
+          </Link>
+          <Link href='/articles/basement-waterproofing-cost' className='group block bg-white rounded-2xl border border-slate-200 p-6 hover:shadow-lg transition-shadow'>
+            <h4 className='font-bold text-slate-900 group-hover:text-teal-700 transition-colors mb-2'>Basement Waterproofing Cost Guide</h4>
+            <p className='text-slate-500 text-sm'>What to expect for professional waterproofing pricing in 2026.</p>
+          </Link>
+          <Link href='/articles/sump-pump-guide' className='group block bg-white rounded-2xl border border-slate-200 p-6 hover:shadow-lg transition-shadow'>
+            <h4 className='font-bold text-slate-900 group-hover:text-teal-700 transition-colors mb-2'>Sump Pump Buying Guide</h4>
+            <p className='text-slate-500 text-sm'>Choose the right sump pump to protect your basement from flooding.</p>
+          </Link>
+          <Link href='/articles/basement-insulation-guide' className='group block bg-white rounded-2xl border border-slate-200 p-6 hover:shadow-lg transition-shadow'>
+            <h4 className='font-bold text-slate-900 group-hover:text-teal-700 transition-colors mb-2'>Basement Insulation Guide</h4>
+            <p className='text-slate-500 text-sm'>Proper insulation works hand-in-hand with humidity control.</p>
+          </Link>
+          <Link href='/articles/best-basement-flooring' className='group block bg-white rounded-2xl border border-slate-200 p-6 hover:shadow-lg transition-shadow'>
+            <h4 className='font-bold text-slate-900 group-hover:text-teal-700 transition-colors mb-2'>Best Basement Flooring Options</h4>
+            <p className='text-slate-500 text-sm'>Choose moisture-resistant flooring for your basement.</p>
+          </Link>
+        </div>
+      </section>
+
+      {/* Lead Form CTA */}
+      <section className='max-w-4xl mx-auto px-6 pb-20'>
+        <div className='bg-slate-900 rounded-3xl p-10 text-center'>
+          <h2 className='text-3xl font-bold text-white mb-4'>Suspect a Mold Issue?</h2>
+          <p className='text-slate-300 mb-8 max-w-2xl mx-auto'>
+            Connect with local mold remediation and waterproofing professionals for a free assessment of your moisture problems.
+          </p>
+          <LeadForm />
         </div>
       </section>
     </div>
