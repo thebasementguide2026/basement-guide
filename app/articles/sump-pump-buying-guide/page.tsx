@@ -324,6 +324,10 @@ export default function SumpPumpBuyingGuide() {
               <Link href='/articles/how-to-finish-a-basement' className='block bg-slate-50 rounded-xl p-6 border border-slate-100 hover:border-indigo-300 hover:shadow-lg transition-all'>
                 <h3 className='font-bold text-slate-900 mb-2'>How to Finish a Basement</h3>
                 <p className='text-slate-600 text-sm'>Step-by-step guide to transforming your unfinished basement.</p>
+            <Link href='/articles/french-drain-cost' className='block bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:shadow-lg transition-shadow'>
+              <h3 className='font-bold text-slate-900 mb-2'>French Drain Cost Guide</h3>
+              <p className='text-slate-600 text-sm'>Complete pricing for interior and exterior French drain installations in 2026.</p>
+            </Link>
               </Link>
             </div>
           </div>
