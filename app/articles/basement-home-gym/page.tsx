@@ -15,7 +15,7 @@ export default function BasementHomeGym() {
       {/* Article Hero */}
       <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
         <Image
-          src='/Basement Home Gym.jpg'
+          src='/gym image.jpg'
           alt='Finished basement home gym with rubber flooring and equipment'
           fill
           className='object-cover opacity-45 scale-105 transition-transform duration-700 hover:scale-110'
