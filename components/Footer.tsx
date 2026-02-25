@@ -45,6 +45,9 @@ export default function Footer() {
           <p className="mt-2">
             This site contains affiliate links. We may earn a commission when you purchase through our links at no extra cost to you.
           </p>
+                    <p className="mt-2">
+            As an Amazon Associate, I earn from qualifying purchases.
+          </p>
         </div>
       </div>
     </footer>
