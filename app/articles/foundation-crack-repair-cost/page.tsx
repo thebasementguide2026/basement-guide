@@ -123,6 +123,29 @@ export default function FoundationCrackRepairCost() {
             </div>
           </div>
 
+                    {/* Related Guides */}
+          <section className='mt-16 mb-12'>
+            <h2 className='text-2xl font-bold text-slate-900 mb-6'>Related Guides</h2>
+            <div className='grid md:grid-cols-2 gap-4'>
+              <Link href='/articles/types-of-foundation-cracks' className='block bg-slate-50 rounded-xl p-6 hover:bg-slate-100 transition-colors'>
+                <h3 className='font-bold text-slate-900 mb-2'>Types of Foundation Cracks</h3>
+                <p className='text-slate-600 text-sm'>Diagnose whether your crack is cosmetic or a structural red flag.</p>
+              </Link>
+              <Link href='/articles/bowing-basement-walls' className='block bg-slate-50 rounded-xl p-6 hover:bg-slate-100 transition-colors'>
+                <h3 className='font-bold text-slate-900 mb-2'>Bowing Basement Walls Guide</h3>
+                <p className='text-slate-600 text-sm'>Causes, repair methods, and costs for bowing and leaning walls.</p>
+              </Link>
+              <Link href='/articles/complete-basement-waterproofing-guide' className='block bg-slate-50 rounded-xl p-6 hover:bg-slate-100 transition-colors'>
+                <h3 className='font-bold text-slate-900 mb-2'>Complete Waterproofing Guide</h3>
+                <p className='text-slate-600 text-sm'>Everything you need to know about stopping basement leaks for good.</p>
+              </Link>
+              <Link href='/articles/basement-efflorescence' className='block bg-slate-50 rounded-xl p-6 hover:bg-slate-100 transition-colors'>
+                <h3 className='font-bold text-slate-900 mb-2'>Basement Efflorescence Explained</h3>
+                <p className='text-slate-600 text-sm'>What that white powder on your walls really means and how to stop it.</p>
+              </Link>
+            </div>
+          </section>
+
           <div className='bg-violet-600 rounded-3xl p-12 text-white my-20 shadow-xl shadow-violet-200 relative overflow-hidden not-prose'>
             <div className='absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full -mr-32 -mt-32' />
             <div className='relative z-10 text-center max-w-2xl mx-auto'>
