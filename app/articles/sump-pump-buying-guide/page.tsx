@@ -329,6 +329,10 @@ export default function SumpPumpBuyingGuide() {
               <p className='text-slate-600 text-sm'>Complete pricing for interior and exterior French drain installations in 2026.</p>
             </Link>
               </Link>
+            <Link href='/articles/basement-insulation-guide' className='block bg-slate-50 rounded-2xl p-5 border border-slate-200 hover:shadow-md transition-shadow'>
+              <h3 className='font-bold text-slate-900 mb-2'>Basement Insulation Guide</h3>
+              <p className='text-slate-600 text-sm'>R-values, materials, and installation methods for below-grade walls.</p>
+            </Link>
             </div>
           </div>
 
