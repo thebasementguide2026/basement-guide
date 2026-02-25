@@ -284,6 +284,10 @@ export default function FoundationCracksArticle() {
             <h3 className='font-bold text-slate-900 mb-2'>Basement Efflorescence Explained</h3>
             <p className='text-slate-600 text-sm'>What that white powder on your walls really means and how to stop it.</p>
           </Link>
+                      <Link href='/articles/interior-vs-exterior-waterproofing' className='block bg-slate-50 rounded-xl p-6 border border-slate-100 hover:border-teal-300 hover:shadow-lg transition-all'>
+                                      <h3 className='font-bold text-slate-900 mb-2'>Interior vs. Exterior Waterproofing</h3>
+                                      <p className='text-slate-600 text-sm'>Compare costs, methods, and lifespans for each waterproofing approach.</p>
+                                    </Link>
         </div>
       </section>
 
