@@ -262,6 +262,14 @@ const guides = [
     category: 'Finishing',
     readTime: '18 min read',
   },
+    {
+    title: 'Basement Bathroom Guide: How to Add a Bathroom the Right Way',
+    description: 'Complete 2026 guide to adding a bathroom in your basement. Costs, plumbing options, waterproofing, materials, and step-by-step planning.',
+    href: '/articles/basement-bathroom-guide',
+    image: '/Basement Bathroom.jpg',
+    category: 'Finishing',
+    readTime: '20 min read',
+  },
 ]
 export default function GuidesPage() {
   return (
