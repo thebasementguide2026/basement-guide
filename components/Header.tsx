@@ -13,7 +13,7 @@ export default function Header() {
       {/* Top Bar - Logo Centered with Search & CTA */}
       <div className="border-b border-gray-100">
         <div className="container-custom">
-          <div className="flex items-center justify-between h-24">
+          <div className="flex items-center justify-between h-28">
             {/* Left Spacer for Desktop */}
             <div className="hidden md:flex items-center w-40">
               <button
@@ -34,20 +34,16 @@ export default function Header() {
                 alt="The Basement Guide"
                 width={600}
                 height={150}
-                className="h-16 w-auto"
+                className="h-24 w-auto"
                 priority
               />
             </Link>
 
             {/* Right - CTA & Mobile Menu */}
             <div className="flex items-center gap-3 w-40 justify-end">
-              <Link
-                href="/get-quotes"
-                className="hidden md:inline-flex items-center bg-brand-teal hover:bg-brand-navy text-white px-5 py-2.5 rounded-lg text-sm font-bold transition-colors"
-              >
+              <Link href="/get-quotes" className="hidden md:inline-flex bg-brand-teal hover:bg-brand-navy text-white px-5 py-2.5 rounded-lg text-sm font-bold transition-colors">
                 Get Free Quotes
               </Link>
-
               {/* Mobile Search */}
               <button
                 onClick={() => setSearchOpen(!searchOpen)}
@@ -58,21 +54,16 @@ export default function Header() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                 </svg>
               </button>
-
               {/* Mobile Hamburger */}
               <button
-                className="md:hidden text-gray-500 hover:text-brand-teal p-2"
+                className="md:hidden text-gray-600 hover:text-brand-teal transition-colors p-2"
                 onClick={() => setMenuOpen(!menuOpen)}
                 aria-label="Toggle menu"
               >
                 {menuOpen ? (
-                  <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                  </svg>
+                  <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" /></svg>
                 ) : (
-                  <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-                  </svg>
+                  <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" /></svg>
                 )}
               </button>
             </div>
@@ -83,10 +74,12 @@ export default function Header() {
       {/* Desktop Navigation - Centered */}
       <nav className="hidden md:block border-b border-gray-100">
         <div className="container-custom">
-          <div className="flex items-center justify-center gap-10 h-12">
-            <Link href="/guides" className="text-gray-600 hover:text-brand-teal transition-colors text-sm font-semibold uppercase tracking-wider">Guides</Link>
-            <Link href="/reviews" className="text-gray-600 hover:text-brand-teal transition-colors text-sm font-semibold uppercase tracking-wider">Reviews</Link>
+          <div className="flex items-center justify-center gap-8 h-12">
+            <Link href="/guides" className="text-gray-600 hover:text-brand-teal transition-colors text-sm font-semibold uppercase tracking-wider">Waterproofing</Link>
             <Link href="/cost-guides" className="text-gray-600 hover:text-brand-teal transition-colors text-sm font-semibold uppercase tracking-wider">Cost Guides</Link>
+            <Link href="/reviews" className="text-gray-600 hover:text-brand-teal transition-colors text-sm font-semibold uppercase tracking-wider">Reviews & Buying Guides</Link>
+            <Link href="/#health-safety" className="text-gray-600 hover:text-brand-teal transition-colors text-sm font-semibold uppercase tracking-wider">Health & Safety</Link>
+            <Link href="/#finishing" className="text-gray-600 hover:text-brand-teal transition-colors text-sm font-semibold uppercase tracking-wider">Finishing & Renovation</Link>
             <Link href="/about" className="text-gray-600 hover:text-brand-teal transition-colors text-sm font-semibold uppercase tracking-wider">About</Link>
           </div>
         </div>
@@ -107,9 +100,11 @@ export default function Header() {
           <div className="container-custom py-4">
             <SearchBar onClose={() => setMenuOpen(false)} />
             <nav className="flex flex-col gap-1 mt-4">
-              <Link onClick={() => setMenuOpen(false)} href="/guides" className="text-gray-600 hover:text-brand-teal py-2.5 text-sm font-semibold uppercase tracking-wider">Guides</Link>
-              <Link onClick={() => setMenuOpen(false)} href="/reviews" className="text-gray-600 hover:text-brand-teal py-2.5 text-sm font-semibold uppercase tracking-wider">Reviews</Link>
+              <Link onClick={() => setMenuOpen(false)} href="/guides" className="text-gray-600 hover:text-brand-teal py-2.5 text-sm font-semibold uppercase tracking-wider">Waterproofing</Link>
               <Link onClick={() => setMenuOpen(false)} href="/cost-guides" className="text-gray-600 hover:text-brand-teal py-2.5 text-sm font-semibold uppercase tracking-wider">Cost Guides</Link>
+              <Link onClick={() => setMenuOpen(false)} href="/reviews" className="text-gray-600 hover:text-brand-teal py-2.5 text-sm font-semibold uppercase tracking-wider">Reviews & Buying Guides</Link>
+              <Link onClick={() => setMenuOpen(false)} href="/#health-safety" className="text-gray-600 hover:text-brand-teal py-2.5 text-sm font-semibold uppercase tracking-wider">Health & Safety</Link>
+              <Link onClick={() => setMenuOpen(false)} href="/#finishing" className="text-gray-600 hover:text-brand-teal py-2.5 text-sm font-semibold uppercase tracking-wider">Finishing & Renovation</Link>
               <Link onClick={() => setMenuOpen(false)} href="/about" className="text-gray-600 hover:text-brand-teal py-2.5 text-sm font-semibold uppercase tracking-wider">About</Link>
               <Link onClick={() => setMenuOpen(false)} href="/get-quotes" className="bg-brand-teal hover:bg-brand-navy text-white px-4 py-2.5 rounded-lg text-sm font-bold text-center mt-2 transition-colors">Get Free Quotes</Link>
             </nav>
