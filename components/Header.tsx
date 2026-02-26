@@ -13,7 +13,7 @@ export default function Header() {
       {/* Top Bar - Logo Centered with Search & CTA */}
       <div className="border-b border-gray-100">
         <div className="container-custom">
-          <div className="flex items-center justify-between h-20">
+          <div className="flex items-center justify-between h-24">
             {/* Left Spacer for Desktop */}
             <div className="hidden md:flex items-center w-40">
               <button
@@ -34,7 +34,7 @@ export default function Header() {
                 alt="The Basement Guide"
                 width={600}
                 height={150}
-                className="h-12 w-auto"
+                className="h-16 w-auto"
                 priority
               />
             </Link>
