@@ -294,6 +294,14 @@ const guides = [
     category: 'Insurance',
     readTime: '28 min read',
   },
+    {
+    title: 'Spring Basement Checklist: Preparing for the Wet Season',
+    description: 'Complete 13-step spring basement checklist covering gutters, sump pumps, cracks, dehumidifiers, emergency kits, and more.',
+    href: '/articles/spring-basement-checklist',
+    image: '/spring%20basement%20checklist.jpg',
+    category: 'Seasonal',
+    readTime: '24 min read',
+  },
 ]
 export default function GuidesPage() {
   return (
