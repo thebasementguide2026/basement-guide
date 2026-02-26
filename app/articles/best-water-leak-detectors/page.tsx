@@ -399,7 +399,5 @@ export default function BestWaterLeakDetectors() {
         </div>
       </div>
     </div>
-  )
+      )
 }
-            </div>
-              
