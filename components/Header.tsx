@@ -43,7 +43,7 @@ export default function Header() {
               </svg>
             </button>
 
-            <Link href="/get-quotes" className="bg-brand-teal hover:bg-brand-navy text-white px-5 py-2.5 rounded-lg text-sm font-bold transition-colors">
+            <Link href="/get-quotes" className="bg-brand-teal hover:bg-brand-navy text-white px-4 py-2 rounded-lg text-sm font-bold transition-colors">
               Get Free Quotes
             </Link>
           </nav>
@@ -58,31 +58,28 @@ export default function Header() {
           </button>
 
         </div>
-
-        {/* Desktop Search Dropdown */}
-        {searchOpen && (
-          <div className="hidden md:block pb-4">
-            <SearchBar onResultClick={() => setSearchOpen(false)} />
-          </div>
-        )}
-
-        {/* Mobile Menu Dropdown */}
-        {menuOpen && (
-          <div className="md:hidden pb-4 border-t border-gray-100 mt-2">
-            <div className="pt-3 pb-2">
-              <SearchBar onResultClick={() => setMenuOpen(false)} />
-            </div>
-            <nav className="flex flex-col space-y-1 pt-2">
-              <Link href="/guides" onClick={() => setMenuOpen(false)} className="text-gray-600 hover:text-brand-teal py-2 text-sm font-medium">Guides</Link>
-              <Link href="/reviews" onClick={() => setMenuOpen(false)} className="text-gray-600 hover:text-brand-teal py-2 text-sm font-medium">Reviews</Link>
-              <Link href="/cost-guides" onClick={() => setMenuOpen(false)} className="text-gray-600 hover:text-brand-teal py-2 text-sm font-medium">Cost Guides</Link>
-              <Link href="/about" onClick={() => setMenuOpen(false)} className="text-gray-600 hover:text-brand-teal py-2 text-sm font-medium">About</Link>
-              <Link href="/get-quotes" onClick={() => setMenuOpen(false)} className="bg-brand-teal hover:bg-brand-navy text-white px-4 py-2.5 rounded-lg text-sm font-bold text-center mt-2 transition-colors">Get Free Quotes</Link>
-            </nav>
-          </div>
-        )}
-
       </div>
+
+      {/* Desktop Search Dropdown */}
+      {searchOpen && (
+        <div className="hidden md:block pb-4">
+          <SearchBar onClose={() => setSearchOpen(false)} />
+        </div>
+      )}
+
+      {/* Mobile Menu Dropdown */}
+      {menuOpen && (
+        <div className="md:hidden border-t border-gray-200 bg-white px-4 py-4">
+          <SearchBar onClose={() => setMenuOpen(false)} />
+          <nav className="flex flex-col space-y-3 mt-4">
+            <Link href="/guides" onClick={() => setMenuOpen(false)} className="text-gray-600 hover:text-brand-teal py-2 text-sm font-medium">Guides</Link>
+            <Link href="/reviews" onClick={() => setMenuOpen(false)} className="text-gray-600 hover:text-brand-teal py-2 text-sm font-medium">Reviews</Link>
+            <Link href="/cost-guides" onClick={() => setMenuOpen(false)} className="text-gray-600 hover:text-brand-teal py-2 text-sm font-medium">Cost Guides</Link>
+            <Link href="/about" onClick={() => setMenuOpen(false)} className="text-gray-600 hover:text-brand-teal py-2 text-sm font-medium">About</Link>
+            <Link href="/get-quotes" onClick={() => setMenuOpen(false)} className="bg-brand-teal hover:bg-brand-navy text-white px-4 py-2.5 rounded-lg text-sm font-bold text-center mt-2 transition-colors">Get Free Quotes</Link>
+          </nav>
+        </div>
+      )}
     </header>
   )
 }
