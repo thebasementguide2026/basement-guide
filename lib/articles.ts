@@ -252,6 +252,13 @@ export const articles: Article[] = [
     category: 'Renovation',
     readTime: '42 min read',
   },
+    {
+    title: 'Spring Basement Checklist: Preparing for the Wet Season',
+    description: 'Complete 13-step spring basement checklist covering gutters, sump pumps, cracks, dehumidifiers, emergency kits, and more.',
+    slug: 'spring-basement-checklist',
+    category: 'Seasonal',
+    readTime: '24 min read',
+  },
   {
     title: 'Basement Flooding Insurance: What\'s Actually Covered in 2026',
     description: 'Understand what homeowners insurance covers for basement flooding in 2026. NFIP vs private flood insurance, water backup riders, claims tips, and cost data.',
