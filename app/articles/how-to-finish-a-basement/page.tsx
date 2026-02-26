@@ -234,7 +234,7 @@ export default function HowToFinishBasement() {
               <iframe
                 width='100%'
                 height='100%'
-                src='https://www.youtube.com/embed/V6FWOMqMFGw'
+                src='https://www.youtube.com/embed/4WlZaw1b9bI'
                 title='DIY Basement Renovation Guide'
                 allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
                 allowFullScreen
