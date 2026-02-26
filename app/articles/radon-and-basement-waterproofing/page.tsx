@@ -284,6 +284,16 @@ export default function RadonWaterproofingArticle() {
             </div>
           </div>
 
+                      <div className='bg-teal-50 rounded-xl p-6 border border-teal-200 mt-8'>
+              <div className='flex items-center gap-2 mb-3'>
+                <span className='bg-teal-600 text-white px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider'>Our Pick</span>
+                <span className='bg-slate-100 text-slate-600 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider'>Home Testing</span>
+              </div>
+              <h3 className='text-xl font-bold text-slate-900 mb-2'>Affordable Digital Radon Detector</h3>
+              <p className='text-slate-600 mb-4'>For quick peace of mind, a plug-in digital radon detector gives you continuous readings without lab fees. Keep one running in your basement year-round to catch any changes early.</p>
+              <a href='https://amzn.to/4rMpXDV' target='_blank' rel='noopener noreferrer nofollow' className='inline-flex items-center gap-2 bg-amber-500 hover:bg-amber-600 text-white font-semibold px-5 py-2.5 rounded-lg transition-colors text-sm'>Check Price on Amazon →</a>
+            </div>
+
           {/* Costs Section */}
           <div className='border-t border-slate-100 pt-16 mt-16'>
             <h2 className='text-3xl font-bold text-slate-900 mt-0 mb-6'>Costs of Radon Mitigation and Basement Waterproofing (2026 Estimates)</h2>
