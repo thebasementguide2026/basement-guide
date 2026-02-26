@@ -278,6 +278,14 @@ const guides = [
     category: 'Finishing',
     readTime: '18 min read',
   },
+    {
+    title: 'Old House Basements: Complete Guide to Renovating, Waterproofing & Insulating Older Homes',
+    description: 'Everything you need to know about renovating, waterproofing, and insulating basements in homes built before 1950. Work with the original materials, not against them.',
+    href: '/articles/old-house-basements',
+    image: '/old-house-basement-hero.jpg',
+    category: 'Renovation',
+    readTime: '42 min read',
+  },
 ]
 export default function GuidesPage() {
   return (
