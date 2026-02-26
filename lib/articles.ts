@@ -260,6 +260,13 @@ export const articles: Article[] = [
     readTime: '24 min read',
   },
   {
+    title: 'Best Waterproof Basement Paint & Sealers in 2026',
+    description: 'Drylok vs RadonSeal vs KILZ, Liquid Rubber, Thoroseal, Sani-Tred. Compare waterproof basement paints and sealers on cost, performance, and longevity.',
+    slug: 'waterproof-basement-paint-sealers',
+    category: 'Reviews',
+    readTime: '26 min read',
+  },
+  {
     title: 'Basement Flooding Insurance: What\'s Actually Covered in 2026',
     description: 'Understand what homeowners insurance covers for basement flooding in 2026. NFIP vs private flood insurance, water backup riders, claims tips, and cost data.',
     slug: 'basement-flooding-insurance',
