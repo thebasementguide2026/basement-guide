@@ -15,7 +15,7 @@ export default function SpringBasementChecklist() {
       {/* Article Hero */}
       <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
         <Image
-          src='/spring%20basement%20checklist.jpg'
+          src='/images/spring-basement-checklist/springchecklist.jpg'
           alt='Spring basement maintenance checklist preparation'
           fill
           className='object-cover opacity-45 scale-105 transition-transform duration-700 hover:scale-100'
