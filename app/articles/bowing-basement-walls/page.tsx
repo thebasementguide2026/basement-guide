@@ -190,6 +190,10 @@ export default function BowingWallsArticle() {
                 <h3 className='font-bold text-slate-900 mb-2'>Basement Efflorescence Explained</h3>
                 <p className='text-slate-600 text-sm'>What that white powder on your walls really means and how to stop it.</p>
               </Link>
+                              <Link href='/articles/old-house-basements' className='block bg-slate-50 rounded-xl p-6 hover:bg-slate-100 transition-colors'>
+                  <h3 className='font-bold text-slate-900 mb-2'>Old House Basements Guide</h3>
+                  <p className='text-slate-600 text-sm'>Renovating, waterproofing, and insulating basements in older homes built before 1950.</p>
+                </Link>
             </div>
           </section>
 
