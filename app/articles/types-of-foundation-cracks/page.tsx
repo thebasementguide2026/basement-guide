@@ -288,6 +288,10 @@ export default function FoundationCracksArticle() {
                                       <h3 className='font-bold text-slate-900 mb-2'>Interior vs. Exterior Waterproofing</h3>
                                       <p className='text-slate-600 text-sm'>Compare costs, methods, and lifespans for each waterproofing approach.</p>
                                     </Link>
+                        <Link href='/articles/old-house-basements' className='block bg-slate-50 rounded-xl p-6 border border-slate-100 hover:border-teal-300 hover:shadow-lg transition-all'>
+                <h3 className='font-bold text-slate-900 mb-2'>Old House Basements Guide</h3>
+                <p className='text-slate-600 text-sm'>Renovating and waterproofing basements in pre-1940 homes with historic foundations.</p>
+              </Link>
         </div>
       </section>
 
