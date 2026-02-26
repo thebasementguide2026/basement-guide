@@ -185,6 +185,10 @@ export default function HowToFinishBasement() {
                 <h3 className='font-bold text-slate-900 mb-2'>Sump Pump Buying Guide</h3>
                 <p className='text-slate-600 text-sm'>Choose the right sump pump to protect your basement from flooding.</p>
               </Link>
+                              <Link href='/articles/old-house-basements' className='block bg-slate-50 rounded-xl p-6 border border-slate-100 hover:border-teal-300 hover:shadow-lg transition-all'>
+                  <h3 className='font-bold text-slate-900 mb-2'>Old House Basements Guide</h3>
+                  <p className='text-slate-600 text-sm'>Complete guide to renovating, waterproofing, and insulating basements in older homes.</p>
+                </Link>
             </div>
           </div>
 
