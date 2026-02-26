@@ -424,6 +424,10 @@ export default function CompleteBasementWaterproofingGuide() {
                                             <h4 className='text-lg font-bold text-slate-900 mb-2'>Mold Remediation Cost Guide</h4>
                                             <p className='text-slate-600 text-sm'>What to expect for professional mold removal pricing in 2026.</p>
                                           </Link>
+                                    <Link href='/articles/old-house-basements' className='block bg-slate-50 rounded-xl p-6 border border-slate-100 hover:border-teal-300 hover:shadow-lg transition-all'>
+                          <h4 className='text-lg font-bold text-slate-900 mb-2'>Old House Basements Guide</h4>
+                          <p className='text-slate-600 text-sm'>Waterproofing and insulating basements in older homes built before 1950.</p>
+                        </Link>
           </div>
         </div>
 
