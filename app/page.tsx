@@ -54,34 +54,27 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Latest Articles - 3 Column Grid */}
+      {/* Latest Articles - Clean Card Grid */}
       <section className="bg-white py-16">
         <div className="container-custom">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-brand-navy mb-3">Latest Articles</h2>
             <p className="text-gray-500 text-lg max-w-2xl mx-auto">Expert advice on waterproofing, finishing, and maintaining your basement</p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {articles.slice(0, 6).map((article) => (
               <Link key={article.slug} href={`/articles/${article.slug}`} className="group">
-                <article className="bg-white border border-gray-200 rounded-xl overflow-hidden hover:shadow-lg transition-shadow duration-200">
-                  <div className="relative h-48 bg-gray-100 overflow-hidden">
-                    <div className="absolute inset-0 bg-brand-navy/10 group-hover:bg-brand-navy/5 transition-colors" />
-                    <div className="absolute bottom-3 left-3">
-                      <span className="bg-brand-teal text-white px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wide">
-                        {article.category}
-                      </span>
-                    </div>
+                <article className="bg-white rounded-lg border border-gray-200 p-6 hover:border-brand-teal hover:shadow-md transition-all duration-200 h-full">
+                  <div className="flex items-center gap-2 mb-3">
+                    <span className="bg-brand-teal/10 text-brand-teal px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wide">
+                      {article.category}
+                    </span>
+                    <span className="text-xs text-gray-400">{article.readTime}</span>
                   </div>
-                  <div className="p-5">
-                    <h3 className="font-bold text-lg text-gray-900 group-hover:text-brand-teal transition-colors mb-2 line-clamp-2">
-                      {article.title}
-                    </h3>
-                    <p className="text-gray-500 text-sm line-clamp-2 mb-3">{article.description}</p>
-                    <div className="flex items-center text-xs text-gray-400">
-                      <span>{article.readTime}</span>
-                    </div>
-                  </div>
+                  <h3 className="font-bold text-lg text-gray-900 group-hover:text-brand-teal transition-colors mb-2 line-clamp-2">
+                    {article.title}
+                  </h3>
+                  <p className="text-gray-500 text-sm line-clamp-2">{article.description}</p>
                 </article>
               </Link>
             ))}
@@ -195,7 +188,7 @@ export default function Home() {
               <p className="text-gray-500 mt-1">Protect your family from mold, radon, and moisture</p>
             </div>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {healthSafety.map((article) => (
               <Link key={article.slug} href={`/articles/${article.slug}`} className="group">
                 <article className="bg-white rounded-lg border border-gray-200 p-5 hover:border-brand-teal hover:shadow-md transition-all duration-200">
@@ -203,6 +196,7 @@ export default function Home() {
                   <h3 className="font-bold text-sm text-gray-900 group-hover:text-brand-teal transition-colors mt-2 mb-2 line-clamp-2">
                     {article.title}
                   </h3>
+                  <p className="text-gray-500 text-sm line-clamp-2 mb-2">{article.description}</p>
                   <span className="text-xs text-gray-400">{article.readTime}</span>
                 </article>
               </Link>
