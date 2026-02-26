@@ -311,6 +311,10 @@ export default function BasementRenovationMistakes() {
             <h3 className='font-bold text-slate-800 mb-1'>The Pre-Finish Audit: 7 Critical Checkpoints</h3>
             <p className='text-sm text-slate-500'>Future-proof your basement before you hang a single sheet of drywall.</p>
           </Link>
+                      <Link href='/articles/old-house-basements' className='block p-4 rounded-lg border border-slate-200 hover:border-teal-400 hover:shadow-md transition-all duration-300'>
+              <h3 className='font-bold text-slate-800 mb-1'>Old House Basements Guide</h3>
+              <p className='text-sm text-slate-500'>Renovating and waterproofing basements in older homes built before 1950.</p>
+            </Link>
         </div>
       </section>
 
