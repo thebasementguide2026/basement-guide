@@ -137,7 +137,7 @@ export default function PreventMoldArticle() {
             <p className='text-slate-700 mb-4'>
               Catch issues early.
             </p>
-            <p className='text-slate-700 font-semibold mb-2'>Daily habit:</p>
+ <Link href='/articles/musty-basement-smell' className='text-teal-600 underline hover:text-teal-800'>Musty smell</Link>, small spots           <p className='text-slate-700 font-semibold mb-2'>Daily habit:</p>
             <ul className='list-disc pl-6 text-slate-600 space-y-1'>
               <li>Use digital hygrometers in two or three spots and check weekly.</li>
               <li>Install smart leak sensors near water sources.</li>
@@ -216,7 +216,7 @@ export default function PreventMoldArticle() {
             Prevention is simple and effective when you stay consistent. Address moisture first, monitor with the right tools, and protect your space. Thousands have turned damp basements into dry, usable areas with these steps.
           </p>
           <p className='text-slate-700 mb-8'>
-            If the smell returns, act early. Prevention costs far less than remediation. The musty smell really is mold eating your home. Stop it before it starts.
+            If the smell returns, act early. Prevention costs far less than remediation. The <Link href='/articles/musty-basement-smell' className='text-teal-600 underline hover:text-teal-800'>musty smell</Link> really is mold eating your home. Stop it before it starts.
           </p>
 
           {/* FAQ Section */}
