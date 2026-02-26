@@ -11,16 +11,16 @@ export default function Header() {
   return (
     <header className="bg-white border-b border-gray-200 sticky top-0 z-50">
       <div className="container-custom">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-20">
 
           {/* Logo */}
           <Link href="/" className="flex items-center">
             <Image
               src="/TheBasement%20Guide%20Logo.png"
               alt="The Basement Guide"
-              width={300}
-              height={75}
-              className="h-14 w-auto"
+              width={400}
+              height={100}
+              className="h-16 w-auto"
               priority
             />
           </Link>
