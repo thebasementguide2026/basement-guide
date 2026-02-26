@@ -246,23 +246,23 @@ export default function SumpPumpBuyingGuide() {
             <div className='grid grid-cols-1 sm:grid-cols-2 gap-4'>
               <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
                 <h4 className='font-bold text-slate-900 mb-1'>Zoeller</h4>
-                <p className='text-slate-600 text-sm'>Best overall reliability and quiet operation.</p>
+                <p className='text-slate-600 text-sm'>Best overall reliability and quiet operation.</p><a href='https://amzn.to/4cOcGWF' target='_blank' rel='noopener noreferrer nofollow' className='inline-flex items-center gap-2 bg-amber-500 hover:bg-amber-600 text-white font-semibold px-4 py-2 rounded-lg transition-colors text-sm mt-3'>Check Price on Amazon →</a>
               </div>
               <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
                 <h4 className='font-bold text-slate-900 mb-1'>Wayne</h4>
-                <p className='text-slate-600 text-sm'>Excellent value and strong performance.</p>
+                <p className='text-slate-600 text-sm'>Excellent value and strong performance.</p><a href='https://amzn.to/4kUZXU7' target='_blank' rel='noopener noreferrer nofollow' className='inline-flex items-center gap-2 bg-amber-500 hover:bg-amber-600 text-white font-semibold px-4 py-2 rounded-lg transition-colors text-sm mt-3'>Check Price on Amazon →</a>
               </div>
               <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
                 <h4 className='font-bold text-slate-900 mb-1'>Liberty Pumps</h4>
-                <p className='text-slate-600 text-sm'>Great smart features and monitoring.</p>
+                <p className='text-slate-600 text-sm'>Great smart features and monitoring.</p><a href='https://amzn.to/4aPywXn' target='_blank' rel='noopener noreferrer nofollow' className='inline-flex items-center gap-2 bg-amber-500 hover:bg-amber-600 text-white font-semibold px-4 py-2 rounded-lg transition-colors text-sm mt-3'>Check Price on Amazon →</a>
               </div>
               <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
                 <h4 className='font-bold text-slate-900 mb-1'>Superior Pump</h4>
-                <p className='text-slate-600 text-sm'>Solid budget-friendly option.</p>
+                <p className='text-slate-600 text-sm'>Solid budget-friendly option.</p><a href='https://amzn.to/4aYIhCO' target='_blank' rel='noopener noreferrer nofollow' className='inline-flex items-center gap-2 bg-amber-500 hover:bg-amber-600 text-white font-semibold px-4 py-2 rounded-lg transition-colors text-sm mt-3'>Check Price on Amazon →</a>
               </div>
               <div className='bg-indigo-50 rounded-xl p-6 border border-indigo-100 sm:col-span-2'>
                 <h4 className='font-bold text-indigo-900 mb-1'>Basement Watchdog</h4>
-                <p className='text-slate-700 text-sm'>Best battery backup systems on the market.</p>
+                <p className='text-slate-700 text-sm'>Best battery backup systems on the market.</p><a href='https://amzn.to/40q94Ts' target='_blank' rel='noopener noreferrer nofollow' className='inline-flex items-center gap-2 bg-amber-500 hover:bg-amber-600 text-white font-semibold px-4 py-2 rounded-lg transition-colors text-sm mt-3'>Check Price on Amazon →</a>
               </div>
             </div>
           </div>
