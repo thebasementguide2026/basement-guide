@@ -286,6 +286,14 @@ const guides = [
     category: 'Renovation',
     readTime: '42 min read',
   },
+  {
+    title: 'Basement Flooding Insurance: What\'s Actually Covered in 2026',
+    description: 'Understand what homeowners insurance covers for basement flooding in 2026. NFIP vs private flood insurance, water backup riders, claims tips, and cost data.',
+    href: '/articles/basement-flooding-insurance',
+    image: '/basement%20flooding%20insurance.jpg',
+    category: 'Insurance',
+    readTime: '28 min read',
+  },
 ]
 export default function GuidesPage() {
   return (
