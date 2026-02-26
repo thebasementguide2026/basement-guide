@@ -417,6 +417,10 @@ export default function DehumidifierMythsArticle() {
                 <h4 className='text-lg font-bold text-slate-900 mb-2'>Mold Remediation Cost Guide</h4>
                 <p className='text-slate-600 text-sm'>What to expect for professional mold removal pricing in 2026.</p>
               </Link>
+                        <Link href='/articles/musty-basement-smell' className='block bg-slate-50 rounded-2xl border border-slate-200 p-6 hover:shadow-md hover:border-teal-300 transition-all'>
+            <h4 className='text-lg font-bold text-slate-900 mb-2'>Musty Basement Smell Guide</h4>
+            <p className='text-slate-600 text-sm'>Track down and eliminate that damp, earthy basement odor for good.</p>
+          </Link>
             </div>
           </div>
           {/* Lead Form CTA */}
