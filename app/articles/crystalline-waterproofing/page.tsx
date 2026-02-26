@@ -175,6 +175,10 @@ export default function CrystallineWaterproofing() {
               <h4 className='text-lg font-bold text-slate-900 mb-2'>How to Prevent Basement Mold</h4>
               <p className='text-slate-600 text-sm'>Critical steps to prevent mold growth and protect your family.</p>
             </Link>
+                        <Link href='/articles/old-house-basements' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+              <h4 className='text-lg font-bold text-slate-900 mb-2'>Old House Basements Guide</h4>
+              <p className='text-slate-600 text-sm'>Renovating and waterproofing basements in pre-1940 homes with historic foundations.</p>
+            </Link>
           </div>
         </div>
 
