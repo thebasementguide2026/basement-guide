@@ -593,6 +593,10 @@ export default function BasementInsulationGuide() {
               <h3 className='font-bold text-slate-900 mb-1'>Preventing Basement Mold</h3>
               <p className='text-slate-500 text-sm'>Steps to keep mold from forming in your basement.</p>
             </Link>
+                        <Link href='/articles/old-house-basements' className='block bg-slate-50 rounded-2xl p-5 border border-slate-200 hover:border-teal-300 hover:shadow-md transition-all'>
+              <h3 className='font-bold text-slate-900 mb-1'>Old House Basements Guide</h3>
+              <p className='text-slate-500 text-sm'>Insulating and waterproofing basements in older homes built before 1950.</p>
+            </Link>
           </div>
 
           {/* CTA */}
