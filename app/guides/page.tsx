@@ -302,6 +302,14 @@ const guides = [
     category: 'Seasonal',
     readTime: '24 min read',
   },
+  {
+    title: 'Best Waterproof Basement Paint & Sealers in 2026',
+    description: 'Drylok vs RadonSeal vs KILZ, Liquid Rubber, Thoroseal, Sani-Tred. Compare waterproof basement paints and sealers on cost, performance, and longevity.',
+    href: '/articles/waterproof-basement-paint-sealers',
+    image: '/images/waterproof-basement-paint-sealers/hero.jpg',
+    category: 'Reviews',
+    readTime: '26 min read',
+  },
 ]
 export default function GuidesPage() {
   return (
