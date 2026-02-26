@@ -1,5 +1,6 @@
 'use client'
 import Link from 'next/link'
+import Image from 'next/image'
 import { useState } from 'react'
 import SearchBar from '@/components/SearchBar'
 
@@ -13,91 +14,71 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
 
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 group">
-            {/* Water drop icon */}
-            <svg
-              width="28"
-              height="28"
-              viewBox="0 0 28 28"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M14 3C14 3 5 13 5 18.5C5 23.2 9.1 27 14 27C18.9 27 23 23.2 23 18.5C23 13 14 3 14 3Z"
-                fill="#0D9488"
-              />
-              <path
-                d="M14 3C14 3 5 13 5 18.5C5 23.2 9.1 27 14 27C18.9 27 23 23.2 23 18.5C23 13 14 3 14 3Z"
-                fill="url(#dropGradient)"
-              />
-              <ellipse cx="11" cy="18" rx="2" ry="3" fill="white" fillOpacity="0.3" transform="rotate(-20 11 18)" />
-              <defs>
-                <linearGradient id="dropGradient" x1="14" y1="3" x2="14" y2="27" gradientUnits="userSpaceOnUse">
-                  <stop offset="0%" stopColor="#14B8A6" />
-                  <stop offset="100%" stopColor="#0F766E" />
-                </linearGradient>
-              </defs>
-            </svg>
-            {/* Wordmark */}
-            <span className="text-lg font-bold leading-tight tracking-tight">
-              <span className="text-gray-900">The Basement</span><br />
-              <span className="text-teal-600">Guide</span>
-            </span>
+          <Link href="/" className="flex items-center">
+            <Image
+              src="/TheBasement%20Guide%20Logo.png"
+              alt="The Basement Guide"
+              width={180}
+              height={45}
+              className="h-10 w-auto"
+              priority
+            />
           </Link>
 
           {/* Desktop Nav */}
-          <nav className="hidden md:flex items-center gap-6">
-            <Link href="/guides" className="text-gray-700 font-medium hover:text-teal-600 transition-colors">Guides</Link>
-            <Link href="/reviews" className="text-gray-700 font-medium hover:text-teal-600 transition-colors">Reviews</Link>
-            <Link href="/cost-guides" className="text-gray-700 font-medium hover:text-teal-600 transition-colors">Cost Guides</Link>
-            <Link href="/about" className="text-gray-700 font-medium hover:text-teal-600 transition-colors">About</Link>
+          <nav className="hidden md:flex items-center space-x-8">
+            <Link href="/guides" className="text-gray-600 hover:text-brand-teal transition-colors text-sm font-medium">Guides</Link>
+            <Link href="/reviews" className="text-gray-600 hover:text-brand-teal transition-colors text-sm font-medium">Reviews</Link>
+            <Link href="/cost-guides" className="text-gray-600 hover:text-brand-teal transition-colors text-sm font-medium">Cost Guides</Link>
+            <Link href="/about" className="text-gray-600 hover:text-brand-teal transition-colors text-sm font-medium">About</Link>
 
             {/* Search Toggle Button */}
             <button
               onClick={() => setSearchOpen(!searchOpen)}
-              className="text-gray-500 hover:text-teal-600 transition-colors p-1"
+              className="text-gray-500 hover:text-brand-teal transition-colors p-1"
               aria-label="Toggle search"
             >
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5">
+                <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
               </svg>
             </button>
 
-            <Link href="/#get-quotes" className="bg-teal-600 text-white px-4 py-2 rounded-lg font-semibold text-center mx-2">Get Free Quotes</Link>
+            <Link href="/get-quotes" className="bg-brand-teal hover:bg-brand-navy text-white px-5 py-2.5 rounded-lg text-sm font-bold transition-colors">
+              Get Free Quotes
+            </Link>
           </nav>
 
           {/* Mobile Hamburger */}
-          <button
-            className="md:hidden text-gray-700 p-2"
-            onClick={() => setMenuOpen(!menuOpen)}
-            aria-label="Toggle menu"
-          >
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              {menuOpen
-                ? <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                : <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />}
-            </svg>
+          <button className="md:hidden text-gray-600" onClick={() => setMenuOpen(!menuOpen)} aria-label="Toggle menu">
+            {menuOpen ? (
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" /></svg>
+            ) : (
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" /></svg>
+            )}
           </button>
+
         </div>
 
         {/* Desktop Search Dropdown */}
         {searchOpen && (
-          <div className="hidden md:block pb-3">
-            <SearchBar onClose={() => setSearchOpen(false)} />
+          <div className="hidden md:block pb-4">
+            <SearchBar onResultClick={() => setSearchOpen(false)} />
           </div>
         )}
 
         {/* Mobile Menu Dropdown */}
         {menuOpen && (
-          <div className="md:hidden border-t border-gray-100 py-4 flex flex-col space-y-3">
-            <div className="px-2 mb-2">
-              <SearchBar onClose={() => setMenuOpen(false)} />
+          <div className="md:hidden pb-4 border-t border-gray-100 mt-2">
+            <div className="pt-3 pb-2">
+              <SearchBar onResultClick={() => setMenuOpen(false)} />
             </div>
-            <Link href="/guides" className="text-gray-700 font-medium px-2 py-1" onClick={() => setMenuOpen(false)}>Guides</Link>
-            <Link href="/reviews" className="text-gray-700 font-medium px-2 py-1" onClick={() => setMenuOpen(false)}>Reviews</Link>
-            <Link href="/cost-guides" className="text-gray-700 font-medium px-2 py-1" onClick={() => setMenuOpen(false)}>Cost Guides</Link>
-            <Link href="/about" className="text-gray-700 font-medium px-2 py-1" onClick={() => setMenuOpen(false)}>About</Link>
-            <Link href="/#get-quotes" className="bg-teal-600 text-white px-4 py-2 rounded-lg font-semibold text-center mx-2" onClick={() => setMenuOpen(false)}>Get Free Quotes</Link>
+            <nav className="flex flex-col space-y-1 pt-2">
+              <Link href="/guides" onClick={() => setMenuOpen(false)} className="text-gray-600 hover:text-brand-teal py-2 text-sm font-medium">Guides</Link>
+              <Link href="/reviews" onClick={() => setMenuOpen(false)} className="text-gray-600 hover:text-brand-teal py-2 text-sm font-medium">Reviews</Link>
+              <Link href="/cost-guides" onClick={() => setMenuOpen(false)} className="text-gray-600 hover:text-brand-teal py-2 text-sm font-medium">Cost Guides</Link>
+              <Link href="/about" onClick={() => setMenuOpen(false)} className="text-gray-600 hover:text-brand-teal py-2 text-sm font-medium">About</Link>
+              <Link href="/get-quotes" onClick={() => setMenuOpen(false)} className="bg-brand-teal hover:bg-brand-navy text-white px-4 py-2.5 rounded-lg text-sm font-bold text-center mt-2 transition-colors">Get Free Quotes</Link>
+            </nav>
           </div>
         )}
 
