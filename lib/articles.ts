@@ -312,6 +312,14 @@ export const articles: Article[] = [
     readTime: '28 min read',
     image: '/basement%20flooding%20insurance.jpg',
   },
+    {
+    title: 'Best Water Leak Detectors & Smart Sensors for Basements 2026',
+    description: 'YoLink vs Govee vs Ring vs Flo by Moen. Find the best water leak detector for your basement with our comprehensive review of standalone sensors, smart-home systems, and whole-home shutoff solutions.',
+    slug: 'best-water-leak-detectors',
+    category: 'Reviews',
+    readTime: '14 min read',
+    image: '/smart-home-leak-sensors.jpg.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
