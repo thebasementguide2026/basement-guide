@@ -4,6 +4,7 @@ export interface Article {
   slug: string
   category: string
   readTime: string
+  image?: string
 }
 
 export const articles: Article[] = [
@@ -13,6 +14,7 @@ export const articles: Article[] = [
     slug: 'bowing-basement-walls',
     category: 'Structural',
     readTime: '18 min read',
+    image: '/bowed%20walled.jpg',
   },
   {
     title: 'Types of Foundation Cracks: What Each One Means',
@@ -20,6 +22,7 @@ export const articles: Article[] = [
     slug: 'types-of-foundation-cracks',
     category: 'Diagnosis',
     readTime: '15 min read',
+    image: '/cracked%20foundation.jpg',
   },
   {
     title: 'Basement vs. Crawl Space vs. Slab: Which Foundation is Right for You?',
@@ -27,6 +30,7 @@ export const articles: Article[] = [
     slug: 'basement-vs-crawl-space-vs-slab',
     category: 'Comparison',
     readTime: '25 min read',
+    image: '/crawlspace.jpg',
   },
   {
     title: 'How to Prevent Basement Mold: The Definitive Guide',
@@ -34,6 +38,7 @@ export const articles: Article[] = [
     slug: 'how-to-prevent-basement-mold',
     category: 'Health & Safety',
     readTime: '22 min read',
+    image: '/mold3.png',
   },
   {
     title: 'The Complete Basement Waterproofing Guide for 2026',
@@ -41,6 +46,7 @@ export const articles: Article[] = [
     slug: 'complete-basement-waterproofing-guide',
     category: 'Waterproofing',
     readTime: '15 min read',
+    image: '/exterior-waterproofing-membrane.jpg.png',
   },
   {
     title: 'Interior vs. Exterior Basement Waterproofing: The Ultimate 2026 Comparison',
@@ -48,6 +54,7 @@ export const articles: Article[] = [
     slug: 'interior-vs-exterior-waterproofing',
     category: 'Deep Dive',
     readTime: '25 min read',
+    image: '/foundation-exterior-membrane-wide.jpg.png',
   },
   {
     title: 'Basement Insulation: The 2026 Guide',
@@ -55,6 +62,7 @@ export const articles: Article[] = [
     slug: 'basement-insulation-guide',
     category: 'Insulation',
     readTime: '15 min read',
+    image: '/unfinished-basement-interior.jpg.jpg',
   },
   {
     title: "Basement Finishing Cost Guide 2026: What You'll Actually Pay",
@@ -62,6 +70,7 @@ export const articles: Article[] = [
     slug: 'basement-finishing-cost',
     category: 'Cost Guide',
     readTime: '18 min read',
+    image: '/finishing%20a%20basement%20guide.jpg',
   },
   {
     title: 'Egress Window Installation Cost 2026',
@@ -69,6 +78,7 @@ export const articles: Article[] = [
     slug: 'egress-window-cost',
     category: 'Cost Guide',
     readTime: '12 min read',
+    image: '/foundation-concrete-forms.jpg.png',
   },
   {
     title: 'The Pre-Finish Audit: 7 Critical Checkpoints',
@@ -76,6 +86,7 @@ export const articles: Article[] = [
     slug: 'pre-finish-audit',
     category: 'Finishing',
     readTime: '10 min read',
+    image: '/unfinished-basement-interior.jpg.jpg',
   },
   {
     title: 'Best Waterproof Flooring for Basements 2026',
@@ -83,6 +94,7 @@ export const articles: Article[] = [
     slug: 'best-basement-flooring',
     category: 'Reviews',
     readTime: '12 min read',
+    image: '/basement-flooring-installation.jpg.png',
   },
   {
     title: 'Smart Sump Pumps & Leak Sensors: The 2026 Guide',
@@ -90,6 +102,7 @@ export const articles: Article[] = [
     slug: 'smart-sump-pumps-guide',
     category: 'Smart Home',
     readTime: '14 min read',
+    image: '/smart-home-leak-sensors.jpg.jpg',
   },
   {
     title: 'Battery vs Water-Powered Sump Pumps: 2026 Comparison',
@@ -97,6 +110,7 @@ export const articles: Article[] = [
     slug: 'battery-vs-water-powered-sump-pumps',
     category: 'Comparison',
     readTime: '11 min read',
+    image: '/sump-pump-installation.jpg',
   },
   {
     title: 'What is Crystalline Waterproofing? Self-Healing Concrete Technology',
@@ -104,6 +118,7 @@ export const articles: Article[] = [
     slug: 'crystalline-waterproofing',
     category: 'Technology',
     readTime: '8 min read',
+    image: '/bitumen-waterproofing-membrane.png',
   },
   {
     title: 'Foundation Crack Repair Cost 2026',
@@ -111,6 +126,7 @@ export const articles: Article[] = [
     slug: 'foundation-crack-repair-cost',
     category: 'Cost Guide',
     readTime: '12 min read',
+    image: '/foundation-crack-closeup.jpg',
   },
   {
     title: 'French Drain Installation Cost 2026',
@@ -118,6 +134,7 @@ export const articles: Article[] = [
     slug: 'french-drain-cost',
     category: 'Cost Guide',
     readTime: '10 min read',
+    image: '/french-drain-trench.jpg',
   },
   {
     title: 'Sump Pump Installation Cost 2026',
@@ -125,6 +142,7 @@ export const articles: Article[] = [
     slug: 'sump-pump-cost',
     category: 'Cost Guide',
     readTime: '9 min read',
+    image: '/sump-pump-pit-closeup.jpg.png',
   },
   {
     title: 'Mold Remediation Cost 2026',
@@ -132,6 +150,7 @@ export const articles: Article[] = [
     slug: 'mold-remediation-cost',
     category: 'Health & Safety',
     readTime: '8 min read',
+    image: '/basement-mold-wall.jpg',
   },
   {
     title: 'Basement Waterproofing Cost 2026',
@@ -139,6 +158,7 @@ export const articles: Article[] = [
     slug: 'basement-waterproofing-cost',
     category: 'Cost Guide',
     readTime: '11 min read',
+    image: '/foundation-waterproofing-construction.jpg.png',
   },
   {
     title: 'Sump Pump Buying Guide: How to Choose the Right One (2026)',
@@ -146,6 +166,7 @@ export const articles: Article[] = [
     slug: 'sump-pump-buying-guide',
     category: 'Buying Guide',
     readTime: '12 min read',
+    image: '/sump-pump-installation.jpg',
   },
   {
     title: 'Why Your Basement Floods Even With a Sump Pump',
@@ -153,6 +174,7 @@ export const articles: Article[] = [
     slug: 'why-basement-floods-with-sump-pump',
     category: 'Troubleshooting',
     readTime: '10 min read',
+    image: '/basement-flooding.jpg',
   },
   {
     title: 'How to Finish a Basement: The Complete 2026 Guide',
@@ -160,6 +182,7 @@ export const articles: Article[] = [
     slug: 'how-to-finish-a-basement',
     category: 'Finishing',
     readTime: '35 min read',
+    image: '/finishing%20a%20basement%20guide.jpg',
   },
   {
     title: 'Dehumidifier Myths: Why Your 30-Pint Unit Is Failing',
@@ -167,6 +190,7 @@ export const articles: Article[] = [
     slug: 'dehumidifier-myths',
     category: 'Health & Safety',
     readTime: '30 min read',
+    image: '/Dehumidifier%20Myths-hero%20image.jpg',
   },
   {
     title: 'Radon and Basement Waterproofing: How Sealing Reduces Radon Risks',
@@ -174,6 +198,7 @@ export const articles: Article[] = [
     slug: 'radon-and-basement-waterproofing',
     category: 'Health & Safety',
     readTime: '28 min read',
+    image: '/Radon%20and%20waterproofing.jpg',
   },
   {
     title: 'How Much Value Does Waterproofing Add to Your Home Appraisal?',
@@ -181,13 +206,15 @@ export const articles: Article[] = [
     slug: 'waterproofing-home-appraisal-value',
     category: 'Home Value',
     readTime: '22 min read',
+    image: '/Home%20apprasial%20.jpg',
   },
   {
-    title: 'The Homebuyer\'s Basement Inspection Checklist',
+    title: "The Homebuyer's Basement Inspection Checklist",
     description: 'A detailed 2026 checklist to spot hidden mold, fresh paint cover-ups, water damage, and foundation issues before you buy.',
     slug: 'homebuyers-basement-inspection-checklist',
     category: 'Buying Guide',
     readTime: '25 min read',
+    image: '/homebuyers%20checklist.jpg',
   },
   {
     title: 'How to Hire a Basement Waterproofing Contractor Without Getting Scammed',
@@ -195,6 +222,7 @@ export const articles: Article[] = [
     slug: 'how-to-hire-basement-waterproofing-contractor',
     category: 'Hiring Guide',
     readTime: '20 min read',
+    image: '/howto%20hire%20a%20contractor%20.jpg',
   },
   {
     title: 'Water in My Basement: Your Immediate Emergency Plan',
@@ -202,6 +230,7 @@ export const articles: Article[] = [
     slug: 'basement-emergency-water-plan',
     category: 'Emergency',
     readTime: '6 min read',
+    image: '/Flooded%20Basement.jpg',
   },
   {
     title: 'Basement Renovation Mistakes: The 10 Most Expensive Errors',
@@ -209,6 +238,7 @@ export const articles: Article[] = [
     slug: 'basement-renovation-mistakes',
     category: 'Renovation',
     readTime: '18 min read',
+    image: '/Basement%20renovation%20mistakes.jpg',
   },
   {
     title: 'Musty Basement Smell: Causes, Fixes, and How to Eliminate It for Good',
@@ -216,6 +246,7 @@ export const articles: Article[] = [
     slug: 'musty-basement-smell',
     category: 'Health & Safety',
     readTime: '14 min read',
+    image: '/%3AMusty%20Basement%20Smell.jpg',
   },
   {
     title: 'Basement Efflorescence: What That White Powder Really Means',
@@ -223,6 +254,7 @@ export const articles: Article[] = [
     slug: 'basement-efflorescence',
     category: 'Diagnosis',
     readTime: '12 min read',
+    image: '/Efflorescence.jpg',
   },
   {
     title: 'Basement ADU & Rental Suite: How to Create a Profitable Legal Basement Apartment',
@@ -230,6 +262,7 @@ export const articles: Article[] = [
     slug: 'basement-adu-rental-suite',
     category: 'Finishing',
     readTime: '18 min read',
+    image: '/finishing%20a%20basement%20guide.jpg',
   },
   {
     title: 'Basement Bathroom Guide: How to Add a Bathroom the Right Way',
@@ -237,6 +270,7 @@ export const articles: Article[] = [
     slug: 'basement-bathroom-guide',
     category: 'Finishing',
     readTime: '20 min read',
+    image: '/Basement%20Bathroom.jpg',
   },
   {
     title: 'Basement Home Gym Guide: How to Build a Great Workout Space Below Ground',
@@ -244,20 +278,23 @@ export const articles: Article[] = [
     slug: 'basement-home-gym',
     category: 'Finishing',
     readTime: '18 min read',
+    image: '/gym%20image.jpg',
   },
-    {
+  {
     title: 'Old House Basements: Complete Guide to Renovating, Waterproofing & Insulating Older Homes',
     description: 'Everything you need to know about renovating, waterproofing, and insulating basements in homes built before 1950. Work with the original materials, not against them.',
     slug: 'old-house-basements',
     category: 'Renovation',
     readTime: '42 min read',
+    image: '/old-house-basement-hero.jpg',
   },
-    {
+  {
     title: 'Spring Basement Checklist: Preparing for the Wet Season',
     description: 'Complete 13-step spring basement checklist covering gutters, sump pumps, cracks, dehumidifiers, emergency kits, and more.',
     slug: 'spring-basement-checklist',
     category: 'Seasonal',
     readTime: '24 min read',
+    image: '/images/spring-basement-checklist/springchecklist.jpg',
   },
   {
     title: 'Best Waterproof Basement Paint & Sealers in 2026',
@@ -265,13 +302,15 @@ export const articles: Article[] = [
     slug: 'waterproof-basement-paint-sealers',
     category: 'Reviews',
     readTime: '26 min read',
+    image: '/images/waterproof-basement-paint-sealers/hero.jpg',
   },
   {
-    title: 'Basement Flooding Insurance: What\'s Actually Covered in 2026',
+    title: "Basement Flooding Insurance: What's Actually Covered in 2026",
     description: 'Understand what homeowners insurance covers for basement flooding in 2026. NFIP vs private flood insurance, water backup riders, claims tips, and cost data.',
     slug: 'basement-flooding-insurance',
     category: 'Insurance',
     readTime: '28 min read',
+    image: '/basement%20flooding%20insurance.jpg',
   },
 ]
 
