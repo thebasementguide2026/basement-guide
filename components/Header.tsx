@@ -18,9 +18,9 @@ export default function Header() {
             <Image
               src="/TheBasement%20Guide%20Logo.png"
               alt="The Basement Guide"
-              width={180}
-              height={45}
-              className="h-10 w-auto"
+              width={300}
+              height={75}
+              className="h-14 w-auto"
               priority
             />
           </Link>
