@@ -270,6 +270,10 @@ export default function PreventMoldArticle() {
             <h4 className='font-bold text-slate-900 group-hover:text-teal-700 transition-colors mb-2'>Best Basement Flooring Options</h4>
             <p className='text-slate-500 text-sm'>Choose moisture-resistant flooring for your basement.</p>
           </Link>
+                      <Link href='/articles/musty-basement-smell' className='group block bg-white rounded-2xl border border-slate-200 p-6 hover:shadow-lg hover:border-teal-200 transition-all'>
+              <h4 className='font-bold text-slate-900 group-hover:text-teal-700 transition-colors mb-2'>Musty Basement Smell Guide</h4>
+              <p className='text-slate-500 text-sm'>Track down and eliminate that damp, earthy odor for good.</p>
+            </Link>
         </div>
       </section>
 
