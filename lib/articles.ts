@@ -350,7 +350,7 @@ export const articles: Article[] = [
     slug: 'basement-permits-guide',
     category: 'Finishing',
     readTime: '15 min read',
-    image: '/images/basement-permits-guide/hero.jpg',
+    image: '/images/basement-permits-guide/permits.jpg',
   },
 ]
 
