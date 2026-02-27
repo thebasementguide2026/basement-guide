@@ -326,7 +326,7 @@ export const articles: Article[] = [
       slug: 'basement-humidity-guide',
       category: 'Health & Safety',
       readTime: '12 min read',
-      image: '/basement-humidity-guide.jpg',
+            image: '/humidity.jpg',
     },
 ]
 
