@@ -41,7 +41,7 @@ export default function Header() {
 
             {/* Right - CTA & Mobile Menu */}
             <div className="flex items-center gap-3 w-40 justify-end">
-              <Link href="/get-quotes" className="hidden md:inline-flex bg-brand-teal hover:bg-brand-navy text-white px-5 py-2.5 rounded-lg text-sm font-bold transition-colors">
+              <Link href="/#get-quotes" className="hidden md:inline-flex bg-brand-teal hover:bg-brand-navy text-white px-5 py-2.5 rounded-lg text-sm font-bold transition-colors">
                 Get Free Quotes
               </Link>
               {/* Mobile Search */}
@@ -106,7 +106,7 @@ export default function Header() {
               <Link onClick={() => setMenuOpen(false)} href="/#health-safety" className="text-gray-600 hover:text-brand-teal py-2.5 text-sm font-semibold uppercase tracking-wider">Health & Safety</Link>
               <Link onClick={() => setMenuOpen(false)} href="/#finishing" className="text-gray-600 hover:text-brand-teal py-2.5 text-sm font-semibold uppercase tracking-wider">Finishing & Renovation</Link>
               <Link onClick={() => setMenuOpen(false)} href="/about" className="text-gray-600 hover:text-brand-teal py-2.5 text-sm font-semibold uppercase tracking-wider">About</Link>
-              <Link onClick={() => setMenuOpen(false)} href="/get-quotes" className="bg-brand-teal hover:bg-brand-navy text-white px-4 py-2.5 rounded-lg text-sm font-bold text-center mt-2 transition-colors">Get Free Quotes</Link>
+              <Link onClick={() => setMenuOpen(false)} href="/#get-quotes" className="bg-brand-teal hover:bg-brand-navy text-white px-4 py-2.5 rounded-lg text-sm font-bold text-center mt-2 transition-colors">Get Free Quotes</Link>
             </nav>
           </div>
         </div>
