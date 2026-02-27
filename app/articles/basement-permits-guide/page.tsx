@@ -60,7 +60,7 @@ export default function BasementPermitsGuideArticle() {
       {/* Article Hero */}
       <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
         <Image
-          src='/images/basement-permits-guide/hero.jpg'
+          src='/images/basement-permits-guide/permits.jpg'
           alt='Basement renovation with building permits and blueprints'
           fill
           className='object-cover opacity-45 scale-105 transition-transform duration-700 hover:scale-100'
