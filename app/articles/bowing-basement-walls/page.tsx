@@ -10,6 +10,100 @@ export const metadata: Metadata = {
 export default function BowingWallsArticle() {
   return (
     <div className='bg-white min-h-screen'>
+            <script
+        type='application/ld+json'
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify([
+            {
+              '@context': 'https://schema.org',
+              '@type': 'FAQPage',
+              mainEntity: [
+                {
+                  '@type': 'Question',
+                  name: 'What causes bowing basement walls?',
+                  acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: 'Hydrostatic pressure from wet soil is the main culprit, along with expansive clays and frost heave.',
+                  },
+                },
+                {
+                  '@type': 'Question',
+                  name: 'How much does bowing basement wall repair cost?',
+                  acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: 'Around $4,500 on average, or $150–$400 per linear foot, depending on the method.',
+                  },
+                },
+                {
+                  '@type': 'Question',
+                  name: 'Can I fix bowing basement walls myself?',
+                  acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: 'Only minor cases with straps if you are experienced. Most need pros to avoid further damage.',
+                  },
+                },
+                {
+                  '@type': 'Question',
+                  name: 'Are bowing foundation walls dangerous?',
+                  acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: 'Yes. They can lead to collapse, mold growth, and lost home value of 10–20 percent.',
+                  },
+                },
+                {
+                  '@type': 'Question',
+                  name: 'How long do repairs last?',
+                  acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: '15–30 years with warranties. Pair with waterproofing for best results.',
+                  },
+                },
+                {
+                  '@type': 'Question',
+                  name: 'What if my basement wall is bowing inward slightly?',
+                  acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: 'Monitor it. If under 1 inch and stable, reinforce soon to prevent worsening.',
+                  },
+                },
+              ],
+            },
+            {
+              '@context': 'https://schema.org',
+              '@type': 'HowTo',
+              name: 'How to Fix Bowing Basement Walls',
+              description: 'Step-by-step guide to repairing bowed basement walls, ranked by severity.',
+              step: [
+                {
+                  '@type': 'HowToStep',
+                  name: 'Install Carbon Fiber Straps',
+                  text: 'Best for minor bowing under 2 inches. High-strength strips bond to the wall for reinforcement. Quick install in 1-2 days with no excavation required.',
+                },
+                {
+                  '@type': 'HowToStep',
+                  name: 'Install Wall Anchors',
+                  text: 'For moderate bowing. Steel plates inside connect to anchors buried outside, pulling the wall straight over time.',
+                },
+                {
+                  '@type': 'HowToStep',
+                  name: 'Install Steel I-Beams or Bracing',
+                  text: 'Vertical beams bolted to the floor and joists hold severe bowing in place. Often used with anchors for extra support.',
+                },
+                {
+                  '@type': 'HowToStep',
+                  name: 'Full Wall Replacement',
+                  text: 'For extreme cases with bowing over 3 inches. Requires excavation and full wall rebuild.',
+                },
+                {
+                  '@type': 'HowToStep',
+                  name: 'Combine with Waterproofing',
+                  text: 'Pair any repair with French drains or sump pumps to address hydrostatic pressure, the root cause.',
+                },
+              ],
+            },
+          ]),
+        }}
+      />
       {/* Article Hero */}
       <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
         <Image
