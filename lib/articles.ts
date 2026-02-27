@@ -320,6 +320,14 @@ export const articles: Article[] = [
     readTime: '14 min read',
     image: '/leaksensor.jpg',
   },
+    {
+      title: 'Basement Humidity Guide 2026: Ideal Levels, How to Measure & Fix High Humidity',
+      description: 'Learn what basement humidity levels are safe in 2026. Ideal range is 30-50% RH. Find out how to measure with a hygrometer and fix high humidity fast.',
+      slug: 'basement-humidity-guide',
+      category: 'Health & Safety',
+      readTime: '12 min read',
+      image: '/basement-humidity-guide.jpg',
+    },
 ]
 
 export function searchArticles(query: string): Article[] {
