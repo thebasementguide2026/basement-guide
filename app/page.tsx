@@ -269,24 +269,7 @@ export default function Home() {
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Get Free Quotes from Local Pros</h2>
           <p className="text-gray-300 text-center mb-12 text-lg max-w-2xl mx-auto">
             Compare quotes from vetted basement waterproofing contractors in your area. No obligation to hire, 100% free service.
-          </p>
-          <div className="grid md:grid-cols-3 gap-8 mb-12">
-            <div className="text-center">
-              <div className="text-4xl font-bold text-brand-teal mb-2">14</div>
-              <h4 className="font-bold mb-1">Expert Guides</h4>
-              <p className="text-gray-400 text-sm">55,000+ words of engineer-reviewed content</p>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl font-bold text-brand-teal mb-2">$0</div>
-              <h4 className="font-bold mb-1">Free Quotes</h4>
-              <p className="text-gray-400 text-sm">No cost, no obligation to hire</p>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl font-bold text-brand-teal mb-2">A+</div>
-              <h4 className="font-bold mb-1">Vetted Contractors</h4>
-              <p className="text-gray-400 text-sm">Licensed, insured, and background-checked pros</p>
-            </div>
-          </div>
+          </p          
           <LeadForm />
         </div>
       </section>
