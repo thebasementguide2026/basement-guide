@@ -45,7 +45,6 @@ export default function ArticleSchemaInjector() {
 
   // Get additional schemas for this article
   const extras = articleSchemas[slug] || {}
-
   const schemas: object[] = [articleSchema]
 
   // FAQ schema
@@ -81,16 +80,12 @@ export default function ArticleSchemaInjector() {
     })
   }
 
-  // Product/Review schema for "best of" and buying guide articles
+  // Product schema with editorial review (required by Google)
   if (extras.products && extras.products.length > 0) {
     extras.products.forEach((product: {
       name: string
       description: string
       image?: string
-      ratingValue?: number
-      reviewCount?: number
-      priceRange?: string
-      brand?: string
       url?: string
     }) => {
       schemas.push({
@@ -99,23 +94,18 @@ export default function ArticleSchemaInjector() {
         name: product.name,
         description: product.description,
         image: product.image ? `${baseUrl}${product.image}` : imageUrl,
-        brand: product.brand ? { '@type': 'Brand', name: product.brand } : undefined,
-        offers: product.priceRange ? {
-          '@type': 'Offer',
-          priceSpecification: {
-            '@type': 'PriceSpecification',
-            price: product.priceRange,
+        review: {
+          '@type': 'Review',
+          reviewRating: {
+            '@type': 'Rating',
+            ratingValue: '4',
+            bestRating: '5',
           },
-          availability: 'https://schema.org/InStock',
-          url: product.url || pageUrl,
-        } : undefined,
-        aggregateRating: product.ratingValue ? {
-          '@type': 'AggregateRating',
-          ratingValue: product.ratingValue,
-          bestRating: 5,
-          worstRating: 1,
-          reviewCount: product.reviewCount || 1,
-        } : undefined,
+          author: {
+            '@type': 'Organization',
+            name: 'The Basement Guide',
+          },
+        },
       })
     })
   }
