@@ -328,6 +328,14 @@ export const articles: Article[] = [
       readTime: '12 min read',
             image: '/humidity.jpg',
     },
+    {
+    title: 'Drylok vs RadonSeal: Which Basement Sealer Is Right for You?',
+    description: 'Compare Drylok vs RadonSeal for basement waterproofing. Pros, cons, costs, radon protection, and which sealer wins for your situation.',
+    slug: 'drylok-vs-radonseal',
+    category: 'Comparison',
+    readTime: '18 min read',
+    image: '/images/drylok-vs-radonseal/drylockvsradonseal.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
