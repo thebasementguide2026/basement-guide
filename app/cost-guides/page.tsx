@@ -48,12 +48,12 @@ const publishedGuides = [
     readTime: '12 min read',
   },
   {
-    title: 'Basement Waterproofing Cost 2026',
-    description: 'Interior vs exterior waterproofing costs, drainage system pricing, and how to avoid getting overcharged by contractors.',
+    title: 'Basement Waterproofing Cost 2026: Average Interior & Exterior Pricing',
+    description: 'How much does basement waterproofing cost in 2026? National average $5,230. Interior systems $3,000–$8,000, exterior $8,000–$15,000.',
     href: '/articles/basement-waterproofing-cost',
     category: 'Waterproofing',
     priceRange: '$2,000 – $15,000',
-    readTime: '11 min read',
+    readTime: '14 min read',
   },
   {
     title: 'Mold Remediation Cost 2026',
@@ -90,86 +90,80 @@ const comingSoon = [
 
 export default function CostGuidesPage() {
   return (
-    <div className="bg-gray-50 min-h-screen">
+    <main className="min-h-screen bg-slate-950 text-white">
+
       {/* Hero */}
-      <section className="bg-slate-800 text-white py-16">
-        <div className="container-custom">
-          <h1 className="text-4xl font-bold mb-4">Basement Cost Guides</h1>
-          <p className="text-slate-300 text-lg max-w-2xl">
+      <section className="relative overflow-hidden bg-gradient-to-b from-blue-950 via-slate-900 to-slate-950 py-20 text-center">
+        <div className="mx-auto max-w-3xl px-4">
+          <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl">
+            Basement Cost Guides
+          </h1>
+          <p className="mt-6 text-lg leading-relaxed text-slate-300 max-w-2xl mx-auto">
             Real 2026 pricing — not outdated estimates from three years ago. Every guide is researched from current contractor data, regional labor rates, and actual material costs.
           </p>
-        </div>
-      </section>
-      {/* Trust bar */}
-      <section className="bg-teal-600 text-white py-4">
-        <div className="container-custom">
-          <div className="flex flex-wrap gap-6 justify-center md:justify-start text-sm font-medium">
-            <span className="flex items-center gap-1.5">✓ 2026 pricing data</span>
-            <span className="flex items-center gap-1.5">✓ Regional cost breakdowns</span>
-            <span className="flex items-center gap-1.5">✓ DIY vs pro comparisons</span>
-            <span className="flex items-center gap-1.5">✓ Updated annually</span>
+
+          {/* Trust bar */}
+          <div className="mt-8 flex flex-wrap justify-center md:justify-start text-sm font-medium">
+            <span className="mr-4 mb-2 flex items-center gap-1.5">✓ 2026 pricing data</span>
+            <span className="mr-4 mb-2 flex items-center gap-1.5">✓ Regional cost breakdowns</span>
+            <span className="mr-4 mb-2 flex items-center gap-1.5">✓ DIY vs pro comparisons</span>
+            <span className="mr-4 mb-2 flex items-center gap-1.5">✓ Updated annually</span>
           </div>
         </div>
       </section>
-      <section className="py-12">
-        <div className="container-custom">
-          {/* Published */}
-          <h2 className="text-2xl font-bold text-slate-800 mb-6">Published Cost Guides</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
-            {publishedGuides.map((guide) => (
-              <Link
-                key={guide.href}
-                href={guide.href}
-                className="bg-white rounded-xl p-6 border border-gray-100 shadow-sm hover:shadow-md transition-shadow flex flex-col gap-3"
-              >
-                <div className="flex items-center justify-between">
-                  <span className="bg-teal-50 text-teal-700 text-xs font-semibold px-2 py-1 rounded">
-                    {guide.category}
-                  </span>
-                  <span className="text-gray-400 text-xs">{guide.readTime}</span>
-                </div>
-                <h3 className="font-bold text-slate-800 text-lg">{guide.title}</h3>
-                <p className="text-gray-500 text-sm flex-1">{guide.description}</p>
-                <div className="flex items-center justify-between pt-2 border-t border-gray-100">
-                  <span className="text-teal-600 font-bold text-sm">{guide.priceRange}</span>
-                  <span className="text-teal-600 font-semibold text-sm">Read Guide →</span>
-                </div>
-              </Link>
-            ))}
-          </div>
-          {/* Coming Soon */}
-          <h2 className="text-2xl font-bold text-slate-800 mb-6">Coming Soon</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-12">
-            {comingSoon.map((guide) => (
-              <div
-                key={guide.title}
-                className="bg-white rounded-xl p-6 border border-dashed border-gray-300"
-              >
-                <div className="flex items-center justify-between mb-3">
-                  <span className="bg-gray-100 text-gray-600 text-xs font-semibold px-2 py-1 rounded">
-                    {guide.category}
-                  </span>
-                  <span className="text-teal-600 font-bold text-sm">{guide.priceRange}</span>
-                </div>
-                <h3 className="font-bold text-slate-700 text-lg mb-2">{guide.title}</h3>
-                <p className="text-gray-400 text-sm">{guide.description}</p>
-              </div>
-            ))}
-          </div>
-          {/* CTA */}
-          <div className="bg-white rounded-xl border border-teal-200 p-8 text-center">
-            <h3 className="text-xl font-bold text-slate-800 mb-2">Don&apos;t Want to Wait?</h3>
-            <p className="text-gray-600 mb-2">Get free quotes from vetted local contractors right now.</p>
-            <p className="text-gray-500 text-sm mb-5">Real prices for your specific home and location — no estimates needed.</p>
+
+      <div className="mx-auto max-w-6xl px-4 py-4">
+
+        {/* Published */}
+        <h2 className="text-2xl font-bold text-slate-800 mb-6">Published Cost Guides</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+          {publishedGuides.map((guide) => (
             <Link
-              href="/#get-quotes"
-              className="inline-block bg-teal-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-teal-700 transition-colors"
+              key={guide.href}
+              href={guide.href}
+              className="group block rounded-2xl border border-slate-700 bg-slate-800/50 p-6 transition-all hover:border-blue-500/50 hover:bg-slate-800"
             >
-              Get Free Quotes →
+              <div className="flex items-center gap-2 text-xs text-slate-400 mb-3">
+                <span className="rounded-full bg-blue-500/10 px-3 py-1 text-blue-400 font-medium">{guide.category}</span>
+                <span>{guide.readTime}</span>
+              </div>
+              <h3 className="text-lg font-semibold text-white group-hover:text-blue-400 transition-colors mb-2">
+                {guide.title}
+              </h3>
+              <p className="text-sm text-slate-400 mb-4">{guide.description}</p>
+              <div className="flex items-center justify-between">
+                <span className="text-blue-400 font-bold">{guide.priceRange}</span>
+                <span className="text-sm text-blue-400 group-hover:translate-x-1 transition-transform">Read Guide →</span>
+              </div>
             </Link>
-          </div>
+          ))}
         </div>
-      </section>
-    </div>
+
+        {/* Coming Soon */}
+        <h2 className="text-2xl font-bold text-slate-800 mb-6">Coming Soon</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16">
+          {comingSoon.map((guide) => (
+            <div key={guide.title} className="rounded-2xl border border-slate-700/50 bg-slate-800/30 p-6 opacity-60">
+              <div className="flex items-center gap-2 text-xs text-slate-500 mb-3">
+                <span className="rounded-full bg-slate-700/50 px-3 py-1 font-medium">{guide.category}</span>
+                <span>{guide.priceRange}</span>
+              </div>
+              <h3 className="text-lg font-semibold text-slate-300 mb-2">{guide.title}</h3>
+              <p className="text-sm text-slate-500">{guide.description}</p>
+            </div>
+          ))}
+        </div>
+
+        {/* CTA */}
+        <div className="rounded-2xl border border-blue-500/20 bg-gradient-to-r from-blue-950/50 to-slate-900 p-8 text-center mb-16">
+          <h3 className="text-xl font-bold mb-2">Don&apos;t Want to Wait?</h3>
+          <p className="text-slate-400 mb-4">Get free quotes from vetted local contractors right now.</p>
+          <p className="text-sm text-slate-500 mb-6">Real prices for your specific home and location — no estimates needed.</p>
+          <Link href="/#get-quotes" className="inline-block rounded-full bg-blue-600 px-8 py-3 font-semibold text-white hover:bg-blue-500 transition-colors">
+            Get Free Quotes →
+          </Link>
+        </div>
+      </div>
+    </main>
   )
 }
