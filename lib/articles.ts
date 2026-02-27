@@ -90,10 +90,10 @@ export const articles: Article[] = [
   },
   {
     title: 'Best Waterproof Flooring for Basements 2026',
-    description: 'LVP vs. Ceramic vs. Engineered Wood. We break down the pros, cons, and costs of each waterproof flooring option for basements.',
+    description: 'The complete 2026 guide to basement flooring. Compare LVP, Porcelain Tile, Laminate, Engineered Hardwood, Rubber, Epoxy, Carpet Tiles and Polished Concrete on waterproof ratings, durability, cost, and ROI.',
     slug: 'best-basement-flooring',
     category: 'Reviews',
-    readTime: '12 min read',
+    readTime: '130min read',
     image: '/basement-flooring-installation.jpg.png',
   },
   {
