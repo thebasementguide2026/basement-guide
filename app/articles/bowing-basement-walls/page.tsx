@@ -350,7 +350,7 @@ export default function BowingWallsArticle() {
             <div className='bg-slate-50 rounded-lg p-6 border border-slate-200 sticky top-8'>
               <h3 className='text-lg font-bold text-slate-900 mb-4'>Get a Professional Assessment</h3>
               <p className='text-sm text-slate-600 mb-4'>Structural repairs are not a DIY project. Get a free, no-obligation quote from a structural specialist.</p>
-              <Link href='/get-quotes' className='block w-full bg-indigo-600 text-white text-center py-3 rounded-lg font-semibold hover:bg-indigo-700 transition-colors'>
+              <Link href='/contact' className='block w-full bg-indigo-600 text-white text-center py-3 rounded-lg font-semibold hover:bg-indigo-700 transition-colors'>
                 Find Foundation Pros Near Me &rarr;
               </Link>
             </div>
