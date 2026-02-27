@@ -344,6 +344,14 @@ export const articles: Article[] = [
     readTime: '20 min read',
     image: '/images/french-drain-vs-sump-pump/frenchdrain%20vs%20sump%20pump.jpg',
   },
+  {
+    title: 'Basement Permits Guide: Navigating the Process for Finishing, Renovations, and Conversions',
+    description: 'Complete guide to basement finishing permits. When you need a permit, step-by-step process, code requirements, costs, and tips to avoid fines.',
+    slug: 'basement-permits-guide',
+    category: 'Finishing',
+    readTime: '15 min read',
+    image: '/images/basement-permits-guide/hero.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
