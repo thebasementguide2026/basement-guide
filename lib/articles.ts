@@ -102,7 +102,7 @@ export const articles: Article[] = [
     slug: 'smart-sump-pumps-guide',
     category: 'Smart Home',
     readTime: '14 min read',
-    image: '/leaksensor.jpg',
+        image: '/images/smart-sump-pumps-guide/smartleaksensor.jpg',
   },
   {
     title: 'Battery vs Water-Powered Sump Pumps: 2026 Comparison',
