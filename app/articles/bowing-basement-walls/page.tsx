@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
+import LeadForm from '@/components/LeadForm'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -462,6 +463,15 @@ export default function BowingWallsArticle() {
           </aside>
         </div>
       </div>
+
+            {/* Lead Form CTA */}
+      <section className='max-w-4xl mx-auto px-6 pb-20'>
+        <div className='bg-slate-900 rounded-2xl p-8 md:p-12'>
+          <h2 className='text-2xl md:text-3xl font-bold text-white mb-4'>Get a Professional Foundation Inspection</h2>
+          <p className='text-slate-300 mb-8 text-lg'>Not sure if your wall is bowing? Connect with certified foundation repair specialists in your area for a free assessment.</p>
+          <LeadForm />
+        </div>
+      </section>
     </div>
   )
 }
