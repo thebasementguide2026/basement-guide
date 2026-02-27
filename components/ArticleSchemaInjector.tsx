@@ -18,8 +18,8 @@ export default function ArticleSchemaInjector() {
     image: article.image
       ? `https://thebasement.guide${article.image}`
       : undefined,
-    datePublished: '2026-02-01',
-    dateModified: '2026-02-27',
+    datePublished: '2026-02-01T00:00:00-05:00',
+    dateModified: '2026-02-27T00:00:00-05:00',
     author: {
       '@type': 'Organization',
       name: 'The Basement Guide',
