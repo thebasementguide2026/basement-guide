@@ -262,7 +262,7 @@ export const articles: Article[] = [
     slug: 'basement-adu-rental-suite',
     category: 'Finishing',
     readTime: '18 min read',
-    image: '/finishing%20a%20basement%20guide.jpg',
+        image: '/images/basement-adu-rental-suite/ADUbasement.jpg',
   },
   {
     title: 'Basement Bathroom Guide: How to Add a Bathroom the Right Way',
