@@ -342,7 +342,7 @@ export const articles: Article[] = [
     slug: 'french-drain-vs-sump-pump',
     category: 'Comparison',
     readTime: '20 min read',
-    image: '/images/french-drain-vs-sump-pump/hero.jpg',
+    image: '/images/french-drain-vs-sump-pump/frenchdrain%20vs%20sump%20pump.jpg',
   },
 ]
 
