@@ -77,8 +77,8 @@ export const articles: Article[] = [
     description: 'How much does it cost to install an egress window in 2026? Permits, excavation, drainage, and labor costs explained.',
     slug: 'egress-window-cost',
     category: 'Cost Guide',
-    readTime: '12 min read',
-    image: '/foundation-concrete-forms.jpg.png',
+    readTime: '12 18 read',
+    image: '/egresswindow.jpg',
   },
   {
     title: 'The Pre-Finish Audit: 7 Critical Checkpoints',
