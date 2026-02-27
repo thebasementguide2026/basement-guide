@@ -12,6 +12,32 @@ export const metadata: Metadata = {
   keywords: 'basement waterproofing, basement finishing, sump pump, foundation repair, basement drainage',
 }
 
+const organizationSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'The Basement Guide',
+  url: 'https://thebasement.guide',
+  logo: 'https://thebasement.guide/logo.png',
+  description: 'Independent resource for basement waterproofing, finishing, and maintenance advice for homeowners.',
+  sameAs: [],
+}
+
+const websiteSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'The Basement Guide',
+  url: 'https://thebasement.guide',
+  description: 'Expert waterproofing advice for homeowners. Cost guides, product reviews, and maintenance tips.',
+  publisher: {
+    '@type': 'Organization',
+    name: 'The Basement Guide',
+    logo: {
+      '@type': 'ImageObject',
+      url: 'https://thebasement.guide/logo.png',
+    },
+  },
+}
+
 export default function RootLayout({
   children,
 }: {
@@ -34,6 +60,14 @@ export default function RootLayout({
               gtag('config', 'G-CKRJCDR3D0');
             `,
           }}
+        />
+        <script
+          type='application/ld+json'
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+        />
+        <script
+          type='application/ld+json'
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
         />
       </head>
       <body className={inter.className}>
