@@ -60,7 +60,7 @@ export default function FrenchDrainVsSumpPumpArticle() {
       {/* Article Hero */}
       <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
         <Image
-          src='/images/french-drain-vs-sump-pump/hero.jpg'
+          src='/images/french-drain-vs-sump-pump/frenchdrain%20vs%20sump%20pump.jpg'
           alt='French drain and sump pump basement waterproofing comparison'
           fill
           className='object-cover opacity-45 scale-105 transition-transform duration-700 hover:scale-100'
