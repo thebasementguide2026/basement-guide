@@ -310,6 +310,46 @@ const guides = [
     category: 'Reviews',
     readTime: '26 min read',
   },
+      {
+      title: 'Best Water Leak Detectors & Smart Sensors for Basements 2026',
+      description: 'YoLink vs Govee vs Ring vs Flo by Moen. Find the best water leak detector for your basement with our comprehensive review.',
+      href: '/articles/best-water-leak-detectors',
+      image: '/leaksensor.jpg',
+      category: 'Reviews',
+      readTime: '14 min read',
+    },
+    {
+      title: 'Basement Humidity Guide 2026: Ideal Levels, How to Measure & Fix High Humidity',
+      description: 'Learn what basement humidity levels are safe in 2026. Ideal range is 30-50% RH. Find out how to measure with a hygrometer and fix high humidity fast.',
+      href: '/articles/basement-humidity-guide',
+      image: '/humidity.jpg',
+      category: 'Health & Safety',
+      readTime: '12 min read',
+    },
+    {
+      title: 'Drylok vs RadonSeal: Which Basement Sealer Is Right for You?',
+      description: 'Compare Drylok vs RadonSeal for basement waterproofing. Pros, cons, costs, radon protection, and which sealer wins for your situation.',
+      href: '/articles/drylok-vs-radonseal',
+      image: '/images/drylok-vs-radonseal/drylockvsradonseal.jpg',
+      category: 'Comparison',
+      readTime: '18 min read',
+    },
+    {
+      title: 'French Drain vs Sump Pump: Which Basement Waterproofing System Is Best?',
+      description: 'Compare French drain vs sump pump for basement waterproofing. Costs, pros, cons, installation, and why combining both gives the best protection in 2026.',
+      href: '/articles/french-drain-vs-sump-pump',
+      image: '/images/french-drain-vs-sump-pump/frenchdrain%20vs%20sump%20pump.jpg',
+      category: 'Comparison',
+      readTime: '20 min read',
+    },
+    {
+      title: 'Basement Permits Guide: Navigating the Process for Finishing, Renovations, and Conversions',
+      description: 'Complete guide to basement finishing permits. When you need a permit, step-by-step process, code requirements, costs, and tips to avoid fines.',
+      href: '/articles/basement-permits-guide',
+      image: '/images/basement-permits-guide/hero.jpg',
+      category: 'Finishing',
+      readTime: '15 min read',
+    },
 ]
 export default function GuidesPage() {
   return (
