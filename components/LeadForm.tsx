@@ -40,7 +40,7 @@ export default function LeadForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="bg-white border border-gray-200 rounded-lg p-8">
+    <form id="get-quotes" onSubmit={handleSubmit} className="bg-white border border-gray-200 rounded-lg p-8">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div>
           <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
