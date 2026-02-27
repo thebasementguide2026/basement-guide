@@ -346,7 +346,7 @@ const guides = [
       title: 'Basement Permits Guide: Navigating the Process for Finishing, Renovations, and Conversions',
       description: 'Complete guide to basement finishing permits. When you need a permit, step-by-step process, code requirements, costs, and tips to avoid fines.',
       href: '/articles/basement-permits-guide',
-      image: '/images/basement-permits-guide/hero.jpg',
+      image: '/images/basement-permits-guide/permits.jpg',
       category: 'Finishing',
       readTime: '15 min read',
     },
