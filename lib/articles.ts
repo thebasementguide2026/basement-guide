@@ -13,7 +13,7 @@ export const articles: Article[] = [
     description: 'A comprehensive guide to bowing basement walls. Causes like hydrostatic pressure, early warning signs, repair methods from carbon fiber straps to wall anchors, and updated costs averaging $4,500 nationally.',
     slug: 'bowing-basement-walls',
     category: 'Structural',
-    readTime: '122min read',
+        readTime: '22 min read',
     image: '/bowed%20walled.jpg',
   },
   {
