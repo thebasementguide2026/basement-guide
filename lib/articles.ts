@@ -102,7 +102,7 @@ export const articles: Article[] = [
     slug: 'smart-sump-pumps-guide',
     category: 'Smart Home',
     readTime: '14 min read',
-    image: '/leadsensor.jpg',
+    image: '/leaksensor.jpg',
   },
   {
     title: 'Battery vs Water-Powered Sump Pumps: 2026 Comparison',
@@ -318,7 +318,7 @@ export const articles: Article[] = [
     slug: 'best-water-leak-detectors',
     category: 'Reviews',
     readTime: '14 min read',
-    image: '/leadsensor.jpg',
+    image: '/leaksensor.jpg',
   },
 ]
 
