@@ -98,7 +98,7 @@ export default function DrylokVsRadonsealArticle() {
       {/* Article Hero */}
       <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
         <Image
-          src='/drylok-vs-radonseal.jpg'
+                        src='/images/drylok-vs-radonseal/drylockvsradonseal.jpg'
           alt='Drylok and RadonSeal basement sealers compared'
           fill
           className='object-cover opacity-45 scale-105 transition-transform duration-700 hover:scale-100'
