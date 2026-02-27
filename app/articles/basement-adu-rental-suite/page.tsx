@@ -14,7 +14,7 @@ export default function BasementADURentalSuiteArticle() {
       {/* Article Hero */}
       <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
         <Image
-          src='/The Basement Guide.jpg'
+          src='/images/basement-adu-rental-suite/ADUbasement.jpg'
           alt='Modern finished basement apartment with kitchen and living area'
           fill
           className='object-cover opacity-45 scale-105 transition-transform duration-700 hover:scale-100'
