@@ -336,6 +336,14 @@ export const articles: Article[] = [
     readTime: '18 min read',
     image: '/images/drylok-vs-radonseal/drylockvsradonseal.jpg',
   },
+    {
+    title: 'French Drain vs Sump Pump: Which Basement Waterproofing System Is Best?',
+    description: 'Compare French drain vs sump pump for basement waterproofing. Costs, pros, cons, installation, and why combining both gives the best protection in 2026.',
+    slug: 'french-drain-vs-sump-pump',
+    category: 'Comparison',
+    readTime: '20 min read',
+    image: '/images/french-drain-vs-sump-pump/hero.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
