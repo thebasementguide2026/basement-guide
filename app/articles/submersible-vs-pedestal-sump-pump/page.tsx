@@ -160,12 +160,13 @@ export default function SubmersibleVsPedestalSumpPump() {
               <p className='text-slate-700 leading-relaxed mb-4'>
                 A submersible sump pump is a sealed unit that sits at the bottom of your sump pit, fully underwater when active. It uses a float switch to detect rising water and pumps it out through a discharge line. Models like those from Zoeller or Wayne have cast-iron housings for durability and can handle solids up to 1/2 inch.
               </p>
-              <div className='relative w-full h-[400px] rounded-lg overflow-hidden my-6'>
+              <div className='w-full rounded-lg overflow-hidden my-6'>
                 <Image
                   src='/pedestalvssub.jpg'
                   alt='Comparison of pedestal and submersible sump pump designs'
-                  fill
-                  className='object-cover rounded-lg'
+                  width={800}
+                  height={600}
+                  className='w-full h-auto rounded-lg'
                 />
               </div>
               <div className='grid grid-cols-1 md:grid-cols-2 gap-6 mt-6'>
