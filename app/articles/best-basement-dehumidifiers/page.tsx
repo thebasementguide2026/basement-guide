@@ -66,7 +66,7 @@ export default function BestBasementDehumidifiers() {
       {/* Article Hero */}
       <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
         <Image
-          src='/topdehumidifer.jpg'
+          src='/topdehumidfier.jpg'
           alt='Best basement dehumidifiers for moisture control'
           fill
           className='object-cover opacity-45 scale-105 transition-transform duration-700 hover:scale-100'
