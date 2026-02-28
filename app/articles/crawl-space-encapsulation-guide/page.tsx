@@ -108,7 +108,7 @@ export default function CrawlSpaceEncapsulationGuide() {
                 Instead of letting damp soil and outside air mess with your home&#39;s foundation, encapsulation seals everything up tight. It is more than just laying down plastic&#8212;it is a full system that includes:
               </p>
               <ul className='space-y-3 text-slate-700 ml-4'>
-                <li className='flex items-start gap-2'><span className='text-indigo-600 font-bold'>&#8226;</span> A heavy-duty vapor barrier (10&#8211;20 mil) over the floor and up the walls</li>
+                <li className='flex items-start gap-2'><span className='text-indigo-600 font-bold'>&#8226;</span> A heavy-duty <Link href='/articles/best-vapor-barriers' className='text-indigo-600 underline hover:text-indigo-800'>vapor barrier</Link> (10&#8211;20 mil) over the floor and up the walls</li>
                 <li className='flex items-start gap-2'><span className='text-indigo-600 font-bold'>&#8226;</span> Closing off vents and plugging any gaps to make it airtight</li>
                 <li className='flex items-start gap-2'><span className='text-indigo-600 font-bold'>&#8226;</span> Insulating the walls, rim joists, and sometimes the ceiling</li>
                 <li className='flex items-start gap-2'><span className='text-indigo-600 font-bold'>&#8226;</span> A dehumidifier set to 45&#8211;50% humidity to pull out extra moisture</li>
@@ -125,7 +125,7 @@ export default function CrawlSpaceEncapsulationGuide() {
               <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
                 <div className='bg-indigo-50 rounded-lg p-5 border border-indigo-200'>
                   <h3 className='font-bold text-indigo-900 mb-2'>Moisture &amp; Mold Prevention</h3>
-                  <p className='text-slate-700 text-sm'>Stops wet air from rising up, preventing mold growth and musty smells from reaching your living space.</p>
+                  <p className='text-slate-700 text-sm'>Stops wet air from rising up, <Link href='/articles/how-to-prevent-basement-mold' className='text-indigo-600 underline hover:text-indigo-800'>preventing mold growth</Link> and musty smells from reaching your living space.</p>
                 </div>
                 <div className='bg-indigo-50 rounded-lg p-5 border border-indigo-200'>
                   <h3 className='font-bold text-indigo-900 mb-2'>Better Indoor Air Quality</h3>
@@ -338,7 +338,7 @@ export default function CrawlSpaceEncapsulationGuide() {
                 </div>
                 <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
                   <h3 className='font-bold text-slate-900 mb-2'>Track Humidity</h3>
-                  <p className='text-slate-700'>A cheap hygrometer keeps tabs on moisture levels. Aim for under 50% relative humidity at all times.</p>
+                  <p className='text-slate-700'>A cheap hygrometer keeps tabs on moisture levels. Aim for under <Link href='/articles/basement-humidity-guide' className='text-indigo-600 underline hover:text-indigo-800'>50% relative humidity</Link> at all times.</p>
                 </div>
                 <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
                   <h3 className='font-bold text-slate-900 mb-2'>Test the Sump Pump</h3>
