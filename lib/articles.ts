@@ -368,6 +368,14 @@ export const articles: Article[] = [
     readTime: '18 min read',
     image: '/images/crawl-space-encapsulation-guide/Crawl Space Encapsulation.jpg',
   },
+  {
+    title: 'Best Basement Dehumidifiers 2026: Top Picks Reviewed',
+    description: 'Find the best basement dehumidifiers for 2026. Expert reviews of top 50-pint models from Midea, hOmeLabs, Frigidaire, GE, and AlorAir for mold prevention and moisture control.',
+    slug: 'best-basement-dehumidifiers',
+    category: 'Reviews',
+    readTime: '14 min read',
+    image: '/images/best-basement-dehumidifiers/hero.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
