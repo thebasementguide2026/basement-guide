@@ -360,6 +360,14 @@ export const articles: Article[] = [
     readTime: '16 min read',
     image: '/images/best-vapor-barriers/vaporbarrier.jpg',
   },
+  {
+    title: 'Crawl Space Encapsulation: Complete Guide (2026)',
+    description: 'Complete guide to crawl space encapsulation. Learn costs, DIY vs pro installation, materials, step-by-step process, and maintenance tips.',
+    slug: 'crawl-space-encapsulation-guide',
+    category: 'Waterproofing',
+    readTime: '18 min read',
+    image: '/images/crawl-space-encapsulation-guide/hero.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
