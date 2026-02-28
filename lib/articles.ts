@@ -358,7 +358,7 @@ export const articles: Article[] = [
     slug: 'best-vapor-barriers',
     category: 'Reviews',
     readTime: '16 min read',
-    image: '/images/best-vapor-barriers/hero.jpg',
+    image: '/images/best-vapor-barriers/vaporbarrier.jpg',
   },
 ]
 
