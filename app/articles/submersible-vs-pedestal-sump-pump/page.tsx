@@ -58,6 +58,66 @@ export default function SubmersibleVsPedestalSumpPump() {
       {/* Article Hero */}
       <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
         <Image
+      <script
+        type='application/ld+json'
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'Article',
+            headline: 'Submersible vs Pedestal Sump Pump: Which Is Right for Your Basement?',
+            description: 'Compare submersible vs pedestal sump pumps by power, noise, cost, and durability to pick the right one for your basement.',
+            image: 'https://thebasement.guide/submersible%20vs%20pedestal%20sump%20pump.JPG',
+            author: {
+              '@type': 'Organization',
+              name: 'The Basement Guide',
+              url: 'https://thebasement.guide',
+            },
+            publisher: {
+              '@type': 'Organization',
+              name: 'The Basement Guide',
+              logo: {
+                '@type': 'ImageObject',
+                url: 'https://thebasement.guide/logo.png',
+              },
+            },
+            datePublished: '2026-02-28',
+            dateModified: '2026-02-28',
+            mainEntityOfPage: {
+              '@type': 'WebPage',
+              '@id': 'https://thebasement.guide/articles/submersible-vs-pedestal-sump-pump',
+            },
+          }),
+        }}
+      />
+      <script
+        type='application/ld+json'
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              {
+                '@type': 'ListItem',
+                position: 1,
+                name: 'Home',
+                item: 'https://thebasement.guide',
+              },
+              {
+                '@type': 'ListItem',
+                position: 2,
+                name: 'Articles',
+                item: 'https://thebasement.guide/articles',
+              },
+              {
+                '@type': 'ListItem',
+                position: 3,
+                name: 'Submersible vs Pedestal Sump Pump',
+                item: 'https://thebasement.guide/articles/submersible-vs-pedestal-sump-pump',
+              },
+            ],
+          }),
+        }}
+      />
           src='/submersible vs pedestal sump pump.JPG'
           alt='Submersible vs pedestal sump pump comparison'
           fill
