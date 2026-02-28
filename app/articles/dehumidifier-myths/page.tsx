@@ -421,6 +421,10 @@ export default function DehumidifierMythsArticle() {
             <h4 className='text-lg font-bold text-slate-900 mb-2'>Musty Basement Smell Guide</h4>
             <p className='text-slate-600 text-sm'>Track down and eliminate that damp, earthy basement odor for good.</p>
           </Link>
+                            <Link href='/articles/best-basement-dehumidifiers' className='block bg-slate-50 rounded-xl p-6 hover:bg-slate-100 transition-colors'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Best Basement Dehumidifiers 2026</h4>
+                <p className='text-slate-600 text-sm'>Top-rated 50-pint dehumidifiers tested for basements with real performance data.</p>
+              </Link>
             </div>
           </div>
           {/* Lead Form CTA */}
