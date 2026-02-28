@@ -374,7 +374,7 @@ export const articles: Article[] = [
     slug: 'best-basement-dehumidifiers',
     category: 'Reviews',
     readTime: '14 min read',
-    image: '/images/best-basement-dehumidifiers/hero.jpg',
+    image: '/topdehumidifer.jpg',
   },
 ]
 
