@@ -366,7 +366,7 @@ export const articles: Article[] = [
     slug: 'crawl-space-encapsulation-guide',
     category: 'Waterproofing',
     readTime: '18 min read',
-    image: '/images/crawl-space-encapsulation-guide/hero.jpg',
+    image: '/images/crawl-space-encapsulation-guide/Crawl Space Encapsulation.jpg',
   },
 ]
 
