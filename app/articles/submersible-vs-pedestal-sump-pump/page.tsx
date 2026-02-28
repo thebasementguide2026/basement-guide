@@ -57,7 +57,6 @@ export default function SubmersibleVsPedestalSumpPump() {
 
       {/* Article Hero */}
       <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
-        <Image
       <script
         type='application/ld+json'
         dangerouslySetInnerHTML={{
@@ -118,6 +117,7 @@ export default function SubmersibleVsPedestalSumpPump() {
           }),
         }}
       />
+                <Image
           src='/submersible vs pedestal sump pump.JPG'
           alt='Submersible vs pedestal sump pump comparison'
           fill
