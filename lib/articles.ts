@@ -376,6 +376,14 @@ export const articles: Article[] = [
     readTime: '14 min read',
     image: '/topdehumidfier.jpg',
   },
+  {
+    title: 'Submersible vs Pedestal Sump Pump: Which Is Right for Your Basement?',
+    description: 'Compare submersible vs pedestal sump pumps. Learn the pros, cons, costs, noise levels, and best uses to pick the right sump pump for your basement in 2026.',
+    slug: 'submersible-vs-pedestal-sump-pump',
+    category: 'Comparison',
+    readTime: '12 min read',
+    image: '/submersible vs pedestal sump pump.JPG',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
