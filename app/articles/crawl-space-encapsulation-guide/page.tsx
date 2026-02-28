@@ -58,7 +58,7 @@ export default function CrawlSpaceEncapsulationGuide() {
       {/* Article Hero */}
       <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
         <Image
-          src='/images/crawl-space-encapsulation-guide/hero.jpg'
+          src='/images/crawl-space-encapsulation-guide/Crawl Space Encapsulation.jpg'
           alt='Crawl space encapsulation with vapor barrier installation'
           fill
           className='object-cover opacity-45 scale-105 transition-transform duration-700 hover:scale-100'
@@ -207,7 +207,7 @@ export default function CrawlSpaceEncapsulationGuide() {
                 </div>
               </div>
               <div className='bg-indigo-50 border border-indigo-200 rounded-lg p-5 mt-6'>
-                <p className='text-indigo-900'>For a great visual walkthrough, check out this video: <a href='https://www.youtube.com/watch?v=kTMy_2fA3NE' target='_blank' rel='noopener noreferrer' className='text-indigo-600 underline hover:text-indigo-800 font-semibold'>Crawl Space Encapsulation and Moisture Control with Mike Rowe</a></p>
+                <p className='text-indigo-900 font-semibold mb-3'>Crawl Space Encapsulation and Moisture Control with Mike Rowe</p><div className='relative w-full' style={{paddingBottom: '56.25%'}}><iframe className='absolute top-0 left-0 w-full h-full rounded-lg' src='https://www.youtube.com/embed/kTMy_2fA3NE' title='Crawl Space Encapsulation and Moisture Control with Mike Rowe' frameBorder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowFullScreen></iframe></div>
               </div>
             </section>
 
