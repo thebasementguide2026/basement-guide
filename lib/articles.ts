@@ -352,6 +352,14 @@ export const articles: Article[] = [
     readTime: '15 min read',
     image: '/images/basement-permits-guide/permits.jpg',
   },
+    {
+    title: 'Best Vapor Barriers for Basements & Crawl Spaces (2026)',
+    description: 'Compare the best vapor barriers for basements and crawl spaces in 2026. Poly sheeting, foil insulation, HDPE membranes, dimpled membranes, and liquid barriers reviewed with pros, cons, and affiliate picks.',
+    slug: 'best-vapor-barriers',
+    category: 'Reviews',
+    readTime: '16 min read',
+    image: '/images/best-vapor-barriers/hero.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
