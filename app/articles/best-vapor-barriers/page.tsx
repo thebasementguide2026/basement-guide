@@ -385,7 +385,8 @@ export default function BestVaporBarriersArticle() {
 
         </div>
       </article>
-    </main>
+    </div>
+            </div>
           </div>
   );
 }
