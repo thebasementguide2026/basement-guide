@@ -125,66 +125,64 @@ const reviews = [
     readTime: '8 min read',
     badge: null,
   },
+  {
+    title: 'Drop Ceiling vs. Drywall for Basements: Complete Guide 2026',
+    description: 'Drop ceiling or drywall for your basement? Compare costs, pros, cons, height requirements, moisture resistance, and which ceiling is right for your 2026 renovation.',
+    href: '/articles/drop-ceiling-vs-drywall',
+    image: '/images/drop-ceiling-vs-drywall/hero.jpg',
+    category: 'Finishing',
+    readTime: '15 min read',
+    badge: null,
+  },
 ]
 
 export default function ReviewsPage() {
   return (
-    <main>
+    <main className="max-w-5xl mx-auto px-4 py-10">
       {/* Hero */}
-      <section className="bg-[#1B2A3B] text-white py-16 px-6 text-center">
-        <h1 className="text-4xl font-bold mb-4">Basement Product Reviews</h1>
-        <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-          Independent, research-backed reviews of the products that actually matter for your basement. No paid placements. No brand deals. Just honest analysis.
-        </p>
-      </section>
+      <div className="mb-10">
+        <h1 className="text-3xl md:text-4xl font-bold text-[#1B2A3B] mb-3">Basement Product Reviews</h1>
+        <p className="text-gray-600 text-lg max-w-2xl">Independent, research-backed reviews of the products that actually matter for your basement. No paid placements. No brand deals. Just honest analysis.</p>
+      </div>
 
       {/* Review Standards Banner */}
-      <section className="bg-[#00A99D] text-white py-4 px-6 text-sm font-medium text-center">
-        ✓ No free products accepted &nbsp;&nbsp; ✓ Affiliate links never influence rankings &nbsp;&nbsp; ✓ Updated with current 2026 pricing &nbsp;&nbsp;<br className="sm:hidden" />
-        ✓ Real specs, real comparisons
-      </section>
+      <div className="bg-teal-50 border border-teal-100 rounded-xl px-5 py-3 mb-10 text-sm text-teal-800 flex flex-wrap gap-4">
+        <span>✓ No free products accepted</span>
+        <span>✓ Affiliate links never influence rankings</span>
+        <span>✓ Updated with current 2026 pricing</span>
+        <span>✓ Real specs, real comparisons</span>
+      </div>
 
       {/* Reviews Grid */}
-      <section className="max-w-6xl mx-auto px-6 py-12">
-        <h2 className="text-2xl font-bold text-[#1B2A3B] mb-8">Published Reviews</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {reviews.map((review) => (
-            <Link key={review.href} href={review.href} className="group block rounded-xl overflow-hidden border border-gray-200 hover:shadow-lg transition-shadow">
-              <div className="relative h-48 w-full bg-gray-100">
-                <Image
-                  src={review.image}
-                  alt={review.title}
-                  fill
-                  className="object-cover"
-                />
-                {review.badge && (
-                  <span className="absolute top-3 left-3 bg-[#00A99D] text-white text-xs font-semibold px-3 py-1 rounded-full">
-                    {review.badge}
-                  </span>
-                )}
+      <h2 className="text-xl font-bold text-[#1B2A3B] mb-6">Published Reviews</h2>
+      <div className="grid md:grid-cols-2 gap-6">
+        {reviews.map((review) => (
+          <Link key={review.href} href={review.href} className="group block bg-white rounded-2xl overflow-hidden border border-gray-200 hover:shadow-lg transition-shadow">
+            <div className="relative h-48 w-full bg-gray-100">
+              <Image src={review.image} alt={review.title} fill className="object-cover" />
+              {review.badge && (
+                <span className="absolute top-3 left-3 bg-[#00A99D] text-white text-xs font-semibold px-2 py-1 rounded-full">{review.badge}</span>
+              )}
+            </div>
+            <div className="p-5">
+              <div className="flex items-center gap-2 mb-2">
+                <span className="text-xs font-semibold text-[#00A99D] bg-teal-50 px-2 py-0.5 rounded-full">{review.category}</span>
+                <span className="text-xs text-gray-400">{review.readTime}</span>
               </div>
-              <div className="p-6">
-                <div className="flex items-center gap-3 mb-3">
-                  <span className="text-xs font-semibold text-[#00A99D] bg-teal-50 px-2 py-1 rounded-full">{review.category}</span>
-                  <span className="text-xs text-gray-400">{review.readTime}</span>
-                </div>
-                <h3 className="text-lg font-bold text-[#1B2A3B] mb-2 group-hover:text-[#00A99D] transition-colors">{review.title}</h3>
-                <p className="text-sm text-gray-600 mb-4">{review.description}</p>
-                <span className="text-sm font-semibold text-[#00A99D] group-hover:underline">Read Review →</span>
-              </div>
-            </Link>
-          ))}
-        </div>
-      </section>
+              <h3 className="font-bold text-[#1B2A3B] text-base mb-2 group-hover:text-[#00A99D] transition-colors">{review.title}</h3>
+              <p className="text-sm text-gray-600 mb-3">{review.description}</p>
+              <span className="text-sm font-semibold text-[#00A99D]">Read Review →</span>
+            </div>
+          </Link>
+        ))}
+      </div>
 
       {/* CTA */}
-      <section className="bg-[#1B2A3B] text-white py-12 px-6 text-center mx-6 mb-12 rounded-2xl max-w-6xl md:mx-auto">
-        <h3 className="text-2xl font-bold mb-3">Need Help Choosing a Contractor?</h3>
-        <p className="text-gray-300 mb-6">Get free quotes from vetted local basement pros — no obligation.</p>
-        <Link href="/#get-quotes" className="inline-block bg-[#00A99D] text-white font-semibold px-6 py-3 rounded-lg hover:bg-teal-600 transition-colors">
-          Get Free Quotes →
-        </Link>
-      </section>
+      <div className="mt-14 bg-[#1B2A3B] text-white rounded-2xl p-8 text-center">
+        <h3 className="text-xl font-bold mb-2">Need Help Choosing a Contractor?</h3>
+        <p className="text-gray-300 mb-5">Get free quotes from vetted local basement pros — no obligation.</p>
+        <Link href="/#get-quotes" className="inline-block bg-[#00A99D] text-white font-semibold px-6 py-3 rounded-lg hover:bg-teal-600 transition-colors">Get Free Quotes →</Link>
+      </div>
     </main>
   )
 }
