@@ -21,7 +21,7 @@ export default function DropCeilingVsDrywall() {
                     'datePublished': '2026-03-01',
                     'dateModified': '2026-03-01',
                     'url': 'https://thebasement.guide/articles/drop-ceiling-vs-drywall',
-                    'image': 'https://thebasement.guide/images/drop-ceiling-vs-drywall/hero.jpg',
+                    'image': 'https://thebasement.guide/images/drop-ceiling-vs-drywall/dropceiling .jpg',
                     'mainEntityOfPage': { '@type': 'WebPage', '@id': 'https://thebasement.guide/articles/drop-ceiling-vs-drywall' }
                   }) }} />
                   <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
@@ -44,7 +44,7 @@ export default function DropCeilingVsDrywall() {
                   }) }} />
                   {/* Hero */}
                   <div className="relative h-72 w-full rounded-xl overflow-hidden mb-8">
-                            <Image src="/images/drop-ceiling-vs-drywall/hero.jpg" alt="Drop ceiling vs drywall basement comparison" fill className="object-cover" priority />
+                            <Image src="/images/drop-ceiling-vs-drywall/dropceiling .jpg" alt="Drop ceiling vs drywall basement comparison" fill className="object-cover" priority />
                             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                             <div className="absolute bottom-6 left-6">
                                         <span className="bg-[#00A99D] text-white text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wide">Finishing</span>
