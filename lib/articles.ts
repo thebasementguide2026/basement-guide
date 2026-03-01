@@ -392,6 +392,14 @@ export const articles: Article[] = [
     readTime: '10 min read',
     image: '/Submersible.jpg',
   },
+    {
+    title: 'Best Air Purifiers for Basements 2025',
+    description: 'Top-rated air purifiers for basement mold, odors, and poor air quality. Expert picks for every budget with pros, cons, and buying advice.',
+    slug: 'best-basement-air-purifiers',
+    category: 'Reviews',
+    readTime: '12 min read',
+    image: '/airpurifierembed.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
