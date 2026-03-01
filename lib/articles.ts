@@ -401,6 +401,14 @@ export const articles: Article[] = [
         image: '/airpurfierembed.jpg',
   },
 ]
+  {
+        title: 'Drop Ceiling vs. Drywall for Basements: Complete Guide 2026',
+              description: 'Compare drop ceilings and drywall for basements. Costs, pros, cons, height requirements, moisture resistance, and which ceiling is right for your 2026 renovation.',
+              slug: 'drop-ceiling-vs-drywall',
+              category: 'Finishing',
+              readTime: '15 min read',
+              image: '/images/drop-ceiling-vs-drywall/hero.jpg',
+            },
 
 export function searchArticles(query: string): Article[] {
   if (!query.trim()) return []
