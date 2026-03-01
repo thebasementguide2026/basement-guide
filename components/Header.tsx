@@ -7,21 +7,6 @@ import SearchBar from '@/components/SearchBar'
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false)
   const [searchOpen, setSearchOpen] = useState(false)
-  const [reviewsOpen, setReviewsOpen] = useState(false)
-
-  const reviewsLinks = [
-    { href: '/articles/crawl-space-encapsulation-guide', label: 'Crawl Space Encapsulation Guide' },
-    { href: '/articles/best-water-leak-detectors', label: 'Best Water Leak Detectors' },
-    { href: '/articles/best-vapor-barriers', label: 'Best Vapor Barriers' },
-    { href: '/articles/best-basement-dehumidifiers', label: 'Best Basement Dehumidifiers' },
-    { href: '/articles/best-sump-pumps-2026', label: 'Best Sump Pumps 2026' },
-    { href: '/articles/best-basement-air-purifiers', label: 'Best Air Purifiers for Basements' },
-    { href: '/articles/basement-humidity-guide', label: 'Basement Humidity Guide' },
-    { href: '/articles/basement-permits-guide', label: 'Basement Permits Guide' },
-    { href: '/articles/drylok-vs-radonseal', label: 'Drylok vs RadonSeal' },
-    { href: '/articles/french-drain-vs-sump-pump', label: 'French Drain vs Sump Pump' },
-    { href: '/articles/submersible-vs-pedestal-sump-pump', label: 'Submersible vs Pedestal Sump Pump' },
-  ]
 
   return (
     <header className="bg-white sticky top-0 z-50 shadow-sm">
@@ -92,29 +77,7 @@ export default function Header() {
           <div className="flex justify-center items-center gap-8 h-12">
             <Link href="/guides" className="text-gray-600 hover:text-brand-teal transition-colors text-sm font-semibold uppercase tracking-wider">Waterproofing</Link>
             <Link href="/cost-guides" className="text-gray-600 hover:text-brand-teal transition-colors text-sm font-semibold uppercase tracking-wider">Cost Guides</Link>
-            <div
-              className="relative"
-              onMouseEnter={() => setReviewsOpen(true)}
-              onMouseLeave={() => setReviewsOpen(false)}
-            >
-              <Link href="/reviews" className="text-gray-600 hover:text-brand-teal transition-colors text-sm font-semibold uppercase tracking-wider flex items-center gap-1">
-                Reviews & Buying Guides
-                <svg className={`w-3.5 h-3.5 transition-transform ${reviewsOpen ? 'rotate-180' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
-              </Link>
-              {reviewsOpen && (
-                <div className="absolute top-full left-1/2 -translate-x-1/2 mt-0 w-72 bg-white rounded-lg shadow-lg border border-gray-100 py-2 z-50">
-                  {reviewsLinks.map((link) => (
-                    <Link
-                      key={link.href}
-                      href={link.href}
-                      className="block px-4 py-2 text-sm text-gray-600 hover:text-brand-teal hover:bg-gray-50 transition-colors"
-                    >
-                      {link.label}
-                    </Link>
-                  ))}
-                </div>
-              )}
-            </div>
+            <Link href="/reviews" className="text-gray-600 hover:text-brand-teal transition-colors text-sm font-semibold uppercase tracking-wider">Reviews & Buying Guides</Link>
             <Link href="/#health-safety" className="text-gray-600 hover:text-brand-teal transition-colors text-sm font-semibold uppercase tracking-wider">Health & Safety</Link>
             <Link href="/#finishing" className="text-gray-600 hover:text-brand-teal transition-colors text-sm font-semibold uppercase tracking-wider">Finishing & Renovation</Link>
             <Link href="/about" className="text-gray-600 hover:text-brand-teal transition-colors text-sm font-semibold uppercase tracking-wider">About</Link>
@@ -140,18 +103,6 @@ export default function Header() {
             <Link onClick={() => setMenuOpen(false)} href="/guides" className="text-gray-600 hover:text-brand-teal py-2.5 text-sm font-semibold uppercase tracking-wider">Waterproofing</Link>
             <Link onClick={() => setMenuOpen(false)} href="/cost-guides" className="text-gray-600 hover:text-brand-teal py-2.5 text-sm font-semibold uppercase tracking-wider">Cost Guides</Link>
             <Link onClick={() => setMenuOpen(false)} href="/reviews" className="text-gray-600 hover:text-brand-teal py-2.5 text-sm font-semibold uppercase tracking-wider">Reviews & Buying Guides</Link>
-            <div className="pl-4 flex flex-col space-y-1">
-              {reviewsLinks.map((link) => (
-                <Link
-                  key={link.href}
-                  onClick={() => setMenuOpen(false)}
-                  href={link.href}
-                  className="text-gray-500 hover:text-brand-teal py-1.5 text-xs font-medium"
-                >
-                  {link.label}
-                </Link>
-              ))}
-            </div>
             <Link onClick={() => setMenuOpen(false)} href="/#health-safety" className="text-gray-600 hover:text-brand-teal py-2.5 text-sm font-semibold uppercase tracking-wider">Health & Safety</Link>
             <Link onClick={() => setMenuOpen(false)} href="/#finishing" className="text-gray-600 hover:text-brand-teal py-2.5 text-sm font-semibold uppercase tracking-wider">Finishing & Renovation</Link>
             <Link onClick={() => setMenuOpen(false)} href="/about" className="text-gray-600 hover:text-brand-teal py-2.5 text-sm font-semibold uppercase tracking-wider">About</Link>
