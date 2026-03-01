@@ -1,12 +1,10 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import type { Metadata } from 'next'
-
 export const metadata: Metadata = {
   title: 'Basement Product Reviews | The Basement Guide',
   description: 'Independent reviews of basement waterproofing products, sump pumps, dehumidifiers, flooring, and more. No paid placements — just honest research.',
 }
-
 const reviews = [
   {
     title: 'Best Waterproof Flooring for Basements 2026',
@@ -35,7 +33,7 @@ const reviews = [
     readTime: '10 min read',
     badge: null,
   },
-    {
+  {
     title: 'Best Air Purifiers for Basements 2025',
     description: 'Top-rated HEPA air purifiers for basement mold, musty odors, and poor air quality. Expert picks for every budget with pros, cons, and buying advice.',
     href: '/articles/best-basement-air-purifiers',
@@ -44,14 +42,88 @@ const reviews = [
     readTime: '12 min read',
     badge: null,
   },
+  {
+    title: 'Crawl Space Encapsulation Guide',
+    description: 'Everything you need to know about encapsulating a crawl space — costs, materials, vapor barriers, and whether to DIY or hire a pro. Complete 2026 guide.',
+    href: '/articles/crawl-space-encapsulation-guide',
+    image: '/crawlspace.jpg',
+    category: 'Waterproofing',
+    readTime: '10 min read',
+    badge: null,
+  },
+  {
+    title: 'Best Water Leak Detectors',
+    description: 'The best smart water leak detectors to protect your basement from flooding and water damage. Top picks with features, pricing, and installation tips.',
+    href: '/articles/best-water-leak-detectors',
+    image: '/leaksensor.jpg',
+    category: 'Water Detection',
+    readTime: '9 min read',
+    badge: null,
+  },
+  {
+    title: 'Best Vapor Barriers for Basements',
+    description: 'Top-rated vapor barriers to stop moisture intrusion in basements and crawl spaces. We compare thickness, material, and performance for every budget.',
+    href: '/articles/best-vapor-barriers',
+    image: '/vaporbarrier.jpg',
+    category: 'Waterproofing',
+    readTime: '8 min read',
+    badge: null,
+  },
+  {
+    title: 'Best Basement Dehumidifiers 2026',
+    description: 'Top-rated dehumidifiers for basements — ranked by capacity, energy efficiency, drainage options, and real-world performance in high-humidity spaces.',
+    href: '/articles/best-basement-dehumidifiers',
+    image: '/dehumidifier.jpg',
+    category: 'Dehumidifiers',
+    readTime: '11 min read',
+    badge: null,
+  },
+  {
+    title: 'Basement Humidity Guide',
+    description: 'What humidity levels are safe for your basement, how to measure them, and the best ways to control moisture year-round to prevent mold and damage.',
+    href: '/articles/basement-humidity-guide',
+    image: '/humidity.jpg',
+    category: 'Air Quality',
+    readTime: '8 min read',
+    badge: null,
+  },
+  {
+    title: 'Basement Permits Guide',
+    description: 'Do you need a permit to finish your basement? Find out which projects require permits, how to get them, and what happens if you skip them.',
+    href: '/articles/basement-permits-guide',
+    image: '/permits.jpg',
+    category: 'Planning',
+    readTime: '7 min read',
+    badge: null,
+  },
+  {
+    title: 'Drylok vs RadonSeal: Which Basement Sealer Wins?',
+    description: 'An honest side-by-side comparison of Drylok and RadonSeal — two of the most popular basement waterproofing sealers. Which one actually works better?',
+    href: '/articles/drylok-vs-radonseal',
+    image: '/drylok.jpg',
+    category: 'Waterproofing',
+    readTime: '8 min read',
+    badge: null,
+  },
+  {
+    title: 'French Drain vs Sump Pump: Which Do You Need?',
+    description: 'French drains and sump pumps both manage basement water — but they work very differently. Learn which solution fits your situation and budget.',
+    href: '/articles/french-drain-vs-sump-pump',
+    image: '/frenchdrain.jpg',
+    category: 'Drainage',
+    readTime: '9 min read',
+    badge: null,
+  },
+  {
+    title: 'Submersible vs Pedestal Sump Pump: Full Comparison',
+    description: 'Submersible vs pedestal sump pumps — which type is more reliable, quieter, and better for your basement? Complete breakdown with pros, cons, and costs.',
+    href: '/articles/submersible-vs-pedestal-sump-pump',
+    image: '/Submersible.jpg',
+    category: 'Sump Pumps',
+    readTime: '8 min read',
+    badge: null,
+  },
 ]
-
-const comingSoon = [
-  { title: 'Best Basement Dehumidifiers 2026', category: 'Dehumidifiers' },
-  { title: 'Best Basement Waterproofing Paint', category: 'Waterproofing' },
-  { title: 'Best Interior Drainage Systems', category: 'Drainage' },
-]
-
 export default function ReviewsPage() {
   return (
     <div className="bg-gray-50 min-h-screen">
@@ -67,85 +139,50 @@ export default function ReviewsPage() {
 
       {/* Review Standards Banner */}
       <section className="bg-teal-600 text-white py-4">
-        <div className="container-custom">
-          <div className="flex flex-wrap gap-6 justify-center md:justify-start text-sm font-medium">
-            <span className="flex items-center gap-1.5">✓ No free products accepted</span>
-            <span className="flex items-center gap-1.5">✓ Affiliate links never influence rankings</span>
-            <span className="flex items-center gap-1.5">✓ Updated with current 2026 pricing</span>
-            <span className="flex items-center gap-1.5">✓ Real specs, real comparisons</span>
-          </div>
+        <div className="container-custom flex flex-wrap gap-6 justify-center md:justify-start text-sm font-medium">
+          <span>✓ No free products accepted</span>
+          <span>✓ Affiliate links never influence rankings</span>
+          <span>✓ Updated with current 2026 pricing</span>
+          <span>✓ Real specs, real comparisons</span>
         </div>
       </section>
 
       {/* Reviews Grid */}
-      <section className="py-12">
-        <div className="container-custom">
-
-          <h2 className="text-2xl font-bold text-slate-800 mb-6">Published Reviews</h2>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-            {reviews.map((review) => (
-              <Link
-                key={review.href}
-                href={review.href}
-                className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-gray-100 flex flex-col"
-              >
-                <div className="relative h-52">
-                  <Image
-                    src={review.image}
-                    alt={review.title}
-                    fill
-                    className="object-cover"
-                  />
-                  {review.badge && (
-                    <div className="absolute top-3 left-3 bg-teal-600 text-white text-xs font-bold px-2.5 py-1 rounded-full">
-                      {review.badge}
-                    </div>
-                  )}
-                </div>
-                <div className="p-6 flex flex-col flex-1">
-                  <div className="flex items-center gap-2 mb-3">
-                    <span className="bg-teal-50 text-teal-700 text-xs font-semibold px-2 py-1 rounded">
-                      {review.category}
-                    </span>
-                    <span className="text-gray-400 text-xs">{review.readTime}</span>
-                  </div>
-                  <h2 className="font-bold text-slate-800 text-xl mb-2">{review.title}</h2>
-                  <p className="text-gray-500 text-sm flex-1">{review.description}</p>
-                  <p className="text-teal-600 font-semibold text-sm mt-4">Read Review →</p>
-                </div>
-              </Link>
-            ))}
-          </div>
-
-          {/* Coming Soon */}
-          <h2 className="text-2xl font-bold text-slate-800 mb-4">Coming Soon</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-12">
-            {comingSoon.map((item) => (
-              <div
-                key={item.title}
-                className="bg-white rounded-xl border border-dashed border-gray-300 p-5 flex items-center justify-between"
-              >
-                <div>
-                  <span className="bg-gray-100 text-gray-600 text-xs font-semibold px-2 py-1 rounded mb-2 inline-block">
-                    {item.category}
+      <section className="container-custom py-12">
+        <h2 className="text-2xl font-bold mb-8">Published Reviews</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {reviews.map((review) => (
+            <Link key={review.href} href={review.href} className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-gray-100 block">
+              <div className="relative h-48">
+                <Image src={review.image} alt={review.title} fill className="object-cover" />
+                {review.badge && (
+                  <span className="absolute top-3 left-3 bg-teal-600 text-white text-xs font-bold px-3 py-1 rounded-full">
+                    {review.badge}
                   </span>
-                  <p className="font-semibold text-slate-700">{item.title}</p>
-                </div>
-                <span className="text-xs text-gray-400 font-medium bg-gray-100 px-2.5 py-1 rounded-full">Coming Soon</span>
+                )}
               </div>
-            ))}
-          </div>
-
-          {/* CTA */}
-          <div className="bg-white rounded-xl border border-teal-200 p-8 text-center">
-            <h3 className="text-lg font-bold text-slate-800 mb-2">Need Help Choosing a Contractor?</h3>
-            <p className="text-gray-500 text-sm mb-4">Get free quotes from vetted local basement pros — no obligation.</p>
-            <Link href="/#get-quotes" className="inline-block bg-teal-600 text-white px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-teal-700 transition-colors">
-              Get Free Quotes →
+              <div className="p-6">
+                <div className="flex items-center gap-3 mb-3">
+                  <span className="text-xs font-semibold text-teal-700 bg-teal-50 px-2 py-1 rounded">{review.category}</span>
+                  <span className="text-xs text-gray-400">{review.readTime}</span>
+                </div>
+                <h3 className="text-lg font-bold text-slate-900 mb-2">{review.title}</h3>
+                <p className="text-slate-600 text-sm leading-relaxed mb-4">{review.description}</p>
+                <span className="text-teal-700 font-semibold text-sm">Read Review →</span>
+              </div>
             </Link>
-          </div>
+          ))}
+        </div>
+      </section>
 
+      {/* CTA */}
+      <section className="container-custom pb-16">
+        <div className="bg-slate-800 rounded-2xl p-8 text-center text-white">
+          <h3 className="text-xl font-bold mb-2">Need Help Choosing a Contractor?</h3>
+          <p className="text-slate-300 mb-6">Get free quotes from vetted local basement pros — no obligation.</p>
+          <Link href="/#get-quotes" className="bg-teal-500 hover:bg-teal-400 text-white font-bold px-8 py-3 rounded-lg transition-colors">
+            Get Free Quotes →
+          </Link>
         </div>
       </section>
     </div>
