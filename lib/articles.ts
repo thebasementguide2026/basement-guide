@@ -384,6 +384,14 @@ export const articles: Article[] = [
     readTime: '12 min read',
     image: '/submersible vs pedestal sump pump.JPG',
   },
+  {
+    title: 'Best Sump Pumps for 2026: Top Submersible and Pedestal Picks',
+    description: 'See the best sump pumps for 2026, including top-rated submersible and pedestal models with GPH, horsepower, noise levels, and real-world reliability for wet basements.',
+    slug: 'best-sump-pumps-2026',
+    category: 'Reviews',
+    readTime: '10 min read',
+    image: '/Submersible.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
