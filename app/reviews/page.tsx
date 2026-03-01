@@ -35,6 +35,15 @@ const reviews = [
     readTime: '10 min read',
     badge: null,
   },
+    {
+    title: 'Best Air Purifiers for Basements 2025',
+    description: 'Top-rated HEPA air purifiers for basement mold, musty odors, and poor air quality. Expert picks for every budget with pros, cons, and buying advice.',
+    href: '/articles/best-basement-air-purifiers',
+    image: '/airpurifierembed.jpg',
+    category: 'Air Quality',
+    readTime: '12 min read',
+    badge: null,
+  },
 ]
 
 const comingSoon = [
