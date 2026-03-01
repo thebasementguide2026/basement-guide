@@ -398,7 +398,7 @@ export const articles: Article[] = [
     slug: 'best-basement-air-purifiers',
     category: 'Reviews',
     readTime: '12 min read',
-    image: '/airpurifierembed.jpg',
+        image: '/airpurfierembed.jpg',
   },
 ]
 
