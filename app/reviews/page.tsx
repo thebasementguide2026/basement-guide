@@ -26,11 +26,19 @@ const reviews = [
     readTime: '11 min read',
     badge: null,
   },
+  {
+    title: 'Best Sump Pumps for 2026: Top Submersible and Pedestal Picks',
+    description: 'See the best sump pumps for 2026, including top-rated submersible and pedestal models with GPH, horsepower, noise levels, and real-world reliability for wet basements.',
+    href: '/articles/best-sump-pumps-2026',
+    image: '/Submersible.jpg',
+    category: 'Sump Pumps',
+    readTime: '10 min read',
+    badge: null,
+  },
 ]
 
 const comingSoon = [
   { title: 'Best Basement Dehumidifiers 2026', category: 'Dehumidifiers' },
-  { title: 'Best Sump Pumps 2026', category: 'Sump Pumps' },
   { title: 'Best Basement Waterproofing Paint', category: 'Waterproofing' },
   { title: 'Best Interior Drainage Systems', category: 'Drainage' },
 ]
