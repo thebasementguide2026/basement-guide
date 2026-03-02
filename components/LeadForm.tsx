@@ -1,28 +1,54 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
-export default function LeadForm() {
+interface LeadFormProps {
+  taskIds: number[]
+}
+
+export default function LeadForm({ taskIds }: LeadFormProps) {
   const [formData, setFormData] = useState({
-    name: '',
+    firstName: '',
+    lastName: '',
     email: '',
     phone: '',
     zipCode: '',
-    projectType: ''
+    description: '',
   })
   const [submitted, setSubmitted] = useState(false)
+  const [submitting, setSubmitting] = useState(false)
+  const [error, setError] = useState('')
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    
-    // In production, this would send to your lead management system
-    // For now, we'll just show a success message
-    console.log('Lead submitted:', formData)
-    
-    // TODO: Integrate with your lead management system (Google Sheets, Airtable, etc.)
-    // Example: await fetch('/api/submit-lead', { method: 'POST', body: JSON.stringify(formData) })
-    
-    setSubmitted(true)
+    setSubmitting(true)
+    setError('')
+
+    // Get TrustedForm cert URL from hidden field
+    const certInput = document.querySelector('input[name="xxTrustedFormCertUrl"]') as HTMLInputElement
+    const trustedFormCertUrl = certInput?.value || ''
+
+    try {
+      const response = await fetch('/api/submit-lead', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          ...formData,
+          taskIds,
+          trustedFormCertUrl,
+        }),
+      })
+
+      if (response.ok) {
+        setSubmitted(true)
+      } else {
+        setError('Something went wrong. Please try again.')
+      }
+    } catch (err) {
+      setError('Something went wrong. Please try again.')
+    } finally {
+      setSubmitting(false)
+    }
   }
 
   if (submitted) {
@@ -43,19 +69,33 @@ export default function LeadForm() {
     <form id="get-quotes" onSubmit={handleSubmit} className="bg-white border border-gray-200 rounded-lg p-8">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div>
-          <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
-            Full Name *
+          <label htmlFor="firstName" className="block text-sm font-medium text-gray-700 mb-1">
+            First Name *
           </label>
           <input
             type="text"
-            id="name"
+            id="firstName"
             required
             className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-brand-teal focus:border-transparent"
-            value={formData.name}
-            onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+            value={formData.firstName}
+            onChange={(e) => setFormData({ ...formData, firstName: e.target.value })}
           />
         </div>
-        
+
+        <div>
+          <label htmlFor="lastName" className="block text-sm font-medium text-gray-700 mb-1">
+            Last Name *
+          </label>
+          <input
+            type="text"
+            id="lastName"
+            required
+            className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-brand-teal focus:border-transparent"
+            value={formData.lastName}
+            onChange={(e) => setFormData({ ...formData, lastName: e.target.value })}
+          />
+        </div>
+
         <div>
           <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
             Email *
@@ -69,7 +109,7 @@ export default function LeadForm() {
             onChange={(e) => setFormData({ ...formData, email: e.target.value })}
           />
         </div>
-        
+
         <div>
           <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">
             Phone Number *
@@ -83,7 +123,7 @@ export default function LeadForm() {
             onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
           />
         </div>
-        
+
         <div>
           <label htmlFor="zipCode" className="block text-sm font-medium text-gray-700 mb-1">
             ZIP Code *
@@ -99,37 +139,39 @@ export default function LeadForm() {
           />
         </div>
       </div>
-      
+
       <div className="mt-4">
-        <label htmlFor="projectType" className="block text-sm font-medium text-gray-700 mb-1">
-          Project Type *
+        <label htmlFor="description" className="block text-sm font-medium text-gray-700 mb-1">
+          Briefly describe your project (optional)
         </label>
-        <select
-          id="projectType"
-          required
+        <textarea
+          id="description"
+          maxLength={500}
+          rows={3}
           className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-brand-teal focus:border-transparent"
-          value={formData.projectType}
-          onChange={(e) => setFormData({ ...formData, projectType: e.target.value })}
-        >
-          <option value="">Select a project type</option>
-          <option value="waterproofing">Basement Waterproofing</option>
-          <option value="finishing">Basement Finishing</option>
-          <option value="foundation-repair">Foundation Repair</option>
-          <option value="sump-pump">Sump Pump Installation</option>
-          <option value="drainage">Drainage System</option>
-          <option value="other">Other</option>
-        </select>
+          placeholder="Tell us about your project, any specific concerns, timeline, etc."
+          value={formData.description}
+          onChange={(e) => setFormData({ ...formData, description: e.target.value })}
+        />
+        <p className="text-xs text-gray-400 mt-1 text-right">{formData.description.length}/500</p>
       </div>
-      
+
+      {error && (
+        <p className="text-red-600 text-sm mt-2">{error}</p>
+      )}
+
       <button
         type="submit"
-        className="w-full bg-brand-teal hover:bg-brand-teal-light text-white font-semibold py-3 rounded-lg mt-6 transition-colors"
+        disabled={submitting}
+        className="w-full bg-brand-teal hover:bg-brand-teal-light text-white font-semibold py-3 rounded-lg mt-6 transition-colors disabled:opacity-50"
       >
-        Get Free Quotes
+        {submitting ? 'Submitting...' : 'Get Free Quotes'}
       </button>
-      
-      <p className="text-xs text-gray-500 mt-4 text-center">
-        By submitting this form, you agree to be contacted by up to 3 contractors. No obligation to hire.
+
+      <p className="text-xs text-gray-500 mt-4 text-center leading-relaxed">
+        By clicking "Get Free Quotes," I consent to be contacted by up to 3 home service professionals at the phone number and/or email address I provided, including via automated calls, texts, and prerecorded messages, even if my number is on a Do Not Call list. I understand this consent is not a condition of purchase. I also agree to The Basement Guide's{' '}
+        <a href="/terms" className="underline">Terms of Service</a> and{' '}
+        <a href="/privacy" className="underline">Privacy Policy</a>.
       </p>
     </form>
   )
