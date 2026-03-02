@@ -4,6 +4,41 @@ import { useState } from 'react'
 import { usePathname } from 'next/navigation'
 import { getTaskIdsForArticle, FALLBACK_TASK_IDS } from '@/lib/taskIdMap'
 
+// All Networx task IDs with human-readable labels
+const PROJECT_TYPE_OPTIONS = [
+  { value: '337', label: 'Crawl Space / Basement Water Remediation' },
+  { value: '393', label: 'Crawl Space / Basement Waterproofing' },
+  { value: '143', label: 'Basement Remodel' },
+  { value: '417', label: 'Concrete Foundation - Repair' },
+  { value: '391', label: 'Concrete Foundation - Install' },
+  { value: '287', label: 'Mold Remediation' },
+  { value: '579', label: 'Mold Testing' },
+  { value: '229', label: 'Sump Pump - Repair / Replace' },
+  { value: '573', label: 'French Drain Installation / Repair' },
+  { value: '254', label: 'Storm / Water Damage Restoration' },
+  { value: '373', label: 'Humidifier / Dehumidifier - Install' },
+  { value: '375', label: 'Humidifier / Dehumidifier - Repair' },
+  { value: '258', label: 'Insulation - Install / Upgrade' },
+  { value: '339', label: 'Insulation - Blow In' },
+  { value: '341', label: 'Insulation - Spray Foam' },
+  { value: '123', label: 'Drain Clog / Blockage - Clear' },
+  { value: '129', label: 'Plumbing Leak Detection / Repair' },
+  { value: '130', label: 'Plumbing (General)' },
+  { value: '154', label: 'General Contractor' },
+  { value: '153', label: 'Remodel or Renovate 1+ Rooms' },
+  { value: '221', label: 'Drywall Installation' },
+  { value: '236', label: 'Drywall Repair / Patching' },
+  { value: '226', label: 'Handyman' },
+  { value: '220', label: 'Popcorn Ceiling Removal' },
+  { value: '387', label: 'Mudjacking / Concrete Leveling' },
+  { value: '353', label: 'Poured Concrete Wall - Install' },
+  { value: '67', label: 'Concrete - Applications' },
+  { value: '68', label: 'Concrete Flatwork - Repair / Resurface' },
+  { value: '70', label: 'Concrete Retaining Walls - Repair' },
+  { value: '77', label: 'Garage Floor Coatings' },
+  { value: '293', label: 'Recovery Services' },
+]
+
 interface LeadFormProps {
   taskIds?: number[]
 }
@@ -24,6 +59,7 @@ export default function LeadForm({ taskIds }: LeadFormProps) {
     email: '',
     phone: '',
     zipCode: '',
+    projectType: '',
     description: '',
   })
   const [submitted, setSubmitted] = useState(false)
@@ -39,13 +75,21 @@ export default function LeadForm({ taskIds }: LeadFormProps) {
     const certInput = document.querySelector('input[name="xxTrustedFormCertUrl"]') as HTMLInputElement
     const trustedFormCertUrl = certInput?.value || ''
 
+    // Build final task IDs: start with the user-selected project type,
+    // then include the page-level auto-detected IDs for full coverage
+    const selectedTaskId = formData.projectType ? parseInt(formData.projectType) : null
+    let finalTaskIds = [...resolvedTaskIds]
+    if (selectedTaskId && !finalTaskIds.includes(selectedTaskId)) {
+      finalTaskIds = [selectedTaskId, ...finalTaskIds]
+    }
+
     try {
       const response = await fetch('/api/submit-lead', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           ...formData,
-          taskIds: resolvedTaskIds,
+          taskIds: finalTaskIds,
           trustedFormCertUrl,
         }),
       })
@@ -149,6 +193,26 @@ export default function LeadForm({ taskIds }: LeadFormProps) {
             onChange={(e) => setFormData({ ...formData, zipCode: e.target.value })}
           />
         </div>
+      </div>
+
+      <div className="mt-4">
+        <label htmlFor="projectType" className="block text-sm font-medium text-gray-700 mb-1">
+          Project Type *
+        </label>
+        <select
+          id="projectType"
+          required
+          className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-brand-teal focus:border-transparent"
+          value={formData.projectType}
+          onChange={(e) => setFormData({ ...formData, projectType: e.target.value })}
+        >
+          <option value="">Select your project type</option>
+          {PROJECT_TYPE_OPTIONS.map((opt) => (
+            <option key={opt.value} value={opt.value}>
+              {opt.label}
+            </option>
+          ))}
+        </select>
       </div>
 
       <div className="mt-4">
