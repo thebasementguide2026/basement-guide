@@ -3,11 +3,12 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import Script from 'next/script'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'The Basement Guide - Expert Waterproofing Advice for Homeowners',
+  title: 'The Basement Guide \u2014 Expert Waterproofing Advice for Homeowners',
   description: 'Independent resource for basement waterproofing, finishing, and maintenance. Get expert advice, cost guides, and product reviews.',
   keywords: 'basement waterproofing, basement finishing, sump pump, foundation repair, basement drainage',
 }
@@ -46,7 +47,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* Google Analytics - Replace G-CKRJCDR3D0 with your actual ID */}
+        {/* Google Analytics */}
         <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-CKRJCDR3D0"
@@ -76,6 +77,23 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
+        {/* TrustedForm Certify Script */}
+        <Script
+          id="trustedform"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                var tf = document.createElement('script');
+                tf.type = 'text/javascript';
+                tf.async = true;
+                tf.src = ("https:" == document.location.protocol ? 'https' : 'http') + '://api.trustedform.com/trustedform.js?field=xxTrustedFormCertUrl&use_tagged_consent=true&l=' + new Date().getTime() + Math.random();
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(tf, s);
+              })();
+            `,
+          }}
+        />
       </body>
     </html>
   )
