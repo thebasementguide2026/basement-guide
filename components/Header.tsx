@@ -82,15 +82,15 @@ export default function Header() {
     <header className="bg-white sticky top-0 z-50 border-b border-gray-200 shadow-sm">
       {/* Top bar */}
       <div className="container-custom">
-        <div className="flex items-center justify-between h-16">
+                  <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/" className="flex-shrink-0">
             <Image
               src="/TheBasement%20Guide%20Logo.png"
               alt="The Basement Guide"
-              width={160}
-              height={40}
-              className="h-10 w-auto"
+              width={200}
+            height={56}
+                          className="h-14 w-auto"
               priority
             />
           </Link>
