@@ -416,6 +416,14 @@ export const articles: Article[] = [
     readTime: '15 min read',
     image: '/images/Epoxy vs Polyurethane hero.jpg',
   },
+    {
+    title: 'DIY vs Hiring a Pro for Basement Projects: How to Decide',
+    description: 'Complete 2026 guide to deciding when to DIY and when to hire a professional for basement projects. Cost comparisons, risk assessments, and decision framework for waterproofing, finishing, and structural work.',
+    slug: 'diy-vs-hiring-pro-basement-projects',
+    category: 'Comparison',
+    readTime: '15 min read',
+    image: '/images/DIYvsPro.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
