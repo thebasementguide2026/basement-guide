@@ -408,6 +408,14 @@ export const articles: Article[] = [
               readTime: '15 min read',
     image: '/images/drop-ceiling-vs-drywall/dropceiling .jpg',
             },
+  {
+    title: 'Epoxy vs Polyurethane Floor Coating: Which One Should You Choose?',
+    description: 'Complete 2026 comparison of epoxy vs polyurethane floor coatings. Pros, cons, costs, durability, UV resistance, and when to use each on your basement or garage floor.',
+    slug: 'epoxy-vs-polyurethane-floor-coating',
+    category: 'Comparison',
+    readTime: '15 min read',
+    image: '/images/Epoxy vs Polyurethane hero.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
