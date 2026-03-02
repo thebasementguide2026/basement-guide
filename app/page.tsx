@@ -29,7 +29,7 @@ export default function Home() {
   const popular = popularSlugs
     .map((slug) => articles.find((a) => a.slug === slug))
     .filter(Boolean) as typeof articles
-  const latestArticles = articles.slice(0, 6)
+  const latestArticles = [articles.find((a) => a.slug === 'diy-vs-hiring-pro-basement-projects'), ...articles.filter((a) => a.slug !== 'bowing-basement-walls' && a.slug !== 'diy-vs-hiring-pro-basement-projects').slice(0, 5)].filter(Boolean) as typeof articles
   const reviews = articles
     .filter((a) => ['Reviews', 'Buying Guide'].includes(a.category))
     .slice(0, 7)
