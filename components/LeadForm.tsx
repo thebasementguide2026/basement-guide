@@ -1,12 +1,23 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
+import { usePathname } from 'next/navigation'
+import { getTaskIdsForArticle, FALLBACK_TASK_IDS } from '@/lib/taskIdMap'
 
 interface LeadFormProps {
-  taskIds: number[]
+  taskIds?: number[]
 }
 
 export default function LeadForm({ taskIds }: LeadFormProps) {
+  const pathname = usePathname()
+
+  // Auto-detect task IDs from URL if not explicitly passed
+  const resolvedTaskIds = taskIds || (() => {
+    const segments = pathname.split('/')
+    const slug = segments[segments.length - 1] || segments[segments.length - 2]
+    return slug ? getTaskIdsForArticle(slug) : FALLBACK_TASK_IDS
+  })()
+
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
@@ -24,7 +35,7 @@ export default function LeadForm({ taskIds }: LeadFormProps) {
     setSubmitting(true)
     setError('')
 
-    // Get TrustedForm cert URL from hidden field
+    // Get TrustedForm cert URL from hidden field injected by TrustedForm script
     const certInput = document.querySelector('input[name="xxTrustedFormCertUrl"]') as HTMLInputElement
     const trustedFormCertUrl = certInput?.value || ''
 
@@ -34,7 +45,7 @@ export default function LeadForm({ taskIds }: LeadFormProps) {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           ...formData,
-          taskIds,
+          taskIds: resolvedTaskIds,
           trustedFormCertUrl,
         }),
       })
