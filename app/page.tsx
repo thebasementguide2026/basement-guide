@@ -3,77 +3,152 @@ import Image from 'next/image'
 import LeadForm from '@/components/LeadForm'
 import { articles } from '@/lib/articles'
 
+const popularSlugs = [
+  'complete-basement-waterproofing-guide',
+  'how-to-finish-a-basement',
+  'best-sump-pumps-2026',
+  'best-basement-dehumidifiers',
+  'basement-waterproofing-cost',
+  'homebuyers-basement-inspection-checklist',
+  'how-to-prevent-basement-mold',
+  'basement-finishing-cost',
+]
+
+const routingCards = [
+  {
+    icon: '💧',
+    title: 'I Have a Water Problem',
+    description: 'Leaks, flooding, seepage, or moisture issues in your basement.',
+    href: '/articles/complete-basement-waterproofing-guide',
+    color: 'bg-blue-50 border-blue-200',
+    iconBg: 'bg-blue-100',
+    cta: 'Fix Water Issues →',
+  },
+  {
+    icon: '🏠',
+    title: 'I Want to Finish My Basement',
+    description: 'Planning, costs, permits, and step-by-step guidance for finishing.',
+    href: '/articles/how-to-finish-a-basement',
+    color: 'bg-teal-50 border-teal-200',
+    iconBg: 'bg-teal-100',
+    cta: 'Start Finishing →',
+  },
+  {
+    icon: '💰',
+    title: 'How Much Will It Cost?',
+    description: 'Real 2026 pricing data for every basement project.',
+    href: '/cost-guides',
+    color: 'bg-green-50 border-green-200',
+    iconBg: 'bg-green-100',
+    cta: 'See Cost Guides →',
+  },
+  {
+    icon: '🏡',
+    title: "I'm Buying a Home",
+    description: 'Inspect before you buy. Spot hidden water damage and red flags.',
+    href: '/articles/homebuyers-basement-inspection-checklist',
+    color: 'bg-amber-50 border-amber-200',
+    iconBg: 'bg-amber-100',
+    cta: 'Get the Checklist →',
+  },
+]
+
 export default function Home() {
-  const featuredArticle = articles.find(a => a.slug === 'complete-basement-waterproofing-guide')
-  const costGuides = articles.filter(a => a.category === 'Cost Guide')
-  const waterproofing = articles.filter(a => ['Waterproofing', 'Deep Dive', 'Technology'].includes(a.category))
-  const healthSafety = articles.filter(a => a.category === 'Health & Safety')
-  const finishing = articles.filter(a => a.category === 'Finishing')
-  const reviews = articles.filter(a => ['Reviews', 'Buying Guide', 'Smart Home'].includes(a.category))
-  const remaining = articles.filter(a => ![
-    featuredArticle?.slug,
-    ...costGuides.map(a => a.slug),
-    ...waterproofing.map(a => a.slug),
-    ...healthSafety.map(a => a.slug),
-    ...finishing.map(a => a.slug),
-    ...reviews.map(a => a.slug),
-  ].includes(a.slug))
+  const popularArticles = popularSlugs
+    .map((slug) => articles.find((a) => a.slug === slug))
+    .filter(Boolean) as typeof articles
+
+  const latestArticles = articles.slice(0, 4)
+
+  const reviews = articles.filter((a) =>
+    ['Reviews', 'Buying Guide'].includes(a.category)
+  ).slice(0, 7)
+
+  const costGuides = articles.filter((a) => a.category === 'Cost Guide')
 
   return (
     <>
-      {/* Hero Section - Full Width Featured Article */}
-      <section className="relative bg-brand-navy">
-        <div className="relative h-[500px] lg:h-[550px] w-full overflow-hidden">
-          <Image
-            src="/exterior-waterproofing-membrane.jpg.png"
-            alt="Professional basement waterproofing"
-            fill
-            className="object-cover opacity-30"
-            priority
-          />
-          <div className="absolute inset-0 flex items-center justify-center">
-            <div className="text-center max-w-3xl mx-auto px-6">
-              <span className="inline-block bg-brand-teal text-white px-4 py-1.5 rounded-full text-sm font-semibold uppercase tracking-wider mb-6">
-                Featured Guide
-              </span>
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-                The Complete Basement Waterproofing Guide for 2026
-              </h1>
-              <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-2xl mx-auto">
-                Everything you need to know about stopping basement leaks for good. From hydrostatic pressure to sump pumps.
-              </p>
+      {/* Hero */}
+      <section className="bg-gradient-to-b from-brand-navy to-slate-800 text-white">
+        <div className="container-custom py-16 md:py-20 text-center">
+          <p className="text-brand-teal font-semibold text-sm uppercase tracking-widest mb-3">The Basement Guide</p>
+          <h1 className="text-3xl md:text-5xl font-bold mb-4 leading-tight">
+            Your Complete Guide to Basement<br className="hidden md:block" /> Waterproofing, Finishing & Maintenance
+          </h1>
+          <p className="text-slate-300 text-lg max-w-2xl mx-auto mb-8">
+            Expert guides, honest product reviews, and real cost data — everything you need to make smart basement decisions.
+          </p>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
+            <Link
+              href="/start-here"
+              className="bg-brand-teal hover:bg-teal-500 text-white px-6 py-3 rounded-lg font-semibold transition-colors"
+            >
+              Start Here
+            </Link>
+            <Link
+              href="/#get-quotes"
+              className="bg-white/10 hover:bg-white/20 text-white border border-white/20 px-6 py-3 rounded-lg font-semibold transition-colors"
+            >
+              Get Free Quotes
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Routing Cards — What's your situation? */}
+      <section className="bg-gray-50 py-12">
+        <div className="container-custom">
+          <h2 className="text-2xl font-bold text-slate-800 mb-2 text-center">What brings you here?</h2>
+          <p className="text-gray-500 text-center mb-8">Choose your situation to find the right resources fast.</p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+            {routingCards.map((card) => (
               <Link
-                href="/articles/complete-basement-waterproofing-guide"
-                className="inline-flex items-center gap-2 bg-white text-brand-navy px-8 py-4 rounded-lg text-lg font-bold hover:bg-gray-100 transition-colors"
+                key={card.href}
+                href={card.href}
+                className={`flex flex-col p-6 rounded-xl border-2 hover:shadow-md transition-all ${card.color}`}
               >
-                Read the Complete Guide
-                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
+                <div className={`w-12 h-12 rounded-xl flex items-center justify-center text-2xl mb-4 ${card.iconBg}`}>
+                  {card.icon}
+                </div>
+                <h3 className="font-bold text-slate-800 text-lg mb-2">{card.title}</h3>
+                <p className="text-gray-600 text-sm mb-4 flex-1">{card.description}</p>
+                <span className="text-sm font-semibold text-brand-teal">{card.cta}</span>
               </Link>
-            </div>
+            ))}
           </div>
         </div>
       </section>
 
-      {/* Latest Articles - Cards with Hero Images */}
-      <section className="py-16 bg-white">
+      {/* Popular Guides */}
+      <section className="py-12">
         <div className="container-custom">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">Latest Articles</h2>
-          <p className="text-gray-500 mb-10 text-lg">Expert advice on waterproofing, finishing, and maintaining your basement</p>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {articles.slice(0, 6).map((article) => (
-              <Link key={article.slug} href={`/articles/${article.slug}`} className="group bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow">
+          <div className="flex items-center justify-between mb-8">
+            <div>
+              <h2 className="text-2xl font-bold text-slate-800">Popular Guides</h2>
+              <p className="text-gray-500 mt-1">Our highest-value articles, bookmarked by thousands</p>
+            </div>
+            <Link href="/guides" className="text-brand-teal font-semibold text-sm hover:underline">View All Guides →</Link>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {popularArticles.map((article) => (
+              <Link
+                key={article.slug}
+                href={`/articles/${article.slug}`}
+                className="group bg-white rounded-xl overflow-hidden border border-gray-100 hover:shadow-md transition-all"
+              >
                 {article.image && (
-                  <div className="relative h-48 w-full overflow-hidden">
-                    <Image src={article.image} alt={article.title} fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
+                  <div className="relative h-44 bg-gray-100">
+                    <Image
+                      src={article.image}
+                      alt={article.title}
+                      fill
+                      className="object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
                   </div>
                 )}
-                <div className="p-6">
-                  <div className="flex items-center gap-3 mb-3">
-                    <span className="inline-block bg-brand-teal/10 text-brand-teal px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider">{article.category}</span>
-                    <span className="text-gray-400 text-xs">{article.readTime}</span>
-                  </div>
-                  <h3 className="text-lg font-bold text-gray-900 group-hover:text-brand-teal transition-colors mb-2">{article.title}</h3>
-                  <p className="text-gray-500 text-sm line-clamp-2">{article.description}</p>
+                <div className="p-4">
+                  <span className="inline-block text-xs font-semibold text-brand-teal uppercase tracking-wide mb-2">{article.category}</span>
+                  <h3 className="font-bold text-slate-800 text-sm leading-snug group-hover:text-brand-teal transition-colors">{article.title}</h3>
                 </div>
               </Link>
             ))}
@@ -81,30 +156,36 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Cost Guides Section */}
-      <section className="py-16 bg-gray-50">
+      {/* Latest Articles */}
+      <section className="bg-gray-50 py-12">
         <div className="container-custom">
-          <div className="flex items-center justify-between mb-10">
+          <div className="flex items-center justify-between mb-8">
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">Cost Guides</h2>
-              <p className="text-gray-500 text-lg">Real pricing data for every basement project</p>
+              <h2 className="text-2xl font-bold text-slate-800">Latest Articles</h2>
+              <p className="text-gray-500 mt-1">Most recently added expert guides</p>
             </div>
-            <Link href="/cost-guides" className="hidden md:inline-flex items-center gap-1 text-brand-teal font-semibold hover:text-brand-navy transition-colors">
-              View All <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
-            </Link>
           </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {costGuides.map((article) => (
-              <Link key={article.slug} href={`/articles/${article.slug}`} className="group bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {latestArticles.map((article) => (
+              <Link
+                key={article.slug}
+                href={`/articles/${article.slug}`}
+                className="group bg-white rounded-xl overflow-hidden border border-gray-100 hover:shadow-md transition-all"
+              >
                 {article.image && (
-                  <div className="relative h-48 w-full overflow-hidden">
-                    <Image src={article.image} alt={article.title} fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
+                  <div className="relative h-40 bg-gray-100">
+                    <Image
+                      src={article.image}
+                      alt={article.title}
+                      fill
+                      className="object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
                   </div>
                 )}
-                <div className="p-6">
-                  <span className="text-gray-400 text-xs">{article.readTime}</span>
-                  <h3 className="text-lg font-bold text-gray-900 group-hover:text-brand-teal transition-colors mt-2 mb-2">{article.title}</h3>
-                  <p className="text-gray-500 text-sm line-clamp-2">{article.description}</p>
+                <div className="p-4">
+                  <span className="inline-block text-xs font-semibold text-brand-teal uppercase tracking-wide mb-1">{article.category}</span>
+                  <h3 className="font-bold text-slate-800 text-sm leading-snug group-hover:text-brand-teal transition-colors">{article.title}</h3>
+                  <p className="text-gray-500 text-xs mt-2 line-clamp-2">{article.description}</p>
                 </div>
               </Link>
             ))}
@@ -112,67 +193,36 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Waterproofing & Protection Section */}
-      <section id="waterproofing" className="py-16 bg-white">
+      {/* Product Reviews */}
+      <section className="py-12">
         <div className="container-custom">
-          <div className="flex items-center justify-between mb-10">
+          <div className="flex items-center justify-between mb-8">
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">Waterproofing & Protection</h2>
-              <p className="text-gray-500 text-lg">Deep dives into keeping your basement dry</p>
+              <h2 className="text-2xl font-bold text-slate-800">Product Reviews</h2>
+              <p className="text-gray-500 mt-1">Honest, research-backed buying guides</p>
             </div>
-            <Link href="/guides" className="hidden md:inline-flex items-center gap-1 text-brand-teal font-semibold hover:text-brand-navy transition-colors">
-              View All <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
-            </Link>
+            <Link href="/reviews" className="text-brand-teal font-semibold text-sm hover:underline">View All Reviews →</Link>
           </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {waterproofing.map((article) => (
-              <Link key={article.slug} href={`/articles/${article.slug}`} className="group bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow">
-                {article.image && (
-                  <div className="relative h-48 w-full overflow-hidden">
-                    <Image src={article.image} alt={article.title} fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
-                  </div>
-                )}
-                <div className="p-6">
-                  <div className="flex items-center justify-between mb-2">
-                    <span className="inline-block bg-brand-teal/10 text-brand-teal px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider">{article.category}</span>
-                    <span className="text-gray-400 text-xs">{article.readTime}</span>
-                  </div>
-                  <h3 className="text-lg font-bold text-gray-900 group-hover:text-brand-teal transition-colors mb-2">{article.title}</h3>
-                  <p className="text-gray-500 text-sm line-clamp-2">{article.description}</p>
-                </div>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Reviews & Buying Guides */}
-      <section className="py-16 bg-gray-50">
-        <div className="container-custom">
-          <div className="flex items-center justify-between mb-10">
-            <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">Reviews & Buying Guides</h2>
-              <p className="text-gray-500 text-lg">Honest product reviews and smart buying advice</p>
-            </div>
-            <Link href="/reviews" className="hidden md:inline-flex items-center gap-1 text-brand-teal font-semibold hover:text-brand-navy transition-colors">
-              View All <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
-            </Link>
-          </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {reviews.map((article) => (
-              <Link key={article.slug} href={`/articles/${article.slug}`} className="group bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow">
+              <Link
+                key={article.slug}
+                href={`/articles/${article.slug}`}
+                className="group bg-white rounded-xl overflow-hidden border border-gray-100 hover:shadow-md transition-all"
+              >
                 {article.image && (
-                  <div className="relative h-48 w-full overflow-hidden">
-                    <Image src={article.image} alt={article.title} fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
+                  <div className="relative h-40 bg-gray-100">
+                    <Image
+                      src={article.image}
+                      alt={article.title}
+                      fill
+                      className="object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
                   </div>
                 )}
-                <div className="p-6">
-                  <div className="flex items-center justify-between mb-2">
-                    <span className="inline-block bg-brand-teal/10 text-brand-teal px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider">{article.category}</span>
-                    <span className="text-gray-400 text-xs">{article.readTime}</span>
-                  </div>
-                  <h3 className="text-lg font-bold text-gray-900 group-hover:text-brand-teal transition-colors mb-2">{article.title}</h3>
-                  <p className="text-gray-500 text-sm line-clamp-2">{article.description}</p>
+                <div className="p-4">
+                  <span className="inline-block text-xs font-semibold text-amber-600 uppercase tracking-wide mb-1">⭐ Review</span>
+                  <h3 className="font-bold text-slate-800 text-sm leading-snug group-hover:text-brand-teal transition-colors">{article.title}</h3>
                 </div>
               </Link>
             ))}
@@ -180,96 +230,50 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Health & Safety */}
-      <section id="health-safety" className="py-16 bg-white">
+      {/* Cost Guides */}
+      <section className="bg-slate-800 text-white py-12">
         <div className="container-custom">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">Health & Safety</h2>
-          <p className="text-gray-500 mb-10 text-lg">Protect your family from mold, radon, and moisture</p>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {healthSafety.map((article) => (
-              <Link key={article.slug} href={`/articles/${article.slug}`} className="group bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow">
-                {article.image && (
-                  <div className="relative h-48 w-full overflow-hidden">
-                    <Image src={article.image} alt={article.title} fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
-                  </div>
-                )}
-                <div className="p-6">
-                  <div className="flex items-center justify-between mb-2">
-                    <span className="inline-block bg-brand-teal/10 text-brand-teal px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider">{article.category}</span>
-                    <span className="text-gray-400 text-xs">{article.readTime}</span>
-                  </div>
-                  <h3 className="text-lg font-bold text-gray-900 group-hover:text-brand-teal transition-colors mb-2">{article.title}</h3>
-                  <p className="text-gray-500 text-sm line-clamp-2">{article.description}</p>
-                </div>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Finishing & Renovation */}
-      <section id="finishing" className="py-16 bg-gray-50">
-        <div className="container-custom">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">Finishing & Renovation</h2>
-          <p className="text-gray-500 mb-10 text-lg">Turn your basement into livable space</p>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {finishing.map((article) => (
-              <Link key={article.slug} href={`/articles/${article.slug}`} className="group bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow">
-                {article.image && (
-                  <div className="relative h-48 w-full overflow-hidden">
-                    <Image src={article.image} alt={article.title} fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
-                  </div>
-                )}
-                <div className="p-6">
-                  <div className="flex items-center justify-between mb-2">
-                    <span className="inline-block bg-brand-teal/10 text-brand-teal px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider">{article.category}</span>
-                    <span className="text-gray-400 text-xs">{article.readTime}</span>
-                  </div>
-                  <h3 className="text-lg font-bold text-gray-900 group-hover:text-brand-teal transition-colors mb-2">{article.title}</h3>
-                  <p className="text-gray-500 text-sm line-clamp-2">{article.description}</p>
-                </div>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* More Expert Guides */}
-      {remaining.length > 0 && (
-        <section className="py-16 bg-white">
-          <div className="container-custom">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">More Expert Guides</h2>
-            <p className="text-gray-500 mb-10 text-lg">Explore our complete library of basement guides</p>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {remaining.map((article) => (
-                <Link key={article.slug} href={`/articles/${article.slug}`} className="group bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow">
-                  {article.image && (
-                    <div className="relative h-48 w-full overflow-hidden">
-                      <Image src={article.image} alt={article.title} fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
-                    </div>
-                  )}
-                  <div className="p-6">
-                    <div className="flex items-center justify-between mb-2">
-                      <span className="inline-block bg-brand-teal/10 text-brand-teal px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider">{article.category}</span>
-                      <span className="text-gray-400 text-xs">{article.readTime}</span>
-                    </div>
-                    <h3 className="text-lg font-bold text-gray-900 group-hover:text-brand-teal transition-colors mb-2">{article.title}</h3>
-                    <p className="text-gray-500 text-sm line-clamp-2">{article.description}</p>
-                  </div>
-                </Link>
-              ))}
+          <div className="flex items-center justify-between mb-8">
+            <div>
+              <h2 className="text-2xl font-bold">Cost Guides</h2>
+              <p className="text-slate-400 mt-1">Real 2026 pricing data for every basement project</p>
             </div>
+            <Link href="/cost-guides" className="text-brand-teal font-semibold text-sm hover:underline">View All →</Link>
           </div>
-        </section>
-      )}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {costGuides.map((article) => (
+              <Link
+                key={article.slug}
+                href={`/articles/${article.slug}`}
+                className="group flex items-center gap-3 bg-white/10 hover:bg-white/20 rounded-lg p-4 transition-all"
+              >
+                <div className="w-10 h-10 bg-brand-teal/20 rounded-lg flex items-center justify-center text-brand-teal flex-shrink-0">
+                  💰
+                </div>
+                <div>
+                  <h3 className="font-semibold text-white text-sm leading-snug group-hover:text-brand-teal transition-colors">{article.title}</h3>
+                  <span className="text-slate-400 text-xs">{article.readTime}</span>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
 
-      {/* Lead Form Section */}
-      <section className="py-16 bg-brand-navy text-white">
-        <div className="container-custom">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Get Free Quotes from Local Pros</h2>
-          <p className="text-gray-300 text-center mb-12 text-lg max-w-2xl mx-auto">
-            Compare quotes from vetted basement waterproofing contractors in your area. No obligation to hire, 100% free service.
-                      </p>
+      {/* About blurb */}
+      <section className="py-12 border-b border-gray-100">
+        <div className="container-custom max-w-3xl text-center">
+          <h2 className="text-2xl font-bold text-slate-800 mb-4">About The Basement Guide</h2>
+          <p className="text-gray-600 leading-relaxed">
+            Written by homeowners who have dealt with every basement problem imaginable. No fluff, no contractor sales pitches — just honest, detailed guides to help you make smart decisions about waterproofing, finishing, and maintaining your basement.
+          </p>
+          <Link href="/about" className="inline-block mt-4 text-brand-teal font-semibold hover:underline">Learn more about us →</Link>
+        </div>
+      </section>
+
+      {/* Lead Form */}
+      <section id="get-quotes" className="py-16 bg-gray-50">
+        <div className="container-custom max-w-2xl">
           <LeadForm />
         </div>
       </section>
