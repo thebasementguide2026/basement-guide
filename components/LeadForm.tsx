@@ -114,7 +114,7 @@ export default function LeadForm({ taskIds }: LeadFormProps) {
         </svg>
         <h3 className="text-2xl font-bold text-brand-navy mb-2">Thank You!</h3>
         <p className="text-gray-600">
-          We've received your information. You'll receive quotes from up to 3 local contractors within 24 hours.
+          We've received your information. You'll receive quotes from local contractors within 24 hours.
         </p>
       </div>
     )
@@ -244,7 +244,7 @@ export default function LeadForm({ taskIds }: LeadFormProps) {
       </button>
 
       <p className="text-xs text-gray-500 mt-4 text-center leading-relaxed">
-        By clicking "Get Free Quotes," I consent to be contacted by up to 3 home service professionals at the phone number and/or email address I provided, including via automated calls, texts, and prerecorded messages, even if my number is on a Do Not Call list. I understand this consent is not a condition of purchase. I also agree to The Basement Guide's{' '}
+        By clicking "Get Free Quotes," I consent to be contacted by home service professionals at the phone number and/or email address I provided, including via automated calls, texts, and prerecorded messages, even if my number is on a Do Not Call list. I understand this consent is not a condition of purchase. I also agree to The Basement Guide's{' '}
         <a href="/terms" className="underline">Terms of Service</a> and{' '}
         <a href="/privacy" className="underline">Privacy Policy</a>.
       </p>
