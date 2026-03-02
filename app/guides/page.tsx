@@ -55,7 +55,7 @@ const sections = [
     id: 'comparisons',
     title: 'Comparisons',
     description: "Side-by-side breakdowns to help you choose the right approach.",
-    slugs: ['basement-vs-crawl-space-vs-slab', 'battery-vs-water-powered-sump-pumps', 'drylok-vs-radonseal', 'french-drain-vs-sump-pump', 'submersible-vs-pedestal-sump-pump', 'interior-vs-exterior-waterproofing', 'epoxy-vs-polyurethane-floor-coating'],
+    slugs: ['basement-vs-crawl-space-vs-slab', 'battery-vs-water-powered-sump-pumps', 'drylok-vs-radonseal', 'french-drain-vs-sump-pump', 'submersible-vs-pedestal-sump-pump', 'interior-vs-exterior-waterproofing', 'epoxy-vs-polyurethane-floor-coating', 'diy-vs-hiring-pro-basement-projects'],
     featured: [],
   },
 ]
