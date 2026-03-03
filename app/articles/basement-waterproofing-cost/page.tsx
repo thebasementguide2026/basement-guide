@@ -11,6 +11,24 @@ export const metadata: Metadata = {
 export default function BasementWaterproofingCostPage() {
   return (
     <div className='bg-white min-h-screen'>
+            <script
+        type='application/ld+json'
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify([
+            {
+              '@context': 'https://schema.org',
+              '@type': 'Article',
+              headline: 'Basement Waterproofing Cost 2026: Average Interior & Exterior Pricing',
+              description: 'How much does basement waterproofing cost in 2026? National average $5,230. Interior systems $3,000-$8,000, exterior $8,000-$15,000. Full cost breakdown by method.',
+              datePublished: '2025-02-01',
+              dateModified: '2026-03-02',
+              author: { '@type': 'Organization', name: 'The Basement Guide' },
+              publisher: { '@type': 'Organization', name: 'The Basement Guide' },
+              image: '/foundation-waterproofing-construction.jpg.png',
+            },
+          ]),
+        }}
+      />
       {/* Article Hero */}
       <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
         <Image
