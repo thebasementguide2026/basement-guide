@@ -32,6 +32,7 @@ export const TASK_ID_MAP: Record<string, number[]> = {
   'why-basement-floods-with-sump-pump': [...DEFAULT_TASK_IDS, 229, 573, 130, 254, 287],
   'best-sump-pumps-2026': [...DEFAULT_TASK_IDS, 229, 573, 130],
   'submersible-vs-pedestal-sump-pump': [...DEFAULT_TASK_IDS, 229, 573, 130],
+  'backup-power-sump-pumps': [...DEFAULT_TASK_IDS, 229, 573, 130],
 
   // French drain articles
   'french-drain-cost': [...DEFAULT_TASK_IDS, 573, 229, 130, 254],
