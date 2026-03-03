@@ -432,6 +432,14 @@ export const articles: Article[] = [
     readTime: '25 min read',
     image: '/images/spraysrigidinsulationhero.jpg',
   },
+  {
+    title: 'Best Backup Power for Sump Pumps 2026: Generators & Battery Stations',
+    description: 'Compare generators, portable power stations, and battery backups for sump pumps. Honest recommendations with pricing from $200 to $10,000.',
+    slug: 'backup-power-sump-pumps',
+    category: 'Buying Guide',
+    readTime: '18 min read',
+    image: '/images/backup-power-sump-pumps/hero.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
