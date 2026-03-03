@@ -70,7 +70,7 @@ export const articles: Article[] = [
     slug: 'basement-finishing-cost',
     category: 'Cost Guide',
     readTime: '18 min read',
-    image: '/finishing%20a%20basement%20guide.jpg',
+    image: '/images/finishingbasementhero.jpg',
   },
   {
     title: 'Egress Window Installation Cost 2026',
@@ -182,7 +182,7 @@ export const articles: Article[] = [
     slug: 'how-to-finish-a-basement',
     category: 'Finishing',
     readTime: '35 min read',
-    image: '/finishing%20a%20basement%20guide.jpg',
+    image: '/images/finishingbasementhero.jpg',
   },
   {
     title: 'Dehumidifier Myths: Why Your 30-Pint Unit Is Failing',
