@@ -254,14 +254,6 @@ export const articleSchemas: Record<string, ArticleSchemaData> = {
     ],
   },
 
-  // --- CRYSTALLINE WATERPROOFING ---
-  'crystalline-waterproofing': {
-    faq: [
-      { q: 'What is crystalline waterproofing?', a: 'Crystalline waterproofing uses reactive chemicals that penetrate concrete and form crystals when exposed to water, permanently sealing pores and micro-cracks.' },
-      { q: 'Does crystalline waterproofing really heal cracks?', a: 'Yes, crystalline technology can self-heal hairline cracks up to 0.4mm wide when water reactivates the crystalline chemicals in the concrete.' },
-    ],
-  },
-
   // --- FOUNDATION CRACK REPAIR COST ---
   'foundation-crack-repair-cost': {
     faq: [
