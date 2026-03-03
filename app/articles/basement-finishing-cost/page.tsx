@@ -14,7 +14,7 @@ export default function BasementFinishingCost() {
       {/* Article Hero */}
       <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
         <Image
-          src='/finishingbasementhero.jpg'
+          src='/images/finishingbasementhero.jpg'
           alt='Basement finishing construction and costs'
           fill
           className='object-cover opacity-45 scale-105 transition-transform duration-700 hover:scale-100'
