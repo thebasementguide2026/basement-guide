@@ -287,11 +287,27 @@ export const articleSchemas: Record<string, ArticleSchemaData> = {
   },
 
   // --- MOLD REMEDIATION COST ---
-  'mold-remediation-cost': {
+    'mold-remediation-cost': {
     faq: [
-      { q: 'How much does mold remediation cost in 2026?', a: 'Professional mold removal costs $500-$10,000+ depending on the area size. Small areas under 10 sq ft cost $500-$1,500. Large jobs exceed $5,000.' },
-      { q: 'Can I remove basement mold myself?', a: 'Small areas under 10 square feet can be DIY with proper PPE. Larger areas or toxic black mold require professional remediation.' },
+      { q: 'Is mold remediation worth the cost?', a: 'Yes. A small problem caught early costs $500 to $1,500. Left for six months, it can grow into a $5,000 to $10,000 project once it spreads behind walls and damages structural materials.' },
+      { q: 'How long does mold remediation take?', a: 'Most basement jobs take 1 to 5 days. A small, contained area might be done in a single day. Larger projects involving demolition, structural drying, and reconstruction can take 1 to 2 weeks.' },
+      { q: 'Can mold come back after remediation?', a: 'Yes, if the moisture source is not fixed. Mold spores are everywhere. Professional remediation removes the existing colony, but if the basement is still damp, new mold will colonize the same area.' },
+      { q: 'What is the difference between mold removal and mold remediation?', a: 'Mold removal means getting rid of all mold, which is impossible. Mold remediation means returning mold levels to normal, safe levels by removing the colony, cleaning surfaces, and addressing the moisture source.' },
+      { q: 'Should I leave my home during mold remediation?', a: 'For large jobs with significant demolition and HEPA filtration, yes. For small, well-contained jobs, leaving is not necessary but staying out of the work area is.' },
+      { q: 'Does homeowners insurance cover mold remediation?', a: 'Only when mold was caused by a covered peril like a burst pipe. Gradual moisture-related mold is almost never covered. Many policies cap mold coverage at $5,000 to $10,000.' },
     ],
+    howTo: {
+      name: 'Professional Mold Remediation Process',
+      description: 'Step-by-step overview of what professional mold remediation involves.',
+      steps: [
+        { name: 'Inspection and testing', text: 'Assess visible mold, check moisture levels, and take air or surface samples.' },
+        { name: 'Containment', text: 'Seal the work area with plastic sheeting and negative air pressure to prevent spore spread.' },
+        { name: 'Removal', text: 'Cut out contaminated porous materials, scrub non-porous surfaces, and apply antimicrobial solutions.' },
+        { name: 'Drying and dehumidification', text: 'Thoroughly dry the space with commercial dehumidifiers and air movers.' },
+        { name: 'Post-remediation testing', text: 'Independent tester confirms mold spore levels have returned to normal.' },
+        { name: 'Reconstruction', text: 'Replace removed drywall, insulation, and other materials.' },
+      ],
+    },
   },
 
   // --- BASEMENT WATERPROOFING COST ---
