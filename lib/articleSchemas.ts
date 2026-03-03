@@ -563,4 +563,25 @@ export const articleSchemas: Record<string, ArticleSchemaData> = {
       { q: 'Is crystalline waterproofing environmentally friendly?', a: 'Yes. Crystalline products are non-toxic, contain no VOCs, and do not leach harmful chemicals into soil or groundwater. The concrete can be fully recycled at end of life without separating any membrane or coating. Several crystalline products contribute to LEED and green building certifications.' },
     ],
   },
+
+  // ----- BACKUP POWER FOR SUMP PUMPS -----
+  'backup-power-sump-pumps': {
+    faq: [
+      { q: 'Will a 2,000-watt generator run a sump pump?', a: 'Yes, a 2,000W generator will run most 1/3 HP sump pumps comfortably. For a 1/2 HP pump, check the specific surge wattage on your pump label. Some 1/2 HP pumps surge above 3,000W, which would require a larger generator.' },
+      { q: 'Can I use a portable power station indoors for my sump pump?', a: 'Yes. Power stations produce zero emissions and are safe to operate in your basement right next to the sump pit. Just keep them elevated and dry.' },
+      { q: 'How long will a portable power station run my sump pump?', a: 'A 2,000Wh station running an 800W pump that cycles on for 30 seconds every 5 minutes would last roughly 10-15 hours. During heavy rain with frequent cycling, expect 4-8 hours from a 2,000Wh unit.' },
+      { q: 'Should I get a battery backup pump instead of a generator?', a: 'If your only goal is keeping the sump pump running, a dedicated battery backup is the simplest solution. But it only protects the pump, and runtime is limited to 5-12 hours. A generator or power station gives more flexibility.' },
+      { q: 'What happens if my sump pump fails during a power outage?', a: 'Water accumulates in the pit, overflows, and floods your basement. Cleanup, drying, mold remediation, and repairs commonly run $5,000-$25,000. The cost of any backup is a fraction of one flood event.' },
+      { q: 'How much does it cost to install a sump pump with backup power?', a: 'A new sump pump installation runs $600-$2,500. Add $600-$2,000 for a battery backup system, or $400-$2,000 for a portable generator or power station. Total: $1,200-$4,500.' },
+    ],
+    products: [
+      { name: 'Honda EU2200i', description: 'Best overall portable inverter generator. 2,200W surge, 1,800W running, ultra-quiet 48-57 dBA.', url: 'https://amzn.to/4bhUZxD' },
+      { name: 'Champion 2500W Dual Fuel Inverter', description: 'Best value generator. Runs on gas or propane, 2,500W surge, 53 dBA.', url: 'https://amzn.to/4l9B2ML' },
+      { name: 'WEN 56203i 2000W', description: 'Budget pick generator. 2,000W surge, 51 dBA, one of the quietest in class.', url: 'https://amzn.to/4reQCYZ' },
+      { name: 'EcoFlow DELTA 2 Max', description: 'Best power station for most homeowners. 4,800W surge, 2,048Wh, UPS mode with 20ms switchover.', url: 'https://amzn.to/47lZK6O' },
+      { name: 'Jackery Explorer 1000 Plus', description: 'Best budget power station. 4,000W surge, 1,264Wh, LFP battery with 4,000 cycle rating.', url: 'https://amzn.to/4ucPWpU' },
+      { name: 'EcoFlow DELTA Pro 3', description: 'Best premium whole-basement protection. 8,000W surge, 4,096Wh expandable to 12,288Wh.', url: 'https://amzn.to/3OXfuH8' },
+      { name: 'Pump Partner Sump Pump Backup', description: 'Purpose-built sump pump backup. 2,500W, 2,048Wh LFP, fully automatic.', url: 'https://amzn.to/3N0rZRC' },
+    ],
+  },
 };
