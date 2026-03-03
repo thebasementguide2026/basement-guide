@@ -342,7 +342,7 @@ export default function CompleteBasementWaterproofingGuide() {
 
         <div className="bg-teal-50 border border-teal-200 rounded-xl p-6">
           <h4 className="font-bold text-lg mb-3">Get Multiple Quotes</h4>
-          <p className="leading-relaxed">Always get at least three quotes. This is not just about finding the cheapest price &mdash; it is about finding the contractor whose diagnosis and proposed solution make the most sense. See our <Link href="/articles/how-to-hire-waterproofing-contractor" className="text-teal-700 underline">guide to hiring a waterproofing contractor</Link> for more tips.</p>
+          <p className="leading-relaxed">Always get at least three quotes. This is not just about finding the cheapest price &mdash; it is about finding the contractor whose diagnosis and proposed solution make the most sense. See our <Link href="/articles/how-to-hire-basement-waterproofing-contractor" className="text-teal-700 underline">guide to hiring a waterproofing contractor</Link> for more tips.</p>
         </div>
       </section>
 
@@ -472,7 +472,7 @@ export default function CompleteBasementWaterproofingGuide() {
             <h3 className="font-bold mb-1">Types of Foundation Cracks</h3>
             <p className="text-sm text-gray-600">Diagnose whether your crack is cosmetic or a structural red flag.</p>
           </Link>
-          <Link href="/articles/how-to-hire-waterproofing-contractor" className="block bg-gray-50 rounded-xl p-5 border border-gray-200 hover:border-teal-400 transition">
+          <Link href="/articles/how-to-hire-basement-waterproofing-contractor" className="block bg-gray-50 rounded-xl p-5 border border-gray-200 hover:border-teal-400 transition">
             <h3 className="font-bold mb-1">How to Hire a Waterproofing Contractor</h3>
             <p className="text-sm text-gray-600">Red flags, questions to ask, and tips for finding the right professional.</p>
           </Link>
@@ -480,7 +480,7 @@ export default function CompleteBasementWaterproofingGuide() {
             <h3 className="font-bold mb-1">Mold Remediation Cost Guide</h3>
             <p className="text-sm text-gray-600">What to expect for professional mold removal pricing in 2026.</p>
           </Link>
-          <Link href="/articles/homebuyer-basement-inspection" className="block bg-gray-50 rounded-xl p-5 border border-gray-200 hover:border-teal-400 transition">
+          <Link href="/articles/homebuyers-basement-inspection-checklist" className="block bg-gray-50 rounded-xl p-5 border border-gray-200 hover:border-teal-400 transition">
             <h3 className="font-bold mb-1">Homebuyer Basement Inspection Checklist</h3>
             <p className="text-sm text-gray-600">Spot hidden water damage, mold, and foundation issues before you buy.</p>
           </Link>
