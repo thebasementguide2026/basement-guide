@@ -155,10 +155,10 @@ export default function BasementWaterproofingCostPage() {
               <p className='text-2xl font-bold text-indigo-600 mb-4'>$3,000 &ndash; $8,000</p>
               <p className='text-slate-700 leading-relaxed mb-4'>Interior waterproofing doesn&rsquo;t stop water from reaching your foundation &mdash; it manages water after it gets inside. A contractor cuts a narrow channel along the perimeter of your basement floor, installs a perforated drain pipe in gravel, and routes everything to a sump pump that pushes the water outside.</p>
               <ul className='space-y-4 text-slate-700'>
-                <li className='flex items-start'><span className='text-green-600 mr-2 mt-1'>&#10003;</span>Less invasive &mdash; no digging up your yard</li>
-                <li className='flex items-start'><span className='text-green-600 mr-2 mt-1'>&#10003;</span>Installs in 1 &ndash; 5 days</li>
-                <li className='flex items-start'><span className='text-green-600 mr-2 mt-1'>&#10003;</span>Handles the vast majority of basement water problems</li>
-                <li className='flex items-start'><span className='text-green-600 mr-2 mt-1'>&#10003;</span>Best for seepage along floor-wall joint, general dampness, or moderate hydrostatic pressure</li>
+                <li className='pl-6 relative'><span className='absolute left-0 top-0 text-green-600'>&#10003;</span>Less invasive &mdash; no digging up your yard</li>
+                <li className='pl-6 relative'><span className='absolute left-0 top-0 text-green-600'>&#10003;</span>Installs in 1 &ndash; 5 days</li>
+                <li className='pl-6 relative'><span className='absolute left-0 top-0 text-green-600'>&#10003;</span>Handles the vast majority of basement water problems</li>
+                <li className='pl-6 relative'><span className='absolute left-0 top-0 text-green-600'>&#10003;</span>Best for seepage along floor-wall joint, general dampness, or moderate hydrostatic pressure</li>
               </ul>
             </div>
             <div className='bg-purple-50 border border-purple-200 rounded-2xl p-8'>
@@ -166,10 +166,10 @@ export default function BasementWaterproofingCostPage() {
               <p className='text-2xl font-bold text-purple-600 mb-4'>$8,000 &ndash; $15,000</p>
               <p className='text-slate-700 leading-relaxed mb-4'>Exterior waterproofing stops water before it ever touches your foundation. A crew excavates down to the footing, applies a waterproof membrane, installs drain tile at the footing level, and backfills everything.</p>
               <ul className='space-y-4 text-slate-700'>
-                <li className='flex items-start'><span className='text-green-600 mr-2 mt-1'>&#10003;</span>Most permanent and thorough solution</li>
-                <li className='flex items-start'><span className='text-green-600 mr-2 mt-1'>&#10003;</span>Costs 2&ndash;3x more, takes 1&ndash;2 weeks</li>
-                <li className='flex items-start'><span className='text-green-600 mr-2 mt-1'>&#10003;</span>Tears up landscaping; may require moving decks or walkways</li>
-                <li className='flex items-start'><span className='text-green-600 mr-2 mt-1'>&#10003;</span>Best for severe water problems or exterior drainage failures</li>
+                <li className='pl-6 relative'><span className='absolute left-0 top-0 text-green-600'>&#10003;</span>Most permanent and thorough solution</li>
+                <li className='pl-6 relative'><span className='absolute left-0 top-0 text-green-600'>&#10003;</span>Costs 2&ndash;3x more, takes 1&ndash;2 weeks</li>
+                <li className='pl-6 relative'><span className='absolute left-0 top-0 text-green-600'>&#10003;</span>Tears up landscaping; may require moving decks or walkways</li>
+                <li className='pl-6 relative'><span className='absolute left-0 top-0 text-green-600'>&#10003;</span>Best for severe water problems or exterior drainage failures</li>
               </ul>
             </div>
           </div>
