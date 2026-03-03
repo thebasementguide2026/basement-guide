@@ -45,7 +45,7 @@ export const articles: Article[] = [
     description: 'Everything you need to know about stopping basement leaks for good. From hydrostatic pressure to sump pumps, this comprehensive guide covers all aspects of basement waterproofing.',
     slug: 'complete-basement-waterproofing-guide',
     category: 'Waterproofing',
-    readTime: '15 min read',
+    readTime: '35 min read',
     image: '/exterior-waterproofing-membrane.jpg.png',
   },
   {
