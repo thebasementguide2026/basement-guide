@@ -561,4 +561,14 @@ export const articleSchemas: Record<string, ArticleSchemaData> = {
     ],
   },
 
+  // ---- CRYSTALLINE WATERPROOFING ----
+  'crystalline-waterproofing': {
+    faq: [
+      { q: 'How long does crystalline waterproofing last?', a: 'For the life of the concrete. The crystals become a permanent, insoluble part of the concrete matrix and do not break down, peel, or degrade. The active chemicals reactivate when exposed to new moisture, so the system continues working for decades with no reapplication or maintenance needed.' },
+      { q: 'Can I apply crystalline waterproofing myself?', a: 'Yes, for topical slurry applications on existing walls. The process involves prepping the surface, dampening the concrete, mixing the powder with water, and brushing or spraying it on in two coats. Major manufacturers like Xypex and Kryton sell products suitable for residential use.' },
+      { q: 'Does crystalline waterproofing work from the inside (negative side)?', a: 'Yes. Because the chemicals travel through the concrete via diffusion, a topical application on the interior basement wall will migrate outward toward the water source. This means you can waterproof from inside the basement without excavating the exterior.' },
+      { q: 'Will crystalline waterproofing stop a leaking basement?', a: 'It can significantly reduce or stop water transmission through the concrete walls themselves. However, it will not fix water coming through cracks wider than 0.5mm, construction joints, floor-wall junctions, or pipe penetrations. For a leaking basement, combine crystalline treatment with targeted repairs and potentially a drainage system.' },
+      { q: 'Is crystalline waterproofing environmentally friendly?', a: 'Yes. Crystalline products are non-toxic, contain no VOCs, and do not leach harmful chemicals into soil or groundwater. The concrete can be fully recycled at end of life without separating any membrane or coating. Several crystalline products contribute to LEED and green building certifications.' },
+    ],
+  },
 };
