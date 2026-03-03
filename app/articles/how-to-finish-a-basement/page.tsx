@@ -331,7 +331,7 @@ export default function HowToFinishBasement() {
         <p className="text-lg leading-relaxed mb-6">Standard drywall is a liability in a basement. We treat these walls like a high-performance envelope.</p>
 
         <h3 className="text-2xl font-bold mb-4">Glass-Mat (Paperless) Drywall</h3>
-        <p className="text-lg leading-relaxed mb-4">In 2026, the industry standard for basements is paperless drywall. By removing the paper — the mold&apos;s food source — you create a wall that can survive high-humidity summers without growing black mold.</p>
+        <p className="text-lg leading-relaxed mb-4">In 2026, the industry standard for basements is paperless drywall. By removing the paper — the mold&apos;s food source — you create a wall that can survive high-humidity summers without growing black mold. The <a href="https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home" target="_blank" rel="noopener noreferrer" className="text-teal-700 underline">EPA&apos;s guide to mold and moisture</a> is an excellent resource for understanding how moisture leads to mold in residential spaces.</p>
         <p className="text-lg leading-relaxed mb-6"><strong>The Half-Inch Gap:</strong> Leave a 1/2 inch gap between the bottom of the drywall and the concrete floor. This prevents the board from wicking up any minor moisture spills.</p>
 
         <h3 className="text-2xl font-bold mb-4">Mudding and Taping in the Damp Zone</h3>
