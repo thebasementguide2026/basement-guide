@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import LeadForm from '@/components/LeadForm';
 import type { Metadata } from 'next';
 
@@ -29,6 +30,18 @@ export default function MoldRemediationCost() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-12">
+
+                {/* Article Image */}
+        <div className="mb-10 rounded-2xl overflow-hidden">
+          <Image
+            src="/images/moldremediation.jpg"
+            alt="Professional mold remediation in a basement showing containment and removal process"
+            width={1200}
+            height={675}
+            className="w-full h-auto"
+            priority
+          />
+        </div>
 
         {/* How Much Does Mold Remediation Cost? */}
         <section className="mb-12">
