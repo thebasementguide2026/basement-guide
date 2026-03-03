@@ -424,6 +424,14 @@ export const articles: Article[] = [
     readTime: '15 min read',
     image: '/images/DIYvsPro.jpg',
   },
+    {
+    title: 'Spray Foam vs Rigid Foam Insulation: Which Is Better for Your Basement?',
+    description: 'Complete 2026 comparison of spray foam vs rigid foam board insulation for basements. R-values, moisture performance, costs, DIY vs pro installation, and when to use each.',
+    slug: 'spray-foam-vs-rigid-foam-insulation',
+    category: 'Comparison',
+    readTime: '25 min read',
+    image: '/images/spraysrigidinsulationhero.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
