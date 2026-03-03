@@ -117,8 +117,8 @@ export const articles: Article[] = [
     description: 'Discover how crystalline waterproofing creates self-healing concrete foundations. The invisible armor revolutionizing basement protection.',
     slug: 'crystalline-waterproofing',
     category: 'Technology',
-    readTime: '8 min read',
-    image: '/bitumen-waterproofing-membrane.png',
+    readTime: '12 min read',
+    image: '/images/Crystalline-Waterproofing-Systems.jpg',
   },
   {
     title: 'Foundation Crack Repair Cost 2026',
