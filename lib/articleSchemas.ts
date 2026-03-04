@@ -618,4 +618,33 @@ export const articleSchemas: Record<string, ArticleSchemaData> = {
       { name: 'Rubber Boots', description: 'Waterproof rubber boots for safe entry into flooded basements.', url: 'https://amzn.to/3OKzjBz' },
     ],
   },
+
+    // ----- WATER COMING UP THROUGH BASEMENT FLOOR -----
+  'water-coming-up-through-basement-floor': {
+    faq: [
+      { q: 'Is water coming up through the basement floor dangerous?', a: 'The water itself usually is not dangerous if it is groundwater. The bigger risks are mold growth within 24 to 48 hours, damage to stored belongings, and long-term structural concerns if pressure causes floor heaving or wall movement. Sewage backup is a health hazard requiring immediate professional attention.' },
+      { q: 'Can I just seal my basement floor to stop the water?', a: 'Sealing the floor surface addresses the symptom, not the cause. Waterproof coatings can reduce vapor transmission, but they will not hold against active hydrostatic pressure. The pressure wins eventually. Effective treatment means managing water below the slab with a drainage system.' },
+      { q: 'Why does my basement floor only get wet in one spot?', a: 'A single wet spot unrelated to weather is most likely a plumbing leak under the slab. If it appears only during rain, it could be a localized crack aligning with a high-pressure point below, or water running down a wall and pooling at a low point.' },
+      { q: 'Will a dehumidifier fix water coming through the floor?', a: 'No. A dehumidifier removes moisture from the air but cannot stop liquid water from entering through the slab. It is useful as a supporting tool after you have addressed water entry, but it is not a substitute for drainage.' },
+      { q: 'How much does it cost to fix water coming up through the floor?', a: 'Gutter improvements and regrading cost a few hundred dollars. A sump pump runs $800 to $3,000. A full interior drainage system costs $3,000 to $10,000. Exterior waterproofing can exceed $25,000. Start with the cheapest solutions first.' },
+      { q: 'Should I waterproof my basement floor before finishing it?', a: 'Absolutely. Finishing without addressing water issues is one of the most expensive mistakes homeowners make. Any moisture through the slab gets trapped behind finishes, creating hidden mold. At minimum, do the plastic sheet test before framing.' },
+    ],
+    howTo: {
+      name: 'How to Fix Water Coming Up Through a Basement Floor',
+      description: 'Step-by-step guide to diagnosing and fixing water that pushes up through your basement floor slab.',
+      steps: [
+        { name: 'Diagnose the source', text: 'Determine if the water is from groundwater, a plumbing leak, or a sewer backup using the water supply shutoff test.' },
+        { name: 'Fix surface drainage', text: 'Clean gutters, extend downspouts at least 6 feet from the foundation, and regrade soil to slope away from the house.' },
+        { name: 'Seal floor cracks', text: 'Inject polyurethane foam into floor cracks to slow seepage. This addresses the entry point but not the underlying pressure.' },
+        { name: 'Install a sump pump', text: 'If you do not have one, install a sump pump system to collect and discharge water that enters the basement.' },
+        { name: 'Install interior drainage', text: 'For persistent hydrostatic pressure, install a perimeter drain system that intercepts water before it reaches the floor surface.' },
+      ],
+    },
+    products: [
+      { name: 'NDI Pin Moisture Tester', description: 'Pin-type moisture meter for diagnosing whether your slab, walls, or framing are actually wet.', url: 'https://amzn.to/4cZU9XA' },
+      { name: 'Polyurethane Crack Injection Kit', description: 'Flexible foam that expands to fill floor cracks. Ideal for hairline cracks that seep occasionally.', url: 'https://amzn.to/4aZX6Vr' },
+      { name: 'Zoeller M53 Sump Pump', description: '1/3 HP, 2,580 GPH submersible sump pump. The most recommended pump by contractors nationwide.', url: 'https://amzn.to/4rJUKkQ' },
+      { name: 'YoLink Water Leak Sensor 4', description: 'LoRa-based water leak sensor that alerts your phone when water is detected along the cove joint or sump pit.', url: 'https://amzn.to/4tZpI9Z' },
+    ],
+  },
 };
