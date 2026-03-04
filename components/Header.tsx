@@ -17,6 +17,8 @@ const navItems = [
       { label: 'Structural Issues', href: '/guides#structural' },
       { label: 'Real Estate & Insurance', href: '/guides#real-estate' },
       { label: 'Seasonal Maintenance', href: '/articles/spring-basement-checklist' },
+      { label: 'Insulation', href: '/articles/basement-insulation-guide' },
+      { label: 'Hiring a Contractor', href: '/articles/how-to-hire-basement-waterproofing-contractor' },
     ],
   },
   {
@@ -35,7 +37,7 @@ const navItems = [
       { label: 'Vapor Barriers', href: '/articles/best-vapor-barriers' },
       { label: 'Leak Detectors', href: '/articles/best-water-leak-detectors' },
       { label: 'Air Purifiers', href: '/articles/best-basement-air-purifiers' },
-                { label: 'Backup Power', href: '/articles/backup-power-sump-pumps' },
+      { label: 'Backup Power', href: '/articles/backup-power-sump-pumps' },
     ],
   },
   {
@@ -49,12 +51,22 @@ const navItems = [
       { label: 'Bowing Walls', href: '/articles/bowing-basement-walls' },
       { label: 'Efflorescence', href: '/articles/basement-efflorescence' },
       { label: 'Humidity Issues', href: '/articles/basement-humidity-guide' },
+      { label: 'Why Basement Still Floods', href: '/articles/why-basement-floods-with-sump-pump' },
     ],
   },
   {
     label: 'Comparisons',
     href: '/guides#comparisons',
-    dropdown: null,
+    dropdown: [
+      { label: 'French Drain vs Sump Pump', href: '/articles/french-drain-vs-sump-pump' },
+      { label: 'Drylok vs RadonSeal', href: '/articles/drylok-vs-radonseal' },
+      { label: 'Battery vs Water Backup', href: '/articles/battery-vs-water-powered-sump-pumps' },
+      { label: 'Submersible vs Pedestal', href: '/articles/submersible-vs-pedestal-sump-pump' },
+      { label: 'Interior vs Exterior', href: '/articles/interior-vs-exterior-waterproofing' },
+      { label: 'Basement vs Crawl Space', href: '/articles/basement-vs-crawl-space-vs-slab' },
+      { label: 'Drop Ceiling vs Drywall', href: '/articles/drop-ceiling-vs-drywall' },
+      { label: 'Epoxy vs Polyurethane', href: '/articles/epoxy-vs-polyurethane-floor-coating' },
+    ],
   },
   {
     label: 'About',
@@ -83,15 +95,15 @@ export default function Header() {
     <header className="bg-white sticky top-0 z-50 border-b border-gray-200 shadow-sm">
       {/* Top bar */}
       <div className="container-custom">
-                  <div className="flex items-center justify-between h-24">
+        <div className="flex items-center justify-between h-24">
           {/* Logo */}
           <Link href="/" className="flex-shrink-0">
             <Image
               src="/TheBasement%20Guide%20Logo.png"
               alt="The Basement Guide"
               width={320}
-            height={80}
-                          className="h-20 w-auto"
+              height={80}
+              className="h-20 w-auto"
               priority
             />
           </Link>
@@ -125,6 +137,7 @@ export default function Header() {
                     {item.label}
                   </Link>
                 )}
+
                 {item.dropdown && activeDropdown === item.label && (
                   <div className="absolute left-0 top-full mt-1 w-56 bg-white rounded-lg shadow-lg border border-gray-100 py-1 z-50">
                     {item.dropdown.map((sub) => (
@@ -155,12 +168,14 @@ export default function Header() {
               </svg>
               <span className="hidden md:inline text-sm font-medium">Search</span>
             </button>
+
             <Link
               href="/#get-quotes"
               className="hidden md:inline-flex items-center bg-brand-teal hover:bg-brand-navy text-white px-4 py-2 rounded-lg text-sm font-semibold transition-colors"
             >
               Get Free Quotes
             </Link>
+
             {/* Mobile hamburger */}
             <button
               className="md:hidden p-2 text-gray-600 hover:text-brand-teal"
