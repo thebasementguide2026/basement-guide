@@ -438,7 +438,7 @@ export const articles: Article[] = [
     slug: 'backup-power-sump-pumps',
     category: 'Buying Guide',
     readTime: '18 min read',
-    image: '/images/backup-power-sump-pumps/hero.jpg',
+    image: '/images/generators.jpg',
   },
 ]
 
