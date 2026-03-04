@@ -71,6 +71,7 @@ const footerSections = [
       { label: 'Why Basement Still Floods', href: '/articles/why-basement-floods-with-sump-pump' },
       { label: 'Dehumidifier Myths', href: '/articles/dehumidifier-myths' },
             { label: 'Drying Out After Flooding', href: '/articles/how-to-dry-out-basement-after-flooding' },
+            { label: 'Floor Water Leaks', href: '/articles/water-coming-up-through-basement-floor' },
     ],
   },
   {
