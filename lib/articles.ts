@@ -169,11 +169,11 @@ export const articles: Article[] = [
     image: '/sump-pump-installation.jpg',
   },
   {
-    title: 'Why Your Basement Floods Even With a Sump Pump',
-    description: 'Having a sump pump does not guarantee a dry basement. Here are the most common reasons it is still failing you and what to do about each one.',
+    title: 'Why Your Basement Floods Even With a Sump Pump (And How to Fix It)',
+    description: 'Having a sump pump does not guarantee a dry basement. Here are the most common reasons how to diagnose each one, and what to do about it. From power outages to drainage failures.',
     slug: 'why-basement-floods-with-sump-pump',
     category: 'Troubleshooting',
-    readTime: '10 min read',
+    readTime: '18 min read',
     image: '/basement-flooding.jpg',
   },
   {
