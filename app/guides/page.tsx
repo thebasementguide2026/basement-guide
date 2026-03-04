@@ -13,7 +13,7 @@ const sections = [
     id: 'waterproofing',
     title: 'Waterproofing',
     description: 'Everything you need to keep your basement dry — from diagnosing leaks to full exterior systems.',
-    slugs: ['complete-basement-waterproofing-guide', 'interior-vs-exterior-waterproofing', 'crystalline-waterproofing', 'crawl-space-encapsulation-guide', 'waterproof-basement-paint-sealers'],
+    slugs: ['complete-basement-waterproofing-guide', 'interior-vs-exterior-waterproofing', 'crystalline-waterproofing', 'crawl-space-encapsulation-guide', 'waterproof-basement-paint-sealers', 'water-coming-up-through-basement-floor'],
     featured: ['complete-basement-waterproofing-guide'],
   },
   {
