@@ -448,6 +448,14 @@ export const articles: Article[] = [
     readTime: '20 min read',
     image: '/images/cleanupbasement.jpg',
   },
+    {
+    title: 'Water Coming Up Through Basement Floor: Causes, Fixes & Costs',
+    description: 'Water pushing up through your basement floor? Learn the 5 common causes, DIY diagnostic tests, and fix costs from $50 to $25,000.',
+    slug: 'water-coming-up-through-basement-floor',
+    category: 'Problems',
+    readTime: '22 min read',
+    image: '/images/floorleaking.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
