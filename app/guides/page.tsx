@@ -48,7 +48,7 @@ const sections = [
     id: 'real-estate',
     title: 'Real Estate & Insurance',
     description: 'Buying, selling, and insuring homes with basement considerations.',
-    slugs: ['homebuyers-basement-inspection-checklist', 'waterproofing-home-appraisal-value', 'basement-flooding-insurance'],
+    slugs: ['homebuyers-basement-inspection-checklist', 'waterproofing-home-appraisal-value', 'basement-flooding-insurance', 'basement-waterproofing-finances-insurance-taxes'],
     featured: ['homebuyers-basement-inspection-checklist'],
   },
   {
