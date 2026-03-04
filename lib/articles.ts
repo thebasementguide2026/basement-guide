@@ -456,6 +456,14 @@ export const articles: Article[] = [
     readTime: '22 min read',
     image: '/images/floorleaking.jpg',
   },
+    {
+    title: 'Basement Waterproofing & Your Finances: Insurance, Taxes, and Home Value (2026)',
+    description: 'How basement waterproofing affects your homeowners insurance, tax deductions, and property value. Covers NFIP flood insurance, water backup riders, tax strategies for rental properties, and ROI data.',
+    slug: 'basement-waterproofing-finances-insurance-taxes',
+    category: 'Insurance',
+    readTime: '22 min read',
+    image: '/images/floodinsurance.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
