@@ -52,6 +52,7 @@ const navItems = [
       { label: 'Efflorescence', href: '/articles/basement-efflorescence' },
       { label: 'Humidity Issues', href: '/articles/basement-humidity-guide' },
       { label: 'Why Basement Still Floods', href: '/articles/why-basement-floods-with-sump-pump' },
+              { label: 'Drying Out After Flooding', href: '/articles/how-to-dry-out-basement-after-flooding' },
     ],
   },
   {
