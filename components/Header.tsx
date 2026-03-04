@@ -53,6 +53,7 @@ const navItems = [
       { label: 'Humidity Issues', href: '/articles/basement-humidity-guide' },
       { label: 'Why Basement Still Floods', href: '/articles/why-basement-floods-with-sump-pump' },
               { label: 'Drying Out After Flooding', href: '/articles/how-to-dry-out-basement-after-flooding' },
+            { label: 'Floor Water Leaks', href: '/articles/water-coming-up-through-basement-floor' },
     ],
   },
   {
