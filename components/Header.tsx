@@ -35,6 +35,7 @@ const navItems = [
       { label: 'Vapor Barriers', href: '/articles/best-vapor-barriers' },
       { label: 'Leak Detectors', href: '/articles/best-water-leak-detectors' },
       { label: 'Air Purifiers', href: '/articles/best-basement-air-purifiers' },
+                { label: 'Backup Power', href: '/articles/backup-power-sump-pumps' },
     ],
   },
   {
