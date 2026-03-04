@@ -25,7 +25,7 @@ export default function BackupPowerSumpPumps() {
         <div className='relative h-full max-w-7xl mx-auto px-6 flex flex-col justify-end pb-20'>
           <div className='flex items-center space-x-3 mb-8'>
             <div className='w-12 h-px bg-cyan-500'></div>
-            <span className='text-cyan-400 font-bold tracking-[0.3em] text-sm uppercase'>Buying Guide</span>
+            <span className='text-cyan-400 font-bold tracking-[0.3em] text-sm uppercase'>Reviews</span>
           </div>
           <h1 className='text-5xl md:text-7xl font-black text-white mb-6 leading-[0.9] tracking-tighter'>
             Best Backup Power <br />
@@ -90,7 +90,7 @@ export default function BackupPowerSumpPumps() {
           Most homes have a 1/3 HP or 1/2 HP pump. A generator rated at 2,000 watts continuous with a 3,000-watt surge capacity covers both comfortably and leaves room to plug in a light or charge your phone.
         </p>
         <p className='text-lg text-slate-700 leading-relaxed mb-8'>
-          Not sure what pump you have? Check the label on the motor housing&mdash;it will list the horsepower, voltage, and amperage. Our <Link href='/articles/sump-pump-buying-guide' className='text-teal-600 hover:underline'>sump pump buying guide</Link> explains how to read these specs.
+          Not sure what pump you have? Check the label on the motor housing&mdash;it will list the horsepower, voltage, and amperage. Our <Link href='/articles/sump-pump-buying-guide' className='text-teal-600 hover:underline'>sump pump Reviews</Link> explains how to read these specs.
         </p>
 
         {/* Backup Options Compared */}
@@ -392,7 +392,7 @@ export default function BackupPowerSumpPumps() {
         <h2 className='text-3xl font-bold text-slate-900 mt-12 mb-6'>Related Guides</h2>
         <div className='grid md:grid-cols-2 gap-4 mb-8'>
           <Link href='/articles/sump-pump-buying-guide' className='bg-white border border-slate-200 rounded-lg p-6 hover:border-cyan-300 transition-colors'>
-            <h3 className='text-lg font-bold text-slate-900 mb-3'>Sump Pump Buying Guide</h3>
+            <h3 className='text-lg font-bold text-slate-900 mb-3'>Sump Pump Reviews</h3>
             <p className='text-slate-600 leading-relaxed'>How to choose the right sump pump for your home.</p>
           </Link>
           <Link href='/articles/battery-vs-water-powered-sump-pumps' className='bg-white border border-slate-200 rounded-lg p-6 hover:border-cyan-300 transition-colors'>
