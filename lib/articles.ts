@@ -440,6 +440,14 @@ export const articles: Article[] = [
     readTime: '18 min read',
     image: '/images/generators.jpg',
   },
+    {
+    title: 'How to Dry Out a Basement After Flooding: Complete 2026 Guide',
+    description: 'Step-by-step guide to drying out a flooded basement. Learn water extraction, structural drying, mold prevention, and when to call professionals.',
+    slug: 'how-to-dry-out-basement-after-flooding',
+    category: 'Remediation',
+    readTime: '20 min read',
+    image: '/images/cleanupbasement.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
