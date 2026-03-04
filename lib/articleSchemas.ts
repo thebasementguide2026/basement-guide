@@ -588,4 +588,34 @@ export const articleSchemas: Record<string, ArticleSchemaData> = {
       { name: 'Pump Partner Sump Pump Backup', description: 'Purpose-built sump pump backup. 2,500W, 2,048Wh LFP, fully automatic.', url: 'https://amzn.to/3N0rZRC' },
     ],
   },
+
+    // ----- HOW TO DRY OUT A BASEMENT AFTER FLOODING -----
+  'how-to-dry-out-basement-after-flooding': {
+    faq: [
+      { q: 'How long does it take to dry out a flooded basement?', a: 'Most basements take 3 to 5 days to dry completely with proper equipment. Severe flooding with saturated walls and insulation can take 1 to 2 weeks. Without professional equipment, drying takes significantly longer and increases mold risk.' },
+      { q: 'Can I dry out a flooded basement myself?', a: 'Small floods under 2 inches from clean water sources are manageable as DIY. Anything involving sewage, deep water, or structural saturation should involve professionals with commercial drying equipment.' },
+      { q: 'When does mold start growing after a basement flood?', a: 'Mold can begin growing within 24 to 48 hours on wet surfaces. This is why rapid water extraction and drying are critical. Every hour counts after a flood.' },
+      { q: 'Does homeowners insurance cover basement flood cleanup?', a: 'Standard policies typically cover sudden internal water damage like burst pipes. Groundwater intrusion and external flooding require separate flood insurance. Sewer backup may be covered with a water backup rider.' },
+      { q: 'Should I remove drywall after a basement flood?', a: 'Yes. Cut and remove drywall at least 12 to 24 inches above the visible water line. Drywall wicks moisture upward, and wet drywall behind walls breeds mold quickly.' },
+      { q: 'How do I know when my basement is fully dry?', a: 'Use a pin moisture meter on walls, floors, and framing. Readings below 15 percent moisture content indicate safe dryness. Professional restorers also use thermal imaging to detect hidden moisture.' },
+    ],
+    howTo: {
+      name: 'How to Dry Out a Basement After Flooding',
+      description: 'Step-by-step guide to extracting water, drying structural materials, and preventing mold after a basement flood.',
+      steps: [
+        { name: 'Ensure safety', text: 'Turn off electricity at the breaker before entering standing water. Wear rubber boots, N95 respirator, and gloves. Do not enter if sewage is present without proper PPE.' },
+        { name: 'Extract standing water', text: 'Use a submersible pump or wet/dry shop vac to remove all standing water as quickly as possible. Time is critical to prevent mold.' },
+        { name: 'Remove damaged materials', text: 'Cut out wet drywall 12 to 24 inches above the water line. Remove wet carpet, padding, and insulation. Discard porous materials that cannot be fully dried.' },
+        { name: 'Dry the structure', text: 'Run commercial dehumidifiers and high-velocity air movers for 3 to 5 days. Monitor moisture levels with a pin moisture meter until readings drop below 15 percent.' },
+        { name: 'Prevent mold', text: 'Apply antimicrobial solution to all affected surfaces. Continue running dehumidifiers and monitor for mold growth for at least 2 weeks after drying.' },
+      ],
+    },
+    products: [
+      { name: 'DEWALT 6 Gallon STEALTHSONIC Wet Dry Shop Vac', description: 'Powerful wet/dry vacuum for extracting standing water from flooded basements.', url: 'https://amzn.to/4d0xqdZ' },
+      { name: 'Frigidaire Gallery 50 Pint Dehumidifier', description: 'Energy Star rated dehumidifier for structural drying and ongoing basement moisture control.', url: 'https://amzn.to/46xBQVT' },
+      { name: 'NDI Pin Moisture Tester', description: 'Pin-type moisture meter for verifying walls, floors, and framing are fully dry after flooding.', url: 'https://amzn.to/4cZU9XA' },
+      { name: 'N95 Respirator Masks', description: 'Essential PPE for flood cleanup to protect against mold spores and contaminated dust.', url: 'https://amzn.to/4cZHbZO' },
+      { name: 'Rubber Boots', description: 'Waterproof rubber boots for safe entry into flooded basements.', url: 'https://amzn.to/3OKzjBz' },
+    ],
+  },
 };
