@@ -325,9 +325,13 @@ export const articleSchemas: Record<string, ArticleSchemaData> = {
 
   // --- WHY BASEMENT FLOODS WITH SUMP PUMP ---
   'why-basement-floods-with-sump-pump': {
-    faq: [
-      { q: 'Why is my basement flooding even though I have a sump pump?', a: 'Common causes include power outages without battery backup, clogged discharge lines, undersized pumps, stuck float switches, or overwhelmed capacity during heavy rain.' },
-      { q: 'How do I prevent my sump pump from failing?', a: 'Test monthly, install battery backup, clean the pit annually, replace every 7-10 years, and add a water alarm near the pit.' },
+        faq: [
+      { q: 'Can a sump pump handle heavy rain?', a: 'A properly sized pump with adequate drainage can handle most rain events. The problem occurs during extreme events or when drainage is inadequate. If your pump handles normal rain but floods during heavy storms, you likely need a larger pump, a secondary pump, or a better drainage system feeding the pit.' },
+      { q: 'How do I know if my sump pump is working?', a: 'Pour a bucket of water into the pit. The float should rise and the pump should activate within a few seconds, evacuating the water quickly. If it does not turn on, turns on but does not pump, or makes unusual noises, it needs attention.' },
+      { q: 'Should I have two sump pumps?', a: 'If you have a high water table, a large basement, or frequent heavy rain, a dual-pump system provides critical redundancy. The secondary pump can share the pit with the primary and activates if the first pump fails or cannot keep up.' },
+      { q: 'Why does my sump pump run constantly?', a: 'A pump that never shuts off usually indicates a high water table, an undersized pump, a stuck float switch, or a discharge line recycling water back toward the foundation. Constant running burns out the motor much faster.' },
+      { q: 'Does homeowners insurance cover sump pump flooding?', a: 'Standard policies usually do not cover flooding caused by sump pump failure or groundwater intrusion. Most insurers offer a water backup and sump pump overflow rider for $40-$100 per year.' },
+      { q: 'My basement only floods in one specific area far from the sump pump. Why?', a: 'This means water is entering through a localized source such as a wall crack, floor-wall joint, or window well that is not connected to the drainage system feeding the pit. You likely need targeted waterproofing or an extension of the interior French drain.' },
     ],
   },
 
