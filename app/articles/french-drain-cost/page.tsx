@@ -8,45 +8,6 @@ export const metadata: Metadata = {
   description: 'How much does a French drain cost in 2026? Complete pricing guide covering interior basement drains ($40-$85/ft), exterior yard drains ($10-$35/ft), DIY tips, recommended products, and when to hire a pro.',
 }
 
-// JSON-LD Schema
-const faqSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'FAQPage',
-  mainEntity: [
-    {
-      '@type': 'Question',
-      name: 'How much does a French drain cost to install?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'The average cost for a French drain installation in 2026 is $5,000. Exterior yard drains typically range from $2,800 to $6,500 ($10 to $35 per linear foot), while interior basement systems cost between $4,000 and $12,000 ($40 to $85 per linear foot).',
-      },
-    },
-    {
-      '@type': 'Question',
-      name: 'Is an interior French drain better than exterior?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Interior French drains are more effective for managing hydrostatic pressure and rising water tables in existing homes. Exterior drains are better for preventing water from reaching the foundation but require significant excavation.',
-      },
-    },
-    {
-      '@type': 'Question',
-      name: 'Can I install a French drain myself?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Simple exterior yard drains are a feasible DIY project for handy homeowners, typically saving 40 to 60 percent on labor. Interior basement drains involving concrete removal and sump pump installation are best left to professionals.',
-      },
-    },
-    {
-      '@type': 'Question',
-      name: 'How long does a French drain last?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'A properly installed French drain lasts 20 to 40 years. Longevity depends on using quality filter fabric, correct gravel sizing, and regular maintenance like annual flushing.',
-      },
-    },
-  ],
-}
 
 export default function FrenchDrainCostPage() {
   return (
@@ -95,11 +56,7 @@ export default function FrenchDrainCostPage() {
       <main className='max-w-4xl mx-auto px-6 py-24'>
         <div className='prose prose-lg prose-slate max-w-none prose-headings:text-slate-900 prose-headings:font-black prose-headings:tracking-tight prose-p:text-slate-600 prose-p:leading-relaxed prose-a:text-violet-600 prose-a:no-underline hover:prose-a:underline'>
 
-          <script
-            type='application/ld+json'
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-          />
-
+          
           {/* Quick Answer Box */}
           <div className='bg-violet-50 border-l-4 border-violet-600 rounded-r-3xl p-8 mb-16 not-prose shadow-sm'>
             <p className='text-xs font-bold text-violet-700 uppercase tracking-widest mb-3'>Quick Answer</p>
