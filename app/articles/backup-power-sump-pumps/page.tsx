@@ -15,7 +15,7 @@ export default function BackupPowerSumpPumps() {
       {/* Article Hero */}
       <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
         <Image
-          src='/images/backup-power-sump-pumps/hero.jpg'
+          src='/images/generators.jpg'
           alt='Backup power station connected to a sump pump'
           fill
           className='object-cover opacity-45 scale-105 transition-transform duration-700 hover:scale-100'
