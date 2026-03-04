@@ -647,4 +647,17 @@ export const articleSchemas: Record<string, ArticleSchemaData> = {
       { name: 'YoLink Water Leak Sensor 4', description: 'LoRa-based water leak sensor that alerts your phone when water is detected along the cove joint or sump pit.', url: 'https://amzn.to/4tZpI9Z' },
     ],
   },
+    // ----- BASEMENT WATERPROOFING FINANCES -----
+  'basement-waterproofing-finances-insurance-taxes': {
+    faq: [
+      { q: 'Does homeowners insurance cover basement waterproofing?', a: 'Standard homeowners insurance does not cover waterproofing as preventive maintenance. However, if water damage results from a sudden covered peril like a burst pipe, the resulting damage may be covered. Waterproofing itself is considered home maintenance.' },
+      { q: 'Is basement waterproofing tax deductible?', a: 'For your primary residence, waterproofing is generally not tax deductible. However, for rental properties, waterproofing costs may be deductible as a repair expense. Capital improvements must be depreciated over time. Always consult a tax professional.' },
+      { q: 'Do I need flood insurance if I waterproof my basement?', a: 'Waterproofing and flood insurance serve different purposes. Waterproofing prevents groundwater intrusion, while flood insurance covers damage from external flooding events. FEMA recommends flood insurance even for waterproofed homes in flood-prone areas.' },
+      { q: 'How much does flood insurance cost?', a: 'NFIP flood insurance averages $700 to $1,500 per year depending on your flood zone, home value, and coverage level. Private flood insurers may offer competitive rates. Risk Rating 2.0 now prices policies based on individual property risk.' },
+      { q: 'What is a water backup rider and do I need one?', a: 'A water backup rider adds coverage for sewer or drain backup damage to your homeowners policy, typically costing $40 to $100 per year. If you have a basement, this rider is strongly recommended as standard policies exclude sewer backup damage.' },
+      { q: 'Does waterproofing increase home value?', a: 'Yes. Professional basement waterproofing can increase home value by 5 to 15 percent. A dry, usable basement adds functional square footage and eliminates a major concern for potential buyers during inspections.' },
+      { q: 'Can I deduct waterproofing costs on a rental property?', a: 'Yes, with conditions. Repairs to a rental property like patching, sealant, and pump replacement are generally deductible in the year performed. Capital improvements like full drainage systems must be depreciated over 27.5 years.' },
+      { q: 'What documentation should I keep for waterproofing expenses?', a: 'Keep all receipts and invoices, contractor licenses and certifications, before and after photos, permit records, warranty documents, and insurance correspondence. This documentation supports insurance claims, tax deductions, and adds value at resale.' },
+    ],
+  },
 };
