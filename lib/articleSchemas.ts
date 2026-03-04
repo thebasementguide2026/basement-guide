@@ -265,8 +265,10 @@ export const articleSchemas: Record<string, ArticleSchemaData> = {
   // --- FRENCH DRAIN COST ---
   'french-drain-cost': {
     faq: [
-      { q: 'How much does a French drain cost in 2026?', a: 'Interior French drains cost $2,000-$6,000 for a typical basement. Exterior French drains cost $3,000-$10,000 depending on length and depth.' },
-      { q: 'Can I install a French drain myself?', a: 'Exterior yard drains can be DIY. Interior basement French drains require jackhammering concrete and proper slope, so professional installation is recommended.' },
+            { q: 'How much does a French drain cost to install?', a: 'The average cost for a French drain installation in 2026 is $5,000. Exterior yard drains typically range from $2,800 to $6,500 ($10 to $35 per linear foot), while interior basement systems cost between $4,000 and $12,000 ($40 to $85 per linear foot).' },
+      { q: 'Is an interior French drain better than exterior?', a: 'Interior French drains are more effective for managing hydrostatic pressure and rising water tables in existing homes. Exterior drains are better for preventing water from reaching the foundation but require significant excavation.' },
+      { q: 'Can I install a French drain myself?', a: 'Simple exterior yard drains are a feasible DIY project for handy homeowners, typically saving 40 to 60 percent on labor. Interior basement drains involving concrete removal and sump pump installation are best left to professionals.' },
+      { q: 'How long does a French drain last?', a: 'A properly installed French drain lasts 20 to 40 years. Longevity depends on using quality filter fabric, correct gravel sizing, and regular maintenance like annual flushing.' },
     ],
   },
 
