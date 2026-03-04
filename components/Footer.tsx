@@ -89,6 +89,7 @@ const footerSections = [
     title: 'RESOURCES',
     links: [
       { label: 'Flooding Insurance', href: '/articles/basement-flooding-insurance' },
+            { label: 'Waterproofing & Finances', href: '/articles/basement-waterproofing-finances-insurance-taxes' },
       { label: 'Home Appraisal Value', href: '/articles/waterproofing-home-appraisal-value' },
       { label: 'Homebuyer Checklist', href: '/articles/homebuyers-basement-inspection-checklist' },
       { label: 'Spring Checklist', href: '/articles/spring-basement-checklist' },
