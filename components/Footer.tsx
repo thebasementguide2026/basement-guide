@@ -154,6 +154,11 @@ export default function Footer() {
           ))}
         </div>
 
+
+        {/* Our Network */}
+        <div className="border-t border-slate-700 pt-6 mb-6">
+          <p className="text-slate-400 text-sm">Our Network: <a href="https://theseptic.guide" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">The Septic Guide</a></p>
+        </div>
         {/* Bottom */}
         <div className="border-t border-slate-700 pt-6 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-gray-500">
           <p>&copy; {new Date().getFullYear()} The Basement Guide. All rights reserved.</p>
