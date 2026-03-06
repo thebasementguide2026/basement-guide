@@ -72,7 +72,7 @@ export default function Home() {
           )}
 
           {/* Sidebar stories */}
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col justify-between h-full">
             {editorPicks.map((article) => (
               <Link
                 key={article.slug}
