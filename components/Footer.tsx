@@ -96,6 +96,7 @@ const footerSections = [
       { label: 'About', href: '/about' },
       { label: 'Start Here', href: '/start-here' },
       { label: 'Contact', href: '/contact' },
+            { label: 'Articles', href: '/articles' },
       { label: 'Methodology', href: '/methodology' },
     ],
   },
