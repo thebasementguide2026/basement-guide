@@ -9,11 +9,6 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: '/get-quotes',
-        destination: '/get-quotes',
-        permanent: true,
-      },
-      {
         source: '/articles/basement-waterproofing-costs',
         destination: '/articles/basement-waterproofing-cost',
         permanent: true,
