@@ -464,6 +464,14 @@ export const articles: Article[] = [
     readTime: '22 min read',
     image: '/images/floodinsurance.jpg',
   },
+  {
+    title: 'Basement Smells Like Sewage? How to Find the Source and Fix It Fast',
+    description: 'A sewage smell means something in your plumbing has failed. Walk through 7 causes from easiest to hardest, with fix costs from $0 to $5,000.',
+    slug: 'basement-smells-like-sewage',
+    category: 'Problems',
+    readTime: '20 min read',
+    image: '/sewagebasement.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
