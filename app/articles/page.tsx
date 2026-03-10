@@ -27,6 +27,7 @@ const topicGroups: { label: string; id: string; slugs: string[] }[] = [
       'best-vapor-barriers',
       'water-coming-up-through-basement-floor',
       'how-to-dry-out-basement-after-flooding',
+              'wet-basement-walls',
     ],
   },
   {
