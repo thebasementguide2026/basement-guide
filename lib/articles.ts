@@ -472,6 +472,14 @@ export const articles: Article[] = [
     readTime: '20 min read',
     image: '/sewagebasement.jpg',
   },
+    {
+    title: 'Wet Basement Walls: Causes, Fixes & Waterproofing Costs (2026)',
+    description: 'Wet basement walls are a symptom of a deeper problem. Diagnose the exact cause from hydrostatic pressure to condensation, and get accurate 2026 fix costs.',
+    slug: 'wet-basement-walls',
+    category: 'Problems',
+    readTime: '20 min read',
+    image: '/wetwalls.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
