@@ -41,6 +41,7 @@ const topicGroups: { label: string; id: string; slugs: string[] }[] = [
       'best-basement-dehumidifiers',
       'best-basement-air-purifiers',
       'radon-and-basement-waterproofing',
+      'basement-smells-like-sewage',
     ],
   },
   {
