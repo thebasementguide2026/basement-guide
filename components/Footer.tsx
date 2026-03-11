@@ -17,6 +17,7 @@ const footerSections = [
             { label: 'Radon Testing & Mitigation', href: '/articles/radon-testing-and-mitigation' },
       { label: 'Hiring a Contractor', href: '/articles/how-to-hire-basement-waterproofing-contractor' },
       { label: 'Pre-Finish Audit', href: '/articles/pre-finish-audit' },
+            { label: 'Interior Drainage Systems', href: '/articles/interior-basement-drainage-systems' },
     ],
   },
   {
