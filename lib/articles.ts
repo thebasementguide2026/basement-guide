@@ -486,7 +486,7 @@ export const articles: Article[] = [
     slug: 'radon-testing-and-mitigation',
     category: 'Health & Safety',
     readTime: '30 min read',
-    image: '/Radon%20and%20waterproofing.jpg',
+    image: '/Basement Radon Testing.jpg',
   },
 ]
 
