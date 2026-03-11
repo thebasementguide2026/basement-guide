@@ -488,6 +488,14 @@ export const articles: Article[] = [
     readTime: '30 min read',
     image: '/Basement Radon Testing.jpg',
   },
+  {
+    title: 'Interior Basement Drainage Systems: Types, Costs & How to Choose (2026)',
+    description: 'Complete guide to interior basement drainage systems. Compare French drains, WaterGuard, DryTrak, and thin-floor systems. Costs $4,000-$15,000.',
+    slug: 'interior-basement-drainage-systems',
+    category: 'Waterproofing',
+    readTime: '28 min read',
+    image: '/interiordrainage.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
