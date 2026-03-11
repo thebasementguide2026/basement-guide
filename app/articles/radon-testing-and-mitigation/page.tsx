@@ -15,7 +15,7 @@ export default function RadonTestingMitigationGuide() {
       {/* Article Hero */}
       <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
         <Image
-          src='/images/Basement Radon Testing.jpg'
+                      src='/Basement Radon Testing.jpg'
           alt='Basement radon testing and mitigation system installation'
           fill
           className='object-cover opacity-45 scale-105 transition-transform duration-700 hover:scale-110'
