@@ -14,6 +14,7 @@ const footerSections = [
       { label: 'Smart Sump Pumps', href: '/articles/smart-sump-pumps-guide' },
       { label: 'Crystalline Waterproofing', href: '/articles/crystalline-waterproofing' },
       { label: 'Radon & Waterproofing', href: '/articles/radon-and-basement-waterproofing' },
+            { label: 'Radon Testing & Mitigation', href: '/articles/radon-testing-and-mitigation' },
       { label: 'Hiring a Contractor', href: '/articles/how-to-hire-basement-waterproofing-contractor' },
       { label: 'Pre-Finish Audit', href: '/articles/pre-finish-audit' },
     ],
