@@ -121,6 +121,17 @@ export default function InteriorBasementDrainageSystems() {
             <p className='text-lg text-slate-600 leading-relaxed mb-6'>Unlike exterior waterproofing, which prevents water from reaching your foundation, interior drainage manages water that has already entered, keeping your basement dry from the inside.</p>
             <p className='text-lg text-slate-600 leading-relaxed mb-6'>If you have gotten quotes from basement waterproofing contractors, you have probably heard brand names like WaterGuard, DryTrak, or terms like drain tile and perimeter drain. These all refer to variations of interior drainage systems, but they work differently, cost differently, and suit different foundation types.</p>
             <p className='text-lg text-slate-600 leading-relaxed'>This guide explains every type, compares costs per linear foot, and helps you understand what contractors are actually proposing so you can make an informed decision. For cost-specific information, see our <Link href='/articles/french-drain-cost' className='text-teal-600 hover:text-teal-700 font-medium underline'>French drain cost guide</Link> and <Link href='/articles/basement-waterproofing-cost' className='text-teal-600 hover:text-teal-700 font-medium underline'>basement waterproofing cost guide</Link>. For sump pump selection, see our <Link href='/articles/sump-pump-buying-guide' className='text-teal-600 hover:text-teal-700 font-medium underline'>sump pump buying guide</Link>.</p>
+
+                          <div className='my-10 rounded-xl overflow-hidden shadow-lg'>
+                <Image
+                  src='/interiordrainage.jpg'
+                  alt='Interior basement drainage system installation showing perimeter channel, gravel bed, and sump pump connection'
+                  width={1200}
+                  height={675}
+                  className='w-full h-auto'
+                  priority
+                />
+              </div>
           </section>
 
           {/* How Interior Drainage Systems Work */}
