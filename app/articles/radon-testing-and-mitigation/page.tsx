@@ -86,12 +86,6 @@ const articleSchema = {
 
 export default function RadonTestingMitigationGuide() {
   return (
-    <>
-      <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-      <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(testingMethodsSchema) }} />
-      <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(mitigationSystemsSchema) }} />
-      <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(costBreakdownSchema) }} />
-      <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <div className='bg-white min-h-screen'>
         {/* Article Hero */}
         <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
@@ -476,5 +470,6 @@ export default function RadonTestingMitigationGuide() {
 
       </article>
     </main>
+        </div>
   )
 }
