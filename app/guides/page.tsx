@@ -34,7 +34,7 @@ const sections = [
     id: 'health-safety',
     title: 'Health & Safety',
     description: 'Protect your family from mold, radon, high humidity, and poor air quality.',
-    slugs: ['how-to-prevent-basement-mold', 'dehumidifier-myths', 'radon-and-basement-waterproofing', 'musty-basement-smell', 'basement-smells-like-sewage', 'basement-humidity-guide', 'mold-remediation-cost', 'how-to-dry-out-basement-after-flooding', 'basement-smells-like-sewage'],
+    slugs: ['how-to-prevent-basement-mold', 'dehumidifier-myths', 'radon-and-basement-waterproofing', 'musty-basement-smell', 'basement-smells-like-sewage', 'basement-humidity-guide', 'mold-remediation-cost', 'how-to-dry-out-basement-after-flooding', 'basement-smells-like-sewage', 'radon-testing-and-mitigation'],
     featured: ['how-to-prevent-basement-mold'],
   },
   {
