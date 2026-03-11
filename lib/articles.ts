@@ -480,6 +480,14 @@ export const articles: Article[] = [
     readTime: '20 min read',
     image: '/wetwalls.jpg',
   },
+    {
+    title: 'Basement Radon Testing and Mitigation: The Complete Homeowner\u2019s Guide (2026)',
+    description: 'Radon is the second leading cause of lung cancer. Learn how to test your home, understand results, compare mitigation systems, and find certified contractors.',
+    slug: 'radon-testing-and-mitigation',
+    category: 'Health & Safety',
+    readTime: '30 min read',
+    image: '/Radon%20and%20waterproofing.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
