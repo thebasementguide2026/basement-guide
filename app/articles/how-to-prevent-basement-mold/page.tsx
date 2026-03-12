@@ -88,7 +88,7 @@ export default function PreventMoldArticle() {
             },
           ]),
         }}
-      />
+              ></script>
 
       {/* Article Hero */}
       <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
