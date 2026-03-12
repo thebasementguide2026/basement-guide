@@ -34,7 +34,7 @@ export default function CompleteBasementWaterproofingGuide() {
         {/* Intro */}
         <div className="prose prose-lg max-w-none mb-12">
           <p>If you have ever walked downstairs to find a puddle on your basement floor or noticed that unmistakable musty smell that just will not go away, you already know how stressful a wet basement can be. And you are far from alone. According to industry data, basement flooding is the single most common foundation problem reported by homeowners, accounting for nearly 30 percent of all foundation-related issues.</p>
-          <p>The good news is that basement waterproofing is one of the most effective home improvements you can make. It protects your foundation, prevents mold, preserves your home's value, and can turn a damp, unusable space into a comfortable living area.</p>
+          <p className="mt-6">The good news is that basement waterproofing is one of the most effective home improvements you can make. It protects your foundation, prevents mold, preserves your home's value, and can turn a damp, unusable space into a comfortable living area.</p>
           <p>This guide cuts through the noise. Whether you are dealing with a minor dampness problem you want to fix yourself or a full-blown flooding situation that needs professional help, you will find honest, detailed answers here.</p>
         </div>
 
