@@ -49,55 +49,41 @@ const faqSchema = {
 
 export default function BasementInsulationGuide() {
   return (
-    <div className='bg-white min-h-screen'>
-      {/* Article Hero */}
-      <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
-        <Image
-          src='/foundation-concrete-forms.jpg.png'
-          alt='Basement wall insulation installation'
-          fill
-          className='object-cover opacity-45 scale-105 transition-transform duration-700 hover:scale-100'
-          priority
-        />
-        <div className='absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent' />
-        <div className='relative h-full max-w-7xl mx-auto px-6 flex flex-col justify-end pb-20'>
-          <div className='flex items-center space-x-3 mb-8'>
-            <div className='w-12 h-px bg-teal-500'></div>
-            <span className='text-teal-400 font-bold tracking-[0.3em] text-sm uppercase'>Expanded Edition</span>
-          </div>
-          <h1 className='text-5xl md:text-7xl font-black text-white mb-6 leading-[0.9] tracking-tighter'>
-            Basement Insulation<br />
-            <span className='text-teal-400'>Guide for 2026</span>
-          </h1>
-          <p className='text-xl text-slate-300 max-w-2xl mb-10 font-medium leading-relaxed'>
-            How to insulate a basement the right way. R-values by climate zone, moisture science, material comparisons, step-by-step installation, and 2026 costs.
-          </p>
-          <div className='flex items-center space-x-4'>
-            <div className='flex items-center bg-slate-800/50 backdrop-blur-md rounded-full px-6 py-3 border border-slate-700/50 shadow-2xl'>
-              <div className='w-10 h-10 rounded-full bg-gradient-to-tr from-teal-600 to-emerald-400 flex items-center justify-center text-white font-bold text-sm mr-4'>
-                BG
-              </div>
-              <div className='flex flex-col'>
-                <span className='text-white font-bold text-sm'>The Basement Guide Staff</span>
-                <div className='flex items-center text-slate-400 text-xs font-medium'>
-                  <span>Updated Feb 2026</span>
-                  <span className='mx-2 text-slate-600'>&middot;</span>
-                  <span>35 min read</span>
-                </div>
+    <div>
+      <script
+        type='application/ld+json'
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <main>
+        {/* Article Hero */}
+        <section className='relative bg-slate-900 text-white py-20 md:py-32 overflow-hidden'>
+          <Image
+            src='/images/basement-insulation-hero.webp'
+            alt='Basement wall insulation installation'
+            fill
+            className='object-cover opacity-30'
+            priority
+          />
+          <div className='relative z-10 max-w-4xl mx-auto px-4 text-center'>
+            <span className='inline-block bg-teal-500 text-white text-xs font-bold uppercase tracking-widest px-4 py-1.5 rounded-full mb-6'>Expanded Edition</span>
+            <h1 className='text-5xl md:text-7xl font-black leading-[0.95] mb-6'>
+              Basement Insulation<br /> Guide for 2026
+            </h1>
+            <p className='text-xl md:text-2xl text-slate-300 max-w-2xl mx-auto mb-8'>
+              How to insulate a basement the right way. R-values by climate zone, moisture science, material comparisons, step-by-step installation, and 2026 costs.
+            </p>
+            <div className='flex items-center justify-center gap-4'>
+              <div className='w-10 h-10 rounded-full bg-teal-500 flex items-center justify-center text-white font-bold text-sm'>BG</div>
+              <div className='text-left'>
+                <p className='text-white font-medium'>The Basement Guide Staff</p>
+                <p>Updated March 2026 &middot; 35 min read</p>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* Main Content */}
-      <main className='max-w-4xl mx-auto px-6 py-24'>
-        <div className='prose prose-lg prose-slate max-w-none prose-headings:text-slate-900 prose-headings:font-black prose-headings:tracking-tight prose-p:text-slate-600 prose-p:leading-relaxed prose-a:text-violet-600 prose-a:no-underline hover:prose-a:underline'>
-
-          <script
-            type='application/ld+json'
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-          />
+        {/* Main Content */}
+        <div className='max-w-4xl mx-auto px-4 py-16 prose prose-slate prose-headings:font-black prose-headings:text-slate-900 prose-a:text-violet-600 hover:prose-a:text-violet-700 prose-a:font-semibold prose-a:no-underline hover:prose-a:underline max-w-none'>
 
           {/* Intro */}
           <p className='text-2xl font-medium text-slate-800 leading-relaxed mb-12 border-l-4 border-teal-500 pl-8'>
@@ -106,63 +92,59 @@ export default function BasementInsulationGuide() {
 
           {/* Why Insulate Your Basement */}
           <h2 className='text-4xl mb-6'>Why Insulate Your Basement?</h2>
-          <p>
-            Four clear outcomes appear consistently in the 2026 data for anyone adding basement insulation.
-          </p>
+          <p>Four clear outcomes appear consistently in the 2026 data for anyone adding basement insulation.</p>
 
           <div className='grid grid-cols-1 md:grid-cols-2 gap-6 my-10 not-prose'>
             <div className='bg-teal-50 rounded-2xl p-6 border border-teal-100'>
               <div className='text-2xl mb-2'>&#9889;</div>
               <h3 className='font-black text-slate-900 text-lg mb-2'>Energy Savings</h3>
-              <p className='text-slate-600 text-sm'>Basement wall insulation and rim joist work typically cut total household energy use by 10 to 25 percent, depending on climate zone and existing conditions.</p>
+              <p className='text-slate-600 text-sm'>Basement wall insulation and rim joist work typically cut total household energy use by 10 to 25 percent, depending on climate zone and existing conditions. The rim joist alone is one of the leakiest areas in most homes, and insulating it is the single highest-return energy upgrade in most basements.</p>
             </div>
             <div className='bg-teal-50 rounded-2xl p-6 border border-teal-100'>
               <div className='text-2xl mb-2'>&#127777;&#65039;</div>
               <h3 className='font-black text-slate-900 text-lg mb-2'>Comfort &amp; Usability</h3>
-              <p className='text-slate-600 text-sm'>Wall and floor surface temperatures rise 8 to 15 degrees Fahrenheit, making the space feel warmer in winter and drier in summer.</p>
+              <p className='text-slate-600 text-sm'>Wall and floor surface temperatures rise 8 to 15 degrees Fahrenheit with proper insulation, making the space feel warmer in winter and drier in summer. This is the difference between a basement you avoid and one you actually use.</p>
             </div>
             <div className='bg-teal-50 rounded-2xl p-6 border border-teal-100'>
               <div className='text-2xl mb-2'>&#128167;</div>
               <h3 className='font-black text-slate-900 text-lg mb-2'>Moisture &amp; Mold Control</h3>
-              <p className='text-slate-600 text-sm'>Warm surfaces stay above the dew point, reducing condensation that leads to <Link href='/articles/how-to-prevent-basement-mold' className='text-violet-600 hover:underline'>mold growth</Link>.</p>
+              <p className='text-slate-600 text-sm'>Warm surfaces stay above the dew point, reducing condensation that leads to <Link href='/articles/how-to-prevent-basement-mold' className='text-violet-600 hover:underline'>mold growth</Link>. Condensation on cold basement walls is one of the most common causes of basement mold, and insulation solves it at the source.</p>
             </div>
             <div className='bg-teal-50 rounded-2xl p-6 border border-teal-100'>
               <div className='text-2xl mb-2'>&#128200;</div>
               <h3 className='font-black text-slate-900 text-lg mb-2'>Home Value</h3>
-              <p className='text-slate-600 text-sm'>Conditioned basements with proper insulation add <Link href='/articles/waterproofing-home-appraisal-value' className='text-violet-600 hover:underline'>resale value</Link> faster than uninsulated ones in most markets.</p>
+              <p className='text-slate-600 text-sm'>Conditioned basements with proper insulation add <Link href='/articles/waterproofing-home-appraisal-value' className='text-violet-600 hover:underline'>resale value</Link> faster than uninsulated ones in most markets. Insulation is also a prerequisite for finishing your basement into livable space. See our <Link href='/articles/how-to-finish-a-basement' className='text-violet-600 hover:underline'>how to finish a basement guide</Link> and <Link href='/articles/pre-finish-audit-checklist' className='text-violet-600 hover:underline'>pre-finish audit checklist</Link>.</p>
             </div>
           </div>
 
           <div className='bg-amber-50 border-l-4 border-amber-500 rounded-r-2xl p-6 my-8 not-prose'>
             <p className='text-sm font-bold text-amber-700 uppercase tracking-widest mb-2'>Important</p>
             <p className='text-slate-700 font-medium'>
-              All of these benefits start with fixing bulk water and air leakage before any insulation goes in. Address <Link href='/articles/french-drain-cost' className='text-violet-600 hover:underline'>drainage</Link>, grading, gutters, and <Link href='/articles/sump-pump-buying-guide' className='text-violet-600 hover:underline'>sump pumps</Link> first.
+              All of these benefits start with fixing bulk water and air leakage before any insulation goes in. Address <Link href='/articles/french-drain-cost' className='text-violet-600 hover:underline'>drainage</Link>, grading, gutters, and <Link href='/articles/sump-pump-buying-guide' className='text-violet-600 hover:underline'>sump pumps</Link> first. Insulating over a wet wall traps the moisture and guarantees mold. See our <Link href='/articles/complete-basement-waterproofing-guide' className='text-violet-600 hover:underline'>complete basement waterproofing guide</Link> for how to dry your basement before insulating.
             </p>
           </div>
 
           {/* Moisture Science */}
           <h2 className='text-4xl mb-6'>Basement Moisture Science</h2>
           <p className='font-semibold text-slate-800 text-xl mb-4'>The Foundation of Every Insulation Job</p>
-          <p>
-            Concrete foundation walls stay cold year-round because they sit against 50 to 55 degree soil. Warm, humid indoor air that reaches those surfaces can condense, especially in summer. Building Science Corporation research shows the safest approach keeps interior air away from cold concrete while allowing any incidental moisture to dry inward.
-          </p>
+          <p>Concrete foundation walls stay cold year-round because they sit against 50 to 55 degree soil. Warm, humid indoor air that reaches those surfaces can condense, especially in summer. Building Science Corporation research shows the safest approach keeps interior air away from cold concrete while allowing any incidental moisture to dry inward.</p>
 
           <div className='bg-slate-50 rounded-2xl p-6 my-8 not-prose border border-slate-200'>
-            <h3 className='font-bold text-slate-900 text-lg mb-4'>Key Rules for Every Climate Zone</h3>
+            <h3 className='font-bold text-slate-900 text-lg mb-4'>Key Moisture Rules for Basement Insulation in Every Climate Zone</h3>
             <ul className='space-y-3 text-slate-600'>
-              <li className='flex items-start gap-2'><span className='text-teal-500 font-bold'>1.</span> Fix all bulk-water sources &mdash; grading, gutters, <Link href='/articles/french-drain-cost' className='text-violet-600 hover:underline'>French drains</Link>, sump pumps &mdash; before starting.</li>
-              <li className='flex items-start gap-2'><span className='text-teal-500 font-bold'>2.</span> Place air-impermeable, vapor semi-permeable insulation directly against the concrete.</li>
-              <li className='flex items-start gap-2'><span className='text-teal-500 font-bold'>3.</span> Never install a Class I vapor barrier (6-mil poly) on the warm side of fibrous insulation against a basement wall.</li>
-              <li className='flex items-start gap-2'><span className='text-teal-500 font-bold'>4.</span> Allow the assembly to dry inward. Rigid foam or closed-cell spray foam meets this requirement when installed correctly.</li>
+              <li className='flex items-start gap-2'><span className='text-teal-500 font-bold'>1.</span> Fix all bulk-water sources &mdash; grading, gutters, <Link href='/articles/french-drain-cost' className='text-violet-600 hover:underline'>French drains</Link>, sump pumps &mdash; before starting. Insulation installed over active water problems will fail.</li>
+              <li className='flex items-start gap-2'><span className='text-teal-500 font-bold'>2.</span> Place air-impermeable, vapor semi-permeable insulation directly against the concrete. Rigid foam board (XPS or EPS) and closed-cell spray foam both meet this requirement.</li>
+              <li className='flex items-start gap-2'><span className='text-teal-500 font-bold'>3.</span> Never install a Class I vapor barrier (6-mil polyethylene sheeting) on the warm side of fibrous insulation against a basement wall. This creates a moisture trap that guarantees mold growth between the vapor barrier and the cold concrete.</li>
+              <li className='flex items-start gap-2'><span className='text-teal-500 font-bold'>4.</span> Allow the assembly to dry inward. Rigid foam and closed-cell spray foam control vapor transmission from the concrete while allowing very slow drying toward the interior. This is the moisture-safe approach endorsed by building science professionals.</li>
             </ul>
           </div>
+
+          <p>For a detailed comparison of the two most common foam insulation types used in basements, see our <Link href='/articles/spray-foam-vs-rigid-foam-insulation' className='text-violet-600 hover:underline'>spray foam vs rigid foam insulation comparison</Link>.</p>
 
           {/* Code Requirements */}
           <h2 className='text-4xl mb-6'>Code Requirements &amp; R-Values by Climate Zone</h2>
           <p className='font-semibold text-slate-800 text-xl mb-4'>What Your Local Code Actually Requires</p>
-          <p>
-            The 2021 International Residential Code (IRC) sets minimum basement wall insulation requirements based on climate zone. Many states adopt the IRC directly, while others amend it. Always confirm local requirements with your building department before starting.
-          </p>
+          <p>The 2021 International Residential Code (IRC) sets minimum basement wall insulation requirements based on climate zone. Many states adopt the IRC directly, while others amend it. Always confirm local requirements with your building department before starting. See our <Link href='/articles/basement-permits-guide' className='text-violet-600 hover:underline'>basement permits guide</Link> for information on when permits are required for insulation and finishing projects.</p>
 
           <div className='overflow-x-auto my-8 not-prose'>
             <table className='w-full text-sm border-collapse'>
@@ -176,49 +158,30 @@ export default function BasementInsulationGuide() {
               </thead>
               <tbody>
                 <tr className='border-b border-slate-200'>
-                  <td className='p-3 font-medium'>Zone 3</td>
-                  <td className='p-3'>R-5</td>
-                  <td className='p-3'>R-13</td>
-                  <td className='p-3'>Atlanta, Dallas, Charlotte</td>
+                  <td className='p-3 font-medium'>Zone 3</td><td className='p-3'>R-5</td><td className='p-3'>R-13</td><td className='p-3'>Atlanta, Dallas, Charlotte</td>
                 </tr>
                 <tr className='border-b border-slate-200 bg-slate-50'>
-                  <td className='p-3 font-medium'>Zone 4</td>
-                  <td className='p-3'>R-10</td>
-                  <td className='p-3'>R-13</td>
-                  <td className='p-3'>Nashville, Raleigh, St. Louis</td>
+                  <td className='p-3 font-medium'>Zone 4</td><td className='p-3'>R-10</td><td className='p-3'>R-13</td><td className='p-3'>Nashville, Raleigh, St. Louis</td>
                 </tr>
                 <tr className='border-b border-slate-200'>
-                  <td className='p-3 font-medium'>Zone 5</td>
-                  <td className='p-3'>R-15</td>
-                  <td className='p-3'>R-19</td>
-                  <td className='p-3'>Chicago, Boston, Denver</td>
+                  <td className='p-3 font-medium'>Zone 5</td><td className='p-3'>R-15</td><td className='p-3'>R-19</td><td className='p-3'>Chicago, Boston, Denver</td>
                 </tr>
                 <tr className='border-b border-slate-200 bg-slate-50'>
-                  <td className='p-3 font-medium'>Zone 6</td>
-                  <td className='p-3'>R-15</td>
-                  <td className='p-3'>R-19</td>
-                  <td className='p-3'>Minneapolis, Milwaukee, Portland ME</td>
+                  <td className='p-3 font-medium'>Zone 6</td><td className='p-3'>R-15</td><td className='p-3'>R-19</td><td className='p-3'>Minneapolis, Milwaukee, Portland ME</td>
                 </tr>
                 <tr className='border-b border-slate-200'>
-                  <td className='p-3 font-medium'>Zone 7-8</td>
-                  <td className='p-3'>R-15</td>
-                  <td className='p-3'>R-21</td>
-                  <td className='p-3'>Duluth, Fairbanks, Fargo</td>
+                  <td className='p-3 font-medium'>Zone 7-8</td><td className='p-3'>R-15</td><td className='p-3'>R-21</td><td className='p-3'>Duluth, Fairbanks, Fargo</td>
                 </tr>
               </tbody>
             </table>
           </div>
 
-          <p>
-            &quot;Continuous&quot; means unbroken rigid foam or spray foam against the wall. &quot;Cavity&quot; refers to batt insulation placed between studs in a framed wall. The best assemblies combine both for maximum performance.
-          </p>
+          <p>&quot;Continuous&quot; means unbroken rigid foam or spray foam against the wall with no gaps at framing members. &quot;Cavity&quot; refers to batt insulation placed between studs in a framed wall. The best assemblies combine both continuous foam against the concrete and cavity insulation in the stud wall for maximum performance.</p>
 
           {/* Insulation Materials */}
           <h2 className='text-4xl mb-6'>Insulation Materials Compared</h2>
           <p className='font-semibold text-slate-800 text-xl mb-4'>Choosing the Right Product for Below-Grade Walls</p>
-          <p>
-            Not every insulation product works safely below grade. Materials must resist moisture, prevent condensation against cold concrete, and meet fire codes. Here is how the main options stack up for basement wall applications in 2026.
-          </p>
+          <p>Not every insulation product works safely below grade. Materials must resist moisture, prevent condensation against cold concrete, and meet fire codes. Here is how the main options stack up for basement wall applications in 2026.</p>
 
           <div className='overflow-x-auto my-8 not-prose'>
             <table className='w-full text-sm border-collapse'>
@@ -233,53 +196,25 @@ export default function BasementInsulationGuide() {
               </thead>
               <tbody>
                 <tr className='border-b border-slate-200'>
-                  <td className='p-3 font-medium'>XPS Rigid Foam</td>
-                  <td className='p-3'>R-5</td>
-                  <td className='p-3'>~1.0 perm (1&quot;)</td>
-                  <td className='p-3'><span className='text-teal-600 font-bold'>Yes</span></td>
-                  <td className='p-3'>$0.35 – $0.55/sqft</td>
+                  <td className='p-3 font-medium'>XPS Rigid Foam</td><td className='p-3'>R-5</td><td className='p-3'>~1.0 perm (1&quot;)</td><td className='p-3'><span className='text-teal-600 font-bold'>Yes</span></td><td className='p-3'>$0.35 &ndash; $0.55/sqft</td>
                 </tr>
                 <tr className='border-b border-slate-200 bg-slate-50'>
-                  <td className='p-3 font-medium'>EPS Rigid Foam</td>
-                  <td className='p-3'>R-3.8 – R-4.4</td>
-                  <td className='p-3'>2 – 5 perm (1&quot;)</td>
-                  <td className='p-3'><span className='text-teal-600 font-bold'>Yes</span></td>
-                  <td className='p-3'>$0.25 – $0.45/sqft</td>
+                  <td className='p-3 font-medium'>EPS Rigid Foam</td><td className='p-3'>R-3.8 &ndash; R-4.4</td><td className='p-3'>2 &ndash; 5 perm (1&quot;)</td><td className='p-3'><span className='text-teal-600 font-bold'>Yes</span></td><td className='p-3'>$0.25 &ndash; $0.45/sqft</td>
                 </tr>
                 <tr className='border-b border-slate-200'>
-                  <td className='p-3 font-medium'>Polyiso Rigid Foam</td>
-                  <td className='p-3'>R-5.7 – R-6.5</td>
-                  <td className='p-3'>~1.0 perm (1&quot;)</td>
-                  <td className='p-3'><span className='text-amber-600 font-bold'>Caution</span></td>
-                  <td className='p-3'>$0.45 – $0.70/sqft</td>
+                  <td className='p-3 font-medium'>Polyiso Rigid Foam</td><td className='p-3'>R-5.7 &ndash; R-6.5</td><td className='p-3'>~1.0 perm (1&quot;)</td><td className='p-3'><span className='text-amber-600 font-bold'>Caution</span></td><td className='p-3'>$0.45 &ndash; $0.70/sqft</td>
                 </tr>
                 <tr className='border-b border-slate-200 bg-slate-50'>
-                  <td className='p-3 font-medium'>Closed-Cell Spray Foam</td>
-                  <td className='p-3'>R-6.5 – R-7</td>
-                  <td className='p-3'>&lt;1.0 perm (2&quot;)</td>
-                  <td className='p-3'><span className='text-teal-600 font-bold'>Yes</span></td>
-                  <td className='p-3'>$1.50 – $3.00/sqft</td>
+                  <td className='p-3 font-medium'>Closed-Cell Spray Foam</td><td className='p-3'>R-6.5 &ndash; R-7</td><td className='p-3'>&lt;1.0 perm (2&quot;)</td><td className='p-3'><span className='text-teal-600 font-bold'>Yes</span></td><td className='p-3'>$1.50 &ndash; $3.00/sqft</td>
                 </tr>
                 <tr className='border-b border-slate-200'>
-                  <td className='p-3 font-medium'>Open-Cell Spray Foam</td>
-                  <td className='p-3'>R-3.5 – R-3.8</td>
-                  <td className='p-3'>High (&gt;10 perm)</td>
-                  <td className='p-3'><span className='text-red-600 font-bold'>No</span></td>
-                  <td className='p-3'>$0.80 – $1.50/sqft</td>
+                  <td className='p-3 font-medium'>Open-Cell Spray Foam</td><td className='p-3'>R-3.5 &ndash; R-3.8</td><td className='p-3'>High (&gt;10 perm)</td><td className='p-3'><span className='text-red-600 font-bold'>No</span></td><td className='p-3'>$0.80 &ndash; $1.50/sqft</td>
                 </tr>
                 <tr className='border-b border-slate-200 bg-slate-50'>
-                  <td className='p-3 font-medium'>Fiberglass Batts (alone)</td>
-                  <td className='p-3'>R-3.2 – R-3.8</td>
-                  <td className='p-3'>High</td>
-                  <td className='p-3'><span className='text-red-600 font-bold'>No</span></td>
-                  <td className='p-3'>$0.15 – $0.30/sqft</td>
+                  <td className='p-3 font-medium'>Fiberglass Batts (alone)</td><td className='p-3'>R-3.2 &ndash; R-3.8</td><td className='p-3'>High</td><td className='p-3'><span className='text-red-600 font-bold'>No</span></td><td className='p-3'>$0.15 &ndash; $0.30/sqft</td>
                 </tr>
                 <tr className='border-b border-slate-200'>
-                  <td className='p-3 font-medium'>Mineral Wool Batts (alone)</td>
-                  <td className='p-3'>R-3.8 – R-4.2</td>
-                  <td className='p-3'>High</td>
-                  <td className='p-3'><span className='text-red-600 font-bold'>No</span></td>
-                  <td className='p-3'>$0.40 – $0.65/sqft</td>
+                  <td className='p-3 font-medium'>Mineral Wool Batts (alone)</td><td className='p-3'>R-3.8 &ndash; R-4.2</td><td className='p-3'>High</td><td className='p-3'><span className='text-red-600 font-bold'>No</span></td><td className='p-3'>$0.40 &ndash; $0.65/sqft</td>
                 </tr>
               </tbody>
             </table>
@@ -288,28 +223,24 @@ export default function BasementInsulationGuide() {
           <div className='bg-amber-50 border-l-4 border-amber-500 rounded-r-2xl p-6 my-8 not-prose'>
             <p className='text-sm font-bold text-amber-700 uppercase tracking-widest mb-2'>Critical Warning</p>
             <p className='text-slate-700 font-medium'>
-              Fiberglass and mineral wool batts installed directly against a basement wall — with or without a poly vapor barrier — are the number one cause of hidden mold in basements. Always place air-impermeable rigid foam or closed-cell spray foam against the concrete first.
+              Fiberglass and mineral wool batts installed directly against a basement wall &mdash; with or without a poly vapor barrier &mdash; are the number one cause of hidden mold in basements. Always place air-impermeable rigid foam or closed-cell spray foam against the concrete first.
             </p>
           </div>
 
-          <p>
-            <strong>Polyiso caution:</strong> Polyisocyanurate has the highest R-value per inch, but its paper or foil facers can trap moisture if installed against damp concrete. It also loses R-value at cold temperatures. XPS and closed-cell spray foam are generally safer choices for below-grade walls.
-          </p>
+          <p><strong>Polyiso caution:</strong> Polyisocyanurate has the highest R-value per inch, but its paper or foil facers can trap moisture if installed against damp concrete. It also loses R-value at cold temperatures. XPS and closed-cell spray foam are generally safer choices for below-grade walls.</p>
 
           {/* Installation Approaches */}
           <h2 className='text-4xl mb-6'>Installation Approaches</h2>
           <p className='font-semibold text-slate-800 text-xl mb-4'>Three Proven Methods for Basement Wall Insulation</p>
 
           <h3 className='text-2xl font-bold mt-8 mb-4'>Approach 1: Rigid Foam Board + Stud Wall</h3>
-          <p>
-            This is the most common and recommended method for DIY homeowners. It combines continuous rigid foam against the concrete for moisture control with a framed stud wall for running electrical, plumbing, and hanging drywall.
-          </p>
+          <p>This is the most common and recommended method for DIY homeowners. It combines continuous rigid foam against the concrete for moisture control with a framed stud wall for running electrical, plumbing, and hanging drywall.</p>
 
           <div className='bg-slate-50 rounded-2xl p-6 my-8 not-prose border border-slate-200'>
             <h3 className='font-bold text-slate-900 text-lg mb-4'>Step-by-Step: Rigid Foam + Stud Wall</h3>
             <ul className='space-y-3 text-slate-600'>
               <li className='flex items-start gap-2'><span className='text-teal-500 font-bold'>1.</span> Resolve all bulk water issues. Ensure walls are dry for 30+ days before starting.</li>
-              <li className='flex items-start gap-2'><span className='text-teal-500 font-bold'>2.</span> Cut XPS or EPS rigid foam boards to fit between floor slab and rim joist area. Use 1.5-inch to 2-inch thick panels for Zones 3–4, or 2-inch to 3-inch for Zones 5–8.</li>
+              <li className='flex items-start gap-2'><span className='text-teal-500 font-bold'>2.</span> Cut XPS or EPS rigid foam boards to fit between floor slab and rim joist area. Use 1.5-inch to 2-inch thick panels for Zones 3&ndash;4, or 2-inch to 3-inch for Zones 5&ndash;8.</li>
               <li className='flex items-start gap-2'><span className='text-teal-500 font-bold'>3.</span> Attach panels to concrete using construction adhesive (not mechanical fasteners that penetrate the waterproofing).</li>
               <li className='flex items-start gap-2'><span className='text-teal-500 font-bold'>4.</span> Tape all seams with foil tape or housewrap tape to create a continuous air barrier.</li>
               <li className='flex items-start gap-2'><span className='text-teal-500 font-bold'>5.</span> Frame a 2x4 stud wall 1/2 inch off the foam surface (no direct contact with concrete at bottom plate).</li>
@@ -319,12 +250,8 @@ export default function BasementInsulationGuide() {
           </div>
 
           <h3 className='text-2xl font-bold mt-8 mb-4'>Approach 2: Closed-Cell Spray Foam Only</h3>
-          <p>
-            Closed-cell spray foam applied directly to the concrete wall creates an air barrier, vapor retarder, and insulation layer in a single application. Two inches of closed-cell spray foam delivers approximately R-13 and a vapor permeance below 1.0 perm, meeting code in most climate zones.
-          </p>
-          <p>
-            This approach works best for irregularly shaped walls, stone foundations, and situations where space is limited. The main drawback is cost, which typically runs two to three times more than rigid foam board per square foot installed.
-          </p>
+          <p>Closed-cell spray foam applied directly to the concrete wall creates an air barrier, vapor retarder, and insulation layer in a single application. Two inches of closed-cell spray foam delivers approximately R-13 and a vapor permeance below 1.0 perm, meeting code in most climate zones.</p>
+          <p>This approach works best for irregularly shaped walls, stone foundations, and situations where space is limited. The main drawback is cost, which typically runs two to three times more than rigid foam board per square foot installed.</p>
 
           <div className='grid grid-cols-1 md:grid-cols-2 gap-6 my-8 not-prose'>
             <div className='bg-teal-50 rounded-2xl p-6 border border-teal-100'>
@@ -348,19 +275,13 @@ export default function BasementInsulationGuide() {
           </div>
 
           <h3 className='text-2xl font-bold mt-8 mb-4'>Approach 3: Hybrid Assembly (Foam + Batts)</h3>
-          <p>
-            The hybrid method combines rigid foam or spray foam against the concrete with fiberglass or mineral wool batts in a stud wall cavity. This approach lets you meet high R-value requirements (Zones 5 through 8) more affordably than using foam alone.
-          </p>
-          <p>
-            For example, in Zone 5 (R-15 minimum continuous): Install 2 inches of XPS (R-10) against the concrete, frame a 2x4 wall, and fill cavities with R-13 unfaced fiberglass batts. Total wall R-value: approximately R-23, well above the code minimum.
-          </p>
+          <p>The hybrid method combines rigid foam or spray foam against the concrete with fiberglass or mineral wool batts in a stud wall cavity. This approach lets you meet high R-value requirements (Zones 5 through 8) more affordably than using foam alone.</p>
+          <p>For example, in Zone 5 (R-15 minimum continuous): Install 2 inches of XPS (R-10) against the concrete, frame a 2x4 wall, and fill cavities with R-13 unfaced fiberglass batts. Total wall R-value: approximately R-23, well above the code minimum.</p>
 
           {/* Rim Joist */}
           <h2 className='text-4xl mb-6'>Rim Joist Insulation</h2>
           <p className='font-semibold text-slate-800 text-xl mb-4'>The Most Overlooked Energy Loss Point</p>
-          <p>
-            The rim joist (also called the band joist) sits on top of the foundation wall where the floor framing meets the sill plate. It is one of the leakiest areas in any home. Air sealing and insulating the rim joist is the single highest-return insulation upgrade in most basements.
-          </p>
+          <p>The rim joist (also called the band joist) sits on top of the foundation wall where the floor framing meets the sill plate. It is one of the leakiest areas in any home. Air sealing and insulating the rim joist is the single highest-return insulation upgrade in most basements.</p>
 
           <div className='bg-slate-50 rounded-2xl p-6 my-8 not-prose border border-slate-200'>
             <h3 className='font-bold text-slate-900 text-lg mb-4'>How to Insulate Rim Joists</h3>
@@ -376,9 +297,7 @@ export default function BasementInsulationGuide() {
           {/* Recommended Products */}
           <h2 className='text-4xl mb-6'>Recommended Products</h2>
           <p className='font-semibold text-slate-800 text-xl mb-4'>Top-Rated Insulation Products for Basement Walls</p>
-          <p>
-            These are the products most commonly recommended by building science professionals for below-grade wall insulation. We have included affiliate links for convenience.
-          </p>
+          <p>These are the products most commonly recommended by building science professionals for below-grade wall insulation. We have included affiliate links for convenience.</p>
 
           <div className='grid grid-cols-1 md:grid-cols-3 gap-6 my-10 not-prose'>
             <a href='https://amzn.to/4l3Zcsc' target='_blank' rel='noopener noreferrer sponsored' className='block bg-white rounded-2xl border-2 border-slate-200 hover:border-teal-400 hover:shadow-lg transition-all p-6'>
@@ -404,9 +323,7 @@ export default function BasementInsulationGuide() {
           {/* Cost Breakdown */}
           <h2 className='text-4xl mb-6'>Cost Breakdown</h2>
           <p className='font-semibold text-slate-800 text-xl mb-4'>What Basement Insulation Actually Costs in 2026</p>
-          <p>
-            Costs vary widely based on insulation type, wall area, climate zone requirements, and whether you hire a professional or do it yourself. The table below shows typical installed costs for a standard 1,000-square-foot basement (approximately 680 square feet of wall area).
-          </p>
+          <p>Costs vary widely based on insulation type, wall area, climate zone requirements, and whether you hire a professional or do it yourself. The table below shows typical installed costs for a standard 1,000-square-foot basement (approximately 680 square feet of wall area).</p>
 
           <div className='overflow-x-auto my-8 not-prose'>
             <table className='w-full text-sm border-collapse'>
@@ -420,28 +337,16 @@ export default function BasementInsulationGuide() {
               </thead>
               <tbody>
                 <tr className='border-b border-slate-200'>
-                  <td className='p-3 font-medium'>2&quot; XPS + Stud Wall + Drywall</td>
-                  <td className='p-3'>$1,200 – $2,000</td>
-                  <td className='p-3'>$3,500 – $6,000</td>
-                  <td className='p-3'>R-10 to R-23</td>
+                  <td className='p-3 font-medium'>2&quot; XPS + Stud Wall + Drywall</td><td className='p-3'>$1,200 &ndash; $2,000</td><td className='p-3'>$3,500 &ndash; $6,000</td><td className='p-3'>R-10 to R-23</td>
                 </tr>
                 <tr className='border-b border-slate-200 bg-slate-50'>
-                  <td className='p-3 font-medium'>Closed-Cell Spray Foam (2&quot;)</td>
-                  <td className='p-3'>N/A (pro only)</td>
-                  <td className='p-3'>$2,500 – $5,000</td>
-                  <td className='p-3'>R-13</td>
+                  <td className='p-3 font-medium'>Closed-Cell Spray Foam (2&quot;)</td><td className='p-3'>N/A (pro only)</td><td className='p-3'>$2,500 &ndash; $5,000</td><td className='p-3'>R-13</td>
                 </tr>
                 <tr className='border-b border-slate-200'>
-                  <td className='p-3 font-medium'>Spray Foam + Stud + Drywall</td>
-                  <td className='p-3'>N/A (pro only)</td>
-                  <td className='p-3'>$5,000 – $9,000</td>
-                  <td className='p-3'>R-13 to R-26</td>
+                  <td className='p-3 font-medium'>Spray Foam + Stud + Drywall</td><td className='p-3'>N/A (pro only)</td><td className='p-3'>$5,000 &ndash; $9,000</td><td className='p-3'>R-13 to R-26</td>
                 </tr>
                 <tr className='border-b border-slate-200 bg-slate-50'>
-                  <td className='p-3 font-medium'>Rim Joist Only (XPS + Canned Foam)</td>
-                  <td className='p-3'>$150 – $400</td>
-                  <td className='p-3'>$500 – $1,200</td>
-                  <td className='p-3'>R-10 to R-15</td>
+                  <td className='p-3 font-medium'>Rim Joist Only (XPS + Canned Foam)</td><td className='p-3'>$150 &ndash; $400</td><td className='p-3'>$500 &ndash; $1,200</td><td className='p-3'>R-10 to R-15</td>
                 </tr>
               </tbody>
             </table>
@@ -580,6 +485,7 @@ export default function BasementInsulationGuide() {
 
           {/* Related Guides */}
           <h2 className='text-4xl mb-6'>Related Guides</h2>
+
           <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 my-8 not-prose'>
             <Link href='/articles/french-drain-cost' className='block bg-slate-50 rounded-2xl p-5 border border-slate-200 hover:border-teal-300 hover:shadow-md transition-all'>
               <h3 className='font-bold text-slate-900 mb-1'>French Drain Cost Guide</h3>
@@ -593,7 +499,7 @@ export default function BasementInsulationGuide() {
               <h3 className='font-bold text-slate-900 mb-1'>Preventing Basement Mold</h3>
               <p className='text-slate-500 text-sm'>Steps to keep mold from forming in your basement.</p>
             </Link>
-                        <Link href='/articles/old-house-basements' className='block bg-slate-50 rounded-2xl p-5 border border-slate-200 hover:border-teal-300 hover:shadow-md transition-all'>
+            <Link href='/articles/old-house-basements' className='block bg-slate-50 rounded-2xl p-5 border border-slate-200 hover:border-teal-300 hover:shadow-md transition-all'>
               <h3 className='font-bold text-slate-900 mb-1'>Old House Basements Guide</h3>
               <p className='text-slate-500 text-sm'>Insulating and waterproofing basements in older homes built before 1950.</p>
             </Link>
@@ -601,9 +507,8 @@ export default function BasementInsulationGuide() {
 
           {/* CTA */}
           <LeadForm />
-
         </div>
       </main>
     </div>
-  );
+  )
 }
