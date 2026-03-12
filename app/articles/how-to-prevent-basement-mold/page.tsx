@@ -285,3 +285,179 @@ export default function PreventMoldArticle() {
             </table>
           </div>
         </section>
+
+                  {/* What to Do If You Find Mold */}
+          <section className='mt-16 pt-8 border-t border-slate-100'>
+            <div className='flex items-center gap-2 mb-4'>
+              <span className='bg-red-100 text-red-700 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider'>Action</span>
+              <span className='bg-slate-100 text-slate-600 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider'>Response</span>
+            </div>
+            <h2 className='text-3xl font-bold text-slate-900 mb-4'>What to Do If You Find Mold Growing</h2>
+            <p className='text-slate-700 leading-relaxed mb-6'>
+              If you spot mold early and the affected area is smaller than about 10 square feet, you can usually handle cleanup yourself. Fix the moisture source first, then treat the mold. Never paint over mold or simply spray bleach and walk away.
+            </p>
+            <div className='bg-teal-50 border border-teal-200 rounded-lg p-5 mb-4'>
+              <p className='text-slate-700 font-medium mb-2'>DIY cleanup steps for small areas:</p>
+              <ul className='space-y-2 text-slate-700'>
+                <li>&bull; Identify and fix the moisture source before cleaning.</li>
+                <li>&bull; Wear an N95 mask, gloves, and eye protection.</li>
+                <li>&bull; Use a non-bleach mold cleaner like Concrobium Mold Control on hard surfaces.</li>
+                <li>&bull; Discard porous materials that are heavily affected such as carpet, drywall, and cardboard.</li>
+                <li>&bull; Run a HEPA air purifier during and after cleanup to capture airborne spores.</li>
+                <li>&bull; Improve ventilation and monitor humidity to prevent recurrence.</li>
+              </ul>
+            </div>
+            <div className='bg-amber-50 border border-amber-300 rounded-lg p-5 mb-4'>
+              <p className='text-amber-800 font-bold mb-2'>&#9888;&#65039; When to Call a Professional</p>
+              <p className='text-slate-700'>
+                For mold covering more than 10 square feet, mold inside HVAC systems or wall cavities, or if anyone in the household has respiratory conditions, hire a certified mold remediation professional. See our <Link href='/cost-guides/mold-remediation' className='text-teal-600 hover:text-teal-700 underline'>mold remediation cost guide</Link> for what to expect on pricing.
+              </p>
+            </div>
+          </section>
+
+                  {/* Recommended Tools */}
+          <section className='mt-16 pt-8 border-t border-slate-100'>
+            <div className='flex items-center gap-2 mb-4'>
+              <span className='bg-teal-100 text-teal-700 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider'>Products</span>
+              <span className='bg-slate-100 text-slate-600 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider'>Tested</span>
+            </div>
+            <h2 className='text-3xl font-bold text-slate-900 mb-4'>Recommended Tools &amp; Products</h2>
+            <p className='text-slate-700 leading-relaxed mb-8'>
+              These four tools help thousands of readers stay ahead of mold. They are the ones we use and recommend.
+            </p>
+            <div className='grid md:grid-cols-2 gap-6 mb-8'>
+              <div className='bg-white border border-slate-200 rounded-xl p-6 shadow-sm'>
+                <span className='text-xs font-bold text-teal-600 uppercase tracking-wider'>Mold Test Kit</span>
+                <h3 className='text-lg font-bold text-slate-900 mt-2 mb-2'>My Mold Detective Mold Test Kit</h3>
+                <p className='text-slate-600 text-sm mb-4'>Includes air sampling plates and surface swabs with lab results in days. Perfect for checking after water events or every spring.</p>
+                <a href='https://amzn.to/3MFyPvT' target='_blank' rel='noopener noreferrer' className='text-teal-600 font-semibold hover:text-teal-700'>Check Price on Amazon &rarr;</a>
+              </div>
+              <div className='bg-white border border-slate-200 rounded-xl p-6 shadow-sm'>
+                <span className='text-xs font-bold text-teal-600 uppercase tracking-wider'>Mold Control Spray</span>
+                <h3 className='text-lg font-bold text-slate-900 mt-2 mb-2'>Concrobium Mold Control Spray</h3>
+                <p className='text-slate-600 text-sm mb-4'>EPA-registered, bleach-free spray that kills mold and leaves a protective barrier. Odorless and safe around kids and pets once dry.</p>
+                <a href='https://amzn.to/46nCgOy' target='_blank' rel='noopener noreferrer' className='text-teal-600 font-semibold hover:text-teal-700'>Check Price on Amazon &rarr;</a>
+              </div>
+              <div className='bg-white border border-slate-200 rounded-xl p-6 shadow-sm'>
+                <span className='text-xs font-bold text-teal-600 uppercase tracking-wider'>HEPA Air Purifier</span>
+                <h3 className='text-lg font-bold text-slate-900 mt-2 mb-2'>Levoit Core 600S True HEPA Air Purifier</h3>
+                <p className='text-slate-600 text-sm mb-4'>Handles large basements quietly with an app for real-time air quality. Captures 99.97 percent of mold spores.</p>
+                <a href='https://amzn.to/4kVbxP3' target='_blank' rel='noopener noreferrer' className='text-teal-600 font-semibold hover:text-teal-700'>Check Price on Amazon &rarr;</a>
+              </div>
+              <div className='bg-white border border-slate-200 rounded-xl p-6 shadow-sm'>
+                <span className='text-xs font-bold text-teal-600 uppercase tracking-wider'>Moisture Meter</span>
+                <h3 className='text-lg font-bold text-slate-900 mt-2 mb-2'>Klein Tools ET140 Pinless Moisture Meter</h3>
+                <p className='text-slate-600 text-sm mb-4'>Scans drywall, concrete, and wood without holes. Instant readings with clear alerts. Check suspect areas monthly.</p>
+                <a href='https://amzn.to/4qXiocj' target='_blank' rel='noopener noreferrer' className='text-teal-600 font-semibold hover:text-teal-700'>Check Price on Amazon &rarr;</a>
+              </div>
+            </div>
+          </section>
+
+                  {/* Seasonal Checklist */}
+          <section className='mt-16 pt-8 border-t border-slate-100'>
+            <h2 className='text-3xl font-bold text-slate-900 mb-6'>Seasonal Prevention Checklist</h2>
+            <div className='grid md:grid-cols-2 gap-6 mb-8'>
+              <div className='bg-green-50 border border-green-200 rounded-xl p-6'>
+                <h3 className='text-lg font-bold text-slate-900 mb-2'>&#127793; Spring</h3>
+                <p className='text-slate-700'>Deep clean the basement, test humidity levels, clean gutters and downspouts, inspect the sump pump, and check for any winter water damage.</p>
+              </div>
+              <div className='bg-yellow-50 border border-yellow-200 rounded-xl p-6'>
+                <h3 className='text-lg font-bold text-slate-900 mb-2'>&#9728;&#65039; Summer</h3>
+                <p className='text-slate-700'>Run the dehumidifier continuously, keep basement windows closed on humid days, check for condensation on walls and pipes, and monitor humidity readings closely.</p>
+              </div>
+              <div className='bg-orange-50 border border-orange-200 rounded-xl p-6'>
+                <h3 className='text-lg font-bold text-slate-900 mb-2'>&#127810; Fall</h3>
+                <p className='text-slate-700'>Inspect yard grading before heavy rains, service the HVAC system, clean gutters again, and check window wells and foundation for new cracks.</p>
+              </div>
+              <div className='bg-blue-50 border border-blue-200 rounded-xl p-6'>
+                <h3 className='text-lg font-bold text-slate-900 mb-2'>&#10052;&#65039; Winter</h3>
+                <p className='text-slate-700'>Watch for pipe condensation, use a small space heater if the basement drops below 60 degrees, keep the dehumidifier running if humidity rises, and check for ice dams affecting the foundation.</p>
+              </div>
+            </div>
+          </section>
+
+                  {/* Conclusion */}
+          <section className='mt-16 pt-8 border-t border-slate-100'>
+            <h2 className='text-3xl font-bold text-slate-900 mb-4'>Don&apos;t Negotiate with Mold</h2>
+            <p className='text-slate-700 leading-relaxed mb-4'>
+              Prevention is simple and effective when you stay consistent. Address moisture first, monitor with the right tools, and protect your space. Thousands of homeowners have turned damp basements into dry, usable areas with these steps.
+            </p>
+            <p className='text-slate-700 leading-relaxed mb-4'>
+              If the musty smell returns, act early. Prevention costs far less than remediation. The musty smell really is mold eating your home. Stop it before it starts.
+            </p>
+          </section>
+
+                  {/* FAQ Section */}
+          <section className='mt-16 pt-8 border-t border-slate-100'>
+            <h2 className='text-3xl font-bold text-slate-900 mb-6'>Frequently Asked Questions</h2>
+            <div className='space-y-6'>
+              <div>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>How do I prevent mold in my basement?</h4>
+                <p className='text-slate-700'>Keep relative humidity below 50 percent year-round using a properly sized dehumidifier, control exterior water with clean gutters and proper yard grading, seal foundation cracks, maintain good air circulation, and monitor humidity levels weekly with a digital hygrometer.</p>
+              </div>
+              <div>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>What humidity level causes mold in a basement?</h4>
+                <p className='text-slate-700'>Mold spores can begin germinating on surfaces when relative humidity stays above 55 percent for extended periods. The EPA recommends keeping indoor humidity between 30 and 50 percent. For basements, aim for 45 percent or below.</p>
+              </div>
+              <div>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Can I use bleach to kill basement mold?</h4>
+                <p className='text-slate-700'>Bleach works only on non-porous hard surfaces and does not kill mold roots embedded in porous materials like drywall and wood. Use a non-bleach mold cleaner like Concrobium for better results on most basement surfaces.</p>
+              </div>
+              <div>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Will a dehumidifier prevent basement mold?</h4>
+                <p className='text-slate-700'>A dehumidifier addresses the biggest factor in mold growth by keeping humidity low. However, it works best when combined with good exterior drainage, foundation sealing, and proper air circulation. A dehumidifier alone cannot overcome active water intrusion.</p>
+              </div>
+              <div>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>How often should I check my basement for mold?</h4>
+                <p className='text-slate-700'>Do a monthly visual walkthrough with a flashlight, checking behind furniture and stored items. Check humidity readings weekly. Test air quality with a mold test kit at least once a year or after any water event.</p>
+              </div>
+            </div>
+          </section>
+
+                  {/* Related Guides */}
+          <section className='mt-16 pt-8 border-t border-slate-100'>
+            <h2 className='text-3xl font-bold text-slate-900 mb-6'>Related Guides</h2>
+            <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-6'>
+              <Link href='/cost-guides/mold-remediation' className='block bg-white border border-slate-200 rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Mold Remediation Cost Guide</h4>
+                <p className='text-slate-600 text-sm'>What to expect for professional mold removal pricing in 2026.</p>
+              </Link>
+              <Link href='/articles/dehumidifier-myths' className='block bg-white border border-slate-200 rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Dehumidifier Myths &amp; Sizing Guide</h4>
+                <p className='text-slate-600 text-sm'>Why your 30-pint unit is failing and the science of proper sizing.</p>
+              </Link>
+              <Link href='/cost-guides/basement-waterproofing' className='block bg-white border border-slate-200 rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Basement Waterproofing Cost Guide</h4>
+                <p className='text-slate-600 text-sm'>What to expect for professional waterproofing pricing in 2026.</p>
+              </Link>
+              <Link href='/guides/sump-pump-buying-guide' className='block bg-white border border-slate-200 rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Sump Pump Buying Guide</h4>
+                <p className='text-slate-600 text-sm'>Choose the right sump pump to protect your basement from flooding.</p>
+              </Link>
+              <Link href='/guides/basement-insulation' className='block bg-white border border-slate-200 rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Basement Insulation Guide</h4>
+                <p className='text-slate-600 text-sm'>Proper insulation works hand-in-hand with humidity control.</p>
+              </Link>
+              <Link href='/articles/musty-basement-smell' className='block bg-white border border-slate-200 rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Musty Basement Smell Guide</h4>
+                <p className='text-slate-600 text-sm'>Track down and eliminate that damp, earthy odor for good.</p>
+              </Link>
+            </div>
+          </section>
+
+                  {/* Lead Form CTA */}
+          <section className='mt-16 pt-8 border-t border-slate-100'>
+            <div className='bg-slate-900 rounded-2xl p-8 md:p-12 text-center'>
+              <h2 className='text-3xl font-bold text-white mb-4'>Suspect a Mold Issue?</h2>
+              <p className='text-slate-300 mb-8 max-w-2xl mx-auto'>
+                Connect with local mold remediation and waterproofing professionals for a free assessment of your moisture problems.
+              </p>
+              <LeadForm />
+            </div>
+          </section>
+
+        </div>
+      </article>
+    </div>
+  )
+}
