@@ -78,7 +78,7 @@ export default function BasementEfflorescenceArticle() {
           </div>
           <h2 className='text-3xl font-bold text-slate-900 mb-8'>Why Does Efflorescence Appear in Basements?</h2>
           <p className='text-lg text-slate-700 leading-relaxed mb-8'>
-            Basements are especially prone because they are below ground level and constantly exposed to soil moisture. If the powder shows up after rain, reappears after cleaning, or gets worse in humid seasons, it is a strong sign of ongoing water movement.
+            Basements are especially prone because they are below ground level and constantly exposed to <Link href='/articles/wet-basement-walls' className='text-teal-600 underline'>soil moisture</Link>. If the powder shows up after rain, reappears after cleaning, or gets worse in humid seasons, it is a strong sign of ongoing water movement.
           </p>
 
           <h3 className='text-xl font-bold text-slate-800 mb-6'>Common Triggers</h3>
@@ -233,7 +233,7 @@ export default function BasementEfflorescenceArticle() {
                 <div className='w-8 h-8 rounded-full bg-teal-100 text-teal-700 flex items-center justify-center font-bold text-sm flex-shrink-0 mt-0.5'>4</div>
                 <div>
                   <h4 className='font-bold text-slate-900 mb-1'>Seal After Cleaning (Optional)</h4>
-                  <p className='text-slate-600'>Apply a breathable concrete sealer or <Link href='/articles/crystalline-waterproofing' className='text-teal-600 underline hover:text-teal-800'>crystalline waterproofing</Link> product to help prevent future deposits.</p>
+                  <p className='text-slate-600'>Apply a <Link href='/articles/waterproof-basement-paint-sealers' className='text-teal-600 underline'>breathable concrete sealer</Link> or <Link href='/articles/crystalline-waterproofing' className='text-teal-600 underline hover:text-teal-800'>crystalline waterproofing</Link> product to help prevent future deposits.</p>
                 </div>
               </div>
             </div>
@@ -289,7 +289,7 @@ export default function BasementEfflorescenceArticle() {
                 <div className='w-8 h-8 rounded-full bg-teal-100 text-teal-700 flex items-center justify-center font-bold text-sm flex-shrink-0 mt-0.5'>4</div>
                 <div>
                   <h4 className='font-bold text-slate-900 mb-1'>Install Interior Drainage</h4>
-                  <p className='text-slate-600'>Perimeter drains and a <Link href='/articles/sump-pump-buying-guide' className='text-teal-600 underline hover:text-teal-800'>sump pump</Link> collect seepage before it reaches your walls and floor surfaces.</p>
+                  <p className='text-slate-600'><Link href='/articles/interior-basement-drainage-systems' className='text-teal-600 underline'>Perimeter drains</Link> and a <Link href='/articles/sump-pump-buying-guide' className='text-teal-600 underline hover:text-teal-800'>sump pump</Link> collect seepage before it reaches your walls and floor surfaces.</p>
                 </div>
               </div>
             </div>
@@ -298,7 +298,7 @@ export default function BasementEfflorescenceArticle() {
                 <div className='w-8 h-8 rounded-full bg-teal-100 text-teal-700 flex items-center justify-center font-bold text-sm flex-shrink-0 mt-0.5'>5</div>
                 <div>
                   <h4 className='font-bold text-slate-900 mb-1'>Exterior Membrane (Severe Cases)</h4>
-                  <p className='text-slate-600'>For serious water intrusion, dig around the foundation and apply a waterproof coating to the exterior wall surface.</p>
+                  <p className='text-slate-600'>For serious water intrusion, dig around the foundation and apply a <Link href='/articles/basement-waterproofing-cost' className='text-teal-600 underline'>waterproof coating</Link> to the exterior wall surface.</p>
                 </div>
               </div>
             </div>
@@ -307,7 +307,7 @@ export default function BasementEfflorescenceArticle() {
                 <div className='w-8 h-8 rounded-full bg-teal-100 text-teal-700 flex items-center justify-center font-bold text-sm flex-shrink-0 mt-0.5'>6</div>
                 <div>
                   <h4 className='font-bold text-slate-900 mb-1'>Control Humidity</h4>
-                  <p className='text-slate-600'>Run a dehumidifier to keep basement air below 50% relative humidity, reducing condensation that contributes to salt deposits.</p>
+                  <p className='text-slate-600'>Run a <Link href='/articles/best-basement-dehumidifiers' className='text-teal-600 underline'>dehumidifier</Link> to keep basement air below 50 percent relative <Link href='/articles/basement-humidity-guide' className='text-teal-600 underline'>humidity</Link>, reducing condensation that contributes to salt deposits.</p>
                 </div>
               </div>
             </div>
@@ -332,7 +332,7 @@ export default function BasementEfflorescenceArticle() {
               <p className='text-slate-600 text-sm'>Many contractors offer free evaluations</p>
             </div>
             <div className='bg-slate-50 rounded-xl p-6 text-center border border-slate-100'>
-              <p className='text-2xl font-bold text-teal-600 mb-2'>$200&ndash;$500</p>
+              <p className='text-2xl font-bold text-teal-600 mb-2'>$200 to $500</p>
               <p className='font-bold text-slate-900 mb-1'>Moisture Testing</p>
               <p className='text-slate-600 text-sm'>Moisture meter or thermal imaging to find hidden sources</p>
             </div>
@@ -380,6 +380,33 @@ export default function BasementEfflorescenceArticle() {
           </div>
         </div>
 
+            {/* FAQ Section */}
+            <div className='mb-20'>
+              <div className='flex items-center space-x-3 mb-4'>
+                <span className='text-teal-600 font-bold text-sm tracking-wider uppercase'>Questions</span>
+                <span className='text-slate-300 font-bold text-sm tracking-wider uppercase'>&nbsp; FAQ</span>
+              </div>
+              <h2 className='text-3xl font-bold text-slate-900 mb-8'>Frequently Asked Questions About Basement Efflorescence</h2>
+              <div className='space-y-6'>
+                <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+                  <h3 className='font-bold text-slate-900 mb-2'>What is the white powder on my basement walls?</h3>
+                  <p className='text-slate-600'>The white powder on basement walls is almost always efflorescence, which is a deposit of mineral salts left behind when water passes through concrete or masonry and evaporates on the interior surface. It is not mold, not toxic, and not harmful to your health. However, it is a reliable indicator that water is actively moving through your foundation.</p>
+                </div>
+                <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+                  <h3 className='font-bold text-slate-900 mb-2'>Is basement efflorescence dangerous?</h3>
+                  <p className='text-slate-600'>Efflorescence itself is not dangerous. The mineral salts are harmless. The concern is the moisture behind the efflorescence, which can cause mold growth, foundation crack expansion, and concrete deterioration over time. Think of efflorescence as an early warning sign that should prompt you to investigate the moisture source.</p>
+                </div>
+                <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+                  <h3 className='font-bold text-slate-900 mb-2'>Can I paint over efflorescence?</h3>
+                  <p className='text-slate-600'>You should not paint directly over efflorescence. The salt deposits prevent paint from bonding properly to the concrete surface. Paint applied over efflorescence will peel, bubble, and flake within months. Always remove efflorescence completely, allow the surface to dry, and then apply a waterproof sealer before painting.</p>
+                </div>
+                <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+                  <h3 className='font-bold text-slate-900 mb-2'>Will efflorescence go away on its own?</h3>
+                  <p className='text-slate-600'>Efflorescence on new concrete may diminish over the first 1 to 2 years as free salts from the curing process are depleted. However, efflorescence on older basement walls will not go away on its own because the water source driving it is ongoing. Until the water movement stops, the efflorescence will continue.</p>
+                </div>
+              </div>
+            </div>
+
         {/* Glossary */}
         <div className='mb-20'>
           <div className='flex items-center space-x-3 mb-4'>
@@ -390,26 +417,37 @@ export default function BasementEfflorescenceArticle() {
           <div className='space-y-4'>
             <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
               <h4 className='font-bold text-slate-900 mb-1'>Efflorescence</h4>
-              <p className='text-slate-600'>White, powdery salt deposits on concrete or masonry caused by water carrying soluble salts to the surface where they crystallize as the water evaporates.</p>
+              <p className='text-slate-600'>A white, powdery or crystalline deposit of mineral salts that forms on the surface of concrete, brick, block, or stone when water passes through the porous material, dissolves soluble salts, and evaporates on the interior face. The salts left behind are primarily calcium carbonate, sodium carbonate, and potassium carbonate. Efflorescence is a visual indicator of active moisture movement through masonry.</p>
             </div>
             <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
               <h4 className='font-bold text-slate-900 mb-1'>Hydrostatic Pressure</h4>
-              <p className='text-slate-600'>The force of groundwater pushing against foundation walls or floors, often forcing water through pores and cracks.</p>
+              <p className='text-slate-600'>The lateral force exerted by water-saturated soil against a foundation wall or floor. Hydrostatic pressure is the primary driver of water intrusion in basements and forces water through cracks, joints, and porous concrete at a higher rate and volume than capillary action alone. It is also a primary cause of bowing basement walls.</p>
             </div>
             <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
               <h4 className='font-bold text-slate-900 mb-1'>Porous Concrete</h4>
-              <p className='text-slate-600'>Concrete with tiny open pores and capillaries that allow water and dissolved salts to pass through.</p>
+              <p className='text-slate-600'>Concrete with tiny open pores and capillaries that allow water and dissolved salts to pass through by capillary action. Even concrete with no visible cracks allows moisture migration through its microscopic pore structure. The porosity of concrete is a primary pathway for the water movement that causes efflorescence.</p>
             </div>
             <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
               <h4 className='font-bold text-slate-900 mb-1'>Crystalline Waterproofing</h4>
-              <p className='text-slate-600'>A treatment that penetrates concrete and grows insoluble crystals to seal pores and self-heal small cracks.</p>
+              <p className='text-slate-600'>A chemical treatment applied to concrete surfaces that reacts with moisture and calcium hydroxide in the concrete to form insoluble crystals within pores and micro-cracks. These crystals permanently seal the pathways that water and dissolved salts use to migrate through the concrete. Crystalline products also have self-healing properties for small future cracks.</p>
             </div>
             <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
               <h4 className='font-bold text-slate-900 mb-1'>Footer Drains</h4>
-              <p className='text-slate-600'>Perforated pipes installed at the base of the foundation to collect and redirect groundwater away from the structure.</p>
+              <p className='text-slate-600'>A perforated pipe installed at the base of the foundation at the footing level to collect and redirect groundwater away from the structure. Footer drains can be installed on the exterior during construction or on the interior as part of a basement waterproofing system. Missing or failed footer drains are a common cause of persistent efflorescence because groundwater has no path away from the foundation.</p>
             </div>
           </div>
         </div>
+
+            {/* Cross-Network Links */}
+            <div className='mb-16'>
+              <h2 className='text-3xl font-bold text-slate-900 mb-6'>Our Network</h2>
+              <p className='text-lg text-slate-700 leading-relaxed mb-4'>
+                <a href='https://thegarage.guide/problems/cracked-garage-floor' className='text-teal-600 underline' target='_blank' rel='noopener noreferrer'>The Garage Guide</a> covers cracked garage floors, which can show the same efflorescence deposits when moisture migrates through garage slab concrete.
+              </p>
+              <p className='text-lg text-slate-700 leading-relaxed'>
+                <a href='https://theseptic.guide/problems/septic-smell-in-yard' className='text-teal-600 underline' target='_blank' rel='noopener noreferrer'>The Septic Guide</a> covers septic smell in yard, which homeowners sometimes investigate alongside basement efflorescence when they notice both moisture signs and unusual odors around their foundation.
+              </p>
+            </div>
 
         {/* Related Guides */}
         <div className='mb-20'>
