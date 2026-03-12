@@ -124,7 +124,7 @@ export default function BasementInsulationGuide() {
         </p>
 
         {/* Why Insulate Your Basement */}
-        <h2 className='text-4xl mb-6'>Why Insulate Your Basement?</h2>
+        <h2 className='text-4xl mt-16 mb-6'>Why Insulate Your Basement?</h2>
         <p>Four clear outcomes appear consistently in the 2026 data for anyone adding basement insulation.</p>
 
         <h3 className='text-2xl font-bold mt-8 mb-4'>Energy Savings</h3>
@@ -147,7 +147,7 @@ export default function BasementInsulationGuide() {
         </div>
 
         {/* Moisture Science */}
-        <h2 className='text-4xl mb-6'>Basement Moisture Science</h2>
+        <h2 className='text-4xl mt-16 mb-6'>Basement Moisture Science</h2>
         <p className='font-semibold text-slate-800 text-xl mb-4'>The Foundation of Every Insulation Job</p>
         <p>Concrete foundation walls stay cold year-round because they sit against 50 to 55 degree soil. Warm, humid indoor air that reaches those surfaces can condense, especially in summer. Building Science Corporation research shows the safest approach keeps interior air away from cold concrete while allowing any incidental moisture to dry inward.</p>
 
@@ -163,7 +163,7 @@ export default function BasementInsulationGuide() {
         <p>For a detailed comparison of the two most common foam insulation types used in basements, see our <Link href='/articles/spray-foam-vs-rigid-foam-insulation' className='text-violet-600 hover:underline'>spray foam vs rigid foam insulation comparison</Link>.</p>
 
         {/* Code Requirements */}
-        <h2 className='text-4xl mb-6'>Code Requirements &amp; R-Values by Climate Zone</h2>
+        <h2 className='text-4xl mt-16 mb-6'>Code Requirements &amp; R-Values by Climate Zone</h2>
         <p>The 2021 International Residential Code (IRC) sets minimum basement wall insulation requirements based on climate zone. Many states adopt the IRC directly, while others amend it. Always confirm local requirements with your building department before starting. See our <Link href='/articles/basement-permits-guide' className='text-violet-600 hover:underline'>basement permits guide</Link> for information on when permits are required for insulation and finishing projects.</p>
 
         <div className='overflow-x-auto my-8 not-prose'>
@@ -198,7 +198,7 @@ export default function BasementInsulationGuide() {
         <p>&quot;Continuous&quot; means unbroken rigid foam or spray foam against the wall with no gaps at framing members. &quot;Cavity&quot; refers to batt insulation placed between studs in a framed wall. The best assemblies combine both continuous foam against the concrete and cavity insulation in the stud wall for maximum performance.</p>
 
         {/* Insulation Materials */}
-        <h2 className='text-4xl mb-6'>Basement Insulation Materials Compared 2026</h2>
+        <h2 className='text-4xl mt-16 mb-6'>Basement Insulation Materials Compared 2026</h2>
         <p>Not every insulation product works safely below grade. Materials must resist moisture, prevent condensation against cold concrete, and meet fire codes. Here is how the main options compare for basement wall applications.</p>
 
         <div className='overflow-x-auto my-8 not-prose'>
@@ -248,7 +248,7 @@ export default function BasementInsulationGuide() {
         <p><strong>Polyiso caution:</strong> Polyisocyanurate has the highest R-value per inch, but its paper or foil facers can trap moisture if installed against damp concrete. Polyiso also loses R-value at cold temperatures (below 50 degrees Fahrenheit), which is exactly the temperature range of basement walls. XPS and closed-cell spray foam are generally safer and more reliable choices for below-grade walls.</p>
 
                     {/* Installation Approaches */}
-                                <h2 className='text-4xl mb-6'>Installation Approaches</h2>
+                                <h2 className='text-4xl mt-16 mb-6'>Installation Approaches</h2>
             <p className='text-lg text-slate-600 mb-4'>Three Proven Methods for Basement Wall Insulation</p>
 
                         <h3 className='text-2xl font-bold mt-8 mb-3'>Approach 1: Rigid Foam Board + Stud Wall</h3>
@@ -295,7 +295,7 @@ export default function BasementInsulationGuide() {
             <p className='mt-3'>For example, in Zone 5 (R-15 minimum continuous): Install 2 inches of XPS (R-10) against the concrete, frame a 2x4 wall, and fill cavities with R-13 unfaced fiberglass batts. Total wall R-value: approximately R-23, well above the code minimum.</p>
 
                         {/* Rim Joist Insulation */}
-            <h2 className='text-4xl mb-6'>Rim Joist Insulation</h2>
+            <h2 className='text-4xl mt-16 mb-6'>Rim Joist Insulation</h2>
             <p className='text-lg text-slate-600 mb-4'>The Most Overlooked Energy Loss Point</p>
             <p>The rim joist (also called the band joist) sits on top of the foundation wall where the floor framing meets the sill plate. It is one of the leakiest areas in any home. Air sealing and insulating the rim joist is the single highest-return insulation upgrade in most basements.</p>
 
@@ -309,7 +309,7 @@ export default function BasementInsulationGuide() {
             </ol>
 
                         {/* Recommended Products */}
-            <h2 className='text-4xl mb-6'>Recommended Products</h2>
+            <h2 className='text-4xl mt-16 mb-6'>Recommended Products</h2>
             <p className='text-lg text-slate-600 mb-4'>Top-Rated Insulation Products for Basement Walls</p>
             <p>These are the products most commonly recommended by building science professionals for below-grade wall insulation. We have included affiliate links for convenience.</p>
 
@@ -335,7 +335,7 @@ export default function BasementInsulationGuide() {
             </div>
 
                         {/* Cost Breakdown */}
-            <h2 className='text-4xl mb-6'>Cost Breakdown</h2>
+            <h2 className='text-4xl mt-16 mb-6'>Cost Breakdown</h2>
             <p className='text-lg text-slate-600 mb-4'>What Basement Insulation Actually Costs in 2026</p>
             <p>Costs vary widely based on insulation type, wall area, climate zone requirements, and whether you hire a professional or do it yourself. The table below shows typical installed costs for a standard 1,000-square-foot basement (approximately 680 square feet of wall area).</p>
 
@@ -384,7 +384,7 @@ export default function BasementInsulationGuide() {
             </div>
 
                         {/* DIY vs Professional */}
-            <h2 className='text-4xl mb-6'>DIY vs. Hiring a Professional</h2>
+            <h2 className='text-4xl mt-16 mb-6'>DIY vs. Hiring a Professional</h2>
             <p className='text-lg text-slate-600 mb-4'>When to Do It Yourself and When to Call a Pro</p>
 
             <div className='grid md:grid-cols-2 gap-6 my-6'>
@@ -410,7 +410,7 @@ export default function BasementInsulationGuide() {
             </div>
 
                         {/* Common Mistakes */}
-            <h2 className='text-4xl mb-6'>Common Insulation Mistakes to Avoid</h2>
+            <h2 className='text-4xl mt-16 mb-6'>Common Insulation Mistakes to Avoid</h2>
             <p className='text-lg text-slate-600 mb-4'>Errors That Lead to Mold, Moisture, and Wasted Money</p>
             <ul className='space-y-4 my-6'>
               <li className='flex gap-3'><span className='text-red-600 font-bold'>✗</span><div><strong>Fiberglass batts against concrete:</strong> Absorbs moisture, traps condensation, and breeds mold behind the wall within 1 to 3 years.</div></li>
@@ -422,7 +422,7 @@ export default function BasementInsulationGuide() {
             </ul>
 
                         {/* FAQ */}
-            <h2 className='text-4xl mb-6'>Frequently Asked Questions</h2>
+            <h2 className='text-4xl mt-16 mb-6'>Frequently Asked Questions</h2>
             <div className='space-y-4 my-6'>
               <details className='border border-slate-200 rounded-xl p-4'>
                 <summary className='font-bold cursor-pointer'>What is the best insulation for basement walls?</summary>
@@ -452,7 +452,7 @@ export default function BasementInsulationGuide() {
 
                         {/* Related Guides */}
             <div className='my-12'>
-              <h2 className='text-4xl mb-6'>Related Guides</h2>
+              <h2 className='text-4xl mt-16 mb-6'>Related Guides</h2>
               <div className='grid md:grid-cols-2 gap-4'>
                 <Link href='/articles/french-drain-cost' className='block bg-slate-50 rounded-xl p-5 hover:bg-slate-100 transition-colors'>
                   <h3 className='font-bold text-slate-900'>French Drain Cost Guide</h3>
