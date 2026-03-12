@@ -32,7 +32,7 @@ export default function BowingWallsArticle() {
                   name: 'How much does bowing basement wall repair cost in 2026?',
                   acceptedAnswer: {
                     '@type': 'Answer',
-                    text: 'The national average is approximately $4,500 with a range of $2,000 to $12,000. Carbon fiber straps cost $2,000 to $5,000, wall anchors $3,000 to $8,000, steel I-beams $4,000 to $10,000, and full wall replacement $10,000 to $25,000.',
+                    text: 'The national average is approximately $4,500 with a range of $2,000 to $25,000 depending on severity and repair method. Carbon fiber straps cost $2,000 to $5,000, wall anchors $3,000 to $8,000, steel I-beams $4,000 to $10,000, and full wall replacement $10,000 to $25,000.',
                   },
                 },
                 {
@@ -40,7 +40,7 @@ export default function BowingWallsArticle() {
                   name: 'Can I fix bowing basement walls myself?',
                   acceptedAnswer: {
                     '@type': 'Answer',
-                    text: 'DIY repair of bowing basement walls is not recommended. Structural foundation repairs require engineering knowledge, specialized equipment, and professional installation. The only DIY step you should take is monitoring the bow and tracking changes monthly.',
+                    text: 'DIY repair of bowing basement walls is not recommended. Structural foundation repairs require engineering knowledge, specialized equipment, and professional installation. The only DIY step you should take is monitoring the bow and tracking changes monthly until a professional evaluates it.',
                   },
                 },
                 {
@@ -48,7 +48,7 @@ export default function BowingWallsArticle() {
                   name: 'Are bowing basement walls dangerous?',
                   acceptedAnswer: {
                     '@type': 'Answer',
-                    text: 'Yes. A bowing basement wall is a structural problem that can lead to wall collapse in severe cases. Even moderate bowing opens cracks that allow water entry, leading to mold growth and wood rot. Homes with visibly bowing walls typically lose 10 to 20 percent of their value.',
+                    text: 'Yes. A bowing basement wall is a structural problem that can lead to wall collapse in severe cases. Even moderate bowing compromises the wall ability to support the house and resist soil pressure. Homes with visibly bowing walls typically lose 10 to 20 percent of their value.',
                   },
                 },
                 {
@@ -56,7 +56,15 @@ export default function BowingWallsArticle() {
                   name: 'How long do bowing basement wall repairs last?',
                   acceptedAnswer: {
                     '@type': 'Answer',
-                    text: 'Carbon fiber straps are permanent with 25-year or lifetime warranties. Wall anchors last 25 to 50 years. Steel I-beams are permanent. Full wall replacements last 50 or more years.',
+                    text: 'Carbon fiber straps are permanent with 25-year or lifetime warranties. Wall anchors last 25 to 50 years with periodic tightening. Steel I-beams are permanent. Full wall replacements last 50 or more years. All repairs should be paired with waterproofing improvements.',
+                  },
+                },
+                {
+                  '@type': 'Question',
+                  name: 'What should I do if my basement wall is only slightly bowed?',
+                  acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: 'If the bowing is less than 1 inch with no horizontal cracks, monitor it closely. Mark crack ends with a pencil and date, measure the bow with a straightedge, and recheck every 30 days. Even stable bowing should be evaluated by a professional.',
                   },
                 },
                 {
@@ -64,7 +72,7 @@ export default function BowingWallsArticle() {
                   name: 'Does homeowners insurance cover bowing basement wall repair?',
                   acceptedAnswer: {
                     '@type': 'Answer',
-                    text: 'Standard homeowners insurance does not cover bowing basement walls because the damage is considered gradual deterioration. Insurance may cover wall damage if it resulted from a sudden covered event such as a flood with flood insurance or storm damage.',
+                    text: 'Standard homeowners insurance does not cover bowing basement walls because the damage is considered gradual deterioration. Insurance may cover damage from a sudden covered event such as a flood with flood insurance, a burst pipe, or storm damage.',
                   },
                 },
               ],
@@ -99,7 +107,7 @@ export default function BowingWallsArticle() {
             <span className='bg-indigo-500/20 text-indigo-300 px-3 py-1 rounded-full font-medium'>BG</span>
             <span className='font-medium'>The Basement Guide Staff</span>
             <span className='text-slate-600'>|</span>
-            <span>Updated Feb 2026 &bull; 22 min read</span>
+            <span>Updated March 2026 &bull; 22 min read</span>
           </div>
         </div>
       </section>
@@ -207,7 +215,7 @@ export default function BowingWallsArticle() {
                     </tr>
                     <tr className='bg-slate-50 border-b border-slate-100'>
                       <td className='p-3 font-medium'>Stair-step cracks following mortar joints in block walls</td>
-                      <td className='p-3'>Differential pressure is causing sections of the wall to shift. See our <Link href='/articles/types-of-foundation-cracks' className='text-indigo-600 underline hover:text-indigo-800'>foundation cracks guide</Link> for more.</td>
+                      <td className='p-3'>Differential pressure is causing sections of the wall to shift. See our <Link href='/articles/types-of-foundation-cracks' className='text-indigo-600 underline hover:text-indigo-800'>foundation cracks guide</Link> for more on stair-step cracks.</td>
                       <td className='p-3 text-orange-700 font-semibold'>Moderate to high.</td>
                     </tr>
                     <tr className='bg-white border-b border-slate-100'>
@@ -217,7 +225,7 @@ export default function BowingWallsArticle() {
                     </tr>
                     <tr className='bg-slate-50 border-b border-slate-100'>
                       <td className='p-3 font-medium'>New water stains, efflorescence, or leaks along the wall</td>
-                      <td className='p-3'>Bowing opens new cracks and gaps that allow water entry. See our <Link href='/articles/basement-efflorescence' className='text-indigo-600 underline hover:text-indigo-800'>basement efflorescence guide</Link>.</td>
+                      <td className='p-3'>Bowing opens new cracks and gaps that allow water entry. See our <Link href='/articles/basement-efflorescence' className='text-indigo-600 underline hover:text-indigo-800'>basement efflorescence guide</Link> for more on white mineral deposits.</td>
                       <td className='p-3 text-orange-700 font-semibold'>Moderate.</td>
                     </tr>
                     <tr className='bg-white border-b border-slate-100'>
@@ -233,7 +241,6 @@ export default function BowingWallsArticle() {
                   </tbody>
                 </table>
               </div>
-
               <h3 className='text-xl font-bold text-slate-900 mt-8 mb-3'>How to Check for Bowing at Home</h3>
               <p className='text-slate-700 leading-relaxed'>
                 Hold a long straightedge (a 4-foot level works well) horizontally against the wall at midpoint height. If you see a gap between the straightedge and the wall, measure it. Any inward displacement of more than 1 inch over an 8-foot span warrants a professional inspection. You can also hang a plumb line from the top of the wall and measure the distance to the wall surface at the midpoint. Take photos with a ruler for scale, date them, and check again every 30 days to track any changes.
@@ -263,7 +270,6 @@ export default function BowingWallsArticle() {
                     <p className='text-sm text-slate-700'><span className='mr-1'>&#128204;</span><strong>Our Pick:</strong> <a href='https://amzn.to/4tZN8fw' target='_blank' rel='noopener noreferrer sponsored' className='text-indigo-600 underline hover:text-indigo-800'>Carbon Fiber Straps</a> &ndash; 10 times stronger than steel in tension, these are the go-to for early-stage bowing repair.</p>
                   </div>
                 </div>
-
                 <div className='bg-white rounded-lg p-6 border border-slate-200 shadow-sm'>
                   <div className='flex items-center gap-3 mb-3'>
                     <span className='bg-indigo-100 text-indigo-700 font-bold px-3 py-1 rounded-full text-sm'>2</span>
@@ -277,7 +283,6 @@ export default function BowingWallsArticle() {
                     <strong>Longevity:</strong> 25 to 50 years with periodic tightening. Most systems include long-term warranties.
                   </p>
                 </div>
-
                 <div className='bg-white rounded-lg p-6 border border-slate-200 shadow-sm'>
                   <div className='flex items-center gap-3 mb-3'>
                     <span className='bg-indigo-100 text-indigo-700 font-bold px-3 py-1 rounded-full text-sm'>3</span>
@@ -291,7 +296,6 @@ export default function BowingWallsArticle() {
                     <strong>Longevity:</strong> Permanent. Steel I-beams have no moving parts and do not degrade.
                   </p>
                 </div>
-
                 <div className='bg-white rounded-lg p-6 border border-slate-200 shadow-sm'>
                   <div className='flex items-center gap-3 mb-3'>
                     <span className='bg-indigo-100 text-indigo-700 font-bold px-3 py-1 rounded-full text-sm'>4</span>
@@ -324,39 +328,19 @@ export default function BowingWallsArticle() {
                   </thead>
                   <tbody>
                     <tr className='bg-slate-50 border-b border-slate-100'>
-                      <td className='p-3 font-medium'>Carbon fiber straps</td>
-                      <td className='p-3'>$2,000 to $5,000</td>
-                      <td className='p-3'>$100 to $250</td>
-                      <td className='p-3'>Minor bowing under 2 inches</td>
-                      <td className='p-3'>No</td>
+                      <td className='p-3 font-medium'>Carbon fiber straps</td><td className='p-3'>$2,000 to $5,000</td><td className='p-3'>$100 to $250</td><td className='p-3'>Minor bowing under 2 inches</td><td className='p-3'>No</td>
                     </tr>
                     <tr className='bg-white border-b border-slate-100'>
-                      <td className='p-3 font-medium'>Wall anchors (helical tiebacks)</td>
-                      <td className='p-3'>$3,000 to $8,000</td>
-                      <td className='p-3'>$150 to $400 per anchor</td>
-                      <td className='p-3'>Moderate bowing, 2 to 3 inches</td>
-                      <td className='p-3'>Minimal exterior</td>
+                      <td className='p-3 font-medium'>Wall anchors (helical tiebacks)</td><td className='p-3'>$3,000 to $8,000</td><td className='p-3'>$150 to $400 per anchor</td><td className='p-3'>Moderate bowing, 2 to 3 inches</td><td className='p-3'>Minimal exterior</td>
                     </tr>
                     <tr className='bg-slate-50 border-b border-slate-100'>
-                      <td className='p-3 font-medium'>Steel I-beams</td>
-                      <td className='p-3'>$4,000 to $10,000</td>
-                      <td className='p-3'>$200 to $500 per beam</td>
-                      <td className='p-3'>Severe bowing, limited exterior access</td>
-                      <td className='p-3'>No</td>
+                      <td className='p-3 font-medium'>Steel I-beams</td><td className='p-3'>$4,000 to $10,000</td><td className='p-3'>$200 to $500 per beam</td><td className='p-3'>Severe bowing, limited exterior access</td><td className='p-3'>No</td>
                     </tr>
                     <tr className='bg-white border-b border-slate-100'>
-                      <td className='p-3 font-medium'>Full wall replacement</td>
-                      <td className='p-3'>$10,000 to $25,000</td>
-                      <td className='p-3'>$500 to $1,250</td>
-                      <td className='p-3'>Extreme damage or partial collapse</td>
-                      <td className='p-3'>Full exterior excavation</td>
+                      <td className='p-3 font-medium'>Full wall replacement</td><td className='p-3'>$10,000 to $25,000</td><td className='p-3'>$500 to $1,250</td><td className='p-3'>Extreme damage or partial collapse</td><td className='p-3'>Full exterior excavation</td>
                     </tr>
                     <tr className='bg-slate-50 border-b border-slate-100'>
-                      <td className='p-3 font-medium'>Add-on waterproofing (recommended)</td>
-                      <td className='p-3'>$1,500 to $4,000</td>
-                      <td className='p-3'>$75 to $200</td>
-                      <td className='p-3'>Preventing recurrence</td>
-                      <td className='p-3'>Varies by method</td>
+                      <td className='p-3 font-medium'>Add-on waterproofing (recommended)</td><td className='p-3'>$1,500 to $4,000</td><td className='p-3'>$75 to $200</td><td className='p-3'>Preventing recurrence</td><td className='p-3'>Varies by method</td>
                     </tr>
                     <tr className='bg-indigo-50 font-semibold'>
                       <td className='p-3'>National Average</td>
@@ -378,11 +362,11 @@ export default function BowingWallsArticle() {
               </p>
               <div className='bg-white rounded-lg border border-slate-200 shadow-sm p-6'>
                 <ul className='space-y-4 text-slate-700'>
-                  <li className='flex items-start gap-3'><span className='text-indigo-600 font-bold'>1.</span> <strong>Maintain gutters and downspouts.</strong> Clean gutters at least twice a year and extend downspouts so they discharge water 6 to 10 feet away from the foundation.</li>
-                  <li className='flex items-start gap-3'><span className='text-indigo-600 font-bold'>2.</span> <strong>Grade soil away from the house.</strong> The ground around your foundation should slope away at a rate of at least 1 inch per foot for the first 6 to 10 feet.</li>
-                  <li className='flex items-start gap-3'><span className='text-indigo-600 font-bold'>3.</span><span><strong>Address water intrusion promptly.</strong> If you see water entering your basement through walls or the floor, the same hydrostatic pressure causing the water is also pushing on the walls. See our <Link href='/articles/complete-basement-waterproofing-guide' className='text-indigo-600 underline hover:text-indigo-800'>complete basement waterproofing guide</Link> and <Link href='/articles/interior-vs-exterior-waterproofing' className='text-indigo-600 underline hover:text-indigo-800'>interior vs exterior waterproofing comparison</Link> for options.</span></li>
-                  <li className='flex items-start gap-3'><span className='text-indigo-600 font-bold'>4.</span> <strong>Plant trees at least 20 feet from the foundation.</strong> Tree roots exert significant lateral force and also draw moisture from the soil, causing uneven drying and settlement patterns.</li>
-                  <li className='flex items-start gap-3'><span className='text-indigo-600 font-bold'>5.</span> <strong>Install window well covers and drains.</strong> Window wells that fill with water during rain create localized pressure points against the wall.</li>
+                  <li className='flex items-start gap-3'><span className='text-indigo-600 font-bold'>1.</span> <strong>Maintain gutters and downspouts.</strong> Clean gutters at least twice a year and extend downspouts so they discharge water 6 to 10 feet away from the foundation. Clogged gutters dump water directly against the foundation wall, which is the fastest path to hydrostatic pressure problems.</li>
+                  <li className='flex items-start gap-3'><span className='text-indigo-600 font-bold'>2.</span> <strong>Grade soil away from the house.</strong> The ground around your foundation should slope away at a rate of at least 1 inch per foot for the first 6 to 10 feet. If water pools near the foundation after rain, regrading is one of the cheapest and most effective preventive measures.</li>
+                  <li className='flex items-start gap-3'><span className='text-indigo-600 font-bold'>3.</span><span><strong>Address water intrusion promptly.</strong> If you see water entering your basement through walls or the floor, the same hydrostatic pressure causing the water is also pushing on the walls. Fixing the water problem fixes the pressure problem. See our <Link href='/articles/complete-basement-waterproofing-guide' className='text-indigo-600 underline hover:text-indigo-800'>complete basement waterproofing guide</Link> and <Link href='/articles/interior-vs-exterior-waterproofing' className='text-indigo-600 underline hover:text-indigo-800'>interior vs exterior waterproofing comparison</Link> for options.</span></li>
+                  <li className='flex items-start gap-3'><span className='text-indigo-600 font-bold'>4.</span> <strong>Plant trees at least 20 feet from the foundation.</strong> Tree roots exert significant lateral force and also draw moisture from the soil, causing uneven drying and settlement patterns that stress foundation walls.</li>
+                  <li className='flex items-start gap-3'><span className='text-indigo-600 font-bold'>5.</span> <strong>Install window well covers and drains.</strong> Window wells that fill with water during rain create localized pressure points against the wall. Covers prevent debris and most water from entering, and drains carry away what does get in.</li>
                   <li className='flex items-start gap-3'><span className='text-indigo-600 font-bold'>6.</span> <strong>Get annual inspections.</strong> A professional foundation inspection costs $100 to $300 and catches early movement before it becomes expensive. This is especially important for homes over 30 years old, homes with block foundations, and homes in clay soil areas.</li>
                 </ul>
               </div>
@@ -396,7 +380,7 @@ export default function BowingWallsArticle() {
                   Call a foundation repair professional if any of the following are true: the wall has bowed inward more than 1 inch, you see a horizontal crack across the wall, the bowing appears to be progressing (getting worse over time), you see a gap between the wall and the floor or ceiling, or multiple walls are showing signs of movement simultaneously.
                 </p>
                 <p className='text-slate-700 leading-relaxed mt-4'>
-                  <strong className='text-red-800'>Do not attempt to repair structural bowing as a DIY project.</strong> Incorrect repairs can make the problem worse, void insurance coverage, and create liability issues if you sell the home. For guidance on finding a qualified contractor, see our <Link href='/articles/how-to-hire-a-waterproofing-contractor' className='text-indigo-600 underline hover:text-indigo-800'>how to hire a basement waterproofing contractor</Link> guide.
+                  <strong className='text-red-800'>Do not attempt to repair structural bowing as a DIY project.</strong> Incorrect repairs can make the problem worse, void insurance coverage, and create liability issues if you sell the home. For guidance on finding a qualified contractor, see our <Link href='/articles/how-to-hire-a-waterproofing-contractor' className='text-indigo-600 underline hover:text-indigo-800'>how to hire a basement waterproofing contractor</Link> guide. The same vetting principles apply to foundation repair contractors.
                 </p>
               </div>
             </section>
@@ -427,7 +411,7 @@ export default function BowingWallsArticle() {
                 </div>
                 <div className='bg-white rounded-lg p-6 border border-slate-200 shadow-sm'>
                   <h3 className='font-semibold text-slate-900 mb-2'>What should I do if my basement wall is only slightly bowed?</h3>
-                  <p className='text-slate-700'>If the bowing is less than 1 inch and there are no horizontal cracks, monitor it closely. Mark the ends of any visible cracks with a pencil and date, measure the maximum bow with a straightedge, and recheck every 30 days. Take dated photographs for comparison. If the bowing does not progress over 6 to 12 months, it may be stable. However, even stable bowing should be evaluated by a professional because the forces that caused it are still present and can resume at any time.</p>
+                  <p className='text-slate-700'>If the bowing is less than 1 inch and there are no horizontal cracks, monitor it closely. Mark the ends of any visible cracks with a pencil and date, measure the maximum bow with a straightedge, and recheck every 30 days. Take dated photographs for comparison. If the bowing does not progress over 6 to 12 months, it may be stable. However, even stable bowing should be evaluated by a professional because the forces that caused it are still present and can resume at any time, especially during heavy rain or freeze-thaw seasons.</p>
                 </div>
                 <div className='bg-white rounded-lg p-6 border border-slate-200 shadow-sm'>
                   <h3 className='font-semibold text-slate-900 mb-2'>Does homeowners insurance cover bowing basement wall repair?</h3>
@@ -441,11 +425,11 @@ export default function BowingWallsArticle() {
               <h2 className='text-3xl font-bold text-slate-900 mb-6'>Glossary of Bowing Basement Wall Terms</h2>
               <div className='bg-slate-50 rounded-lg border border-slate-200 p-6'>
                 <dl className='space-y-4'>
-                  <div><dt className='font-semibold text-slate-900'>Hydrostatic Pressure</dt><dd className='text-slate-700'>The lateral force exerted by water-saturated soil against a foundation wall. Hydrostatic pressure increases with soil moisture content and depth, and it is the most common cause of basement wall bowing.</dd></div>
+                  <div><dt className='font-semibold text-slate-900'>Hydrostatic Pressure</dt><dd className='text-slate-700'>The lateral force exerted by water-saturated soil against a foundation wall. Hydrostatic pressure increases with soil moisture content and depth, and it is the most common cause of basement wall bowing. Managing hydrostatic pressure through drainage, grading, and waterproofing is the most effective way to prevent and stop bowing.</dd></div>
                   <div><dt className='font-semibold text-slate-900'>Carbon Fiber Straps</dt><dd className='text-slate-700'>High-strength reinforcement strips made from carbon fiber fabric bonded to a bowing wall with structural epoxy. Approximately 10 times stronger than steel in tension. Used for bowing of 2 inches or less.</dd></div>
                   <div><dt className='font-semibold text-slate-900'>Wall Anchors (Earth Anchors or Helical Tiebacks)</dt><dd className='text-slate-700'>A stabilization system consisting of a steel plate on the interior wall surface connected by a steel rod to an anchor plate buried in stable soil outside the foundation. Tightening the rod pulls the wall toward its original position over time.</dd></div>
-                  <div><dt className='font-semibold text-slate-900'>Frost Heave</dt><dd className='text-slate-700'>The upward or lateral expansion of soil caused by water freezing within it. Frost heave exerts significant force against foundation walls, particularly in the upper sections where the frost line reaches.</dd></div>
-                  <div><dt className='font-semibold text-slate-900'>Differential Settlement</dt><dd className='text-slate-700'>The condition where one section of a foundation sinks or shifts more than another, creating uneven stress that can cause cracking and bowing.</dd></div>
+                  <div><dt className='font-semibold text-slate-900'>Frost Heave</dt><dd className='text-slate-700'>The upward or lateral expansion of soil caused by water freezing within it. Frost heave exerts significant force against foundation walls, particularly in the upper sections where the frost line reaches. Common in the Midwest, Northeast, and other cold climate regions.</dd></div>
+                  <div><dt className='font-semibold text-slate-900'>Differential Settlement</dt><dd className='text-slate-700'>The condition where one section of a foundation sinks or shifts more than another, creating uneven stress that can cause cracking and bowing. Differential settlement is caused by variations in soil composition, moisture content, or compaction beneath the foundation.</dd></div>
                   <div><dt className='font-semibold text-slate-900'>Horizontal Crack</dt><dd className='text-slate-700'>A crack running horizontally across a basement wall, typically at or near the midpoint of the wall height. The most reliable visual indicator that a wall is bowing inward from lateral soil pressure. Any horizontal crack wider than 1/8 inch warrants professional evaluation.</dd></div>
                   <div><dt className='font-semibold text-slate-900'>Expansive Clay Soil</dt><dd className='text-slate-700'>Soil with a high clay content that swells significantly when it absorbs water and shrinks when it dries. This repeated expansion and contraction cycle exerts lateral pressure against foundation walls. Affects approximately 40 percent of homes in the United States.</dd></div>
                 </dl>
