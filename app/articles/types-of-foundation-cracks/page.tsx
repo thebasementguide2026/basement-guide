@@ -131,7 +131,7 @@ export default function FoundationCracksArticle() {
         </div>
 
         {/* Quick Diagnosis Table */}
-        <section>
+                <section>
           <div className='flex items-center space-x-3 mb-4'>
             <span className='bg-amber-100 text-amber-700 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider'>Reference</span>
             <span className='bg-slate-100 text-slate-600 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider'>Quick Guide</span>
@@ -196,7 +196,7 @@ export default function FoundationCracksArticle() {
         </section>
 
         {/* Section 1 - Vertical Cracks */}
-        <section>
+        <section className='mt-16 pt-8 border-t border-slate-100'>
           <div className='flex items-center gap-2 mb-4'>
             <span className='bg-green-100 text-green-700 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider'>Low Risk</span>
             <span className='bg-slate-100 text-slate-600 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider'>Most Common</span>
@@ -243,7 +243,7 @@ export default function FoundationCracksArticle() {
         </section>
 
         {/* Section 2 - Settlement Cracks */}
-        <section>
+        <section className='mt-16 pt-8 border-t border-slate-100'>
           <div className='flex items-center gap-2 mb-4'>
             <span className='bg-yellow-100 text-yellow-700 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider'>Moderate Risk</span>
             <span className='bg-slate-100 text-slate-600 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider'>Monitor</span>
@@ -278,7 +278,7 @@ export default function FoundationCracksArticle() {
         </section>
 
         {/* Section 3 - Stair-Step Cracks */}
-        <section>
+        <section className='mt-16 pt-8 border-t border-slate-100'>
           <div className='flex items-center gap-2 mb-4'>
             <span className='bg-orange-100 text-orange-700 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider'>High Risk</span>
             <span className='bg-slate-100 text-slate-600 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider'>Block Foundations</span>
@@ -315,7 +315,7 @@ export default function FoundationCracksArticle() {
         </section>
 
         {/* Section 4 - Horizontal Cracks */}
-        <section>
+        <section className='mt-16 pt-8 border-t border-slate-100'>
           <div className='flex items-center gap-2 mb-4'>
             <span className='bg-red-100 text-red-700 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider'>Very High Risk</span>
             <span className='bg-slate-100 text-slate-600 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider'>Urgent</span>
@@ -354,7 +354,7 @@ export default function FoundationCracksArticle() {
         </section>
 
         {/* How to Monitor */}
-        <section>
+        <section className='mt-16 pt-8 border-t border-slate-100'>
           <div className='flex items-center gap-2 mb-4'>
             <span className='bg-amber-100 text-amber-700 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider'>DIY</span>
             <span className='bg-slate-100 text-slate-600 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider'>Monitoring</span>
@@ -385,7 +385,7 @@ export default function FoundationCracksArticle() {
         </section>
 
         {/* Prevention Tips */}
-        <section>
+        <section className='mt-16 pt-8 border-t border-slate-100'>
           <div className='flex items-center gap-2 mb-4'>
             <span className='bg-green-100 text-green-700 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider'>Prevention</span>
             <span className='bg-slate-100 text-slate-600 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider'>Protect Your Home</span>
@@ -404,7 +404,7 @@ export default function FoundationCracksArticle() {
         </section>
 
         {/* Cost Summary Table */}
-        <section>
+        <section className='mt-16 pt-8 border-t border-slate-100'>
           <div className='flex items-center gap-2 mb-4'>
             <span className='bg-amber-100 text-amber-700 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider'>Costs</span>
             <span className='bg-slate-100 text-slate-600 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider'>2026 Pricing</span>
@@ -461,7 +461,7 @@ export default function FoundationCracksArticle() {
         </section>
 
         {/* Repair Products Section */}
-        <section>
+        <section className='mt-16 pt-8 border-t border-slate-100'>
           <div className='flex items-center gap-2 mb-4'>
             <span className='bg-amber-100 text-amber-700 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider'>Products</span>
             <span className='bg-slate-100 text-slate-600 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider'>2026 Picks</span>
@@ -491,7 +491,7 @@ export default function FoundationCracksArticle() {
         </section>
 
         {/* FAQ Section */}
-        <section>
+        <section className='mt-16 pt-8 border-t border-slate-100'>
           <div className='flex items-center gap-2 mb-4'>
             <span className='bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider'>FAQ</span>
           </div>
@@ -536,7 +536,7 @@ export default function FoundationCracksArticle() {
         </section>
 
         {/* Glossary */}
-        <section>
+        <section className='mt-16 pt-8 border-t border-slate-100'>
           <h2 className='text-3xl font-bold text-slate-900 mb-6'>Glossary of Foundation Crack Terms</h2>
           <div className='space-y-6'>
             <div>
@@ -579,7 +579,7 @@ export default function FoundationCracksArticle() {
         </section>
 
         {/* Related Guides */}
-        <section>
+        <section className='mt-16 pt-8 border-t border-slate-100'>
           <h2 className='text-3xl font-bold text-slate-900 mb-6'>Related Guides</h2>
           <div className='grid md:grid-cols-2 gap-4'>
             <Link href='/cost-guides/foundation-crack-repair' className='block p-6 border border-slate-200 rounded-lg hover:border-amber-300 hover:shadow-md transition-all'>
