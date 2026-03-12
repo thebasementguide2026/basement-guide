@@ -192,7 +192,7 @@ export default function InteriorVsExteriorWaterproofing() {
             Interior basement waterproofing works inside the space and avoids yard excavation. It is the most common option for existing homes with minor to moderate seepage. These systems install in 1 to 5 days with limited disruption to daily life.
           </p>
 
-          <div className='grid grid-cols-1 md:grid-cols-2 gap-6 my-8 not-prose'>
+          <div className='space-y-6 my-8 not-prose'>
             <div className='bg-slate-50 rounded-2xl p-6 border border-slate-200'>
               <h4 className='font-bold text-slate-900 mb-3'>Interior Waterproofing Methods</h4>
               <ul className='space-y-2 text-slate-600 text-sm'>
@@ -203,7 +203,7 @@ export default function InteriorVsExteriorWaterproofing() {
                 <li className='flex items-start gap-2'><span className='text-teal-500'>&#10003;</span> <strong>Vapor barriers and dimple mats:</strong> Heavy-duty polyethylene sheeting or dimple mat membranes installed on basement walls create an air gap and drainage plane that captures wall moisture and directs it into the drainage system. Essential before finishing a basement with drywall. See our <Link href='/articles/best-vapor-barriers' className='text-teal-600 hover:underline'>best vapor barriers</Link> guide.</li>
               </ul>
             </div>
-            <div className='space-y-4'>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
               <div className='bg-teal-50 rounded-2xl p-6 border border-teal-100'>
                 <h4 className='font-bold text-slate-900 mb-3'>Interior Advantages</h4>
                 <ul className='space-y-2 text-slate-600 text-sm'>
