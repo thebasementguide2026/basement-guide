@@ -14,7 +14,7 @@ export default function BestWaterLeakDetectors() {
       {/* Article Hero */}
       <section className='relative min-h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
         <Image
-          src='/leaksensor.jpg'
+          src='/leakdetectors.jpg'
           alt='Smart water leak detector in basement'
           fill
           className='object-cover opacity-45 scale-105 transition-transform duration-700 hover:scale-100'
