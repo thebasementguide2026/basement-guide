@@ -53,7 +53,7 @@ export default function BasementHomeGym() {
               Turning your basement into a home gym is one of the smartest upgrades you can make right now. You get a dedicated workout space without adding square footage, save money on gym memberships, and have privacy whenever you want to train. In 2026, with busy schedules and crowded commercial gyms, a basement gym just makes sense.
             </p>
             <p className='text-lg text-slate-700 leading-relaxed mb-6'>
-              Basements do come with their own set of challenges. Moisture, low ceilings, and poor air quality can quickly turn your dream gym into a damp, musty room that nobody wants to use. The good news is that if you plan it right &mdash; especially with waterproofing and clean air in mind &mdash; you can create a comfortable, motivating space that lasts for years.
+              Basements do come with their own set of challenges. Moisture, low ceilings, and poor <Link href='/articles/basement-air-quality' className='text-teal-700 underline'>air quality</Link> can quickly turn your dream gym into a damp, musty room that nobody wants to use. The good news is that if you plan it right &mdash; especially with waterproofing and clean air in mind &mdash; you can create a comfortable, motivating space that lasts for years.
             </p>
             <p className='text-lg text-slate-700 leading-relaxed'>
               This guide walks you through everything you need to know: what to watch out for, the critical waterproofing steps, smart design choices, realistic costs, and the equipment that actually works well underground.
@@ -124,10 +124,10 @@ export default function BasementHomeGym() {
               <h4 className='font-bold text-teal-900 mb-3'>What You Must Do Before Building</h4>
               <ul className='space-y-2 text-slate-700 text-sm'>
                 <li>Fix exterior drainage &mdash; regrade soil, extend downspouts at least 10 feet away, clean gutters.</li>
-                <li>Seal all foundation cracks and apply crystalline waterproofing or a dimpled membrane on walls.</li>
-                <li>Install a reliable sump pump with battery backup.</li>
-                <li>Run a whole-basement dehumidifier set to 40&#8211;50% humidity around the clock.</li>
-                <li>Use mold-resistant drywall, rigid foam insulation against concrete, and a vapor barrier.</li>
+                <li>Seal all <Link href='/articles/foundation-crack-repair' className='text-teal-700 underline'>foundation cracks</Link> and apply <Link href='/articles/crystalline-waterproofing' className='text-teal-700 underline'>crystalline waterproofing</Link> or a dimpled membrane on walls.</li>
+                <li>Install a reliable <Link href='/articles/sump-pump-buying-guide' className='text-teal-700 underline'>sump pump</Link> with <Link href='/articles/backup-power-sump-pumps' className='text-teal-700 underline'>battery backup</Link>.</li>
+                <li>Run a whole-basement <Link href='/articles/best-basement-dehumidifiers' className='text-teal-700 underline'>dehumidifier</Link> set to 40 to 50 percent <Link href='/articles/basement-humidity-guide' className='text-teal-700 underline'>humidity</Link> around the clock.</li>
+                <li>Use <Link href='/articles/mold-resistant-drywall' className='text-teal-700 underline'>mold-resistant drywall</Link>, <Link href='/articles/rigid-foam-insulation' className='text-teal-700 underline'>rigid foam insulation</Link> against concrete, and a <Link href='/articles/vapor-barrier-basement' className='text-teal-700 underline'>vapor barrier</Link>.</li>
               </ul>
             </div>
             <div className='bg-amber-50 border border-amber-200 rounded-xl p-6'>
@@ -191,38 +191,38 @@ export default function BasementHomeGym() {
                 <tbody>
                   <tr className='border-b border-slate-100'>
                     <td className='p-4 text-slate-700'>Adjustable Dumbbells</td>
-                    <td className='p-4 font-semibold text-teal-700'>$150 &#8211; $250</td>
-                    <td className='p-4 font-semibold text-teal-700'>$300 &#8211; $500</td>
+                    <td className='p-4 font-semibold text-teal-700'>$150 to $250</td>
+                    <td className='p-4 font-semibold text-teal-700'>$300 to $500</td>
                     <td className='p-4 font-semibold text-teal-700'>$600+</td>
                   </tr>
                   <tr className='border-b border-slate-100 bg-slate-50'>
                     <td className='p-4 text-slate-700'>Power Rack or Squat Stand</td>
-                    <td className='p-4 font-semibold text-teal-700'>$200 &#8211; $400</td>
-                    <td className='p-4 font-semibold text-teal-700'>$500 &#8211; $900</td>
+                    <td className='p-4 font-semibold text-teal-700'>$200 to $400</td>
+                    <td className='p-4 font-semibold text-teal-700'>$500 to $900</td>
                     <td className='p-4 font-semibold text-teal-700'>$1,000+</td>
                   </tr>
                   <tr className='border-b border-slate-100'>
                     <td className='p-4 text-slate-700'>Barbell + Weight Plates</td>
-                    <td className='p-4 font-semibold text-teal-700'>$200 &#8211; $400</td>
-                    <td className='p-4 font-semibold text-teal-700'>$500 &#8211; $800</td>
+                    <td className='p-4 font-semibold text-teal-700'>$200 to $400</td>
+                    <td className='p-4 font-semibold text-teal-700'>$500 to $800</td>
                     <td className='p-4 font-semibold text-teal-700'>$1,000+</td>
                   </tr>
                   <tr className='border-b border-slate-100 bg-slate-50'>
                     <td className='p-4 text-slate-700'>Flat/Adjustable Bench</td>
-                    <td className='p-4 font-semibold text-teal-700'>$100 &#8211; $200</td>
-                    <td className='p-4 font-semibold text-teal-700'>$250 &#8211; $400</td>
+                    <td className='p-4 font-semibold text-teal-700'>$100 to $200</td>
+                    <td className='p-4 font-semibold text-teal-700'>$250 to $400</td>
                     <td className='p-4 font-semibold text-teal-700'>$500+</td>
                   </tr>
                   <tr className='border-b border-slate-100'>
                     <td className='p-4 text-slate-700'>Cardio Machine</td>
-                    <td className='p-4 font-semibold text-teal-700'>$300 &#8211; $600</td>
-                    <td className='p-4 font-semibold text-teal-700'>$800 &#8211; $1,500</td>
+                    <td className='p-4 font-semibold text-teal-700'>$300 to $600</td>
+                    <td className='p-4 font-semibold text-teal-700'>$800 to $1,500</td>
                     <td className='p-4 font-semibold text-teal-700'>$2,000+</td>
                   </tr>
                   <tr>
                     <td className='p-4 text-slate-700'>Rubber Gym Flooring</td>
-                    <td className='p-4 font-semibold text-teal-700'>$200 &#8211; $400</td>
-                    <td className='p-4 font-semibold text-teal-700'>$500 &#8211; $800</td>
+                    <td className='p-4 font-semibold text-teal-700'>$200 to $400</td>
+                    <td className='p-4 font-semibold text-teal-700'>$500 to $800</td>
                     <td className='p-4 font-semibold text-teal-700'>$1,000+</td>
                   </tr>
                 </tbody>
@@ -249,26 +249,26 @@ export default function BasementHomeGym() {
                 <tbody>
                   <tr className='border-b border-slate-100'>
                     <td className='p-4 text-slate-700'>Basic Setup (dumbbells, bench, mats)</td>
-                    <td className='p-4 font-semibold text-teal-700'>$500 &#8211; $1,500</td>
+                    <td className='p-4 font-semibold text-teal-700'>$500 to $1,500</td>
                   </tr>
                   <tr className='border-b border-slate-100 bg-slate-50'>
                     <td className='p-4 text-slate-700'>Mid-Range (rack, barbell, bench, flooring)</td>
-                    <td className='p-4 font-semibold text-teal-700'>$2,000 &#8211; $5,000</td>
+                    <td className='p-4 font-semibold text-teal-700'>$2,000 to $5,000</td>
                   </tr>
                   <tr className='border-b border-slate-100'>
                     <td className='p-4 text-slate-700'>Full Build-Out (equipment + finishing)</td>
-                    <td className='p-4 font-semibold text-teal-700'>$5,000 &#8211; $15,000</td>
+                    <td className='p-4 font-semibold text-teal-700'>$5,000 to $15,000</td>
                   </tr>
                   <tr>
                     <td className='p-4 text-slate-700'>Premium Gym (high-end everything)</td>
-                    <td className='p-4 font-semibold text-teal-700'>$15,000 &#8211; $30,000+</td>
+                    <td className='p-4 font-semibold text-teal-700'>$15,000 to $30,000+</td>
                   </tr>
                 </tbody>
               </table>
             </div>
             <p className='text-slate-600 text-sm'>These numbers include equipment, flooring, and basic finishing. If your basement still needs waterproofing, framing, electrical, or HVAC work, add those costs separately.</p>
             <div className='bg-amber-50 border border-amber-200 rounded-xl p-6 mt-6'>
-              <p className='text-amber-800 text-sm font-medium'>The biggest secret to saving money on a home gym is buying used equipment. Check Facebook Marketplace, Craigslist, and local garage sales &#8212; you can often find commercial-grade gear at 50&#8211;70% off retail.</p>
+              <p className='text-amber-800 text-sm font-medium'>The biggest secret to saving money on a home gym is buying used equipment. Check Facebook Marketplace, Craigslist, and local garage sales &#8212; you can often find commercial-grade gear at 50 to 70 percent off retail.</p>
             </div>
           </div>
 
@@ -282,27 +282,58 @@ export default function BasementHomeGym() {
             <div className='space-y-3'>
               <div className='flex items-start gap-3 bg-teal-50 rounded-xl p-4 border border-teal-100'>
                 <span className='text-teal-600 font-bold mt-0.5'>&#10003;</span>
-                <p className='text-slate-700 text-sm'>Always <strong>waterproof before you build</strong> &#8212; fix drainage, seal cracks, and install a sump pump with battery backup.</p>
+                <p className='text-slate-700 text-sm'>Always <strong><Link href='/articles/basement-waterproofing-guide' className='text-teal-700 underline'>waterproof</Link> before you build</strong> &#8212; fix drainage, seal cracks, and install a <Link href='/articles/sump-pump-buying-guide' className='text-teal-700 underline'>sump pump</Link> with <Link href='/articles/backup-power-sump-pumps' className='text-teal-700 underline'>battery backup</Link>.</p>
               </div>
               <div className='flex items-start gap-3 bg-teal-50 rounded-xl p-4 border border-teal-100'>
                 <span className='text-teal-600 font-bold mt-0.5'>&#10003;</span>
-                <p className='text-slate-700 text-sm'>Use <strong>rubber gym tiles or luxury vinyl plank</strong> flooring &#8212; never carpet. Moisture-resistant flooring is non-negotiable.</p>
+                <p className='text-slate-700 text-sm'>Use <strong><Link href='/articles/best-basement-flooring' className='text-teal-700 underline'>rubber gym tiles</Link> or luxury vinyl plank</strong> flooring &#8212; never carpet. Moisture-resistant flooring is non-negotiable.</p>
               </div>
               <div className='flex items-start gap-3 bg-teal-50 rounded-xl p-4 border border-teal-100'>
                 <span className='text-teal-600 font-bold mt-0.5'>&#10003;</span>
-                <p className='text-slate-700 text-sm'>Install an <strong>exhaust fan that vents directly outside</strong> and run a dehumidifier set to 40&#8211;50% humidity.</p>
+                <p className='text-slate-700 text-sm'>Install an <strong>exhaust fan that vents directly outside</strong> and run a dehumidifier set to 40 to 50 percent humidity.</p>
               </div>
               <div className='flex items-start gap-3 bg-teal-50 rounded-xl p-4 border border-teal-100'>
                 <span className='text-teal-600 font-bold mt-0.5'>&#10003;</span>
-                <p className='text-slate-700 text-sm'>Add <strong>dedicated electrical circuits</strong> for treadmills and other motorized equipment &#8212; never use extension cords.</p>
+                <p className='text-slate-700 text-sm'>Add <strong><Link href='/articles/basement-electrical-guide' className='text-teal-700 underline'>dedicated electrical circuits</Link></strong> for treadmills and other motorized equipment &#8212; never use extension cords.</p>
               </div>
               <div className='flex items-start gap-3 bg-teal-50 rounded-xl p-4 border border-teal-100'>
                 <span className='text-teal-600 font-bold mt-0.5'>&#10003;</span>
-                <p className='text-slate-700 text-sm'>Buy <strong>used equipment</strong> from Facebook Marketplace or Craigslist &#8212; you can save 50&#8211;70% on commercial-grade gear.</p>
+                <p className='text-slate-700 text-sm'>Buy <strong>used equipment</strong> from Facebook Marketplace or Craigslist &#8212; you can save 50 to 70 percent on commercial-grade gear.</p>
               </div>
             </div>
           </div>
 
+
+                    {/* FAQ */}
+          <div className='mb-20'>
+            <div className='flex items-center space-x-3 mb-4'>
+              <span className='text-teal-600 font-bold text-sm tracking-wider uppercase'>Common</span>
+              <span className='text-slate-300 font-bold text-sm tracking-wider uppercase'>&nbsp; Questions</span>
+            </div>
+            <h2 className='text-3xl font-bold text-slate-900 mb-6'>Frequently Asked Questions</h2>
+            <div className='space-y-4'>
+              <div className='border border-slate-200 rounded-xl p-5'>
+                <h3 className='font-bold text-slate-900 mb-2'>Do I need a permit to build a basement gym?</h3>
+                <p className='text-slate-600 text-sm'>Most basic equipment setups do not require a permit. However, if you are adding electrical circuits, plumbing, or modifying the structure (framing walls, adding egress windows), you will likely need a building permit. Check with your local building department before starting any construction work.</p>
+              </div>
+              <div className='border border-slate-200 rounded-xl p-5'>
+                <h3 className='font-bold text-slate-900 mb-2'>What is the minimum ceiling height for a basement gym?</h3>
+                <p className='text-slate-600 text-sm'>A minimum of 7 feet is recommended for most exercises, but 8 feet or higher is ideal. If you plan to do overhead presses, pull-ups, or use a jump rope, measure your reach plus 12 inches to determine your true minimum. Low ceilings may limit equipment choices but do not have to be a dealbreaker.</p>
+              </div>
+              <div className='border border-slate-200 rounded-xl p-5'>
+                <h3 className='font-bold text-slate-900 mb-2'>How do I prevent moisture and mold in a basement gym?</h3>
+                <p className='text-slate-600 text-sm'>Start with proper waterproofing: seal foundation cracks, install a sump pump, and apply a vapor barrier. Run a dehumidifier set to 40 to 50 percent humidity and ensure adequate ventilation. Use moisture-resistant materials like rubber flooring, mold-resistant drywall, and rigid foam insulation against concrete walls.</p>
+              </div>
+              <div className='border border-slate-200 rounded-xl p-5'>
+                <h3 className='font-bold text-slate-900 mb-2'>What flooring is best for a basement home gym?</h3>
+                <p className='text-slate-600 text-sm'>Interlocking rubber tiles are the top choice for most home gyms. They absorb impact, reduce noise, resist moisture, and are easy to install. For lighter workout areas, luxury vinyl plank over a moisture barrier works well. Avoid carpet, which traps moisture and breeds mold in basement environments.</p>
+              </div>
+              <div className='border border-slate-200 rounded-xl p-5'>
+                <h3 className='font-bold text-slate-900 mb-2'>How much does it cost to set up a basement gym?</h3>
+                <p className='text-slate-600 text-sm'>A basic setup with dumbbells, a bench, and rubber mats runs $500 to $1,500. A mid-range gym with a power rack, barbell set, bench, and proper flooring costs $2,000 to $5,000. A full build-out including equipment and finishing runs $5,000 to $15,000. Buying used equipment can cut costs by 50 to 70 percent.</p>
+              </div>
+            </div>
+          </div>
           {/* Glossary */}
           <div className='mb-20'>
             <div className='flex items-center space-x-3 mb-4'>
@@ -325,7 +356,23 @@ export default function BasementHomeGym() {
               </div>
               <div className='border-l-4 border-teal-400 pl-4'>
                 <h4 className='font-bold text-slate-900 mb-1'>Rigid Foam Insulation</h4>
-                <p className='text-slate-600 text-sm'>A moisture-resistant insulation board installed directly against concrete walls before framing to prevent condensation and mold.</p>
+                <p className='text-slate-600 text-sm'>A moisture-resistant insulation board installed directly against concrete walls before framing to prevent condensation and mold.</p>               </div> 
+                                <div className='border-l-4 border-teal-400 pl-4'>
+                <h4 className='font-bold text-slate-900 mb-1'>Dehumidifier</h4>
+                <p className='text-slate-600 text-sm'>An appliance that removes excess moisture from the air to maintain healthy humidity levels, typically set between 40 and 50 percent in basements.</p>
+              </div>
+              <div className='border-l-4 border-teal-400 pl-4'>
+                <h4 className='font-bold text-slate-900 mb-1'>Crystalline Waterproofing</h4>
+                <p className='text-slate-600 text-sm'>A chemical treatment applied to concrete surfaces that forms crystals within the pores, permanently sealing them against water penetration.</p>
+              </div>
+              <div className='border-l-4 border-teal-400 pl-4'>
+                <h4 className='font-bold text-slate-900 mb-1'>Egress Window</h4>
+                <p className='text-slate-600 text-sm'>A code-required window large enough for emergency escape, mandatory in finished basement rooms used as bedrooms or living spaces.</p>
+              </div>
+              <div className='border-l-4 border-teal-400 pl-4'>
+                <h4 className='font-bold text-slate-900 mb-1'>Interlocking Rubber Tiles</h4>
+                <p className='text-slate-600 text-sm'>Modular rubber flooring pieces that snap together without adhesive, commonly used in home gyms for impact absorption and noise reduction.</p>
+              </div>insulation board installed directly against concrete walls before framing to prevent condensation and mold.</p>
               </div>
             </div>
           </div>
@@ -360,6 +407,16 @@ export default function BasementHomeGym() {
             <LeadForm />
           </div>
 
+
+                {/* Cross-Network Links */}
+          <div className='mt-16 pt-8 border-t border-slate-200'>
+            <h3 className='text-lg font-bold text-slate-900 mb-4'>More Home Improvement Guides</h3>
+            <div className='grid grid-cols-1 sm:grid-cols-2 gap-3'>
+              <a href='https://theseptic.guide' target='_blank' rel='noopener noreferrer' className='text-teal-700 underline text-sm'>The Septic Guide &mdash; Septic System Care &amp; Maintenance</a>
+              <a href='https://thegarage.guide' target='_blank' rel='noopener noreferrer' className='text-teal-700 underline text-sm'>The Garage Guide &mdash; Organization, Storage &amp; Upgrades</a>
+              <a href='https://thebasement.guide' target='_blank' rel='noopener noreferrer' className='text-teal-700 underline text-sm'>The Basement Guide &mdash; Waterproofing, Finishing &amp; Repair</a>
+            </div>
+          </div>
         </article>
       </div>
     </div>
