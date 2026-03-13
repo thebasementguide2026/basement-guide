@@ -66,7 +66,7 @@ export default function SumpPumpBuyingGuide() {
           <p className='mt-6'>A sump pump works with your interior drainage system (French drain or perimeter drain) to manage this water. The drainage system collects water at the perimeter of the basement and channels it to the sump pit. The pump then ejects the water outside through a discharge pipe that routes it away from the foundation. Without a working sump pump, water collected by the drainage system has nowhere to go and will back up onto the basement floor.</p>
           <p className='mt-6'>Even basements without drainage systems benefit from a sump pump because the pit acts as the lowest point where groundwater naturally collects before it spreads across the floor.</p>
           <h3 className='text-xl font-bold text-slate-800 mt-8 mb-4'>Signs Your Basement Needs a Sump Pump (or a Better One)</h3>
-          <ul className='space-y-2'>
+          <ul className='space-y-2 list-disc pl-5'>
             <li>You see water on the floor after rain</li>
             <li>Your current pump runs constantly during storms</li>
             <li>Your pump makes grinding or rattling noises</li>
