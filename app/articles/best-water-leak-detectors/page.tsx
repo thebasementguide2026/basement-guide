@@ -66,6 +66,17 @@ export default function BestWaterLeakDetectors() {
             For how leak sensors fit into a complete smart basement flood prevention system alongside smart sump pumps and battery backups, see our <Link href='/articles/smart-sump-pumps' className='text-blue-600 hover:text-blue-800 underline'>smart sump pumps guide</Link>.
           </p>
 
+          {/* Article Image */}
+          <div className='my-10 rounded-xl overflow-hidden'>
+            <Image
+              src='/leakdetectors.jpg'
+              alt='Best water leak detectors and smart sensors for basements 2026'
+              width={1200}
+              height={675}
+              className='w-full h-auto rounded-xl'
+            />
+          </div>
+
           {/* Quick Comparison Table */}
           <h2 className='text-3xl font-bold text-gray-900 mb-6'>Quick Comparison: Best Water Leak Detectors 2026</h2>
           <div className='overflow-x-auto mb-12'>
