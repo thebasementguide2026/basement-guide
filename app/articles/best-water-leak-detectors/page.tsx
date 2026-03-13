@@ -50,10 +50,10 @@ export default function BestWaterLeakDetectors() {
         <article className='prose prose-lg max-w-none'>
 
           {/* Intro */}
-          <p className='text-gray-700 text-lg'>
+          <p className='text-gray-700 text-lg mb-4'>
             A water leak detector is a battery-powered sensor that detects the presence of water on a surface and sends an alert to your smartphone, triggers an audible alarm, or both. The best basement water leak detectors in 2026 cost $10 to $50 per sensor for standalone units and $500 to $750 for whole-home systems with automatic water shutoff.
           </p>
-          <p className='text-gray-700 text-lg'>
+          <p className='text-gray-700 text-lg mb-4'>
             This guide reviews 6 top-rated products across 3 categories and explains how to build a complete basement leak detection system.
           </p>
           <p className='text-gray-700 text-lg mb-4'>
