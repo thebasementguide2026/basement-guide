@@ -108,11 +108,11 @@ export default function CrawlSpaceEncapsulationGuide() {
                 Instead of letting damp soil and outside air mess with your home&#39;s foundation, encapsulation seals everything up tight. It is more than just laying down plastic&#8212;it is a full system that includes:
               </p>
               <ul className='space-y-3 text-slate-700 ml-4'>
-                <li className='flex items-start gap-2'><span className='text-indigo-600 font-bold'>&#8226;</span> A heavy-duty <Link href='/articles/best-vapor-barriers' className='text-indigo-600 underline hover:text-indigo-800'>vapor barrier</Link> (10&#8211;20 mil) over the floor and up the walls</li>
+                <li className='flex items-start gap-2'><span className='text-indigo-600 font-bold'>&#8226;</span> A heavy-duty <Link href='/articles/best-vapor-barriers' className='text-indigo-600 underline hover:text-indigo-800'>vapor barrier</Link> (10 to 20 mil) over the floor and up the walls</li>
                 <li className='flex items-start gap-2'><span className='text-indigo-600 font-bold'>&#8226;</span> Closing off vents and plugging any gaps to make it airtight</li>
                 <li className='flex items-start gap-2'><span className='text-indigo-600 font-bold'>&#8226;</span> Insulating the walls, rim joists, and sometimes the ceiling</li>
-                <li className='flex items-start gap-2'><span className='text-indigo-600 font-bold'>&#8226;</span> A dehumidifier set to 45&#8211;50% humidity to pull out extra moisture</li>
-                <li className='flex items-start gap-2'><span className='text-indigo-600 font-bold'>&#8226;</span> Sometimes a sump pump or humidity sensors for added peace of mind</li>
+                <li className='flex items-start gap-2'><span className='text-indigo-600 font-bold'>&#8226;</span> A dehumidifier set to 45 to 50 percent humidity to pull out extra moisture</li>
+                <li className='flex items-start gap-2'><span className='text-indigo-600 font-bold'>&#8226;</span> Sometimes a <Link href='/articles/sump-pump-buying-guide' className='text-indigo-600 underline hover:text-indigo-800'>sump pump</Link> or humidity sensors for added peace of mind</li>
               </ul>
               <p className='text-slate-700 leading-relaxed mt-4'>
                 It is perfect for homes with old-school vented crawl spaces, especially in humid or cold climates. In some areas, it can qualify for energy rebates.
@@ -133,7 +133,7 @@ export default function CrawlSpaceEncapsulationGuide() {
                 </div>
                 <div className='bg-indigo-50 rounded-lg p-5 border border-indigo-200'>
                   <h3 className='font-bold text-indigo-900 mb-2'>Energy Savings</h3>
-                  <p className='text-slate-700 text-sm'>A sealed space means less work for your HVAC&#8212;up to 20% off energy bills, saving $200&#8211;$500 per year.</p>
+                  <p className='text-slate-700 text-sm'>A sealed space means less work for your HVAC&#8212;up to 20 percent off energy bills, saving $200 to $500 per year.</p>
                 </div>
                 <div className='bg-indigo-50 rounded-lg p-5 border border-indigo-200'>
                   <h3 className='font-bold text-indigo-900 mb-2'>Pest Prevention</h3>
@@ -145,7 +145,7 @@ export default function CrawlSpaceEncapsulationGuide() {
                 </div>
                 <div className='bg-indigo-50 rounded-lg p-5 border border-indigo-200'>
                   <h3 className='font-bold text-indigo-900 mb-2'>Home Value Boost</h3>
-                  <p className='text-slate-700 text-sm'>Looks great in inspections and often pays back 70&#8211;90% when you sell your home.</p>
+                  <p className='text-slate-700 text-sm'>Looks great in inspections and often pays back 70 to 90 percent when you sell your home.</p>
                 </div>
               </div>
             </section>
@@ -157,18 +157,18 @@ export default function CrawlSpaceEncapsulationGuide() {
                 <div className='bg-green-50 rounded-lg p-6 border border-green-200'>
                   <h3 className='font-bold text-green-800 mb-3'>Pros</h3>
                   <ul className='space-y-2 text-slate-700 text-sm'>
-                    <li>&#10003; Built to last 20&#8211;30 years or more</li>
+                    <li>&#10003; Built to last 20 to 30 years or more</li>
                     <li>&#10003; Cuts down on future repairs like mold removal</li>
                     <li>&#10003; Makes your whole house more comfortable and efficient</li>
-                    <li>&#10003; Often comes with warranties (10&#8211;25 years)</li>
+                    <li>&#10003; Often comes with warranties (10 to 25 years)</li>
                     <li>&#10003; May lower your insurance premiums</li>
                   </ul>
                 </div>
                 <div className='bg-red-50 rounded-lg p-6 border border-red-200'>
                   <h3 className='font-bold text-red-800 mb-3'>Cons</h3>
                   <ul className='space-y-2 text-slate-700 text-sm'>
-                    <li>&#10007; Not cheap up front ($1,500&#8211;$15,000)</li>
-                    <li>&#10007; Work can be messy and take 2&#8211;5 days</li>
+                    <li>&#10007; Not cheap up front ($1,500 to $15,000)</li>
+                    <li>&#10007; Work can be messy and take 2 to 5 days</li>
                     <li>&#10007; Requires periodic maintenance on dehumidifier</li>
                     <li>&#10007; Very low or flooding spaces may need extra prep</li>
                   </ul>
@@ -179,15 +179,15 @@ export default function CrawlSpaceEncapsulationGuide() {
             {/* Step by Step */}
             <section>
               <h2 className='text-3xl font-bold text-slate-900 mb-6'>How to Encapsulate a Crawl Space: Step-by-Step</h2>
-              <p className='text-slate-700 leading-relaxed mb-6'>The whole process usually takes professionals 2&#8211;5 days, or longer if you are going solo. Here is how it breaks down:</p>
+              <p className='text-slate-700 leading-relaxed mb-6'>The whole process usually takes professionals 2 to 5 days, or longer if you are going solo. Here is how it breaks down:</p>
               <div className='space-y-4'>
                 <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
                   <h3 className='font-bold text-slate-900 mb-2'>1. Inspection and Prep</h3>
-                  <p className='text-slate-700'>Check for water spots, mold, bugs, or weak spots. Clear out junk, remove old insulation, and fix any leaks. A radon test is smart if you are in a hotspot area. This might run $100&#8211;$300 but saves headaches later.</p>
+                  <p className='text-slate-700'>Check for water spots, mold, bugs, or weak spots. Clear out junk, remove old insulation, and fix any leaks. A <Link href='/articles/radon-and-basement-waterproofing' className='text-indigo-600 underline hover:text-indigo-800'>radon test</Link> is smart if you are in a hotspot area. This might run $100 to $300 but saves headaches later.</p>
                 </div>
                 <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
                   <h3 className='font-bold text-slate-900 mb-2'>2. Lay the Vapor Barrier</h3>
-                  <p className='text-slate-700'>Roll out a sturdy 10&#8211;20 mil polyethylene sheet over the dirt, pushing it up the walls and around posts by 6&#8211;12 inches. Overlap edges by a foot and seal them with tape or sealant.</p>
+                  <p className='text-slate-700'>Roll out a sturdy 10 to 20 mil polyethylene sheet over the dirt, pushing it up the walls and around posts by 6 to 12 inches. Overlap edges by a foot and seal them with tape or sealant.</p>
                 </div>
                 <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
                   <h3 className='font-bold text-slate-900 mb-2'>3. Seal Up Vents and Gaps</h3>
@@ -195,15 +195,15 @@ export default function CrawlSpaceEncapsulationGuide() {
                 </div>
                 <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
                   <h3 className='font-bold text-slate-900 mb-2'>4. Add Insulation</h3>
-                  <p className='text-slate-700'>Install rigid foam boards (R-5 to R-10) on walls and rim joists. Spray foam fills tricky spots and keeps things efficient.</p>
+                  <p className='text-slate-700'>Install rigid <Link href='/articles/basement-insulation' className='text-indigo-600 underline hover:text-indigo-800'>foam boards</Link> (R-5 to R-10) on walls and rim joists. Spray foam fills tricky spots and keeps things efficient.</p>
                 </div>
                 <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
                   <h3 className='font-bold text-slate-900 mb-2'>5. Set Up Dehumidifier and Drainage</h3>
-                  <p className='text-slate-700'>Install a quality dehumidifier set to 45&#8211;50% humidity with a drain line. Add a sump pump if water tends to collect in the space.</p>
+                  <p className='text-slate-700'>Install a quality <Link href='/articles/best-basement-dehumidifiers' className='text-indigo-600 underline hover:text-indigo-800'>dehumidifier</Link> set to 45 to 50 percent humidity with a drain line. Add a sump pump if water tends to collect in the space.</p>
                 </div>
                 <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
                   <h3 className='font-bold text-slate-900 mb-2'>6. Final Touches</h3>
-                  <p className='text-slate-700'>Add an access door, humidity sensors, and test everything for a day or two. If there is bad mold, clean it up first&#8212;that could add $1,000&#8211;$5,000.</p>
+                  <p className='text-slate-700'>Add an access door, <Link href='/articles/best-water-leak-detectors' className='text-indigo-600 underline hover:text-indigo-800'>humidity sensors</Link>, and test everything for a day or two. If there is bad mold, clean it up first&#8212;that could add $1,000 to $5,000.</p>
                 </div>
               </div>
               <div className='bg-indigo-50 border border-indigo-200 rounded-lg p-5 mt-6'>
@@ -227,38 +227,38 @@ export default function CrawlSpaceEncapsulationGuide() {
                   <tbody>
                     <tr className='bg-slate-50 border-b border-slate-100'>
                       <td className='p-3 font-medium'>Vapor Barrier Materials</td>
-                      <td className='p-3'>$500&#8211;$2,000</td>
-                      <td className='p-3'>10&#8211;20 mil poly for about 1,000 sq ft</td>
+                      <td className='p-3'>$500 to $2,000</td>
+                      <td className='p-3'>10 to 20 mil poly for about 1,000 sq ft</td>
                     </tr>
                     <tr className='bg-white border-b border-slate-100'>
                       <td className='p-3 font-medium'>Insulation</td>
-                      <td className='p-3'>$800&#8211;$2,500</td>
+                      <td className='p-3'>$800 to $2,500</td>
                       <td className='p-3'>Foam for walls and joists</td>
                     </tr>
                     <tr className='bg-slate-50 border-b border-slate-100'>
                       <td className='p-3 font-medium'>Dehumidifier</td>
-                      <td className='p-3'>$800&#8211;$2,000</td>
+                      <td className='p-3'>$800 to $2,000</td>
                       <td className='p-3'>Solid unit with auto-drain</td>
                     </tr>
                     <tr className='bg-white border-b border-slate-100'>
                       <td className='p-3 font-medium'>Sump Pump (If Needed)</td>
-                      <td className='p-3'>$500&#8211;$1,500</td>
+                      <td className='p-3'>$500 to $1,500</td>
                       <td className='p-3'>For spaces that get wet</td>
                     </tr>
                     <tr className='bg-slate-50 border-b border-slate-100'>
                       <td className='p-3 font-medium'>Labor &amp; Install</td>
-                      <td className='p-3'>$2,000&#8211;$6,000</td>
-                      <td className='p-3'>2&#8211;5 days from experts</td>
+                      <td className='p-3'>$2,000 to $6,000</td>
+                      <td className='p-3'>2 to 5 days from experts</td>
                     </tr>
                     <tr className='bg-white border-b border-slate-100'>
                       <td className='p-3 font-medium'>Mold Cleanup (Optional)</td>
-                      <td className='p-3'>$1,000&#8211;$5,000</td>
+                      <td className='p-3'>$1,000 to $5,000</td>
                       <td className='p-3'>If mold is already present</td>
                     </tr>
                     <tr className='bg-indigo-50'>
                       <td className='p-3 font-bold'>Total Average</td>
                       <td className='p-3 font-bold'>~$5,500</td>
-                      <td className='p-3'>For a standard 800&#8211;1,200 sq ft area</td>
+                      <td className='p-3'>For a standard 800 to 1,200 sq ft area</td>
                     </tr>
                   </tbody>
                 </table>
@@ -271,12 +271,12 @@ export default function CrawlSpaceEncapsulationGuide() {
               <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
                 <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
                   <h3 className='font-bold text-slate-900 mb-3'>DIY Approach</h3>
-                  <p className='text-slate-700 text-sm mb-3'>If you are handy and your crawl space is accessible, you can save $2,000&#8211;$4,000 by doing it yourself. Total cost: $1,500&#8211;$3,000 in materials.</p>
+                  <p className='text-slate-700 text-sm mb-3'>If you are handy and your crawl space is accessible, you can save $2,000 to $4,000 by doing it yourself. Total cost: $1,500 to $3,000 in materials.</p>
                   <p className='text-slate-700 text-sm'>However, it is hard work&#8212;crawling around in tight spaces, sealing everything perfectly. Mistakes can trap moisture instead of blocking it, and there is no warranty.</p>
                 </div>
                 <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
                   <h3 className='font-bold text-slate-900 mb-3'>Professional Installation</h3>
-                  <p className='text-slate-700 text-sm mb-3'>Recommended for most homeowners. Pros bring expertise for a true seal, plus warranties (10&#8211;25 years). It costs more but you avoid the hassle and risks.</p>
+                  <p className='text-slate-700 text-sm mb-3'>Recommended for most homeowners. Pros bring expertise for a true seal, plus warranties (10 to 25 years). It costs more but you avoid the hassle and risks.</p>
                   <p className='text-slate-700 text-sm'>Search for local crawl space encapsulation companies and get at least 3 quotes from certified teams.</p>
                 </div>
               </div>
@@ -330,7 +330,7 @@ export default function CrawlSpaceEncapsulationGuide() {
               <div className='space-y-4'>
                 <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
                   <h3 className='font-bold text-slate-900 mb-2'>Check the Dehumidifier Monthly</h3>
-                  <p className='text-slate-700'>Dump water if needed, clean filters, and make sure it is running. A professional tune-up runs $100&#8211;$200 per year.</p>
+                  <p className='text-slate-700'>Dump water if needed, clean filters, and make sure it is running. A professional tune-up runs $100 to $200 per year.</p>
                 </div>
                 <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
                   <h3 className='font-bold text-slate-900 mb-2'>Annual Inspection</h3>
@@ -338,7 +338,7 @@ export default function CrawlSpaceEncapsulationGuide() {
                 </div>
                 <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
                   <h3 className='font-bold text-slate-900 mb-2'>Track Humidity</h3>
-                  <p className='text-slate-700'>A cheap hygrometer keeps tabs on moisture levels. Aim for under <Link href='/articles/basement-humidity-guide' className='text-indigo-600 underline hover:text-indigo-800'>50% relative humidity</Link> at all times.</p>
+                  <p className='text-slate-700'>A cheap hygrometer keeps tabs on moisture levels. Aim for under <Link href='/articles/basement-humidity-guide' className='text-indigo-600 underline hover:text-indigo-800'>50 percent relative humidity</Link> at all times.</p>
                 </div>
                 <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
                   <h3 className='font-bold text-slate-900 mb-2'>Test the Sump Pump</h3>
@@ -361,7 +361,7 @@ export default function CrawlSpaceEncapsulationGuide() {
                 </div>
                 <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
                   <h3 className='font-bold text-slate-900 mb-2'>Is crawl space encapsulation worth it?</h3>
-                  <p className='text-slate-700'>Yes&#8212;if your crawl space is moist, it cuts energy costs up to 20%, stops mold, prevents structural damage, and adds value to your home.</p>
+                  <p className='text-slate-700'>Yes&#8212;if your crawl space is moist, it cuts energy costs up to 20 percent, stops mold, prevents <Link href='/articles/complete-basement-waterproofing-guide' className='text-indigo-600 underline hover:text-indigo-800'>structural damage</Link>, and adds value to your home.</p>
                 </div>
                 <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
                   <h3 className='font-bold text-slate-900 mb-2'>Can I encapsulate a crawl space myself?</h3>
