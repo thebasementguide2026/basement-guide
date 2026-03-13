@@ -5,7 +5,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Basement Waterproofing Cost 2026: What You\'ll Actually Pay',
-  description: 'How much does basement waterproofing cost in 2026? National average $5,230. Interior systems $3,000-$8,000, exterior $8,000-$15,000. Full cost breakdown by method.',
+  description: 'How much does basement waterproofing cost in 2026? National average $5,230. Interior systems $3,000 to $8,000, exterior $8,000 to $15,000. Full cost breakdown by method.',
 }
 
 export default function BasementWaterproofingCostPage() {
@@ -19,7 +19,7 @@ export default function BasementWaterproofingCostPage() {
               '@context': 'https://schema.org',
               '@type': 'Article',
               headline: 'Basement Waterproofing Cost 2026: What You\'ll Actually Pay',
-              description: 'How much does basement waterproofing cost in 2026? National average $5,230. Interior systems $3,000-$8,000, exterior $8,000-$15,000. Full cost breakdown by method.',
+              description: 'How much does basement waterproofing cost in 2026? National average $5,230. Interior systems $3,000 to $8,000, exterior $8,000 to $15,000. Full cost breakdown by method.',
               datePublished: '2025-02-01',
               dateModified: '2026-03-03',
               author: { '@type': 'Organization', name: 'The Basement Guide' },
@@ -285,7 +285,7 @@ export default function BasementWaterproofingCostPage() {
             The workhorse of basement waterproofing. A contractor jackhammers a narrow trench around the interior perimeter, installs perforated drain pipe in gravel, connects everything to a sump pit with a pump, and patches the concrete. Water that enters through the walls or floor-wall joint is intercepted and pumped out before it reaches your living space.
           </p>
           <p className='text-slate-700 leading-relaxed mb-4'>
-            <strong>What you&rsquo;re paying for:</strong> concrete cutting and removal, drain pipe and gravel, sump pit and pump, labor (typically 2 to 4 days), and cleanup. The pump is the critical component &mdash; a good 1/3 HP submersible pump runs $150 to $400. A cast-iron primary pump with a battery backup system runs $500 to $1,200. See our <Link href='/articles/sump-pump-buying-guide' className='text-teal-600 underline hover:text-teal-800'>sump pump buying guide</Link> and <Link href='/articles/sump-pump-cost' className='text-teal-600 underline hover:text-teal-800'>sump pump cost breakdown</Link>. For a detailed look at how these systems work, see our <Link href='/articles/interior-basement-drainage-systems' className='text-teal-600 underline hover:text-teal-800'>interior basement drainage systems</Link> guide. For a detailed look at how these systems work, see our <Link href='/articles/interior-basement-drainage-systems' className='text-teal-600 underline hover:text-teal-800'>interior basement drainage systems</Link> guide.
+            <strong>What you&rsquo;re paying for:</strong> concrete cutting and removal, drain pipe and gravel, sump pit and pump, labor (typically 2 to 4 days), and cleanup. The pump is the critical component &mdash; a good 1/3 HP submersible pump runs $150 to $400. A cast-iron primary pump with a battery backup system runs $500 to $1,200. See our <Link href='/articles/sump-pump-buying-guide' className='text-teal-600 underline hover:text-teal-800'>sump pump buying guide</Link> and <Link href='/articles/sump-pump-cost' className='text-teal-600 underline hover:text-teal-800'>sump pump cost breakdown</Link>. For a detailed look at how these systems work, see our <Link href='/articles/interior-basement-drainage-systems' className='text-teal-600 underline hover:text-teal-800'>interior basement drainage systems</Link> guide.
           </p>
 
           <h3 className='text-xl font-bold text-slate-900 mt-8 mb-4'>Exterior Waterproofing: $8,000 to $15,000</h3>
@@ -339,7 +339,7 @@ export default function BasementWaterproofingCostPage() {
           {/* Permits - Expanded */}
           <h2 className='text-3xl font-extrabold text-slate-900 mt-16 mb-6'>Do You Need a Permit?</h2>
           <p className='text-slate-700 leading-relaxed mb-4'>
-            In most jurisdictions, interior waterproofing work (French drains, sump pumps, sealers) does not require a <Link href='/articles/basement-permits-guide' className='text-teal-600 underline hover:text-teal-800'>building permit</Link>. Exterior waterproofing usually requires a permit because it involves excavation near the foundation and potentially modifying drainage systems that affect neighboring properties. Some municipalities also require permits for sump pump discharge routing.
+            In most jurisdictions, interior waterproofing work (French drains, sump pumps, sealers) does not require a <Link href='/articles/basement-permits' className='text-teal-600 underline hover:text-teal-800'>building permit</Link>. Exterior waterproofing usually requires a permit because it involves excavation near the foundation and potentially modifying drainage systems that affect neighboring properties. Some municipalities also require permits for sump pump discharge routing.
           </p>
           <p className='text-slate-700 leading-relaxed mb-4'>
             Your contractor should know the local requirements &mdash; if they tell you permits aren&rsquo;t necessary for exterior work, that&rsquo;s a yellow flag.
