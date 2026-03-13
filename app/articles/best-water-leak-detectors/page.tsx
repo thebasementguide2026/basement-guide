@@ -505,7 +505,7 @@ export default function BestWaterLeakDetectors() {
                 <p className='text-sm text-gray-700'>Homeowners who want targeted basement spot detection now with the option to upgrade to full Flo auto-shutoff later.</p>
               </div>
             </div>
-            <a href='https://amzn.to/4kVFbnD' target='_blank' rel='noopener noreferrer' className='inline-block bg-amber-400 hover:bg-amber-500 text-gray-900 font-bold py-3 px-8 rounded-lg transition-colors'>Check Price on Amazon</a>
+            <a href='https://amzn.to/47x843P' target='_blank' rel='noopener noreferrer' className='inline-block bg-amber-400 hover:bg-amber-500 text-gray-900 font-bold py-3 px-8 rounded-lg transition-colors'>Check Price on Amazon</a>
           </div>
 
           {/* Sensor Placement Guide */}
