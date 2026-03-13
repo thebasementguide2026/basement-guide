@@ -56,13 +56,13 @@ export default function BestWaterLeakDetectors() {
           <p className='text-gray-700 text-lg'>
             This guide reviews 6 top-rated products across 3 categories and explains how to build a complete basement leak detection system.
           </p>
-          <p className='text-gray-700 text-lg'>
+          <p className='text-gray-700 text-lg mb-4'>
             A small leak in your basement can silently cause catastrophic damage. A dripping water heater, a failing sump pump connection, a foundation crack that opens during a storm, or a washing machine hose that bursts while you sleep can put inches of water on your basement floor before anyone notices. The average water damage insurance claim exceeds $10,000, and most of that damage is preventable with early detection.
           </p>
-          <p className='text-gray-700 text-lg'>
+          <p className='text-gray-700 text-lg mb-4'>
             Water leak sensors spot moisture the moment it appears and alert you within seconds, giving you time to respond before water reaches carpet, drywall, furniture, and stored belongings.
           </p>
-          <p className='text-gray-700 text-lg'>
+          <p className='text-gray-700 text-lg mb-6'>
             For how leak sensors fit into a complete smart basement flood prevention system alongside smart sump pumps and battery backups, see our <Link href='/articles/smart-sump-pumps' className='text-blue-600 hover:text-blue-800 underline'>smart sump pumps guide</Link>.
           </p>
 
