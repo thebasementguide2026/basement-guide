@@ -69,7 +69,7 @@ export default function FrenchDrainCostPage() {
           </div>
 
           <p className='text-2xl font-medium text-slate-800 leading-relaxed mb-12 border-l-4 border-violet-500 pl-8'>
-            Whether you are dealing with a swampy backyard or a basement that seeps during every storm, a French drain is the gold standard for water management. But the cost varies wildly depending on one critical factor: <strong>where the drain goes</strong>.
+            Whether you are dealing with a swampy backyard or a basement that seeps during every storm, a French drain is the gold standard for residential water management. A French drain is a gravel-filled trench containing a perforated pipe that collects and redirects groundwater or surface water away from a foundation, basement, or low-lying yard area. French drain installation costs $10 to $35 per linear foot for exterior yard drains and $40 to $85 per linear foot for interior basement perimeter systems, with the national average project cost at approximately $5,000 in 2026. The total price depends primarily on whether the drain is installed inside the basement (requiring concrete removal and a sump pump) or outside in the yard (requiring excavation and grading).
           </p>
 
           {/* 2026 French Drain Price Breakdown */}
