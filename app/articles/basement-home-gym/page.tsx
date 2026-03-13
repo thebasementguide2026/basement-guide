@@ -372,7 +372,7 @@ export default function BasementHomeGym() {
               <div className='border-l-4 border-teal-400 pl-4'>
                 <h4 className='font-bold text-slate-900 mb-1'>Interlocking Rubber Tiles</h4>
                 <p className='text-slate-600 text-sm'>Modular rubber flooring pieces that snap together without adhesive, commonly used in home gyms for impact absorption and noise reduction.</p>
-              </div>insulation board installed directly against concrete walls before framing to prevent condensation and mold.</p>
+              </div>
               </div>
             </div>
           </div>
