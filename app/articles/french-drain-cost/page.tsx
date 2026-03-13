@@ -5,7 +5,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'French Drain Installation Cost 2026: Interior & Exterior Pricing | The Basement Guide',
-  description: 'How much does a French drain cost in 2026? Complete pricing guide covering interior basement drains ($40-$85/ft), exterior yard drains ($10-$35/ft), DIY tips, recommended products, and when to hire a pro.',
+  description: 'How much does a French drain cost in 2026? Complete pricing guide covering interior basement drains ($40 to $85/ft), exterior yard drains ($10 to $35/ft), DIY tips, recommended products, and when to hire a pro.',
 }
 
 
@@ -64,7 +64,7 @@ export default function FrenchDrainCostPage() {
               A French drain costs <span className='text-violet-600'>$5,000</span> on average in 2026.
             </p>
             <p className='text-slate-600 leading-relaxed font-medium'>
-              Expect to pay <strong>$10&ndash;$35 per linear foot</strong> for exterior yard drains and <strong>$40&ndash;$85 per linear foot</strong> for interior basement systems. DIY installations can save 40&ndash;60 percent on labor.
+              Expect to pay <strong>$10 to $35 per linear foot</strong> for exterior yard drains and <strong>$40 to $85 per linear foot</strong> for interior basement systems. DIY installations can save 40 to 60 percent on labor.
             </p>
           </div>
 
@@ -78,7 +78,7 @@ export default function FrenchDrainCostPage() {
           <div className='grid grid-cols-1 md:grid-cols-2 gap-6 my-12 not-prose'>
             <div className='bg-slate-50 rounded-3xl p-8 border border-slate-100'>
               <div className='text-slate-900 font-black text-xl mb-4'>Interior (Basement)</div>
-              <div className='text-3xl font-black text-violet-600 mb-2'>$4,000 &ndash; $12,000+</div>
+              <div className='text-3xl font-black text-violet-600 mb-2'>$4,000  to  $12,000+</div>
               <div className='text-slate-500 text-sm mb-6 font-medium'>Typical for 1,000 sq. ft. basement</div>
               <ul className='space-y-3 text-slate-600 font-medium'>
                 <li className='flex items-center'><span className='text-violet-500 mr-2'>&#10004;</span> Concrete jackhammering</li>
@@ -88,7 +88,7 @@ export default function FrenchDrainCostPage() {
             </div>
             <div className='bg-slate-900 rounded-3xl p-8 text-white'>
               <div className='text-white font-black text-xl mb-4'>Exterior (Yard/Foundation)</div>
-              <div className='text-3xl font-black text-violet-400 mb-2'>$2,800 &ndash; $6,500</div>
+              <div className='text-3xl font-black text-violet-400 mb-2'>$2,800  to  $6,500</div>
               <div className='text-slate-400 text-sm mb-6 font-medium'>Typical 100-foot installation</div>
               <ul className='space-y-3 text-slate-300 font-medium'>
                 <li className='flex items-center'><span className='text-violet-400 mr-2'>&#10004;</span> Trench excavation</li>
@@ -117,26 +117,26 @@ export default function FrenchDrainCostPage() {
               <tbody className='text-slate-600'>
                 <tr className='border-b border-slate-100'>
                   <td className='p-4 font-medium'>Shallow Yard Drain</td>
-                  <td className='p-4'>$10 &ndash; $25</td>
-                  <td className='p-4'>$1,000 &ndash; $2,500</td>
+                  <td className='p-4'>$10  to  $25</td>
+                  <td className='p-4'>$1,000  to  $2,500</td>
                   <td className='p-4'>Surface water, soggy lawns</td>
                 </tr>
                 <tr className='border-b border-slate-100'>
                   <td className='p-4 font-medium'>Deep Exterior Drain</td>
-                  <td className='p-4'>$25 &ndash; $50</td>
-                  <td className='p-4'>$2,500 &ndash; $6,500</td>
+                  <td className='p-4'>$25  to  $50</td>
+                  <td className='p-4'>$2,500  to  $6,500</td>
                   <td className='p-4'>Foundation protection, hillside lots</td>
                 </tr>
                 <tr className='border-b border-slate-100'>
                   <td className='p-4 font-medium'>Interior Perimeter Drain</td>
-                  <td className='p-4'>$40 &ndash; $85</td>
-                  <td className='p-4'>$4,000 &ndash; $12,000</td>
+                  <td className='p-4'>$40  to  $85</td>
+                  <td className='p-4'>$4,000  to  $12,000</td>
                   <td className='p-4'>Basement <Link href='/articles/complete-basement-waterproofing-guide' className='text-violet-600 hover:underline'>waterproofing</Link></td>
                 </tr>
                 <tr className='border-b border-slate-100'>
                   <td className='p-4 font-medium'>Curtain Drain</td>
-                  <td className='p-4'>$12 &ndash; $30</td>
-                  <td className='p-4'>$1,200 &ndash; $4,000</td>
+                  <td className='p-4'>$12  to  $30</td>
+                  <td className='p-4'>$1,200  to  $4,000</td>
                   <td className='p-4'>Intercepting hillside runoff</td>
                 </tr>
               </tbody>
@@ -150,13 +150,13 @@ export default function FrenchDrainCostPage() {
           </p>
 
           <ul>
-            <li><strong>Trench Depth:</strong> Shallow yard drains (12&ndash;18 inches) are cheap to dig. Deep foundation drains (6&ndash;8 feet) require heavy machinery and shoring, adding $15&ndash;$30 per linear foot.</li>
-            <li><strong>Obstructions:</strong> Driveways, sidewalks, patios, and utility lines add significantly to labor time. Expect $500&ndash;$2,000 extra for each major obstruction.</li>
-            <li><strong>Concrete Disposal:</strong> For interior drains, jackhammering and hauling away old concrete slabs adds $500&ndash;$1,000 to the total.</li>
-            <li><strong>Soil Conditions:</strong> Clay-heavy soil drains slowly and may require additional gravel or wider trenches. Rocky soil increases excavation costs by 20&ndash;40 percent.</li>
-            <li><strong>Pipe Material:</strong> Standard corrugated pipe runs $1&ndash;$3 per foot. Rigid PVC or heavy-duty options cost $3&ndash;$8 per foot but last longer.</li>
-            <li><strong>Sump Pump Addition:</strong> Interior systems almost always need a <Link href='/articles/sump-pump-buying-guide' className='text-violet-600 hover:underline'>sump pump</Link> ($800&ndash;$2,500 installed) to move collected water out of the basement.</li>
-            <li><strong>Permits:</strong> Some municipalities require permits for drainage work, especially near property lines. Budget $50&ndash;$200 for permit fees.</li>
+            <li><strong>Trench Depth:</strong> Shallow yard drains (12 to 18 inches) are cheap to dig. Deep foundation drains (6 to 8 feet) require heavy machinery and shoring, adding $15 to $30 per linear foot.</li>
+            <li><strong>Obstructions:</strong> Driveways, sidewalks, patios, and utility lines add significantly to labor time. Expect $500 to $2,000 extra for each major obstruction.</li>
+            <li><strong>Concrete Disposal:</strong> For interior drains, jackhammering and hauling away old concrete slabs adds $500 to $1,000 to the total.</li>
+            <li><strong>Soil Conditions:</strong> Clay-heavy soil drains slowly and may require additional gravel or wider trenches. Rocky soil increases excavation costs by 20 to 40 percent.</li>
+            <li><strong>Pipe Material:</strong> Standard corrugated pipe runs $1 to $3 per foot. Rigid PVC or heavy-duty options cost $3 to $8 per foot but last longer.</li>
+            <li><strong>Sump Pump Addition:</strong> Interior systems almost always need a <Link href='/articles/sump-pump-buying-guide' className='text-violet-600 hover:underline'>sump pump</Link> ($800 to $2,500 installed) to move collected water out of the basement.</li>
+            <li><strong>Permits:</strong> Some municipalities require permits for drainage work, especially near property lines. Budget $50 to $200 for permit fees.</li>
           </ul>
 
           {/* Interior vs Exterior */}
@@ -199,7 +199,7 @@ export default function FrenchDrainCostPage() {
           <div className='bg-amber-50 border-l-4 border-amber-500 rounded-r-2xl p-6 my-8 not-prose'>
             <p className='text-sm font-bold text-amber-700 uppercase tracking-widest mb-2'>DIY Cost Savings</p>
             <p className='text-slate-700 font-medium'>
-              A 50-foot exterior French drain that costs $2,500&ndash;$4,000 professionally can be completed DIY for $500&ndash;$1,500 in materials. The trade-off is 1&ndash;3 weekends of hard labor and the need to rent a trencher ($200&ndash;$400 per day).
+              A 50-foot exterior French drain that costs $2,500 to $4,000 professionally can be completed DIY for $500 to $1,500 in materials. The trade-off is 1 to 3 weekends of hard labor and the need to rent a trencher ($200 to $400 per day).
             </p>
           </div>
 
@@ -207,11 +207,11 @@ export default function FrenchDrainCostPage() {
           <ol>
             <li><strong>Plan the route.</strong> Identify where water collects and map a path to a suitable discharge point (street, dry well, or low area). Maintain a 1 percent slope minimum.</li>
             <li><strong>Call 811.</strong> Always call before you dig to mark underground utilities. This is free and required by law in most states.</li>
-            <li><strong>Dig the trench.</strong> Standard depth is 18&ndash;24 inches, width 6&ndash;12 inches. Rent a trencher for long runs.</li>
+            <li><strong>Dig the trench.</strong> Standard depth is 18 to 24 inches, width 6 to 12 inches. Rent a trencher for long runs.</li>
             <li><strong>Line with landscape fabric.</strong> Drape filter fabric along the entire trench with extra material on each side to wrap over the top later.</li>
-            <li><strong>Add gravel base.</strong> Pour 2&ndash;3 inches of washed drainage gravel in the bottom.</li>
+            <li><strong>Add gravel base.</strong> Pour 2 to 3 inches of washed drainage gravel in the bottom.</li>
             <li><strong>Lay the pipe.</strong> Place perforated pipe with holes facing down on the gravel bed. Connect to a pop-up emitter or discharge point.</li>
-            <li><strong>Backfill with gravel.</strong> Cover the pipe with 4&ndash;6 inches of gravel, then fold the fabric over the top to keep soil out.</li>
+            <li><strong>Backfill with gravel.</strong> Cover the pipe with 4 to 6 inches of gravel, then fold the fabric over the top to keep soil out.</li>
             <li><strong>Top with soil and sod.</strong> Replace the topsoil and reseed or sod as needed.</li>
           </ol>
 
@@ -299,7 +299,7 @@ export default function FrenchDrainCostPage() {
               <h3 className='font-bold text-green-800 text-lg mb-4'>Advantages</h3>
               <ul className='space-y-3 text-slate-700'>
                 <li className='flex items-start gap-2'><span className='text-green-500 font-bold'>+</span> Highly effective at managing both surface and subsurface water</li>
-                <li className='flex items-start gap-2'><span className='text-green-500 font-bold'>+</span> Long lifespan of 20&ndash;40 years when properly installed</li>
+                <li className='flex items-start gap-2'><span className='text-green-500 font-bold'>+</span> Long lifespan of 20 to 40 years when properly installed</li>
                 <li className='flex items-start gap-2'><span className='text-green-500 font-bold'>+</span> Passive system with no moving parts (exterior) means low maintenance</li>
                 <li className='flex items-start gap-2'><span className='text-green-500 font-bold'>+</span> Protects foundation from <Link href='/articles/types-of-foundation-cracks' className='text-violet-600 hover:underline'>cracking</Link> and settling</li>
                 <li className='flex items-start gap-2'><span className='text-green-500 font-bold'>+</span> Can increase property value by solving drainage issues</li>
@@ -308,11 +308,11 @@ export default function FrenchDrainCostPage() {
             <div className='bg-red-50 rounded-2xl p-6 border border-red-100'>
               <h3 className='font-bold text-red-800 text-lg mb-4'>Disadvantages</h3>
               <ul className='space-y-3 text-slate-700'>
-                <li className='flex items-start gap-2'><span className='text-red-500 font-bold'>&ndash;</span> Interior systems require jackhammering and significant disruption</li>
-                <li className='flex items-start gap-2'><span className='text-red-500 font-bold'>&ndash;</span> Can clog over time without proper filter fabric</li>
-                <li className='flex items-start gap-2'><span className='text-red-500 font-bold'>&ndash;</span> Exterior installation disrupts landscaping temporarily</li>
-                <li className='flex items-start gap-2'><span className='text-red-500 font-bold'>&ndash;</span> Does not solve roof or plumbing leaks</li>
-                <li className='flex items-start gap-2'><span className='text-red-500 font-bold'>&ndash;</span> Needs a proper discharge point or sump pump to work</li>
+                <li className='flex items-start gap-2'><span className='text-red-500 font-bold'> to </span> Interior systems require jackhammering and significant disruption</li>
+                <li className='flex items-start gap-2'><span className='text-red-500 font-bold'> to </span> Can clog over time without proper filter fabric</li>
+                <li className='flex items-start gap-2'><span className='text-red-500 font-bold'> to </span> Exterior installation disrupts landscaping temporarily</li>
+                <li className='flex items-start gap-2'><span className='text-red-500 font-bold'> to </span> Does not solve roof or plumbing leaks</li>
+                <li className='flex items-start gap-2'><span className='text-red-500 font-bold'> to </span> Needs a proper discharge point or sump pump to work</li>
               </ul>
             </div>
           </div>
