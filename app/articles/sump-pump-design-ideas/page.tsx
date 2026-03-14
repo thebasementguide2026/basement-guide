@@ -194,7 +194,7 @@ export default function SumpPumpDesignIdeas() {
         <div className="bg-blue-50 border border-blue-200 rounded p-4 mb-6">
           <p className="font-semibold mb-1">Recommended: Decorative Flush-Mount Sump Cover</p>
           <p className="text-sm text-gray-600 mb-2">Low-profile cover with faux-stone finish that blends with most basement flooring. Available in multiple sizes.</p>
-          <a href="https://www.amazon.com/dp/B07XYZ5678?tag=thebasementgu-20" target="_blank" rel="noopener noreferrer nofollow" className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 px-4 rounded text-sm">Check Price on Amazon</a>
+          <a href="https://amzn.to/4lr3auV" target="_blank" rel="noopener noreferrer nofollow" className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 px-4 rounded text-sm">Check Price on Amazon</a>
         </div>
 
         <h3 className="text-xl font-bold mt-6 mb-2">Custom Wood or Tile-Inset Covers ($100 to $300 DIY)</h3>
@@ -250,7 +250,7 @@ export default function SumpPumpDesignIdeas() {
         <div className="bg-blue-50 border border-blue-200 rounded p-4 mb-6">
           <p className="font-semibold mb-1">Recommended: Decorative Pipe Cover</p>
           <p className="text-sm text-gray-600 mb-2">Snap-on pipe cover in white and wood-grain finishes. Fits 1.5 to 2 inch PVC discharge pipes. No tools required for installation or removal.</p>
-          <a href="https://www.amazon.com/dp/B09XYZ9012?tag=thebasementgu-20" target="_blank" rel="noopener noreferrer nofollow" className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 px-4 rounded text-sm">Check Price on Amazon</a>
+          <a href="https://amzn.to/472U5Tb" target="_blank" rel="noopener noreferrer nofollow" className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 px-4 rounded text-sm">Check Price on Amazon</a>
         </div>
 
         {/* Section: Noise Reduction */}
