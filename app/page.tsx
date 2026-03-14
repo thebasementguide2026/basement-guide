@@ -11,6 +11,7 @@ const editorPickSlugs = [
   'best-basement-dehumidifiers',
   'basement-waterproofing-cost',
       'how-to-prevent-basement-mold',
+  'sump-pump-design-ideas',
 ]
 
 const popularSlugs = [
