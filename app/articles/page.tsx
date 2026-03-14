@@ -116,22 +116,28 @@ const topicGroups: { label: string; id: string; slugs: string[] }[] = [
 
 export default function ArticlesPage() {
   return (
-    <div className="max-w-5xl mx-auto px-4 py-10">
+    <main className="max-w-6xl mx-auto px-4 py-12">
       {/* Page header */}
       <nav className="text-sm text-gray-500 mb-4">
-        <Link href="/" className="hover:underline">Home</Link> / <span>Articles</span>
+        <Link href="/" className="hover:underline">Home</Link> /{' '}
+        <span>Articles</span>
       </nav>
-      <h1 className="text-4xl font-bold mb-3">Basement Guides & Articles</h1>
-      <p className="text-gray-600 mb-8">
+
+      <h1 className="text-4xl font-bold text-brand-navy mb-4">Basement Guides &amp; Articles</h1>
+      <p className="text-gray-600 mb-10 text-lg">
         Every article we publish on waterproofing, mold prevention, sump pumps, finishing, structural issues, and more &mdash; organized by topic.
       </p>
 
       {/* Topic nav */}
-      <div className="flex flex-wrap gap-2 mb-10">
+      <div className="flex flex-wrap gap-2 mb-12">
         {topicGroups.map((g) => (
-          <a key={g.id} href={`#${g.id}`} className="text-sm bg-gray-100 hover:bg-blue-100 text-gray-700 hover:text-blue-700 px-3 py-1 rounded-full transition">
+          <Link
+            key={g.id}
+            href={`#${g.id}`}
+            className="px-3 py-1 rounded-full bg-brand-teal/10 text-brand-teal text-sm font-medium hover:bg-brand-teal/20 transition-colors"
+          >
             {g.label}
-          </a>
+          </Link>
         ))}
       </div>
 
@@ -142,16 +148,25 @@ export default function ArticlesPage() {
           .filter(Boolean) as typeof articles
         if (groupArticles.length === 0) return null
         return (
-          <section key={group.id} id={group.id} className="mb-12">
-            <h2 className="text-2xl font-bold mb-4 border-b pb-2">{group.label}</h2>
+          <section key={group.id} id={group.id} className="mb-16">
+            <h2 className="text-2xl font-bold text-brand-navy mb-6 border-b border-gray-200 pb-2">
+              {group.label}
+            </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {groupArticles.map((article) => (
-                <ArticleCard key={article.slug} article={article} />
+                <ArticleCard
+                  key={article.slug}
+                  title={article.title}
+                  description={article.description}
+                  slug={article.slug}
+                  category={article.category}
+                  readTime={article.readTime}
+                />
               ))}
             </div>
           </section>
         )
       })}
-    </div>
+    </main>
   )
 }
