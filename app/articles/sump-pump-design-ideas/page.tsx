@@ -60,7 +60,7 @@ const articleSchema = {
   '@type': 'Article',
   headline: 'Sump Pump Design Ideas 2026: How to Hide, Enclose, and Integrate Your Sump Pump in a Finished Basement',
   description: 'Every design approach for concealing and integrating a sump pump into a finished basement, from budget-friendly covers to custom built-in cabinetry.',
-  image: 'https://thebasement.guide/images/sumppumpdesign.jpg',
+  image: 'https://thebasement.guide/sumppumpdesign.jpg',
   author: { '@type': 'Organization', name: 'The Basement Guide', url: 'https://thebasement.guide' },
   publisher: { '@type': 'Organization', name: 'The Basement Guide', url: 'https://thebasement.guide' },
   datePublished: '2026-03-14',
@@ -99,7 +99,7 @@ export default function SumpPumpDesignIdeas() {
         {/* Article Hero */}
         <div className="mb-8">
           <Image
-            src="/images/sumppumpdesign.jpg"
+            src="/sumppumpdesign.jpg"
             alt="Finished basement with sump pump enclosed in built-in cabinetry"
             width={1200}
             height={600}
