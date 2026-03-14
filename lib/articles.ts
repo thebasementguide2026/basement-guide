@@ -496,6 +496,14 @@ export const articles: Article[] = [
     readTime: '28 min read',
     image: '/interiordrainage.jpg',
   },
+  {
+    title: 'Sump Pump Design Ideas 2026: How to Hide, Enclose, and Integrate Your Sump Pump',
+    description: 'Every design approach for concealing a sump pump in a finished basement. From $30 decorative covers to $2,500 custom cabinetry, with costs, code requirements, and noise reduction strategies.',
+    slug: 'sump-pump-design-ideas',
+    category: 'Finishing',
+    readTime: '18 min read',
+    image: '/images/sumppumpdesign.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
