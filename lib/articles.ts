@@ -502,7 +502,7 @@ export const articles: Article[] = [
     slug: 'sump-pump-design-ideas',
     category: 'Finishing',
     readTime: '18 min read',
-    image: '/images/sumppumpdesign.jpg',
+    image: '/sumppumpdesign.jpg',
   },
 ]
 
