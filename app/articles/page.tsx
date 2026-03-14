@@ -27,7 +27,7 @@ const topicGroups: { label: string; id: string; slugs: string[] }[] = [
       'best-vapor-barriers',
       'water-coming-up-through-basement-floor',
       'how-to-dry-out-basement-after-flooding',
-              'wet-basement-walls',
+      'wet-basement-walls',
     ],
   },
   {
@@ -58,6 +58,7 @@ const topicGroups: { label: string; id: string; slugs: string[] }[] = [
       'smart-sump-pumps-guide',
       'backup-power-sump-pumps',
       'best-water-leak-detectors',
+      'sump-pump-design-ideas',
     ],
   },
   {
@@ -115,69 +116,42 @@ const topicGroups: { label: string; id: string; slugs: string[] }[] = [
 
 export default function ArticlesPage() {
   return (
-    <div className="bg-white">
+    <div className="max-w-5xl mx-auto px-4 py-10">
       {/* Page header */}
-      <div className="bg-slate-800 text-white py-12">
-        <div className="container-custom">
-          <nav className="text-sm text-slate-400 mb-3">
-            <Link href="/" className="hover:text-white">Home</Link>
-            <span className="mx-2">/</span>
-            <span className="text-white">Articles</span>
-          </nav>
-          <h1 className="text-3xl md:text-4xl font-bold mb-3">
-            Basement Guides &amp; Articles
-          </h1>
-          <p className="text-slate-300 max-w-2xl">
-            Every article we publish on waterproofing, mold prevention, sump
-            pumps, finishing, structural issues, and more &mdash; organized by
-            topic.
-          </p>
-        </div>
-      </div>
+      <nav className="text-sm text-gray-500 mb-4">
+        <Link href="/" className="hover:underline">Home</Link> / <span>Articles</span>
+      </nav>
+      <h1 className="text-4xl font-bold mb-3">Basement Guides & Articles</h1>
+      <p className="text-gray-600 mb-8">
+        Every article we publish on waterproofing, mold prevention, sump pumps, finishing, structural issues, and more &mdash; organized by topic.
+      </p>
 
       {/* Topic nav */}
-      <div className="border-b border-gray-200 sticky top-0 bg-white z-10">
-        <div className="container-custom flex gap-4 overflow-x-auto py-3 text-sm">
-          {topicGroups.map((g) => (
-            <a
-              key={g.id}
-              href={`#${g.id}`}
-              className="whitespace-nowrap text-gray-600 hover:text-brand-teal font-medium"
-            >
-              {g.label}
-            </a>
-          ))}
-        </div>
+      <div className="flex flex-wrap gap-2 mb-10">
+        {topicGroups.map((g) => (
+          <a key={g.id} href={`#${g.id}`} className="text-sm bg-gray-100 hover:bg-blue-100 text-gray-700 hover:text-blue-700 px-3 py-1 rounded-full transition">
+            {g.label}
+          </a>
+        ))}
       </div>
 
       {/* Grouped articles */}
-      <div className="container-custom py-10">
-        {topicGroups.map((group) => {
-          const groupArticles = group.slugs
-            .map((slug) => articles.find((a) => a.slug === slug))
-            .filter(Boolean) as typeof articles
-          if (groupArticles.length === 0) return null
-          return (
-            <section key={group.id} id={group.id} className="mb-12 scroll-mt-16">
-              <h2 className="text-2xl font-bold text-brand-navy mb-6">
-                {group.label}
-              </h2>
-              <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-                {groupArticles.map((article) => (
-                  <ArticleCard
-                    key={article.slug}
-                    title={article.title}
-                    description={article.description}
-                    slug={article.slug}
-                    category={article.category}
-                    readTime={article.readTime}
-                  />
-                ))}
-              </div>
-            </section>
-          )
-        })}
-      </div>
+      {topicGroups.map((group) => {
+        const groupArticles = group.slugs
+          .map((slug) => articles.find((a) => a.slug === slug))
+          .filter(Boolean) as typeof articles
+        if (groupArticles.length === 0) return null
+        return (
+          <section key={group.id} id={group.id} className="mb-12">
+            <h2 className="text-2xl font-bold mb-4 border-b pb-2">{group.label}</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {groupArticles.map((article) => (
+                <ArticleCard key={article.slug} article={article} />
+              ))}
+            </div>
+          </section>
+        )
+      })}
     </div>
   )
 }
