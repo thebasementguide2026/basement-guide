@@ -184,7 +184,7 @@ export default function SumpPumpDesignIdeas() {
         <div className="bg-blue-50 border border-blue-200 rounded p-4 mb-6">
           <p className="font-semibold mb-1">Recommended: Airtight Sump Pit Cover</p>
           <p className="text-sm text-gray-600 mb-2">Clear polycarbonate sealed cover with gasket, pre-cut cord/pipe holes, and inspection port. Fits most standard 18-24 inch pit openings.</p>
-          <a href="https://www.amazon.com/dp/B08XYZ1234?tag=thebasementgu-20" target="_blank" rel="noopener noreferrer nofollow" className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 px-4 rounded text-sm">Check Price on Amazon</a>
+          <a href="https://amzn.to/4bkYNwP" target="_blank" rel="noopener noreferrer nofollow" className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 px-4 rounded text-sm">Check Price on Amazon</a>
         </div>
 
         <h3 className="text-xl font-bold mt-6 mb-2">Decorative Flush-Mount Covers ($30 to $100)</h3>
@@ -263,7 +263,7 @@ export default function SumpPumpDesignIdeas() {
         <div className="bg-blue-50 border border-blue-200 rounded p-4 mb-6">
           <p className="font-semibold mb-1">Recommended: Sump Pump Vibration Isolation Pad</p>
           <p className="text-sm text-gray-600 mb-2">High-density rubber pad sized for standard sump pump bases. Reduces motor vibration transfer by up to 70 percent.</p>
-          <a href="https://www.amazon.com/dp/B06XYZ3456?tag=thebasementgu-20" target="_blank" rel="noopener noreferrer nofollow" className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 px-4 rounded text-sm">Check Price on Amazon</a>
+          <a href="https://amzn.to/4buVqnn" target="_blank" rel="noopener noreferrer nofollow" className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 px-4 rounded text-sm">Check Price on Amazon</a>
         </div>
 
         <h3 className="text-xl font-bold mt-6 mb-2">Insulated Pit Cover</h3>
@@ -278,7 +278,7 @@ export default function SumpPumpDesignIdeas() {
         <div className="bg-blue-50 border border-blue-200 rounded p-4 mb-6">
           <p className="font-semibold mb-1">Recommended: Spring-Loaded Quiet Check Valve</p>
           <p className="text-sm text-gray-600 mb-2">Silent spring-loaded check valve that eliminates water hammer. Available for 1.5 and 2 inch discharge pipe.</p>
-          <a href="https://www.amazon.com/dp/B05XYZ7890?tag=thebasementgu-20" target="_blank" rel="noopener noreferrer nofollow" className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 px-4 rounded text-sm">Check Price on Amazon</a>
+          <a href="https://amzn.to/473W6yC" target="_blank" rel="noopener noreferrer nofollow" className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 px-4 rounded text-sm">Check Price on Amazon</a>
         </div>
 
         <h3 className="text-xl font-bold mt-6 mb-2">Pump Upgrade</h3>
