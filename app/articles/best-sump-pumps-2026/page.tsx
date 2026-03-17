@@ -483,6 +483,64 @@ export default function BestSumpPumps2026() {
               </div>
             </section>
 
+
+          {/* Which Sump Pump Is Right for You? */}
+          <section>
+            <h2 className='text-3xl font-bold text-slate-900 mb-6'>Which Sump Pump Is Right for You?</h2>
+            <div className='overflow-x-auto'>
+              <table className='w-full border-collapse bg-white rounded-lg shadow-sm'>
+                <thead>
+                  <tr className='bg-slate-800 text-white text-sm'>
+                    <th className='p-3 text-left'>Situation</th>
+                    <th className='p-3 text-left'>Recommended Pump</th>
+                    <th className='p-3 text-left'>Why</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className='bg-slate-50 border-b border-slate-100'>
+                    <td className='p-3'>Basement floods frequently or severely</td>
+                    <td className='p-3 font-medium'>Zoeller M53 Mighty-Mate</td>
+                    <td className='p-3'>Cast-iron construction and proven reliability handle heavy, ongoing use better than any other pump on this list</td>
+                  </tr>
+                  <tr className='bg-white border-b border-slate-100'>
+                    <td className='p-3'>Large basement over 1,500 sq ft</td>
+                    <td className='p-3 font-medium'>Wayne CDU980E</td>
+                    <td className='p-3'>5,490 GPH and 3/4 HP moves water out faster than 1/3 HP pumps best long-term value with 3-year warranty</td>
+                  </tr>
+                  <tr className='bg-slate-50 border-b border-slate-100'>
+                    <td className='p-3'>Finished basement or bedroom nearby</td>
+                    <td className='p-3 font-medium'>Liberty Pumps 257</td>
+                    <td className='p-3'>Quietest pump on this list at 48 to 52 dB nearly silent during normal operation</td>
+                  </tr>
+                  <tr className='bg-white border-b border-slate-100'>
+                    <td className='p-3'>Tight or undersized pit under 12 inches</td>
+                    <td className='p-3 font-medium'>Liberty Pumps 257</td>
+                    <td className='p-3'>Compact 10-inch footprint fits pits that other pumps physically cannot</td>
+                  </tr>
+                  <tr className='bg-slate-50 border-b border-slate-100'>
+                    <td className='p-3'>Budget install or vacation home</td>
+                    <td className='p-3 font-medium'>Superior Pump 92333</td>
+                    <td className='p-3'>Most affordable at $80 to $110 with a 15 to 20 year lifespan in light-duty use</td>
+                  </tr>
+                  <tr className='bg-white border-b border-slate-100'>
+                    <td className='p-3'>Want alerts when water rises</td>
+                    <td className='p-3 font-medium'>Basement Watchdog BWSP</td>
+                    <td className='p-3'>Only pump on this list with a built-in alarm and dual float switch for redundancy</td>
+                  </tr>
+                  <tr className='bg-slate-50 border-b border-slate-100'>
+                    <td className='p-3'>Unfinished basement with heavy water</td>
+                    <td className='p-3 font-medium'>Wayne SPT33</td>
+                    <td className='p-3'>6,000 GPH at 1 HP highest flow rate on this list at a mid-range price</td>
+                  </tr>
+                  <tr className='bg-white'>
+                    <td className='p-3'>Replacing an aging pedestal pump</td>
+                    <td className='p-3 font-medium'>Superior Pump 92333 or Wayne SPT33</td>
+                    <td className='p-3'>Both are direct pedestal replacements with minimal installation changes required</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
             {/* FAQ */}
             <section>
               <h2 className='text-3xl font-bold text-slate-900 mb-6'>Frequently Asked Questions</h2>
