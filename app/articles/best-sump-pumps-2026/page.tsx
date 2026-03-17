@@ -176,7 +176,7 @@ export default function BestSumpPumps2026() {
                       <th className='p-3 text-left'>Type</th>
                       <th className='p-3 text-left'>HP</th>
                       <th className='p-3 text-left'>GPH @ 5&#39; Head</th>
-                      <th className='p-3 text-left'>Best For</th>
+                      <th className='p-3 text-left'>Price Range</th>                   <th className='p-3 text-left'>Noise Level</th>                   <th className='p-3 text-left'>Warranty</th>                   <th className='p-3 text-left'>Best For</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -185,42 +185,42 @@ export default function BestSumpPumps2026() {
                       <td className='p-3'>Submersible</td>
                       <td className='p-3'>1/3 HP</td>
                       <td className='p-3'>2,580</td>
-                      <td className='p-3'>Heavy or gritty water, frequent flooding</td>
+                      <td className='p-3'>$150–$180</td>                   <td className='p-3'>50–53 dB</td>                   <td className='p-3'>1 year</td>                   <td className='p-3'>Heavy use, gritty water, frequent flooding</td>
                     </tr>
                     <tr className='bg-white border-b border-slate-100'>
                       <td className='p-3 font-medium'>Wayne CDU980E</td>
                       <td className='p-3'>Submersible</td>
                       <td className='p-3'>3/4 HP</td>
                       <td className='p-3'>5,490</td>
-                      <td className='p-3'>Large basements, fast water removal</td>
+                      <td className='p-3'>$180–$220</td>                   <td className='p-3'>54–57 dB</td>                   <td className='p-3'>3 years</td>                   <td className='p-3'>Large basements, fast water removal</td>
                     </tr>
                     <tr className='bg-slate-50 border-b border-slate-100'>
                       <td className='p-3 font-medium'>Liberty Pumps 257</td>
                       <td className='p-3'>Submersible</td>
                       <td className='p-3'>1/3 HP</td>
                       <td className='p-3'>2,640</td>
-                      <td className='p-3'>Tight pits, moderate water levels</td>
+                      <td className='p-3'>$160–$190</td>                   <td className='p-3'>48–52 dB</td>                   <td className='p-3'>2 years</td>                   <td className='p-3'>Tight pits, finished basements, quiet operation</td>
                     </tr>
                     <tr className='bg-white border-b border-slate-100'>
                       <td className='p-3 font-medium'>Superior Pump 92333</td>
                       <td className='p-3'>Pedestal</td>
                       <td className='p-3'>1/3 HP</td>
                       <td className='p-3'>2,760</td>
-                      <td className='p-3'>Budget installs, lighter flooding</td>
+                      <td className='p-3'>$80–$110</td>                   <td className='p-3'>58–62 dB</td>                   <td className='p-3'>1 year</td>                   <td className='p-3'>Budget installs, occasional light flooding</td>
                     </tr>
                     <tr className='bg-slate-50 border-b border-slate-100'>
                       <td className='p-3 font-medium'>Wayne SPT33</td>
                       <td className='p-3'>Pedestal</td>
                       <td className='p-3'>1 HP</td>
                       <td className='p-3'>6,000</td>
-                      <td className='p-3'>Moderate water, easy-access pits</td>
+                      <td className='p-3'>$130–$160</td>                   <td className='p-3'>55–60 dB</td>                   <td className='p-3'>2 years</td>                   <td className='p-3'>Moderate water, easy-access pits</td>
                     </tr>
                     <tr className='bg-teal-50'>
                       <td className='p-3 font-medium'>Basement Watchdog BWSP</td>
                       <td className='p-3'>Pedestal</td>
                       <td className='p-3'>1/2 HP</td>
                       <td className='p-3'>4,100</td>
-                      <td className='p-3'>Homeowners who want audible alerts</td>
+                      <td className='p-3'>$150–$190</td>                   <td className='p-3'>56–60 dB</td>                   <td className='p-3'>2 years</td>                   <td className='p-3'>Homeowners who want built-in alerts</td>
                     </tr>
                   </tbody>
                 </table>
