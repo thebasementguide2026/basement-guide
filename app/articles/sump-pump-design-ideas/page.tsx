@@ -225,7 +225,7 @@ export default function SumpPumpDesignIdeas() {
           <li>This design works best when the sump pit is within 12 inches of a wall. If the pit is in the middle of the floor (common in older basements), a bench enclosure is not practical.</li>
         </ul>
                     <div className="my-6">
-              <Image src="/images/bench.jpg" alt="Built-in bench concealing a sump pump in a finished basement" width={800} height={500} className="rounded-lg w-full" />
+              <Image src="/bench.jpg" alt="Built-in bench concealing a sump pump in a finished basement" width={800} height={500} className="rounded-lg w-full" />
             </div>
 
         <h3 className="text-xl font-bold mt-6 mb-2">Decorative Screen or Room Divider ($100 to $400)</h3>
