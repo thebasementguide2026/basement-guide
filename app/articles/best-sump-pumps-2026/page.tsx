@@ -86,7 +86,7 @@ export default function BestSumpPumps2026() {
                   name: 'What size sump pump do I need for my basement?',
                   acceptedAnswer: {
                     '@type': 'Answer',
-                    text: 'Most homes do well with a 1/3 to 1/2 HP sump pump that can move 2,500 to 4,000 gallons per hour at 5 feet of lift. If your basement floods often or you live in an area with heavy rain and a high water table, step up to a more powerful pump.',
+                    text: 'Most homes do well with a 1/3 to 1/2 HP sump pump that can move 2,500 to 4,000 gallons per hour at 5 feet of lift. The right size depends on four factors: the square footage of your basement, how frequently and severely it floods, your local water table depth, and whether you have a single pump or a primary and backup setup. A 1/3 HP pump handles most average-sized basements in areas with moderate rainfall. If you live in a low-lying area, near a body of water, or your basement has flooded more than once in a single storm, step up to a 3/4 HP model like the Wayne CDU980E. When in doubt, size up\u2014a pump that runs briefly at lower capacity lasts longer than an undersized pump running continuously at full load.',
                   },
                 },
                 {
@@ -94,7 +94,7 @@ export default function BestSumpPumps2026() {
                   name: 'Is a submersible sump pump better than a pedestal pump?',
                   acceptedAnswer: {
                     '@type': 'Answer',
-                    text: 'Submersible pumps sit in the pit, run more quietly, and handle debris better. Pedestal pumps cost less, last longer, and are easier to service because the motor stays above the pit.',
+                    text: 'Submersible pumps sit inside the pit, run more quietly (48 to 57 dB vs 58 to 62 dB for pedestal), handle debris and solids better, and are the right choice for finished basements where noise matters. Pedestal pumps keep the motor above the pit, which makes them easier to service, keeps the motor out of the water, and typically extends lifespan to 15 to 20 years in light-duty applications. Submersible pumps are better for heavy flooding, finished living spaces, and pits with sediment or debris. Pedestal pumps are better for unfinished basements, tight budgets, and situations where easy motor access is a priority.',
                   },
                 },
                 {
@@ -102,7 +102,7 @@ export default function BestSumpPumps2026() {
                   name: 'How long should a sump pump last?',
                   acceptedAnswer: {
                     '@type': 'Answer',
-                    text: 'A quality sump pump often lasts 7 to 10 years, and many pedestal models can stretch to 15 to 20 years with basic maintenance.',
+                    text: 'A quality submersible sump pump lasts 7 to 10 years under normal residential use, while pedestal pumps in light-duty applications regularly reach 15 to 20 years because the motor never contacts water. The biggest factors affecting lifespan are how often the pump cycles, water quality (sediment and minerals wear components faster), whether the pump is correctly sized for the load, and how consistently it is maintained. A pump that runs continuously because it is undersized will fail in 3 to 5 years. A correctly sized pump that is tested quarterly, cleaned annually, and paired with a battery backup that prevents dry-running during power outages will consistently reach or exceed its expected lifespan. If your pump is over 7 years old and cycling more frequently than usual, start budgeting for a replacement before it fails during a storm.',
                   },
                 },
                 {
@@ -110,7 +110,7 @@ export default function BestSumpPumps2026() {
                   name: 'Do I really need a battery backup for my sump pump?',
                   acceptedAnswer: {
                     '@type': 'Answer',
-                    text: 'Yes, a battery backup is one of the best ways to protect your basement because storms that cause flooding also tend to knock out power.',
+                    text: 'Yes, a battery backup is one of the most important investments a sump pump owner can make, because the storms that cause basement flooding are the same storms that knock out power. A primary pump with no backup is completely useless the moment the power goes out, which is exactly when you need it most. Battery backup systems ($150 to $400) activate automatically when the primary pump loses power and can run for 5 to 10 hours depending on cycling frequency. Water-powered backup pumps are an alternative for homes with municipal water supply\u2014they require no battery and never lose power, but they consume tap water during operation.',
                   },
                 },
               ],
@@ -547,19 +547,19 @@ export default function BestSumpPumps2026() {
               <div className='space-y-4'>
                 <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
                   <h3 className='font-bold text-slate-900 mb-2'>What size sump pump do I need for my basement?</h3>
-                  <p className='text-slate-700'>Most homes do well with a 1/3 to 1/2 HP sump pump that can move 2,500 to 4,000 gallons per hour at 5 feet of lift. If your basement floods often or you live in an area with heavy rain and a high water table, step up to a more powerful pump.</p>
+                  <p className='text-slate-700'>Most homes do well with a 1/3 to 1/2 HP sump pump that can move 2,500 to 4,000 gallons per hour at 5 feet of lift. The right size depends on four factors: the square footage of your basement, how frequently and severely it floods, your local water table depth, and whether you have a single pump or a primary and backup setup. A 1/3 HP pump handles most average-sized basements in areas with moderate rainfall. If you live in a low-lying area, near a body of water, or your basement has flooded more than once in a single storm, step up to a 3/4 HP model like the Wayne CDU980E. When in doubt, size up&#8212;a pump that runs briefly at lower capacity lasts longer than an undersized pump running continuously at full load.</p>
                 </div>
                 <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
                   <h3 className='font-bold text-slate-900 mb-2'>Is a submersible sump pump better than a pedestal pump?</h3>
-                  <p className='text-slate-700'>Submersible pumps sit in the pit, run more quietly, and handle debris better. Pedestal pumps cost less, last longer, and are easier to service because the motor stays above the pit. See our <Link href='/articles/submersible-vs-pedestal-sump-pump' className='text-teal-600 underline hover:text-teal-800'>full comparison</Link> for more detail.</p>
+                  <p className='text-slate-700'>Submersible pumps sit inside the pit, run more quietly (48 to 57 dB vs 58 to 62 dB for pedestal), handle debris and solids better, and are the right choice for finished basements where noise matters. Pedestal pumps keep the motor above the pit, which makes them easier to service, keeps the motor out of the water, and typically extends lifespan to 15 to 20 years in light-duty applications. Submersible pumps are better for heavy flooding, finished living spaces, and pits with sediment or debris. Pedestal pumps are better for unfinished basements, tight budgets, and situations where easy motor access is a priority. For a full side-by-side breakdown see our <Link href='/articles/submersible-vs-pedestal-sump-pump' className='text-teal-600 underline hover:text-teal-800'>submersible vs. pedestal sump pump guide</Link>.</p>
                 </div>
                 <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
                   <h3 className='font-bold text-slate-900 mb-2'>How long should a sump pump last?</h3>
-                  <p className='text-slate-700'>A quality sump pump often lasts 7 to 10 years, and many pedestal models can stretch to 15 to 20 years with basic maintenance.</p>
+                  <p className='text-slate-700'>A quality submersible sump pump lasts 7 to 10 years under normal residential use, while pedestal pumps in light-duty applications regularly reach 15 to 20 years because the motor never contacts water. The biggest factors affecting lifespan are how often the pump cycles, water quality (sediment and minerals wear components faster), whether the pump is correctly sized for the load, and how consistently it is maintained. A pump that runs continuously because it is undersized will fail in 3 to 5 years. A correctly sized pump that is tested quarterly, cleaned annually, and paired with a battery backup that prevents dry-running during power outages will consistently reach or exceed its expected lifespan. If your pump is over 7 years old and cycling more frequently than usual, start budgeting for a replacement before it fails during a storm.</p>
                 </div>
                 <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
                   <h3 className='font-bold text-slate-900 mb-2'>Do I really need a battery backup for my sump pump?</h3>
-                  <p className='text-slate-700'>Yes, a battery backup is one of the best ways to protect your basement because storms that cause flooding also tend to knock out power.</p>
+                  <p className='text-slate-700'>Yes, a battery backup is one of the most important investments a sump pump owner can make, because the storms that cause basement flooding are the same storms that knock out power. A primary pump with no backup is completely useless the moment the power goes out, which is exactly when you need it most. Battery backup systems ($150 to $400) activate automatically when the primary pump loses power and can run for 5 to 10 hours depending on cycling frequency. Water-powered backup pumps are an alternative for homes with municipal water supply&#8212;they require no battery and never lose power, but they consume tap water during operation.</p>
                 </div>
               </div>
             </section>
