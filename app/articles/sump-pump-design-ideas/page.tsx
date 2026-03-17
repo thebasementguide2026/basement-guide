@@ -224,6 +224,9 @@ export default function SumpPumpDesignIdeas() {
           <li>The front of the bench should be open or have removable panels for airflow. A solid enclosed bench without ventilation will trap moisture and create mold problems.</li>
           <li>This design works best when the sump pit is within 12 inches of a wall. If the pit is in the middle of the floor (common in older basements), a bench enclosure is not practical.</li>
         </ul>
+                    <div className="my-6">
+              <Image src="/images/bench.jpg" alt="Built-in bench concealing a sump pump in a finished basement" width={800} height={500} className="rounded-lg w-full" />
+            </div>
 
         <h3 className="text-xl font-bold mt-6 mb-2">Decorative Screen or Room Divider ($100 to $400)</h3>
         <p className="mb-4">The simplest concealment method for unfinished or partially finished basements: a freestanding decorative screen or room divider placed in front of the sump pump area. This hides the pump from view without any construction and can be moved instantly for maintenance. Screens work well in basements used as home gyms, workshops, or storage areas where a fully finished look is not required. Choose a screen that allows airflow (slatted or fabric screens, not solid panels) to prevent moisture buildup behind it.</p>
