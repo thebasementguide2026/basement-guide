@@ -153,6 +153,7 @@ export default function BestSumpPumps2026() {
 
             {/* Intro */}
             <section>
+                            <p className='text-lg text-slate-700 leading-relaxed mb-6'>A sump pump is a submersible or pedestal-mounted electric pump installed in a pit at the lowest point of your basement that automatically activates when water reaches a set level and pumps it out through a discharge line to a safe distance from your foundation. The best sump pumps for 2026 range from $150 to $600, run at 1/3 to 3/4 HP, and can move 2,500 to 5,500 gallons per hour depending on the model. Submersible pumps sit inside the pit and run quieter, making them the better choice for finished basements, while pedestal pumps keep the motor above the pit for easier servicing and a longer lifespan. This guide reviews the 6 best sump pumps for 2026 across both types, with full specs, noise ratings, and a decision table to help you match the right pump to your basement.</p>
               <p className='text-lg text-slate-700 leading-relaxed'>
                 Sump pumps are a real lifesaver for keeping your basement from turning into a swimming pool, especially if you deal with heavy rain or a high water table. This guide rounds up the top submersible and pedestal sump pumps for 2026 so you can match the right pump to your basement.
               </p>
