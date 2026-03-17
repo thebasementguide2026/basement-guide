@@ -113,6 +113,30 @@ export default function BestSumpPumps2026() {
                     text: 'Yes, a battery backup is one of the most important investments a sump pump owner can make, because the storms that cause basement flooding are the same storms that knock out power. A primary pump with no backup is completely useless the moment the power goes out, which is exactly when you need it most. Battery backup systems ($150 to $400) activate automatically when the primary pump loses power and can run for 5 to 10 hours depending on cycling frequency. Water-powered backup pumps are an alternative for homes with municipal water supply\u2014they require no battery and never lose power, but they consume tap water during operation.',
                   },
                 },
+                            {
+              '@type': 'Question',
+              name: 'How do I know when my sump pump needs replacing?',
+              acceptedAnswer: {
+                '@type': 'Answer',
+                text: 'The clearest signs that a sump pump needs replacing are: the pump runs continuously without shutting off, it makes grinding or rattling noises it didn\\u2019t make before, it cycles on and off rapidly without moving much water, visible rust or corrosion on the housing, or it simply fails to activate when water enters the pit. Age is also a reliable indicator\\u2014if your submersible pump is over 7 years old or your pedestal pump is over 15 years old, start planning a proactive replacement rather than waiting for failure during a storm. The worst time to discover your pump has failed is during a heavy rainfall event when water is actively entering the basement. Annual testing (pour a bucket of water into the pit and verify activation) and quarterly visual inspections catch most issues before they become emergencies.',
+              },
+            },
+                            {
+              '@type': 'Question',
+              name: 'What is the best sump pump for a finished basement?',
+              acceptedAnswer: {
+                '@type': 'Answer',
+                text: 'The best sump pump for a finished basement is the Liberty Pumps 257, because at 48 to 52 dB it is the quietest pump on this list and virtually inaudible during normal operation in an adjacent living space. For finished basements, noise level matters as much as flow capacity\\u2014a pump that wakes you up every time it cycles in a nearby bedroom or disrupts a home theater is a problem regardless of how well it moves water. Pair the Liberty Pumps 257 with a sealed airtight pit cover ($50 to $150) to further reduce noise and block any odors from the pit, and add a rubber vibration isolation pad ($15 to $40) under the pump to eliminate motor vibration transfer through the slab.',
+              },
+            },
+                            {
+              '@type': 'Question',
+              name: 'How much does sump pump installation cost?',
+              acceptedAnswer: {
+                '@type': 'Answer',
+                text: 'Sump pump installation costs $490 to $1,170 on average, including the pump itself ($150 to $600), labor ($200 to $400 for a straightforward swap), and any necessary materials like discharge pipe fittings or a new check valve. Replacing an existing pump in an established pit is significantly cheaper than installing a new system from scratch\\u2014a new pit installation adds $500 to $1,000 for excavation and pit liner. Installing a battery backup system alongside the primary pump adds $150 to $400 for the backup unit plus $100 to $200 in additional labor. Permits are rarely required for pump replacement but may be needed for new pit installation depending on your municipality.',
+              },
+            },
               ],
             }),
           }}
@@ -539,6 +563,45 @@ export default function BestSumpPumps2026() {
                   </tr>
                 </tbody>
               </table>
+            </div>
+          </section>
+
+                      {/* Glossary */}
+          <section>
+            <h2 className='text-3xl font-bold text-slate-900 mb-6'>Sump Pump Glossary</h2>
+            <div className='space-y-4'>
+              <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
+                <h3 className='font-bold text-slate-900 mb-2'>Sump Pump</h3>
+                <p className='text-slate-700'>A sump pump is an electric pump installed in a pit at the lowest point of a basement or crawl space that automatically activates when water reaches a set level and pumps it out through a discharge line to a safe distance from the foundation. Without a functioning sump pump, homes with high water tables or poor drainage are vulnerable to basement flooding that can cause structural damage, mold growth, and thousands of dollars in repairs. See our <Link href='/articles/sump-pump-buying-guide' className='text-teal-600 underline hover:text-teal-800'>sump pump buying guide</Link> for a full breakdown of how to choose the right pump for your basement.</p>
+              </div>
+              <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
+                <h3 className='font-bold text-slate-900 mb-2'>Submersible Pump</h3>
+                <p className='text-slate-700'>A submersible sump pump sits fully submerged inside the sump pit, with the motor sealed inside a waterproof housing that allows it to operate while surrounded by water. Because the motor is below the waterline, submersible pumps run quieter than pedestal pumps (48 to 57 dB) and handle debris and sediment better, making them the preferred choice for finished basements and pits with gritty water. See our <Link href='/articles/submersible-vs-pedestal-sump-pump' className='text-teal-600 underline hover:text-teal-800'>submersible vs. pedestal sump pump comparison</Link> for a full side-by-side breakdown.</p>
+              </div>
+              <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
+                <h3 className='font-bold text-slate-900 mb-2'>Pedestal Pump</h3>
+                <p className='text-slate-700'>A pedestal sump pump has the motor mounted on a tall column above the pit, keeping it completely out of the water at all times. This design makes the motor easier to inspect and service, and because the motor never contacts water it typically lasts 15 to 20 years in light-duty applications&#8212;longer than most submersible pumps. The trade-off is that pedestal pumps are louder (58 to 62 dB) and more visible, making them better suited to unfinished basements than finished living spaces.</p>
+              </div>
+              <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
+                <h3 className='font-bold text-slate-900 mb-2'>Float Switch</h3>
+                <p className='text-slate-700'>A float switch is the mechanism that tells a sump pump when to turn on and off by detecting the water level inside the pit. As water rises, the float lifts and triggers the pump to activate; as water drops after pumping, the float lowers and shuts the pump off. A reliable float switch is one of the most important components of any sump pump&#8212;a stuck or failed float switch is one of the most common causes of pump failure during a flooding event.</p>
+              </div>
+              <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
+                <h3 className='font-bold text-slate-900 mb-2'>Check Valve</h3>
+                <p className='text-slate-700'>A check valve is a one-way valve installed in the sump pump discharge pipe that prevents water from flowing back into the pit after the pump shuts off. Without a check valve, water in the discharge pipe would drain back into the pit every time the pump cycles off, causing the pump to activate repeatedly and wear out prematurely. Standard check valves close with a loud thud called water hammer; upgrading to a spring-loaded quiet check valve ($20 to $50) eliminates the noise by closing gradually.</p>
+              </div>
+              <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
+                <h3 className='font-bold text-slate-900 mb-2'>Head Pressure</h3>
+                <p className='text-slate-700'>Head pressure refers to the vertical height the pump must push water upward from the pit to the discharge point, measured in feet. The higher the head pressure, the harder the pump works and the lower its effective flow rate&#8212;a pump rated at 4,000 GPH at 5 feet of head may only move 2,500 GPH at 10 feet of head. When comparing pumps, always check the GPH rating at the head height that matches your actual installation, not just the maximum rated flow.</p>
+              </div>
+              <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
+                <h3 className='font-bold text-slate-900 mb-2'>GPH (Gallons Per Hour)</h3>
+                <p className='text-slate-700'>GPH is the measure of how much water a sump pump can move in one hour at a given head height, and it is the most useful spec for comparing pump capacity. A pump moving 2,500 GPH at 5 feet of head is sufficient for most average-sized basements, while larger basements or severe flooding conditions may require 4,000 to 6,000 GPH. Always match GPH to your actual flooding volume&#8212;an oversized pump that short-cycles (turns on and off rapidly) wears out faster than a correctly sized pump running at steady load.</p>
+              </div>
+              <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
+                <h3 className='font-bold text-slate-900 mb-2'>Battery Backup</h3>
+                <p className='text-slate-700'>A battery backup sump pump is a secondary pump that activates automatically when the primary pump loses power or fails, providing continued protection during storms when power outages are most likely. Most battery backup systems run on a 12-volt marine battery and can operate for 5 to 10 hours depending on how frequently the pump cycles. See our <Link href='/articles/backup-power-sump-pumps' className='text-teal-600 underline hover:text-teal-800'>backup power for sump pumps guide</Link> for top-rated backup systems.</p>
+              </div>
             </div>
           </section>
             {/* FAQ */}
