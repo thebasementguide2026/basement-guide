@@ -142,8 +142,8 @@ export default function BestSumpPumps2026() {
           }}
         />
         <Image
-          src='/Submersible.jpg'
-          alt='Best submersible sump pumps for 2026'
+          src='/best sumppump.jpg'
+          alt='Best sump pumps for 2026'
           fill
           className='object-cover opacity-45 scale-105 transition-transform duration-700 hover:scale-100'
           priority
