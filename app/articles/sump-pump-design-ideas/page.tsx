@@ -233,6 +233,9 @@ export default function SumpPumpDesignIdeas() {
 
         <h3 className="text-xl font-bold mt-6 mb-2">Cabinetry Integration ($800 to $2,500 Custom)</h3>
         <p className="mb-4">For high-end finished basements&mdash;home bars, media rooms, in-law suites&mdash;a custom cabinet built around the sump pump integrates it into the room&apos;s cabinetry. The cabinet matches the surrounding millwork and includes a door or removable panel for access. This is the most expensive option but produces a completely seamless result. Work with a finish carpenter or cabinet maker who understands that the cabinet must have ventilation, a waterproof interior (sealed plywood or PVC board, not MDF which absorbs moisture), and easy access. Show them the pump and explain the maintenance requirements before they design the cabinet.</p>
+                      <div className="my-6">
+                <Image src="/cabinetes.jpg" alt="Cabinetry integration for sump pump concealment" width={800} height={600} className="rounded-lg w-full" />
+              </div>
 
         {/* Section: Discharge Line */}
         <h2 className="text-3xl font-bold mt-10 mb-2">Discharge Line Concealment</h2>
