@@ -4,8 +4,8 @@ import LeadForm from '@/components/LeadForm'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Basement Flooding Insurance: What\'s Actually Covered in 2026',
-  description: 'Understand what homeowners insurance covers for basement flooding in 2026. NFIP vs private flood insurance, water backup riders, claims tips, and cost data.',
+  title: 'Does Homeowners Insurance Cover Basement Flooding? 2026 Guide',
+      description: 'Most basement floods are not covered by standard homeowners insurance. Here is exactly what your HO-3 covers, what requires separate flood insurance, and the one rider that covers sump pump failures.',
 }
 
 export default function BasementFloodingInsurance() {
