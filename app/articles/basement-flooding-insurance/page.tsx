@@ -261,6 +261,77 @@ export default function BasementFloodingInsurance() {
 
           <p>The faster you act, the less total damage and the smoother the claim process.</p>
 
+
+                    {/* Related Guides */}
+          <h2 className='text-3xl font-extrabold text-slate-900 mt-16 mb-6'>Related Guides</h2>
+          <div className='grid grid-cols-1 md:grid-cols-3 gap-6 mb-12'>
+            <Link href='/articles/complete-basement-waterproofing-guide' className='group block bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:border-indigo-300 hover:shadow-lg transition-all'>
+              <h3 className='text-lg font-bold text-slate-900 mb-2 group-hover:text-indigo-600'>Complete Basement Waterproofing Guide 2026</h3>
+              <p className='text-slate-600 text-sm'>The full framework for stopping water from entering your basement in the first place, which is the most reliable way to avoid a flood claim entirely.</p>
+            </Link>
+            <Link href='/articles/basement-waterproofing-cost' className='group block bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:border-indigo-300 hover:shadow-lg transition-all'>
+              <h3 className='text-lg font-bold text-slate-900 mb-2 group-hover:text-indigo-600'>Basement Waterproofing Cost 2026</h3>
+              <p className='text-slate-600 text-sm'>What interior and exterior waterproofing systems actually cost, and how to weigh that investment against the insurance gaps that waterproofing helps close.</p>
+            </Link>
+            <Link href='/articles/basement-waterproofing-finances-insurance-taxes' className='group block bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:border-indigo-300 hover:shadow-lg transition-all'>
+              <h3 className='text-lg font-bold text-slate-900 mb-2 group-hover:text-indigo-600'>Basement Waterproofing Finances and Insurance</h3>
+              <p className='text-slate-600 text-sm'>A deeper look at the financial and tax dimensions of waterproofing, including how it affects home value and what is and is not deductible.</p>
+            </Link>
+            <Link href='/articles/how-to-dry-out-basement' className='group block bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:border-indigo-300 hover:shadow-lg transition-all'>
+              <h3 className='text-lg font-bold text-slate-900 mb-2 group-hover:text-indigo-600'>How to Dry Out a Basement After Flooding</h3>
+              <p className='text-slate-600 text-sm'>The step-by-step process for drying and documenting a flooded basement in a way that supports a stronger insurance claim.</p>
+            </Link>
+            <Link href='/articles/basement-emergency-water-plan' className='group block bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:border-indigo-300 hover:shadow-lg transition-all'>
+              <h3 className='text-lg font-bold text-slate-900 mb-2 group-hover:text-indigo-600'>Basement Emergency Water Plan</h3>
+              <p className='text-slate-600 text-sm'>What to do in the first hour after water enters your basement, including the documentation steps that matter most for your claim.</p>
+            </Link>
+            <Link href='/articles/best-sump-pumps' className='group block bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:border-indigo-300 hover:shadow-lg transition-all'>
+              <h3 className='text-lg font-bold text-slate-900 mb-2 group-hover:text-indigo-600'>Best Sump Pumps 2026</h3>
+              <p className='text-slate-600 text-sm'>Reviewed and ranked sump pumps including battery backup models that are often required for water backup rider approval and loss mitigation discounts.</p>
+            </Link>
+            <Link href='/articles/sump-pump-cost' className='group block bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:border-indigo-300 hover:shadow-lg transition-all'>
+              <h3 className='text-lg font-bold text-slate-900 mb-2 group-hover:text-indigo-600'>Sump Pump Cost</h3>
+              <p className='text-slate-600 text-sm'>Installation and replacement costs for the sump pump systems that insurers look for when evaluating loss mitigation discounts and water backup rider claims.</p>
+            </Link>
+            <Link href='/articles/why-basement-floods-with-sump-pump' className='group block bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:border-indigo-300 hover:shadow-lg transition-all'>
+              <h3 className='text-lg font-bold text-slate-900 mb-2 group-hover:text-indigo-600'>Why Your Basement Still Floods With a Sump Pump</h3>
+              <p className='text-slate-600 text-sm'>Common reasons a functioning sump pump fails to prevent flooding, and how those scenarios interact with insurance coverage.</p>
+            </Link>
+            <Link href='/articles/water-coming-up-through-basement-floor' className='group block bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:border-indigo-300 hover:shadow-lg transition-all'>
+              <h3 className='text-lg font-bold text-slate-900 mb-2 group-hover:text-indigo-600'>Water Coming Up Through Basement Floor</h3>
+              <p className='text-slate-600 text-sm'>What causes hydrostatic pressure to push water through the floor and why this type of intrusion is almost never covered by any standard policy.</p>
+            </Link>
+            <Link href='/articles/homebuyers-basement-inspection-checklist' className='group block bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:border-indigo-300 hover:shadow-lg transition-all'>
+              <h3 className='text-lg font-bold text-slate-900 mb-2 group-hover:text-indigo-600'>Homebuyers Basement Inspection Checklist</h3>
+              <p className='text-slate-600 text-sm'>What to look for in a basement before buying a home, including drainage systems, waterproofing history, and prior flood evidence that affects your insurance options.</p>
+            </Link>
+            <Link href='/articles/mold-remediation-cost' className='group block bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:border-indigo-300 hover:shadow-lg transition-all'>
+              <h3 className='text-lg font-bold text-slate-900 mb-2 group-hover:text-indigo-600'>Mold Remediation Cost</h3>
+              <p className='text-slate-600 text-sm'>What mold cleanup costs after a basement flood, and why acting immediately after water entry is critical for insurance coverage of mold-related damage.</p>
+            </Link>
+          </div>
+
+                    {/* Cross-Network Links */}
+          <div className='mt-16 pt-8 border-t border-slate-200'>
+            <h2 className='text-2xl font-extrabold text-slate-900 mb-4'>From Our Network</h2>
+            <p className='text-slate-700 leading-relaxed mb-4'>
+              <a href='https://theseptic.guide/articles/does-insurance-cover-septic-repair' className='text-teal-600 underline hover:text-teal-800'>Does Insurance Cover Septic Repair and Replacement?</a> &mdash; A parallel guide covering how homeowners insurance treats septic system failures, which often occur alongside basement flooding events in homes on septic systems.
+            </p>
+            <p className='text-slate-700 leading-relaxed mb-4'>
+              <a href='https://theseptic.guide/articles/septic-tank-backing-up-into-house' className='text-teal-600 underline hover:text-teal-800'>Septic Tank Backing Up Into House</a> &mdash; When a septic backup causes basement flooding, coverage falls under the water backup rider rather than flood insurance. This guide covers the septic side of that scenario.
+            </p>
+          </div>
+
+          {/* External Resources */}
+          <div className='mt-12 pt-8 border-t border-slate-200'>
+            <h2 className='text-2xl font-extrabold text-slate-900 mb-4'>External Resources</h2>
+            <p className='text-slate-700 leading-relaxed mb-4'>
+              <a href='https://www.floodsmart.gov/' className='text-teal-600 underline hover:text-teal-800' target='_blank' rel='noopener noreferrer'>FEMA National Flood Insurance Program</a> &mdash; Official NFIP policy information, flood map lookups, and how to find an authorized flood insurance agent in your area.
+            </p>
+            <p className='text-slate-700 leading-relaxed mb-4'>
+              <a href='https://msc.fema.gov/portal/home' className='text-teal-600 underline hover:text-teal-800' target='_blank' rel='noopener noreferrer'>FEMA Flood Map Service Center</a> &mdash; Look up your property&rsquo;s official flood zone designation to understand your flood risk and whether flood insurance is required by your mortgage lender.
+            </p>
+          </div>
           {/* Lead Form CTA */}
           <div className='bg-gradient-to-br from-slate-900 to-slate-800 rounded-2xl p-8 my-12 text-white'>
             <h3 className='text-2xl font-bold mb-3'>Get a Personalized Basement Protection Checklist</h3>
