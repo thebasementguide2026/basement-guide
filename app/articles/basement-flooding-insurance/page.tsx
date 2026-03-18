@@ -89,6 +89,39 @@ export default function BasementFloodingInsurance() {
             <p className='text-slate-700 text-sm'><strong>Key phrase:</strong> Insurers look for &ldquo;sudden and accidental.&rdquo; If an adjuster decides the water came in slowly or you should have noticed a problem earlier, the claim gets denied.</p>
           </div>
 
+
+                    {/* Coverage Chart */}
+          <h2 className='text-3xl font-extrabold text-slate-900 mt-16 mb-6'>What Caused the Flooding? Here Is What Covers It.</h2>
+          <p className='text-slate-700 leading-relaxed mb-6'>Use the source of the water to determine which policy type applies and what your realistic coverage outcome is.</p>
+          <div className='overflow-x-auto mb-6'>
+            <table className='w-full border-collapse text-left'>
+              <thead>
+                <tr className='bg-slate-100'>
+                  <th className='p-4 font-bold text-slate-900 border border-slate-200'>How Water Entered the Basement</th>
+                  <th className='p-4 font-bold text-slate-900 border border-slate-200'>Covered By Standard HO-3?</th>
+                  <th className='p-4 font-bold text-slate-900 border border-slate-200'>Covered By NFIP Flood?</th>
+                  <th className='p-4 font-bold text-slate-900 border border-slate-200'>Covered By Private Flood?</th>
+                  <th className='p-4 font-bold text-slate-900 border border-slate-200'>Covered By Water Backup Rider?</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td className='p-4 border border-slate-200 font-medium'>Burst pipe or failed appliance inside home</td><td className='p-4 border border-slate-200'>Yes</td><td className='p-4 border border-slate-200'>No</td><td className='p-4 border border-slate-200'>No</td><td className='p-4 border border-slate-200'>No</td></tr>
+                <tr className='bg-slate-50'><td className='p-4 border border-slate-200 font-medium'>Toilet, sink, or bathtub overflow (internal)</td><td className='p-4 border border-slate-200'>Yes</td><td className='p-4 border border-slate-200'>No</td><td className='p-4 border border-slate-200'>No</td><td className='p-4 border border-slate-200'>No</td></tr>
+                <tr><td className='p-4 border border-slate-200 font-medium'>Sewer or drain line backing up into basement</td><td className='p-4 border border-slate-200'>No</td><td className='p-4 border border-slate-200'>No</td><td className='p-4 border border-slate-200'>No</td><td className='p-4 border border-slate-200'>Yes, if rider added</td></tr>
+                <tr className='bg-slate-50'><td className='p-4 border border-slate-200 font-medium'>Sump pump failure or overflow</td><td className='p-4 border border-slate-200'>No</td><td className='p-4 border border-slate-200'>No</td><td className='p-4 border border-slate-200'>No</td><td className='p-4 border border-slate-200'>Yes, if rider added</td></tr>
+                <tr><td className='p-4 border border-slate-200 font-medium'>Heavy rain entering through window wells or doors</td><td className='p-4 border border-slate-200'>No</td><td className='p-4 border border-slate-200'>No</td><td className='p-4 border border-slate-200'>Sometimes</td><td className='p-4 border border-slate-200'>No</td></tr>
+                <tr className='bg-slate-50'><td className='p-4 border border-slate-200 font-medium'>Surface water runoff from yard flowing in</td><td className='p-4 border border-slate-200'>No</td><td className='p-4 border border-slate-200'>Yes</td><td className='p-4 border border-slate-200'>Yes</td><td className='p-4 border border-slate-200'>No</td></tr>
+                <tr><td className='p-4 border border-slate-200 font-medium'>Rising water from river, lake, or storm surge</td><td className='p-4 border border-slate-200'>No</td><td className='p-4 border border-slate-200'>Yes</td><td className='p-4 border border-slate-200'>Yes</td><td className='p-4 border border-slate-200'>No</td></tr>
+                <tr className='bg-slate-50'><td className='p-4 border border-slate-200 font-medium'>Groundwater seeping through foundation walls</td><td className='p-4 border border-slate-200'>No</td><td className='p-4 border border-slate-200'>Rarely</td><td className='p-4 border border-slate-200'>Rarely</td><td className='p-4 border border-slate-200'>No</td></tr>
+                <tr><td className='p-4 border border-slate-200 font-medium'>Groundwater seeping through basement floor</td><td className='p-4 border border-slate-200'>No</td><td className='p-4 border border-slate-200'>Rarely</td><td className='p-4 border border-slate-200'>Rarely</td><td className='p-4 border border-slate-200'>No</td></tr>
+                <tr className='bg-slate-50'><td className='p-4 border border-slate-200 font-medium'>Snowmelt causing surface flooding</td><td className='p-4 border border-slate-200'>No</td><td className='p-4 border border-slate-200'>Yes</td><td className='p-4 border border-slate-200'>Yes</td><td className='p-4 border border-slate-200'>No</td></tr>
+                <tr><td className='p-4 border border-slate-200 font-medium'>Storm surge from hurricane or coastal event</td><td className='p-4 border border-slate-200'>No</td><td className='p-4 border border-slate-200'>Yes</td><td className='p-4 border border-slate-200'>Yes</td><td className='p-4 border border-slate-200'>No</td></tr>
+                <tr className='bg-slate-50'><td className='p-4 border border-slate-200 font-medium'>Water from firefighting efforts</td><td className='p-4 border border-slate-200'>Yes</td><td className='p-4 border border-slate-200'>No</td><td className='p-4 border border-slate-200'>No</td><td className='p-4 border border-slate-200'>No</td></tr>
+                <tr><td className='p-4 border border-slate-200 font-medium'>Gradual seepage from poor drainage over time</td><td className='p-4 border border-slate-200'>No</td><td className='p-4 border border-slate-200'>No</td><td className='p-4 border border-slate-200'>No</td><td className='p-4 border border-slate-200'>No</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className='text-sm text-slate-500 italic mb-12'>No coverage exists for gradual seepage from deferred maintenance under any standard policy type. The only financial protection against long-term seepage is preventing it through waterproofing, proper grading, and a maintained drainage system.</p>
           <h2 className='text-3xl font-black text-slate-900 mt-16 mb-6'>Flood Insurance: The Only Real Protection for Outside Water</h2>
 
           <p>If the water comes from outside your home, standard homeowners insurance will not pay a dime. You need separate flood insurance.</p>
