@@ -235,6 +235,43 @@ export default function BasementFloodingInsurance() {
             <LeadForm />
           </div>
 
+
+                    {/* Glossary */}
+          <h2 className='text-3xl font-extrabold text-slate-900 mt-16 mb-6'>Glossary of Basement Flooding Insurance Terms</h2>
+          <div className='space-y-6 mb-12'>
+            <div>
+              <h4 className='text-base font-bold text-slate-900'>HO-3 Policy</h4>
+              <p className='text-slate-700 leading-relaxed'>The most common type of homeowners insurance policy in the United States. An HO-3 policy covers the dwelling and personal property against sudden and accidental damage from named perils, but it explicitly excludes flood damage, groundwater seepage, sewer backups, and gradual water intrusion. For basement flooding, an HO-3 policy only covers water damage that originates from a source inside the home and occurs suddenly, such as a burst pipe or appliance failure.</p>
+            </div>
+            <div>
+              <h4 className='text-base font-bold text-slate-900'>National Flood Insurance Program (NFIP)</h4>
+              <p className='text-slate-700 leading-relaxed'>A federal program administered by FEMA that provides flood insurance to homeowners, renters, and business owners in participating communities. NFIP policies cover damage from surface water, storm surge, and overflow from bodies of water, with maximum limits of $250,000 for the building and $100,000 for contents. Basement coverage under NFIP is limited to essential mechanical systems and unfinished components, with finished improvements and most personal belongings stored below grade receiving very limited or no payout.</p>
+            </div>
+            <div>
+              <h4 className='text-base font-bold text-slate-900'>Water Backup and Sump Pump Failure Rider</h4>
+              <p className='text-slate-700 leading-relaxed'>An optional endorsement added to a standard homeowners insurance policy that covers damage caused by sewer or drain line backups and sump pump overflow or mechanical failure. This rider typically costs $30 to $250 per year and provides coverage limits ranging from $5,000 to $50,000 or more. Without this rider, damage from sewer backups and sump pump failures is excluded from standard homeowners insurance. Many carriers require documented proof of regular sump pump maintenance before approving claims under this endorsement.</p>
+            </div>
+            <div>
+              <h4 className='text-base font-bold text-slate-900'>Sudden and Accidental</h4>
+              <p className='text-slate-700 leading-relaxed'>The key coverage trigger language used in homeowners insurance policies to determine whether a water damage claim is covered. For a basement water event to be covered under a standard HO-3 policy, the damage must result from a water source that failed suddenly and without warning, not from a condition that developed gradually over time. If an adjuster determines the water entered slowly or that the homeowner should have noticed the problem earlier, the claim will be denied as gradual damage rather than sudden and accidental loss.</p>
+            </div>
+            <div>
+              <h4 className='text-base font-bold text-slate-900'>Actual Cash Value (ACV) vs Replacement Cost Value (RCV)</h4>
+              <p className='text-slate-700 leading-relaxed'>Two methods insurers use to calculate claim payouts. Actual cash value pays the depreciated value of damaged items, meaning you receive what the item was worth at the time of the loss after accounting for age and wear. Replacement cost value pays the full cost to replace damaged items with new equivalents of similar kind and quality. NFIP flood policies typically pay actual cash value for contents, while many private flood policies offer replacement cost value, which results in significantly higher payouts for the same damage.</p>
+            </div>
+            <div>
+              <h4 className='text-base font-bold text-slate-900'>Mitigation</h4>
+              <p className='text-slate-700 leading-relaxed'>The actions a homeowner takes to prevent further damage after a water event has occurred. Insurance policies require the homeowner to take reasonable steps to mitigate additional loss, such as pumping out standing water, running dehumidifiers, and removing wet materials promptly. Failure to mitigate is one of the most common reasons basement flood claims are partially or fully denied because the insurer can argue that damage beyond the initial event was preventable and therefore not covered.</p>
+            </div>
+            <div>
+              <h4 className='text-base font-bold text-slate-900'>Waiting Period</h4>
+              <p className='text-slate-700 leading-relaxed'>The period of time between purchasing a flood insurance policy and the date coverage takes effect. NFIP policies have a standard 30-day waiting period, which means purchasing flood insurance after a storm is forecast will not provide coverage for that event. Some private flood insurers offer shorter waiting periods of 10 to 14 days, and a small number offer immediate coverage in limited circumstances such as a new home purchase with a mortgage requirement.</p>
+            </div>
+            <div>
+              <h4 className='text-base font-bold text-slate-900'>Subrogation</h4>
+              <p className='text-slate-700 leading-relaxed'>The legal process by which an insurance company, after paying a claim, seeks reimbursement from a third party that caused or contributed to the loss. In basement flooding, subrogation may apply when a neighbor&rsquo;s actions, a municipal sewer failure, or a contractor&rsquo;s negligence caused the flooding. Understanding subrogation is important because it can affect how and when your claim is settled and whether the insurer pursues recovery from the responsible party on your behalf.</p>
+            </div>
+          </div>
           {/* FAQ Section */}
           <h2 className='text-3xl font-black text-slate-900 mt-16 mb-6'>FAQ: Basement Flooding and Insurance</h2>
 
