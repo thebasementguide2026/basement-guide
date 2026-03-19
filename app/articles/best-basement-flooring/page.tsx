@@ -77,6 +77,90 @@ export default function BestBasementFlooring() {
   ]
 
   return (
+        <>
+              <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is the most waterproof basement flooring?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Porcelain tile, epoxy coating, and SPC luxury vinyl plank are all 100 percent waterproof and can withstand standing water without damage to the flooring material itself. Of these three, epoxy coating is the most seamless option because it has no joints, seams, or grout lines where water can penetrate to the slab below. Porcelain tile offers the longest lifespan at 50 or more years and is the best choice for basements that may experience periodic flooding because it can be fully submerged and dried without any degradation. SPC luxury vinyl plank is the most practical all-around choice because it combines 100 percent waterproofing with DIY-friendly installation, comfortable underfoot feel, and strong resale appeal at a fraction of the cost of tile."
+              }
+            },
+                        {
+              "@type": "Question",
+              "name": "Can I install basement flooring myself?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, several basement flooring types are well suited to DIY installation and can reduce total project cost by 40 to 60 percent compared to professional installation. SPC luxury vinyl plank with a click-lock system is the most DIY-friendly option for a finished look, as it floats over the slab without adhesive and snaps together without special tools. Rubber flooring in interlocking tile format and peel-and-stick carpet tiles are also straightforward DIY installs that most homeowners can complete in a weekend. Porcelain tile, epoxy coating, and polished concrete require professional installation for best results."
+              }
+            },
+                        {
+              "@type": "Question",
+              "name": "Do I need a vapor barrier under basement flooring?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, a vapor barrier is recommended under virtually all basement flooring types installed directly over a concrete slab. Concrete is porous and allows moisture vapor to migrate upward from the ground below even when no visible water is present, and that vapor can cause warping, adhesive failure, mold growth, and odors beneath flooring that appears dry on the surface. A 6-mil polyethylene sheet installed between the slab and the flooring material blocks this vapor transmission and protects your flooring investment."
+              }
+            },
+                        {
+              "@type": "Question",
+              "name": "What basement flooring has the best ROI?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "SPC luxury vinyl plank offers the best return on investment for most homeowners because it combines a relatively low installed cost of 5.50 to 11.00 per square foot with 100 percent waterproofing, DIY-friendly installation, a realistic wood or stone appearance, and strong buyer appeal when selling a home. Epoxy coating and polished concrete offer the highest ROI on a pure cost-to-improvement basis because they use the existing slab as the finished surface. Porcelain tile has the highest long-term ROI if you plan to stay in the home for 20 or more years."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is laminate flooring safe for basements?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Laminate flooring is only appropriate for basements that have been verified dry through all seasons with consistently low humidity and no history of any water intrusion. The HDF core that makes up the structural body of the plank will swell, warp, and delaminate if exposed to standing water or prolonged high humidity. SPC luxury vinyl plank is similarly priced, installs the same way, and is genuinely 100 percent waterproof throughout the entire plank including the core."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How do I test my basement slab for moisture?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The simplest method is the plastic sheet test. Tape a 2-foot by 2-foot piece of clear plastic sheeting directly to the bare concrete slab, sealing all four edges with duct tape, and leave it in place for 24 to 48 hours. If moisture or condensation appears on the underside of the plastic when you lift it, moisture is actively migrating through the slab and must be addressed before installing any flooring. For a more precise measurement, a professional can perform a calcium chloride test or an in-situ relative humidity probe test."
+              }
+            },
+                        {
+              "@type": "Question",
+              "name": "What is the best flooring for a basement that floods?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "If your basement has a history of flooding, address the water intrusion problem first with proper waterproofing and drainage before installing any flooring. Once the basement is dry, the best flooring options for flood-prone areas are porcelain tile (survives complete submersion indefinitely), epoxy coating (seamless and waterproof), and SPC luxury vinyl plank (survives submersion without damage and can be removed and reinstalled if needed). Avoid laminate, engineered hardwood, and carpet in any basement with a flooding history."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Should I waterproof my basement before installing flooring?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Installing flooring over a basement with active moisture problems is one of the most common and costly mistakes homeowners make. Moisture trapped beneath flooring causes mold growth, warping, adhesive failure, and odors that require tearing out the flooring to fix. At minimum, test the slab for moisture using the plastic sheet test, address any water intrusion through your walls or floor, and verify the basement has been dry for at least one full rainy season before installing flooring."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How much does it cost to floor a 1,000 square foot basement?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "For a 1,000 square foot basement, budget $3,000 to $8,000 for polished concrete or epoxy (the most affordable options), $5,500 to $11,000 for luxury vinyl plank (the best value for most homeowners), $3,500 to $9,000 for rubber flooring (best for gyms and workshops), and $12,000 to $27,000 for porcelain tile (the premium option with the longest lifespan). These costs include materials and professional installation. DIY installation of LVP, rubber tiles, or carpet tiles can reduce costs by 40 to 60 percent."
+              }
+            }
+          ]
+        })
+      }}
+    />
     <main className="bg-[#F5F5F0]">
       {/* Article Hero */}
       <section className="relative bg-gradient-to-b from-[#1a2e1a] to-[#2d4a2d] text-white py-20">
@@ -561,5 +645,6 @@ export default function BestBasementFlooring() {
             </div>
           </section>
     </main>
+              </>
   )
 }
