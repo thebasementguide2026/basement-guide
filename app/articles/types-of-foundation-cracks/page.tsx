@@ -493,6 +493,97 @@ export default function FoundationCracksArticle() {
           <a href='https://amzn.to/4s8EDwX' target='_blank' rel='noopener noreferrer' className='inline-block bg-amber-500 hover:bg-amber-600 text-white font-semibold px-6 py-3 rounded-lg transition-colors mb-6'>Check Price on Amazon &rarr;</a>
         </section>
 
+        {/* What to Do Based on What You See */}
+        <section className='mt-16 pt-8 border-t border-slate-100'>
+          <h2 className='text-3xl font-bold text-slate-900 mb-6'>What to Do Based on What You See</h2>
+          <div className='overflow-x-auto'>
+            <table className='w-full border-collapse bg-white rounded-lg shadow-sm'>
+              <thead>
+                <tr className='bg-emerald-800 text-white text-sm'>
+                  <th className='p-3 text-left'>What You See</th>
+                  <th className='p-3 text-left'>Crack Type</th>
+                  <th className='p-3 text-left'>Risk Level</th>
+                  <th className='p-3 text-left'>Action</th>
+                </tr>
+              </thead>
+              <tbody className='divide-y divide-gray-200'>
+                <tr className='bg-white'>
+                  <td className='p-3 font-medium'>Thin vertical crack, less than 1/16 inch, not growing, no water</td>
+                  <td className='p-3'>Hairline shrinkage</td>
+                  <td className='p-3'>Low</td>
+                  <td className='p-3'>Seal with epoxy or masonry caulk, monitor annually</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='p-3 font-medium'>Vertical crack, 1/16 to 1/4 inch, stable, no displacement</td>
+                  <td className='p-3'>Shrinkage or minor settlement</td>
+                  <td className='p-3'>Low to moderate</td>
+                  <td className='p-3'>Seal with DIY epoxy injection kit, monitor monthly</td>
+                </tr>
+                <tr className='bg-white'>
+                  <td className='p-3 font-medium'>Vertical crack, wider than 1/4 inch, one side higher than other</td>
+                  <td className='p-3'>Settlement with displacement</td>
+                  <td className='p-3'>Moderate to high</td>
+                  <td className='p-3'>Professional evaluation, epoxy injection or structural repair</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='p-3 font-medium'>Vertical crack, any width, visibly growing over weeks or months</td>
+                  <td className='p-3'>Active settlement</td>
+                  <td className='p-3'>High</td>
+                  <td className='p-3'>Professional evaluation immediately</td>
+                </tr>
+                <tr className='bg-white'>
+                  <td className='p-3 font-medium'>Diagonal crack running from corner of window or door</td>
+                  <td className='p-3'>Settlement stress concentration</td>
+                  <td className='p-3'>Moderate</td>
+                  <td className='p-3'>Monitor closely, professional evaluation if growing</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='p-3 font-medium'>Stair-step crack following mortar joints in block wall</td>
+                  <td className='p-3'>Differential settlement</td>
+                  <td className='p-3'>High</td>
+                  <td className='p-3'>Professional evaluation, carbon fiber or wall anchors likely needed</td>
+                </tr>
+                <tr className='bg-white'>
+                  <td className='p-3 font-medium'>Horizontal crack at midpoint of wall</td>
+                  <td className='p-3'>Lateral soil pressure, bowing</td>
+                  <td className='p-3'>Very high</td>
+                  <td className='p-3'>Call professional immediately, do not delay</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='p-3 font-medium'>Horizontal crack with inward wall bulge visible</td>
+                  <td className='p-3'>Active bowing</td>
+                  <td className='p-3'>Critical</td>
+                  <td className='p-3'>Emergency professional evaluation today</td>
+                </tr>
+                <tr className='bg-white'>
+                  <td className='p-3 font-medium'>Crack with water actively leaking through</td>
+                  <td className='p-3'>Any type with water intrusion</td>
+                  <td className='p-3'>High</td>
+                  <td className='p-3'>Polyurethane foam injection to seal, address drainage</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='p-3 font-medium'>Multiple new cracks appearing in short period</td>
+                  <td className='p-3'>Systemic foundation stress</td>
+                  <td className='p-3'>High</td>
+                  <td className='p-3'>Professional evaluation immediately</td>
+                </tr>
+                <tr className='bg-white'>
+                  <td className='p-3 font-medium'>Crack with gap forming between wall and floor or ceiling</td>
+                  <td className='p-3'>Advanced wall movement</td>
+                  <td className='p-3'>Critical</td>
+                  <td className='p-3'>Emergency professional evaluation today</td>
+                </tr>
+                <tr className='bg-gray-50'>
+                  <td className='p-3 font-medium'>Any crack in home being sold or purchased</td>
+                  <td className='p-3'>Any type</td>
+                  <td className='p-3'>Requires documentation</td>
+                  <td className='p-3'>Independent structural engineer report before closing</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
         {/* FAQ Section */}
         <section className='mt-16 pt-8 border-t border-slate-100'>
           <div className='flex items-center gap-2 mb-4'>
