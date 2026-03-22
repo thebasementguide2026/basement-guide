@@ -674,64 +674,83 @@ export default function FoundationCracksArticle() {
 
         {/* Related Guides */}
         <section className='mt-16 pt-8 border-t border-slate-100'>
-          <h2 className='text-3xl font-bold text-slate-900 mb-6'>Related Guides</h2>
-          <div className='grid md:grid-cols-2 gap-4'>
-            <Link href='/cost-guides/foundation-crack-repair' className='block p-6 border border-slate-200 rounded-lg hover:border-amber-300 hover:shadow-md transition-all'>
-              <h3 className='font-bold text-slate-900 mb-1'>Foundation Crack Repair Cost 2026</h3>
-              <p className='text-slate-600 text-sm'>Epoxy injection vs. polyurethane foam. What to expect to pay per crack.</p>
-            </Link>
-            <Link href='/guides/bowing-basement-walls' className='block p-6 border border-slate-200 rounded-lg hover:border-amber-300 hover:shadow-md transition-all'>
-              <h3 className='font-bold text-slate-900 mb-1'>Bowing Basement Walls Guide</h3>
-              <p className='text-slate-600 text-sm'>Causes, repair methods, and costs for bowing and leaning walls.</p>
-            </Link>
-            <Link href='/articles/wet-basement-walls' className='block p-6 border border-slate-200 rounded-lg hover:border-amber-300 hover:shadow-md transition-all'>
-              <h3 className='font-bold text-slate-900 mb-1'>Wet Basement Walls</h3>
-              <p className='text-slate-600 text-sm'>Diagnose and fix water seeping through basement walls.</p>
-            </Link>
-            <Link href='/guides/waterproofing' className='block p-6 border border-slate-200 rounded-lg hover:border-amber-300 hover:shadow-md transition-all'>
-              <h3 className='font-bold text-slate-900 mb-1'>Complete Waterproofing Guide</h3>
-              <p className='text-slate-600 text-sm'>Everything you need to know about stopping basement leaks for good.</p>
-            </Link>
-            <Link href='/guides/interior-vs-exterior-waterproofing' className='block p-6 border border-slate-200 rounded-lg hover:border-amber-300 hover:shadow-md transition-all'>
-              <h3 className='font-bold text-slate-900 mb-1'>Interior vs. Exterior Waterproofing</h3>
-              <p className='text-slate-600 text-sm'>Compare costs, methods, and lifespans for each waterproofing approach.</p>
-            </Link>
-            <Link href='/articles/basement-efflorescence' className='block p-6 border border-slate-200 rounded-lg hover:border-amber-300 hover:shadow-md transition-all'>
-              <h3 className='font-bold text-slate-900 mb-1'>Basement Efflorescence Explained</h3>
-              <p className='text-slate-600 text-sm'>What that white powder on your walls really means and how to stop it.</p>
-            </Link>
-            <Link href='/articles/radon-testing-mitigation' className='block p-6 border border-slate-200 rounded-lg hover:border-amber-300 hover:shadow-md transition-all'>
-              <h3 className='font-bold text-slate-900 mb-1'>Radon Testing and Mitigation</h3>
-              <p className='text-slate-600 text-sm'>Complete guide to testing for radon and reducing levels in your basement.</p>
-            </Link>
-            <Link href='/guides/homebuyers-inspection-checklist' className='block p-6 border border-slate-200 rounded-lg hover:border-amber-300 hover:shadow-md transition-all'>
-              <h3 className='font-bold text-slate-900 mb-1'>Homebuyers Inspection Checklist</h3>
-              <p className='text-slate-600 text-sm'>Complete guide to evaluating a basement before purchase.</p>
-            </Link>
-            <Link href='/guides/how-to-hire-waterproofing-contractor' className='block p-6 border border-slate-200 rounded-lg hover:border-amber-300 hover:shadow-md transition-all'>
-              <h3 className='font-bold text-slate-900 mb-1'>How to Hire a Waterproofing Contractor</h3>
-              <p className='text-slate-600 text-sm'>Questions to ask, red flags to watch for, and how to compare quotes.</p>
-            </Link>
-            <Link href='/guides/old-house-basements' className='block p-6 border border-slate-200 rounded-lg hover:border-amber-300 hover:shadow-md transition-all'>
-              <h3 className='font-bold text-slate-900 mb-1'>Old House Basements Guide</h3>
-              <p className='text-slate-600 text-sm'>Renovating and waterproofing basements in pre-1940 homes with historic foundations.</p>
-            </Link>
-            <Link href='/guides/best-vapor-barriers' className='block p-6 border border-slate-200 rounded-lg hover:border-amber-300 hover:shadow-md transition-all'>
-              <h3 className='font-bold text-slate-900 mb-1'>Best Vapor Barriers</h3>
-              <p className='text-slate-600 text-sm'>Top-rated vapor barriers for basement moisture control.</p>
-            </Link>
-          </div>
-        </section>
+          <h2 className='text-3xl font-bold text-slate-900 mb-4'>Related Guides</h2>
 
-        {/* Network Cross-Links */}
-        <section className='mt-8 p-6 bg-slate-50 rounded-lg border border-slate-200'>
-          <p className='text-slate-600 text-sm'>
-            <strong>Our network:</strong>{' '}
-            <a href='https://thegarage.guide' target='_blank' rel='noopener noreferrer' className='text-amber-600 hover:text-amber-700 underline'>The Garage Guide</a>{' '}
-            covers cracked garage floors, which are caused by many of the same forces that crack basement foundation walls.{' '}
-            <a href='https://theseptic.guide' target='_blank' rel='noopener noreferrer' className='text-amber-600 hover:text-amber-700 underline'>The Septic Guide</a>{' '}
-            covers septic system inspections that should be coordinated with foundation inspections when buying a home.
-          </p>
+          <h3 className='text-xl font-semibold text-slate-800 mb-4'>On thebasement.guide</h3>
+          <div className='grid md:grid-cols-2 gap-6 mb-10'>
+            <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+              <Link href='/articles/foundation-crack-repair-cost' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>Foundation Crack Repair Cost 2026</Link>
+              <p className='text-slate-600 text-sm mt-1'>Full pricing for every crack repair method including DIY epoxy injection, professional polyurethane foam, carbon fiber reinforcement, and full wall replacement, with cost ranges by crack type and severity.</p>
+            </div>
+            <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+              <Link href='/articles/bowing-basement-walls' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>Bowing Basement Walls</Link>
+              <p className='text-slate-600 text-sm mt-1'>The companion guide for when cracking is accompanied by inward wall movement, covering all four repair methods, 2026 costs, and the decision framework for choosing between carbon fiber straps, wall anchors, I-beams, and full replacement.</p>
+            </div>
+            <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+              <Link href='/articles/complete-basement-waterproofing-guide' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>Complete Basement Waterproofing Guide</Link>
+              <p className='text-slate-600 text-sm mt-1'>How to address the hydrostatic pressure that causes horizontal cracks and water intrusion through foundation walls, with every waterproofing method compared by cost and effectiveness.</p>
+            </div>
+            <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+              <Link href='/articles/basement-waterproofing-cost' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>Basement Waterproofing Cost 2026</Link>
+              <p className='text-slate-600 text-sm mt-1'>What drainage and waterproofing improvements cost alongside crack repair, relevant for budgeting the pressure-reduction work that prevents new cracks from forming after repairs are complete.</p>
+            </div>
+            <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+              <Link href='/articles/interior-vs-exterior-waterproofing' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>Interior vs Exterior Waterproofing</Link>
+              <p className='text-slate-600 text-sm mt-1'>How interior drainage and exterior membrane systems each address the water pressure that drives cracking, and which approach works best depending on crack type and foundation construction.</p>
+            </div>
+            <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+              <Link href='/articles/basement-efflorescence' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>Basement Efflorescence</Link>
+              <p className='text-slate-600 text-sm mt-1'>The white mineral deposits that often appear at or near foundation cracks as moisture migrates through the wall, and what efflorescence indicates about the duration and severity of the water pressure problem.</p>
+            </div>
+            <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+              <Link href='/articles/wet-basement-walls' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>Wet Basement Walls</Link>
+              <p className='text-slate-600 text-sm mt-1'>How water enters through foundation cracks and what to do when crack sealing alone is not sufficient to stop water intrusion through a wall under ongoing hydrostatic pressure.</p>
+            </div>
+            <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+              <Link href='/articles/old-house-basements' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>Old House Basements</Link>
+              <p className='text-slate-600 text-sm mt-1'>How pre-1970 foundations with thinner walls, minimal reinforcement, and no waterproofing membrane develop crack patterns differently from modern construction, and the repair approaches suited to older masonry and stone foundations.</p>
+            </div>
+            <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+              <Link href='/articles/homebuyers-basement-inspection-checklist' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>Homebuyer&apos;s Basement Inspection Checklist</Link>
+              <p className='text-slate-600 text-sm mt-1'>How to evaluate foundation cracks during a home purchase, what questions to ask, how to document what you find, and how to use crack findings in price negotiations.</p>
+            </div>
+            <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+              <Link href='/articles/how-to-hire-basement-waterproofing-contractor' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>How to Hire a Basement Waterproofing Contractor</Link>
+              <p className='text-slate-600 text-sm mt-1'>How to find and vet a qualified foundation repair specialist, the questions to ask before signing a contract, and the red flags that indicate an unreliable contractor.</p>
+            </div>
+            <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+              <Link href='/articles/basement-flooding-insurance' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>Basement Flooding Insurance</Link>
+              <p className='text-slate-600 text-sm mt-1'>What homeowners insurance covers when water enters through foundation cracks, and the coverage gaps that leave most crack-related water damage uninsured under standard policies.</p>
+            </div>
+            <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+              <Link href='/articles/waterproofing-home-appraisal-value' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>Waterproofing and Home Appraisal Value</Link>
+              <p className='text-slate-600 text-sm mt-1'>How documented crack repairs and waterproofing improvements affect appraisal outcomes, and why repair receipts and contractor warranties matter as much as the repairs themselves during a home sale.</p>
+            </div>
+            <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+              <Link href='/articles/basement-humidity-guide' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>Basement Humidity Guide</Link>
+              <p className='text-slate-600 text-sm mt-1'>How controlling basement humidity reduces the freeze-thaw cycling in foundation cracks that widens them over time, and the humidity targets that protect both the foundation and finished spaces.</p>
+            </div>
+          </div>
+
+          <h3 className='text-xl font-semibold text-slate-800 mb-4'>From Our Network</h3>
+          <div className='grid md:grid-cols-2 gap-6 mb-10'>
+            <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+              <a href='https://theseptic.guide/problems/drainfield-failing' target='_blank' rel='noopener noreferrer' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>Signs Your Drainfield Is Failing</a>
+              <p className='text-slate-600 text-sm mt-1'>The same expansive clay soils and poor exterior drainage that cause foundation cracking also stress septic drainfields on rural properties. This guide covers the warning signs that drainage problems are affecting the septic system alongside the foundation.</p>
+            </div>
+            <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+              <a href='https://theseptic.guide/cost-guides/septic-system-repair-cost' target='_blank' rel='noopener noreferrer' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>Septic System Repair Cost 2026</a>
+              <p className='text-slate-600 text-sm mt-1'>For homeowners addressing both foundation drainage and septic system issues driven by the same saturated soil conditions, this guide covers septic repair costs that may need to be budgeted alongside foundation crack repair.</p>
+            </div>
+          </div>
+
+          <h3 className='text-xl font-semibold text-slate-800 mb-4'>External Resource</h3>
+          <div className='grid md:grid-cols-2 gap-6 mb-10'>
+            <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+              <a href='https://www.concrete.org' target='_blank' rel='noopener noreferrer' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>American Concrete Institute Foundation Crack Guidance</a>
+              <p className='text-slate-600 text-sm mt-1'>The American Concrete Institute&apos;s technical standards for concrete crack classification, acceptable crack widths by structural application, and repair method specifications used by professional foundation engineers.</p>
+            </div>
+          </div>
         </section>
 
       </article>
