@@ -388,6 +388,89 @@ export default function BowingWallsArticle() {
               </div>
             </section>
 
+            {/* Which Repair Method Do You Need? */}
+            <section>
+              <h2 className='text-3xl font-bold text-slate-900 mb-6'>Which Repair Method Do You Need?</h2>
+              <div className='overflow-x-auto'>
+                <table className='w-full border-collapse bg-white rounded-lg shadow-sm'>
+                  <thead>
+                    <tr className='bg-emerald-800 text-white text-sm'>
+                      <th className='p-3 text-left'>Your Situation</th>
+                      <th className='p-3 text-left'>Recommended Action</th>
+                      <th className='p-3 text-left'>Estimated Cost</th>
+                    </tr>
+                  </thead>
+                  <tbody className='divide-y divide-gray-200'>
+                    <tr className='bg-white'>
+                      <td className='p-3 font-medium'>Bowing less than 1 inch, no horizontal crack, no active movement</td>
+                      <td className='p-3'>Monitor monthly for 6 to 12 months before committing to repair</td>
+                      <td className='p-3'>$0 (monitoring only)</td>
+                    </tr>
+                    <tr className='bg-gray-50'>
+                      <td className='p-3 font-medium'>Bowing less than 1 inch, horizontal crack present</td>
+                      <td className='p-3'>Professional evaluation immediately &mdash; crack confirms active lateral stress</td>
+                      <td className='p-3'>$300 (inspection)</td>
+                    </tr>
+                    <tr className='bg-white'>
+                      <td className='p-3 font-medium'>Bowing 1 to 2 inches, wall appears stable</td>
+                      <td className='p-3'>Carbon fiber straps &mdash; stops further movement permanently</td>
+                      <td className='p-3'>$2,000 to $5,000</td>
+                    </tr>
+                    <tr className='bg-gray-50'>
+                      <td className='p-3 font-medium'>Bowing 1 to 2 inches, wall still actively moving</td>
+                      <td className='p-3'>Wall anchors &mdash; stops movement and allows gradual correction over time</td>
+                      <td className='p-3'>$3,000 to $8,000</td>
+                    </tr>
+                    <tr className='bg-white'>
+                      <td className='p-3 font-medium'>Bowing 2 to 3 inches, exterior access available</td>
+                      <td className='p-3'>Wall anchors &mdash; most effective at this displacement level</td>
+                      <td className='p-3'>$3,000 to $8,000</td>
+                    </tr>
+                    <tr className='bg-gray-50'>
+                      <td className='p-3 font-medium'>Bowing 2 to 4 inches, limited exterior access</td>
+                      <td className='p-3'>Steel I-beams &mdash; no excavation required, permanent stabilization</td>
+                      <td className='p-3'>$4,000 to $10,000</td>
+                    </tr>
+                    <tr className='bg-white'>
+                      <td className='p-3 font-medium'>Bowing over 3 to 4 inches</td>
+                      <td className='p-3'>Full professional evaluation urgently &mdash; replacement likely required</td>
+                      <td className='p-3'>$10,000 to $25,000+</td>
+                    </tr>
+                    <tr className='bg-gray-50'>
+                      <td className='p-3 font-medium'>Gap forming between wall and floor or ceiling joists</td>
+                      <td className='p-3'>Emergency &mdash; wall has shifted significantly, call a professional today</td>
+                      <td className='p-3'>$10,000 to $25,000+</td>
+                    </tr>
+                    <tr className='bg-white'>
+                      <td className='p-3 font-medium'>Multiple walls bowing simultaneously</td>
+                      <td className='p-3'>Systemic drainage failure &mdash; repair plus full exterior drainage overhaul</td>
+                      <td className='p-3'>$8,000 to $30,000+</td>
+                    </tr>
+                    <tr className='bg-gray-50'>
+                      <td className='p-3 font-medium'>Block foundation with stair-step cracks and bowing</td>
+                      <td className='p-3'>Wall anchors or I-beams depending on displacement level</td>
+                      <td className='p-3'>$3,000 to $10,000</td>
+                    </tr>
+                    <tr className='bg-white'>
+                      <td className='p-3 font-medium'>Bowing caused by tree roots within 15 feet</td>
+                      <td className='p-3'>Remove tree, then stabilize wall &mdash; roots must be addressed first</td>
+                      <td className='p-3'>$1,500 to $5,000 (tree) plus repair</td>
+                    </tr>
+                    <tr className='bg-gray-50'>
+                      <td className='p-3 font-medium'>Repair complete but no drainage improvements made</td>
+                      <td className='p-3'>Install exterior drainage and regrade to prevent recurrence</td>
+                      <td className='p-3'>$1,500 to $4,000</td>
+                    </tr>
+                    <tr className='bg-white'>
+                      <td className='p-3 font-medium'>Buying a home with bowing walls</td>
+                      <td className='p-3'>Get independent structural engineer report before closing</td>
+                      <td className='p-3'>$300 to $700 (engineer report)</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </section>
+
             {/* FAQ */}
             <section>
               <h2 className='text-3xl font-bold text-slate-900 mb-6'>Frequently Asked Questions About Bowing Basement Walls</h2>
