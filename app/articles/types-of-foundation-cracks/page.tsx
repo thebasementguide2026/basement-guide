@@ -22,58 +22,58 @@ export default function FoundationCracksArticle() {
               mainEntity: [
                 {
                   '@type': 'Question',
-                  name: 'Are cracks in a foundation normal?',
+                  name: 'Are foundation cracks normal?',
                   acceptedAnswer: {
                     '@type': 'Answer',
-                    text: 'Yes. Hairline and minor vertical cracks are normal and occur in nearly every concrete foundation. Concrete shrinks as it cures and loses moisture, which creates small cracks, usually within the first 1 to 3 years after construction.',
+                    text: 'Yes, nearly every foundation develops cracks over time and the majority are cosmetic rather than structural. Concrete shrinks as it cures in the first few years after a home is built, producing hairline vertical cracks that are extremely common and pose no structural risk. Soil settlement, seasonal moisture changes, and freeze-thaw cycles also produce minor cracking that is normal in any foundation over decades of use. The key distinction is not whether cracks exist but what type they are, how wide they are, and whether they are growing. Vertical hairline cracks that have been stable for years require nothing more than sealing to prevent water entry. Horizontal cracks and actively growing cracks of any orientation are the ones that require professional evaluation.',
                   },
                 },
                 {
                   '@type': 'Question',
-                  name: 'When should I worry about a foundation crack?',
+                  name: 'How do I know if a foundation crack is serious?',
                   acceptedAnswer: {
                     '@type': 'Answer',
-                    text: 'Worry when a crack is wider than 1/4 inch, when one side is higher than the other indicating settlement, when the crack runs horizontally indicating wall bowing, when new cracks appear suddenly, or when water is actively leaking through the crack.',
+                    text: 'The four factors that determine whether a foundation crack is serious are its direction, its width, whether it is growing, and whether water is coming through it. Horizontal cracks are always serious and require professional evaluation immediately because they indicate lateral soil pressure that is bowing the wall inward. Stair-step cracks in block walls are serious because they indicate differential settlement of the foundation. Vertical cracks wider than 1/4 inch or showing displacement where one side is higher than the other warrant professional inspection. Any crack that has visibly grown since you last checked it, or that is accompanied by water leaking through the wall, should be evaluated by a professional regardless of its direction or current width. See the bowing basement walls guide at https://thebasement.guide/articles/bowing-basement-walls if you also notice inward wall movement alongside the cracking.',
                   },
                 },
                 {
                   '@type': 'Question',
-                  name: 'How much does it cost to repair a foundation crack?',
+                  name: 'Can I repair foundation cracks myself?',
                   acceptedAnswer: {
                     '@type': 'Answer',
-                    text: 'Foundation crack repair costs range from $20 to $80 for a DIY epoxy injection kit to $250 to $800 per crack for professional repair. Structural repairs for severe cracks with settlement or bowing cost significantly more.',
+                    text: 'Minor vertical and hairline cracks can be sealed by a capable DIYer using epoxy injection kits or polyurethane foam kits that are widely available and designed for homeowner use. Epoxy injection bonds the crack faces together and restores some structural continuity, while polyurethane foam expands on contact with moisture and creates a flexible waterproof seal better suited for actively leaking cracks. The repair products listed in this guide are the same materials professional contractors use in many cases, and the instructions are straightforward for cracks up to 1/4 inch wide in poured concrete walls. DIY repair is not appropriate for horizontal cracks, stair-step cracks, cracks with displacement, or any crack that is actively growing, because these indicate structural movement that surface sealing will not address. See the foundation crack repair cost guide at https://thebasement.guide/articles/foundation-crack-repair-cost for when professional repair is required and what it costs.',
                   },
                 },
                 {
                   '@type': 'Question',
-                  name: 'Can I fix a foundation crack myself?',
+                  name: 'How much does foundation crack repair cost?',
                   acceptedAnswer: {
                     '@type': 'Answer',
-                    text: 'You can repair minor vertical cracks under 1/4 inch wide using a DIY epoxy or polyurethane injection kit costing $20 to $80. Do not attempt to repair stair-step cracks, horizontal cracks, settlement cracks with height differences, or any crack associated with wall bowing.',
+                    text: 'Foundation crack repair costs $250 to $800 per crack for professional epoxy or polyurethane injection, with most single-crack repairs in the $300 to $500 range. DIY epoxy injection kits cost $50 to $150 per crack and are suitable for minor vertical cracks in poured concrete walls. Structural repairs for horizontal cracks or bowing walls cost significantly more: carbon fiber strap installation runs $2,000 to $5,000, wall anchor systems run $3,000 to $8,000, and full wall replacement runs $10,000 to $25,000 depending on the extent of damage. The cost difference between a $300 crack injection today and a $15,000 wall replacement later is the primary reason early monitoring and prompt repair matters. See the foundation crack repair cost guide at https://thebasement.guide/articles/foundation-crack-repair-cost for a full breakdown by crack type and repair method.',
                   },
                 },
                 {
                   '@type': 'Question',
-                  name: 'What is the difference between a structural crack and a cosmetic crack?',
+                  name: 'What causes horizontal cracks in basement walls?',
                   acceptedAnswer: {
                     '@type': 'Answer',
-                    text: 'A cosmetic crack is narrow under 1/4 inch, has no height difference between sides, is not growing, and does not indicate foundation movement. A structural crack indicates active foundation movement such as settlement, shifting, or wall bowing.',
+                    text: 'Horizontal cracks are caused by lateral soil pressure pushing inward against the foundation wall, most commonly from hydrostatic pressure when soil becomes saturated with water after heavy rain or snowmelt. The crack typically forms at or near the midpoint of the wall height where bending stress from the lateral load is greatest, and it almost always indicates that the wall has already moved inward to some degree. Expansive clay soils that swell when wet and freeze-thaw cycles in cold climates are the other primary causes of horizontal cracking, as both create repeated lateral stress cycles that eventually exceed the wall\'s bending capacity. Horizontal cracks are the most serious crack type and should never be monitored and waited on the way minor vertical cracks can be. Call a foundation repair professional as soon as a horizontal crack is identified. See the bowing basement walls guide at https://thebasement.guide/articles/bowing-basement-walls for the full repair options and costs.',
                   },
                 },
                 {
                   '@type': 'Question',
-                  name: 'Do foundation cracks let radon into the basement?',
+                  name: 'What is the difference between epoxy and polyurethane crack repair?',
                   acceptedAnswer: {
                     '@type': 'Answer',
-                    text: 'Yes. Foundation cracks are one of the primary entry points for radon gas, which rises from the soil beneath and around the foundation. Even hairline cracks can allow radon to enter the basement.',
+                    text: 'Epoxy injection bonds the two faces of a crack together with a rigid, high-strength adhesive that restores structural continuity to the concrete and creates a waterproof seal. It is the preferred method for dry, stable cracks in structural walls where restoring strength matters alongside sealing the crack. Polyurethane foam injection expands on contact with moisture and creates a flexible, compressible seal that accommodates minor future movement without re-cracking. It is the preferred method for actively leaking cracks because the moisture in the crack activates the expansion, and its flexibility means it performs better than rigid epoxy in cracks that may experience ongoing minor movement. The practical rule is to use epoxy for dry structural cracks and polyurethane for wet or actively leaking cracks. See the foundation crack repair cost guide at https://thebasement.guide/articles/foundation-crack-repair-cost for how the material choice affects total repair cost.',
                   },
                 },
                 {
                   '@type': 'Question',
-                  name: 'Should I worry about foundation cracks when buying a home?',
+                  name: 'When should I call a professional for foundation cracks?',
                   acceptedAnswer: {
                     '@type': 'Answer',
-                    text: 'Minor vertical cracks are normal and should not deter you from purchasing, but horizontal cracks, stair-step cracks, settlement cracks, and any signs of wall bowing should be evaluated by a structural engineer before closing.',
+                    text: 'Call a professional immediately for any horizontal crack, any crack with displacement where one side is higher than the other, any stair-step crack in a block wall that is wider than 1/4 inch, or any crack that has grown measurably since you first noticed it. Also call a professional if multiple new cracks appear in a short period, if doors or windows are suddenly sticking or not closing properly, or if you see a gap forming between the wall and the floor or ceiling joists. For minor vertical hairline cracks with no growth and no water leakage, professional evaluation is not urgent but is still worthwhile at least once to confirm the crack is stable. When in doubt, a foundation inspection costs $100 to $300 and provides documentation that protects you during a future sale. See the how to hire a basement waterproofing contractor guide at https://thebasement.guide/articles/how-to-hire-basement-waterproofing-contractor for how to find a qualified specialist.',
                   },
                 },
               ],
@@ -498,42 +498,42 @@ export default function FoundationCracksArticle() {
           <div className='flex items-center gap-2 mb-4'>
             <span className='bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider'>FAQ</span>
           </div>
-          <h2 className='text-3xl font-bold text-slate-900 mb-6'>Frequently Asked Questions About Foundation Cracks</h2>
+          <h2 className='text-3xl font-bold text-slate-900 mb-6'>Frequently Asked Questions</h2>
 
           <div className='space-y-6'>
             <div className='border border-slate-200 rounded-lg p-6'>
-              <h3 className='text-lg font-bold text-slate-900 mb-2'>Are cracks in a foundation normal?</h3>
-              <p className='text-slate-700 leading-relaxed'>Yes. Hairline and minor vertical cracks are normal and occur in nearly every concrete foundation. Concrete shrinks as it cures and loses moisture, which creates small cracks, usually within the first 1 to 3 years after construction. These shrinkage cracks are typically less than 1/16 inch wide, run vertically, and have no height difference between sides. They are cosmetic, not structural.</p>
+              <h3 className='text-lg font-bold text-slate-900 mb-2'>Are foundation cracks normal?</h3>
+              <p className='text-slate-700 leading-relaxed'>Yes, nearly every foundation develops cracks over time and the majority are cosmetic rather than structural. Concrete shrinks as it cures in the first few years after a home is built, producing hairline vertical cracks that are extremely common and pose no structural risk. Soil settlement, seasonal moisture changes, and freeze-thaw cycles also produce minor cracking that is normal in any foundation over decades of use. The key distinction is not whether cracks exist but what type they are, how wide they are, and whether they are growing. Vertical hairline cracks that have been stable for years require nothing more than sealing to prevent water entry. Horizontal cracks and actively growing cracks of any orientation are the ones that require professional evaluation.</p>
             </div>
 
             <div className='border border-slate-200 rounded-lg p-6'>
-              <h3 className='text-lg font-bold text-slate-900 mb-2'>When should I worry about a foundation crack?</h3>
-              <p className='text-slate-700 leading-relaxed'>Worry when a crack is wider than 1/4 inch, when one side is higher than the other indicating settlement, when the crack runs horizontally indicating wall bowing, when new cracks appear suddenly, or when water is actively leaking through the crack. Stair-step cracks in block or brick walls also warrant professional evaluation.</p>
+              <h3 className='text-lg font-bold text-slate-900 mb-2'>How do I know if a foundation crack is serious?</h3>
+              <p className='text-slate-700 leading-relaxed'>The four factors that determine whether a foundation crack is serious are its direction, its width, whether it is growing, and whether water is coming through it. Horizontal cracks are always serious and require professional evaluation immediately because they indicate lateral soil pressure that is bowing the wall inward. Stair-step cracks in block walls are serious because they indicate differential settlement of the foundation. Vertical cracks wider than 1/4 inch or showing displacement where one side is higher than the other warrant professional inspection. Any crack that has visibly grown since you last checked it, or that is accompanied by water leaking through the wall, should be evaluated by a professional regardless of its direction or current width. See our <Link href='/articles/bowing-basement-walls' className='text-emerald-700 underline hover:text-emerald-900'>bowing basement walls guide</Link> if you also notice inward wall movement alongside the cracking.</p>
             </div>
 
             <div className='border border-slate-200 rounded-lg p-6'>
-              <h3 className='text-lg font-bold text-slate-900 mb-2'>How much does it cost to repair a foundation crack?</h3>
-              <p className='text-slate-700 leading-relaxed'>Foundation crack repair costs range from $20 to $80 for a DIY epoxy injection kit to $250 to $800 per crack for professional repair. Structural repairs for severe cracks with settlement or bowing cost significantly more&mdash;wall anchors run $3,000 to $8,000, carbon fiber straps cost $2,000 to $5,000, and underpinning for settlement costs $6,000 to $30,000. See our <Link href='/cost-guides/foundation-crack-repair' className='text-amber-600 hover:text-amber-700 underline'>foundation crack repair cost guide</Link> for a complete breakdown.</p>
+              <h3 className='text-lg font-bold text-slate-900 mb-2'>Can I repair foundation cracks myself?</h3>
+              <p className='text-slate-700 leading-relaxed'>Minor vertical and hairline cracks can be sealed by a capable DIYer using epoxy injection kits or polyurethane foam kits that are widely available and designed for homeowner use. Epoxy injection bonds the crack faces together and restores some structural continuity, while polyurethane foam expands on contact with moisture and creates a flexible waterproof seal better suited for actively leaking cracks. The repair products listed in this guide are the same materials professional contractors use in many cases, and the instructions are straightforward for cracks up to 1/4 inch wide in poured concrete walls. DIY repair is not appropriate for horizontal cracks, stair-step cracks, cracks with displacement, or any crack that is actively growing, because these indicate structural movement that surface sealing will not address. See our <Link href='/articles/foundation-crack-repair-cost' className='text-emerald-700 underline hover:text-emerald-900'>foundation crack repair cost guide</Link> for when professional repair is required and what it costs.</p>
             </div>
 
             <div className='border border-slate-200 rounded-lg p-6'>
-              <h3 className='text-lg font-bold text-slate-900 mb-2'>Can I fix a foundation crack myself?</h3>
-              <p className='text-slate-700 leading-relaxed'>You can repair minor vertical cracks under 1/4 inch wide, both sides level, not leaking significantly, using a DIY epoxy or polyurethane injection kit. These kits cost $20 to $80 and are available at hardware stores and online. Do not attempt to repair stair-step cracks, horizontal cracks, settlement cracks with height differences, or any crack associated with wall bowing. These require professional structural evaluation and repair.</p>
+              <h3 className='text-lg font-bold text-slate-900 mb-2'>How much does foundation crack repair cost?</h3>
+              <p className='text-slate-700 leading-relaxed'>Foundation crack repair costs $250 to $800 per crack for professional epoxy or polyurethane injection, with most single-crack repairs in the $300 to $500 range. DIY epoxy injection kits cost $50 to $150 per crack and are suitable for minor vertical cracks in poured concrete walls. Structural repairs for horizontal cracks or bowing walls cost significantly more: carbon fiber strap installation runs $2,000 to $5,000, wall anchor systems run $3,000 to $8,000, and full wall replacement runs $10,000 to $25,000 depending on the extent of damage. The cost difference between a $300 crack injection today and a $15,000 wall replacement later is the primary reason early monitoring and prompt repair matters. See our <Link href='/articles/foundation-crack-repair-cost' className='text-emerald-700 underline hover:text-emerald-900'>foundation crack repair cost guide</Link> for a full breakdown by crack type and repair method.</p>
             </div>
 
             <div className='border border-slate-200 rounded-lg p-6'>
-              <h3 className='text-lg font-bold text-slate-900 mb-2'>What is the difference between a structural crack and a cosmetic crack?</h3>
-              <p className='text-slate-700 leading-relaxed'>A cosmetic crack is narrow (under 1/4 inch), has no height difference between sides, is not growing, and does not indicate foundation movement. Most vertical shrinkage cracks fall into this category. A structural crack indicates active foundation movement such as settlement, shifting, or wall bowing. Signs include width greater than 1/4 inch, height difference between sides, horizontal orientation, stair-step pattern, and visible wall displacement.</p>
+              <h3 className='text-lg font-bold text-slate-900 mb-2'>What causes horizontal cracks in basement walls?</h3>
+              <p className='text-slate-700 leading-relaxed'>Horizontal cracks are caused by lateral soil pressure pushing inward against the foundation wall, most commonly from hydrostatic pressure when soil becomes saturated with water after heavy rain or snowmelt. The crack typically forms at or near the midpoint of the wall height where bending stress from the lateral load is greatest, and it almost always indicates that the wall has already moved inward to some degree. Expansive clay soils that swell when wet and freeze-thaw cycles in cold climates are the other primary causes of horizontal cracking, as both create repeated lateral stress cycles that eventually exceed the wall&apos;s bending capacity. Horizontal cracks are the most serious crack type and should never be monitored and waited on the way minor vertical cracks can be. Call a foundation repair professional as soon as a horizontal crack is identified. See our <Link href='/articles/bowing-basement-walls' className='text-emerald-700 underline hover:text-emerald-900'>bowing basement walls guide</Link> for the full repair options and costs.</p>
             </div>
 
             <div className='border border-slate-200 rounded-lg p-6'>
-              <h3 className='text-lg font-bold text-slate-900 mb-2'>Do foundation cracks let radon into the basement?</h3>
-              <p className='text-slate-700 leading-relaxed'>Yes. Foundation cracks are one of the primary entry points for radon gas, which rises from the soil beneath and around the foundation. Even hairline cracks can allow radon to enter. If you have foundation cracks and have not tested for radon, a test kit costs $10 to $30 and takes 48 hours. See our <Link href='/articles/radon-testing-mitigation' className='text-amber-600 hover:text-amber-700 underline'>basement radon testing and mitigation guide</Link>.</p>
+              <h3 className='text-lg font-bold text-slate-900 mb-2'>What is the difference between epoxy and polyurethane crack repair?</h3>
+              <p className='text-slate-700 leading-relaxed'>Epoxy injection bonds the two faces of a crack together with a rigid, high-strength adhesive that restores structural continuity to the concrete and creates a waterproof seal. It is the preferred method for dry, stable cracks in structural walls where restoring strength matters alongside sealing the crack. Polyurethane foam injection expands on contact with moisture and creates a flexible, compressible seal that accommodates minor future movement without re-cracking. It is the preferred method for actively leaking cracks because the moisture in the crack activates the expansion, and its flexibility means it performs better than rigid epoxy in cracks that may experience ongoing minor movement. The practical rule is to use epoxy for dry structural cracks and polyurethane for wet or actively leaking cracks. See our <Link href='/articles/foundation-crack-repair-cost' className='text-emerald-700 underline hover:text-emerald-900'>foundation crack repair cost guide</Link> for how the material choice affects total repair cost.</p>
             </div>
 
             <div className='border border-slate-200 rounded-lg p-6'>
-              <h3 className='text-lg font-bold text-slate-900 mb-2'>Should I worry about foundation cracks when buying a home?</h3>
-              <p className='text-slate-700 leading-relaxed'>Foundation cracks are one of the most important things to evaluate during a home inspection. Minor vertical cracks are normal and should not deter you from purchasing, but horizontal cracks, stair-step cracks, settlement cracks, and any signs of wall bowing should be evaluated by a structural engineer before closing. See our <Link href='/guides/homebuyers-inspection-checklist' className='text-amber-600 hover:text-amber-700 underline'>homebuyers basement inspection checklist</Link>.</p>
+              <h3 className='text-lg font-bold text-slate-900 mb-2'>When should I call a professional for foundation cracks?</h3>
+              <p className='text-slate-700 leading-relaxed'>Call a professional immediately for any horizontal crack, any crack with displacement where one side is higher than the other, any stair-step crack in a block wall that is wider than 1/4 inch, or any crack that has grown measurably since you first noticed it. Also call a professional if multiple new cracks appear in a short period, if doors or windows are suddenly sticking or not closing properly, or if you see a gap forming between the wall and the floor or ceiling joists. For minor vertical hairline cracks with no growth and no water leakage, professional evaluation is not urgent but is still worthwhile at least once to confirm the crack is stable. When in doubt, a foundation inspection costs $100 to $300 and provides documentation that protects you during a future sale. See our <Link href='/articles/how-to-hire-basement-waterproofing-contractor' className='text-emerald-700 underline hover:text-emerald-900'>how to hire a basement waterproofing contractor guide</Link> for how to find a qualified specialist.</p>
             </div>
           </div>
         </section>
