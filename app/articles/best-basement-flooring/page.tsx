@@ -499,6 +499,89 @@ export default function BestBasementFlooring() {
             </div>
           </section>
 
+          {/* Decision Table */}
+          <section className='mb-12'>
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">Which Flooring Is Right for Your Basement?</h2>
+            <div className="overflow-x-auto">
+              <table className="w-full border-collapse bg-white rounded-lg shadow-sm text-sm">
+                <thead>
+                  <tr className="bg-emerald-800 text-white text-sm">
+                    <th className="p-3 text-left">Your Situation</th>
+                    <th className="p-3 text-left">Best Choice</th>
+                    <th className="p-3 text-left">Why</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className='bg-gray-50'>
+                    <td className='p-3 font-medium'>Basement with active moisture or flooding history</td>
+                    <td className='p-3'>Fix water first, then porcelain tile or epoxy</td>
+                    <td className='p-3'>Only 100% waterproof options survive submersion without damage</td>
+                  </tr>
+                  <tr className='bg-white'>
+                    <td className='p-3 font-medium'>Dry basement, best overall value</td>
+                    <td className='p-3'>SPC Luxury Vinyl Plank</td>
+                    <td className='p-3'>100% waterproof, DIY-friendly, strong resale appeal</td>
+                  </tr>
+                  <tr className='bg-gray-50'>
+                    <td className='p-3 font-medium'>Basement gym or workshop</td>
+                    <td className='p-3'>Rubber flooring</td>
+                    <td className='p-3'>Shock absorption, noise reduction, completely waterproof</td>
+                  </tr>
+                  <tr className='bg-white'>
+                    <td className='p-3 font-medium'>High-end finished basement or home office</td>
+                    <td className='p-3'>Engineered hardwood</td>
+                    <td className='p-3'>Real wood warmth and resale appeal in verified dry conditions</td>
+                  </tr>
+                  <tr className='bg-gray-50'>
+                    <td className='p-3 font-medium'>Tightest budget, slab in good condition</td>
+                    <td className='p-3'>Polished concrete or epoxy</td>
+                    <td className='p-3'>Transforms existing slab with no additional material cost</td>
+                  </tr>
+                  <tr className='bg-white'>
+                    <td className='p-3 font-medium'>Basement bedroom or family room needing warmth</td>
+                    <td className='p-3'>Carpet tiles over LVP</td>
+                    <td className='p-3'>Carpet tiles for comfort, LVP underneath as moisture barrier</td>
+                  </tr>
+                  <tr className='bg-gray-50'>
+                    <td className='p-3 font-medium'>Radiant heat system planned</td>
+                    <td className='p-3'>Porcelain tile</td>
+                    <td className='p-3'>Best thermal conductor, pairs perfectly with radiant heat</td>
+                  </tr>
+                  <tr className='bg-white'>
+                    <td className='p-3 font-medium'>DIY installation required</td>
+                    <td className='p-3'>LVP, rubber tiles, or carpet tiles</td>
+                    <td className='p-3'>Click-lock and peel-and-stick installation, no pro needed</td>
+                  </tr>
+                  <tr className='bg-gray-50'>
+                    <td className='p-3 font-medium'>Basement prone to cold floors</td>
+                    <td className='p-3'>Porcelain tile with radiant heat or LVP with underlayment</td>
+                    <td className='p-3'>Eliminates the cold-slab problem most basement floors suffer</td>
+                  </tr>
+                  <tr className='bg-white'>
+                    <td className='p-3 font-medium'>Selling the home soon</td>
+                    <td className='p-3'>SPC Luxury Vinyl Plank</td>
+                    <td className='p-3'>Highest buyer appeal and ROI of any basement flooring option</td>
+                  </tr>
+                  <tr className='bg-gray-50'>
+                    <td className='p-3 font-medium'>Historic or luxury home, aesthetics paramount</td>
+                    <td className='p-3'>Engineered hardwood or porcelain tile</td>
+                    <td className='p-3'>Premium visual that buyers recognize and value</td>
+                  </tr>
+                  <tr className='bg-white'>
+                    <td className='p-3 font-medium'>Basement with uneven or cracked slab</td>
+                    <td className='p-3'>LVP with self-leveling compound first</td>
+                    <td className='p-3'>Floating installation tolerates minor imperfections after leveling</td>
+                  </tr>
+                  <tr className='bg-gray-50'>
+                    <td className='p-3 font-medium'>Kids playroom or high-traffic area</td>
+                    <td className='p-3'>Rubber tiles or carpet tiles</td>
+                    <td className='p-3'>Durable, safe, easy to replace individual damaged sections</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
           {/* FAQ */}
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mb-6">Frequently Asked Questions</h2>
