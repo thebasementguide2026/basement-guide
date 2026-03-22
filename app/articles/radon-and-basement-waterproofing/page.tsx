@@ -472,6 +472,53 @@ export default function RadonWaterproofingArticle() {
             </div>
           </div>
 
+          {/* Glossary */}
+          <div className='border-t border-slate-100 pt-16 mt-16'>
+            <div className='flex items-center space-x-3 mb-4'>
+              <span className='text-teal-600 font-bold text-sm tracking-wider uppercase'>Reference</span>
+              <span className='text-slate-300 font-bold text-sm tracking-wider uppercase'>&nbsp; Glossary</span>
+            </div>
+            <h2 className='text-3xl font-bold text-slate-900 mb-8'>Glossary</h2>
+            <div className='space-y-4 not-prose'>
+              <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+                <h4 className='font-bold text-slate-900 mb-1'>Radon</h4>
+                <p className='text-slate-600'>A naturally occurring radioactive gas produced by the decay of uranium in soil, rock, and groundwater, classified by the EPA as a Group A human carcinogen. Radon is colorless, odorless, and tasteless, making it undetectable without testing equipment. It is the second leading cause of lung cancer in the United States, responsible for an estimated 21,000 deaths annually.</p>
+              </div>
+              <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+                <h4 className='font-bold text-slate-900 mb-1'>Sub-slab depressurization (SSD)</h4>
+                <p className='text-slate-600'>The most effective and widely used active radon mitigation method, in which a pipe is inserted through the concrete slab and connected to a fan that continuously draws soil gas from beneath the foundation and vents it to the exterior. SSD systems reduce radon levels by up to 99 percent in most installations and can be installed in most slab and basement foundations regardless of construction type. See our <Link href='/articles/radon-testing-and-mitigation' className='text-teal-400 underline hover:text-teal-300'>radon testing and mitigation guide</Link> for a full breakdown of system types and costs.</p>
+              </div>
+              <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+                <h4 className='font-bold text-slate-900 mb-1'>Picocurie per liter (pCi/L)</h4>
+                <p className='text-slate-600'>The unit used to measure radon concentration in indoor air, where one picocurie represents approximately 2.2 radioactive decay events per minute per liter of air. The EPA recommends radon mitigation action when levels reach 4 pCi/L and considers levels between 2 and 4 pCi/L worth addressing given the cumulative risk of long-term exposure. The average indoor radon level in the United States is approximately 1.3 pCi/L.</p>
+              </div>
+              <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+                <h4 className='font-bold text-slate-900 mb-1'>Hydrostatic pressure</h4>
+                <p className='text-slate-600'>The force exerted by groundwater in saturated soil against a foundation wall or floor slab. Hydrostatic pressure is the primary driver of both water intrusion and radon infiltration in below-grade spaces, because it creates the pressure differential that pushes soil gas and moisture through foundation cracks and porous concrete. Reducing hydrostatic pressure through <Link href='/articles/french-drain-cost' className='text-teal-400 underline hover:text-teal-300'>exterior grading, drainage improvements</Link>, and waterproofing reduces both water and radon entry simultaneously.</p>
+              </div>
+              <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+                <h4 className='font-bold text-slate-900 mb-1'>Vapor barrier</h4>
+                <p className='text-slate-600'>A sheet of polyethylene film installed over bare soil in crawl spaces or under concrete slabs to block moisture and soil gas from migrating into the living space. Vapor barriers used in radon mitigation applications must be rated at a minimum of 6 mil thickness, though 20-mil reinforced barriers are preferred for crawl space encapsulation because they resist puncture during installation and long-term use. See our <Link href='/articles/best-vapor-barriers' className='text-teal-400 underline hover:text-teal-300'>best vapor barriers guide</Link> for product recommendations by application.</p>
+              </div>
+              <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+                <h4 className='font-bold text-slate-900 mb-1'>Epoxy injection</h4>
+                <p className='text-slate-600'>A crack repair method in which structural epoxy resin is injected under pressure into foundation cracks to bond the crack faces together and restore the structural integrity of the concrete. Epoxy injection is preferred for structural cracks that have compromised the load-bearing capacity of the wall, while polyurethane foam injection is preferred for active water-leaking cracks because it expands on contact with moisture. Both methods seal radon entry points as part of the repair. See our <Link href='/articles/foundation-crack-repair-cost' className='text-teal-400 underline hover:text-teal-300'>foundation crack repair cost guide</Link> for pricing by crack type.</p>
+              </div>
+              <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+                <h4 className='font-bold text-slate-900 mb-1'>Radon-resistant new construction (RRNC)</h4>
+                <p className='text-slate-600'>A set of building practices recommended by the EPA for new homes in high-radon areas, including a 4-inch gravel layer under the slab, a 6-mil polyethylene vapor barrier over the gravel, a vertical vent pipe from the sub-slab through the roof, and sealed joints and penetrations. RRNC features cost approximately $500 to $2,500 to include during construction and make it straightforward to activate an active mitigation system later if testing shows elevated levels. Homes built with RRNC features typically test lower for radon than comparable homes without them.</p>
+              </div>
+              <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+                <h4 className='font-bold text-slate-900 mb-1'>Soil gas</h4>
+                <p className='text-slate-600'>The mixture of gases &mdash; including radon, carbon dioxide, methane, and water vapor &mdash; that occupies the pore spaces between soil particles beneath and around a foundation. Soil gas moves toward lower pressure zones, which means it is continuously drawn toward the interior of a home whenever indoor air pressure is lower than subsurface pressure. Waterproofing and active depressurization systems both work by interrupting the pathways through which soil gas enters the structure.</p>
+              </div>
+              <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+                <h4 className='font-bold text-slate-900 mb-1'>Integrated mitigation system</h4>
+                <p className='text-slate-600'>A combined approach in which basement waterproofing and radon mitigation are designed and installed to work together rather than as independent systems. Integrated systems use radon-compatible interior drainage channels with sealed flanges that maintain the sub-slab pressure field required for effective depressurization, and sealants and vapor barriers that address both moisture and gas entry simultaneously. This approach avoids the common problem of waterproofing installations that inadvertently compromise a previously functioning radon mitigation system by disrupting sub-slab airflow.</p>
+              </div>
+            </div>
+          </div>
+
           {/* FAQ Section */}
           <div className='border-t border-slate-100 pt-16 mt-16'>
             <h2 className='text-3xl font-bold text-slate-900 mb-8'>Frequently Asked Questions</h2>
