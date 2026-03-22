@@ -713,18 +713,91 @@ export default function BestBasementFlooring() {
         </aside>
       </div>
 
-          {/* Our Network */}
+          {/* Related Guides */}
           <section className="mt-12 mb-8">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">Our Network</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Guides</h2>
+            <p className="text-gray-600 text-sm mb-6">Guides and resources related to basement flooring selection, installation, and moisture management.</p>
+            <h3 className="text-lg font-bold text-gray-900 mb-4">On thebasement.guide</h3>
+            <div className="grid md:grid-cols-2 gap-6 mb-10">
+              <Link href="/articles/complete-basement-waterproofing-guide" className="block bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
+                <h4 className="font-semibold text-gray-900 text-sm mb-1">Complete Basement Waterproofing Guide</h4>
+                <p className="text-gray-600 text-xs">Why waterproofing must be verified before any flooring is installed, and the full breakdown of interior and exterior waterproofing methods that protect your flooring investment from below.</p>
+              </Link>
+              <Link href="/articles/basement-waterproofing-cost" className="block bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
+                <h4 className="font-semibold text-gray-900 text-sm mb-1">Basement Waterproofing Cost</h4>
+                <p className="text-gray-600 text-xs">What professional waterproofing costs in 2026 by method and basement size, relevant for budgeting the waterproofing phase that must precede flooring installation in any moisture-prone basement.</p>
+              </Link>
+              <Link href="/articles/pre-finish-audit" className="block bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
+                <h4 className="font-semibold text-gray-900 text-sm mb-1">Pre-Finish Audit Checklist</h4>
+                <p className="text-gray-600 text-xs">Everything to verify before starting any basement finishing project, including the moisture tests, structural checks, and code requirements that determine which flooring options are viable for your specific basement.</p>
+              </Link>
+              <Link href="/articles/basement-finishing-cost" className="block bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
+                <h4 className="font-semibold text-gray-900 text-sm mb-1">Basement Finishing Cost Guide</h4>
+                <p className="text-gray-600 text-xs">How flooring fits into a full basement finishing budget alongside framing, drywall, electrical, and plumbing, with total project cost ranges by finish level.</p>
+              </Link>
+              <Link href="/articles/how-to-finish-a-basement" className="block bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
+                <h4 className="font-semibold text-gray-900 text-sm mb-1">How to Finish a Basement</h4>
+                <p className="text-gray-600 text-xs">The complete step-by-step finishing guide covering sequence, permits, and how flooring selection fits into the broader project timeline.</p>
+              </Link>
+              <Link href="/articles/basement-humidity-guide" className="block bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
+                <h4 className="font-semibold text-gray-900 text-sm mb-1">Basement Humidity Guide</h4>
+                <p className="text-gray-600 text-xs">How to maintain the humidity levels that protect every basement flooring type, and why keeping humidity below 50 percent is the single most important factor in flooring longevity.</p>
+              </Link>
+              <Link href="/articles/best-basement-dehumidifiers" className="block bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
+                <h4 className="font-semibold text-gray-900 text-sm mb-1">Best Basement Dehumidifiers</h4>
+                <p className="text-gray-600 text-xs">Top-rated dehumidifiers for maintaining the below-50-percent humidity level that engineered hardwood, laminate, and carpet tiles require to perform as rated.</p>
+              </Link>
+              <Link href="/articles/best-vapor-barriers" className="block bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
+                <h4 className="font-semibold text-gray-900 text-sm mb-1">Best Vapor Barriers</h4>
+                <p className="text-gray-600 text-xs">Product recommendations for the 6-mil polyethylene vapor barrier that is required under virtually every basement flooring type to prevent moisture vapor migration through the slab.</p>
+              </Link>
+              <Link href="/articles/how-to-prevent-basement-mold" className="block bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
+                <h4 className="font-semibold text-gray-900 text-sm mb-1">How to Prevent Basement Mold</h4>
+                <p className="text-gray-600 text-xs">How flooring choice affects mold risk, and the moisture management practices that prevent mold from developing beneath and within basement flooring materials.</p>
+              </Link>
+              <Link href="/articles/basement-efflorescence" className="block bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
+                <h4 className="font-semibold text-gray-900 text-sm mb-1">Basement Efflorescence</h4>
+                <p className="text-gray-600 text-xs">How to identify and address the white mineral salt deposits on concrete that indicate active moisture migration, which must be resolved before installing any flooring over the slab.</p>
+              </Link>
+              <Link href="/articles/wet-basement-walls" className="block bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
+                <h4 className="font-semibold text-gray-900 text-sm mb-1">Wet Basement Walls</h4>
+                <p className="text-gray-600 text-xs">How wall moisture contributes to flooring failure, and why addressing wall water intrusion is as important as slab moisture testing before installation.</p>
+              </Link>
+              <Link href="/articles/epoxy-vs-polyurethane-floor-coating" className="block bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
+                <h4 className="font-semibold text-gray-900 text-sm mb-1">Epoxy vs Polyurethane Floor Coating</h4>
+                <p className="text-gray-600 text-xs">A detailed comparison of the two coating systems used directly on concrete slabs, relevant for homeowners choosing between epoxy and polyurethane as their basement floor finish.</p>
+              </Link>
+              <Link href="/articles/basement-home-gym" className="block bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
+                <h4 className="font-semibold text-gray-900 text-sm mb-1">Basement Home Gym</h4>
+                <p className="text-gray-600 text-xs">How rubber flooring performs in a gym conversion, including thickness recommendations, equipment load considerations, and the flooring layout decisions specific to home gym basements.</p>
+              </Link>
+              <Link href="/articles/basement-adu-rental-suite" className="block bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
+                <h4 className="font-semibold text-gray-900 text-sm mb-1">Basement ADU and Rental Suite</h4>
+                <p className="text-gray-600 text-xs">How flooring choice affects rental income potential and tenant appeal, and the durability and waterproofing requirements that apply to income-producing basement spaces.</p>
+              </Link>
+              <Link href="/articles/basement-bathroom-guide" className="block bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
+                <h4 className="font-semibold text-gray-900 text-sm mb-1">Basement Bathroom Guide</h4>
+                <p className="text-gray-600 text-xs">Flooring considerations around basement bathroom installations, including the transition between bathroom tile and the surrounding basement floor finish.</p>
+              </Link>
+              <Link href="/articles/waterproofing-home-appraisal-value" className="block bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
+                <h4 className="font-semibold text-gray-900 text-sm mb-1">Waterproofing and Home Appraisal Value</h4>
+                <p className="text-gray-600 text-xs">How basement flooring choice alongside waterproofing affects appraisal outcomes and resale value, including which flooring types appraisers and buyers respond to most positively.</p>
+              </Link>
+              <Link href="/articles/interior-vs-exterior-waterproofing" className="block bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
+                <h4 className="font-semibold text-gray-900 text-sm mb-1">Interior vs Exterior Waterproofing</h4>
+                <p className="text-gray-600 text-xs">How the waterproofing method chosen affects which flooring options are viable, particularly for basements where interior drainage systems change the slab profile.</p>
+              </Link>
+            </div>
+            <h3 className="text-lg font-bold text-gray-900 mb-4">From Our Network</h3>
             <div className="grid md:grid-cols-2 gap-6">
-              <Link href="https://thegarage.guide/articles/best-garage-floor-epoxy" className="block bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
-                <h3 className="font-semibold text-emerald-700 mb-2">The Garage Guide</h3>
-                <p className="text-gray-600 text-sm">Best garage floor epoxy and garage floor coating cost, which use many of the same epoxy and coating products discussed in this guide but applied to garage slabs rather than basement floors.</p>
-              </Link>
-              <Link href="https://theseptic.guide/articles/septic-dos-and-donts" className="block bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
-                <h3 className="font-semibold text-emerald-700 mb-2">The Septic Guide</h3>
-                <p className="text-gray-600 text-sm">Septic dos and don&apos;ts, which is relevant for homeowners with basement bathrooms or laundry rooms where drain usage affects the septic system.</p>
-              </Link>
+              <a href="https://thegarage.guide/articles/best-garage-floor-epoxy" target="_blank" rel="noopener noreferrer" className="block bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
+                <h4 className="font-semibold text-gray-900 text-sm mb-1">Best Garage Floor Epoxy</h4>
+                <p className="text-gray-600 text-xs">The same epoxy coating systems used on basement slabs are widely used in garage floors. This guide covers product selection, prep requirements, and application for garage slab applications using many of the same products reviewed here.</p>
+              </a>
+              <a href="https://theseptic.guide/guides/septic-dos-and-donts" target="_blank" rel="noopener noreferrer" className="block bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
+                <h4 className="font-semibold text-gray-900 text-sm mb-1">Septic Dos and Don&apos;ts</h4>
+                <p className="text-gray-600 text-xs">For homes with basement bathrooms or laundry rooms, drain usage from below-grade spaces affects the septic system. This guide covers what to avoid putting down basement drains to protect the system.</p>
+              </a>
             </div>
           </section>
     </main>
