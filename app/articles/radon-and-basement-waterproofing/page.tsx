@@ -472,6 +472,30 @@ export default function RadonWaterproofingArticle() {
             </div>
           </div>
 
+          {/* Which Solution Does Your Home Need */}
+          <div className='border-t border-slate-100 pt-16 mt-16'>
+            <h2 className='text-3xl font-bold text-slate-900 mb-8'>Which Solution Does Your Home Need</h2>
+            <div className='overflow-x-auto not-prose'>
+              <table className='w-full border-collapse text-sm'>
+                <thead><tr className='bg-slate-800 text-white'><th className='px-4 py-3 text-left font-semibold'>Your Situation</th><th className='px-4 py-3 text-left font-semibold'>Radon Action Needed</th><th className='px-4 py-3 text-left font-semibold'>Waterproofing Action Needed</th></tr></thead>
+                <tbody className='divide-y divide-gray-200'>
+                  <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Radon below 2 pCi/L, dry basement</td><td className='px-4 py-3 text-slate-600'>Test every 2 years, no mitigation required</td><td className='px-4 py-3 text-slate-600'>Maintain existing waterproofing, inspect annually</td></tr>
+                  <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Radon 2 to 4 pCi/L, dry basement</td><td className='px-4 py-3 text-slate-600'>Consider mitigation; retest in 12 months</td><td className='px-4 py-3 text-slate-600'>Seal any visible cracks as a precaution</td></tr>
+                  <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Radon at or above 4 pCi/L, dry basement</td><td className='px-4 py-3 text-slate-600'>Install sub-slab depressurization immediately</td><td className='px-4 py-3 text-slate-600'>Seal all cracks and penetrations as part of mitigation prep</td></tr>
+                  <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Radon below 2 pCi/L, wet or leaking basement</td><td className='px-4 py-3 text-slate-600'>Retest after waterproofing is complete</td><td className='px-4 py-3 text-slate-600'>Full interior drainage and waterproofing required</td></tr>
+                  <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Radon at or above 4 pCi/L, wet or leaking basement</td><td className='px-4 py-3 text-slate-600'>Install integrated mitigation and waterproofing system together</td><td className='px-4 py-3 text-slate-600'>Radon-compatible drainage with sealed flanges required</td></tr>
+                  <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Crawl space foundation, any radon level</td><td className='px-4 py-3 text-slate-600'>Sub-membrane depressurization after encapsulation</td><td className='px-4 py-3 text-slate-600'>Full crawl space encapsulation with 20-mil vapor barrier</td></tr>
+                  <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>New construction in high-radon zone</td><td className='px-4 py-3 text-slate-600'>Install RRNC features during build</td><td className='px-4 py-3 text-slate-600'>Install vapor barrier and sealed sub-slab vent pipe</td></tr>
+                  <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Post-renovation radon spike</td><td className='px-4 py-3 text-slate-600'>Retest immediately; install or extend SSD system</td><td className='px-4 py-3 text-slate-600'>Inspect for new cracks or disturbed seals from renovation work</td></tr>
+                  <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Foundation cracks present, untested for radon</td><td className='px-4 py-3 text-slate-600'>Test before and after crack repair</td><td className='px-4 py-3 text-slate-600'>Seal cracks with epoxy or polyurethane injection</td></tr>
+                  <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Planning to sell home</td><td className='px-4 py-3 text-slate-600'>Test and mitigate if at or above 4 pCi/L; document results</td><td className='px-4 py-3 text-slate-600'>Document waterproofing work for buyer disclosure package</td></tr>
+                  <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Existing mitigation system, radon rising</td><td className='px-4 py-3 text-slate-600'>Service fan, check pipe seals, retest</td><td className='px-4 py-3 text-slate-600'>Inspect for new cracks or drainage changes affecting sub-slab pressure</td></tr>
+                  <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>High water table, wet soil conditions</td><td className='px-4 py-3 text-slate-600'>Higher radon risk &mdash; test more frequently</td><td className='px-4 py-3 text-slate-600'>Exterior grading, French drain, and interior drainage system</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
           {/* Glossary */}
           <div className='border-t border-slate-100 pt-16 mt-16'>
             <div className='flex items-center space-x-3 mb-4'>
