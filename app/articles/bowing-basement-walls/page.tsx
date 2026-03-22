@@ -525,25 +525,89 @@ export default function BowingWallsArticle() {
             {/* Related Guides */}
             <section>
               <h2 className='text-3xl font-bold text-slate-900 mb-4'>Related Guides</h2>
-              <div className='bg-indigo-50 border border-indigo-200 rounded-lg p-6'>
-                <p className='text-slate-700 leading-relaxed mb-4'>
-                  Related guides on The Basement Guide:
-                </p>
-                <ul className='space-y-2 text-slate-700'>
-                  <li><Link href='/articles/types-of-foundation-cracks' className='text-indigo-600 underline hover:text-indigo-800'>Types of Foundation Cracks</Link></li>
-                  <li><Link href='/articles/foundation-crack-repair-cost' className='text-indigo-600 underline hover:text-indigo-800'>Foundation Crack Repair Cost</Link></li>
-                  <li><Link href='/articles/wet-basement-walls' className='text-indigo-600 underline hover:text-indigo-800'>Wet Basement Walls</Link></li>
-                  <li><Link href='/articles/complete-basement-waterproofing-guide' className='text-indigo-600 underline hover:text-indigo-800'>Complete Waterproofing Guide</Link></li>
-                  <li><Link href='/articles/interior-vs-exterior-waterproofing' className='text-indigo-600 underline hover:text-indigo-800'>Interior vs Exterior Waterproofing</Link></li>
-                  <li><Link href='/articles/basement-efflorescence' className='text-indigo-600 underline hover:text-indigo-800'>Basement Efflorescence</Link></li>
-                  <li><Link href='/articles/old-house-basements' className='text-indigo-600 underline hover:text-indigo-800'>Old House Basements</Link></li>
-                  <li><Link href='/articles/homebuyers-basement-inspection-checklist' className='text-indigo-600 underline hover:text-indigo-800'>Homebuyer&apos;s Inspection Checklist</Link></li>
-                  <li><Link href='/articles/basement-flooding-insurance' className='text-indigo-600 underline hover:text-indigo-800'>Basement Flooding Insurance</Link></li>
-                  <li><Link href='/articles/how-to-hire-a-waterproofing-contractor' className='text-indigo-600 underline hover:text-indigo-800'>How to Hire a Waterproofing Contractor</Link></li>
-                </ul>
-                <p className='text-slate-700 leading-relaxed mt-4'>
-                  Our network: <a href='https://thegarage.guide' target='_blank' rel='noopener noreferrer' className='text-indigo-600 underline hover:text-indigo-800'>The Garage Guide</a> covers cracked garage floors, which can share the same soil pressure and settlement causes that affect basement walls. <a href='https://theseptic.guide' target='_blank' rel='noopener noreferrer' className='text-indigo-600 underline hover:text-indigo-800'>The Septic Guide</a> covers drainfield problems that can be caused by the same expansive clay soils and poor drainage conditions that lead to bowing basement walls.
-                </p>
+
+              <h3 className='text-xl font-semibold text-slate-800 mb-4'>On thebasement.guide</h3>
+              <div className='grid md:grid-cols-2 gap-6 mb-10'>
+                <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+                  <Link href='/articles/types-of-foundation-cracks' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>Types of Foundation Cracks</Link>
+                  <p className='text-slate-600 text-sm mt-1'>How to identify and classify every crack pattern in a basement wall, including the horizontal cracks that confirm bowing and the stair-step cracks in block walls that indicate differential pressure.</p>
+                </div>
+                <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+                  <Link href='/articles/foundation-crack-repair-cost' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>Foundation Crack Repair Cost 2026</Link>
+                  <p className='text-slate-600 text-sm mt-1'>Pricing for every crack repair method including epoxy injection, polyurethane foam, and carbon fiber reinforcement, relevant when bowing is accompanied by cracking that needs separate treatment.</p>
+                </div>
+                <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+                  <Link href='/articles/wet-basement-walls' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>Wet Basement Walls</Link>
+                  <p className='text-slate-600 text-sm mt-1'>How the same hydrostatic pressure that causes bowing also drives water through foundation walls, and why addressing water intrusion and bowing together is more cost-effective than treating them separately.</p>
+                </div>
+                <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+                  <Link href='/articles/complete-basement-waterproofing-guide' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>Complete Basement Waterproofing Guide</Link>
+                  <p className='text-slate-600 text-sm mt-1'>The full waterproofing reference covering every method for managing the hydrostatic pressure that is the root cause of most bowing basement walls.</p>
+                </div>
+                <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+                  <Link href='/articles/basement-waterproofing-cost' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>Basement Waterproofing Cost 2026</Link>
+                  <p className='text-slate-600 text-sm mt-1'>What drainage and waterproofing improvements cost in 2026, relevant for budgeting the pressure-reduction work that must accompany any bowing wall repair to prevent recurrence.</p>
+                </div>
+                <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+                  <Link href='/articles/interior-vs-exterior-waterproofing' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>Interior vs Exterior Waterproofing</Link>
+                  <p className='text-slate-600 text-sm mt-1'>How interior drainage and exterior membrane systems each address hydrostatic pressure differently, and which approach works best alongside each bowing wall repair method.</p>
+                </div>
+                <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+                  <Link href='/articles/basement-efflorescence' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>Basement Efflorescence</Link>
+                  <p className='text-slate-600 text-sm mt-1'>The white mineral deposits that often appear alongside bowing as moisture migrates through stressed wall sections, and what they indicate about the severity and duration of the water pressure problem.</p>
+                </div>
+                <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+                  <Link href='/articles/old-house-basements' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>Old House Basements</Link>
+                  <p className='text-slate-600 text-sm mt-1'>How pre-1970 foundations with thinner walls, less reinforcement, and no waterproofing membrane are more vulnerable to bowing, and the specific repair and waterproofing approaches suited to older construction.</p>
+                </div>
+                <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+                  <Link href='/articles/homebuyers-basement-inspection-checklist' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>Homebuyer&apos;s Basement Inspection Checklist</Link>
+                  <p className='text-slate-600 text-sm mt-1'>What to look for when evaluating a home with suspected bowing walls, how to measure and document displacement before making an offer, and how to negotiate repair credits.</p>
+                </div>
+                <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+                  <Link href='/articles/basement-flooding-insurance' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>Basement Flooding Insurance</Link>
+                  <p className='text-slate-600 text-sm mt-1'>What homeowners insurance covers for foundation damage and when flood insurance applies, relevant for homeowners exploring whether any portion of bowing wall repair costs can be offset by a claim.</p>
+                </div>
+                <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+                  <Link href='/articles/basement-waterproofing-finances-insurance-taxes' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>Waterproofing Finances, Insurance, and Taxes</Link>
+                  <p className='text-slate-600 text-sm mt-1'>Financing options for bowing wall repairs that insurance will not cover, including home equity loans, HELOCs, and contractor payment plans for larger foundation repair projects.</p>
+                </div>
+                <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+                  <Link href='/articles/waterproofing-home-appraisal-value' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>Waterproofing and Home Appraisal Value</Link>
+                  <p className='text-slate-600 text-sm mt-1'>How documented bowing wall repairs and accompanying waterproofing affect appraisal outcomes and buyer confidence, including the 10 to 20 percent value impact of unrepaired bowing.</p>
+                </div>
+                <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+                  <Link href='/articles/how-to-hire-basement-waterproofing-contractor' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>How to Hire a Basement Waterproofing Contractor</Link>
+                  <p className='text-slate-600 text-sm mt-1'>How to find, vet, and compare quotes from foundation repair specialists, including the questions to ask and the red flags to avoid when selecting a contractor for structural wall repair.</p>
+                </div>
+                <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+                  <Link href='/articles/basement-insulation-guide' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>Basement Insulation Guide</Link>
+                  <p className='text-slate-600 text-sm mt-1'>How foundation perimeter insulation reduces frost heave by limiting the moisture available to freeze in soil adjacent to the wall, relevant for homes in cold climates where freeze-thaw cycles are contributing to bowing.</p>
+                </div>
+                <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+                  <Link href='/articles/french-drain-cost' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>French Drain Cost 2026</Link>
+                  <p className='text-slate-600 text-sm mt-1'>What exterior and interior French drain installation costs, the most common drainage improvement paired with bowing wall repair to reduce the hydrostatic pressure that caused the movement.</p>
+                </div>
+              </div>
+
+              <h3 className='text-xl font-semibold text-slate-800 mb-4'>From Our Network</h3>
+              <div className='grid md:grid-cols-2 gap-6 mb-10'>
+                <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+                  <a href='https://theseptic.guide/cost-guides/septic-system-repair-cost' target='_blank' rel='noopener noreferrer' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>Septic System Repair Cost 2026</a>
+                  <p className='text-slate-600 text-sm mt-1'>The same expansive clay soils and poor drainage conditions that cause bowing basement walls are also the primary contributors to drainfield stress on septic-served properties. This guide covers how soil and drainage conditions affect septic repair costs.</p>
+                </div>
+                <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+                  <a href='https://theseptic.guide/problems/drainfield-failing' target='_blank' rel='noopener noreferrer' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>Signs Your Drainfield Is Failing</a>
+                  <p className='text-slate-600 text-sm mt-1'>For homes with both bowing walls and a septic system, the saturated soil conditions driving the foundation pressure are often the same conditions stressing the drainfield. This guide covers the warning signs that the septic system is being affected by the same drainage failure.</p>
+                </div>
+              </div>
+
+              <h3 className='text-xl font-semibold text-slate-800 mb-4'>External Resource</h3>
+              <div className='grid md:grid-cols-2 gap-6 mb-10'>
+                <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+                  <a href='https://www.fema.gov/sites/default/files/2020-08/fema_reducing_flood_losses_through_the_international_codes_third_edition.pdf' target='_blank' rel='noopener noreferrer' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>FEMA Foundation Repair Guidance</a>
+                  <p className='text-slate-600 text-sm mt-1'>FEMA&apos;s technical guidance on foundation performance, flood-related foundation damage, and repair standards relevant for homeowners in flood-prone areas where hydrostatic pressure events are causing bowing.</p>
+                </div>
               </div>
             </section>
 
@@ -554,11 +618,13 @@ export default function BowingWallsArticle() {
             <div className='bg-white rounded-lg p-6 border border-slate-200'>
               <h4 className='font-bold text-slate-900 mb-3'>Related Guides</h4>
               <ul className='space-y-3 text-sm'>
-                <li><Link href='/articles/types-of-foundation-cracks' className='text-indigo-600 hover:underline'>Types of Foundation Cracks</Link></li>
-                <li><Link href='/articles/foundation-crack-repair-cost' className='text-indigo-600 hover:underline'>Foundation Crack Repair Cost 2026</Link></li>
-                <li><Link href='/articles/complete-basement-waterproofing-guide' className='text-indigo-600 hover:underline'>Complete Waterproofing Guide</Link></li>
-                <li><Link href='/articles/basement-efflorescence' className='text-indigo-600 hover:underline'>Basement Efflorescence Explained</Link></li>
-                <li><Link href='/articles/old-house-basements' className='text-indigo-600 hover:underline'>Old House Basements Guide</Link></li>
+                <li><Link href='/articles/types-of-foundation-cracks' className='text-emerald-700 hover:underline'>Types of Foundation Cracks</Link></li>
+                <li><Link href='/articles/foundation-crack-repair-cost' className='text-emerald-700 hover:underline'>Foundation Crack Repair Cost 2026</Link></li>
+                <li><Link href='/articles/complete-basement-waterproofing-guide' className='text-emerald-700 hover:underline'>Complete Waterproofing Guide</Link></li>
+                <li><Link href='/articles/basement-waterproofing-cost' className='text-emerald-700 hover:underline'>Basement Waterproofing Cost 2026</Link></li>
+                <li><Link href='/articles/basement-efflorescence' className='text-emerald-700 hover:underline'>Basement Efflorescence</Link></li>
+                <li><Link href='/articles/old-house-basements' className='text-emerald-700 hover:underline'>Old House Basements</Link></li>
+                <li><Link href='/articles/how-to-hire-basement-waterproofing-contractor' className='text-emerald-700 hover:underline'>How to Hire a Contractor</Link></li>
               </ul>
             </div>
           </aside>
