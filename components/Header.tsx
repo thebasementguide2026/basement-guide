@@ -1,6 +1,5 @@
 'use client'
 import Link from 'next/link'
-import Image from 'next/image'
 import { useState, useRef, useEffect } from 'react'
 import SearchBar from '@/components/SearchBar'
 
@@ -97,17 +96,18 @@ export default function Header() {
     <header className="bg-white sticky top-0 z-50 border-b border-gray-200 shadow-sm">
       {/* Top bar */}
       <div className="container-custom">
-        <div className="flex items-center justify-between h-24">
+        <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link href="/" className="flex-shrink-0">
-            <Image
-              src="/TheBasement%20Guide%20Logo.png"
-              alt="The Basement Guide"
-              width={320}
-              height={80}
-              className="h-20 w-auto"
-              priority
-            />
+          <Link href="/" className="flex items-center gap-2 flex-shrink-0">
+            <svg width="32" height="32" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 5 L35 17 L35 35 L5 35 L5 17 Z" fill="none" stroke="#1e3a5f" strokeWidth="2" />
+              <rect x="14" y="19" width="12" height="10" rx="1.5" fill="none" stroke="#0d9488" strokeWidth="1.5" opacity="0.6" />
+              <line x1="20" y1="35" x2="20" y2="39" stroke="#1e3a5f" strokeWidth="2" strokeLinecap="round" opacity="0.5" />
+            </svg>
+            <span className="text-xl">
+              <span className="font-semibold opacity-55 text-[#1e3a5f]">The </span>
+              <span className="font-extrabold text-[#1e3a5f]">Basement Guide</span>
+            </span>
           </Link>
 
           {/* Desktop Nav */}
