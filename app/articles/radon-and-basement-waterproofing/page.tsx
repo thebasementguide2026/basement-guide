@@ -8,9 +8,69 @@ export const metadata: Metadata = {
   description: 'Learn how basement waterproofing helps reduce radon gas levels. Explore radon entry points, mitigation systems, testing methods, and integrated solutions updated for 2026.',
 }
 
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'Does basement waterproofing eliminate radon?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'No, basement waterproofing does not eliminate radon on its own. Waterproofing seals foundation cracks, construction joints, and pipe penetrations that serve as radon entry points, and studies show this can reduce radon levels by up to 50 percent in some homes. However, sealing alone cannot address radon that enters through porous concrete or block walls, or through soil gas pressure that finds new pathways over time. For homes with radon levels at or above the EPA action threshold of 4 pCi/L, a dedicated sub-slab depressurization system is required alongside waterproofing. The two approaches work best as an integrated system — waterproofing reduces entry points while active mitigation removes any radon that does enter. See our radon testing and mitigation guide for a full breakdown of mitigation system types.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Can foundation cracks increase radon levels?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Yes, foundation cracks are one of the primary pathways through which radon enters a home. Homes act like low-pressure vacuums relative to the surrounding soil, and radon-laden soil gas is pulled inward through any available opening, including hairline cracks that may not be visible to the naked eye. Even a small crack in a concrete floor or wall can allow significant radon infiltration, particularly in homes with high subsurface uranium concentrations or in wet soil conditions where gas is displaced upward toward the foundation. Hydrostatic pressure from groundwater can widen existing cracks over time, increasing both water intrusion and radon entry simultaneously. Sealing foundation cracks with epoxy or polyurethane is one of the first steps in both a waterproofing and radon mitigation program. See our foundation crack repair cost guide for pricing by crack type and severity.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'How often should I test for radon?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'The EPA recommends testing your home for radon every two years under normal conditions. You should also test after any waterproofing work, foundation repairs, or major renovations that alter the basement structure, because these changes can affect how soil gas moves into and through the home. If you install or modify a radon mitigation system, retest within 24 hours of installation and again 30 days later to confirm the system is performing correctly. Homes in EPA Zone 1 (high radon potential areas including much of the Midwest, Northeast, and Rocky Mountain regions) should prioritize more frequent testing given the elevated baseline risk. Short-term test kits ($20 to $50) are suitable for a quick screening after renovations, while long-term kits (3 to 12 months) provide the most accurate average reading for ongoing monitoring. See our radon testing and mitigation guide for a full comparison of testing methods.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Is radon mitigation worth the cost?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Yes, radon mitigation is one of the highest-return health and home investments available to a homeowner. A standard sub-slab depressurization system costs $1,200 to $1,800 installed and can reduce radon levels by up to 99 percent, virtually eliminating the lung cancer risk associated with long-term radon exposure. The EPA estimates radon causes approximately 21,000 lung cancer deaths annually in the United States, making it the second leading cause of lung cancer and the leading cause among non-smokers. Beyond the health benefits, radon mitigation adds measurable resale value — homes with documented mitigation systems sell faster and at higher prices in radon-prone regions because buyers increasingly test for radon during due diligence. Ongoing operating costs are minimal at $50 to $100 per year in fan electricity. See our waterproofing and home appraisal value guide for how mitigation and waterproofing together affect appraisal outcomes.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'What if my home has a crawl space?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Crawl spaces are high-risk entry points for radon because they sit directly over bare soil and typically lack the concrete barrier that slows radon infiltration in slab or basement foundations. The standard approach for crawl space radon control is full encapsulation — sealing the floor and walls with a heavy-duty vapor barrier (minimum 6-mil, ideally 20-mil reinforced polyethylene) and installing a sub-membrane depressurization system that vents soil gas to the exterior. Ventilation alone is not sufficient in high-radon areas because it does not address the pressure differential that draws soil gas into the living space. Encapsulation also addresses moisture simultaneously, making it the most efficient combined solution for crawl space homes. After encapsulation and depressurization installation, retest radon levels to confirm the system is achieving the target reduction. See our crawl space encapsulation guide for a full breakdown of methods and costs.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Are there eco-friendly options?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Yes, modern radon mitigation and waterproofing systems offer several lower-impact options. Energy-efficient radon mitigation fans use as little as 20 to 30 watts — comparable to a standard light bulb — and some manufacturers offer Energy Star-rated models that minimize electricity consumption over the system\'s 10 to 20 year lifespan. For waterproofing, crystalline waterproofing compounds are a sustainable alternative to membrane-based systems because they become a permanent part of the concrete structure rather than requiring replacement over time. Low-VOC and water-based sealants and caulks are widely available for sealing cracks and penetrations without introducing additional indoor air quality concerns during installation. Choosing a contractor who installs radon-compatible interior drainage systems with sealed flanges avoids the need to retrofit the drainage system later if radon mitigation is added. See our crystalline waterproofing guide for details on that approach.',
+      },
+    },
+  ],
+}
+
 export default function RadonWaterproofingArticle() {
   return (
     <div className='bg-white min-h-screen'>
+      <script
+        type='application/ld+json'
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+
       {/* Article Hero */}
       <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
         <Image
@@ -418,27 +478,27 @@ export default function RadonWaterproofingArticle() {
             <div className='space-y-8 not-prose'>
               <div className='border-b border-slate-100 pb-8'>
                 <h4 className='text-xl font-bold text-slate-900 mb-3'>Does basement waterproofing eliminate radon?</h4>
-                <p className='text-slate-600 leading-relaxed'>No, it reduces entry but dedicated mitigation is needed for high levels. Combine both for best results.</p>
+                <p className='text-slate-600 leading-relaxed'>No, basement waterproofing does not eliminate radon on its own. Waterproofing seals foundation cracks, construction joints, and pipe penetrations that serve as radon entry points, and studies show this can reduce radon levels by up to 50 percent in some homes. However, sealing alone cannot address radon that enters through porous concrete or block walls, or through soil gas pressure that finds new pathways over time. For homes with radon levels at or above the EPA action threshold of 4 pCi/L, a dedicated sub-slab depressurization system is required alongside waterproofing. The two approaches work best as an integrated system &mdash; waterproofing reduces entry points while active mitigation removes any radon that does enter. See our <Link href='/articles/radon-testing-and-mitigation' className='text-teal-400 underline hover:text-teal-300'>radon testing and mitigation guide</Link> for a full breakdown of mitigation system types.</p>
               </div>
               <div className='border-b border-slate-100 pb-8'>
                 <h4 className='text-xl font-bold text-slate-900 mb-3'>Can foundation cracks increase radon levels?</h4>
-                <p className='text-slate-600 leading-relaxed'>Yes, even small cracks allow radon infiltration, especially with negative indoor pressure.</p>
+                <p className='text-slate-600 leading-relaxed'>Yes, foundation cracks are one of the primary pathways through which radon enters a home. Homes act like low-pressure vacuums relative to the surrounding soil, and radon-laden soil gas is pulled inward through any available opening, including hairline cracks that may not be visible to the naked eye. Even a small crack in a concrete floor or wall can allow significant radon infiltration, particularly in homes with high subsurface uranium concentrations or in wet soil conditions where gas is displaced upward toward the foundation. Hydrostatic pressure from groundwater can widen existing cracks over time, increasing both water intrusion and radon entry simultaneously. Sealing foundation cracks with epoxy or polyurethane is one of the first steps in both a waterproofing and radon mitigation program. See our <Link href='/articles/foundation-crack-repair-cost' className='text-teal-400 underline hover:text-teal-300'>foundation crack repair cost guide</Link> for pricing by crack type and severity.</p>
               </div>
               <div className='border-b border-slate-100 pb-8'>
                 <h4 className='text-xl font-bold text-slate-900 mb-3'>How often should I test for radon?</h4>
-                <p className='text-slate-600 leading-relaxed'>Every two years or after waterproofing, renovations, or if you notice musty odors.</p>
+                <p className='text-slate-600 leading-relaxed'>The EPA recommends testing your home for radon every two years under normal conditions. You should also test after any waterproofing work, foundation repairs, or major renovations that alter the basement structure, because these changes can affect how soil gas moves into and through the home. If you install or modify a radon mitigation system, retest within 24 hours of installation and again 30 days later to confirm the system is performing correctly. Homes in EPA Zone 1 (high radon potential areas including much of the Midwest, Northeast, and Rocky Mountain regions) should prioritize more frequent testing given the elevated baseline risk. Short-term test kits ($20 to $50) are suitable for a quick screening after renovations, while long-term kits (3 to 12 months) provide the most accurate average reading for ongoing monitoring. See our <Link href='/articles/radon-testing-and-mitigation' className='text-teal-400 underline hover:text-teal-300'>radon testing and mitigation guide</Link> for a full comparison of testing methods.</p>
               </div>
               <div className='border-b border-slate-100 pb-8'>
                 <h4 className='text-xl font-bold text-slate-900 mb-3'>Is radon mitigation worth the cost?</h4>
-                <p className='text-slate-600 leading-relaxed'>Yes, it prevents lung cancer risks and adds <Link href="/articles/waterproofing-home-appraisal-value" className="text-teal-400 underline hover:text-teal-300">home value</Link>, with low ongoing costs of $50–$100 yearly for fan electricity.</p>
+                <p className='text-slate-600 leading-relaxed'>Yes, radon mitigation is one of the highest-return health and home investments available to a homeowner. A standard sub-slab depressurization system costs $1,200 to $1,800 installed and can reduce radon levels by up to 99 percent, virtually eliminating the lung cancer risk associated with long-term radon exposure. The EPA estimates radon causes approximately 21,000 lung cancer deaths annually in the United States, making it the second leading cause of lung cancer and the leading cause among non-smokers. Beyond the health benefits, radon mitigation adds measurable resale value &mdash; homes with documented mitigation systems sell faster and at higher prices in radon-prone regions because buyers increasingly test for radon during due diligence. Ongoing operating costs are minimal at $50 to $100 per year in fan electricity. See our <Link href='/articles/waterproofing-home-appraisal-value' className='text-teal-400 underline hover:text-teal-300'>waterproofing and home appraisal value guide</Link> for how mitigation and waterproofing together affect appraisal outcomes.</p>
               </div>
               <div className='border-b border-slate-100 pb-8'>
                 <h4 className='text-xl font-bold text-slate-900 mb-3'>What if my home has a crawl space?</h4>
-                <p className='text-slate-600 leading-relaxed'>Encapsulate with vapor barriers and add ventilation or depressurization systems.</p>
+                <p className='text-slate-600 leading-relaxed'>Crawl spaces are high-risk entry points for radon because they sit directly over bare soil and typically lack the concrete barrier that slows radon infiltration in slab or basement foundations. The standard approach for crawl space radon control is full encapsulation &mdash; sealing the floor and walls with a heavy-duty vapor barrier (minimum 6-mil, ideally 20-mil reinforced polyethylene) and installing a sub-membrane depressurization system that vents soil gas to the exterior. Ventilation alone is not sufficient in high-radon areas because it does not address the pressure differential that draws soil gas into the living space. Encapsulation also addresses moisture simultaneously, making it the most efficient combined solution for crawl space homes. After encapsulation and depressurization installation, retest radon levels to confirm the system is achieving the target reduction. See our <Link href='/articles/crawl-space-encapsulation-guide' className='text-teal-400 underline hover:text-teal-300'>crawl space encapsulation guide</Link> for a full breakdown of methods and costs.</p>
               </div>
               <div className='border-b border-slate-100 pb-8'>
                 <h4 className='text-xl font-bold text-slate-900 mb-3'>Are there eco-friendly options?</h4>
-                <p className='text-slate-600 leading-relaxed'>Yes, use low-energy fans and sustainable sealants. Mitigation reduces overall health impacts.</p>
+                <p className='text-slate-600 leading-relaxed'>Yes, modern radon mitigation and waterproofing systems offer several lower-impact options. Energy-efficient radon mitigation fans use as little as 20 to 30 watts &mdash; comparable to a standard light bulb &mdash; and some manufacturers offer Energy Star-rated models that minimize electricity consumption over the system&apos;s 10 to 20 year lifespan. For waterproofing, crystalline waterproofing compounds are a sustainable alternative to membrane-based systems because they become a permanent part of the concrete structure rather than requiring replacement over time. Low-VOC and water-based sealants and caulks are widely available for sealing cracks and penetrations without introducing additional indoor air quality concerns during installation. Choosing a contractor who installs radon-compatible interior drainage systems with sealed flanges avoids the need to retrofit the drainage system later if radon mitigation is added. See our <Link href='/articles/crystalline-waterproofing' className='text-teal-400 underline hover:text-teal-300'>crystalline waterproofing guide</Link> for details on that approach.</p>
               </div>
             </div>
           </div>
