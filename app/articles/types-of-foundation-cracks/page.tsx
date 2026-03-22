@@ -123,6 +123,9 @@ export default function FoundationCracksArticle() {
           <p className='text-lg text-slate-600 leading-relaxed mb-8'>
             This guide explains the four main types of foundation cracks, what causes each one, how to tell whether a crack is serious, what each type of repair costs, and exactly what to do next.
           </p>
+          <p className='text-lg text-slate-700 leading-relaxed mb-8'>
+            Foundation cracks are fractures in the concrete or masonry of a basement wall or floor that form when the stress acting on the material exceeds its tensile strength, which concrete has very little of despite its compressive strength. The direction a crack runs is the most reliable diagnostic signal because it reflects the direction of the force that caused it: vertical cracks form when concrete shrinks or settles evenly, diagonal and stair-step cracks form when one section of the foundation moves more than another, and horizontal cracks form when lateral soil pressure pushes inward against the wall. Width and whether the crack is growing are the two secondary factors that determine urgency: a hairline crack that has been stable for years is a different problem than a 1/4-inch crack that has widened by 1/8 inch over the past month. The practical implication of this framework is that two cracks can look similar on the surface but require completely different responses depending on their orientation, width, and rate of change.
+          </p>
           <p className='text-lg text-slate-600 leading-relaxed mb-12'>
             If you already know your crack needs repair and want pricing, jump to our{' '}
             <Link href='/cost-guides/foundation-crack-repair' className='text-amber-600 hover:text-amber-700 underline'>foundation crack repair cost guide</Link>. If your wall is bowing inward rather than just cracked, see our{' '}
