@@ -585,34 +585,92 @@ export default function RadonWaterproofingArticle() {
             </p>
           </div>
 
-                    {/* Related Guides */}
+          {/* Related Guides */}
           <div className='border-t border-slate-100 pt-16 mt-16'>
             <h2 className='text-3xl font-bold text-slate-900 mb-8'>Related Guides</h2>
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-4 not-prose'>
-              <Link href='/articles/homebuyers-basement-inspection-checklist' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
-                <h4 className='text-lg font-bold text-slate-900 mb-2'>Homebuyer's Basement Inspection Checklist</h4>
-                <p className='text-slate-600 text-sm'>Spot hidden water damage, mold, and foundation issues before you buy.</p>
+
+            <h3 className='text-sm font-semibold text-slate-500 uppercase tracking-wide mb-3'>On thebasement.guide</h3>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-4 not-prose mb-10'>
+              <Link href='/articles/radon-testing-and-mitigation' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Radon Testing and Mitigation Guide</h4>
+                <p className='text-slate-600 text-sm'>The dedicated companion to this article covering radon testing methods, mitigation system types, sub-slab depressurization installation, and how to verify your system is performing correctly after installation.</p>
               </Link>
-              <Link href='/articles/how-to-prevent-basement-mold' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
-                <h4 className='text-lg font-bold text-slate-900 mb-2'>How to Prevent Basement Mold</h4>
-                <p className='text-slate-600 text-sm'>Critical steps to prevent mold growth and protect your family.</p>
-              </Link>
-              <Link href='/articles/interior-vs-exterior-waterproofing' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
-                <h4 className='text-lg font-bold text-slate-900 mb-2'>Interior vs. Exterior Waterproofing</h4>
-                <p className='text-slate-600 text-sm'>Compare methods to find the best waterproofing solution for your home.</p>
-              </Link>
-              <Link href='/articles/sump-pump-buying-guide' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
-                <h4 className='text-lg font-bold text-slate-900 mb-2'>Sump Pump Buying Guide</h4>
-                <p className='text-slate-600 text-sm'>Choose the right sump pump to protect your basement from flooding.</p>
+              <Link href='/articles/complete-basement-waterproofing-guide' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Complete Basement Waterproofing Guide</h4>
+                <p className='text-slate-600 text-sm'>The full waterproofing reference covering every method, material, and system type, and how to choose the right approach for your foundation type and water intrusion source.</p>
               </Link>
               <Link href='/articles/basement-waterproofing-cost' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
                 <h4 className='text-lg font-bold text-slate-900 mb-2'>Basement Waterproofing Cost Guide</h4>
-                <p className='text-slate-600 text-sm'>What to expect for professional waterproofing pricing in 2026.</p>
+                <p className='text-slate-600 text-sm'>What professional waterproofing costs in 2026 by method, basement size, and region, including how to evaluate contractor bids for integrated radon and waterproofing projects.</p>
+              </Link>
+              <Link href='/articles/interior-vs-exterior-waterproofing' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Interior vs Exterior Waterproofing</h4>
+                <p className='text-slate-600 text-sm'>A full comparison of interior drainage systems and exterior membrane approaches, including which is compatible with radon mitigation and which can inadvertently disrupt sub-slab depressurization.</p>
               </Link>
               <Link href='/articles/types-of-foundation-cracks' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
                 <h4 className='text-lg font-bold text-slate-900 mb-2'>Types of Foundation Cracks</h4>
-                <p className='text-slate-600 text-sm'>Identify which cracks are cosmetic and which signal serious issues.</p>
+                <p className='text-slate-600 text-sm'>How to identify which cracks are cosmetic and which are structural, and why both types matter equally as radon and water entry points regardless of their structural significance.</p>
               </Link>
+              <Link href='/articles/foundation-crack-repair-cost' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Foundation Crack Repair Cost</h4>
+                <p className='text-slate-600 text-sm'>Pricing for epoxy injection, polyurethane foam injection, and carbon fiber reinforcement by crack type and severity, relevant for budgeting the crack sealing phase of an integrated mitigation project.</p>
+              </Link>
+              <Link href='/articles/crawl-space-encapsulation-guide' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Crawl Space Encapsulation Guide</h4>
+                <p className='text-slate-600 text-sm'>The complete guide to crawl space vapor barriers, sub-membrane depressurization, and ventilation for homes where the crawl space is the primary radon and moisture entry point.</p>
+              </Link>
+              <Link href='/articles/how-to-prevent-basement-mold' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>How to Prevent Basement Mold</h4>
+                <p className='text-slate-600 text-sm'>How moisture control and radon mitigation work together to address the two most significant below-grade indoor air quality threats simultaneously.</p>
+              </Link>
+              <Link href='/articles/basement-humidity-guide' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Basement Humidity Guide</h4>
+                <p className='text-slate-600 text-sm'>How to maintain the humidity levels that reduce soil moisture pressure against the foundation, slowing both water intrusion and the soil gas movement that carries radon indoors.</p>
+              </Link>
+              <Link href='/articles/crystalline-waterproofing' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Crystalline Waterproofing</h4>
+                <p className='text-slate-600 text-sm'>A permanent concrete-integrated waterproofing method that seals the porous pathways radon and moisture share through block and poured concrete walls.</p>
+              </Link>
+              <Link href='/articles/waterproofing-home-appraisal-value' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Waterproofing and Home Appraisal Value</h4>
+                <p className='text-slate-600 text-sm'>How documented waterproofing and radon mitigation together affect appraisal outcomes and buyer confidence, particularly in radon-prone regions where buyers routinely test during due diligence.</p>
+              </Link>
+              <Link href='/articles/basement-flooding-insurance' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Basement Flooding Insurance</h4>
+                <p className='text-slate-600 text-sm'>What homeowners insurance covers for water damage and how radon mitigation system damage is treated under standard policies.</p>
+              </Link>
+              <Link href='/articles/homebuyers-basement-inspection-checklist' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Homebuyer&apos;s Basement Inspection Checklist</h4>
+                <p className='text-slate-600 text-sm'>What buyers and inspectors look for in below-grade spaces, including radon test results, mitigation system documentation, and waterproofing warranties.</p>
+              </Link>
+              <Link href='/articles/interior-basement-drainage-systems' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Interior Basement Drainage Systems</h4>
+                <p className='text-slate-600 text-sm'>How to choose and install radon-compatible interior drainage channels with sealed flanges that maintain sub-slab pressure without compromising an active depressurization system.</p>
+              </Link>
+              <Link href='/articles/best-basement-air-purifiers' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Best Basement Air Purifiers</h4>
+                <p className='text-slate-600 text-sm'>Supplemental air quality options for below-grade spaces where radon levels are being actively managed but additional particulate and VOC filtration is desired.</p>
+              </Link>
+            </div>
+
+            <h3 className='text-sm font-semibold text-slate-500 uppercase tracking-wide mb-3'>From Our Network</h3>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-4 not-prose mb-10'>
+              <a href='https://theseptic.guide/guides/selling-home-with-septic-system' target='_blank' rel='noopener noreferrer' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Selling a Home with a Septic System &middot; theseptic.guide</h4>
+                <p className='text-slate-600 text-sm'>Radon mitigation documentation and septic inspection records are the two most commonly requested below-grade disclosures in rural home sales. This guide covers how to prepare the septic side of your disclosure package the same way this article covers the radon and waterproofing side.</p>
+              </a>
+              <a href='https://theseptic.guide/articles/does-insurance-cover-septic-repair-replacement' target='_blank' rel='noopener noreferrer' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Does Homeowners Insurance Cover Septic Repair? &middot; theseptic.guide</h4>
+                <p className='text-slate-600 text-sm'>For homeowners managing multiple below-grade systems, this guide covers how insurance treats septic failures alongside the waterproofing and radon coverage questions covered here.</p>
+              </a>
+            </div>
+
+            <h3 className='text-sm font-semibold text-slate-500 uppercase tracking-wide mb-3'>External Resource</h3>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-4 not-prose mb-10'>
+              <a href='https://www.epa.gov/radon/citizens-guide-radon-guide-protecting-yourself-and-your-family-radon' target='_blank' rel='noopener noreferrer' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>EPA Radon &mdash; A Citizen&apos;s Guide</h4>
+                <p className='text-slate-600 text-sm'>The EPA&apos;s primary consumer resource on radon health risks, testing guidance, action levels, and mitigation options, including the zone maps showing radon potential by county across the United States.</p>
+              </a>
             </div>
           </div>
 
