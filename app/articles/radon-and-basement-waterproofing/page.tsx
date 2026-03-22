@@ -59,6 +59,10 @@ export default function RadonWaterproofingArticle() {
             Radon gas poses a serious health threat in many homes while basement water damage can lead to costly repairs and <Link href="/articles/how-to-prevent-basement-mold" className="text-teal-400 underline hover:text-teal-300">mold growth</Link>. These issues often share common entry points through <Link href="/articles/types-of-foundation-cracks" className="text-teal-400 underline hover:text-teal-300">foundation cracks</Link> and gaps. Basement waterproofing not only protects against moisture but also plays a key role in radon mitigation by sealing those vulnerabilities.
           </p>
 
+          <p className='text-lg text-slate-700 leading-relaxed mb-8'>
+            Radon and basement waterproofing are addressed together because they share the same entry points into a home: foundation cracks, construction joints, gaps around pipe penetrations, and porous block walls. Radon is a radioactive gas produced by the natural decay of uranium in soil and rock, and it moves into homes through the same pathways that allow groundwater and soil moisture to infiltrate a foundation. Basement waterproofing reduces radon infiltration by sealing these shared vulnerabilities, but it is not a substitute for a dedicated radon mitigation system when levels exceed the EPA action threshold of 4 picocuries per liter. Understanding where the two systems overlap &mdash; and where waterproofing ends and active mitigation must begin &mdash; is the foundation of an effective integrated approach.
+          </p>
+
           <p>
             In this comprehensive guide updated for 2026, we explore the science behind radon, its health risks, how waterproofing helps reduce radon levels, best practices for integrated solutions, costs, testing methods, and more. Whether you are dealing with high radon levels in your basement, planning a home renovation, or researching radon-resistant construction, this article provides actionable insights to safeguard your family and property.
           </p>
