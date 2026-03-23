@@ -433,31 +433,89 @@ export default function MustyBasementSmellArticle() {
       {/* Related Guides */}
       <section className='max-w-4xl mx-auto px-6 pb-16'>
         <h2 className='text-3xl font-bold text-slate-900 mb-8'>Related Guides</h2>
-        <div className='grid md:grid-cols-2 gap-6'>
-          <Link href='/articles/how-to-prevent-basement-mold' className='block bg-white border border-slate-200 rounded-2xl p-6 hover:shadow-lg transition-shadow'>
-            <h3 className='text-xl font-bold text-slate-900 mb-2'>How to Prevent Basement Mold</h3>
-            <p className='text-slate-600'>Critical steps to stop mold before it starts and protect your family.</p>
+
+        <h3 className='text-sm font-semibold text-slate-500 uppercase tracking-wide mb-3'>On thebasement.guide</h3>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-4 not-prose mb-10'>
+          <Link href='/articles/how-to-prevent-basement-mold' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+            <h4 className='text-lg font-bold text-slate-900 mb-2'>How to Prevent Basement Mold</h4>
+            <p className='text-slate-600 text-sm'>The complete mold prevention guide covering the layered moisture management system that eliminates the conditions producing musty odors, from exterior drainage through humidity control and air circulation.</p>
           </Link>
-          <Link href='/articles/dehumidifier-myths' className='block bg-white border border-slate-200 rounded-2xl p-6 hover:shadow-lg transition-shadow'>
-            <h3 className='text-xl font-bold text-slate-900 mb-2'>Dehumidifier Myths &amp; Proper Sizing</h3>
-            <p className='text-slate-600'>Why your 30-pint unit is failing and how to choose the right capacity.</p>
+          <Link href='/articles/mold-remediation-cost' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+            <h4 className='text-lg font-bold text-slate-900 mb-2'>Mold Remediation Cost 2026</h4>
+            <p className='text-slate-600 text-sm'>What professional mold inspection and remediation costs when the musty smell source turns out to be established mold growth requiring professional containment and removal.</p>
           </Link>
-          <Link href='/articles/mold-remediation-cost' className='block bg-white border border-slate-200 rounded-2xl p-6 hover:shadow-lg transition-shadow'>
-            <h3 className='text-xl font-bold text-slate-900 mb-2'>Mold Remediation Cost Guide</h3>
-            <p className='text-slate-600'>What to expect for professional mold removal pricing in 2026.</p>
+          <Link href='/articles/basement-humidity-guide' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+            <h4 className='text-lg font-bold text-slate-900 mb-2'>Basement Humidity Guide</h4>
+            <p className='text-slate-600 text-sm'>Target humidity ranges by season, tools for measuring and controlling basement humidity, and the monitoring practices that catch rising humidity before it produces musty odors.</p>
           </Link>
-          <Link href='/articles/crystalline-waterproofing' className='block bg-white border border-slate-200 rounded-2xl p-6 hover:shadow-lg transition-shadow'>
-            <h3 className='text-xl font-bold text-slate-900 mb-2'>Crystalline Waterproofing Guide</h3>
-            <p className='text-slate-600'>How crystalline coatings seal concrete from the inside out.</p>
+          <Link href='/articles/best-basement-dehumidifiers' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+            <h4 className='text-lg font-bold text-slate-900 mb-2'>Best Basement Dehumidifiers</h4>
+            <p className='text-slate-600 text-sm'>Top-rated dehumidifiers sized for basements from 500 to 2,500 square feet, with guidance on features that matter for continuous unattended operation in a below-grade space.</p>
           </Link>
-          <Link href='/articles/french-drain-cost' className='block bg-white border border-slate-200 rounded-2xl p-6 hover:shadow-lg transition-shadow'>
-            <h3 className='text-xl font-bold text-slate-900 mb-2'>French Drain Cost Guide</h3>
-            <p className='text-slate-600'>Everything you need to know about interior and exterior French drain pricing.</p>
+          <Link href='/articles/dehumidifier-myths' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+            <h4 className='text-lg font-bold text-slate-900 mb-2'>Dehumidifier Myths</h4>
+            <p className='text-slate-600 text-sm'>The most common mistakes homeowners make when using dehumidifiers to address musty smells, including undersizing, wrong placement, and misunderstanding what a dehumidifier can and cannot fix.</p>
           </Link>
-          <Link href='/articles/basement-insulation-guide' className='block bg-white border border-slate-200 rounded-2xl p-6 hover:shadow-lg transition-shadow'>
-            <h3 className='text-xl font-bold text-slate-900 mb-2'>Basement Insulation Guide</h3>
-            <p className='text-slate-600'>Proper insulation prevents condensation and works hand-in-hand with humidity control.</p>
+          <Link href='/articles/basement-efflorescence' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+            <h4 className='text-lg font-bold text-slate-900 mb-2'>Basement Efflorescence</h4>
+            <p className='text-slate-600 text-sm'>How to identify the white mineral deposits that signal active moisture migration through concrete walls, a reliable visual clue when investigating a musty smell source.</p>
           </Link>
+          <Link href='/articles/complete-basement-waterproofing-guide' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+            <h4 className='text-lg font-bold text-slate-900 mb-2'>Complete Basement Waterproofing Guide</h4>
+            <p className='text-slate-600 text-sm'>How to address active water intrusion that is creating the persistent moisture conditions behind the most serious and recurring musty smell problems.</p>
+          </Link>
+          <Link href='/articles/basement-waterproofing-cost' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+            <h4 className='text-lg font-bold text-slate-900 mb-2'>Basement Waterproofing Cost 2026</h4>
+            <p className='text-slate-600 text-sm'>What professional waterproofing costs when the musty smell investigation reveals active seepage that requires a drainage system rather than a dehumidifier alone.</p>
+          </Link>
+          <Link href='/articles/french-drain-cost' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+            <h4 className='text-lg font-bold text-slate-900 mb-2'>French Drain Cost 2026</h4>
+            <p className='text-slate-600 text-sm'>What interior perimeter drainage systems cost, the long-term solution for musty smell caused by recurring water entry through the cove joint or floor.</p>
+          </Link>
+          <Link href='/articles/sump-pump-buying-guide' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+            <h4 className='text-lg font-bold text-slate-900 mb-2'>Sump Pump Buying Guide</h4>
+            <p className='text-slate-600 text-sm'>How to choose the sump pump that pairs with an interior drainage system to remove the water causing persistent basement dampness and musty odors.</p>
+          </Link>
+          <Link href='/articles/crystalline-waterproofing' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+            <h4 className='text-lg font-bold text-slate-900 mb-2'>Crystalline Waterproofing</h4>
+            <p className='text-slate-600 text-sm'>How penetrating concrete treatments reduce the capillary moisture migration through basement walls that contributes to baseline humidity and musty conditions.</p>
+          </Link>
+          <Link href='/articles/drylok-vs-radonseal' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+            <h4 className='text-lg font-bold text-slate-900 mb-2'>DRYLOK vs RadonSeal</h4>
+            <p className='text-slate-600 text-sm'>How to choose between the two most widely used concrete sealers for reducing the wall moisture transmission that contributes to musty basement conditions.</p>
+          </Link>
+          <Link href='/articles/basement-insulation-guide' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+            <h4 className='text-lg font-bold text-slate-900 mb-2'>Basement Insulation Guide</h4>
+            <p className='text-slate-600 text-sm'>How insulating basement walls raises surface temperatures above the dew point, eliminating condensation-driven musty smell in basements where humidity is the primary moisture source.</p>
+          </Link>
+          <Link href='/articles/best-basement-air-purifiers' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+            <h4 className='text-lg font-bold text-slate-900 mb-2'>Best Basement Air Purifiers</h4>
+            <p className='text-slate-600 text-sm'>HEPA air purifiers that reduce airborne mold spore counts and MVOC concentrations in the basement before the stack effect distributes them to upper floors.</p>
+          </Link>
+          <Link href='/articles/wet-basement-walls' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+            <h4 className='text-lg font-bold text-slate-900 mb-2'>Wet Basement Walls</h4>
+            <p className='text-slate-600 text-sm'>How water enters through foundation walls and the specific repair approaches for each entry pathway, relevant when the musty smell investigation points to wall seepage as the source.</p>
+          </Link>
+        </div>
+
+        <h3 className='text-sm font-semibold text-slate-500 uppercase tracking-wide mb-3'>From Our Network</h3>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-4 not-prose mb-10'>
+          <a href='https://theseptic.guide/problems/septic-smell-inside-house' target='_blank' rel='noopener noreferrer' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+            <h4 className='text-lg font-bold text-slate-900 mb-2'>Septic Smell Inside the House &middot; theseptic.guide</h4>
+            <p className='text-slate-600 text-sm'>Basement odors are sometimes septic gas entering through dry floor drains, uncapped cleanouts, or failed ejector pump seals rather than mold MVOCs. This guide covers the 10-cause diagnostic framework for indoor septic smell that overlaps with basement musty smell investigation.</p>
+          </a>
+          <a href='https://theseptic.guide/reviews/best-septic-safe-cleaning-products' target='_blank' rel='noopener noreferrer' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+            <h4 className='text-lg font-bold text-slate-900 mb-2'>Best Septic-Safe Cleaning Products 2026 &middot; theseptic.guide</h4>
+            <p className='text-slate-600 text-sm'>When cleaning mold and mildew from basement surfaces in homes on septic systems, the cleaning products used must be safe for septic tank bacteria. This guide covers effective mold cleaners that do not disrupt the septic system.</p>
+          </a>
+        </div>
+
+        <h3 className='text-sm font-semibold text-slate-500 uppercase tracking-wide mb-3'>External Resource</h3>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-4 not-prose mb-10'>
+          <a href='https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home' target='_blank' rel='noopener noreferrer' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+            <h4 className='text-lg font-bold text-slate-900 mb-2'>EPA Mold and Moisture Guidance</h4>
+            <p className='text-slate-600 text-sm'>The EPA&apos;s comprehensive guide to mold causes, health effects, investigation methods, and remediation standards, providing the scientific foundation for the musty smell investigation and fix steps covered in this guide.</p>
+          </a>
         </div>
       </section>
 
