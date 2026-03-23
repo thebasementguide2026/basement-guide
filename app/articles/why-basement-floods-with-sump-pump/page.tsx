@@ -28,8 +28,9 @@ export default function WhyBasementFloods() {
             <span className='text-red-400 font-bold tracking-[0.3em] text-sm uppercase'>Troubleshooting Guide</span>
           </div>
           <h1 className='text-5xl md:text-7xl font-black text-white mb-6 leading-[0.9] tracking-tighter'>
-            Why Your Basement <br />
-            <span className='text-red-500'>Still Floods</span>
+            Why Your Basement Floods <br />
+            <span className='text-red-500'>With a Sump Pump</span> <br />
+            <span className='text-slate-300 text-3xl md:text-5xl'>(And How to Fix It)</span>
           </h1>
           <p className='text-xl text-slate-300 max-w-2xl font-light leading-relaxed'>
             A sump pump doesn&rsquo;t guarantee a dry basement. Here are the 10 most common reasons it still floods&mdash;and how to fix each one.
