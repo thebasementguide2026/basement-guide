@@ -318,7 +318,7 @@ export default function BasementFloodingInsurance() {
               <a href='https://theseptic.guide/articles/does-insurance-cover-septic-repair' className='text-teal-600 underline hover:text-teal-800'>Does Insurance Cover Septic Repair and Replacement?</a> &mdash; A parallel guide covering how homeowners insurance treats septic system failures, which often occur alongside basement flooding events in homes on septic systems.
             </p>
             <p className='text-slate-700 leading-relaxed mb-4'>
-              <a href='https://theseptic.guide/articles/septic-tank-backing-up-into-house' className='text-teal-600 underline hover:text-teal-800'>Septic Tank Backing Up Into House</a> &mdash; When a septic backup causes basement flooding, coverage falls under the water backup rider rather than flood insurance. This guide covers the septic side of that scenario.
+              <a href='https://theseptic.guide/problems/tank-backing-up' className='text-teal-600 underline hover:text-teal-800'>Septic Tank Backing Up Into House</a> &mdash; When a septic backup causes basement flooding, coverage falls under the water backup rider rather than flood insurance. This guide covers the septic side of that scenario.
             </p>
           </div>
 
@@ -441,7 +441,7 @@ export default function BasementFloodingInsurance() {
             <div className='bg-gradient-to-br from-teal-600 to-teal-700 rounded-2xl p-6 text-white'>
               <h3 className='font-bold text-lg mb-2'>Protect Your Basement</h3>
               <p className='text-teal-100 text-sm mb-4'>Get matched with local waterproofing and insurance pros who can review your coverage gaps.</p>
-              <Link href='/get-quotes' className='block w-full bg-white text-teal-700 text-center py-3 rounded-xl font-bold text-sm hover:bg-teal-50 transition-colors'>
+              <Link href='/#get-quotes' className='block w-full bg-white text-teal-700 text-center py-3 rounded-xl font-bold text-sm hover:bg-teal-50 transition-colors'>
                 Get Free Quotes
               </Link>
             </div>

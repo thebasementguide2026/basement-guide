@@ -569,11 +569,11 @@ export default function SumpPumpBuyingGuide() {
       <section className='max-w-4xl mx-auto px-6 py-12'>
         <h2 className='text-3xl font-bold text-slate-900 mb-6'>Our Network</h2>
         <div className='grid md:grid-cols-2 gap-4'>
-          <a href='https://thegarage.guide/articles/water-leaking-into-garage' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:border-indigo-300 hover:bg-indigo-50 transition'>
+          <a href='https://thegarage.guide/problems/water-leaking-into-garage' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:border-indigo-300 hover:bg-indigo-50 transition'>
             <p className='font-bold text-slate-900'>The Garage Guide</p>
             <p className='text-slate-600 text-sm mt-1'>Water leaking into garage — where a sump pump is sometimes the solution for garages with chronic water intrusion from groundwater or poor drainage.</p>
           </a>
-          <a href='https://theseptic.guide/articles/septic-overflow-after-rain' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:border-indigo-300 hover:bg-indigo-50 transition'>
+          <a href='https://theseptic.guide/problems/septic-overflow-after-rain' target='_blank' rel='noopener noreferrer' className='block p-4 border border-slate-200 rounded-lg hover:border-indigo-300 hover:bg-indigo-50 transition'>
             <p className='font-bold text-slate-900'>The Septic Guide</p>
             <p className='text-slate-600 text-sm mt-1'>Septic overflow after rain — which can compound basement flooding problems in homes where both the septic system and the basement drainage are overwhelmed by the same heavy rain events.</p>
           </a>

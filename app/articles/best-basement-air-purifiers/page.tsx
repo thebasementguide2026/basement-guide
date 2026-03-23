@@ -579,10 +579,10 @@ export default function BestBasementAirPurifiers() {
             <div className='mt-10 pt-6 border-t border-slate-200 mb-8'>
               <h3 className='font-bold text-slate-900 mb-3'>From Our Network</h3>
               <p className='text-slate-700 text-sm leading-relaxed mb-2'>
-                <a href='https://theseptic.guide/articles/septic-odor-causes-and-fixes' className='text-teal-700 underline'>The Septic Guide</a> covers <a href='https://theseptic.guide/articles/septic-odor-causes-and-fixes' className='text-teal-700 underline'>septic odor causes and fixes</a>, which addresses airborne odor problems from a different source but uses similar air quality management principles.
+                <a href='https://theseptic.guide/problems/septic-smell-inside-house' className='text-teal-700 underline'>The Septic Guide</a> covers <a href='https://theseptic.guide/problems/septic-smell-inside-house' className='text-teal-700 underline'>septic odor causes and fixes</a>, which addresses airborne odor problems from a different source but uses similar air quality management principles.
               </p>
               <p className='text-slate-700 text-sm leading-relaxed'>
-                <a href='https://thegarage.guide/articles/garage-ventilation' className='text-teal-700 underline'>The Garage Guide</a> covers <a href='https://thegarage.guide/articles/garage-ventilation' className='text-teal-700 underline'>garage ventilation</a>, which addresses air quality in another enclosed space where VOCs and chemical fumes are common.
+                <a href='https://thegarage.guide/guides/how-to-insulate-garage' className='text-teal-700 underline'>The Garage Guide</a> covers <a href='https://thegarage.guide/guides/how-to-insulate-garage' className='text-teal-700 underline'>garage ventilation</a>, which addresses air quality in another enclosed space where VOCs and chemical fumes are common.
               </p>
             </div>
 

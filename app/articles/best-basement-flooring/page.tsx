@@ -790,7 +790,7 @@ export default function BestBasementFlooring() {
             </div>
             <h3 className="text-lg font-bold text-gray-900 mb-4">From Our Network</h3>
             <div className="grid md:grid-cols-2 gap-6">
-              <a href="https://thegarage.guide/articles/best-garage-floor-epoxy" target="_blank" rel="noopener noreferrer" className="block bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
+              <a href="https://thegarage.guide/reviews/best-garage-floor-epoxy" target="_blank" rel="noopener noreferrer" className="block bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
                 <h4 className="font-semibold text-gray-900 text-sm mb-1">Best Garage Floor Epoxy</h4>
                 <p className="text-gray-600 text-xs">The same epoxy coating systems used on basement slabs are widely used in garage floors. This guide covers product selection, prep requirements, and application for garage slab applications using many of the same products reviewed here.</p>
               </a>
