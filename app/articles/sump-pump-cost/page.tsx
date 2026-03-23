@@ -8,6 +8,19 @@ export const metadata: Metadata = {
   description: 'Sump pump installation costs $600-$2,500 in 2026. See cost breakdowns by pump type, what affects pricing, DIY vs. pro, and how to avoid overpaying.',
 };
 
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    { '@type': 'Question', name: 'How much does sump pump installation cost in 2026?', acceptedAnswer: { '@type': 'Answer', text: 'Sump pump installation costs $650 to $2,500 for most residential projects in 2026, with the national average for a complete new system sitting around $1,200 to $1,800. A simple pump replacement in an existing pit runs $650 to $1,200 including labor and the pump unit. A full new installation including concrete cutting, pit excavation, pump, discharge line, and battery backup runs $1,500 to $3,500. The single biggest cost variable is whether a sump pit already exists — new pit installation adds $500 to $1,000 to any project.' } },
+    { '@type': 'Question', name: 'How much does it cost to replace a sump pump vs install a new one?', acceptedAnswer: { '@type': 'Answer', text: 'Replacing an existing sump pump in an established pit typically costs $650 to $1,200 including the new pump unit and 1 to 2 hours of labor. A brand new installation with no existing pit costs $1,200 to $2,500 because it adds $500 to $1,000 for concrete cutting, pit excavation, liner installation, and concrete patching around the new pit.' } },
+    { '@type': 'Question', name: 'Is a battery backup sump pump worth the cost?', acceptedAnswer: { '@type': 'Answer', text: 'Yes, a battery backup sump pump is one of the highest-return additions available for any basement waterproofing system. Power outages most frequently occur during heavy storms that generate the most water, leaving a primary pump without electricity exactly when needed most. A battery backup unit costs $300 to $800 installed and provides 7 to 10 hours of pumping capacity.' } },
+    { '@type': 'Question', name: 'How long does sump pump installation take?', acceptedAnswer: { '@type': 'Answer', text: 'A pump replacement in an existing pit typically takes 1 to 2 hours. A new full installation including pit excavation takes 4 to 6 hours for a standard basement with straightforward discharge routing. Complex installations can take a full day.' } },
+    { '@type': 'Question', name: 'What size sump pump do I need for my basement?', acceptedAnswer: { '@type': 'Answer', text: 'For most residential basements up to approximately 1,500 square feet with a normal water table, a 1/3 HP submersible pump provides sufficient capacity at 2,500 to 3,000 gallons per hour. Basements with high water tables or square footage above 1,500 benefit from a 1/2 HP pump rated at 3,500 to 4,500 gallons per hour.' } },
+    { '@type': 'Question', name: 'Can I install a sump pump myself to save money?', acceptedAnswer: { '@type': 'Answer', text: 'Replacing an existing sump pump in an established pit is a manageable DIY project that saves $150 to $300 in labor. New pit installation is not a realistic DIY project for most homeowners because it requires a concrete cutting saw, proper pit sizing and liner installation, and electrical work that requires a permit and licensed electrician in most jurisdictions.' } },
+  ],
+};
+
 export default function SumpPumpCost() {
   return (
     <div className='bg-white min-h-screen'>
@@ -38,7 +51,7 @@ export default function SumpPumpCost() {
             <div className='w-10 h-10 rounded-full bg-cyan-500 flex items-center justify-center text-white font-bold text-sm'>BG</div>
             <div>
               <p className='text-white font-medium'>The Basement Guide Staff</p>
-              <p className='text-slate-400 text-sm'>Updated March 2026 &nbsp;&middot;&nbsp; 14 min read</p>
+              <p className='text-slate-400 text-sm'>Updated March 2026 &nbsp;&middot;&nbsp; 18 min read</p>
             </div>
           </div>
         </div>
@@ -47,258 +60,235 @@ export default function SumpPumpCost() {
       {/* Main Content */}
       <article className='max-w-4xl mx-auto px-6 py-16'>
 
-        {/* Introduction */}
+        {/* Entity Definition / Opening */}
         <div className='prose prose-lg max-w-none'>
+          <p className='text-lg text-slate-700 leading-relaxed mb-8'>
+            Sump pump installation cost depends on three variables that most pricing guides collapse into a single number: whether a pit already exists, which pump type and horsepower the application requires, and whether a battery backup system is included. A simple pump swap in an existing pit runs $650 to $1,200. A new system installed from scratch including concrete cutting, pit excavation, pump, discharge line, and battery backup runs $1,500 to $3,500. Understanding what drives your specific cost requires knowing where you fall on each of those three variables before you call a contractor.
+          </p>
           <p className='text-xl text-slate-700 leading-relaxed mb-6'>
-            If you&apos;re replacing an existing pump (pit already dug, electrical already run), expect to pay closer to $400&ndash;$700. A brand-new installation with pit excavation in a concrete floor will land on the higher end. This guide breaks down what drives those numbers so you can budget accurately and avoid overpaying.
+            The average cost to install a sump pump in 2026 is <strong>$1,200 to $1,800</strong> for a complete new system professionally installed, with most homeowners paying between <strong>$650 and $2,500</strong> depending on system complexity. Replacing an existing pump in an established pit is the lower end of that range. A full new installation with pit, primary pump, discharge line, check valve, and battery backup sits at the higher end.
           </p>
         </div>
 
-        {/* How Much Does It Cost */}
-        <h2 className='text-3xl font-black text-slate-900 mt-16 mb-6'>How Much Does It Cost to Install a Sump Pump?</h2>
-        <div className='prose prose-lg max-w-none'>
-          <p className='text-slate-600 leading-relaxed mb-6'>
-            Short answer: <strong>$600&ndash;$2,500 installed</strong> for most residential jobs. The national average lands around $1,200. That range exists because there&apos;s a massive difference between a simple swap (pull the old pump, drop in a new one) and a first-time installation that requires cutting through a concrete slab, digging a pit, running discharge lines, and adding electrical.
-          </p>
-        </div>
+        {/* 2026 Sump Pump Cost Breakdown */}
+        <h2 className='text-3xl font-black text-slate-900 mt-16 mb-6'>2026 Sump Pump Cost Breakdown</h2>
 
-        <div className='overflow-x-auto mb-8'>
-          <table className='w-full border-collapse bg-white rounded-xl overflow-hidden shadow-sm'>
-            <thead>
-              <tr className='bg-slate-900 text-white'>
-                <th className='text-left p-4 font-bold'>Component</th>
-                <th className='text-left p-4 font-bold'>Typical Cost</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr className='border-b border-slate-200'>
-                <td className='p-4 text-slate-700 font-medium'>Pump unit only</td>
-                <td className='p-4 text-slate-600'>$100&ndash;$800</td>
-              </tr>
-              <tr className='border-b border-slate-200 bg-slate-50'>
-                <td className='p-4 text-slate-700 font-medium'>Labor (replacement)</td>
-                <td className='p-4 text-slate-600'>$200&ndash;$500</td>
-              </tr>
-              <tr className='border-b border-slate-200'>
-                <td className='p-4 text-slate-700 font-medium'>Labor (new installation)</td>
-                <td className='p-4 text-slate-600'>$500&ndash;$1,700</td>
-              </tr>
-              <tr className='border-b border-slate-200 bg-slate-50'>
-                <td className='p-4 text-slate-700 font-medium'>Sump pit excavation (concrete floor)</td>
-                <td className='p-4 text-slate-600'>$500&ndash;$1,000</td>
-              </tr>
-              <tr className='border-b border-slate-200'>
-                <td className='p-4 text-slate-700 font-medium'>Discharge line &amp; check valve</td>
-                <td className='p-4 text-slate-600'>$50&ndash;$300</td>
-              </tr>
-              <tr className='bg-slate-50'>
-                <td className='p-4 text-slate-700 font-medium'>Permit (if required)</td>
-                <td className='p-4 text-slate-600'>$50&ndash;$200</td>
-              </tr>
+        <h3 className='text-xl font-bold text-slate-900 mb-4'>Complete Cost by Scenario</h3>
+        <div className='overflow-x-auto not-prose mb-10'>
+          <table className='w-full border-collapse text-sm'>
+            <thead><tr className='bg-slate-800 text-white'><th className='px-4 py-3 text-left font-semibold'>Scenario</th><th className='px-4 py-3 text-left font-semibold'>Estimated Cost</th><th className='px-4 py-3 text-left font-semibold'>What Is Included</th></tr></thead>
+            <tbody className='divide-y divide-gray-200'>
+              <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Pump replacement, existing pit</td><td className='px-4 py-3 text-slate-600'>$650 to $1,200</td><td className='px-4 py-3 text-slate-600'>New pump, installation labor, check valve</td></tr>
+              <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>New pump, new pit (no existing system)</td><td className='px-4 py-3 text-slate-600'>$1,200 to $2,500</td><td className='px-4 py-3 text-slate-600'>Concrete cutting, pit excavation, liner, pump, discharge line</td></tr>
+              <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Complete system with battery backup</td><td className='px-4 py-3 text-slate-600'>$1,500 to $3,500</td><td className='px-4 py-3 text-slate-600'>All of the above plus battery backup unit</td></tr>
+              <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Battery backup only (existing primary pump)</td><td className='px-4 py-3 text-slate-600'>$300 to $800</td><td className='px-4 py-3 text-slate-600'>Backup pump, battery, installation</td></tr>
+              <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Pedestal pump replacement</td><td className='px-4 py-3 text-slate-600'>$400 to $900</td><td className='px-4 py-3 text-slate-600'>Pedestal unit, installation labor</td></tr>
+              <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Submersible pump replacement</td><td className='px-4 py-3 text-slate-600'>$600 to $1,500</td><td className='px-4 py-3 text-slate-600'>Submersible unit, installation labor</td></tr>
+              <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>High-capacity system (1/2 HP or 3/4 HP)</td><td className='px-4 py-3 text-slate-600'>$1,500 to $4,000</td><td className='px-4 py-3 text-slate-600'>Larger pump, larger pit if needed, discharge line upgrade</td></tr>
+              <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Smart sump pump with WiFi monitoring</td><td className='px-4 py-3 text-slate-600'>$800 to $2,000</td><td className='px-4 py-3 text-slate-600'>Smart pump unit, app setup, installation</td></tr>
             </tbody>
           </table>
         </div>
 
-        <div className='bg-cyan-50 border-l-4 border-cyan-500 p-6 rounded-r-lg my-10'>
-          <p className='text-slate-700 leading-relaxed'>
-            <strong>Key insight:</strong> Labor makes up 65&ndash;80% of most sump pump projects. The pump itself is usually the cheapest part.
-          </p>
+        <h3 className='text-xl font-bold text-slate-900 mb-4'>Cost by Pump Type</h3>
+        <div className='overflow-x-auto not-prose mb-12'>
+          <table className='w-full border-collapse text-sm'>
+            <thead><tr className='bg-slate-800 text-white'><th className='px-4 py-3 text-left font-semibold'>Pump Type</th><th className='px-4 py-3 text-left font-semibold'>Unit Cost</th><th className='px-4 py-3 text-left font-semibold'>Installed Cost</th><th className='px-4 py-3 text-left font-semibold'>Best For</th></tr></thead>
+            <tbody className='divide-y divide-gray-200'>
+              <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Pedestal (1/3 HP)</td><td className='px-4 py-3 text-slate-600'>$80 to $200</td><td className='px-4 py-3 text-slate-600'>$400 to $900</td><td className='px-4 py-3 text-slate-600'>Shallow pits, occasional use, tight budgets</td></tr>
+              <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Submersible (1/3 HP)</td><td className='px-4 py-3 text-slate-600'>$150 to $400</td><td className='px-4 py-3 text-slate-600'>$600 to $1,500</td><td className='px-4 py-3 text-slate-600'>Most residential basements, finished spaces</td></tr>
+              <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Submersible (1/2 HP)</td><td className='px-4 py-3 text-slate-600'>$200 to $500</td><td className='px-4 py-3 text-slate-600'>$800 to $1,800</td><td className='px-4 py-3 text-slate-600'>High water table, larger basements</td></tr>
+              <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Submersible (3/4 HP)</td><td className='px-4 py-3 text-slate-600'>$300 to $700</td><td className='px-4 py-3 text-slate-600'>$1,000 to $2,500</td><td className='px-4 py-3 text-slate-600'>Severe flooding, commercial-grade residential</td></tr>
+              <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Battery backup unit</td><td className='px-4 py-3 text-slate-600'>$150 to $500</td><td className='px-4 py-3 text-slate-600'>$300 to $800</td><td className='px-4 py-3 text-slate-600'>Secondary protection during power outages</td></tr>
+              <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Water-powered backup</td><td className='px-4 py-3 text-slate-600'>$200 to $400</td><td className='px-4 py-3 text-slate-600'>$400 to $700</td><td className='px-4 py-3 text-slate-600'>Unlimited runtime where municipal water available</td></tr>
+              <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Smart WiFi pump</td><td className='px-4 py-3 text-slate-600'>$300 to $600</td><td className='px-4 py-3 text-slate-600'>$800 to $2,000</td><td className='px-4 py-3 text-slate-600'>Remote monitoring, alert-based maintenance</td></tr>
+            </tbody>
+          </table>
         </div>
 
-        {/* Cost by Pump Type */}
-        <h2 className='text-3xl font-black text-slate-900 mt-16 mb-6'>How Much Does a Sump Pump Cost by Type?</h2>
-        <p className='text-slate-600 leading-relaxed mb-8'>
-          The type of pump you choose is the single biggest factor in your final bill (aside from whether a pit already exists).
+        {/* Key Cost Factors */}
+        <h2 className='text-3xl font-black text-slate-900 mt-16 mb-6'>Key Cost Factors</h2>
+        <p className='text-slate-600 leading-relaxed mb-8'>What drives your sump pump installation cost up or down:</p>
+        <div className='space-y-4 not-prose mb-12'>
+          <div className='flex items-start gap-3 bg-slate-50 p-4 rounded-xl border border-slate-100'>
+            <span className='text-cyan-500 mt-0.5 text-lg'>&#9679;</span>
+            <span className='text-slate-700'><strong>Existing pit or new pit:</strong> This is the single biggest cost variable. If a sump pit already exists, a pump swap is 1 to 2 hours of labor at $75 to $150 per hour plus the pump unit cost. If no pit exists, the installer must cut through the concrete floor, excavate 2 to 3 cubic feet of soil, install a pit liner, and patch the concrete around the liner. Pit installation adds $500 to $1,000 to the total project cost.</span>
+          </div>
+          <div className='flex items-start gap-3 bg-slate-50 p-4 rounded-xl border border-slate-100'>
+            <span className='text-cyan-500 mt-0.5 text-lg'>&#9679;</span>
+            <span className='text-slate-700'><strong>Pump horsepower:</strong> Standard 1/3 HP submersible pumps handle the vast majority of residential basements up to approximately 1,500 square feet with normal water table conditions. Basements with high water tables, chronic flooding, or larger square footage benefit from 1/2 HP or 3/4 HP pumps that cost 20 to 40 percent more. Oversizing the pump is not harmful but wastes money; undersizing means the pump cannot keep up during peak inflow events.</span>
+          </div>
+          <div className='flex items-start gap-3 bg-slate-50 p-4 rounded-xl border border-slate-100'>
+            <span className='text-cyan-500 mt-0.5 text-lg'>&#9679;</span>
+            <span className='text-slate-700'><strong>Discharge line routing:</strong> The discharge pipe that carries pumped water away from the foundation must exit through the basement wall and terminate at least 10 feet from the foundation. A straightforward discharge run of 20 to 30 feet adds $100 to $300 in materials and labor. Complex routing through finished walls, around obstacles, or underground adds $300 to $800. The discharge line must be insulated in cold climates where it passes through unheated spaces to prevent freezing.</span>
+          </div>
+          <div className='flex items-start gap-3 bg-slate-50 p-4 rounded-xl border border-slate-100'>
+            <span className='text-cyan-500 mt-0.5 text-lg'>&#9679;</span>
+            <span className='text-slate-700'><strong>Battery backup inclusion:</strong> A battery backup sump pump is the most important add-on for any installation and should be considered mandatory rather than optional. Power outages most frequently occur during the heavy storms that generate the most water, leaving the primary pump unable to run exactly when it is needed most. Battery backup units add $300 to $800 to the installed cost and provide 7 to 10 hours of pumping capacity on a full charge. Battery replacement every 3 to 5 years costs $50 to $150.</span>
+          </div>
+          <div className='flex items-start gap-3 bg-slate-50 p-4 rounded-xl border border-slate-100'>
+            <span className='text-cyan-500 mt-0.5 text-lg'>&#9679;</span>
+            <span className='text-slate-700'><strong>Labor rates by region:</strong> Plumber and waterproofing contractor rates run $75 to $150 per hour nationally. Most pump installations take 2 to 4 hours for a swap in an existing pit or 4 to 6 hours for a new pit installation. Regional labor rates vary by 20 to 30 percent, with the Northeast and Pacific Northwest at the higher end and the Midwest and Southeast at the lower end.</span>
+          </div>
+          <div className='flex items-start gap-3 bg-slate-50 p-4 rounded-xl border border-slate-100'>
+            <span className='text-cyan-500 mt-0.5 text-lg'>&#9679;</span>
+            <span className='text-slate-700'><strong>Foundation type:</strong> Cutting through poured concrete to install a new pit is faster and less expensive than cutting through concrete block, which must be removed block by block and requires more careful structural consideration.</span>
+          </div>
+        </div>
+
+        {/* What Is Included */}
+        <h2 className='text-3xl font-black text-slate-900 mt-16 mb-6'>What Is Included in a Professional Sump Pump Installation</h2>
+
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-6 mb-12 not-prose'>
+          <div className='bg-green-50 rounded-2xl p-6 border border-green-100'>
+            <h3 className='font-bold text-green-800 text-lg mb-4'>Included in a Complete Installation</h3>
+            <ul className='space-y-3 text-slate-700'>
+              <li className='flex items-start gap-2'><span className='text-green-500 font-bold'>+</span><span>Pit excavation and liner installation (if no pit exists)</span></li>
+              <li className='flex items-start gap-2'><span className='text-green-500 font-bold'>+</span><span>Submersible or pedestal pump unit</span></li>
+              <li className='flex items-start gap-2'><span className='text-green-500 font-bold'>+</span><span>Discharge pipe from pit through basement wall to exterior</span></li>
+              <li className='flex items-start gap-2'><span className='text-green-500 font-bold'>+</span><span>Check valve on the discharge line to prevent backflow</span></li>
+              <li className='flex items-start gap-2'><span className='text-green-500 font-bold'>+</span><span>Electrical connection to a dedicated circuit (GFCI protected)</span></li>
+              <li className='flex items-start gap-2'><span className='text-green-500 font-bold'>+</span><span>Discharge line termination at least 10 feet from foundation</span></li>
+              <li className='flex items-start gap-2'><span className='text-green-500 font-bold'>+</span><span>Testing and verification before the installer leaves</span></li>
+            </ul>
+          </div>
+          <div className='bg-red-50 rounded-2xl p-6 border border-red-100'>
+            <h3 className='font-bold text-red-800 text-lg mb-4'>Typically NOT Included in a Base Quote</h3>
+            <ul className='space-y-3 text-slate-700'>
+              <li className='flex items-start gap-2'><span className='text-red-500 font-bold'>&minus;</span><span>Battery backup unit (quoted separately, strongly recommended)</span></li>
+              <li className='flex items-start gap-2'><span className='text-red-500 font-bold'>&minus;</span><span>Discharge line insulation for cold climate installations</span></li>
+              <li className='flex items-start gap-2'><span className='text-red-500 font-bold'>&minus;</span><span>Smart monitoring equipment</span></li>
+              <li className='flex items-start gap-2'><span className='text-red-500 font-bold'>&minus;</span><span>Permits (required in some jurisdictions)</span></li>
+              <li className='flex items-start gap-2'><span className='text-red-500 font-bold'>&minus;</span><span>Interior concrete patching around a new pit (sometimes extra)</span></li>
+            </ul>
+          </div>
+        </div>
+
+        {/* DIY vs Professional */}
+        <h2 className='text-3xl font-black text-slate-900 mt-16 mb-6'>DIY vs Professional Installation</h2>
+        <p className='text-slate-600 leading-relaxed mb-6'>
+          <strong>What you can realistically do yourself:</strong> Replacing an existing submersible pump in an established pit is a manageable DIY project for a homeowner comfortable with basic plumbing and electrical work. The process involves disconnecting the discharge pipe union fitting and unplugging the power cord, lifting the old pump out, lowering the new pump into position, reconnecting the discharge union, and plugging in. Most pump swaps take 1 to 2 hours and require no special tools. DIY savings on a pump swap run $150 to $300 in labor.
         </p>
-
-        <div className='grid md:grid-cols-2 gap-6 mb-12'>
-          {/* Submersible */}
-          <div className='bg-slate-50 rounded-xl p-6 border border-slate-200'>
-            <h3 className='text-lg font-bold text-slate-900 mb-1'>Submersible Pumps</h3>
-            <p className='text-2xl font-black text-cyan-600 mb-3'>$800&ndash;$2,000 Installed</p>
-            <p className='text-slate-600 text-sm leading-relaxed mb-3'>
-              Sit entirely inside the sump pit, submerged in water. They&apos;re the industry standard &mdash; quieter, more powerful, and hidden from view. If you&apos;re <Link href='/articles/how-to-finish-a-basement' className='text-cyan-600 underline hover:text-cyan-700'>finishing your basement</Link> or have a high water table, this is almost certainly what you want.
-            </p>
-            <p className='text-slate-500 text-sm'>Lifespan: 7&ndash;15 years</p>
-          </div>
-
-          {/* Pedestal */}
-          <div className='bg-slate-50 rounded-xl p-6 border border-slate-200'>
-            <h3 className='text-lg font-bold text-slate-900 mb-1'>Pedestal Pumps</h3>
-            <p className='text-2xl font-black text-cyan-600 mb-3'>$400&ndash;$900 Installed</p>
-            <p className='text-slate-600 text-sm leading-relaxed mb-3'>
-              Mount the motor on a column above the pit, keeping it out of the water. Cheaper, last longer, and easier to service. The downside: noticeably louder and lower pumping power. Best for homes with mild water issues and unfinished basements. See our <Link href='/articles/submersible-vs-pedestal-sump-pump' className='text-cyan-600 underline hover:text-cyan-700'>submersible vs. pedestal comparison</Link>.
-            </p>
-            <p className='text-slate-500 text-sm'>Lifespan: 25&ndash;30 years</p>
-          </div>
-
-          {/* Water-Powered Backup */}
-          <div className='bg-slate-50 rounded-xl p-6 border border-slate-200'>
-            <h3 className='text-lg font-bold text-slate-900 mb-1'>Water-Powered Backup Pumps</h3>
-            <p className='text-2xl font-black text-cyan-600 mb-3'>$300&ndash;$1,000 Installed</p>
-            <p className='text-slate-600 text-sm leading-relaxed mb-3'>
-              Use your home&apos;s municipal water pressure to create suction. No electricity, no batteries to replace. They&apos;re a backup only &mdash; not a primary pump. Require 40+ PSI water pressure, and some municipalities restrict them due to backflow concerns. See our <Link href='/articles/battery-vs-water-powered-sump-pumps' className='text-cyan-600 underline hover:text-cyan-700'>battery vs. water-powered comparison</Link>.
-            </p>
-            <p className='text-slate-500 text-sm'>Lifespan: 10&ndash;20 years</p>
-          </div>
-
-          {/* Battery Backup */}
-          <div className='bg-slate-50 rounded-xl p-6 border border-slate-200'>
-            <h3 className='text-lg font-bold text-slate-900 mb-1'>Battery Backup Systems</h3>
-            <p className='text-2xl font-black text-cyan-600 mb-3'>$600&ndash;$2,000 Installed</p>
-            <p className='text-slate-600 text-sm leading-relaxed mb-3'>
-              A secondary pump connected to a deep-cycle battery that activates automatically when the power goes out or the primary pump fails. The battery needs replacement every 3&ndash;5 years ($100&ndash;$200). One of the smartest upgrades you can make.
-            </p>
-            <p className='text-slate-500 text-sm'>Lifespan: 5&ndash;7 years</p>
-          </div>
-        </div>
-
-        <div className='bg-slate-900 text-white rounded-xl p-6 mb-12'>
-          <p className='text-slate-300 leading-relaxed'>
-            <strong className='text-white'>Our take:</strong> If you&apos;re spending money on a sump pump, adding a battery backup is almost always worth it. According to FEMA, just one inch of flooding can cause $25,000 in damage. A $600&ndash;$1,200 backup system is cheap insurance against that scenario.
-          </p>
-        </div>
-
-        {/* Factors Affecting Cost */}
-        <h2 className='text-3xl font-black text-slate-900 mt-16 mb-6'>What Factors Affect Sump Pump Installation Cost?</h2>
-        <p className='text-slate-600 leading-relaxed mb-8'>Beyond pump type, several factors can push your total higher or lower:</p>
-
-        <div className='space-y-4 mb-12'>
-          <div className='bg-slate-50 rounded-lg p-5 border border-slate-200'>
-            <h4 className='font-bold text-slate-900 mb-2'>Existing pit vs. new excavation</h4>
-            <p className='text-slate-600 text-sm leading-relaxed'>If you already have a sump pit from a previous pump, you&apos;ll save $500&ndash;$1,000 right off the top. New installations in concrete-slab basements require cutting and jackhammering &mdash; the most labor-intensive and expensive part of the job.</p>
-          </div>
-          <div className='bg-slate-50 rounded-lg p-5 border border-slate-200'>
-            <h4 className='font-bold text-slate-900 mb-2'>Floor type</h4>
-            <p className='text-slate-600 text-sm leading-relaxed'>Dirt-floor basements and <Link href='/articles/crawl-space-encapsulation-guide' className='text-cyan-600 underline hover:text-cyan-700'>crawl spaces</Link> are cheaper and faster to dig than concrete.</p>
-          </div>
-          <div className='bg-slate-50 rounded-lg p-5 border border-slate-200'>
-            <h4 className='font-bold text-slate-900 mb-2'>Horsepower</h4>
-            <p className='text-slate-600 text-sm leading-relaxed'>Most homes do fine with a 1/3 HP pump. High water table areas may need 1/2 HP or 3/4 HP, which costs 20&ndash;30% more for the unit. Our <Link href='/articles/sump-pump-buying-guide' className='text-cyan-600 underline hover:text-cyan-700'>sump pump buying guide</Link> covers sizing in detail.</p>
-          </div>
-          <div className='bg-slate-50 rounded-lg p-5 border border-slate-200'>
-            <h4 className='font-bold text-slate-900 mb-2'>Discharge line routing</h4>
-            <p className='text-slate-600 text-sm leading-relaxed'>The pump needs to push water somewhere &mdash; typically to the yard, a storm drain, or a dry well. Longer runs or tricky routing (through finished walls, under landscaping) add labor.</p>
-          </div>
-          <div className='bg-slate-50 rounded-lg p-5 border border-slate-200'>
-            <h4 className='font-bold text-slate-900 mb-2'>Electrical work</h4>
-            <p className='text-slate-600 text-sm leading-relaxed'>Sump pumps need a dedicated GFCI outlet. If one doesn&apos;t exist near the pit, adding one runs $150&ndash;$400 depending on your panel and local codes.</p>
-          </div>
-          <div className='bg-slate-50 rounded-lg p-5 border border-slate-200'>
-            <h4 className='font-bold text-slate-900 mb-2'>Local labor rates</h4>
-            <p className='text-slate-600 text-sm leading-relaxed'>A plumber in a major metro charges $100&ndash;$150/hour. In rural areas, $50&ndash;$80/hour is more typical. Most standard installations take 3&ndash;6 hours.</p>
-          </div>
-          <div className='bg-slate-50 rounded-lg p-5 border border-slate-200'>
-            <h4 className='font-bold text-slate-900 mb-2'>Finished vs. unfinished basement</h4>
-            <p className='text-slate-600 text-sm leading-relaxed'>Working in a <Link href='/articles/basement-finishing-cost' className='text-cyan-600 underline hover:text-cyan-700'>finished basement</Link> means protecting existing flooring, drywall, and fixtures &mdash; or repairing them afterward. This can easily add $200&ndash;$500 to the project.</p>
-          </div>
-        </div>
-
-        {/* DIY Section */}
-        <h2 className='text-3xl font-black text-slate-900 mt-16 mb-6'>Can I Install a Sump Pump Myself?</h2>
-        <p className='text-slate-600 leading-relaxed mb-8'>You can, but whether you should depends on the situation.</p>
-
-        <div className='grid md:grid-cols-2 gap-6 mb-12'>
-          <div className='bg-green-50 border border-green-200 rounded-xl p-6'>
-            <h3 className='text-lg font-bold text-green-800 mb-3'>Reasonable DIY Scenarios</h3>
-            <p className='text-slate-600 text-sm leading-relaxed'>Replacing an existing submersible pump in a working pit. This is essentially: unplug the old pump, disconnect the discharge, lift it out, drop the new one in, reconnect. Materials run $150&ndash;$500, and you&apos;ll save $200&ndash;$500 in labor. If you&apos;re comfortable with basic plumbing connections and your pit is already wired, this is a manageable weekend project.</p>
-          </div>
-          <div className='bg-red-50 border border-red-200 rounded-xl p-6'>
-            <h3 className='text-lg font-bold text-red-800 mb-3'>Leave It to a Pro</h3>
-            <p className='text-slate-600 text-sm leading-relaxed'>First-time installations that require cutting through concrete, digging a pit, running new discharge lines, or adding electrical circuits. Mistakes can lead to improper drainage, electrical hazards, or a pump that runs constantly. The cost of a botched DIY install (water damage, <Link href='/articles/mold-remediation-cost' className='text-cyan-600 underline hover:text-cyan-700'>mold remediation</Link>, or foundation issues) will far exceed what you&apos;d have paid a plumber. Professional <Link href='/articles/basement-waterproofing-cost' className='text-cyan-600 underline hover:text-cyan-700'>basement waterproofing</Link> to fix water problems can run $3,000&ndash;$10,000.</p>
-          </div>
+        <p className='text-slate-600 leading-relaxed mb-8'>
+          <strong>What to hire a professional for:</strong> New pit installation requires concrete cutting with a diamond-blade saw, excavation, pit liner installation, and concrete patching &mdash; work that requires specialized equipment and experience. Electrical work connecting the pump to a dedicated GFCI circuit should be done by a licensed electrician in most jurisdictions. Discharge line routing through finished walls or underground requires planning that a professional can execute more reliably than most DIYers.
+        </p>
+        <div className='overflow-x-auto not-prose mb-12'>
+          <table className='w-full border-collapse text-sm'>
+            <thead><tr className='bg-slate-800 text-white'><th className='px-4 py-3 text-left font-semibold'>Task</th><th className='px-4 py-3 text-left font-semibold'>DIY Feasibility</th><th className='px-4 py-3 text-left font-semibold'>Estimated DIY Savings</th></tr></thead>
+            <tbody className='divide-y divide-gray-200'>
+              <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Pump swap in existing pit</td><td className='px-4 py-3 text-slate-600'>Yes</td><td className='px-4 py-3 text-slate-600'>$150 to $300</td></tr>
+              <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Battery backup installation</td><td className='px-4 py-3 text-slate-600'>Yes</td><td className='px-4 py-3 text-slate-600'>$100 to $200</td></tr>
+              <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>New pit installation</td><td className='px-4 py-3 text-slate-600'>No</td><td className='px-4 py-3 text-slate-600'>Not recommended</td></tr>
+              <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Discharge line routing (simple)</td><td className='px-4 py-3 text-slate-600'>Possible</td><td className='px-4 py-3 text-slate-600'>$100 to $200</td></tr>
+              <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Electrical connection</td><td className='px-4 py-3 text-slate-600'>No (permit required)</td><td className='px-4 py-3 text-slate-600'>Not recommended</td></tr>
+            </tbody>
+          </table>
         </div>
 
         {/* How Long Does a Sump Pump Last */}
-        <h2 className='text-3xl font-black text-slate-900 mt-16 mb-6'>How Long Does a Sump Pump Last?</h2>
-        <div className='prose prose-lg max-w-none'>
-          <p className='text-slate-600 leading-relaxed mb-6'>
-            Plan on <strong>7&ndash;10 years for a submersible pump</strong> and up to <strong>25&ndash;30 years for a pedestal pump</strong> with proper maintenance. Battery backup pumps typically last 5&ndash;7 years.
-          </p>
-          <p className='text-slate-600 leading-relaxed mb-6'>
-            Signs it&apos;s time for a replacement include strange noises (grinding, rattling), the pump cycling on and off frequently, visible rust or corrosion, or the pump simply not keeping up during heavy rain. If your pump is over 7 years old and repairs would cost more than half the price of a new unit, replacement is the smarter move.
-          </p>
-          <p className='text-slate-600 leading-relaxed mb-6'>
-            Annual maintenance costs run $100&ndash;$300 for a professional inspection, though basic upkeep (cleaning the inlet screen, testing the float switch, pouring water in to verify operation) is easy to do yourself each spring. Our <Link href='/articles/spring-basement-checklist' className='text-cyan-600 underline hover:text-cyan-700'>spring basement checklist</Link> walks through the full process.
-          </p>
+        <h2 className='text-3xl font-black text-slate-900 mt-16 mb-6'>How Long Does a Sump Pump Last</h2>
+        <p className='text-slate-600 leading-relaxed mb-6'>
+          A submersible sump pump typically lasts 7 to 10 years under normal use conditions, with cast-iron models like the Zoeller M53 lasting toward the upper end and entry-level thermoplastic models in high-use applications lasting toward the lower end. Pedestal pumps last 10 to 25 years because the motor stays dry above the pit and does not experience the corrosion that shortens submersible motor life.
+        </p>
+        <p className='text-slate-600 leading-relaxed mb-6'>
+          The most reliable indicator that a pump needs replacement is increased cycling frequency, unusual noise, or a pump that runs but does not move water effectively. Do not wait for complete failure &mdash; a pump that fails during a heavy storm with no backup in place can result in thousands of dollars of flood damage.
+        </p>
+        <p className='text-slate-600 leading-relaxed mb-12'>
+          Budget $500 to $1,500 for pump replacement every 7 to 10 years as an ongoing maintenance cost of basement waterproofing.
+        </p>
+
+        {/* Does Homeowners Insurance Cover */}
+        <h2 className='text-3xl font-black text-slate-900 mt-16 mb-6'>Does Homeowners Insurance Cover Sump Pump Replacement</h2>
+        <p className='text-slate-600 leading-relaxed mb-6'>
+          Standard homeowners insurance does not cover sump pump replacement as routine maintenance or equipment failure. However, some policies include water backup and sump pump failure endorsements that cover water damage resulting from a sump pump failure during a storm event. These endorsements typically cost $50 to $150 per year to add to a standard policy and provide $5,000 to $25,000 in coverage for water damage caused by pump failure or drain backup.
+        </p>
+        <p className='text-slate-600 leading-relaxed mb-12'>
+          Check your policy specifically for a water backup endorsement. If you do not have one, adding it is worth the cost given that sump pump failure during a power outage is one of the most common causes of basement flooding. See our <Link href='/articles/basement-flooding-insurance' className='text-cyan-600 hover:underline'>basement flooding insurance guide</Link> for full coverage details.
+        </p>
+
+        {/* Decision Table */}
+        <h2 className='text-3xl font-black text-slate-900 mt-16 mb-6'>What Will Your Sump Pump Installation Cost?</h2>
+        <div className='overflow-x-auto not-prose mb-12'>
+          <table className='w-full border-collapse text-sm'>
+            <thead><tr className='bg-slate-800 text-white'><th className='px-4 py-3 text-left font-semibold'>Your Situation</th><th className='px-4 py-3 text-left font-semibold'>What You Need</th><th className='px-4 py-3 text-left font-semibold'>Estimated Cost</th></tr></thead>
+            <tbody className='divide-y divide-gray-200'>
+              <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Existing pump failed, pit in good condition</td><td className='px-4 py-3 text-slate-600'>Submersible pump replacement</td><td className='px-4 py-3 text-slate-600'>$650 to $1,200</td></tr>
+              <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Existing pump working but 7 to 10 years old</td><td className='px-4 py-3 text-slate-600'>Proactive pump replacement</td><td className='px-4 py-3 text-slate-600'>$650 to $1,200</td></tr>
+              <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>No sump pump or pit, basement has water issues</td><td className='px-4 py-3 text-slate-600'>New pit plus submersible pump</td><td className='px-4 py-3 text-slate-600'>$1,200 to $2,500</td></tr>
+              <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Existing pump but no battery backup</td><td className='px-4 py-3 text-slate-600'>Battery backup unit added to existing system</td><td className='px-4 py-3 text-slate-600'>$300 to $800</td></tr>
+              <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Complete new system from scratch</td><td className='px-4 py-3 text-slate-600'>Pit, pump, discharge line, battery backup</td><td className='px-4 py-3 text-slate-600'>$1,500 to $3,500</td></tr>
+              <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>High water table, basement floods during storms</td><td className='px-4 py-3 text-slate-600'>1/2 HP or 3/4 HP high-capacity submersible</td><td className='px-4 py-3 text-slate-600'>$800 to $2,500</td></tr>
+              <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Finished basement, quiet operation required</td><td className='px-4 py-3 text-slate-600'>Submersible pump with sealed pit cover</td><td className='px-4 py-3 text-slate-600'>$650 to $1,500</td></tr>
+              <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Shallow pit under 18 inches</td><td className='px-4 py-3 text-slate-600'>Pedestal pump (submersible will not fit)</td><td className='px-4 py-3 text-slate-600'>$400 to $900</td></tr>
+              <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Flat yard, no gravity discharge point</td><td className='px-4 py-3 text-slate-600'>Pump plus buried discharge line to street or dry well</td><td className='px-4 py-3 text-slate-600'>$1,000 to $2,500</td></tr>
+              <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Want remote monitoring and flood alerts</td><td className='px-4 py-3 text-slate-600'>Smart WiFi sump pump</td><td className='px-4 py-3 text-slate-600'>$800 to $2,000</td></tr>
+              <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>DIY pump swap, have basic plumbing skills</td><td className='px-4 py-3 text-slate-600'>Pump unit only, self-install</td><td className='px-4 py-3 text-slate-600'>$150 to $500 in materials</td></tr>
+              <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Power outages common in your area</td><td className='px-4 py-3 text-slate-600'>Primary pump plus battery backup</td><td className='px-4 py-3 text-slate-600'>$1,500 to $3,500</td></tr>
+              <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Primary pump failed during storm, emergency service</td><td className='px-4 py-3 text-slate-600'>Emergency call premium applies</td><td className='px-4 py-3 text-slate-600'>$900 to $2,000</td></tr>
+            </tbody>
+          </table>
         </div>
 
-        {/* Home Value */}
-        <h2 className='text-3xl font-black text-slate-900 mt-16 mb-6'>Does a Sump Pump Increase Home Value?</h2>
-        <div className='prose prose-lg max-w-none'>
-          <p className='text-slate-600 leading-relaxed mb-6'>
-            A sump pump won&apos;t dramatically increase your appraised value the way a kitchen renovation would, but it does something arguably more important &mdash; it prevents value-destroying damage and removes a red flag for buyers.
-          </p>
-          <p className='text-slate-600 leading-relaxed mb-6'>
-            A home inspection that reveals no water management system in a flood-prone area is a deal-killer for many buyers. Conversely, a well-maintained sump pump with a battery backup signals that the homeowner has taken <Link href='/articles/complete-basement-waterproofing-guide' className='text-cyan-600 underline hover:text-cyan-700'>waterproofing</Link> seriously. Some insurance companies also offer premium discounts for homes with professionally installed sump pumps, according to the <a href='https://www.iii.org/' target='_blank' rel='noopener noreferrer' className='text-cyan-600 underline hover:text-cyan-700'>Insurance Information Institute</a>.
-          </p>
-          <p className='text-slate-600 leading-relaxed mb-6'>
-            If you&apos;re considering a sump pump as part of a larger basement project, our <Link href='/articles/basement-finishing-cost' className='text-cyan-600 underline hover:text-cyan-700'>basement finishing cost guide</Link> covers how a dry, finished basement affects overall <Link href='/articles/waterproofing-home-appraisal-value' className='text-cyan-600 underline hover:text-cyan-700'>home value</Link>.
-          </p>
-        </div>
-
-        {/* Sump Pump vs French Drain */}
-        <h2 className='text-3xl font-black text-slate-900 mt-16 mb-6'>Sump Pump vs. French Drain: Do You Need Both?</h2>
-        <div className='bg-slate-50 rounded-xl p-8 mb-12 border border-slate-200'>
-          <p className='text-slate-600 leading-relaxed mb-4'>
-            A sump pump and a <Link href='/articles/french-drain-cost' className='text-cyan-600 underline hover:text-cyan-700'>French drain</Link> solve different parts of the same problem. The French drain collects water from around your foundation and channels it to the sump pit. The sump pump then evacuates that water away from the house.
-          </p>
-          <p className='text-slate-600 leading-relaxed mb-4'>
-            Without a drain, the pump only handles water that happens to reach the pit on its own. Without a pump, the drain has nowhere to send the water. In many <Link href='/articles/complete-basement-waterproofing-guide' className='text-cyan-600 underline hover:text-cyan-700'>waterproofing systems</Link>, you need both working together. See our <Link href='/articles/french-drain-vs-sump-pump' className='text-cyan-600 underline hover:text-cyan-700'>French drain vs. sump pump comparison</Link> for more detail.
-          </p>
-          <div className='bg-cyan-50 border border-cyan-200 rounded-lg p-4'>
-            <p className='text-sm text-cyan-800'><strong>Cost note:</strong> A full interior French drain system with sump pump typically runs $4,000&ndash;$12,000. If you&apos;re getting quotes for a sump pump, ask the contractor whether your current drainage situation is adequate.</p>
+        {/* Glossary */}
+        <h2 className='text-3xl font-black text-slate-900 mt-16 mb-6'>Glossary</h2>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-6 mb-12 not-prose'>
+          <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+            <h4 className='font-bold text-slate-900 mb-2'>Sump Pit (Sump Basin)</h4>
+            <p className='text-slate-600 text-sm'>The cylindrical or rectangular excavated basin installed below the basement floor at the lowest point of the drainage system where water collects before the pump removes it, typically 18 to 24 inches in diameter and 24 to 36 inches deep for residential applications. The pit must be large enough to accommodate the pump unit with clearance, allow the float switch to operate through its full range of motion without obstruction, and hold enough water volume to prevent the pump from short-cycling on and off too rapidly. Installing a new pit in an existing basement requires cutting through the concrete floor and excavating 2 to 3 cubic feet of soil, adding $500 to $1,000 to the total installation cost.</p>
           </div>
-        </div>
-
-        {/* How to Avoid Overpaying */}
-        <h2 className='text-3xl font-black text-slate-900 mt-16 mb-6'>How to Avoid Overpaying</h2>
-        <div className='space-y-4 mb-12'>
-          <div className='bg-green-50 border border-green-200 rounded-lg p-5'>
-            <h4 className='font-bold text-green-800 mb-2'>Get 3 quotes minimum</h4>
-            <p className='text-slate-600 text-sm leading-relaxed'>Pricing varies wildly. We&apos;ve seen identical jobs quoted at $800 by one contractor and $2,200 by another. The low bid isn&apos;t always best, but the spread tells you what&apos;s reasonable in your area. <Link href='/articles/how-to-hire-basement-waterproofing-contractor' className='text-cyan-600 underline hover:text-cyan-700'>Request free quotes below</Link>.</p>
+          <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+            <h4 className='font-bold text-slate-900 mb-2'>Submersible Pump</h4>
+            <p className='text-slate-600 text-sm'>A sealed pump unit that sits at the bottom of the sump pit fully submerged in water when active, using a float switch to detect rising water and pump it out through a discharge line. Submersible pumps are the standard choice for most residential basements because they operate quietly (the water muffles motor noise), handle higher flow rates than pedestal models, and fit entirely within the pit with no components above the floor surface. They cost more than pedestal pumps upfront ($150 to $700 for the unit) and have a shorter lifespan (7 to 10 years) due to continuous water exposure, but their performance and installation footprint advantages make them the preferred choice for most applications. See our <a href='/articles/best-sump-pumps-2026' className='text-cyan-600 hover:underline'>best sump pumps 2026 guide</a> for current top-rated submersible models.</p>
           </div>
-          <div className='bg-green-50 border border-green-200 rounded-lg p-5'>
-            <h4 className='font-bold text-green-800 mb-2'>Ask what&apos;s included</h4>
-            <p className='text-slate-600 text-sm leading-relaxed'>Some quotes bundle the pit, pump, discharge line, and check valve. Others price the pump separately and tack on extras. Make sure you&apos;re comparing apples to apples.</p>
+          <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+            <h4 className='font-bold text-slate-900 mb-2'>Pedestal Pump</h4>
+            <p className='text-slate-600 text-sm'>A pump design where the motor is mounted on a tall shaft above the pit with only the impeller extending into the water, keeping the motor dry and accessible without removing it from the pit. Pedestal pumps are less expensive upfront ($80 to $200 for the unit), last longer (10 to 25 years) because the motor stays dry, and are easier to service and inspect since the motor is visible above the floor. The tradeoffs are higher noise levels (the exposed motor runs at 55 to 65 decibels versus 45 to 50 for submersibles), lower flow capacity, and a tall shaft extending 3 to 4 feet above the pit that is incompatible with finished basement spaces. See our <a href='/articles/submersible-vs-pedestal-sump-pump' className='text-cyan-600 hover:underline'>submersible vs pedestal sump pump guide</a> for a full comparison.</p>
           </div>
-          <div className='bg-green-50 border border-green-200 rounded-lg p-5'>
-            <h4 className='font-bold text-green-800 mb-2'>Don&apos;t skip the backup</h4>
-            <p className='text-slate-600 text-sm leading-relaxed'>It&apos;s tempting to save $600&ndash;$1,200 by passing on a battery backup. But your sump pump is most needed during storms, which are exactly when power outages happen. The math doesn&apos;t work in your favor if you skip it.</p>
+          <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+            <h4 className='font-bold text-slate-900 mb-2'>Float Switch</h4>
+            <p className='text-slate-600 text-sm'>The sensor mechanism that activates and deactivates a sump pump by detecting the water level in the pit, rising with the water to trigger the pump on and dropping as the pit empties to shut it off. Tethered float switches hang from the pump body and activate when the float rises to the end of the tether, while vertical float switches activate at a fixed height and are more reliable in narrow pits where a tethered float might catch on the pit wall. Float switch failure is one of the most common causes of sump pump performance problems, and testing the float for freedom of movement should be part of every annual pump test.</p>
           </div>
-          <div className='bg-green-50 border border-green-200 rounded-lg p-5'>
-            <h4 className='font-bold text-green-800 mb-2'>Check for permits</h4>
-            <p className='text-slate-600 text-sm leading-relaxed'>Some municipalities require a plumbing permit for sump pump installation. Your contractor should handle this, but ask. Unpermitted work can create problems when you sell.</p>
+          <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+            <h4 className='font-bold text-slate-900 mb-2'>Check Valve</h4>
+            <p className='text-slate-600 text-sm'>A one-way valve installed on the discharge line above the pump that prevents water from flowing back down into the pit after the pump shuts off, avoiding the short-cycling that occurs when backflow water immediately re-triggers the float switch. Without a check valve, the pump runs in short repeated cycles that waste energy, accelerate motor wear, and prevent the pit from fully emptying between cycles. Check valves cost $10 to $30 and should be installed as part of any sump pump installation or replacement. A check valve that is not functioning properly is one of the first things to inspect when a pump seems to be running more frequently than expected.</p>
           </div>
-          <div className='bg-green-50 border border-green-200 rounded-lg p-5'>
-            <h4 className='font-bold text-green-800 mb-2'>Consider the whole system</h4>
-            <p className='text-slate-600 text-sm leading-relaxed'>If you&apos;re already paying a contractor to cut concrete and install a pit, it may be worth adding a French drain at the same time. Bundling the work saves on labor since the most expensive part &mdash; breaking up the floor &mdash; only happens once.</p>
+          <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+            <h4 className='font-bold text-slate-900 mb-2'>Battery Backup Pump</h4>
+            <p className='text-slate-600 text-sm'>A secondary pump system powered by a dedicated sealed lead-acid or lithium battery that activates automatically when the primary pump loses power or fails, providing continued water removal during power outages and primary pump failures. Standard battery backup systems provide 7 to 10 hours of pumping capacity on a fully charged battery, with the battery requiring replacement every 3 to 5 years. Water-powered backup systems use municipal water pressure to operate without a battery and provide unlimited runtime, but consume significant municipal water in the process. See our <a href='/articles/backup-power-sump-pumps' className='text-cyan-600 hover:underline'>backup power for sump pumps guide</a> for a full comparison of backup options.</p>
+          </div>
+          <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+            <h4 className='font-bold text-slate-900 mb-2'>Discharge Line</h4>
+            <p className='text-slate-600 text-sm'>The pipe that carries water pumped out of the sump pit to a discharge point well away from the foundation, typically 1.5 to 2 inch diameter PVC running from the pump through the basement wall and terminating at least 10 feet from the foundation at grade level or connected to a storm drain where permitted. The discharge line must maintain a continuous slope away from the pump to prevent water from draining back into the pit when the pump is off, and must be insulated where it passes through unheated spaces to prevent freezing during winter operation. An improperly located discharge point that terminates too close to the foundation can cause the pumped water to re-enter the soil and cycle back into the pit, increasing pump run time and wear.</p>
           </div>
         </div>
 
         {/* FAQ Section */}
-        <h2 className='text-3xl font-black text-slate-900 mt-16 mb-8'>Frequently Asked Questions</h2>
+        <h2 className='text-3xl font-black text-slate-900 mt-16 mb-6'>Frequently Asked Questions</h2>
 
-        <div className='space-y-6 mb-12'>
-          <div className='border border-slate-200 rounded-lg p-6'>
-            <h3 className='text-lg font-bold text-slate-900 mb-3'>How much does it cost to replace an existing sump pump?</h3>
-            <p className='text-slate-600 leading-relaxed'>Replacing a pump in an existing pit costs $400&ndash;$700 on average, including the new unit and about an hour of labor. No excavation or new plumbing is needed.</p>
+        <div className='space-y-6 my-8 not-prose'>
+          <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
+            <h4 className='font-bold text-slate-900 mb-2'>How much does sump pump installation cost in 2026?</h4>
+            <p className='text-slate-600'>Sump pump installation costs $650 to $2,500 for most residential projects in 2026, with the national average for a complete new system sitting around $1,200 to $1,800. A simple pump replacement in an existing pit at the lower end runs $650 to $1,200 including labor and the pump unit. A full new installation including concrete cutting, pit excavation, pump, discharge line, and battery backup runs $1,500 to $3,500. The single biggest cost variable is whether a sump pit already exists &mdash; new pit installation adds $500 to $1,000 to any project. Always get at least three written quotes that specify the pump model, horsepower, discharge routing, and whether battery backup is included before committing to a contractor. See our <Link href='/articles/sump-pump-buying-guide' className='text-cyan-600 hover:underline'>sump pump buying guide</Link> for how to choose the right pump before pricing installation.</p>
           </div>
-          <div className='border border-slate-200 rounded-lg p-6'>
-            <h3 className='text-lg font-bold text-slate-900 mb-3'>How much electricity does a sump pump use?</h3>
-            <p className='text-slate-600 leading-relaxed'>A typical sump pump adds $30&ndash;$50 per year to your electric bill. During dry periods, it barely runs at all. During heavy rain, it may cycle frequently but still uses relatively little power.</p>
+          <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
+            <h4 className='font-bold text-slate-900 mb-2'>How much does it cost to replace a sump pump vs install a new one?</h4>
+            <p className='text-slate-600'>Replacing an existing sump pump in an established pit is significantly less expensive than a new installation because the most labor-intensive part of the project, the pit excavation and concrete cutting, has already been done. A pump replacement in an existing pit typically costs $650 to $1,200 including the new pump unit and 1 to 2 hours of labor. A brand new installation with no existing pit costs $1,200 to $2,500 because it adds $500 to $1,000 for concrete cutting, pit excavation, liner installation, and concrete patching around the new pit. If your existing pump is 7 to 10 years old and showing signs of wear, proactive replacement before it fails completely avoids the emergency service premium that contractors charge for same-day or after-hours calls. See our <Link href='/articles/best-sump-pumps-2026' className='text-cyan-600 hover:underline'>best sump pumps 2026 guide</Link> for current top-rated replacement models.</p>
           </div>
-          <div className='border border-slate-200 rounded-lg p-6'>
-            <h3 className='text-lg font-bold text-slate-900 mb-3'>Should I hire a plumber or a waterproofing company?</h3>
-            <p className='text-slate-600 leading-relaxed'>For a simple replacement, a licensed plumber is fine and often cheaper. For a new installation &mdash; especially if you also need drainage work &mdash; a <Link href='/articles/how-to-hire-basement-waterproofing-contractor' className='text-cyan-600 underline hover:text-cyan-700'>waterproofing contractor</Link> may be a better fit since they understand the full water management picture.</p>
+          <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
+            <h4 className='font-bold text-slate-900 mb-2'>Is a battery backup sump pump worth the cost?</h4>
+            <p className='text-slate-600'>Yes, a battery backup sump pump is one of the highest-return additions available for any basement waterproofing system and should be considered mandatory rather than optional. Power outages most frequently occur during the heavy thunderstorms and hurricanes that generate the most water, leaving a primary pump without electricity exactly when it is needed most. A battery backup unit costs $300 to $800 installed and provides 7 to 10 hours of pumping capacity on a full charge, which covers the duration of most storm events. The cost of a backup unit is a fraction of the average basement flood damage claim, which runs $3,000 to $10,000 for water extraction, drying, and content replacement. Batteries require replacement every 3 to 5 years at $50 to $150, making the ongoing cost minimal relative to the protection provided. See our <Link href='/articles/backup-power-sump-pumps' className='text-cyan-600 hover:underline'>backup power for sump pumps guide</Link> and <Link href='/articles/battery-vs-water-powered-sump-pumps' className='text-cyan-600 hover:underline'>battery vs water-powered backup comparison</Link> for full guidance.</p>
           </div>
-          <div className='border border-slate-200 rounded-lg p-6'>
-            <h3 className='text-lg font-bold text-slate-900 mb-3'>Does homeowners insurance cover sump pump failure?</h3>
-            <p className='text-slate-600 leading-relaxed'>Standard policies typically do not cover flooding from sump pump failure or backup. You usually need a specific water backup and sump pump overflow endorsement, which runs $40&ndash;$100/year. It&apos;s worth adding &mdash; ask your agent. See our <Link href='/articles/basement-flooding-insurance' className='text-cyan-600 underline hover:text-cyan-700'>basement flooding insurance guide</Link> for details.</p>
+          <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
+            <h4 className='font-bold text-slate-900 mb-2'>How long does sump pump installation take?</h4>
+            <p className='text-slate-600'>A pump replacement in an existing pit typically takes 1 to 2 hours for a professional installer including disconnecting the old pump, installing the new unit, reconnecting the discharge line, and testing. A new full installation including pit excavation takes 4 to 6 hours for a standard basement with straightforward discharge routing. Complex installations involving new pit cutting through thick poured concrete, long discharge line routing through finished walls, or simultaneous battery backup installation can take a full day. DIY pump swaps in existing pits typically take 1 to 3 hours for a homeowner comfortable with basic plumbing. The permit process, where required, adds 1 to 4 weeks to the overall timeline before on-site work can begin.</p>
           </div>
-          <div className='border border-slate-200 rounded-lg p-6'>
-            <h3 className='text-lg font-bold text-slate-900 mb-3'>What size sump pump do I need?</h3>
-            <p className='text-slate-600 leading-relaxed'>For most residential basements, a 1/3 HP submersible pump handles the job. If your water table is high, your discharge line is long, or you deal with heavy seasonal water, step up to 1/2 HP. Our <Link href='/articles/sump-pump-buying-guide' className='text-cyan-600 underline hover:text-cyan-700'>sump pump buying guide</Link> covers sizing in detail.</p>
+          <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
+            <h4 className='font-bold text-slate-900 mb-2'>What size sump pump do I need for my basement?</h4>
+            <p className='text-slate-600'>For most residential basements up to approximately 1,500 square feet with a normal water table, a 1/3 HP submersible pump provides sufficient capacity at 2,500 to 3,000 gallons per hour. Basements with high water tables, chronic flooding during heavy rain, or square footage above 1,500 square feet benefit from a 1/2 HP pump rated at 3,500 to 4,500 gallons per hour. Severe flooding situations, very large basements, or properties in flood-prone areas may require a 3/4 HP pump. The key sizing metric is whether the pump can remove water faster than it enters during a peak inflow event &mdash; an undersized pump that runs continuously without lowering the water level in the pit needs to be replaced with a higher horsepower model. See our <Link href='/articles/submersible-vs-pedestal-sump-pump' className='text-cyan-600 hover:underline'>submersible vs pedestal sump pump guide</Link> for the full sizing and type selection framework.</p>
+          </div>
+          <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
+            <h4 className='font-bold text-slate-900 mb-2'>Can I install a sump pump myself to save money?</h4>
+            <p className='text-slate-600'>Replacing an existing sump pump in an established pit is a manageable DIY project that saves $150 to $300 in labor for a homeowner comfortable with basic plumbing. The process involves disconnecting the discharge union fitting, unplugging the power cord, lifting out the old pump, lowering the new pump into position, reconnecting the discharge line, and testing by pouring water into the pit. New pit installation is not a realistic DIY project for most homeowners because it requires a concrete cutting saw, proper pit sizing and liner installation, and electrical work that requires a permit and licensed electrician in most jurisdictions. An incorrectly installed pit that is too small, too shallow, or improperly positioned relative to the floor drain system will underperform and may require professional correction at greater total cost than hiring correctly from the start. See our <Link href='/articles/diy-vs-hiring-pro-basement-projects' className='text-cyan-600 hover:underline'>DIY vs hiring a pro guide</Link> for an honest assessment of which basement projects fall within DIY capability.</p>
           </div>
         </div>
 
@@ -307,32 +297,74 @@ export default function SumpPumpCost() {
       {/* Related Guides */}
       <section className='bg-slate-50 py-16'>
         <div className='max-w-7xl mx-auto px-6'>
-          <h2 className='text-3xl font-black text-slate-900 mb-10'>Related Guides</h2>
-          <div className='grid md:grid-cols-3 gap-6'>
-            <Link href='/articles/sump-pump-buying-guide' className='bg-white rounded-xl p-6 shadow-sm border border-slate-200 hover:shadow-md transition-shadow'>
-              <h3 className='text-lg font-bold text-slate-900 mb-2'>Sump Pump Buying Guide</h3>
-              <p className='text-slate-500 text-sm'>How to choose the right sump pump for your home.</p>
+          <h2 className='text-3xl font-black text-slate-900 mb-4'>Related Guides</h2>
+
+          <h3 className='text-sm font-semibold text-slate-500 uppercase tracking-wide mt-8 mb-4'>On thebasement.guide</h3>
+          <div className='grid md:grid-cols-3 gap-4 not-prose mb-10'>
+            <Link href='/articles/sump-pump-buying-guide' className='bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover:bg-cyan-50 hover:shadow-md transition-all'>
+              <h3 className='font-bold text-slate-900 mb-1'>Sump Pump Buying Guide</h3>
+              <p className='text-slate-500 text-sm'>How to choose the right sump pump before pricing installation, including horsepower sizing, float switch types, pit sizing, and what features matter for long-term reliability.</p>
             </Link>
-            <Link href='/articles/french-drain-cost' className='bg-white rounded-xl p-6 shadow-sm border border-slate-200 hover:shadow-md transition-shadow'>
-              <h3 className='text-lg font-bold text-slate-900 mb-2'>French Drain Cost Guide</h3>
-              <p className='text-slate-500 text-sm'>Full cost breakdown for interior and exterior French drains.</p>
+            <Link href='/articles/best-sump-pumps-2026' className='bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover:bg-cyan-50 hover:shadow-md transition-all'>
+              <h3 className='font-bold text-slate-900 mb-1'>Best Sump Pumps 2026</h3>
+              <p className='text-slate-500 text-sm'>Top-rated submersible and pedestal pump reviews with honest performance assessments, pricing, and recommendations by use case and budget.</p>
             </Link>
-            <Link href='/articles/basement-waterproofing-cost' className='bg-white rounded-xl p-6 shadow-sm border border-slate-200 hover:shadow-md transition-shadow'>
-              <h3 className='text-lg font-bold text-slate-900 mb-2'>Basement Waterproofing Cost</h3>
-              <p className='text-slate-500 text-sm'>What to expect for professional waterproofing pricing in 2026.</p>
+            <Link href='/articles/backup-power-sump-pumps' className='bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover:bg-cyan-50 hover:shadow-md transition-all'>
+              <h3 className='font-bold text-slate-900 mb-1'>Backup Power for Sump Pumps</h3>
+              <p className='text-slate-500 text-sm'>Why battery backup is essential and how to choose between battery-powered and water-powered backup systems, the most important add-on for any sump pump installation.</p>
             </Link>
-            <Link href='/articles/best-sump-pumps-2026' className='bg-white rounded-xl p-6 shadow-sm border border-slate-200 hover:shadow-md transition-shadow'>
-              <h3 className='text-lg font-bold text-slate-900 mb-2'>Best Sump Pumps 2026</h3>
-              <p className='text-slate-500 text-sm'>Top-rated submersible and pedestal sump pumps reviewed.</p>
+            <Link href='/articles/battery-vs-water-powered-sump-pumps' className='bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover:bg-cyan-50 hover:shadow-md transition-all'>
+              <h3 className='font-bold text-slate-900 mb-1'>Battery vs Water-Powered Sump Pump Backup</h3>
+              <p className='text-slate-500 text-sm'>A head-to-head comparison of the two backup power options including runtime, cost, and which is appropriate for different basement situations.</p>
             </Link>
-            <Link href='/articles/french-drain-vs-sump-pump' className='bg-white rounded-xl p-6 shadow-sm border border-slate-200 hover:shadow-md transition-shadow'>
-              <h3 className='text-lg font-bold text-slate-900 mb-2'>French Drain vs. Sump Pump</h3>
-              <p className='text-slate-500 text-sm'>When you need one, the other, or both.</p>
+            <Link href='/articles/submersible-vs-pedestal-sump-pump' className='bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover:bg-cyan-50 hover:shadow-md transition-all'>
+              <h3 className='font-bold text-slate-900 mb-1'>Submersible vs Pedestal Sump Pump</h3>
+              <p className='text-slate-500 text-sm'>The full comparison of both pump types across cost, noise, lifespan, pit depth requirements, and which is right for your specific basement.</p>
             </Link>
-            <Link href='/articles/why-basement-floods-with-sump-pump' className='bg-white rounded-xl p-6 shadow-sm border border-slate-200 hover:shadow-md transition-shadow'>
-              <h3 className='text-lg font-bold text-slate-900 mb-2'>Why Your Basement Still Floods</h3>
-              <p className='text-slate-500 text-sm'>Common reasons your sump pump isn&apos;t keeping up.</p>
+            <Link href='/articles/smart-sump-pumps-guide' className='bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover:bg-cyan-50 hover:shadow-md transition-all'>
+              <h3 className='font-bold text-slate-900 mb-1'>Smart Sump Pumps Guide</h3>
+              <p className='text-slate-500 text-sm'>How WiFi-connected sump pumps with remote monitoring provide early warning of pump failure and water intrusion before flooding occurs.</p>
             </Link>
+            <Link href='/articles/french-drain-cost' className='bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover:bg-cyan-50 hover:shadow-md transition-all'>
+              <h3 className='font-bold text-slate-900 mb-1'>French Drain Cost 2026</h3>
+              <p className='text-slate-500 text-sm'>What interior perimeter drain systems cost, the drainage infrastructure that routes water to the sump pit the pump removes.</p>
+            </Link>
+            <Link href='/articles/french-drain-vs-sump-pump' className='bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover:bg-cyan-50 hover:shadow-md transition-all'>
+              <h3 className='font-bold text-slate-900 mb-1'>French Drain vs Sump Pump</h3>
+              <p className='text-slate-500 text-sm'>How interior drain tile and sump pumps work together as a complete system rather than competing alternatives.</p>
+            </Link>
+            <Link href='/articles/basement-waterproofing-cost' className='bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover:bg-cyan-50 hover:shadow-md transition-all'>
+              <h3 className='font-bold text-slate-900 mb-1'>Basement Waterproofing Cost 2026</h3>
+              <p className='text-slate-500 text-sm'>Full pricing for complete waterproofing systems where a sump pump is one component alongside interior drainage and wall sealing.</p>
+            </Link>
+            <Link href='/articles/why-basement-floods-with-sump-pump' className='bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover:bg-cyan-50 hover:shadow-md transition-all'>
+              <h3 className='font-bold text-slate-900 mb-1'>Why Is My Basement Still Flooding With a Sump Pump?</h3>
+              <p className='text-slate-500 text-sm'>The most common reasons a functioning sump pump fails to prevent basement flooding, including undersizing, float switch problems, and discharge line issues.</p>
+            </Link>
+            <Link href='/articles/complete-basement-waterproofing-guide' className='bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover:bg-cyan-50 hover:shadow-md transition-all'>
+              <h3 className='font-bold text-slate-900 mb-1'>Complete Basement Waterproofing Guide</h3>
+              <p className='text-slate-500 text-sm'>How sump pumps fit into a complete waterproofing system alongside interior drainage, wall sealing, and exterior water management.</p>
+            </Link>
+            <Link href='/articles/basement-flooding-insurance' className='bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover:bg-cyan-50 hover:shadow-md transition-all'>
+              <h3 className='font-bold text-slate-900 mb-1'>Basement Flooding Insurance</h3>
+              <p className='text-slate-500 text-sm'>What homeowners insurance covers when a sump pump fails during a storm event and water damages the basement, including the water backup endorsement.</p>
+            </Link>
+            <Link href='/articles/best-water-leak-detectors' className='bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover:bg-cyan-50 hover:shadow-md transition-all'>
+              <h3 className='font-bold text-slate-900 mb-1'>Best Water Leak Detectors</h3>
+              <p className='text-slate-500 text-sm'>Sensors that provide early warning of sump pump failure or unexpected water entry before flooding becomes severe.</p>
+            </Link>
+          </div>
+
+          <h3 className='text-sm font-semibold text-slate-500 uppercase tracking-wide mt-8 mb-4'>From Our Network</h3>
+          <div className='grid md:grid-cols-3 gap-4 not-prose mb-10'>
+            <a href='https://theseptic.guide/reviews/best-septic-system-alarms' target='_blank' rel='noopener noreferrer' className='bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover:bg-cyan-50 hover:shadow-md transition-all'>
+              <h3 className='font-bold text-slate-900 mb-1'>Septic System Alarms</h3>
+              <p className='text-slate-500 text-sm'>For homes with both a sump pump and a septic system, monitoring both systems with dedicated alarms provides early warning of failure in either.</p>
+            </a>
+            <a href='https://theseptic.guide/problems/septic-overflow-after-rain' target='_blank' rel='noopener noreferrer' className='bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover:bg-cyan-50 hover:shadow-md transition-all'>
+              <h3 className='font-bold text-slate-900 mb-1'>Septic Overflow After Rain</h3>
+              <p className='text-slate-500 text-sm'>The same heavy rain events that trigger sump pump activation can simultaneously overflow the septic system on properties with on-site wastewater systems.</p>
+            </a>
           </div>
         </div>
       </section>
@@ -348,6 +380,7 @@ export default function SumpPumpCost() {
         </div>
       </section>
 
+      <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
     </div>
   );
 }
