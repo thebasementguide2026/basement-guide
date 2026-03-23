@@ -55,6 +55,11 @@ export default function WhyBasementFloods() {
           </Link>
         </div>
 
+        {/* Entity Definition */}
+        <p className='text-lg text-slate-700 leading-relaxed mb-8'>
+          A sump pump is a single component in a basement water management system, not a complete waterproofing solution on its own. When a basement floods despite a functioning sump pump, the cause is almost always one of three things: the pump cannot move water fast enough to match inflow volume, the pump has failed or lost capacity due to age or mechanical problems, or water is entering the basement through a path that never reaches the sump pit at all. Understanding which of these three scenarios applies to your situation determines whether the fix is a pump upgrade, a pump replacement, or a waterproofing solution that has nothing to do with the pump itself. This guide walks through all ten common failure points in order from the most likely and easiest to check to the most complex.
+        </p>
+
         {/* Introduction */}
         <div className='prose prose-lg max-w-none mb-16'>
           <p className='text-xl text-slate-700 leading-relaxed'>
