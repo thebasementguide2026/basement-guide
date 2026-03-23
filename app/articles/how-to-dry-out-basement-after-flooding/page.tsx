@@ -54,6 +54,11 @@ export default function HowToDryOutBasementAfterFlooding() {
           </Link>
         </div>
 
+        {/* Entity Definition */}
+        <p className='text-lg text-slate-700 leading-relaxed mb-8'>
+          Basement flood recovery is the process of safely removing standing water, extracting moisture from building materials, and restoring a flooded basement to dry, habitable condition before mold colonization begins. The window for preventing mold is narrow &mdash; the EPA notes that mold can begin growing on wet surfaces within 24 to 48 hours, which means the speed and thoroughness of the drying response directly determines whether you are dealing with a cleanup or a remediation project. Recovery involves water extraction, mechanical drying with dehumidifiers and air movers, selective demolition of porous materials that cannot be adequately dried, disinfection of exposed surfaces, and moisture verification with a meter before any finishes are replaced. The source of the flooding &mdash; whether a failed sump pump, foundation crack, surface drainage, or sewer backup &mdash; must be identified and corrected before reconstruction begins to prevent a repeat event.
+        </p>
+
         {/* Introduction */}
         <div className='prose prose-lg max-w-none mb-16'>
           <p>
