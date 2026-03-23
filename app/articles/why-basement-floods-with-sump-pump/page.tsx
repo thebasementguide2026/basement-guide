@@ -125,10 +125,10 @@ export default function WhyBasementFloods() {
 
         {/* Introduction */}
         <div className='prose prose-lg max-w-none mb-16'>
-          <p className='text-xl text-slate-700 leading-relaxed'>
+          <p className='text-lg text-slate-700 leading-relaxed'>
             Your sump pump is most likely to fail at the exact moment you need it most&mdash;during a heavy storm. A sump pump is one part of a water management system, and if any other part fails, or if the pump itself has a problem you don&rsquo;t know about, you can still wake up to standing water.
           </p>
-          <p className='text-lg text-slate-600 leading-relaxed'>
+          <p className='text-lg text-slate-700 leading-relaxed'>
             This guide covers the 10 most common reasons basements flood despite having a sump pump, how to diagnose each one, and what to do about it. We&rsquo;ve organized them from &ldquo;check this first&rdquo; (free, takes 5 minutes) to &ldquo;call a pro&rdquo; (requires professional diagnosis).
           </p>
         </div>
