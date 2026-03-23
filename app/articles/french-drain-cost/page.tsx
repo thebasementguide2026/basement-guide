@@ -164,15 +164,36 @@ export default function FrenchDrainCostPage() {
             What makes one 50-foot drain cost twice as much as another? These are the variables that matter most.
           </p>
 
-          <ul>
-            <li><strong>Trench Depth:</strong> Shallow yard drains (12 to 18 inches) are cheap to dig. Deep foundation drains (6 to 8 feet) require heavy machinery and shoring, adding $15 to $30 per linear foot.</li>
-            <li><strong>Obstructions:</strong> Driveways, sidewalks, patios, and utility lines add significantly to labor time. Expect $500 to $2,000 extra for each major obstruction.</li>
-            <li><strong>Concrete Disposal:</strong> For interior drains, jackhammering and hauling away old concrete slabs adds $500 to $1,000 to the total.</li>
-            <li><strong>Soil Conditions:</strong> Clay-heavy soil drains slowly and may require additional gravel or wider trenches. Rocky soil increases excavation costs by 20 to 40 percent.</li>
-            <li><strong>Pipe Material:</strong> Standard corrugated pipe runs $1 to $3 per foot. Rigid PVC or heavy-duty options cost $3 to $8 per foot but last longer.</li>
-            <li><strong>Sump Pump Addition:</strong> Interior systems almost always need a <Link href='/articles/sump-pump-buying-guide' className='text-violet-600 hover:underline'>sump pump</Link> ($800 to $2,500 installed) to move collected water out of the basement.</li>
-            <li><strong>Permits:</strong> Some municipalities require permits for drainage work, especially near property lines. Budget $50 to $200 for permit fees.</li>
-          </ul>
+          <div className='space-y-4 not-prose'>
+            <div className='flex items-start gap-3 bg-slate-50 p-4 rounded-xl border border-slate-100'>
+              <span className='text-violet-500 mt-0.5 text-lg'>&#9679;</span>
+              <span className='text-slate-700'><strong>Trench Depth:</strong> Shallow yard drains (12 to 18 inches) are cheap to dig. Deep foundation drains (6 to 8 feet) require heavy machinery and shoring, adding $15 to $30 per linear foot.</span>
+            </div>
+            <div className='flex items-start gap-3 bg-slate-50 p-4 rounded-xl border border-slate-100'>
+              <span className='text-violet-500 mt-0.5 text-lg'>&#9679;</span>
+              <span className='text-slate-700'><strong>Obstructions:</strong> Driveways, sidewalks, patios, and utility lines add significantly to labor time. Expect $500 to $2,000 extra for each major obstruction.</span>
+            </div>
+            <div className='flex items-start gap-3 bg-slate-50 p-4 rounded-xl border border-slate-100'>
+              <span className='text-violet-500 mt-0.5 text-lg'>&#9679;</span>
+              <span className='text-slate-700'><strong>Concrete Disposal:</strong> For interior drains, jackhammering and hauling away old concrete slabs adds $500 to $1,000 to the total.</span>
+            </div>
+            <div className='flex items-start gap-3 bg-slate-50 p-4 rounded-xl border border-slate-100'>
+              <span className='text-violet-500 mt-0.5 text-lg'>&#9679;</span>
+              <span className='text-slate-700'><strong>Soil Conditions:</strong> Clay-heavy soil drains slowly and may require additional gravel or wider trenches. Rocky soil increases excavation costs by 20 to 40 percent.</span>
+            </div>
+            <div className='flex items-start gap-3 bg-slate-50 p-4 rounded-xl border border-slate-100'>
+              <span className='text-violet-500 mt-0.5 text-lg'>&#9679;</span>
+              <span className='text-slate-700'><strong>Pipe Material:</strong> Standard corrugated pipe runs $1 to $3 per foot. Rigid PVC or heavy-duty options cost $3 to $8 per foot but last longer.</span>
+            </div>
+            <div className='flex items-start gap-3 bg-slate-50 p-4 rounded-xl border border-slate-100'>
+              <span className='text-violet-500 mt-0.5 text-lg'>&#9679;</span>
+              <span className='text-slate-700'><strong>Sump Pump Addition:</strong> Interior systems almost always need a <Link href='/articles/sump-pump-buying-guide' className='text-violet-600 hover:underline'>sump pump</Link> ($800 to $2,500 installed) to move collected water out of the basement.</span>
+            </div>
+            <div className='flex items-start gap-3 bg-slate-50 p-4 rounded-xl border border-slate-100'>
+              <span className='text-violet-500 mt-0.5 text-lg'>&#9679;</span>
+              <span className='text-slate-700'><strong>Permits:</strong> Some municipalities require permits for drainage work, especially near property lines. Budget $50 to $200 for permit fees.</span>
+            </div>
+          </div>
 
           {/* Interior vs Exterior */}
           <h2 className='text-4xl mb-6'>Interior vs. Exterior: Which Do You Need?</h2>
@@ -218,17 +239,41 @@ export default function FrenchDrainCostPage() {
             </p>
           </div>
 
-          <h3>DIY Steps for an Exterior French Drain</h3>
-          <ol>
-            <li><strong>Plan the route.</strong> Identify where water collects and map a path to a suitable discharge point (street, dry well, or low area). Maintain a 1 percent slope minimum.</li>
-            <li><strong>Call 811.</strong> Always call before you dig to mark underground utilities. This is free and required by law in most states.</li>
-            <li><strong>Dig the trench.</strong> Standard depth is 18 to 24 inches, width 6 to 12 inches. Rent a trencher for long runs.</li>
-            <li><strong>Line with landscape fabric.</strong> Drape filter fabric along the entire trench with extra material on each side to wrap over the top later.</li>
-            <li><strong>Add gravel base.</strong> Pour 2 to 3 inches of washed drainage gravel in the bottom.</li>
-            <li><strong>Lay the pipe.</strong> Place perforated pipe with holes facing down on the gravel bed. Connect to a pop-up emitter or discharge point.</li>
-            <li><strong>Backfill with gravel.</strong> Cover the pipe with 4 to 6 inches of gravel, then fold the fabric over the top to keep soil out.</li>
-            <li><strong>Top with soil and sod.</strong> Replace the topsoil and reseed or sod as needed.</li>
-          </ol>
+          <h3 className='text-2xl font-bold text-slate-900 mb-4'>DIY Steps for an Exterior French Drain</h3>
+          <div className='space-y-3 not-prose'>
+            <div className='flex items-start gap-3 p-4 bg-white border border-slate-200 rounded-xl'>
+              <span className='flex-shrink-0 w-7 h-7 rounded-full bg-violet-600 text-white text-sm font-bold flex items-center justify-center mt-0.5'>1</span>
+              <span className='text-slate-700'><strong>Plan the route.</strong> Identify where water collects and map a path to a suitable discharge point (street, dry well, or low area). Maintain a 1 percent slope minimum.</span>
+            </div>
+            <div className='flex items-start gap-3 p-4 bg-white border border-slate-200 rounded-xl'>
+              <span className='flex-shrink-0 w-7 h-7 rounded-full bg-violet-600 text-white text-sm font-bold flex items-center justify-center mt-0.5'>2</span>
+              <span className='text-slate-700'><strong>Call 811.</strong> Always call before you dig to mark underground utilities. This is free and required by law in most states.</span>
+            </div>
+            <div className='flex items-start gap-3 p-4 bg-white border border-slate-200 rounded-xl'>
+              <span className='flex-shrink-0 w-7 h-7 rounded-full bg-violet-600 text-white text-sm font-bold flex items-center justify-center mt-0.5'>3</span>
+              <span className='text-slate-700'><strong>Dig the trench.</strong> Standard depth is 18 to 24 inches, width 6 to 12 inches. Rent a trencher for long runs.</span>
+            </div>
+            <div className='flex items-start gap-3 p-4 bg-white border border-slate-200 rounded-xl'>
+              <span className='flex-shrink-0 w-7 h-7 rounded-full bg-violet-600 text-white text-sm font-bold flex items-center justify-center mt-0.5'>4</span>
+              <span className='text-slate-700'><strong>Line with landscape fabric.</strong> Drape filter fabric along the entire trench with extra material on each side to wrap over the top later.</span>
+            </div>
+            <div className='flex items-start gap-3 p-4 bg-white border border-slate-200 rounded-xl'>
+              <span className='flex-shrink-0 w-7 h-7 rounded-full bg-violet-600 text-white text-sm font-bold flex items-center justify-center mt-0.5'>5</span>
+              <span className='text-slate-700'><strong>Add gravel base.</strong> Pour 2 to 3 inches of washed drainage gravel in the bottom.</span>
+            </div>
+            <div className='flex items-start gap-3 p-4 bg-white border border-slate-200 rounded-xl'>
+              <span className='flex-shrink-0 w-7 h-7 rounded-full bg-violet-600 text-white text-sm font-bold flex items-center justify-center mt-0.5'>6</span>
+              <span className='text-slate-700'><strong>Lay the pipe.</strong> Place perforated pipe with holes facing down on the gravel bed. Connect to a pop-up emitter or discharge point.</span>
+            </div>
+            <div className='flex items-start gap-3 p-4 bg-white border border-slate-200 rounded-xl'>
+              <span className='flex-shrink-0 w-7 h-7 rounded-full bg-violet-600 text-white text-sm font-bold flex items-center justify-center mt-0.5'>7</span>
+              <span className='text-slate-700'><strong>Backfill with gravel.</strong> Cover the pipe with 4 to 6 inches of gravel, then fold the fabric over the top to keep soil out.</span>
+            </div>
+            <div className='flex items-start gap-3 p-4 bg-white border border-slate-200 rounded-xl'>
+              <span className='flex-shrink-0 w-7 h-7 rounded-full bg-violet-600 text-white text-sm font-bold flex items-center justify-center mt-0.5'>8</span>
+              <span className='text-slate-700'><strong>Top with soil and sod.</strong> Replace the topsoil and reseed or sod as needed.</span>
+            </div>
+          </div>
 
           {/* Recommended Products */}
           <h2 className='text-4xl mb-6'>Recommended Products &amp; Tools</h2>
@@ -337,14 +382,32 @@ export default function FrenchDrainCostPage() {
           <p>
             Call a licensed drainage contractor for any of these situations:
           </p>
-          <ul>
-            <li>Trenches deeper than 3 feet or any work near the foundation footing</li>
-            <li>Driveway, patio, or sidewalk crossings that require cutting and repair</li>
-            <li>Interior basement drain systems with concrete removal</li>
-            <li>Properties with known utility lines, septic systems, or well water</li>
-            <li>Persistent <Link href='/articles/how-to-prevent-basement-mold' className='text-violet-600 hover:underline'>mold</Link> or <Link href='/articles/musty-basement-smell' className='text-violet-600 hover:underline'>musty smell</Link> issues linked to drainage failure</li>
-            <li>Grading or slope problems that require engineering assessment</li>
-          </ul>
+          <div className='space-y-3 not-prose'>
+            <div className='flex items-start gap-3 p-4 bg-slate-50 rounded-xl border border-slate-100'>
+              <span className='text-violet-500 mt-0.5 text-lg'>&#9679;</span>
+              <span className='text-slate-700'>Trenches deeper than 3 feet or any work near the foundation footing</span>
+            </div>
+            <div className='flex items-start gap-3 p-4 bg-slate-50 rounded-xl border border-slate-100'>
+              <span className='text-violet-500 mt-0.5 text-lg'>&#9679;</span>
+              <span className='text-slate-700'>Driveway, patio, or sidewalk crossings that require cutting and repair</span>
+            </div>
+            <div className='flex items-start gap-3 p-4 bg-slate-50 rounded-xl border border-slate-100'>
+              <span className='text-violet-500 mt-0.5 text-lg'>&#9679;</span>
+              <span className='text-slate-700'>Interior basement drain systems with concrete removal</span>
+            </div>
+            <div className='flex items-start gap-3 p-4 bg-slate-50 rounded-xl border border-slate-100'>
+              <span className='text-violet-500 mt-0.5 text-lg'>&#9679;</span>
+              <span className='text-slate-700'>Properties with known utility lines, septic systems, or well water</span>
+            </div>
+            <div className='flex items-start gap-3 p-4 bg-slate-50 rounded-xl border border-slate-100'>
+              <span className='text-violet-500 mt-0.5 text-lg'>&#9679;</span>
+              <span className='text-slate-700'>Persistent <Link href='/articles/how-to-prevent-basement-mold' className='text-violet-600 hover:underline'>mold</Link> or <Link href='/articles/musty-basement-smell' className='text-violet-600 hover:underline'>musty smell</Link> issues linked to drainage failure</span>
+            </div>
+            <div className='flex items-start gap-3 p-4 bg-slate-50 rounded-xl border border-slate-100'>
+              <span className='text-violet-500 mt-0.5 text-lg'>&#9679;</span>
+              <span className='text-slate-700'>Grading or slope problems that require engineering assessment</span>
+            </div>
+          </div>
 
           <div className='bg-red-50 rounded-2xl p-6 border border-red-200 my-8 not-prose'>
             <h3 className='font-bold text-red-800 text-lg mb-4'>Common Contractor Red Flags</h3>
@@ -362,14 +425,32 @@ export default function FrenchDrainCostPage() {
           <p>
             A French drain is not completely maintenance-free. These simple habits keep your system working for decades.
           </p>
-          <ul>
-            <li><strong>Flush the line once a year</strong> with a garden hose inserted at the highest point. This pushes out sediment before it hardens.</li>
-            <li><strong>Keep the outlet clear</strong> of leaves, debris, and soil buildup. Check pop-up emitters after heavy storms.</li>
-            <li><strong>Re-grade the surface</strong> every couple of years so water keeps flowing downhill toward the drain trench.</li>
-            <li><strong>Inspect catch basins</strong> quarterly and remove accumulated debris from grates and sumps.</li>
-            <li><strong>Watch for settling</strong> over the trench line. Depressions can indicate pipe collapse or gravel compaction.</li>
-            <li><strong>Test your sump pump</strong> monthly if your interior drain connects to one. Pour a bucket of water into the pit to verify it activates. See our <Link href='/articles/why-basement-floods-with-sump-pump' className='text-violet-600 hover:underline'>troubleshooting guide</Link> if it fails.</li>
-          </ul>
+          <div className='space-y-4 not-prose'>
+            <div className='flex items-start gap-3 bg-slate-50 p-4 rounded-xl border border-slate-100'>
+              <span className='text-violet-500 mt-0.5 text-lg'>&#9679;</span>
+              <span className='text-slate-700'><strong>Flush the line once a year</strong> with a garden hose inserted at the highest point. This pushes out sediment before it hardens.</span>
+            </div>
+            <div className='flex items-start gap-3 bg-slate-50 p-4 rounded-xl border border-slate-100'>
+              <span className='text-violet-500 mt-0.5 text-lg'>&#9679;</span>
+              <span className='text-slate-700'><strong>Keep the outlet clear</strong> of leaves, debris, and soil buildup. Check pop-up emitters after heavy storms.</span>
+            </div>
+            <div className='flex items-start gap-3 bg-slate-50 p-4 rounded-xl border border-slate-100'>
+              <span className='text-violet-500 mt-0.5 text-lg'>&#9679;</span>
+              <span className='text-slate-700'><strong>Re-grade the surface</strong> every couple of years so water keeps flowing downhill toward the drain trench.</span>
+            </div>
+            <div className='flex items-start gap-3 bg-slate-50 p-4 rounded-xl border border-slate-100'>
+              <span className='text-violet-500 mt-0.5 text-lg'>&#9679;</span>
+              <span className='text-slate-700'><strong>Inspect catch basins</strong> quarterly and remove accumulated debris from grates and sumps.</span>
+            </div>
+            <div className='flex items-start gap-3 bg-slate-50 p-4 rounded-xl border border-slate-100'>
+              <span className='text-violet-500 mt-0.5 text-lg'>&#9679;</span>
+              <span className='text-slate-700'><strong>Watch for settling</strong> over the trench line. Depressions can indicate pipe collapse or gravel compaction.</span>
+            </div>
+            <div className='flex items-start gap-3 bg-slate-50 p-4 rounded-xl border border-slate-100'>
+              <span className='text-violet-500 mt-0.5 text-lg'>&#9679;</span>
+              <span className='text-slate-700'><strong>Test your sump pump</strong> monthly if your interior drain connects to one. Pour a bucket of water into the pit to verify it activates. See our <Link href='/articles/why-basement-floods-with-sump-pump' className='text-violet-600 hover:underline'>troubleshooting guide</Link> if it fails.</span>
+            </div>
+          </div>
 
           {/* FAQ Section */}
           <h2 className='text-4xl mb-6'>Frequently Asked Questions</h2>
