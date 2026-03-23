@@ -3,6 +3,77 @@ import Image from 'next/image'
 import LeadForm from '@/components/LeadForm'
 import type { Metadata } from 'next'
 
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'Why does my dehumidifier run constantly but never reach my target humidity?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'The most common cause is a unit that is undersized for the space. Under current DOE test standards (65 degrees Fahrenheit / 60 percent relative humidity), a unit labeled 30 pints removes significantly less moisture in a cool, damp basement than its rating suggests — often 20 to 25 pints per day in real conditions. Compare your basement square footage and dampness level against the sizing chart and confirm the unit\'s capacity matches. Other causes include a dirty filter reducing airflow, iced coils from operating in temperatures below 41 degrees Fahrenheit without auto defrost, or an active moisture source like a foundation crack or plumbing leak that is adding water faster than the unit can remove it.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'Why does my 30-pint dehumidifier collect little water?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Two likely causes: the unit is undersized and running continuously without being able to pull ahead of the moisture load, or it is operating in a space that is too cold for efficient compressor operation. Check the coils — if they are iced over, the unit is too cold to run effectively and needs either an auto-defrost model or to be moved to a warmer location. Also clean the filter and confirm the intake and exhaust vents are not blocked by a wall or stored items.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'Do dehumidifiers reduce allergies?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Yes, indirectly and meaningfully. Dust mites thrive at relative humidity above 50 percent and die off when humidity drops below 45 percent — maintaining a basement at 40 to 50 percent relative humidity creates an environment that significantly reduces dust mite populations over time. Mold requires surface moisture and ambient humidity above 60 percent to colonize new areas, so keeping humidity in the 40 to 50 percent range prevents new mold growth.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'What changed with dehumidifier pint ratings after 2019?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'The Department of Energy updated its test standard in 2019, changing the test conditions from 80 degrees Fahrenheit and 60 percent relative humidity to 65 degrees Fahrenheit and 60 percent relative humidity. Because cooler air holds less moisture, units remove less water per day under the new test conditions. A unit that was rated 70 pints under the old standard might be rated 45 to 50 pints under the new standard — even if it is the exact same machine.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'Can dehumidifiers run in winter?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Standard compressor-based dehumidifiers lose efficiency and can ice up when air temperatures drop below 41 degrees Fahrenheit. If your basement stays above 55 degrees in winter, a standard unit with auto defrost will run adequately. For basements that drop below 55 degrees, a low-temperature rated model with auto defrost is necessary. Desiccant dehumidifiers are the most effective option for very cold spaces.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'Where should I place a dehumidifier in a basement?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Position the unit near the center of the space where possible, at least 6 to 12 inches from walls on all sides to allow unrestricted airflow through the intake and exhaust. Avoid placing it in a corner or against the wall the unit draws air from. If the basement has separate rooms, place the unit in the largest or most moisture-prone room and leave interior doors open.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'How do I know if my dehumidifier is actually working?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'The best confirmation is a separate hygrometer — a standalone humidity meter costing $10 to $30 that gives you an independent reading of the room\'s relative humidity. If the unit is running and the hygrometer confirms the space is holding at 40 to 50 percent relative humidity, it is working correctly regardless of how much water is in the bucket.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'How much does a dehumidifier cost to operate?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'A 50-pint Energy Star certified unit running 8 to 12 hours daily costs approximately $20 to $50 per month at average US electricity rates. Units that run continuously because they are undersized cost significantly more. Choosing an Energy Star certified model and sizing correctly for the space are the two most impactful ways to minimize operating cost.'
+      }
+    }
+  ]
+}
+
 export const metadata: Metadata = {
   title: 'Dehumidifier Myths: Why Your 30-Pint Unit Is Failing & the Science of Proper Sizing | The Basement Guide',
   description: 'Debunking common dehumidifier myths with science-based sizing guidelines updated for 2026. Learn why your 30-pint dehumidifier is undersized and how to choose the right capacity.',
@@ -68,7 +139,7 @@ export default function DehumidifierMythsArticle() {
           </p>
 
           <p>
-            Whether you face musty basements, high humidity in bathrooms, or whole-house moisture problems, understanding dehumidifier capacity, pint ratings, and humidity control will help you reach the EPA-recommended ideal indoor relative humidity range of 30–50% for comfort, health, and home protection.
+            Whether you face musty basements, high humidity in bathrooms, or whole-house moisture problems, understanding dehumidifier capacity, pint ratings, and <a href='/articles/basement-humidity-guide' className='text-teal-600 underline hover:text-teal-800'>humidity control</a> will help you reach the EPA-recommended ideal indoor relative humidity range of 30–50% for comfort, health, and home protection.
           </p>
 
           {/* What to Consider Section */}
@@ -193,7 +264,7 @@ export default function DehumidifierMythsArticle() {
             <div className='bg-rose-50 border border-rose-100 rounded-2xl p-8'>
               <p className='text-rose-700 font-bold text-sm uppercase tracking-wider mb-2'>Myth 7</p>
               <h3 className='text-xl font-bold text-slate-900 mb-2'>Dehumidifiers Eliminate All Mold</h3>
-              <p className='text-slate-600 mb-4'><span className='font-bold text-emerald-700'>Reality:</span> They control humidity to prevent new growth but do not remove existing mold. Fix leaks, improve ventilation, and consider professional remediation when needed.</p>
+              <p className='text-slate-600 mb-4'><span className='font-bold text-emerald-700'>Reality:</span> They control humidity to prevent new growth but do not remove existing mold. Fix leaks, improve ventilation, and consider professional <a href='/articles/mold-remediation-cost' className='text-teal-600 underline hover:text-teal-800'>mold remediation</a> when needed.</p>
             </div>
           </div>
 
@@ -353,30 +424,85 @@ export default function DehumidifierMythsArticle() {
           {/* FAQ Section */}
           <div className='border-t border-slate-100 pt-16 mt-16'>
             <h2 className='text-3xl font-bold text-slate-900 mb-8'>Frequently Asked Questions</h2>
-            <div className='space-y-8 not-prose'>
-              <div className='border-b border-slate-100 pb-8'>
-                <h4 className='text-xl font-bold text-slate-900 mb-3'>Why does my 30-pint dehumidifier collect little water?</h4>
-                <p className='text-slate-600 leading-relaxed'>It may be undersized for the space or operating in too-cool conditions. Check for iced coils and clean filters. If relative humidity remains high, upgrade to the recommended capacity using the sizing chart above.</p>
+            <div className='space-y-6 not-prose'>
+              <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
+                <h4 className='font-bold text-slate-900 mb-2'>Why does my dehumidifier run constantly but never reach my target humidity?</h4>
+                <p className='text-slate-600 leading-relaxed'>The most common cause is a unit that is undersized for the space. Under current DOE test standards (65 degrees Fahrenheit / 60 percent relative humidity), a unit labeled 30 pints removes significantly less moisture in a cool, damp basement than its rating suggests — often 20 to 25 pints per day in real conditions. Compare your basement square footage and dampness level against the sizing chart above and confirm the unit's capacity matches. Other causes include a dirty filter reducing airflow, iced coils from operating in temperatures below 41 degrees Fahrenheit without auto defrost, or an active moisture source like a foundation crack or plumbing leak that is adding water faster than the unit can remove it.</p>
               </div>
-              <div className='border-b border-slate-100 pb-8'>
-                <h4 className='text-xl font-bold text-slate-900 mb-3'>Do dehumidifiers reduce allergies?</h4>
-                <p className='text-slate-600 leading-relaxed'>Yes, by lowering dust mite and mold levels. Models with HEPA or UV options capture more airborne particles for additional allergy relief.</p>
+              <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
+                <h4 className='font-bold text-slate-900 mb-2'>Why does my 30-pint dehumidifier collect little water?</h4>
+                <p className='text-slate-600 leading-relaxed'>Two likely causes: the unit is undersized and running continuously without being able to pull ahead of the moisture load, or it is operating in a space that is too cold for efficient compressor operation. Check the coils — if they are iced over, the unit is too cold to run effectively and needs either an auto-defrost model or to be moved to a warmer location. Also clean the filter and confirm the intake and exhaust vents are not blocked by a wall or stored items. If the unit is warm, running, unobstructed, and still collecting almost nothing, the space may genuinely be at or near target humidity already — confirm with a separate hygrometer rather than relying solely on the unit's built-in reading.</p>
               </div>
-              <div className='border-b border-slate-100 pb-8'>
-                <h4 className='text-xl font-bold text-slate-900 mb-3'>What changed with pint ratings?</h4>
-                <p className='text-slate-600 leading-relaxed'>The 2019 DOE update uses cooler test conditions (65°F vs. 80°F), making new ratings 30–50% lower but more accurate for real-world use. A unit labeled "50 pints" under old standards might now be rated "30 pints."</p>
+              <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
+                <h4 className='font-bold text-slate-900 mb-2'>Do dehumidifiers reduce allergies?</h4>
+                <p className='text-slate-600 leading-relaxed'>Yes, indirectly and meaningfully. Dust mites thrive at relative humidity above 50 percent and die off when humidity drops below 45 percent — maintaining a basement at 40 to 50 percent relative humidity creates an environment that significantly reduces dust mite populations over time. Mold requires surface moisture and ambient humidity above 60 percent to colonize new areas, so keeping humidity in the 40 to 50 percent range prevents new mold growth. Models with HEPA filtration or UV sterilization add a layer of airborne particle capture on top of the humidity benefit. Keep in mind that a dehumidifier does not remove existing mold — it only prevents new growth. Visible mold requires physical remediation before humidity control can be fully effective.</p>
               </div>
-              <div className='border-b border-slate-100 pb-8'>
-                <h4 className='text-xl font-bold text-slate-900 mb-3'>Can dehumidifiers run in winter?</h4>
-                <p className='text-slate-600 leading-relaxed'>Yes. Low-temperature models with auto defrost function down to 41°F or lower. Desiccant types work better in very cold conditions.</p>
+              <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
+                <h4 className='font-bold text-slate-900 mb-2'>What changed with dehumidifier pint ratings after 2019?</h4>
+                <p className='text-slate-600 leading-relaxed'>The Department of Energy updated its test standard in 2019, changing the test conditions from 80 degrees Fahrenheit and 60 percent relative humidity to 65 degrees Fahrenheit and 60 percent relative humidity. Because cooler air holds less moisture, units remove less water per day under the new test conditions. A unit that was rated 70 pints under the old standard might be rated 45 to 50 pints under the new standard — even if it is the exact same machine. This means pre-2019 and post-2019 pint ratings are not directly comparable. When sizing a replacement unit, always use the current DOE pint rating and the sizing chart in this guide rather than trying to match the pint number on your old unit.</p>
               </div>
-              <div className='border-b border-slate-100 pb-8'>
-                <h4 className='text-xl font-bold text-slate-900 mb-3'>How much does a dehumidifier cost to operate?</h4>
-                <p className='text-slate-600 leading-relaxed'>A 50-pint Energy Star model running 8–12 hours daily costs $20–$50 per month, depending on local electricity rates.</p>
+              <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
+                <h4 className='font-bold text-slate-900 mb-2'>Can dehumidifiers run in winter?</h4>
+                <p className='text-slate-600 leading-relaxed'>Standard compressor-based dehumidifiers lose efficiency and can ice up when air temperatures drop below 41 degrees Fahrenheit. If your basement stays above 55 degrees in winter, a standard unit with auto defrost will run adequately. For basements that drop below 55 degrees, a low-temperature rated model with auto defrost is necessary — these are designed to operate effectively down to 33 to 36 degrees Fahrenheit. Desiccant dehumidifiers use a moisture-absorbing material rather than refrigeration and are the most effective option for very cold spaces, though they consume more energy than compressor units at equivalent capacity. In most finished, conditioned basements that stay above 60 degrees year-round, a standard Energy Star unit runs reliably through winter without issue.</p>
               </div>
-              <div className='border-b border-slate-100 pb-8'>
-                <h4 className='text-xl font-bold text-slate-900 mb-3'>Are eco-friendly dehumidifiers available?</h4>
-                <p className='text-slate-600 leading-relaxed'>Yes. Look for models with low global warming potential refrigerants like R-32, or desiccant options. Recycle old units through proper e-waste channels.</p>
+              <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
+                <h4 className='font-bold text-slate-900 mb-2'>Where should I place a dehumidifier in a basement?</h4>
+                <p className='text-slate-600 leading-relaxed'>Position the unit near the center of the space where possible, at least 6 to 12 inches from walls on all sides to allow unrestricted airflow through the intake and exhaust. Avoid placing it in a corner or against the wall the unit draws air from — this significantly reduces the volume of air processed per hour. If the basement has separate rooms, place the unit in the largest or most moisture-prone room and leave interior doors open. Elevate the unit on blocks or a small platform if the floor is prone to minor seepage — most units are not designed to operate while partially submerged. Connect a drain hose to the continuous drain port so the unit runs unattended without requiring manual bucket emptying, particularly important for high-moisture seasons.</p>
+              </div>
+              <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
+                <h4 className='font-bold text-slate-900 mb-2'>How do I know if my dehumidifier is actually working?</h4>
+                <p className='text-slate-600 leading-relaxed'>The best confirmation is a separate hygrometer — a standalone humidity meter costing $10 to $30 that gives you an independent reading of the room's relative humidity. If the unit is running and the hygrometer confirms the space is holding at 40 to 50 percent relative humidity, it is working correctly regardless of how much water is in the bucket. If humidity stays consistently above 55 to 60 percent despite the unit running continuously, the unit is undersized, malfunctioning, or competing with an active moisture source. Check the filter for blockage, inspect the coils for ice, and confirm there is no standing water or active leak feeding moisture faster than the unit can remove it. An undersized unit that runs constantly is not working effectively — it is simply losing the race.</p>
+              </div>
+              <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
+                <h4 className='font-bold text-slate-900 mb-2'>How much does a dehumidifier cost to operate?</h4>
+                <p className='text-slate-600 leading-relaxed'>A 50-pint Energy Star certified unit running 8 to 12 hours daily costs approximately $20 to $50 per month at average US electricity rates of $0.13 to $0.16 per kilowatt-hour. Units that run continuously because they are undersized for the space cost significantly more — an undersized 30-pint unit running 24 hours a day can cost as much as or more than a properly sized 50-pint unit running 10 hours a day, while delivering inferior humidity control. Choosing an Energy Star certified model and sizing correctly for the space are the two most impactful ways to minimize operating cost. Smart models with app control allow you to monitor run time and adjust settings remotely, which can further reduce energy use during periods when the basement is unoccupied.</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Glossary */}
+          <div className='border-t border-slate-100 pt-16 mt-16'>
+            <h2 className='text-3xl font-bold text-slate-900 mb-8'>Glossary of Dehumidifier Terms</h2>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-6 not-prose'>
+              <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+                <h4 className='font-bold text-slate-900 mb-2'>Relative Humidity (RH)</h4>
+                <p className='text-slate-600 text-sm leading-relaxed'>The amount of water vapor present in air expressed as a percentage of the maximum amount the air can hold at that temperature. Warmer air holds more moisture than cooler air, which is why the same absolute moisture level produces higher relative humidity in a cool basement than in a warm room above grade. The EPA recommends maintaining indoor relative humidity between 30 and 50 percent to prevent mold, dust mites, and moisture damage.</p>
+              </div>
+              <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+                <h4 className='font-bold text-slate-900 mb-2'>Dew Point</h4>
+                <p className='text-slate-600 text-sm leading-relaxed'>The temperature at which air becomes fully saturated with moisture and water vapor begins to condense into liquid. Compressor-based dehumidifiers work by cooling incoming air below its dew point, causing moisture to condense on the coils and drip into the collection bucket. Understanding dew point explains why dehumidifiers lose efficiency in cold spaces — there is less moisture differential to exploit at lower temperatures.</p>
+              </div>
+              <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+                <h4 className='font-bold text-slate-900 mb-2'>Humidistat</h4>
+                <p className='text-slate-600 text-sm leading-relaxed'>A built-in sensor and control that measures ambient relative humidity and automatically turns the dehumidifier on and off to maintain a user-set target level. A properly functioning humidistat prevents over-drying and reduces energy consumption by running the unit only when needed. Separate standalone hygrometers are more accurate than most built-in humidistats and are useful for verifying actual room conditions.</p>
+              </div>
+              <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+                <h4 className='font-bold text-slate-900 mb-2'>Pint Capacity (DOE Rating)</h4>
+                <p className='text-slate-600 text-sm leading-relaxed'>The volume of water a dehumidifier removes per day measured in pints, tested under standardized conditions set by the Department of Energy. Since 2019, the test standard uses 65 degrees Fahrenheit and 60 percent relative humidity, producing lower but more realistic ratings than the pre-2019 standard of 80 degrees Fahrenheit. Pre-2019 and post-2019 pint ratings are not directly comparable — always use the current rating when sizing a replacement unit.</p>
+              </div>
+              <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+                <h4 className='font-bold text-slate-900 mb-2'>Short-Cycling</h4>
+                <p className='text-slate-600 text-sm leading-relaxed'>A condition where a dehumidifier turns on and off rapidly without completing a full operating cycle, reducing moisture removal efficiency and increasing mechanical wear. Most commonly caused by an oversized unit that reaches its target humidity quickly in a small space, or by a malfunctioning humidistat. An appropriately sized unit for the space runs longer, more complete cycles that remove more moisture per hour of operation.</p>
+              </div>
+              <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+                <h4 className='font-bold text-slate-900 mb-2'>Energy Factor (EF)</h4>
+                <p className='text-slate-600 text-sm leading-relaxed'>A measure of dehumidifier efficiency expressed in liters of water removed per kilowatt-hour of electricity consumed. Higher values indicate better efficiency. Energy Star certified dehumidifiers meet minimum energy factor thresholds set by the EPA and typically use 15 percent less energy than non-certified models at equivalent capacity.</p>
+              </div>
+              <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+                <h4 className='font-bold text-slate-900 mb-2'>AHAM (Association of Home Appliance Manufacturers)</h4>
+                <p className='text-slate-600 text-sm leading-relaxed'>The industry organization that publishes dehumidifier sizing guidelines and capacity standards. AHAM's sizing recommendations, which account for square footage and dampness level, are the standard reference used by manufacturers and HVAC professionals for matching dehumidifier capacity to space conditions.</p>
+              </div>
+              <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+                <h4 className='font-bold text-slate-900 mb-2'>Auto Defrost</h4>
+                <p className='text-slate-600 text-sm leading-relaxed'>A feature that temporarily reverses the refrigeration cycle or shuts the compressor off when the evaporator coils begin to ice over, allowing the ice to melt before resuming normal operation. Essential for basements that drop below 55 degrees Fahrenheit — without auto defrost, coil icing reduces airflow to near zero and the unit stops removing moisture entirely despite appearing to run normally.</p>
+              </div>
+              <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+                <h4 className='font-bold text-slate-900 mb-2'>Desiccant Dehumidifier</h4>
+                <p className='text-slate-600 text-sm leading-relaxed'>A dehumidifier that removes moisture by passing air through a rotating wheel coated with a hygroscopic material (typically silica gel) that absorbs water vapor, which is then driven off by a heater into a separate exhaust stream. Effective at temperatures well below the 41-degree threshold where compressor units lose efficiency, making them the preferred option for unheated basements in cold climates. Generally more expensive to purchase and operate than equivalent-capacity compressor units in moderate temperature conditions.</p>
+              </div>
+              <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+                <h4 className='font-bold text-slate-900 mb-2'>Condensate Pump</h4>
+                <p className='text-slate-600 text-sm leading-relaxed'>A small integrated or add-on pump that automatically moves collected water from the dehumidifier's reservoir up and out through a drain hose to a sink, floor drain, or exterior discharge point. Eliminates the need for manual bucket emptying and allows the unit to run unattended. Essential for basement installations where the floor drain or sink is not lower than the unit's reservoir outlet.</p>
               </div>
             </div>
           </div>
@@ -447,6 +573,7 @@ export default function DehumidifierMythsArticle() {
 
         </div>
       </main>
+      <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
     </div>
   )
 }
