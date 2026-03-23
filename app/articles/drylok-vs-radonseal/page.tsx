@@ -24,7 +24,7 @@ export default function DrylokVsRadonsealArticle() {
                   name: 'Which is better for basement walls, Drylok or RadonSeal?',
                   acceptedAnswer: {
                     '@type': 'Answer',
-                    text: 'RadonSeal is better for long-term sealing and radon control. Drylok is better for quick, affordable surface protection.',
+                    text: 'For long-term performance, radon reduction, and permanent concrete sealing, RadonSeal is the better product because its silicate chemistry penetrates up to 4 inches into the concrete and creates a permanent internal seal that does not peel, crack, or require reapplication. For quick DIY surface protection, a painted finish, and minor dampness control, Drylok is the more practical choice because it applies like paint, dries quickly, and is widely available at home improvement stores. The most complete approach for unfinished basement walls is to apply RadonSeal first as a base treatment, allow it to cure fully, then apply Drylok over it for the surface barrier and finished appearance. Neither product is appropriate as the sole solution for walls with active water seepage under hydrostatic pressure — in that case, a drainage system addresses the water source before any sealer is applied. The question of which is better is ultimately a question of what problem you are trying to solve and on what timeline. See our complete basement waterproofing guide at https://thebasement.guide/articles/complete-basement-waterproofing-guide for how sealers fit into a complete waterproofing approach.',
                   },
                 },
                 {
@@ -32,7 +32,7 @@ export default function DrylokVsRadonsealArticle() {
                   name: 'Can I use Drylok and RadonSeal together?',
                   acceptedAnswer: {
                     '@type': 'Answer',
-                    text: 'Yes. Apply RadonSeal first to penetrate, then Drylok for a surface barrier. Many users recommend this hybrid approach.',
+                    text: 'Yes, and combining them in sequence is often the most effective approach for unfinished basement walls with moisture and radon concerns. Apply RadonSeal first as the base treatment, allowing it to penetrate and cure for the full recommended time before applying anything over it — typically 24 to 48 hours depending on concrete porosity and temperature. Once RadonSeal has cured, Drylok can be applied over it in two coats to provide the surface barrier, painted finish, and additional moisture resistance that RadonSeal alone does not deliver. The combination provides RadonSeal\'s permanent deep-penetrating seal and radon reduction alongside Drylok\'s surface protection and mildew-resistant painted appearance. Do not apply Drylok first if you intend to use RadonSeal, because Drylok\'s surface coating prevents RadonSeal from penetrating into the concrete as intended.',
                   },
                 },
                 {
@@ -40,7 +40,7 @@ export default function DrylokVsRadonsealArticle() {
                   name: 'How much does Drylok vs RadonSeal cost?',
                   acceptedAnswer: {
                     '@type': 'Answer',
-                    text: 'Drylok costs $100\u2013$150 per 5-gallon bucket. RadonSeal costs $150\u2013$250 per 5-gallon bucket. Factor in coverage for true value.',
+                    text: 'Drylok Extreme costs $100 to $150 per 5-gallon bucket and covers approximately 75 to 100 square feet per gallon on porous masonry surfaces, making the material cost for a 500 square foot basement approximately $250 to $375 for two coats. RadonSeal Plus costs $150 to $250 per 5-gallon bucket but covers significantly more surface at 200 to 250 square feet per gallon, making the material cost for the same 500 square foot basement approximately $150 to $250 for one to two coats. On a per-square-foot basis, RadonSeal\'s higher coverage rate makes it cost-competitive with or cheaper than Drylok despite its higher price per bucket. The total project cost including materials and DIY labor for a full basement application of 500 to 1,000 square feet runs $500 to $1,500 depending on which product or combination is used. RadonSeal\'s 20-plus year lifespan versus Drylok\'s 5 to 10 year lifespan before reapplication is needed makes RadonSeal significantly more cost-effective over the long term despite the similar or slightly higher upfront material cost.',
                   },
                 },
                 {
@@ -48,7 +48,7 @@ export default function DrylokVsRadonsealArticle() {
                   name: 'Is RadonSeal worth it over Drylok?',
                   acceptedAnswer: {
                     '@type': 'Answer',
-                    text: 'If you want 20 years of protection without reapplying, yes. For short-term fixes, Drylok suffices.',
+                    text: 'For homeowners who want 20 or more years of protection without reapplication, permanent concrete hardening, and meaningful radon gas reduction, RadonSeal is worth the investment because its permanent chemical bond with the concrete matrix cannot peel, flake, or be pushed off by hydrostatic pressure the way a surface coating can. For homeowners who need a quick, affordable solution for minor dampness on walls that will be painted or finished, or who need to apply a sealer in the short term while planning a more comprehensive waterproofing project later, Drylok provides adequate protection at a lower upfront cost and with simpler application. The 20-plus year lifespan of RadonSeal versus the 5 to 10 year reapplication cycle for Drylok means that a homeowner who applies Drylok will spend roughly the same or more money over a 20-year period while also investing the labor of reapplication every 5 to 10 years. If radon testing has shown levels above 2 pCi/L and a full sub-slab depressurization system has not been installed, RadonSeal\'s radon reduction benefit adds meaningful health value beyond its moisture control function. See our radon and basement waterproofing guide at https://thebasement.guide/articles/radon-and-basement-waterproofing for how sealer-based radon reduction compares to active mitigation systems.',
                   },
                 },
                 {
@@ -56,7 +56,15 @@ export default function DrylokVsRadonsealArticle() {
                   name: 'Does Drylok stop radon?',
                   acceptedAnswer: {
                     '@type': 'Answer',
-                    text: 'No, Drylok offers minimal radon blocking. RadonSeal is specifically designed for radon reduction.',
+                    text: 'Drylok provides minimal radon reduction because it is a surface coating that sits on top of the concrete rather than penetrating into the pores and capillaries where radon travels from the surrounding soil into the basement. The EPA recommends taking action when indoor radon levels reach 4 pCi/L, and surface coatings like Drylok are not recognized as an effective radon mitigation method by either the EPA or the NRPP (National Radon Proficiency Program). RadonSeal Plus is specifically formulated and tested for radon reduction, with manufacturer data showing up to 99 percent reduction in radon transmission through treated concrete surfaces. However, even RadonSeal should be understood as a supplemental measure rather than a substitute for active sub-slab depressurization when radon levels are at or above the EPA action threshold. Test your home with a radon test kit before deciding on a mitigation approach, and consult a licensed radon mitigator if levels are above 4 pCi/L. See our radon testing and mitigation guide at https://thebasement.guide/articles/radon-testing-and-mitigation for the full testing and mitigation framework.',
+                  },
+                },
+                {
+                  '@type': 'Question',
+                  name: 'What if my walls are already painted?',
+                  acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: 'If your walls are already painted with a standard latex or oil-based paint, RadonSeal cannot be applied effectively over the existing coating because the penetrating silicate chemistry requires direct contact with bare concrete or masonry to react and penetrate. To use RadonSeal on previously painted walls, the existing paint must be stripped using a wire brush, sandblasting, or chemical stripper, and the surface must be clean and bare before RadonSeal is applied. Drylok can sometimes be applied over existing paint if the existing coating is sound, fully adhered, and not peeling or flaking, though the manufacturer recommends testing a small area first and preparing the surface by cleaning and removing any loose material. If the existing paint is flaking or peeling, it must be removed entirely before applying either product, because a new coating applied over a failing surface will fail at the same rate as the layer beneath it. For walls that have been previously painted with Drylok specifically, new coats of Drylok can be applied directly over the existing Drylok once the surface is cleaned and any loose or peeling material is removed.',
                   },
                 },
               ],
@@ -139,6 +147,10 @@ export default function DrylokVsRadonsealArticle() {
                 In this comparison, we break down the pros, cons, key differences, costs, application tips, and real-world recommendations. Whether you are dealing with minor dampness, efflorescence, or full-on leaks, understanding Drylok vs RadonSeal will help you pick the best basement wall sealer for your needs.
               </p>
             </section>
+
+            <p className='text-lg text-slate-700 leading-relaxed mb-12'>
+              Drylok and RadonSeal represent two different product categories that address basement moisture at different points in the problem: Drylok is a surface barrier that sits on top of the concrete and resists moisture from penetrating inward, while RadonSeal is a penetrating treatment that reacts chemically with the concrete matrix to seal pores from within the material itself. The critical limitation shared by both products is that neither is a substitute for a drainage system when active hydrostatic water is entering the basement under pressure &mdash; sealers of either type work best for vapor transmission, minor dampness, and efflorescence control rather than for water that is flowing through the wall under load. In practice, the two products are often complementary rather than competing: RadonSeal is applied first as a permanent base treatment that hardens the concrete and blocks pores, then Drylok is applied over it to provide a painted surface finish and an additional moisture barrier for the wall face. Understanding this layered relationship prevents the common mistake of choosing one product over the other when the right answer for a specific wall may be both in sequence.
+            </p>
 
             {/* Quick Comparison Table */}
             <section>
@@ -333,33 +345,116 @@ export default function DrylokVsRadonsealArticle() {
               </div>
             </section>
 
+            {/* Decision Table */}
+            <section>
+              <h2 className='text-3xl font-bold text-slate-900 mb-6'>Which Product Is Right for Your Situation?</h2>
+              <div className='overflow-x-auto my-8 not-prose'>
+                <table className='w-full text-sm border-collapse'>
+                  <thead>
+                    <tr className='bg-emerald-800 text-white text-sm'>
+                      <th className='p-3 text-left font-semibold'>Your Situation</th>
+                      <th className='p-3 text-left font-semibold'>Recommended Product</th>
+                      <th className='p-3 text-left font-semibold'>Reason</th>
+                    </tr>
+                  </thead>
+                  <tbody className='divide-y divide-gray-200'>
+                    <tr className='bg-white'>
+                      <td className='p-3'>Minor dampness or condensation on bare concrete walls</td>
+                      <td className='p-3'>RadonSeal first, then Drylok over it</td>
+                      <td className='p-3'>Best combination for long-term moisture and vapor control</td>
+                    </tr>
+                    <tr className='bg-gray-50'>
+                      <td className='p-3'>Quick DIY fix, walls need painted finish</td>
+                      <td className='p-3'>Drylok Extreme</td>
+                      <td className='p-3'>Applies like paint, dries fast, affordable and widely available</td>
+                    </tr>
+                    <tr className='bg-white'>
+                      <td className='p-3'>Radon levels between 2 and 4 pCi/L, no active drainage system yet</td>
+                      <td className='p-3'>RadonSeal Plus</td>
+                      <td className='p-3'>Up to 99 percent radon reduction through treated concrete</td>
+                    </tr>
+                    <tr className='bg-gray-50'>
+                      <td className='p-3'>Radon levels at or above 4 pCi/L</td>
+                      <td className='p-3'>Active sub-slab depressurization system, RadonSeal as supplement</td>
+                      <td className='p-3'>Sealer alone is not sufficient at EPA action threshold</td>
+                    </tr>
+                    <tr className='bg-white'>
+                      <td className='p-3'>Efflorescence on walls, moisture migrating through</td>
+                      <td className='p-3'>RadonSeal first to address pore pathways, then Drylok</td>
+                      <td className='p-3'>Penetrating sealer more effective at reducing efflorescence long-term</td>
+                    </tr>
+                    <tr className='bg-gray-50'>
+                      <td className='p-3'>Active water seeping through wall under pressure</td>
+                      <td className='p-3'>Neither &mdash; install interior drainage system first</td>
+                      <td className='p-3'>Neither sealer stops active hydrostatic water intrusion</td>
+                    </tr>
+                    <tr className='bg-white'>
+                      <td className='p-3'>Walls previously painted, cannot strip</td>
+                      <td className='p-3'>Drylok over existing sound paint</td>
+                      <td className='p-3'>RadonSeal requires bare concrete; Drylok can go over sound paint</td>
+                    </tr>
+                    <tr className='bg-gray-50'>
+                      <td className='p-3'>Walls previously painted, stripping is possible</td>
+                      <td className='p-3'>Strip, apply RadonSeal, then Drylok</td>
+                      <td className='p-3'>Full performance of both products requires bare concrete</td>
+                    </tr>
+                    <tr className='bg-white'>
+                      <td className='p-3'>Unfinished basement, permanent long-term protection</td>
+                      <td className='p-3'>RadonSeal Plus only</td>
+                      <td className='p-3'>20-plus year lifespan, no reapplication needed</td>
+                    </tr>
+                    <tr className='bg-gray-50'>
+                      <td className='p-3'>Planning to finish basement with drywall</td>
+                      <td className='p-3'>RadonSeal base coat, Drylok finish, then vapor barrier and stud wall</td>
+                      <td className='p-3'>Layered approach before organic finishing materials are installed</td>
+                    </tr>
+                    <tr className='bg-white'>
+                      <td className='p-3'>Block walls with high porosity</td>
+                      <td className='p-3'>RadonSeal (2 coats), then Drylok</td>
+                      <td className='p-3'>Multiple coats of RadonSeal needed for dense block pore filling</td>
+                    </tr>
+                    <tr className='bg-gray-50'>
+                      <td className='p-3'>Budget under $200, small area</td>
+                      <td className='p-3'>Drylok Original</td>
+                      <td className='p-3'>Most affordable entry-level option for minor moisture control</td>
+                    </tr>
+                    <tr className='bg-white'>
+                      <td className='p-3'>Long-term value, willing to invest upfront</td>
+                      <td className='p-3'>RadonSeal Plus</td>
+                      <td className='p-3'>Lower 20-year cost than repeated Drylok reapplication cycles</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </section>
+
             {/* FAQ */}
             <section>
               <h2 className='text-3xl font-bold text-slate-900 mb-6'>Frequently Asked Questions</h2>
               <div className='space-y-4'>
                 <div className='bg-white rounded-lg p-6 border border-slate-200 shadow-sm'>
                   <h3 className='font-semibold text-slate-900 mb-2'>Which is better for basement walls, Drylok or RadonSeal?</h3>
-                  <p className='text-slate-700'>RadonSeal for long-term sealing and radon control. Drylok for quick, affordable surface protection.</p>
+                  <p className='text-slate-700'>For long-term performance, radon reduction, and permanent concrete sealing, RadonSeal is the better product because its silicate chemistry penetrates up to 4 inches into the concrete and creates a permanent internal seal that does not peel, crack, or require reapplication. For quick DIY surface protection, a painted finish, and minor dampness control, Drylok is the more practical choice because it applies like paint, dries quickly, and is widely available at home improvement stores. The most complete approach for unfinished basement walls is to apply RadonSeal first as a base treatment, allow it to cure fully, then apply Drylok over it for the surface barrier and finished appearance. Neither product is appropriate as the sole solution for walls with active water seepage under hydrostatic pressure &mdash; in that case, a drainage system addresses the water source before any sealer is applied. The question of which is better is ultimately a question of what problem you are trying to solve and on what timeline. See our <Link href='/articles/complete-basement-waterproofing-guide' className='text-emerald-700 underline hover:text-emerald-900'>complete basement waterproofing guide</Link> for how sealers fit into a complete waterproofing approach.</p>
                 </div>
                 <div className='bg-white rounded-lg p-6 border border-slate-200 shadow-sm'>
                   <h3 className='font-semibold text-slate-900 mb-2'>Can I use Drylok and RadonSeal together?</h3>
-                  <p className='text-slate-700'>Yes &ndash; apply RadonSeal first to penetrate, then Drylok for a barrier. Many users recommend this.</p>
+                  <p className='text-slate-700'>Yes, and combining them in sequence is often the most effective approach for unfinished basement walls with moisture and radon concerns. Apply RadonSeal first as the base treatment, allowing it to penetrate and cure for the full recommended time before applying anything over it &mdash; typically 24 to 48 hours depending on concrete porosity and temperature. Once RadonSeal has cured, Drylok can be applied over it in two coats to provide the surface barrier, painted finish, and additional moisture resistance that RadonSeal alone does not deliver. The combination provides RadonSeal&apos;s permanent deep-penetrating seal and radon reduction alongside Drylok&apos;s surface protection and mildew-resistant painted appearance. Do not apply Drylok first if you intend to use RadonSeal, because Drylok&apos;s surface coating prevents RadonSeal from penetrating into the concrete as intended.</p>
                 </div>
                 <div className='bg-white rounded-lg p-6 border border-slate-200 shadow-sm'>
                   <h3 className='font-semibold text-slate-900 mb-2'>How much does Drylok vs RadonSeal cost?</h3>
-                  <p className='text-slate-700'>Drylok: $100&ndash;$150 per 5-gal. RadonSeal: $150&ndash;$250 per 5-gal. Factor in coverage for true value.</p>
+                  <p className='text-slate-700'>Drylok Extreme costs $100 to $150 per 5-gallon bucket and covers approximately 75 to 100 square feet per gallon on porous masonry surfaces, making the material cost for a 500 square foot basement approximately $250 to $375 for two coats. RadonSeal Plus costs $150 to $250 per 5-gallon bucket but covers significantly more surface at 200 to 250 square feet per gallon, making the material cost for the same 500 square foot basement approximately $150 to $250 for one to two coats. On a per-square-foot basis, RadonSeal&apos;s higher coverage rate makes it cost-competitive with or cheaper than Drylok despite its higher price per bucket. The total project cost including materials and DIY labor for a full basement application of 500 to 1,000 square feet runs $500 to $1,500 depending on which product or combination is used. RadonSeal&apos;s 20-plus year lifespan versus Drylok&apos;s 5 to 10 year lifespan before reapplication is needed makes RadonSeal significantly more cost-effective over the long term despite the similar or slightly higher upfront material cost.</p>
                 </div>
                 <div className='bg-white rounded-lg p-6 border border-slate-200 shadow-sm'>
                   <h3 className='font-semibold text-slate-900 mb-2'>Is RadonSeal worth it over Drylok?</h3>
-                  <p className='text-slate-700'>If you want 20 years of protection without reapplying, yes. For short-term, Drylok suffices.</p>
+                  <p className='text-slate-700'>For homeowners who want 20 or more years of protection without reapplication, permanent concrete hardening, and meaningful radon gas reduction, RadonSeal is worth the investment because its permanent chemical bond with the concrete matrix cannot peel, flake, or be pushed off by hydrostatic pressure the way a surface coating can. For homeowners who need a quick, affordable solution for minor dampness on walls that will be painted or finished, or who need to apply a sealer in the short term while planning a more comprehensive waterproofing project later, Drylok provides adequate protection at a lower upfront cost and with simpler application. The 20-plus year lifespan of RadonSeal versus the 5 to 10 year reapplication cycle for Drylok means that a homeowner who applies Drylok will spend roughly the same or more money over a 20-year period while also investing the labor of reapplication every 5 to 10 years. If radon testing has shown levels above 2 pCi/L and a full sub-slab depressurization system has not been installed, RadonSeal&apos;s radon reduction benefit adds meaningful health value beyond its moisture control function. See our <Link href='/articles/radon-and-basement-waterproofing' className='text-emerald-700 underline hover:text-emerald-900'>radon and basement waterproofing guide</Link> for how sealer-based radon reduction compares to active mitigation systems.</p>
                 </div>
                 <div className='bg-white rounded-lg p-6 border border-slate-200 shadow-sm'>
                   <h3 className='font-semibold text-slate-900 mb-2'>Does Drylok stop radon?</h3>
-                  <p className='text-slate-700'>No, minimally. RadonSeal is designed for it.</p>
+                  <p className='text-slate-700'>Drylok provides minimal radon reduction because it is a surface coating that sits on top of the concrete rather than penetrating into the pores and capillaries where radon travels from the surrounding soil into the basement. The EPA recommends taking action when indoor radon levels reach 4 pCi/L, and surface coatings like Drylok are not recognized as an effective radon mitigation method by either the EPA or the NRPP (National Radon Proficiency Program). RadonSeal Plus is specifically formulated and tested for radon reduction, with manufacturer data showing up to 99 percent reduction in radon transmission through treated concrete surfaces. However, even RadonSeal should be understood as a supplemental measure rather than a substitute for active sub-slab depressurization when radon levels are at or above the EPA action threshold. Test your home with a radon test kit before deciding on a mitigation approach, and consult a licensed radon mitigator if levels are above 4 pCi/L. See our <Link href='/articles/radon-testing-and-mitigation' className='text-emerald-700 underline hover:text-emerald-900'>radon testing and mitigation guide</Link> for the full testing and mitigation framework.</p>
                 </div>
                 <div className='bg-white rounded-lg p-6 border border-slate-200 shadow-sm'>
                   <h3 className='font-semibold text-slate-900 mb-2'>What if my walls are already painted?</h3>
-                  <p className='text-slate-700'>Strip paint before RadonSeal. Drylok can go over some surfaces but test adhesion first.</p>
+                  <p className='text-slate-700'>If your walls are already painted with a standard latex or oil-based paint, RadonSeal cannot be applied effectively over the existing coating because the penetrating silicate chemistry requires direct contact with bare concrete or masonry to react and penetrate. To use RadonSeal on previously painted walls, the existing paint must be stripped using a wire brush, sandblasting, or chemical stripper, and the surface must be clean and bare before RadonSeal is applied. Drylok can sometimes be applied over existing paint if the existing coating is sound, fully adhered, and not peeling or flaking, though the manufacturer recommends testing a small area first and preparing the surface by cleaning and removing any loose material. If the existing paint is flaking or peeling, it must be removed entirely before applying either product, because a new coating applied over a failing surface will fail at the same rate as the layer beneath it. For walls that have been previously painted with Drylok specifically, new coats of Drylok can be applied directly over the existing Drylok once the surface is cleaned and any loose or peeling material is removed.</p>
                 </div>
               </div>
             </section>
@@ -369,11 +464,11 @@ export default function DrylokVsRadonsealArticle() {
               <h2 className='text-3xl font-bold text-slate-900 mb-6'>Quick Glossary of Basement Sealer Terms</h2>
               <div className='bg-slate-50 rounded-lg border border-slate-200 p-6'>
                 <dl className='space-y-4'>
-                  <div><dt className='font-semibold text-slate-900'>Hydrostatic Pressure</dt><dd className='text-slate-700'>Force from groundwater pushing against walls.</dd></div>
-                  <div><dt className='font-semibold text-slate-900'>Efflorescence</dt><dd className='text-slate-700'>White mineral deposits from moisture passing through concrete.</dd></div>
-                  <div><dt className='font-semibold text-slate-900'>Penetrating Sealer</dt><dd className='text-slate-700'>Soaks into concrete to block pores from within.</dd></div>
-                  <div><dt className='font-semibold text-slate-900'>Surface Coating</dt><dd className='text-slate-700'>Barrier applied on top of the wall, like paint.</dd></div>
-                  <div><dt className='font-semibold text-slate-900'>Radon Mitigation</dt><dd className='text-slate-700'>Reducing harmful radon gas levels in living spaces.</dd></div>
+                  <div><dt className='font-semibold text-slate-900'>Hydrostatic Pressure</dt><dd className='text-slate-700'>The lateral and upward force exerted by water-saturated soil against a foundation wall or floor, which increases with soil moisture content and depth and is the primary driver of water intrusion in basements. Neither Drylok nor RadonSeal is designed to stop active hydrostatic water intrusion under significant pressure &mdash; both products work best for vapor transmission and minor dampness control, while active seepage under pressure requires an interior drainage system. See our <Link href='/articles/complete-basement-waterproofing-guide' className='text-emerald-700 underline hover:text-emerald-900'>complete basement waterproofing guide</Link> for how sealers fit alongside drainage systems in a complete waterproofing approach.</dd></div>
+                  <div><dt className='font-semibold text-slate-900'>Efflorescence</dt><dd className='text-slate-700'>The white, chalky mineral deposits that appear on concrete, brick, or masonry block surfaces when water migrates through the material, dissolves soluble salts, and evaporates on the interior surface leaving the salts behind. Efflorescence is not structurally damaging but is a reliable indicator that water is actively moving through the wall, and both Drylok and RadonSeal help reduce efflorescence by limiting the moisture migration that causes it. RadonSeal is more effective at reducing efflorescence long-term because its deep penetration addresses the pore pathways through which the moisture travels, while Drylok&apos;s surface barrier may blister or peel as moisture pressure builds beneath it. See our <Link href='/articles/basement-efflorescence' className='text-emerald-700 underline hover:text-emerald-900'>basement efflorescence guide</Link> for how to address the underlying moisture source.</dd></div>
+                  <div><dt className='font-semibold text-slate-900'>Penetrating Sealer</dt><dd className='text-slate-700'>A concrete treatment that is absorbed into the pore structure of the concrete and reacts chemically with cement particles to form insoluble compounds that fill the pores from within, as opposed to a surface coating that sits on top of the material. RadonSeal is a penetrating silicate sealer that penetrates up to 4 inches into concrete and becomes a permanent part of the concrete matrix that cannot peel, crack, or be pushed off by hydrostatic pressure. Penetrating sealers require bare concrete or masonry for proper penetration and cannot be applied effectively over existing paint or coatings. See our <Link href='/articles/waterproof-basement-paint-sealers' className='text-emerald-700 underline hover:text-emerald-900'>waterproof basement paint and sealers guide</Link> for a full comparison of sealer types.</dd></div>
+                  <div><dt className='font-semibold text-slate-900'>Surface Coating</dt><dd className='text-slate-700'>A barrier material applied to the face of a concrete or masonry wall that dries to form a layer on top of the surface, blocking moisture from passing through from the exterior side. Drylok is a surface coating that withstands up to 10 to 15 psi of hydrostatic pressure, making it effective for minor dampness and vapor transmission but vulnerable to peeling or blistering when water pressure from behind exceeds its rated limit. Surface coatings require good surface adhesion to perform as rated, which means walls must be clean, dry, and free of dust, oil, efflorescence, and existing coatings before application.</dd></div>
+                  <div><dt className='font-semibold text-slate-900'>Radon Mitigation</dt><dd className='text-slate-700'>The process of reducing indoor radon gas levels through one of several recognized methods, with sub-slab depressurization (installing a pipe and fan system that draws radon from beneath the slab and vents it outside) being the most effective active method and penetrating concrete sealers like RadonSeal being a recognized passive supplemental measure. The EPA recommends taking mitigation action when indoor radon levels reach 4 pCi/L, and levels between 2 and 4 pCi/L warrant consideration given the cumulative risk of long-term exposure. Penetrating sealers can reduce radon transmission through treated concrete surfaces by up to 99 percent but do not address radon that enters through gaps, joints, or the cove joint that sealers cannot fully cover. See our <Link href='/articles/radon-testing-and-mitigation' className='text-emerald-700 underline hover:text-emerald-900'>radon testing and mitigation guide</Link> for the full testing and active mitigation framework.</dd></div>
                 </dl>
               </div>
             </section>
@@ -389,17 +484,82 @@ export default function DrylokVsRadonsealArticle() {
             </section>
           </article>
 
-          {/* Sidebar */}
+          {/* Sidebar with Related Guides */}
           <aside className='lg:col-span-4 space-y-8'>
-            <div className='bg-white rounded-lg p-6 border border-slate-200'>
-              <h4 className='font-bold text-slate-900 mb-3'>Related Guides</h4>
-              <ul className='space-y-3 text-sm'>
-                <li><Link href='/articles/complete-basement-waterproofing-guide' className='text-indigo-600 hover:underline'>Complete Waterproofing Guide</Link></li>
-                <li><Link href='/articles/basement-efflorescence' className='text-indigo-600 hover:underline'>Basement Efflorescence Explained</Link></li>
-                <li><Link href='/articles/basement-waterproofing-cost' className='text-indigo-600 hover:underline'>Waterproofing Cost 2026</Link></li>
-                <li><Link href='/articles/basement-humidity' className='text-indigo-600 hover:underline'>Basement Humidity Guide</Link></li>
-                <li><Link href='/articles/basement-mold-prevention' className='text-indigo-600 hover:underline'>Mold Prevention Guide</Link></li>
-              </ul>
+            <div className='sticky top-8'>
+              <h2 className='text-2xl font-bold text-slate-900 mb-6'>Related Guides</h2>
+
+              <h3 className='text-xl font-bold text-slate-800 mb-4'>On thebasement.guide</h3>
+              <div className='grid md:grid-cols-2 gap-6 mb-10'>
+                <Link href='/articles/complete-basement-waterproofing-guide' className='block bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+                  <h3 className='font-bold text-slate-900'>Complete Basement Waterproofing Guide</h3>
+                  <p className='text-slate-600 text-sm'>How sealers like Drylok and RadonSeal fit into a complete waterproofing system alongside drainage, crack repair, and exterior water management, with honest guidance on what sealers can and cannot do.</p>
+                </Link>
+                <Link href='/articles/basement-waterproofing-cost' className='block bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+                  <h3 className='font-bold text-slate-900'>Basement Waterproofing Cost 2026</h3>
+                  <p className='text-slate-600 text-sm'>Full pricing for every waterproofing method from DIY sealers to professional drainage systems, for context on where sealer costs sit relative to complete waterproofing solutions.</p>
+                </Link>
+                <Link href='/articles/waterproof-basement-paint-sealers' className='block bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+                  <h3 className='font-bold text-slate-900'>Waterproof Basement Paint and Sealers</h3>
+                  <p className='text-slate-600 text-sm'>A broader review of all waterproof coating and sealer options for basement walls, including how Drylok and RadonSeal compare to other products in the category.</p>
+                </Link>
+                <Link href='/articles/interior-vs-exterior-waterproofing' className='block bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+                  <h3 className='font-bold text-slate-900'>Interior vs Exterior Waterproofing</h3>
+                  <p className='text-slate-600 text-sm'>How interior sealers fit within the larger waterproofing decision framework and when surface treatments are sufficient versus when drainage systems are required.</p>
+                </Link>
+                <Link href='/articles/basement-efflorescence' className='block bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+                  <h3 className='font-bold text-slate-900'>Basement Efflorescence</h3>
+                  <p className='text-slate-600 text-sm'>How to identify and address the mineral deposits that both Drylok and RadonSeal help reduce, and how to treat the underlying moisture source that causes efflorescence.</p>
+                </Link>
+                <Link href='/articles/basement-humidity-guide' className='block bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+                  <h3 className='font-bold text-slate-900'>Basement Humidity Guide</h3>
+                  <p className='text-slate-600 text-sm'>How to maintain the humidity levels that protect sealed basement walls and prevent the moisture conditions that lead to sealer failure over time.</p>
+                </Link>
+                <Link href='/articles/how-to-prevent-basement-mold' className='block bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+                  <h3 className='font-bold text-slate-900'>How to Prevent Basement Mold</h3>
+                  <p className='text-slate-600 text-sm'>How sealer choice affects mold risk in basement walls, and the broader moisture management program that sealed walls support.</p>
+                </Link>
+                <Link href='/articles/radon-and-basement-waterproofing' className='block bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+                  <h3 className='font-bold text-slate-900'>Radon and Basement Waterproofing</h3>
+                  <p className='text-slate-600 text-sm'>How waterproofing and sealing work reduces radon entry pathways, and where RadonSeal fits alongside active sub-slab depressurization in a complete radon management approach.</p>
+                </Link>
+                <Link href='/articles/radon-testing-and-mitigation' className='block bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+                  <h3 className='font-bold text-slate-900'>Radon Testing and Mitigation</h3>
+                  <p className='text-slate-600 text-sm'>The complete radon testing and active mitigation framework, including when penetrating sealers are sufficient versus when a sub-slab depressurization system is required.</p>
+                </Link>
+                <Link href='/articles/crystalline-waterproofing' className='block bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+                  <h3 className='font-bold text-slate-900'>Crystalline Waterproofing</h3>
+                  <p className='text-slate-600 text-sm'>How crystalline waterproofing technology compares to RadonSeal&apos;s silicate chemistry, both being penetrating treatments that seal concrete from within.</p>
+                </Link>
+                <Link href='/articles/types-of-foundation-cracks' className='block bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+                  <h3 className='font-bold text-slate-900'>Types of Foundation Cracks</h3>
+                  <p className='text-slate-600 text-sm'>How to identify and seal foundation cracks before applying either Drylok or RadonSeal, since both products perform better on structurally sound walls with sealed cracks than on walls with active crack pathways.</p>
+                </Link>
+                <Link href='/articles/foundation-crack-repair-cost' className='block bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+                  <h3 className='font-bold text-slate-900'>Foundation Crack Repair Cost 2026</h3>
+                  <p className='text-slate-600 text-sm'>What crack injection costs before sealer application, the surface preparation step that maximizes the effectiveness of both Drylok and RadonSeal.</p>
+                </Link>
+                <Link href='/articles/best-vapor-barriers' className='block bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+                  <h3 className='font-bold text-slate-900'>Best Vapor Barriers</h3>
+                  <p className='text-slate-600 text-sm'>How vapor barriers work alongside wall sealers in a finished basement assembly, and where each product fits in the moisture management layer sequence.</p>
+                </Link>
+              </div>
+
+              <h3 className='text-xl font-bold text-slate-800 mb-4'>From Our Network</h3>
+              <div className='grid md:grid-cols-2 gap-6 mb-10'>
+                <a href='https://theseptic.guide/reviews/best-septic-safe-cleaning-products' target='_blank' rel='noopener noreferrer' className='block bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+                  <h3 className='font-bold text-slate-900'>Best Septic-Safe Cleaning Products 2026</h3>
+                  <p className='text-slate-600 text-sm'>For homes on septic systems, the surface preparation chemicals used before applying Drylok or RadonSeal (including acid etching solutions) should be evaluated for their impact on septic tank bacteria before they enter the drain system.</p>
+                </a>
+              </div>
+
+              <h3 className='text-xl font-bold text-slate-800 mb-4'>External Resource</h3>
+              <div className='grid md:grid-cols-2 gap-6 mb-10'>
+                <a href='https://www.epa.gov/radon/citizens-guide-radon-guide-protecting-yourself-and-your-family-radon' target='_blank' rel='noopener noreferrer' className='block bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+                  <h3 className='font-bold text-slate-900'>EPA Radon Guidance</h3>
+                  <p className='text-slate-600 text-sm'>The EPA&apos;s official citizen&apos;s guide to radon including action level recommendations, testing guidance, and recognized mitigation methods that provide context for evaluating sealer-based radon reduction as part of a broader mitigation strategy.</p>
+                </a>
+              </div>
             </div>
           </aside>
         </div>
