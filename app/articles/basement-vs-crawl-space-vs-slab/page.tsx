@@ -193,7 +193,7 @@ export default function FoundationComparisonArticle() {
           {/* Crawl Space Foundations */}
           <h2 className='text-3xl font-bold text-slate-900 mt-16 mb-6'>Crawl Space Foundations: The Middle Ground</h2>
           <p>A crawl space foundation elevates the home on short foundation walls typically 18 to 48 inches high, creating a shallow accessible gap between the ground and the floor joists. The crawl space can be ventilated with foundation vents that allow outside air to circulate or encapsulated sealed with a vapor barrier, insulated, and equipped with a dehumidifier for moisture control.</p>
-          <p>Crawl spaces are common in the Southeast, Midwest, and parts of the Mid-Atlantic where the climate is humid, the terrain is uneven, or the water table makes full basements impractical.</p>
+          <p className='mt-4'>Crawl spaces are common in the Southeast, Midwest, and parts of the Mid-Atlantic where the climate is humid, the terrain is uneven, or the water table makes full basements impractical.</p>
 
           <h3 className='text-2xl font-bold text-slate-800 mt-10 mb-4'>Advantages of Crawl Space Foundations</h3>
           <ul className='space-y-3'>
@@ -217,13 +217,13 @@ export default function FoundationComparisonArticle() {
 
           <h3 className='text-2xl font-bold text-slate-800 mt-10 mb-4'>Who Should Choose a Crawl Space Foundation</h3>
           <p>A crawl space foundation is the best choice for humid or flood-prone areas where elevation is beneficial, sloped building lots where a slab would require extensive grading, homes where easy utility access is a priority, budgets between slab and basement range, and properties where a full basement is impractical due to high water table or soil conditions.</p>
-          <p>If you choose a crawl space, invest in encapsulation from the start to avoid the chronic moisture problems that plague ventilated crawl spaces.</p>
+          <p className='mt-4'>If you choose a crawl space, invest in encapsulation from the start to avoid the chronic moisture problems that plague ventilated crawl spaces.</p>
 
           {/* Full Basement Foundations */}
           <h2 className='text-3xl font-bold text-slate-900 mt-16 mb-6'>Full Basement Foundations: The Maximum Value Option</h2>
           <p>A full basement involves excavating 8 feet or more below grade, pouring concrete footings and walls or laying concrete block walls, and creating a full underground level beneath the home. The basement floor is a poured concrete slab, and the walls extend from the footings to the first-floor framing above.</p>
-          <p>Basements can remain unfinished used for utilities, storage, and mechanical equipment or be finished into additional living space including bedrooms, bathrooms, home offices, gyms, and entertainment areas.</p>
-          <p>Full basements are the standard foundation type in the Northeast, Midwest, and Northern Plains, where building codes require foundations to extend below the frost line 4 to 6 feet deep in many northern states, making the cost difference between a crawl space and a full basement relatively small.</p>
+          <p className='mt-4'>Basements can remain unfinished used for utilities, storage, and mechanical equipment or be finished into additional living space including bedrooms, bathrooms, home offices, gyms, and entertainment areas.</p>
+          <p className='mt-4'>Full basements are the standard foundation type in the Northeast, Midwest, and Northern Plains, where building codes require foundations to extend below the frost line 4 to 6 feet deep in many northern states, making the cost difference between a crawl space and a full basement relatively small.</p>
 
           <h3 className='text-2xl font-bold text-slate-800 mt-10 mb-4'>Advantages of Full Basement Foundations</h3>
           <ul className='space-y-3'>
