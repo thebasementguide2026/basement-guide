@@ -226,6 +226,29 @@ export default function EgressWindowCost() {
             </li>
           </ul>
 
+          {/* Decision Table */}
+          <h2 className='text-3xl font-extrabold text-slate-900 mt-16 mb-8'>Egress Window Cost Factors: What Applies to Your Project?</h2>
+          <div className='overflow-x-auto not-prose mb-12'>
+            <table className='w-full border-collapse text-sm'>
+              <thead><tr className='bg-slate-800 text-white'><th className='px-4 py-3 text-left font-semibold'>Your Situation</th><th className='px-4 py-3 text-left font-semibold'>Cost Impact</th><th className='px-4 py-3 text-left font-semibold'>What to Budget</th></tr></thead>
+              <tbody className='divide-y divide-gray-200'>
+                <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Poured concrete foundation</td><td className='px-4 py-3 text-slate-600'>High &mdash; diamond-blade cutting required</td><td className='px-4 py-3 text-slate-600'>Add $500 to $1,000 over block foundation cost</td></tr>
+                <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Concrete block foundation</td><td className='px-4 py-3 text-slate-600'>Standard &mdash; blocks removed unit by unit</td><td className='px-4 py-3 text-slate-600'>Standard range $2,700 to $5,900</td></tr>
+                <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Basement 8 feet deep or less</td><td className='px-4 py-3 text-slate-600'>Standard excavation depth</td><td className='px-4 py-3 text-slate-600'>Standard range</td></tr>
+                <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Basement 9 feet or deeper</td><td className='px-4 py-3 text-slate-600'>Larger well, more excavation</td><td className='px-4 py-3 text-slate-600'>Add $500 to $1,500</td></tr>
+                <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Window well deeper than 44 inches</td><td className='px-4 py-3 text-slate-600'>Ladder or steps required by code</td><td className='px-4 py-3 text-slate-600'>Add $150 to $350</td></tr>
+                <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Existing utilities in excavation path</td><td className='px-4 py-3 text-slate-600'>Rerouting or hand digging required</td><td className='px-4 py-3 text-slate-600'>Add $300 to $1,000</td></tr>
+                <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Rocky or clay-heavy soil</td><td className='px-4 py-3 text-slate-600'>Slower excavation, possible equipment change</td><td className='px-4 py-3 text-slate-600'>Add $300 to $800</td></tr>
+                <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Poor window well drainage, no footing drain</td><td className='px-4 py-3 text-slate-600'>Gravel drain or dry well required</td><td className='px-4 py-3 text-slate-600'>Add $200 to $600</td></tr>
+                <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Retroactive install in finished basement</td><td className='px-4 py-3 text-slate-600'>Interior patching and refinishing required</td><td className='px-4 py-3 text-slate-600'>Add $300 to $800 for drywall, trim, paint</td></tr>
+                <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>No permit pulled previously</td><td className='px-4 py-3 text-slate-600'>Retroactive permit required before sale</td><td className='px-4 py-3 text-slate-600'>$150 to $600 plus possible inspection</td></tr>
+                <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Energy-efficient low-E glass specified</td><td className='px-4 py-3 text-slate-600'>Federal tax credit eligible</td><td className='px-4 py-3 text-slate-600'>Up to $600 credit on qualifying units</td></tr>
+                <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Multiple egress windows same project</td><td className='px-4 py-3 text-slate-600'>Volume discount likely</td><td className='px-4 py-3 text-slate-600'>Ask contractor for per-window pricing on 2 or more</td></tr>
+                <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>DIY installation, owner-builder permit</td><td className='px-4 py-3 text-slate-600'>Materials only cost</td><td className='px-4 py-3 text-slate-600'>$1,200 to $2,800 in materials, no labor</td></tr>
+              </tbody>
+            </table>
+          </div>
+
           {/* FAQ Section */}
           <h2 className='text-3xl font-extrabold text-slate-900 mt-16 mb-8'>Frequently Asked Questions About Basement Egress Windows</h2>
 
