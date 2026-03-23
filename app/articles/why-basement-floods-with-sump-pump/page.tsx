@@ -8,6 +8,69 @@ export const metadata: Metadata = {
   description: 'The 10 most common reasons basements flood despite having a sump pump, how to diagnose each one, and what to do about it. Organized from easy DIY checks to pro-level fixes.',
 };
 
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'Can a sump pump handle heavy rain?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'A properly sized pump with adequate drainage feeding the pit can handle most rain events. Standard 1/3 HP submersible pumps are rated for moderate water tables and typical storm inflow. Problems occur during extreme events — multiple inches of rain per hour — or when the drainage system feeding the pit is inadequate for the volume of water arriving at the foundation. If your pump handles normal rain without issue but floods during heavy storms, you likely need a larger pump, a secondary pump in the same pit, or an improved interior drainage system that channels water to the pit more efficiently. An undersized pump running continuously without ever cycling off during a storm is the clearest sign you need more capacity.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'How do I know if my sump pump is working?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "Pour a bucket of water into the pit. The float should rise and the pump should activate within a few seconds, evacuating the water quickly. If it doesn't turn on, turns on but doesn't pump, or makes unusual noises, it needs attention. Make this test part of your seasonal routine.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Should I have two sump pumps?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'If you have a high water table, a large basement, or frequent heavy rain, a dual-pump system provides critical redundancy. The secondary pump can share the pit with the primary and activates if the first pump fails or can\'t keep up. Many waterproofing contractors recommend this as standard practice for high-risk homes.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Why does my sump pump run constantly?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'A pump that never shuts off typically indicates one of four things: a high water table that is continuously pushing water into the pit, an undersized pump that cannot evacuate water as fast as it arrives, a stuck or misadjusted float switch that does not release when the water level drops, or a discharge line that is routing water back toward the foundation where it re-enters the drainage system. Constant running significantly shortens pump life by overheating the motor. Diagnose the root cause before simply replacing the pump — a new pump installed into the same conditions will burn out on the same timeline as the old one.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Does homeowners insurance cover sump pump flooding?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Standard policies usually do not cover flooding caused by sump pump failure or groundwater intrusion. Most insurers offer a water backup and sump pump overflow rider for $40–$100/year. If you have a sump pump, this endorsement is worth adding. Check your policy or ask your agent.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'My basement only floods in one specific area far from the sump pump. Why?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "This means water is entering through a localized source — a wall crack, a floor-wall joint, a window well, or poor drainage on that side of the house — that isn't connected to the drainage system feeding the pit. You likely need either targeted waterproofing (crack injection, window well drain) or an extension of the interior French drain to that area.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'How often should I test my sump pump?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Test your sump pump at minimum twice a year — once in early spring before the wet season and once in fall before freeze risk. Testing takes about two minutes: pour a five-gallon bucket of water directly into the pit and confirm the float rises, the pump activates within a few seconds, the water evacuates quickly, and the pump shuts off cleanly once the pit is empty. Also go outside and verify water is actually discharging from the exit point during the test. If you have a battery backup unit, check the battery charge indicator at the same time. Annual maintenance should also include clearing any debris from the pit, checking that the float moves freely without obstruction from the power cord, and inspecting the discharge line exit point for blockages or ice damage.',
+      },
+    },
+  ],
+};
+
 export default function WhyBasementFloods() {
   return (
     <div className='bg-white min-h-screen'>
@@ -312,7 +375,7 @@ export default function WhyBasementFloods() {
         <div className='space-y-6 mb-16'>
           <div className='bg-slate-50 rounded-xl p-6'>
             <h3 className='text-lg font-bold text-slate-900 mb-2'>Can a sump pump handle heavy rain?</h3>
-            <p className='text-slate-600'>A properly sized pump with adequate drainage can handle most rain events. The problem occurs during extreme events (multiple inches per hour) or when drainage is inadequate. If your pump handles normal rain but floods during heavy storms, you likely need a larger pump, a secondary pump, or a better drainage system feeding the pit.</p>
+            <p className='text-slate-600'>A properly sized pump with adequate drainage feeding the pit can handle most rain events. Standard 1/3 HP submersible pumps are rated for moderate water tables and typical storm inflow. Problems occur during extreme events &mdash; multiple inches of rain per hour &mdash; or when the drainage system feeding the pit is inadequate for the volume of water arriving at the foundation. If your pump handles normal rain without issue but floods during heavy storms, you likely need a larger pump, a secondary pump in the same pit, or an improved interior drainage system that channels water to the pit more efficiently. An undersized pump running continuously without ever cycling off during a storm is the clearest sign you need more capacity.</p>
           </div>
           <div className='bg-slate-50 rounded-xl p-6'>
             <h3 className='text-lg font-bold text-slate-900 mb-2'>How do I know if my sump pump is working?</h3>
@@ -324,7 +387,7 @@ export default function WhyBasementFloods() {
           </div>
           <div className='bg-slate-50 rounded-xl p-6'>
             <h3 className='text-lg font-bold text-slate-900 mb-2'>Why does my sump pump run constantly?</h3>
-            <p className='text-slate-600'>A pump that never shuts off usually indicates a high water table, an undersized pump, a stuck float switch, or a discharge line that&rsquo;s recycling water back toward the foundation. Constant running burns out the motor much faster. Diagnose the root cause rather than just replacing the pump, or the new one will burn out too.</p>
+            <p className='text-slate-600'>A pump that never shuts off typically indicates one of four things: a high water table that is continuously pushing water into the pit, an undersized pump that cannot evacuate water as fast as it arrives, a stuck or misadjusted float switch that does not release when the water level drops, or a discharge line that is routing water back toward the foundation where it re-enters the drainage system. Constant running significantly shortens pump life by overheating the motor. Diagnose the root cause before simply replacing the pump &mdash; a new pump installed into the same conditions will burn out on the same timeline as the old one.</p>
           </div>
           <div className='bg-slate-50 rounded-xl p-6'>
             <h3 className='text-lg font-bold text-slate-900 mb-2'>Does homeowners insurance cover sump pump flooding?</h3>
@@ -333,6 +396,10 @@ export default function WhyBasementFloods() {
           <div className='bg-slate-50 rounded-xl p-6'>
             <h3 className='text-lg font-bold text-slate-900 mb-2'>My basement only floods in one specific area far from the sump pump. Why?</h3>
             <p className='text-slate-600'>This means water is entering through a localized source&mdash;a wall crack, a floor-wall joint, a window well, or poor drainage on that side of the house&mdash;that isn&rsquo;t connected to the drainage system feeding the pit. You likely need either targeted waterproofing (crack injection, window well drain) or an extension of the interior French drain to that area.</p>
+          </div>
+          <div className='bg-slate-50 rounded-xl p-6'>
+            <h3 className='text-lg font-bold text-slate-900 mb-2'>How often should I test my sump pump?</h3>
+            <p className='text-slate-600'>Test your sump pump at minimum twice a year &mdash; once in early spring before the wet season and once in fall before freeze risk. Testing takes about two minutes: pour a five-gallon bucket of water directly into the pit and confirm the float rises, the pump activates within a few seconds, the water evacuates quickly, and the pump shuts off cleanly once the pit is empty. Also go outside and verify water is actually discharging from the exit point during the test. If you have a battery backup unit, check the battery charge indicator at the same time. Annual maintenance should also include clearing any debris from the pit, checking that the float moves freely without obstruction from the power cord, and inspecting the discharge line exit point for blockages or ice damage.</p>
           </div>
         </div>
 
@@ -373,6 +440,11 @@ export default function WhyBasementFloods() {
         </div>
 
       </div>
+
+      <script
+        type='application/ld+json'
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
     </div>
   );
 }
