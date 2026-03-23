@@ -143,7 +143,7 @@ export default function DrylokVsRadonsealArticle() {
               <p className='text-lg text-slate-700 leading-relaxed'>
                 Choosing the right sealer for your basement walls can make all the difference between a dry, usable space and ongoing battles with moisture, mold, and even radon gas. Drylok and RadonSeal are two popular options, but they work in very different ways. Drylok is a surface-coating waterproofing paint that creates a barrier on top of your concrete or block walls, while RadonSeal is a penetrating concrete sealer that soaks deep into the pores to seal from within.
               </p>
-              <p className='text-slate-700 leading-relaxed mt-4'>
+              <p className='text-lg text-slate-700 leading-relaxed mt-4'>
                 In this comparison, we break down the pros, cons, key differences, costs, application tips, and real-world recommendations. Whether you are dealing with minor dampness, efflorescence, or full-on leaks, understanding Drylok vs RadonSeal will help you pick the best basement wall sealer for your needs.
               </p>
             </section>
