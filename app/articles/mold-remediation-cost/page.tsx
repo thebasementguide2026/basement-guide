@@ -43,6 +43,8 @@ export default function MoldRemediationCost() {
           />
         </div>
 
+        <p className="text-lg text-slate-700 leading-relaxed mb-8">Mold remediation is the professional process of identifying, containing, physically removing, and treating mold colonies in a home to return airborne spore levels to safe, normal concentrations. Unlike simple surface cleaning, remediation addresses the full scope of growth including mold behind walls, inside insulation, and within structural framing using containment barriers, HEPA filtration, antimicrobial treatment, and independent post-remediation testing. Basement and crawl space environments are the most common remediation sites because chronic moisture, limited airflow, and organic building materials create ideal conditions for mold growth. A complete remediation project always includes identifying and fixing the underlying moisture source, without which mold will return regardless of how thorough the removal was.</p>
+
         {/* How Much Does Mold Remediation Cost in 2026? */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-4">How Much Does Mold Remediation Cost in 2026?</h2>
