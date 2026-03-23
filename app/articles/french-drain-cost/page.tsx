@@ -361,7 +361,7 @@ export default function FrenchDrainCostPage() {
                 <li className='flex items-start gap-2'><span className='text-green-500 font-bold'>+</span> Highly effective at managing both surface and subsurface water</li>
                 <li className='flex items-start gap-2'><span className='text-green-500 font-bold'>+</span> Long lifespan of 20 to 40 years when properly installed</li>
                 <li className='flex items-start gap-2'><span className='text-green-500 font-bold'>+</span> Passive system with no moving parts (exterior) means low maintenance</li>
-                <li className='flex items-start gap-2'><span className='text-green-500 font-bold'>+</span><span> Protects foundation from <Link href='/articles/types-of-foundation-cracks' className='text-violet-600 hover:underline'>cracking</Link> and settling</span></li>
+                <li className='flex items-start gap-2'><span className='text-green-500 font-bold'>+</span><span> Protects foundation from <a href='/articles/types-of-foundation-cracks' className='text-violet-600 hover:underline'>cracking</a> and settling</span></li>
                 <li className='flex items-start gap-2'><span className='text-green-500 font-bold'>+</span> Can increase property value by solving drainage issues</li>
               </ul>
             </div>
