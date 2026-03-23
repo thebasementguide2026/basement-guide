@@ -8,6 +8,77 @@ export const metadata: Metadata = {
   description: 'Professional mold remediation costs $1,500 to $9,000 for most basement and crawl space projects in 2026. National average $3,500 to $4,500. Complete cost breakdown by area, location, mold type, and phase.',
 };
 
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is mold remediation worth the cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, and the sooner you act the cheaper it is. A small problem caught early might cost $500 to $1,500. That same mold left for six months can grow into a $5,000 to $10,000 project once it spreads behind walls and damages structural materials. Beyond cost, mold exposure can cause respiratory symptoms, allergic reactions, and chronic sinus issues, particularly in children, the elderly, and anyone with asthma or a compromised immune system. Remediation also protects your home's resale value."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does mold remediation take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most basement jobs take 1 to 5 days from containment setup through final air quality testing. A small, well-contained area on an exposed concrete wall might be completed in a single day. Larger projects involving demolition of finished walls, structural drying, and reconstruction typically take 1 to 2 weeks."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can mold come back after remediation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, if the moisture source is not fixed. Mold spores are present in virtually every environment. They only become a problem when they land on a surface with sufficient moisture and an organic food source. Professional remediation removes the existing colony and treats surfaces, but if the basement is still taking on water, running high humidity, or has an unrepaired leak, new mold will colonize the same area within weeks."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between mold removal and mold remediation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mold removal technically implies eliminating all mold, which is not possible since spores exist naturally in all indoor and outdoor air. Mold remediation means returning mold levels to normal, safe concentrations by physically removing the active colony, cleaning and treating affected surfaces, running HEPA filtration during the process, and verifying results with post-remediation air testing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I leave my home during mold remediation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For large jobs involving significant demolition and whole-area HEPA filtration, yes. Most professionals recommend vacating the affected floor or the entire home during active remediation. For small, well-contained jobs on an unfinished basement wall, leaving is typically not required, but staying out of the work area entirely is."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does black mold cost more to remove?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Black mold (Stachybotrys chartarum) typically costs 10 to 25 percent more than standard mold remediation due to additional safety protocols including higher-grade respiratory protection, more rigorous containment, and careful bagging and disposal procedures. However, color alone does not identify the species. Only lab testing can confirm whether growth is Stachybotrys or another species."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I find a certified mold remediation company?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Look for contractors holding IICRC certification with S520 accreditation, which is the industry standard for professional mold remediation. Get at least three quotes and make sure testing is handled by an independent third party, not the same company doing the remediation work."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should I do to prepare for mold remediation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Before the crew arrives, clear the work area of furniture, storage bins, and personal items. Remove or bag any clothing, bedding, or soft goods stored near the affected area. Shut off your HVAC system if the mold is near ductwork. Make arrangements for children and pets to stay elsewhere for the duration of active remediation. Document the visible mold with photos before any work begins."
+      }
+    }
+  ]
+};
+
 export default function MoldRemediationCost() {
   return (
     <main className="bg-white text-gray-800">
@@ -303,68 +374,92 @@ export default function MoldRemediationCost() {
           <h2 className="text-3xl font-bold text-slate-900 mb-6">Frequently Asked Questions</h2>
 
           <div className="space-y-4">
-            <div className="border border-slate-200 rounded-lg p-5">
-              <h3 className="font-bold text-slate-900 mb-2">Is mold remediation worth the cost?</h3>
-              <p className="text-slate-700">Yes, and the sooner you act, the cheaper it is. A small problem caught early might cost $500 to $1,500. That same mold left for six months can grow into a $5,000 to $10,000 project once it spreads behind walls and damages structural materials. Beyond cost, mold exposure can cause respiratory symptoms and allergic reactions, especially in children and the elderly.</p>
+            <div className="bg-slate-50 rounded-2xl p-6 border border-slate-100">
+              <h4 className="font-bold text-slate-900 mb-2">Is mold remediation worth the cost?</h4>
+              <p className="text-slate-700">Yes, and the sooner you act the cheaper it is. A small problem caught early might cost $500 to $1,500. That same mold left for six months can grow into a $5,000 to $10,000 project once it spreads behind walls and damages structural materials. Beyond cost, mold exposure can cause respiratory symptoms, allergic reactions, and chronic sinus issues, particularly in children, the elderly, and anyone with asthma or a compromised immune system. Remediation also protects your home&rsquo;s resale value. Undisclosed mold is a common deal-killer during home inspections, and documented professional remediation with clearance testing is far more valuable to buyers than a seller simply saying the problem was handled.</p>
             </div>
-            <div className="border border-slate-200 rounded-lg p-5">
-              <h3 className="font-bold text-slate-900 mb-2">How long does mold remediation take?</h3>
-              <p className="text-slate-700">Most basement jobs take 1 to 5 days. A small, contained area might be done in a single day. Larger projects involving demolition, structural drying, and reconstruction can take 1 to 2 weeks.</p>
+            <div className="bg-slate-50 rounded-2xl p-6 border border-slate-100">
+              <h4 className="font-bold text-slate-900 mb-2">How long does mold remediation take?</h4>
+              <p className="text-slate-700">Most basement jobs take 1 to 5 days from containment setup through final air quality testing. A small, well-contained area on an exposed concrete wall might be completed in a single day. Larger projects involving demolition of finished walls, structural drying, and reconstruction typically take 1 to 2 weeks. The timeline also depends on how long drying takes before materials can be replaced, which varies with humidity levels and the size of the affected area. Ask your contractor for a written timeline before work begins so you know when each phase ends and when independent clearance testing will occur.</p>
             </div>
-            <div className="border border-slate-200 rounded-lg p-5">
-              <h3 className="font-bold text-slate-900 mb-2">Can mold come back after remediation?</h3>
-              <p className="text-slate-700">Yes, if the moisture source is not fixed. Mold spores are everywhere. They only become a problem when they land on a surface with enough moisture to grow. Professional remediation removes the existing colony, but if the basement is still damp, new mold will colonize the same area. This is why root cause repair is non-negotiable.</p>
+            <div className="bg-slate-50 rounded-2xl p-6 border border-slate-100">
+              <h4 className="font-bold text-slate-900 mb-2">Can mold come back after remediation?</h4>
+              <p className="text-slate-700">Yes, if the moisture source is not fixed. Mold spores are present in virtually every environment. They only become a problem when they land on a surface with sufficient moisture and an organic food source. Professional remediation removes the existing colony and treats surfaces, but if the basement is still taking on water, running high humidity, or has an unrepaired leak, new mold will colonize the same area within weeks. This is why every remediation project must include a root cause repair plan covering waterproofing, plumbing, grading, or humidity control depending on what is driving the moisture.</p>
             </div>
-            <div className="border border-slate-200 rounded-lg p-5">
-              <h3 className="font-bold text-slate-900 mb-2">What is the difference between mold removal and mold remediation?</h3>
-              <p className="text-slate-700">Mold removal technically means getting rid of all mold, which is impossible since spores exist everywhere. Mold remediation means returning mold levels to normal, safe levels by removing the colony, cleaning affected surfaces, and addressing the moisture source. What matters is that the process includes containment, physical removal, HEPA filtration, and verification testing.</p>
+            <div className="bg-slate-50 rounded-2xl p-6 border border-slate-100">
+              <h4 className="font-bold text-slate-900 mb-2">What is the difference between mold removal and mold remediation?</h4>
+              <p className="text-slate-700">Mold removal technically implies eliminating all mold, which is not possible since spores exist naturally in all indoor and outdoor air. Mold remediation means returning mold levels to normal, safe concentrations by physically removing the active colony, cleaning and treating affected surfaces, running HEPA filtration during the process, and verifying results with post-remediation air testing. The term remediation is the industry-standard language used by the IICRC and the EPA because it accurately describes the goal: not zero mold, but mold at levels that pose no health or structural risk.</p>
             </div>
-            <div className="border border-slate-200 rounded-lg p-5">
-              <h3 className="font-bold text-slate-900 mb-2">Should I leave my home during mold remediation?</h3>
-              <p className="text-slate-700">For large jobs involving significant demolition and HEPA filtration, yes. Most professionals recommend it. The process stirs up airborne spores, and sensitive individuals (asthma, allergies, compromised immune systems) may experience symptoms. For small, well-contained jobs, leaving typically is not necessary, but staying out of the work area is.</p>
+            <div className="bg-slate-50 rounded-2xl p-6 border border-slate-100">
+              <h4 className="font-bold text-slate-900 mb-2">Should I leave my home during mold remediation?</h4>
+              <p className="text-slate-700">For large jobs involving significant demolition and whole-area HEPA filtration, yes. Most professionals recommend vacating the affected floor or the entire home during active remediation. The containment process stirs up airborne spores, and sensitive individuals including those with asthma, allergies, or compromised immune systems may experience symptoms even with containment barriers in place. For small, well-contained jobs on an unfinished basement wall, leaving is typically not required, but staying out of the work area entirely is. Ask your contractor specifically whether temporary relocation is recommended given the scope of your project.</p>
             </div>
-            <div className="border border-slate-200 rounded-lg p-5">
-              <h3 className="font-bold text-slate-900 mb-2">Does black mold cost more to remove?</h3>
-              <p className="text-slate-700">Black mold (Stachybotrys chartarum) typically costs 10 to 25 percent more than standard mold remediation due to additional safety protocols. However, the color of mold does not determine the species. Only lab testing can confirm whether it is Stachybotrys or another type.</p>
+            <div className="bg-slate-50 rounded-2xl p-6 border border-slate-100">
+              <h4 className="font-bold text-slate-900 mb-2">Does black mold cost more to remove?</h4>
+              <p className="text-slate-700">Black mold (Stachybotrys chartarum) typically costs 10 to 25 percent more than standard mold remediation due to additional safety protocols including higher-grade respiratory protection, more rigorous containment, and careful bagging and disposal procedures. However, color alone does not identify the species. Many mold types appear dark green, gray, or black, and only lab testing can confirm whether growth is Stachybotrys or another species. Do not let a contractor charge a black mold premium without lab confirmation of the species.</p>
+            </div>
+            <div className="bg-slate-50 rounded-2xl p-6 border border-slate-100">
+              <h4 className="font-bold text-slate-900 mb-2">How do I find a certified mold remediation company?</h4>
+              <p className="text-slate-700">Look for contractors holding IICRC certification with S520 accreditation, which is the industry standard for professional mold remediation. You can verify certification status directly on the IICRC website. Get at least three quotes and make sure testing is handled by an independent third party, not the same company doing the remediation work. Ask each contractor to provide a written scope of work itemizing containment setup, removal method, disposal, antimicrobial treatment, HEPA vacuuming, and post-remediation clearance testing. Avoid any company that skips inspection, pressures you to start immediately, or refuses to separate testing from remediation.</p>
+            </div>
+            <div className="bg-slate-50 rounded-2xl p-6 border border-slate-100">
+              <h4 className="font-bold text-slate-900 mb-2">What should I do to prepare for mold remediation?</h4>
+              <p className="text-slate-700">Before the crew arrives, clear the work area of furniture, storage bins, and personal items to give the team unobstructed access. Remove or bag any clothing, bedding, or soft goods stored near the affected area since porous materials can harbor spores. Shut off your HVAC system if the mold is near ductwork to prevent spore spread during work. Make arrangements for children and pets to stay elsewhere for the duration of active remediation. Document the visible mold with photos before any work begins, both for your own records and for any insurance claim. Your contractor should walk you through any additional site-specific prep during the inspection.</p>
             </div>
           </div>
         </section>
 
         {/* Glossary */}
         <section className="mb-12">
-          <h2 className="text-3xl font-bold text-slate-900 mb-6">Glossary of Mold Remediation Terms</h2>
-          <div className="space-y-4">
-            <div className="border-b border-slate-200 pb-3">
-              <h4 className="font-bold text-slate-900">Containment</h4>
-              <p className="text-slate-700">Physical barriers (plastic sheeting) and negative air pressure used to isolate the work area and prevent mold spores from spreading during remediation.</p>
+          <h2 className="text-3xl font-bold text-slate-900 mb-6">Glossary</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="bg-slate-50 rounded-xl p-6 border border-slate-100">
+              <h4 className="font-bold text-slate-900 mb-1">Mold Remediation</h4>
+              <p className="text-slate-700 text-sm">The professional process of containing, physically removing, and treating an active mold colony to return indoor spore levels to safe, normal concentrations. Remediation includes containment, HEPA filtration, surface treatment, and independent post-remediation verification testing.</p>
             </div>
-            <div className="border-b border-slate-200 pb-3">
-              <h4 className="font-bold text-slate-900">HEPA Filtration</h4>
-              <p className="text-slate-700">High-Efficiency Particulate Air filters that capture 99.97 percent of particles 0.3 microns or larger, including mold spores.</p>
+            <div className="bg-slate-50 rounded-xl p-6 border border-slate-100">
+              <h4 className="font-bold text-slate-900 mb-1">Containment</h4>
+              <p className="text-slate-700 text-sm">Physical barriers made of plastic sheeting combined with negative air pressure used to isolate the work area and prevent mold spores from migrating into unaffected parts of the home during remediation.</p>
             </div>
-            <div className="border-b border-slate-200 pb-3">
-              <h4 className="font-bold text-slate-900">Antimicrobial Treatment</h4>
-              <p className="text-slate-700">Chemical solutions applied to surfaces after mold removal to kill remaining spores and inhibit future growth.</p>
+            <div className="bg-slate-50 rounded-xl p-6 border border-slate-100">
+              <h4 className="font-bold text-slate-900 mb-1">HEPA Filtration</h4>
+              <p className="text-slate-700 text-sm">High-Efficiency Particulate Air filtration that captures 99.97 percent of airborne particles 0.3 microns or larger, including mold spores. Air scrubbers using HEPA filters run continuously during remediation to reduce spore counts in the work area.</p>
             </div>
-            <div className="border-b border-slate-200 pb-3">
-              <h4 className="font-bold text-slate-900">Clearance Testing</h4>
-              <p className="text-slate-700">Post-remediation air and surface sampling performed by an independent tester to verify mold levels have returned to acceptable levels.</p>
+            <div className="bg-slate-50 rounded-xl p-6 border border-slate-100">
+              <h4 className="font-bold text-slate-900 mb-1">Air Scrubber</h4>
+              <p className="text-slate-700 text-sm">A portable filtration unit that pulls contaminated air through HEPA filters and exhausts clean air, used during remediation to reduce airborne spore concentrations and maintain negative air pressure in the containment zone.</p>
             </div>
-            <div className="border-b border-slate-200 pb-3">
-              <h4 className="font-bold text-slate-900">IICRC S520</h4>
-              <p className="text-slate-700">The Standard and Reference Guide for Professional Mold Remediation, published by the Institute of Inspection, Cleaning and Restoration Certification.</p>
+            <div className="bg-slate-50 rounded-xl p-6 border border-slate-100">
+              <h4 className="font-bold text-slate-900 mb-1">Antimicrobial Treatment</h4>
+              <p className="text-slate-700 text-sm">Chemical solutions applied to surfaces after physical mold removal to kill remaining spores and inhibit future growth. Effectiveness depends on surface type; antimicrobials work well on non-porous materials but do not substitute for physical removal on porous surfaces like drywall.</p>
             </div>
-            <div className="border-b border-slate-200 pb-3">
-              <h4 className="font-bold text-slate-900">Stachybotrys Chartarum</h4>
-              <p className="text-slate-700">A toxigenic mold species commonly referred to as black mold. Produces mycotoxins and requires enhanced safety protocols during remediation.</p>
+            <div className="bg-slate-50 rounded-xl p-6 border border-slate-100">
+              <h4 className="font-bold text-slate-900 mb-1">Clearance Testing</h4>
+              <p className="text-slate-700 text-sm">Post-remediation air and surface sampling performed by an independent third-party tester to verify that mold spore levels have returned to acceptable concentrations. Clearance testing is your documentation that the job was completed successfully.</p>
             </div>
-            <div className="border-b border-slate-200 pb-3">
-              <h4 className="font-bold text-slate-900">Efflorescence</h4>
-              <p className="text-slate-700">White, chalky mineral deposits on concrete or masonry surfaces caused by water migration. Often confused with mold but indicates a moisture problem. Learn more in our <Link href="/articles/basement-efflorescence" className="text-teal-700 underline">efflorescence guide</Link>.</p>
+            <div className="bg-slate-50 rounded-xl p-6 border border-slate-100">
+              <h4 className="font-bold text-slate-900 mb-1">IICRC S520</h4>
+              <p className="text-slate-700 text-sm">The Standard and Reference Guide for Professional Mold Remediation published by the Institute of Inspection, Cleaning and Restoration Certification. S520 accreditation is the benchmark credential to look for when hiring a remediation contractor.</p>
             </div>
-            <div className="border-b border-slate-200 pb-3">
-              <h4 className="font-bold text-slate-900">Negative Air Pressure</h4>
-              <p className="text-slate-700">A containment technique where air is exhausted from the work area faster than it enters, preventing contaminated air from escaping into clean areas.</p>
+            <div className="bg-slate-50 rounded-xl p-6 border border-slate-100">
+              <h4 className="font-bold text-slate-900 mb-1">Mycotoxin</h4>
+              <p className="text-slate-700 text-sm">A toxic compound produced by certain mold species, including Stachybotrys chartarum, as a byproduct of their metabolic processes. Mycotoxin exposure is associated with respiratory symptoms and other health effects, which is why toxigenic mold species require enhanced safety protocols during remediation.</p>
+            </div>
+            <div className="bg-slate-50 rounded-xl p-6 border border-slate-100">
+              <h4 className="font-bold text-slate-900 mb-1">Stachybotrys Chartarum</h4>
+              <p className="text-slate-700 text-sm">A toxigenic mold species commonly called black mold that produces mycotoxins and requires enhanced safety protocols during remediation. Color alone does not identify this species; only lab testing confirms its presence.</p>
+            </div>
+            <div className="bg-slate-50 rounded-xl p-6 border border-slate-100">
+              <h4 className="font-bold text-slate-900 mb-1">Negative Air Pressure</h4>
+              <p className="text-slate-700 text-sm">A containment technique where air is exhausted from the work area faster than it enters, creating inward airflow that prevents contaminated air from escaping the containment zone into clean areas of the home.</p>
+            </div>
+            <div className="bg-slate-50 rounded-xl p-6 border border-slate-100">
+              <h4 className="font-bold text-slate-900 mb-1">Porous vs Non-Porous Surfaces</h4>
+              <p className="text-slate-700 text-sm">The key distinction in remediation scope. Non-porous surfaces like concrete, metal, and glass can be cleaned and treated in place. Porous materials like drywall, insulation, carpet, and wood framing absorb mold into their structure and must be physically cut out and removed.</p>
+            </div>
+            <div className="bg-slate-50 rounded-xl p-6 border border-slate-100">
+              <h4 className="font-bold text-slate-900 mb-1">Efflorescence</h4>
+              <p className="text-slate-700 text-sm">White, chalky mineral deposits on concrete or masonry caused by water migrating through the material and depositing salts on the surface. Often mistaken for mold but is a mineral deposit, not biological growth. Its presence indicates an active moisture problem. See our <a href="/articles/basement-efflorescence" className="text-teal-700 underline">efflorescence guide</a> for more detail.</p>
             </div>
           </div>
         </section>
@@ -416,6 +511,11 @@ export default function MoldRemediationCost() {
         </section>
 
       </article>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
     </main>
   );
 }
