@@ -53,6 +53,9 @@ export default function EgressWindowCost() {
           <p className='text-lg text-slate-700 leading-relaxed mb-6'>
             In 2026, the average cost for a professionally installed basement egress window sits right around <strong>$3,850 to $4,200</strong> nationally, with most homeowners paying between <strong>$2,700 and $5,900</strong>. This guide breaks down every dollar so you know exactly what you are paying for, what adds extra, and how to get the best value.
           </p>
+          <p className='text-lg text-slate-700 leading-relaxed mb-8'>
+            A basement egress window installation is a structural modification to the foundation rather than a standard window replacement, which is why the cost range is wider than most homeowners expect. The project requires cutting through a concrete or block foundation wall to create a structural opening, installing a lintel to carry the load above the opening, excavating the exterior soil to create the window well, and then setting the window unit itself &mdash; with waterproofing and drainage at every stage. Foundation type is the primary cost driver: poured concrete requires diamond-blade saw cutting at significantly higher labor cost than concrete block, which can be removed block by block. The sequencing relationship to other basement work matters too: egress window installation should happen before interior finishing because the concrete cutting and excavation disturb the floor and wall perimeter, and the new opening must be properly waterproofed before any drywall or insulation goes in around it.
+          </p>
 
           {/* What Is an Egress Window */}
           <h2 className='text-3xl font-extrabold text-slate-900 mt-16 mb-6'>What Exactly Is an Egress Window and Why Do You Need One?</h2>
