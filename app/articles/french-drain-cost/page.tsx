@@ -482,6 +482,29 @@ export default function FrenchDrainCostPage() {
             </div>
           </div>
 
+          {/* Decision Table */}
+          <h2 className='text-4xl mb-6'>Which French Drain Does Your Property Need?</h2>
+          <div className='overflow-x-auto not-prose mb-12'>
+            <table className='w-full border-collapse text-sm'>
+              <thead><tr className='bg-slate-800 text-white'><th className='px-4 py-3 text-left font-semibold'>Your Situation</th><th className='px-4 py-3 text-left font-semibold'>Drain Type Needed</th><th className='px-4 py-3 text-left font-semibold'>Estimated Cost</th></tr></thead>
+              <tbody className='divide-y divide-gray-200'>
+                <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Water seeping through basement floor or cove joint</td><td className='px-4 py-3 text-slate-600'>Interior perimeter drain plus sump pump</td><td className='px-4 py-3 text-slate-600'>$4,000 to $12,000</td></tr>
+                <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>High water table pushing water up through floor cracks</td><td className='px-4 py-3 text-slate-600'>Interior perimeter drain plus sump pump</td><td className='px-4 py-3 text-slate-600'>$4,000 to $12,000</td></tr>
+                <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Water entering through lower wall sections under pressure</td><td className='px-4 py-3 text-slate-600'>Interior perimeter drain plus sump pump</td><td className='px-4 py-3 text-slate-600'>$4,000 to $12,000</td></tr>
+                <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Yard stays soggy days after rain, no basement involvement</td><td className='px-4 py-3 text-slate-600'>Shallow exterior yard drain</td><td className='px-4 py-3 text-slate-600'>$1,000 to $2,500</td></tr>
+                <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Surface water pooling near foundation after rain</td><td className='px-4 py-3 text-slate-600'>Exterior foundation drain or regrading plus downspout extensions</td><td className='px-4 py-3 text-slate-600'>$500 to $3,000</td></tr>
+                <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Hillside or slope directing runoff toward foundation</td><td className='px-4 py-3 text-slate-600'>Curtain drain uphill of foundation</td><td className='px-4 py-3 text-slate-600'>$1,200 to $4,000</td></tr>
+                <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Water saturating soil adjacent to foundation wall</td><td className='px-4 py-3 text-slate-600'>Deep exterior foundation drain at footing level</td><td className='px-4 py-3 text-slate-600'>$2,800 to $6,500</td></tr>
+                <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Basement flooding despite existing interior drain</td><td className='px-4 py-3 text-slate-600'>Inspect pump, check drain slope, consider exterior supplemental drain</td><td className='px-4 py-3 text-slate-600'>$500 to $3,000</td></tr>
+                <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>New construction, foundation not yet backfilled</td><td className='px-4 py-3 text-slate-600'>Exterior footing drain during construction</td><td className='px-4 py-3 text-slate-600'>$1,500 to $4,000</td></tr>
+                <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Flat yard, no natural gravity discharge point available</td><td className='px-4 py-3 text-slate-600'>Interior drain with sump pump or exterior drain to dry well</td><td className='px-4 py-3 text-slate-600'>$3,000 to $8,000</td></tr>
+                <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Water entering through one specific wall section only</td><td className='px-4 py-3 text-slate-600'>Targeted exterior drain on that wall plus crack injection</td><td className='px-4 py-3 text-slate-600'>$1,500 to $4,000</td></tr>
+                <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Both yard drainage and basement seepage problems</td><td className='px-4 py-3 text-slate-600'>Combination exterior plus interior system</td><td className='px-4 py-3 text-slate-600'>$6,000 to $15,000</td></tr>
+                <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>DIY budget under $1,500, exterior problem only</td><td className='px-4 py-3 text-slate-600'>DIY shallow yard drain</td><td className='px-4 py-3 text-slate-600'>$500 to $1,500 in materials</td></tr>
+              </tbody>
+            </table>
+          </div>
+
           {/* Glossary */}
           <h2 className='text-4xl mb-6'>Glossary</h2>
           <div className='grid grid-cols-1 md:grid-cols-2 gap-6 mb-12 not-prose'>
