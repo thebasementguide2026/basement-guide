@@ -45,10 +45,13 @@ export default function MustyBasementSmellArticle() {
 
       {/* Main Content */}
       <article className='max-w-4xl mx-auto px-6 py-16'>
-        <p className='text-xl text-slate-700 leading-relaxed mb-8'>
+        <p className='text-lg text-slate-700 leading-relaxed mb-8'>
           That damp, earthy smell in your basement is extremely common, and it almost always means excess moisture is at work. Even without visible water, hidden dampness creates ideal conditions for mold, mildew, or decaying organic material to release musty microbial odors. Ignoring it can lead to bigger problems like <Link href='/articles/how-to-prevent-basement-mold' className='text-teal-600 underline hover:text-teal-800'>mold growth</Link>, health issues, or damage to stored items and finishes.
         </p>
-        <p className='text-xl text-slate-700 leading-relaxed mb-12'>
+        <p className='text-lg text-slate-700 leading-relaxed mb-8'>
+          A musty basement smell is a diagnostic signal before it is a problem to be masked, because the odor is produced by microbial volatile organic compounds (MVOCs) that mold, mildew, and bacteria release as they metabolize organic material in damp conditions. The smell can be present weeks or months before visible mold colonies appear on surfaces, making it the earliest reliable warning that moisture conditions have crossed the threshold where biological growth is occurring. Unlike visible water intrusion which has an obvious location, musty smell requires active investigation to locate because MVOCs travel through air and can originate from hidden sources including the interior of wall cavities, beneath carpet or flooring, behind stored items, or inside HVAC ductwork that circulates basement air throughout the home. The intensity of the smell in different areas of the basement and the conditions under which it worsens (after rain, during humid summer months, near specific walls or drains) are the two primary diagnostic tools for identifying the moisture source before any remediation begins.
+        </p>
+        <p className='text-lg text-slate-700 leading-relaxed mb-12'>
           The good news is that most musty smells are fixable with the right steps. This guide covers why it happens, how to find the source (a key step many skip), quick DIY fixes, longer-term solutions, and when to call professionals.
         </p>
         {/* Section 1 - What Causes the Smell */}
