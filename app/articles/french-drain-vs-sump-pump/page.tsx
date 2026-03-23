@@ -95,6 +95,7 @@ export default function FrenchDrainVsSumpPumpArticle() {
 
             {/* Intro */}
             <section>
+              <p className='text-lg text-slate-700 leading-relaxed mb-8'>A French drain and a sump pump are the two foundational components of a basement waterproofing system, each solving a different part of the water problem. A French drain is a passive perimeter drainage system, a gravel-filled trench with a perforated pipe that intercepts groundwater before it can build pressure against your foundation walls. A sump pump is an active mechanical device that sits in a pit at the basement&rsquo;s lowest point and ejects collected water out of the home through a discharge line. In most wet basement situations, the French drain collects and channels water while the sump pump removes it, making them complementary systems rather than competing alternatives.</p>
               <p className='text-lg text-slate-700 leading-relaxed'>
                 When it comes to basement waterproofing, choosing between a French drain and a sump pump often comes down to your specific water issues. A French drain is a passive drainage system that redirects groundwater away from your foundation, while a sump pump is an active pump that removes standing water from a pit in your basement floor. Both are popular basement waterproofing methods, but they work best together for full protection against leaks, flooding, and hydrostatic pressure.
               </p>
