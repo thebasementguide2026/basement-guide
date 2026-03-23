@@ -24,7 +24,7 @@ export default function FrenchDrainVsSumpPumpArticle() {
                   name: 'Which is better, a French drain or a sump pump?',
                   acceptedAnswer: {
                     '@type': 'Answer',
-                    text: 'A French drain prevents water entry while a sump pump removes it. Both together form the best basement waterproofing system.',
+                    text: 'Neither is better on its own because they solve different parts of the water problem. A French drain intercepts groundwater before it builds pressure against your foundation and channels it to a collection point. A sump pump removes that collected water from the home. For full protection in a flood-prone or chronically wet basement, you need both working together.',
                   },
                 },
                 {
@@ -32,15 +32,23 @@ export default function FrenchDrainVsSumpPumpArticle() {
                   name: 'How much does a French drain cost vs a sump pump?',
                   acceptedAnswer: {
                     '@type': 'Answer',
-                    text: 'French drains cost $3,000 to $15,000. Sump pumps cost $1,200 to $3,000 installed. A combined system runs $4,000 to $10,000.',
+                    text: 'Interior French drain installation averages $3,000 to $8,000 for a typical basement, or $60 to $120 per linear foot. Exterior French drains run $5,000 to $15,000. A sump pump with professional installation averages $1,200 to $3,000. A combined interior French drain and sump pump system typically runs $4,000 to $10,000 installed.',
                   },
                 },
                 {
                   '@type': 'Question',
-                  name: 'Do I need both a French drain and a sump pump?',
+                  name: 'Can I install a French drain or sump pump myself?',
                   acceptedAnswer: {
                     '@type': 'Answer',
-                    text: 'Yes, for full protection against hydrostatic pressure and flooding. The drain collects water and channels it to the sump pump for ejection.',
+                    text: 'A sump pump replacement is a realistic DIY project for a handy homeowner, particularly if the sump pit already exists. A new French drain requires experience with slope, pipe placement, and gravel bed depth. Professional installation with a warranty is strongly recommended for French drains.',
+                  },
+                },
+                {
+                  '@type': 'Question',
+                  name: 'Do I need both a French drain and a sump pump for basement waterproofing?',
+                  acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: 'For most homes with recurring water problems, yes. A French drain without a sump pump has nowhere to discharge collected water unless it drains to daylight by gravity. A sump pump without a French drain only removes water after it has already entered the basement, doing nothing to relieve hydrostatic pressure. The combination is the system waterproofing contractors install most often.',
                   },
                 },
                 {
@@ -48,7 +56,31 @@ export default function FrenchDrainVsSumpPumpArticle() {
                   name: 'How long do French drains and sump pumps last?',
                   acceptedAnswer: {
                     '@type': 'Answer',
-                    text: 'French drains last 20 to 30 years. Sump pumps last 8 to 12 years before needing replacement.',
+                    text: 'A properly installed French drain lasts 20 to 30 years. A sump pump motor typically lasts 8 to 12 years with regular maintenance. Budget for pump replacement every 10 years as part of normal home maintenance.',
+                  },
+                },
+                {
+                  '@type': 'Question',
+                  name: 'What happens if the power goes out during a storm?',
+                  acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: 'A standard sump pump stops working immediately when power fails. A battery backup sump pump activates automatically and can handle moderate water volume for several hours. A water-powered backup uses municipal water pressure and requires no battery. For homes with frequent outages, a combination of a primary pump, battery backup, and generator transfer switch provides the most complete protection.',
+                  },
+                },
+                {
+                  '@type': 'Question',
+                  name: 'Can a French drain work without a sump pump?',
+                  acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: 'Yes, when the French drain can discharge to daylight by gravity on a sloped lot. For flat lots, finished basements, or interior perimeter drains, gravity discharge is not possible and a sump pump is required.',
+                  },
+                },
+                {
+                  '@type': 'Question',
+                  name: 'How do I know if I need a French drain, a sump pump, or both?',
+                  acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: 'Start by diagnosing where the water is coming from. Water seeping through walls or up through the floor under hydrostatic pressure points to a groundwater problem that a French drain addresses. Water pooling after heavy rain suggests surface water intrusion that a sump pump may handle. Chronic dampness or a high water table almost always calls for a combined system.',
                   },
                 },
               ],
@@ -299,44 +331,85 @@ export default function FrenchDrainVsSumpPumpArticle() {
             <section>
               <h2 className='text-3xl font-bold text-slate-900 mb-6'>Frequently Asked Questions</h2>
               <div className='space-y-4'>
-                <div className='bg-white rounded-lg p-6 border border-slate-200 shadow-sm'>
-                  <h3 className='font-semibold text-slate-900 mb-2'>Which is better, a French drain or a sump pump?</h3>
-                  <p className='text-slate-700'>A French drain prevents water entry, while a sump pump removes it. Both together form the best basement waterproofing system.</p>
+                <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
+                  <h4 className='font-bold text-slate-900 mb-2'>Which is better, a French drain or a sump pump?</h4>
+                  <p className='text-slate-700'>Neither is better on its own because they solve different parts of the water problem. A French drain intercepts groundwater before it builds pressure against your foundation and channels it to a collection point. A sump pump removes that collected water from the home. For minor surface water issues or a basement that rarely floods, a sump pump alone may be sufficient. For chronic groundwater intrusion, hydrostatic pressure, or a high water table, a French drain is the more important piece. For full protection in a flood-prone or chronically wet basement, you need both working together.</p>
                 </div>
-                <div className='bg-white rounded-lg p-6 border border-slate-200 shadow-sm'>
-                  <h3 className='font-semibold text-slate-900 mb-2'>How much does a French drain cost vs a sump pump?</h3>
-                  <p className='text-slate-700'>French drains: $3,000&ndash;$15,000. Sump pumps: $1,200&ndash;$3,000. Combined: $4,000&ndash;$10,000.</p>
+                <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
+                  <h4 className='font-bold text-slate-900 mb-2'>How much does a French drain cost vs a sump pump?</h4>
+                  <p className='text-slate-700'>Interior French drain installation averages $3,000 to $8,000 for a typical basement, or $60 to $120 per linear foot. Exterior French drains run $5,000 to $15,000 depending on yard conditions and access. A sump pump with professional installation averages $1,200 to $3,000, with the pump unit itself costing $200 to $600 and labor adding $750 to $1,200. A battery backup adds $100 to $300. A combined interior French drain and sump pump system typically runs $4,000 to $10,000 installed and represents the most cost-effective full waterproofing solution for most basements.</p>
                 </div>
-                <div className='bg-white rounded-lg p-6 border border-slate-200 shadow-sm'>
-                  <h3 className='font-semibold text-slate-900 mb-2'>Can I install a French drain or sump pump myself?</h3>
-                  <p className='text-slate-700'>Sump pumps are DIY-friendly for handy homeowners. French drains need professionals to avoid structural issues.</p>
+                <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
+                  <h4 className='font-bold text-slate-900 mb-2'>Can I install a French drain or sump pump myself?</h4>
+                  <p className='text-slate-700'>A sump pump replacement is a realistic DIY project for a handy homeowner, particularly if the sump pit already exists. The pump unit itself costs $200 to $600 and installation involves basic plumbing and electrical connections. A new French drain is a different matter. Proper slope, pipe placement, gravel bed depth, and integration with the existing drainage plane require experience to get right. An improperly sloped French drain will hold water instead of moving it, and an interior installation that is not properly sealed against the footer can allow soil gas and moisture migration. Professional installation with a warranty is strongly recommended for French drains.</p>
                 </div>
-                <div className='bg-white rounded-lg p-6 border border-slate-200 shadow-sm'>
-                  <h3 className='font-semibold text-slate-900 mb-2'>Do I need both for basement waterproofing?</h3>
-                  <p className='text-slate-700'>Yes, for full protection against hydrostatic pressure and flooding.</p>
+                <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
+                  <h4 className='font-bold text-slate-900 mb-2'>Do I need both a French drain and a sump pump for basement waterproofing?</h4>
+                  <p className='text-slate-700'>For most homes with recurring water problems, yes. A French drain without a sump pump has nowhere to discharge collected water unless it drains to daylight by gravity, which is only possible on sloped lots. A sump pump without a French drain only removes water after it has already entered the basement, doing nothing to relieve the hydrostatic pressure that causes foundation cracks and bowing walls over time. The combination of an interior perimeter French drain feeding into a sump pit with a reliable pump and battery backup is the system waterproofing contractors install most often because it addresses both pressure and accumulation.</p>
                 </div>
-                <div className='bg-white rounded-lg p-6 border border-slate-200 shadow-sm'>
-                  <h3 className='font-semibold text-slate-900 mb-2'>How long do they last?</h3>
-                  <p className='text-slate-700'>French drains: 20&ndash;30 years. Sump pumps: 8&ndash;12 years with maintenance.</p>
+                <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
+                  <h4 className='font-bold text-slate-900 mb-2'>How long do French drains and sump pumps last?</h4>
+                  <p className='text-slate-700'>A properly installed French drain lasts 20 to 30 years. The main failure mode is silt clogging the perforated pipe over time, which can be addressed with periodic flushing. A sump pump motor typically lasts 8 to 12 years with regular maintenance including quarterly test runs, annual cleaning of the pit, and float switch inspection. The pit and discharge line are permanent and rarely need replacement. Budget for pump replacement every 10 years as part of normal home maintenance, and always keep a battery backup unit in place so a pump failure during a storm does not result in a flooded basement.</p>
                 </div>
-                <div className='bg-white rounded-lg p-6 border border-slate-200 shadow-sm'>
-                  <h3 className='font-semibold text-slate-900 mb-2'>What if power goes out?</h3>
-                  <p className='text-slate-700'>Add a battery or <a href='https://amzn.to/42r7u4V' target='_blank' rel='noopener noreferrer sponsored' className='text-indigo-600 underline hover:text-indigo-800'>water-powered backup</a> to your sump pump.</p>
+                <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
+                  <h4 className='font-bold text-slate-900 mb-2'>What happens if the power goes out during a storm?</h4>
+                  <p className='text-slate-700'>A standard sump pump stops working immediately when power fails, which is precisely when you need it most. A battery backup sump pump activates automatically when the primary pump loses power and can handle moderate water volume for several hours depending on the battery capacity and inflow rate. A water-powered backup uses municipal water pressure to create suction and requires no battery, making it reliable in extended outages but only suitable for homes on city water. For homes in areas with frequent power outages or severe storms, a combination of a primary submersible pump, a battery backup, and a generator transfer switch provides the most complete protection.</p>
+                </div>
+                <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
+                  <h4 className='font-bold text-slate-900 mb-2'>Can a French drain work without a sump pump?</h4>
+                  <p className='text-slate-700'>Yes, in one specific situation: when the French drain can discharge to daylight by gravity. This requires a sloped lot where the drain outlet exits through the foundation wall or yard at a point lower than the drain itself, allowing water to flow out passively without pumping. This setup works well for exterior French drains on hillside or sloped properties. For flat lots, finished basements, or interior perimeter drains, gravity discharge is not possible and a sump pump is required as the collection and ejection point. If you are unsure whether your lot allows gravity discharge, a waterproofing contractor can assess your grade and drainage plane.</p>
+                </div>
+                <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
+                  <h4 className='font-bold text-slate-900 mb-2'>How do I know if I need a French drain, a sump pump, or both?</h4>
+                  <p className='text-slate-700'>Start by diagnosing where the water is coming from. Water seeping through foundation walls or up through the floor under hydrostatic pressure points to a groundwater problem that a French drain addresses directly. Water pooling after heavy rain that drains away once the storm passes suggests surface water intrusion that a sump pump may handle on its own. Chronic dampness, efflorescence on walls, or a consistently high water table almost always calls for a combined system. A professional moisture assessment with a thermal imaging camera and moisture meter will identify the source accurately and prevent you from investing in the wrong solution.</p>
                 </div>
               </div>
             </section>
 
             {/* Glossary */}
             <section>
-              <h2 className='text-3xl font-bold text-slate-900 mb-6'>Quick Glossary of Basement Waterproofing Terms</h2>
-              <div className='bg-slate-50 rounded-lg border border-slate-200 p-6'>
-                <dl className='space-y-4'>
-                  <div><dt className='font-semibold text-slate-900'>Hydrostatic Pressure</dt><dd className='text-slate-700'>Water force pushing against foundations.</dd></div>
-                  <div><dt className='font-semibold text-slate-900'>French Drain</dt><dd className='text-slate-700'>Gravel trench with perforated pipe for water redirection.</dd></div>
-                  <div><dt className='font-semibold text-slate-900'>Sump Pump</dt><dd className='text-slate-700'>A device that ejects water from a basement pit.</dd></div>
-                  <div><dt className='font-semibold text-slate-900'>Interior Drainage</dt><dd className='text-slate-700'>Systems installed inside the basement perimeter.</dd></div>
-                  <div><dt className='font-semibold text-slate-900'>Battery Backup</dt><dd className='text-slate-700'>Secondary power source for sump pumps during outages.</dd></div>
-                </dl>
+              <h2 className='text-3xl font-bold text-slate-900 mb-6'>Glossary</h2>
+              <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
+                <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+                  <h4 className='font-bold text-slate-900 mb-1'>French Drain</h4>
+                  <p className='text-slate-700 text-sm'>A passive drainage system consisting of a perforated pipe set in a gravel-filled trench that intercepts groundwater and redirects it away from the foundation. Interior versions run along the basement floor perimeter; exterior versions are installed outside the foundation wall. Also called a perimeter drain or weeping tile system.</p>
+                </div>
+                <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+                  <h4 className='font-bold text-slate-900 mb-1'>Sump Pump</h4>
+                  <p className='text-slate-700 text-sm'>An electric pump installed in a pit at the lowest point of the basement that activates when water reaches a set level and ejects it outside through a discharge line. Available in submersible and pedestal configurations; should always be paired with a battery or water-powered backup. See our <a href='/articles/submersible-vs-pedestal-sump-pump' className='text-indigo-600 underline'>submersible vs pedestal guide</a> for a full comparison.</p>
+                </div>
+                <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+                  <h4 className='font-bold text-slate-900 mb-1'>Sump Basin</h4>
+                  <p className='text-slate-700 text-sm'>The pit excavated into the basement floor that collects water from the French drain or natural seepage and holds it until the sump pump activates. Also called a sump pit. Sizing the basin correctly for your water volume is important to prevent the pump from short-cycling.</p>
+                </div>
+                <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+                  <h4 className='font-bold text-slate-900 mb-1'>Hydrostatic Pressure</h4>
+                  <p className='text-slate-700 text-sm'>The force exerted by groundwater that has saturated the soil surrounding your foundation. As water accumulates with no place to drain, pressure builds against foundation walls and the floor slab, causing cracks, bowing, and seepage. A perimeter French drain relieves hydrostatic pressure by giving groundwater a path to move before pressure builds.</p>
+                </div>
+                <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+                  <h4 className='font-bold text-slate-900 mb-1'>Perimeter Drain</h4>
+                  <p className='text-slate-700 text-sm'>An interior French drain system installed along the inside perimeter of the basement floor at the base of the foundation wall. Water that seeps through the wall or up through the floor is captured and channeled to the sump pit. The most common interior waterproofing system installed by professional contractors.</p>
+                </div>
+                <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+                  <h4 className='font-bold text-slate-900 mb-1'>Weeping Tile</h4>
+                  <p className='text-slate-700 text-sm'>An older term for a perforated drainage pipe used in French drain systems, originally made from clay tile sections. Modern weeping tile systems use flexible perforated plastic pipe wrapped in filter fabric to prevent silt intrusion. The term is still widely used in Canada and among older contractors.</p>
+                </div>
+                <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+                  <h4 className='font-bold text-slate-900 mb-1'>Discharge Line</h4>
+                  <p className='text-slate-700 text-sm'>The pipe that carries water from the sump pump to a discharge point outside the home, typically to a yard area, storm drain, or dry well at least 10 feet from the foundation. Proper discharge line routing is critical to prevent ejected water from draining back toward the foundation.</p>
+                </div>
+                <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+                  <h4 className='font-bold text-slate-900 mb-1'>Battery Backup Sump Pump</h4>
+                  <p className='text-slate-700 text-sm'>A secondary pump powered by a 12-volt battery that activates automatically when the primary pump fails or loses power. Essential protection for storm events when power outages and peak water inflow occur simultaneously. See our <a href='/articles/battery-vs-water-powered-sump-pumps' className='text-indigo-600 underline'>battery vs water-powered backup guide</a> for a full comparison.</p>
+                </div>
+                <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+                  <h4 className='font-bold text-slate-900 mb-1'>Gravity Discharge</h4>
+                  <p className='text-slate-700 text-sm'>A French drain configuration where collected water flows out through a pipe that exits the foundation or yard at a point lower than the drain inlet, requiring no pump. Only viable on sloped lots where a suitable outlet exists below the drain level.</p>
+                </div>
+                <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+                  <h4 className='font-bold text-slate-900 mb-1'>Interior vs Exterior Waterproofing</h4>
+                  <p className='text-slate-700 text-sm'>The distinction between systems installed inside the basement (interior perimeter drains, sump pumps) and systems installed outside the foundation (exterior French drains, exterior membrane coatings). Interior systems manage water after it reaches the foundation; exterior systems intercept it before it makes contact. See our <a href='/articles/interior-vs-exterior-waterproofing' className='text-indigo-600 underline'>interior vs exterior waterproofing comparison</a> for a full breakdown.</p>
+                </div>
               </div>
             </section>
 
