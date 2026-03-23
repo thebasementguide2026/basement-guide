@@ -132,13 +132,13 @@ export default function HowToDryOutBasementAfterFlooding() {
 
         {/* Introduction */}
         <div className='prose prose-lg max-w-none mb-16'>
-          <p>
+          <p className='text-lg text-slate-700 leading-relaxed'>
             Your basement just flooded. The water&rsquo;s out&mdash;or mostly out&mdash;and now you&rsquo;re staring at a soggy mess, wondering what comes next. This is the part most guides skip. They tell you to call a professional and move on. But what you do in the next 24 to 72 hours determines whether you&rsquo;re dealing with a minor cleanup or a $10,000 mold remediation project.
           </p>
-          <p>
+          <p className='text-lg text-slate-700 leading-relaxed'>
             This guide picks up where our <Link href='/articles/basement-emergency-water-plan' className='text-teal-600 hover:text-teal-700 font-medium'>emergency water plan</Link> leaves off. The immediate crisis is handled. Now it&rsquo;s time to dry everything out, figure out what stays and what goes, and make sure mold doesn&rsquo;t get a foothold.
           </p>
-          <p>
+          <p className='text-lg text-slate-700 leading-relaxed'>
             The clock starts the moment floodwater enters your basement. According to the <a href='https://www.epa.gov/mold/mold-cleanup-your-home' target='_blank' rel='noopener noreferrer' className='text-teal-600 hover:text-teal-700 font-medium'>EPA</a>, mold can begin colonizing wet surfaces within 24 to 48 hours. Every hour you shave off the drying timeline reduces your risk&mdash;and your repair bill.
           </p>
         </div>
