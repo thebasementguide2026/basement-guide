@@ -8,6 +8,77 @@ export const metadata: Metadata = {
   description: 'Complete guide to drying out a flooded basement. Step-by-step process for water removal, drying equipment, mold prevention, and insurance documentation.',
 };
 
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'Will a flooded basement dry on its own?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Not fast enough to prevent mold. An unassisted basement can take weeks or months to fully dry depending on the volume of water, ambient humidity, and what materials got wet. The EPA notes mold begins colonizing wet surfaces within 24 to 48 hours, meaning passive drying without equipment almost guarantees a mold problem. Active drying with high-capacity dehumidifiers, air movers, and removal of saturated porous materials can compress the drying timeline from weeks to days.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Does bleach kill mold after a flood?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Bleach kills mold on hard, non-porous surfaces like concrete and tile where it makes full contact. It does not penetrate porous materials like wood framing or drywall. For exposed wood studs and framing, physical scrubbing with detergent followed by a commercial antimicrobial spray that penetrates wood fiber is more effective than bleach alone.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Should I run my furnace to dry out the basement?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "No. Raising the temperature with the furnace increases the air's capacity to hold moisture, which worsens effective humidity without removing water from the space. Air conditioning is a better choice because it cools air and removes moisture as a byproduct of the cooling process. A dedicated dehumidifier is the most effective tool.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'How do I dry out finished basement walls without removing drywall?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'In most cases you cannot dry finished walls adequately without opening them up. The minimum intervention is removing baseboards and cutting a 6-inch strip of drywall along the floor to allow airflow into the wall cavity, then directing air movers at the opening. Use a moisture meter to probe the studs \u2014 if readings stay above 15 percent after several days of aggressive drying, the drywall must come out.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'How do you know when your basement is actually dry?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Visual inspection is not reliable. A pin-type moisture meter ($25 to $50) is the only way to confirm actual dryness. Wood framing should read below 15 percent before any insulation or drywall is reinstalled. For concrete slabs, tape a 12-by-12-inch sheet of plastic sheeting to the floor with all edges sealed, leave it for 24 hours, and check for condensation on the underside.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Should I hire a professional or handle basement flood recovery myself?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'DIY is reasonable when the flood involved clean water, water depth was under a foot, you can start drying within 24 hours, and the basement is unfinished. Call a professional when water exceeded a few feet, the source was sewage or contaminated water, or you plan to file an insurance claim. Professional water damage restoration runs $1,500 to $5,000 for a standard basement.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Is it safe to turn the electricity back on after a basement flood?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Not until a licensed electrician has inspected the basement. Any outlet, switch, junction box, or panel component that was submerged must be checked and potentially replaced before power is restored. Floodwater deposits corrosive mineral sediment inside electrical components that creates shock and fire hazards even after the component has fully dried.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Does homeowners insurance cover basement flooding?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Standard homeowners insurance covers sudden, accidental water damage from burst pipes, appliance failures, and similar internal events. It typically does not cover groundwater seepage, natural flooding, sewer backup, or sump pump failure unless you have added specific endorsements. A water backup and sump pump overflow rider costs $40 to $100 per year.',
+      },
+    },
+  ],
+};
+
 export default function HowToDryOutBasementAfterFlooding() {
   return (
     <div className='bg-white min-h-screen'>
@@ -414,37 +485,84 @@ export default function HowToDryOutBasementAfterFlooding() {
         </div>
 
         {/* FAQ Section */}
-        <div className='mb-16'>
-          <h2 className='text-3xl font-bold text-slate-900 mb-8'>Frequently Asked Questions</h2>
-          <div className='space-y-6'>
-            <div className='border-b border-slate-200 pb-6'>
-              <h3 className='text-lg font-bold text-slate-800 mb-2'>Will a flooded basement dry on its own?</h3>
-              <p className='text-slate-600'>Eventually, but not fast enough to prevent mold. An unassisted basement can take weeks or months to fully dry. Mold begins forming within 24&ndash;48 hours on wet surfaces. Active drying with fans, dehumidifiers, and material removal can cut the timeline from weeks to days.</p>
-            </div>
-            <div className='border-b border-slate-200 pb-6'>
-              <h3 className='text-lg font-bold text-slate-800 mb-2'>Does bleach kill mold after a flood?</h3>
-              <p className='text-slate-600'>Bleach kills mold on hard, non-porous surfaces like concrete and tile. It doesn&rsquo;t penetrate porous materials like wood or drywall&mdash;it bleaches the surface so the mold appears gone, but the roots remain. For porous surfaces, physical removal (scrubbing) combined with antimicrobial treatment is more effective.</p>
-            </div>
-            <div className='border-b border-slate-200 pb-6'>
-              <h3 className='text-lg font-bold text-slate-800 mb-2'>Should I run my furnace to dry out the basement?</h3>
-              <p className='text-slate-600'>Running the furnace raises temperature, which also raises the air&rsquo;s capacity to hold moisture&mdash;making humidity worse. Air conditioning is a better choice because it cools the air and removes moisture. A dedicated dehumidifier is the most effective option.</p>
-            </div>
-            <div className='border-b border-slate-200 pb-6'>
-              <h3 className='text-lg font-bold text-slate-800 mb-2'>How do I dry behind basement walls I can&rsquo;t remove?</h3>
-              <p className='text-slate-600'>At minimum, remove baseboards and cut a strip of drywall along the floor&mdash;even six inches of open space allows air to flow behind the wall. Aim fans at the opening. Use a moisture meter to track progress. If readings stay elevated for more than a week, the drywall likely needs to come out.</p>
-            </div>
-            <div className='border-b border-slate-200 pb-6'>
-              <h3 className='text-lg font-bold text-slate-800 mb-2'>Is it safe to use a gas-powered pump or generator in my basement?</h3>
-              <p className='text-slate-600'>Never. Carbon monoxide from exhaust is odorless and can reach lethal concentrations in minutes. Place generators outside, at least 20 feet from any window or door, with exhaust pointing away from the house.</p>
-            </div>
-            <div className='border-b border-slate-200 pb-6'>
-              <h3 className='text-lg font-bold text-slate-800 mb-2'>When is it safe to turn the electricity back on?</h3>
-              <p className='text-slate-600'>Have a licensed electrician inspect the basement before restoring power. Any outlet, switch, or panel that was submerged needs to be checked and potentially replaced. Floodwater deposits corrosive sediment inside electrical components that creates fire and shock hazards even after drying.</p>
-            </div>
-            <div className='pb-6'>
-              <h3 className='text-lg font-bold text-slate-800 mb-2'>Does my insurance cover basement flooding?</h3>
-              <p className='text-slate-600'>Standard homeowners insurance typically covers sudden, accidental events like burst pipes and appliance leaks. It typically does not cover groundwater seepage, natural flooding, sewer backup, or sump pump failure unless you have specific endorsements. See our <Link href='/articles/basement-flooding-insurance' className='text-teal-600 hover:text-teal-700 font-medium'>basement flooding insurance guide</Link> for details.</p>
-            </div>
+        <h2 className='text-3xl font-bold text-slate-900 mb-8'>Frequently Asked Questions</h2>
+        <div className='space-y-6 mb-16'>
+          <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
+            <h4 className='font-bold text-slate-900 mb-2'>Will a flooded basement dry on its own?</h4>
+            <p className='text-slate-600'>Not fast enough to prevent mold. An unassisted basement can take weeks or months to fully dry depending on the volume of water, ambient humidity, and what materials got wet. The EPA notes mold begins colonizing wet surfaces within 24 to 48 hours, meaning passive drying without equipment almost guarantees a mold problem. Active drying with high-capacity dehumidifiers, air movers, and removal of saturated porous materials can compress the drying timeline from weeks to days. Every hour between water entry and active drying response increases both mold risk and total repair cost.</p>
+          </div>
+          <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
+            <h4 className='font-bold text-slate-900 mb-2'>Does bleach kill mold after a flood?</h4>
+            <p className='text-slate-600'>Bleach kills mold on hard, non-porous surfaces like concrete and tile where it makes full contact. It does not penetrate porous materials like wood framing or drywall &mdash; it bleaches the surface so mold appears gone, but the root structure (hyphae) remains alive inside the material. For exposed wood studs and framing, physical scrubbing with detergent followed by a commercial antimicrobial spray that penetrates wood fiber is more effective than bleach alone. For any mold growth exceeding 10 square feet, or for any contaminated water situation, professional remediation is the appropriate response regardless of cleaning method.</p>
+          </div>
+          <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
+            <h4 className='font-bold text-slate-900 mb-2'>Should I run my furnace to dry out the basement?</h4>
+            <p className='text-slate-600'>No. Raising the temperature with the furnace increases the air&rsquo;s capacity to hold moisture, which worsens effective humidity without removing water from the space. Air conditioning is a better choice because it cools air and removes moisture as a byproduct of the cooling process. A dedicated dehumidifier is the most effective tool because it is specifically designed to extract moisture from the air at high volume. Run the dehumidifier continuously on its lowest humidity setting, and pair it with air movers to keep air circulating across wet surfaces for maximum drying speed.</p>
+          </div>
+          <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
+            <h4 className='font-bold text-slate-900 mb-2'>How do I dry out finished basement walls without removing drywall?</h4>
+            <p className='text-slate-600'>In most cases you cannot dry finished walls adequately without opening them up. Drywall and fiberglass batt insulation are highly absorptive and trap moisture against wood studs, creating invisible mold conditions within days. The minimum intervention is removing baseboards and cutting a 6-inch strip of drywall along the floor to allow airflow into the wall cavity, then directing air movers at the opening. Use a moisture meter to probe the studs through the opening &mdash; if readings stay above 15 percent after several days of aggressive drying, the drywall must come out. Cutting to 4 feet and replacing is significantly cheaper than mold remediation behind intact walls discovered months later.</p>
+          </div>
+          <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
+            <h4 className='font-bold text-slate-900 mb-2'>How do you know when your basement is actually dry?</h4>
+            <p className='text-slate-600'>Visual inspection is not reliable &mdash; concrete and wood can appear dry on the surface while still holding significant moisture. A pin-type moisture meter ($25 to $50) is the only way to confirm actual dryness. Wood framing should read below 15 percent before any insulation or drywall is reinstalled. For concrete slabs, tape a 12-by-12-inch sheet of plastic sheeting to the floor with all edges sealed, leave it for 24 hours, and check for condensation on the underside &mdash; condensation means the slab is still off-gassing moisture. Do not reinstall any finishes until both wood and concrete readings confirm full drying. This is the step most homeowners skip and later regret.</p>
+          </div>
+          <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
+            <h4 className='font-bold text-slate-900 mb-2'>Should I hire a professional or handle basement flood recovery myself?</h4>
+            <p className='text-slate-600'>DIY is reasonable when the flood involved clean water (groundwater, rain, burst supply line), water depth was under a foot, you can start drying within 24 hours, and the basement is unfinished or you are willing to strip materials yourself. Call a professional when water exceeded a few feet, the source was sewage or contaminated water, the basement was fully finished and walls cannot be opened quickly, you cannot source adequate drying equipment, or you plan to file an insurance claim (professional documentation and scope reports significantly strengthen claims). Professional water damage restoration runs $1,500 to $5,000 for a standard basement. Sewage contamination with mold remediation can reach $5,000 to $15,000 or more.</p>
+          </div>
+          <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
+            <h4 className='font-bold text-slate-900 mb-2'>Is it safe to turn the electricity back on after a basement flood?</h4>
+            <p className='text-slate-600'>Not until a licensed electrician has inspected the basement. Any outlet, switch, junction box, or panel component that was submerged must be checked and potentially replaced before power is restored. Floodwater deposits corrosive mineral sediment inside electrical components that creates shock and fire hazards even after the component has fully dried and appears undamaged. Do not restore power yourself based on how things look &mdash; the failure mode for flood-damaged electrical components is often delayed, appearing weeks after the flood when the residue begins conducting. A licensed electrician inspection is the only safe path to restoring basement power after any significant flooding event.</p>
+          </div>
+          <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
+            <h4 className='font-bold text-slate-900 mb-2'>Does homeowners insurance cover basement flooding?</h4>
+            <p className='text-slate-600'>Standard homeowners insurance covers sudden, accidental water damage from burst pipes, appliance failures, and similar internal events. It typically does not cover groundwater seepage, natural flooding from external water sources, sewer backup, or sump pump failure unless you have added specific endorsements. A water backup and sump pump overflow rider costs $40 to $100 per year and covers the most common basement flooding scenarios. Flood insurance through the NFIP covers natural flood events but has a 30-day waiting period before coverage takes effect &mdash; it cannot be purchased reactively. See our <Link href='/articles/basement-flooding-insurance' className='text-teal-600 hover:text-teal-700 font-medium'>basement flooding insurance guide</Link> for full coverage details.</p>
+          </div>
+        </div>
+
+        {/* Glossary */}
+        <h2 className='text-2xl font-bold text-slate-900 mb-6'>Glossary of Basement Flood Recovery Terms</h2>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-6 mb-16'>
+          <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+            <h4 className='font-bold text-slate-900 mb-2'>Category 1 Water (Clean Water)</h4>
+            <p className='text-slate-600 text-sm'>Floodwater from a sanitary source such as a burst supply pipe, rain intrusion, or groundwater seepage. Poses no immediate health risk from the water itself, though it can become Category 2 within 24 to 48 hours as it contacts building materials and organic matter. DIY recovery is generally appropriate for Category 1 events.</p>
+          </div>
+          <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+            <h4 className='font-bold text-slate-900 mb-2'>Category 2 Water (Gray Water)</h4>
+            <p className='text-slate-600 text-sm'>Floodwater containing significant contamination from sources such as washing machine overflow, dishwasher backup, or aquarium water. Contains microorganisms and nutrients that accelerate mold growth and pose health risks if ingested or contacted. Requires more aggressive disinfection than Category 1 and protective equipment during cleanup.</p>
+          </div>
+          <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+            <h4 className='font-bold text-slate-900 mb-2'>Category 3 Water (Black Water)</h4>
+            <p className='text-slate-600 text-sm'>Grossly contaminated floodwater from sewage backup, toilet overflow, or rising floodwater from rivers and storm drains that has contacted sewage systems. Contains pathogens, bacteria, and toxins that pose serious health risks. Category 3 cleanup requires professional remediation with full protective equipment &mdash; DIY is not appropriate.</p>
+          </div>
+          <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+            <h4 className='font-bold text-slate-900 mb-2'>Air Mover</h4>
+            <p className='text-slate-600 text-sm'>A high-velocity fan designed to create turbulent airflow across wet surfaces to accelerate evaporation. More effective than standard box fans because they move more air at lower heights and direct it across surfaces rather than through the room. Professional standard is 3 to 4 air movers per 1,000 square feet in combination with a commercial dehumidifier.</p>
+          </div>
+          <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+            <h4 className='font-bold text-slate-900 mb-2'>Moisture Meter</h4>
+            <p className='text-slate-600 text-sm'>A handheld device that measures the moisture content of building materials. Pin-type meters insert small probes into wood framing to give a percentage reading. The target for wood framing before reinstalling finishes is below 15 percent. An essential tool for confirming actual dryness rather than relying on visual inspection.</p>
+          </div>
+          <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+            <h4 className='font-bold text-slate-900 mb-2'>Antimicrobial Treatment</h4>
+            <p className='text-slate-600 text-sm'>A chemical solution applied to exposed building materials after cleaning to kill remaining mold spores and inhibit future growth. More effective than bleach on porous materials like wood framing because it penetrates the surface rather than treating only the top layer. Applied after physical scrubbing and cleaning, not as a substitute for it.</p>
+          </div>
+          <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+            <h4 className='font-bold text-slate-900 mb-2'>Dehumidifier (Refrigerant vs Desiccant)</h4>
+            <p className='text-slate-600 text-sm'>Two main dehumidifier types used in flood recovery. Refrigerant dehumidifiers work by cooling air below its dew point to condense moisture and are most effective above 65 degrees Fahrenheit &mdash; the standard choice for most basement drying situations. Desiccant dehumidifiers use a moisture-absorbing material and work effectively at lower temperatures, making them the professional choice for cold-weather flood events or when basement temperatures are below 60 degrees.</p>
+          </div>
+          <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+            <h4 className='font-bold text-slate-900 mb-2'>Moisture Wicking</h4>
+            <p className='text-slate-600 text-sm'>The upward movement of water through porous materials by capillary action. Drywall, wood framing, and concrete all wick moisture above the visible waterline &mdash; which is why drywall should always be cut at least 12 inches above the actual waterline, not at it. Moisture wicking is the primary reason visible water level does not accurately indicate the extent of wet materials.</p>
+          </div>
+          <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+            <h4 className='font-bold text-slate-900 mb-2'>Sewage Ejector Pit</h4>
+            <p className='text-slate-600 text-sm'>A sealed underground pit in a basement that collects waste from below-grade plumbing before an ejector pump sends it to the main drain line. During sewer backup events, the ejector pit is often the first place sewage enters the basement. A flooded ejector pit indicates Category 3 contamination requiring professional cleanup.</p>
+          </div>
+          <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+            <h4 className='font-bold text-slate-900 mb-2'>Psychrometric Drying</h4>
+            <p className='text-slate-600 text-sm'>The professional science of calculating and optimizing drying conditions by managing the relationship between temperature, humidity, and airflow. Restoration contractors use psychrometric calculations to determine the precise number and placement of dehumidifiers and air movers needed for a given space, material type, and target drying timeline. Referenced in IICRC S500 &mdash; the standard for professional water damage restoration.</p>
           </div>
         </div>
 
@@ -492,6 +610,10 @@ export default function HowToDryOutBasementAfterFlooding() {
         </div>
       </div>
 
+      <script
+        type='application/ld+json'
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
     </div>
   );
 }
