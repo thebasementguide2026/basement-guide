@@ -319,19 +319,81 @@ export default function EgressWindowCost() {
           {/* Related Articles */}
           <section className='mt-16 mb-12'>
             <h2 className='text-2xl font-extrabold text-slate-900 mb-8'>Related Guides</h2>
-            <div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
-              <Link href='/articles/basement-adu-rental-suite' className='group block bg-white rounded-xl border border-slate-200 p-6 hover:shadow-lg transition-shadow'>
-                <h3 className='font-bold text-slate-900 group-hover:text-teal-600 transition-colors mb-2'>Basement ADU & Rental Suite Guide</h3>
-                <p className='text-slate-500 text-sm'>Egress windows are a must for basement ADUs. Learn the full process.</p>
+
+            <h3 className='text-sm font-semibold text-slate-500 uppercase tracking-wide mb-3'>On thebasement.guide</h3>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-4 not-prose mb-10'>
+              <Link href='/articles/basement-finishing-cost' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Basement Finishing Cost 2026</h4>
+                <p className='text-slate-600 text-sm'>The complete cost breakdown for finishing a basement into livable space, where egress window installation is one of the first and most critical line items in the budget before framing, drywall, and flooring begin.</p>
               </Link>
-              <Link href='/articles/how-to-finish-a-basement' className='group block bg-white rounded-xl border border-slate-200 p-6 hover:shadow-lg transition-shadow'>
-                <h3 className='font-bold text-slate-900 group-hover:text-teal-600 transition-colors mb-2'>How to Finish a Basement</h3>
-                <p className='text-slate-500 text-sm'>The complete roadmap to transforming your basement into livable space.</p>
+              <Link href='/articles/how-to-finish-a-basement' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>How to Finish a Basement</h4>
+                <p className='text-slate-600 text-sm'>The step-by-step finishing guide covering sequence, permits, and how egress window installation fits into the broader project timeline before interior finishing materials are installed.</p>
               </Link>
-              <Link href='/articles/basement-waterproofing-guide' className='group block bg-white rounded-xl border border-slate-200 p-6 hover:shadow-lg transition-shadow'>
-                <h3 className='font-bold text-slate-900 group-hover:text-teal-600 transition-colors mb-2'>Basement Waterproofing Guide</h3>
-                <p className='text-slate-500 text-sm'>Protect your investment before finishing with proper waterproofing.</p>
+              <Link href='/articles/pre-finish-audit' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Pre-Finish Audit Checklist</h4>
+                <p className='text-slate-600 text-sm'>Everything to verify before starting a basement finishing project, including egress compliance, moisture testing, and structural checks that must be complete before any finishing materials go in.</p>
               </Link>
+              <Link href='/articles/basement-permits-guide' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Basement Permits Guide</h4>
+                <p className='text-slate-600 text-sm'>When permits are required for egress window installation, what inspections are involved, how retroactive permits work for previously finished basements, and how to navigate the process in your jurisdiction.</p>
+              </Link>
+              <Link href='/articles/basement-adu-rental-suite' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Basement ADU and Rental Suite Guide</h4>
+                <p className='text-slate-600 text-sm'>How egress windows factor into basement ADU and rental suite requirements, including the additional code requirements that apply when a basement unit is rented to a non-family tenant.</p>
+              </Link>
+              <Link href='/articles/basement-bathroom-guide' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Basement Bathroom Guide</h4>
+                <p className='text-slate-600 text-sm'>How egress windows interact with basement bathroom planning, particularly when a basement suite includes a bedroom that requires its own egress window to qualify as a legal sleeping area.</p>
+              </Link>
+              <Link href='/articles/diy-vs-hiring-pro-basement-projects' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>DIY vs Hiring a Pro for Basement Projects</h4>
+                <p className='text-slate-600 text-sm'>A full breakdown of which basement projects fall within DIY capability and which require professional installation, with egress window installation firmly in the hire-a-pro category for most homeowners.</p>
+              </Link>
+              <Link href='/articles/bowing-basement-walls' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Bowing Basement Walls</h4>
+                <p className='text-slate-600 text-sm'>Why existing structural wall issues must be evaluated and repaired before cutting an egress window opening, since cutting through a compromised foundation wall can accelerate structural failure.</p>
+              </Link>
+              <Link href='/articles/types-of-foundation-cracks' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Types of Foundation Cracks</h4>
+                <p className='text-slate-600 text-sm'>How to assess foundation wall condition before an egress window installation, since crack patterns in the planned cutting zone affect the structural risk of the project.</p>
+              </Link>
+              <Link href='/articles/complete-basement-waterproofing-guide' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Complete Basement Waterproofing Guide</h4>
+                <p className='text-slate-600 text-sm'>How to waterproof the new egress window opening, well, and surrounding foundation wall to prevent the water intrusion that improperly flashed egress windows commonly cause.</p>
+              </Link>
+              <Link href='/articles/waterproofing-home-appraisal-value' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Waterproofing and Home Appraisal Value</h4>
+                <p className='text-slate-600 text-sm'>How egress window installation, combined with waterproofing and finishing, affects appraised value and the legal bedroom count that drives the largest value increases.</p>
+              </Link>
+              <Link href='/articles/homebuyers-basement-inspection-checklist' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Homebuyer&apos;s Basement Inspection Checklist</h4>
+                <p className='text-slate-600 text-sm'>How home inspectors evaluate egress window compliance during a home purchase, including what a non-compliant basement bedroom means for negotiating position and closing timelines.</p>
+              </Link>
+              <Link href='/articles/basement-renovation-mistakes' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Basement Renovation Mistakes</h4>
+                <p className='text-slate-600 text-sm'>The most common and expensive basement finishing mistakes, including skipping egress installation and finishing a basement bedroom without a permit.</p>
+              </Link>
+            </div>
+
+            <h3 className='text-sm font-semibold text-slate-500 uppercase tracking-wide mb-3'>From Our Network</h3>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-4 not-prose mb-10'>
+              <a href='https://theseptic.guide/guides/buying-home-with-septic' target='_blank' rel='noopener noreferrer' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Buying a Home with a Septic System &middot; theseptic.guide</h4>
+                <p className='text-slate-600 text-sm'>For homes where a basement egress window project is being planned alongside a home purchase, this guide covers the septic system due diligence that should happen in parallel with egress and finishing decisions.</p>
+              </a>
+              <a href='https://theseptic.guide/guides/selling-home-with-septic-system' target='_blank' rel='noopener noreferrer' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>Selling a Home with a Septic System &middot; theseptic.guide</h4>
+                <p className='text-slate-600 text-sm'>Sellers adding egress windows to convert basement rooms to legal bedrooms before listing should coordinate the disclosure of both the new egress installation and the septic system condition as part of their pre-listing documentation package.</p>
+              </a>
+            </div>
+
+            <h3 className='text-sm font-semibold text-slate-500 uppercase tracking-wide mb-3'>External Resource</h3>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-4 not-prose mb-10'>
+              <a href='https://codes.iccsafe.org/content/IRC2021P2/chapter-3-building-planning#IRC2021P2_Pt03_Ch03_SecR310' target='_blank' rel='noopener noreferrer' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+                <h4 className='text-lg font-bold text-slate-900 mb-2'>IRC Egress Window Requirements &mdash; Section R310</h4>
+                <p className='text-slate-600 text-sm'>The International Residential Code Section R310 covering the full egress window requirements including minimum clear opening dimensions, sill height maximums, window well specifications, and ladder requirements that apply in most US jurisdictions.</p>
+              </a>
             </div>
           </section>
 
