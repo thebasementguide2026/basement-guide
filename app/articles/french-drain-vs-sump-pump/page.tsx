@@ -173,7 +173,7 @@ export default function FrenchDrainVsSumpPumpArticle() {
                 <div className='bg-green-50 rounded-lg p-6 border border-green-200'>
                   <h3 className='font-bold text-green-800 mb-3'>Pros of French Drains</h3>
                   <ul className='space-y-2 text-slate-700 text-sm'>
-                    <li className='flex items-start gap-2'><span className='text-green-600'>&#10003;</span> Relieves hydrostatic pressure to prevent cracks and bowing walls</li>
+                    <li className='flex items-start gap-2'><span className='text-green-600'>&#10003;</span> Relieves <a href='/articles/bowing-basement-walls' className='text-indigo-600 underline'>hydrostatic pressure</a> to prevent cracks and <a href='/articles/bowing-basement-walls' className='text-indigo-600 underline'>bowing walls</a></li>
                     <li className='flex items-start gap-2'><span className='text-green-600'>&#10003;</span> Passive operation &ndash; no electricity needed</li>
                     <li className='flex items-start gap-2'><span className='text-green-600'>&#10003;</span> Long-term solution that protects the entire foundation</li>
                     <li className='flex items-start gap-2'><span className='text-green-600'>&#10003;</span> Pairs well with sump pumps for complete waterproofing</li>
@@ -199,7 +199,7 @@ export default function FrenchDrainVsSumpPumpArticle() {
             <section>
               <h2 className='text-3xl font-bold text-slate-900 mb-6'>What Is a Sump Pump and How Does It Work?</h2>
               <p className='text-slate-700 leading-relaxed mb-4'>
-                A sump pump sits in a pit (sump basin) at your basement&rsquo;s lowest point. When water enters the pit, a float switch activates the pump to eject water outside through a discharge line. Common types include submersible (quiet and powerful) and pedestal (cheaper but louder). Battery backups or water-powered models add reliability during power outages.
+                A sump pump sits in a pit (sump basin) at your basement&rsquo;s lowest point. When water enters the pit, a float switch activates the pump to eject water outside through a discharge line. Common types include <Link href='/articles/submersible-vs-pedestal-sump-pump' className='text-indigo-600 underline'>submersible</Link> (quiet and powerful) and <Link href='/articles/submersible-vs-pedestal-sump-pump' className='text-indigo-600 underline'>pedestal</Link> (cheaper but louder). <Link href='/articles/battery-vs-water-powered-sump-pumps' className='text-indigo-600 underline'>Battery backups</Link> or water-powered models add reliability during power outages.
               </p>
               <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
                 <div className='bg-green-50 rounded-lg p-6 border border-green-200'>
@@ -239,7 +239,7 @@ export default function FrenchDrainVsSumpPumpArticle() {
               <div className='space-y-6'>
                 <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
                   <h3 className='text-xl font-bold text-slate-900 mb-2'>Effectiveness</h3>
-                  <p className='text-slate-700 leading-relaxed'>French drains prevent water from reaching your foundation, while sump pumps remove it after entry. For best results, use an interior French drain that channels water to a sump pump.</p>
+                  <p className='text-slate-700 leading-relaxed'>French drains prevent water from reaching your foundation, while sump pumps remove it after entry. For best results, use an <Link href='/articles/interior-basement-drainage-systems' className='text-indigo-600 underline'>interior French drain</Link> that channels water to a sump pump.</p>
                 </div>
                 <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
                   <h3 className='text-xl font-bold text-slate-900 mb-2'>Installation</h3>
@@ -291,7 +291,7 @@ export default function FrenchDrainVsSumpPumpArticle() {
                 </div>
               </div>
               <div className='bg-red-50 border-l-4 border-red-500 rounded-lg p-5 mt-6'>
-                <p className='text-red-800 font-semibold'>Fix external issues like gutters and grading first. Test soil for high water tables. Hire pros for permits and warranties. Add smart features like Wi-Fi alerts for peace of mind.</p>
+                <p className='text-red-800 font-semibold'>Fix external issues like <a href='/articles/wet-basement-walls' className='text-indigo-600 underline'>gutters and grading</a> first. Test soil for high water tables. Hire pros for permits and warranties. Add smart features like Wi-Fi alerts for peace of mind.</p>
               </div>
             </section>
 
