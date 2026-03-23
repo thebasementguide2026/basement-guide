@@ -74,7 +74,7 @@ export default function FrenchDrainVsSumpPumpArticle() {
           </div>
           <h1 className='text-5xl md:text-7xl font-black text-white mb-6 leading-[0.9] tracking-tighter'>
             French Drain vs<br />
-            <span className='text-indigo-400'>Sump Pump</span>
+            <span className='text-indigo-400'>Sump Pump</span> (2026)
           </h1>
           <p className='text-xl text-slate-300 max-w-2xl mb-10 font-light leading-relaxed'>
             Which basement waterproofing system is best? We compare costs, installation, effectiveness, and why experts recommend combining both.
