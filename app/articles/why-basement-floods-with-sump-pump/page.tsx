@@ -432,6 +432,51 @@ export default function WhyBasementFloods() {
           </Link>
         </div>
 
+        {/* Glossary */}
+        <h2 className='text-2xl font-bold text-slate-900 mb-6'>Glossary of Sump Pump and Basement Flooding Terms</h2>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-6 mb-16'>
+          <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+            <h4 className='font-bold text-slate-900 mb-2'>Sump Pump</h4>
+            <p className='text-slate-600 text-sm'>An electric pump installed in a pit at the lowest point of the basement that activates when water reaches a set level and ejects it outside through a discharge line. Available in submersible and pedestal configurations. A sump pump removes water that reaches the pit &mdash; it does not prevent water from entering the basement through walls or floor joints above the drainage system.</p>
+          </div>
+          <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+            <h4 className='font-bold text-slate-900 mb-2'>Sump Pit</h4>
+            <p className='text-slate-600 text-sm'>The excavated basin in the basement floor that collects water from the perimeter drainage system or natural seepage and holds it until the pump activates. Also called a sump basin. Pit size affects how quickly the pump must cycle &mdash; an undersized pit causes short-cycling that wears out the motor prematurely.</p>
+          </div>
+          <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+            <h4 className='font-bold text-slate-900 mb-2'>Float Switch</h4>
+            <p className='text-slate-600 text-sm'>The trigger mechanism that activates the sump pump when water in the pit rises to a set level. Tethered float switches hang on a cord and can become tangled; vertical float switches and electronic switches are less prone to mechanical failure. A stuck or misadjusted float switch is one of the most common causes of pump failure during a flood event.</p>
+          </div>
+          <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+            <h4 className='font-bold text-slate-900 mb-2'>Battery Backup Sump Pump</h4>
+            <p className='text-slate-600 text-sm'>A secondary pump powered by a 12-volt battery that activates automatically when the primary pump loses power or fails. Essential protection for storm events when power outages and peak water inflow occur simultaneously. See our <a href='/articles/battery-vs-water-powered-sump-pumps' className='text-teal-600 underline font-medium'>battery vs water-powered backup guide</a> for a full comparison of backup options.</p>
+          </div>
+          <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+            <h4 className='font-bold text-slate-900 mb-2'>Discharge Line</h4>
+            <p className='text-slate-600 text-sm'>The pipe that carries water from the sump pump to a discharge point outside the home. Must terminate at least 10 feet from the foundation and slope continuously downward to prevent freezing and backflow. A clogged, frozen, or improperly routed discharge line is a common cause of flooding even when the pump itself is functioning correctly.</p>
+          </div>
+          <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+            <h4 className='font-bold text-slate-900 mb-2'>French Drain</h4>
+            <p className='text-slate-600 text-sm'>A passive perimeter drainage system &mdash; a gravel-filled trench with a perforated pipe &mdash; that intercepts groundwater and channels it to the sump pit. A sump pump without a French drain or interior drainage system can only remove water that reaches the pit by gravity; water entering through wall cracks or floor joints above the drainage plane never reaches the pump. See our <a href='/articles/french-drain-vs-sump-pump' className='text-teal-600 underline font-medium'>French drain vs sump pump guide</a> for a full explanation of how the two systems work together.</p>
+          </div>
+          <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+            <h4 className='font-bold text-slate-900 mb-2'>Hydrostatic Pressure</h4>
+            <p className='text-slate-600 text-sm'>The force exerted by water-saturated soil against the foundation walls and floor slab. As groundwater accumulates with no drainage path, pressure builds until water forces its way through cracks, joints, and porous masonry. A sump pump relieves hydrostatic pressure only indirectly by lowering the water table around the pit &mdash; a perimeter French drain is the more direct solution.</p>
+          </div>
+          <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+            <h4 className='font-bold text-slate-900 mb-2'>Backwater Valve</h4>
+            <p className='text-slate-600 text-sm'>A one-way valve installed on the sewer line that prevents sewage and stormwater from flowing back into the home during municipal sewer system overloads. Required when a basement floods with discolored or foul-smelling water coming up through floor drains or toilets rather than through the sump pit. Costs $200 to $600 professionally installed.</p>
+          </div>
+          <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+            <h4 className='font-bold text-slate-900 mb-2'>Short-Cycling</h4>
+            <p className='text-slate-600 text-sm'>A condition where the sump pump turns on and off rapidly in quick succession rather than running for a sustained period. Usually caused by an undersized sump pit, a discharge line backing water up into the pit, or a float switch set too close to the pump shutoff level. Short-cycling overheats the motor and significantly shortens pump lifespan.</p>
+          </div>
+          <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+            <h4 className='font-bold text-slate-900 mb-2'>GFCI Outlet</h4>
+            <p className='text-slate-600 text-sm'>A Ground Fault Circuit Interrupter outlet that shuts off power when it detects a current imbalance, protecting against electrical shock in wet environments. Sump pumps are typically plugged into GFCI outlets. A tripped GFCI is one of the first things to check when a pump fails to activate &mdash; push the reset button on the outlet before assuming the pump has failed.</p>
+          </div>
+        </div>
+
         {/* Lead Form CTA */}
         <div className='bg-slate-900 rounded-2xl p-8 md:p-12'>
           <h2 className='text-2xl md:text-3xl font-bold text-white mb-3'>Get a Free Waterproofing Assessment</h2>
