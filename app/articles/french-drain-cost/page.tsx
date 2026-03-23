@@ -368,11 +368,11 @@ export default function FrenchDrainCostPage() {
             <div className='bg-red-50 rounded-2xl p-6 border border-red-100'>
               <h3 className='font-bold text-red-800 text-lg mb-4'>Disadvantages</h3>
               <ul className='space-y-3 text-slate-700'>
-                <li className='flex items-start gap-2'><span className='text-red-500 font-bold'> to </span> Interior systems require jackhammering and significant disruption</li>
-                <li className='flex items-start gap-2'><span className='text-red-500 font-bold'> to </span> Can clog over time without proper filter fabric</li>
-                <li className='flex items-start gap-2'><span className='text-red-500 font-bold'> to </span> Exterior installation disrupts landscaping temporarily</li>
-                <li className='flex items-start gap-2'><span className='text-red-500 font-bold'> to </span> Does not solve roof or plumbing leaks</li>
-                <li className='flex items-start gap-2'><span className='text-red-500 font-bold'> to </span> Needs a proper discharge point or sump pump to work</li>
+                <li className='flex items-start gap-2'><span className='text-red-500 font-bold'>&minus;</span> Interior systems require jackhammering and significant disruption</li>
+                <li className='flex items-start gap-2'><span className='text-red-500 font-bold'>&minus;</span> Can clog over time without proper filter fabric</li>
+                <li className='flex items-start gap-2'><span className='text-red-500 font-bold'>&minus;</span> Exterior installation disrupts landscaping temporarily</li>
+                <li className='flex items-start gap-2'><span className='text-red-500 font-bold'>&minus;</span> Does not solve roof or plumbing leaks</li>
+                <li className='flex items-start gap-2'><span className='text-red-500 font-bold'>&minus;</span> Needs a proper discharge point or sump pump to work</li>
               </ul>
             </div>
           </div>
