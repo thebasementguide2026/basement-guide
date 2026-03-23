@@ -11,6 +11,83 @@ export const metadata: Metadata = {
 export default function FoundationComparisonArticle() {
   return (
     <div className='bg-white min-h-screen'>
+      <script
+        type='application/ld+json'
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify([
+            {
+              '@context': 'https://schema.org',
+              '@type': 'FAQPage',
+              mainEntity: [
+                {
+                  '@type': 'Question',
+                  name: 'How much does each foundation type cost in 2026?',
+                  acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: 'A concrete slab foundation costs $4 to $8 per square foot, or $6,000 to $12,000 for a typical 1,500 square foot home. A crawl space foundation costs $7 to $14 per square foot, or $10,500 to $21,000. A full basement costs $20 to $30 per square foot, or $30,000 to $45,000 unfinished. Finishing a basement adds $20,000 to $50,000. See the basement finishing cost guide at https://thebasement.guide/articles/basement-finishing-cost for the full finishing budget breakdown.',
+                  },
+                },
+                {
+                  '@type': 'Question',
+                  name: 'Is a basement or crawl space better for resale value?',
+                  acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: 'A finished basement adds the most resale value, contributing a 10 to 20 percent premium in cold-climate markets. Finished basements typically return 70 to 100 percent of the finishing cost at sale. Crawl spaces offer a slight resale advantage over slabs in some markets. Slabs are resale-neutral in warm climates. An unfinished basement with water problems can reduce value compared to a slab. See the waterproofing and home appraisal value guide at https://thebasement.guide/articles/waterproofing-home-appraisal-value for how foundation condition affects appraisals.',
+                  },
+                },
+                {
+                  '@type': 'Question',
+                  name: 'Which foundation type is most energy efficient?',
+                  acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: 'Slabs and basements are comparably energy efficient. Slabs eliminate the air gap beneath the home. Basements benefit from earth-contact walls at a stable 50 to 60 degrees Fahrenheit year-round, reducing heating and cooling loads by 10 to 30 percent. Crawl spaces are the least efficient, though encapsulation closes the performance gap. In cold climates, a conditioned basement outperforms a slab. See the basement insulation guide at https://thebasement.guide/articles/basement-insulation-guide for R-value requirements.',
+                  },
+                },
+                {
+                  '@type': 'Question',
+                  name: 'Can I convert a crawl space into a full basement?',
+                  acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: 'It is technically possible but extremely expensive. The process involves jacking up the entire house, excavating beneath it, pouring new concrete footings, walls, and a floor slab, then lowering the house back. Costs start at $50,000 and can exceed $100,000. This is almost never cost-effective compared to building a basement during original construction or adding above-grade square footage.',
+                  },
+                },
+                {
+                  '@type': 'Question',
+                  name: 'Which foundation type has the worst moisture problems?',
+                  acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: 'Crawl spaces have the most chronic moisture problems due to exposed soil, limited air circulation, and humid outdoor air entering through vents. Up to 50 percent of first-floor air originates from the crawl space. Basements experience the most expensive moisture damage events from flooding. Slabs have the fewest moisture problems but are not immune. See the crawl space encapsulation guide at https://thebasement.guide/articles/crawl-space-encapsulation-guide and the complete basement waterproofing guide at https://thebasement.guide/articles/complete-basement-waterproofing-guide for solutions.',
+                  },
+                },
+                {
+                  '@type': 'Question',
+                  name: 'Do I need to waterproof a basement foundation?',
+                  acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: 'Yes, without exception. New basement construction should include exterior dampproofing or a waterproof membrane, a footing drain, a slab vapor barrier, a sump pump with backup, and proper grading. For existing basements, interior drainage costs $4,000 to $12,000 and exterior waterproofing costs $7,000 to $18,000. See the basement waterproofing cost guide at https://thebasement.guide/articles/basement-waterproofing-cost and the interior vs exterior waterproofing guide at https://thebasement.guide/articles/interior-vs-exterior-waterproofing for details.',
+                  },
+                },
+                {
+                  '@type': 'Question',
+                  name: 'How long does each foundation type last?',
+                  acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: 'A concrete slab lasts 50 to 100 years. A crawl space lasts 40 to 80 years, with lifespan dependent on moisture management. A full basement lasts 80 to 150 years, the longest of any type. All lifespans assume proper drainage, periodic inspection, and timely repair. The most common cause of premature failure is deferred maintenance on drainage and waterproofing. See the types of foundation cracks guide at https://thebasement.guide/articles/types-of-foundation-cracks for early warning signs.',
+                  },
+                },
+                {
+                  '@type': 'Question',
+                  name: 'Is it worth getting a soil test before building?',
+                  acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: 'Yes. A geotechnical soil report costs $500 to $2,000 and reveals soil bearing capacity, water table depth, presence of expansive clay or organic fill, and depth to bedrock. This determines which foundation types are feasible and what engineering is required. High water tables may make a full basement impractical without $10,000 to $30,000 in specialized systems. Skipping the test regularly results in expensive surprises.',
+                  },
+                },
+              ],
+            },
+          ]),
+        }}
+      />
       {/* Article Hero */}
       <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
         <Image
@@ -55,6 +132,8 @@ export default function FoundationComparisonArticle() {
           <p>For a typical 1,500 square foot home, that translates to $6,000 to $12,000 for a slab, $10,500 to $21,000 for a crawl space, and $30,000 to $45,000 for an unfinished basement.</p>
 
           <p>This guide compares all three foundation types across cost, longevity, energy efficiency, moisture risk, and lifestyle impact so you can make an informed decision whether you are building a new home, evaluating an existing one, or trying to understand the foundation you already have.</p>
+
+          <p className='text-lg text-slate-700 leading-relaxed'>Choosing between a basement, crawl space, and slab foundation is one of the most consequential and least reversible decisions in residential construction, because the foundation type determines not just the initial build cost but the home&apos;s moisture risk profile, energy performance, usable square footage, and resale value for the entire life of the structure. Unlike most home improvement decisions that can be undone or changed at reasonable cost, converting from one foundation type to another after construction is either technically impossible (slab to basement) or prohibitively expensive (crawl space to basement, starting at $50,000). In practice, geography and climate resolve the decision for most homeowners before personal preference enters the picture: cold-climate regions require deep footings that make basements cost-competitive, warm dry regions favor slabs, and humid or sloped terrain often points to crawl spaces. The cases where a genuine choice exists are new construction in transitional climate zones and renovation projects where the existing foundation type is being evaluated against the cost of a conversion.</p>
 
           <p>If you already have a basement and want to improve it, see our <Link href='/articles/basement-waterproofing' className='text-teal-600 hover:text-teal-700 font-semibold'>complete basement waterproofing guide</Link> or our <Link href='/articles/how-to-finish-a-basement' className='text-teal-600 hover:text-teal-700 font-semibold'>how to finish a basement guide</Link>.</p>
 
@@ -227,130 +306,182 @@ export default function FoundationComparisonArticle() {
             <li>Efflorescence (white mineral deposits on walls) indicating moisture migration. See our <Link href='/articles/basement-efflorescence' className='text-teal-600 hover:text-teal-700 font-semibold'>basement efflorescence guide</Link>.</li>
           </ul>
 
+          {/* Long-Term Cost and Maintenance Comparison */}
+          <h2 className='text-3xl font-bold text-slate-900 mt-16 mb-8'>Long-Term Cost and Maintenance Comparison</h2>
+          <div className='overflow-x-auto mb-12'>
+            <table className='min-w-full border border-slate-200 rounded-lg overflow-hidden'>
+              <thead className='bg-emerald-800 text-white'>
+                <tr>
+                  <th className='px-4 py-3 text-left font-semibold'>Factor</th>
+                  <th className='px-4 py-3 text-left font-semibold'>Concrete Slab</th>
+                  <th className='px-4 py-3 text-left font-semibold'>Crawl Space</th>
+                  <th className='px-4 py-3 text-left font-semibold'>Full Basement</th>
+                </tr>
+              </thead>
+              <tbody className='divide-y divide-gray-200'>
+                <tr className='bg-white'><td className='px-4 py-3 font-medium'>Initial construction cost (1,500 sq ft)</td><td className='px-4 py-3'>$6,000 to $12,000</td><td className='px-4 py-3'>$10,500 to $21,000</td><td className='px-4 py-3'>$30,000 to $45,000</td></tr>
+                <tr className='bg-gray-50'><td className='px-4 py-3 font-medium'>Annual maintenance cost (typical)</td><td className='px-4 py-3'>$100 to $300</td><td className='px-4 py-3'>$500 to $1,500</td><td className='px-4 py-3'>$300 to $800</td></tr>
+                <tr className='bg-white'><td className='px-4 py-3 font-medium'>Waterproofing required</td><td className='px-4 py-3'>No (vapor barrier only)</td><td className='px-4 py-3'>Encapsulation $2,000 to $8,000</td><td className='px-4 py-3'>Yes, $4,000 to $18,000</td></tr>
+                <tr className='bg-gray-50'><td className='px-4 py-3 font-medium'>Plumbing repair access</td><td className='px-4 py-3'>Jackhammer required ($2,000 to $5,000)</td><td className='px-4 py-3'>Easy through crawl space</td><td className='px-4 py-3'>Easy through unfinished areas</td></tr>
+                <tr className='bg-white'><td className='px-4 py-3 font-medium'>Pest management</td><td className='px-4 py-3'>Minimal</td><td className='px-4 py-3'>Ongoing ($200 to $500/yr)</td><td className='px-4 py-3'>Minimal if sealed</td></tr>
+                <tr className='bg-gray-50'><td className='px-4 py-3 font-medium'>Radon risk</td><td className='px-4 py-3'>Low</td><td className='px-4 py-3'>Moderate</td><td className='px-4 py-3'>High (test and mitigate)</td></tr>
+                <tr className='bg-white'><td className='px-4 py-3 font-medium'>Energy efficiency</td><td className='px-4 py-3'>High</td><td className='px-4 py-3'>Low to moderate</td><td className='px-4 py-3'>High</td></tr>
+                <tr className='bg-gray-50'><td className='px-4 py-3 font-medium'>Usable space potential</td><td className='px-4 py-3'>None</td><td className='px-4 py-3'>None (too low)</td><td className='px-4 py-3'>Full level ($20,000 to $50,000 to finish)</td></tr>
+                <tr className='bg-white'><td className='px-4 py-3 font-medium'>Resale value premium</td><td className='px-4 py-3'>None</td><td className='px-4 py-3'>Slight</td><td className='px-4 py-3'>10 to 20 percent in cold markets</td></tr>
+                <tr className='bg-gray-50'><td className='px-4 py-3 font-medium'>Lifespan</td><td className='px-4 py-3'>50 to 100 years</td><td className='px-4 py-3'>40 to 80 years</td><td className='px-4 py-3'>80 to 150 years</td></tr>
+                <tr className='bg-white'><td className='px-4 py-3 font-medium'>Major repair risk</td><td className='px-4 py-3'>Slab crack or under-slab plumbing</td><td className='px-4 py-3'>Wood rot, mold, pest damage</td><td className='px-4 py-3'>Water intrusion</td></tr>
+                <tr className='bg-gray-50'><td className='px-4 py-3 font-medium'>Conversion to other type</td><td className='px-4 py-3'>Essentially impossible</td><td className='px-4 py-3'>$50,000 to $100,000+ to basement</td><td className='px-4 py-3'>Not applicable</td></tr>
+              </tbody>
+            </table>
+          </div>
+
           {/* FAQ Section */}
           <h2 className='text-3xl font-bold text-slate-900 mt-16 mb-8'>Frequently Asked Questions About Foundation Types</h2>
 
           <h4 className='text-xl font-bold text-slate-800 mt-8 mb-3'>How much does each foundation type cost in 2026?</h4>
-          <p>A concrete slab foundation costs $4 to $8 per square foot, or $6,000 to $12,000 for a typical 1,500 square foot home. A crawl space foundation costs $7 to $14 per square foot, or $10,500 to $21,000. A full basement costs $20 to $30 per square foot, or $30,000 to $45,000 unfinished. Finishing a basement adds $20,000 to $50,000 depending on the level of finish and features included. These costs include the foundation itself but may not include site preparation, permits, or landscaping restoration, which vary by location.</p>
+          <p>A concrete slab foundation costs $4 to $8 per square foot, or $6,000 to $12,000 for a typical 1,500 square foot home, making it the most affordable option by a significant margin. A crawl space foundation costs $7 to $14 per square foot, or $10,500 to $21,000 for the same home size, with the higher end reflecting encapsulation and conditioning work that transforms the crawl space into a properly managed environment. A full basement costs $20 to $30 per square foot, or $30,000 to $45,000 unfinished, primarily because of the excavation volume and concrete required. Finishing a basement adds $20,000 to $50,000 depending on the level of finish, but the finished cost per square foot is typically lower than adding equivalent above-grade space through an addition. These costs include the foundation itself but do not include site preparation, permits, or landscaping restoration. See our <Link href='/articles/basement-finishing-cost' className='text-emerald-700 underline hover:text-emerald-900'>basement finishing cost guide</Link> for the full finishing budget breakdown.</p>
 
           <h4 className='text-xl font-bold text-slate-800 mt-8 mb-3'>Is a basement or crawl space better for resale value?</h4>
-          <p>A finished basement adds the most resale value of any foundation type, contributing a 10 to 20 percent premium in cold-climate markets where buyers expect basements. Finished basements typically return 70 to 100 percent of the finishing cost at sale. Crawl spaces offer a slight resale advantage over slabs in some markets because they provide easy utility access and elevation, but the difference is modest. Slabs are resale-neutral in warm climates where they are the regional standard.</p>
+          <p>A finished basement adds the most resale value of any foundation type, contributing a 10 to 20 percent premium over comparable homes without basements in cold-climate markets where buyers expect below-grade space. Finished basements typically return 70 to 100 percent of the finishing cost at sale, making them one of the highest-return renovation investments available. Crawl spaces offer a slight resale advantage over slabs in some markets because they provide easy utility access and elevation above surface water, but the difference is modest and market-dependent. Slabs are resale-neutral in warm climates where they are the regional standard and buyers have no expectation of below-grade space. An unfinished basement with documented water problems can actually reduce value compared to a slab by introducing buyer concerns about repair costs and mold risk. See our <Link href='/articles/waterproofing-home-appraisal-value' className='text-emerald-700 underline hover:text-emerald-900'>waterproofing and home appraisal value guide</Link> for how foundation condition affects appraisals.</p>
 
           <h4 className='text-xl font-bold text-slate-800 mt-8 mb-3'>Which foundation type is most energy efficient?</h4>
-          <p>Slabs and basements are comparably energy efficient but for different reasons. Slabs have no air gap beneath the home, which eliminates convective heat loss. Basements benefit from earth-contact walls that maintain stable temperatures year-round typically 50 to 60 degrees Fahrenheit, reducing both heating and cooling loads by 10 to 30 percent. Crawl spaces are the least energy efficient because the air gap beneath the home creates heat loss in winter and heat gain in summer, though proper insulation and encapsulation significantly improve performance.</p>
+          <p>Slabs and basements are comparably energy efficient but achieve their performance through different mechanisms. Slabs eliminate the air gap beneath the home entirely, removing the convective heat loss pathway that makes crawl spaces the least efficient foundation type. Basements benefit from earth-contact walls that stay at a stable 50 to 60 degrees Fahrenheit year-round, reducing both heating and cooling loads by 10 to 30 percent compared to homes on crawl spaces. Crawl spaces are the least energy efficient because the air gap creates heat loss in winter and heat gain in summer, though proper insulation and full encapsulation significantly close the performance gap. In cold climates, a conditioned basement with insulated walls actually outperforms a slab because the earth acts as a thermal buffer against extreme outdoor temperatures. See our <Link href='/articles/basement-insulation-guide' className='text-emerald-700 underline hover:text-emerald-900'>basement insulation guide</Link> for the R-value requirements by climate zone that apply to basement walls.</p>
 
           <h4 className='text-xl font-bold text-slate-800 mt-8 mb-3'>Can I convert a crawl space into a full basement?</h4>
-          <p>It is technically possible but extremely expensive and disruptive. The process involves jacking up the entire house, excavating beneath it, pouring new walls and a floor, and setting the house back down. Costs typically start at $50,000 and can exceed $100,000 depending on the home size and site conditions. This is almost never cost-effective compared to building a basement from the start or adding above-grade square footage.</p>
+          <p>It is technically possible but extremely expensive and disruptive, making it economically viable only in rare circumstances. The process involves engineering a temporary support structure, jacking up the entire house, excavating beneath it, pouring new concrete footings, walls, and a floor slab, and then lowering the house back onto the new foundation. Costs typically start at $50,000 and can exceed $100,000 depending on home size, soil conditions, and accessibility. Permits are required in every jurisdiction and the process typically takes several weeks of active construction with the home uninhabitable during portions of the work. This is almost never cost-effective compared to building a basement during original construction or adding above-grade square footage through an addition or ADU. The only scenario where conversion is sometimes justified is a property where the land value makes square footage extremely valuable and above-grade expansion is not permitted by zoning.</p>
 
           <h4 className='text-xl font-bold text-slate-800 mt-8 mb-3'>Which foundation type has the worst moisture problems?</h4>
-          <p>Crawl spaces have the most chronic moisture problems because they combine exposed soil, limited air circulation, and humid outdoor air entering through vents. However, the most expensive moisture damage occurs in basements because water intrusion can destroy finished spaces, furnishings, and mechanical equipment. Slabs have the fewest moisture problems overall but are not immune, as ground moisture can wick through concrete without a vapor barrier.</p>
+          <p>Crawl spaces have the most chronic and persistent moisture problems because they combine three conditions that promote moisture accumulation: exposed bare soil that emits water vapor continuously, limited air circulation that allows humidity to concentrate, and humid outdoor air entering through ventilation openings. Research from building science organizations suggests that up to 50 percent of the air on the first floor of a home with a ventilated crawl space originates from that crawl space, meaning crawl space moisture problems directly affect whole-house air quality. Basements can experience the most expensive moisture damage events because water intrusion can destroy finished spaces, mechanical equipment, and stored belongings in a single flood event. Slabs have the fewest moisture problems overall but are not immune, as ground moisture wicks upward through concrete without a vapor barrier and can cause humidity problems, flooring adhesive failure, and mold beneath finished floors. For crawl spaces, encapsulation is the most effective solution; for basements, interior or exterior waterproofing systems address the problem. See our <Link href='/articles/crawl-space-encapsulation-guide' className='text-emerald-700 underline hover:text-emerald-900'>crawl space encapsulation guide</Link> and <Link href='/articles/complete-basement-waterproofing-guide' className='text-emerald-700 underline hover:text-emerald-900'>complete basement waterproofing guide</Link> for solutions by type.</p>
 
           <h4 className='text-xl font-bold text-slate-800 mt-8 mb-3'>Do I need to waterproof a basement foundation?</h4>
-          <p>Yes. Every basement should have waterproofing as part of the initial construction or as a retrofit if it was not included originally. At minimum, this means exterior dampproofing or a waterproof membrane during construction, interior crack sealing, a sump pump with battery backup, and proper exterior grading and drainage. For existing basements with water problems, interior drainage systems cost $4,000 to $12,000 and exterior waterproofing costs $7,000 to $18,000. See our <Link href='/articles/basement-waterproofing-cost' className='text-teal-600 hover:text-teal-700 font-semibold'>basement waterproofing cost guide</Link> for complete pricing.</p>
+          <p>Yes, without exception, and the waterproofing should be planned as part of initial construction rather than addressed reactively after water problems appear. At minimum, a new basement construction should include exterior dampproofing or a full waterproof membrane on the outside of the foundation walls, a footing drain system to relieve hydrostatic pressure, a slab vapor barrier, a sump pump with battery backup, and proper exterior grading and downspout routing. For existing basements with active water problems, interior drainage systems cost $4,000 to $12,000 and exterior waterproofing with excavation costs $7,000 to $18,000. The decision between interior and exterior systems depends on the source of the water, the severity of the problem, and whether exterior excavation is practical. Waterproofing a basement at construction costs a fraction of what it costs to retrofit later, and a waterproofed basement is a significantly more valuable and marketable asset than one with water history. See our <Link href='/articles/basement-waterproofing-cost' className='text-emerald-700 underline hover:text-emerald-900'>basement waterproofing cost guide</Link> and <Link href='/articles/interior-vs-exterior-waterproofing' className='text-emerald-700 underline hover:text-emerald-900'>interior vs exterior waterproofing guide</Link> for full pricing and method comparisons.</p>
 
           <h4 className='text-xl font-bold text-slate-800 mt-8 mb-3'>How long does each foundation type last?</h4>
-          <p>A concrete slab lasts 50 to 100 years with proper maintenance and stable soil conditions. A crawl space lasts 40 to 80 years, with lifespan heavily dependent on moisture management (encapsulated crawl spaces last significantly longer than ventilated ones). A full basement lasts 80 to 150 years, making it the longest-lasting foundation type. All foundation lifespans assume proper drainage, periodic inspection, and timely repair of cracks and water issues.</p>
+          <p>A concrete slab lasts 50 to 100 years with proper maintenance, stable soil conditions, and a functioning vapor barrier, with the primary failure modes being cracking from soil movement or frost heave and plumbing failures beneath the slab that require jackhammering to access. A crawl space lasts 40 to 80 years, with lifespan heavily dependent on moisture management: an encapsulated, conditioned crawl space lasts significantly longer than a ventilated one where wood rot and pest damage progressively deteriorate the floor framing. A full basement lasts 80 to 150 years, making it the longest-lasting foundation type, provided waterproofing and drainage are maintained and structural cracks are addressed promptly. All foundation lifespans assume proper exterior drainage, periodic professional inspection, and timely repair of any water intrusion or structural cracking. The most common reason foundations fail prematurely is deferred maintenance on drainage and waterproofing systems rather than any inherent weakness in the foundation material itself. See our <Link href='/articles/types-of-foundation-cracks' className='text-emerald-700 underline hover:text-emerald-900'>types of foundation cracks guide</Link> for early warning signs to watch for in any foundation type.</p>
 
           <h4 className='text-xl font-bold text-slate-800 mt-8 mb-3'>Is it worth getting a soil test before building?</h4>
-          <p>Yes. A geotechnical soil report costs $500 to $2,000 and reveals critical information including soil bearing capacity, water table depth, presence of expansive clay, and depth to bedrock. This information determines which foundation types are feasible on your lot and whether you will need engineered solutions that add cost. Skipping the soil test and discovering problems during construction is far more expensive than testing upfront.</p>
+          <p>Yes, a geotechnical soil report is one of the most cost-effective investments in a new construction project and is required by most lenders and building departments for any engineered foundation. The report costs $500 to $2,000 and reveals soil bearing capacity, water table depth, the presence of expansive clay or organic fill, and depth to bedrock, all of which directly determine which foundation types are feasible and what engineering measures are required. Expansive clay soils, for example, can make a slab extremely vulnerable to heaving and cracking while also affecting basement wall design requirements, and discovering this after construction begins is far more expensive than knowing upfront. High water tables may make a full basement impractical without specialized waterproofing and drainage systems that add $10,000 to $30,000 to the foundation budget. Organic fill or poorly compacted soil may require deep pilings or engineered footings regardless of foundation type. Skipping the soil test is a false economy that regularly results in expensive surprises during excavation or, worse, foundation problems that surface years after the home is built.</p>
 
           {/* Glossary */}
           <h2 className='text-3xl font-bold text-slate-900 mt-16 mb-8'>Glossary of Foundation Terms</h2>
 
-          <p><strong>Slab-on-grade.</strong> A foundation type where a concrete slab typically 4 to 6 inches thick is poured directly on prepared, level ground. The slab serves as both the foundation and the ground floor of the home. Common in warm climates where frost depth is minimal.</p>
+          <p><strong>Slab-on-grade.</strong> A foundation type where a concrete slab typically 4 to 6 inches thick is poured directly on prepared, level ground, serving as both the structural foundation and the finished floor of the home. Slab-on-grade construction is dominant in warm-climate states where the frost line is shallow or nonexistent, making deep excavation unnecessary and the cost advantage over other foundation types most pronounced. The primary long-term maintenance concern is plumbing embedded in or beneath the slab, which requires jackhammering to access for repairs at a cost of $2,000 to $5,000 per incident.</p>
 
-          <p><strong>Monolithic slab.</strong> A slab foundation where the footing (the thickened edge that supports the walls) and the floor are poured as a single continuous piece of concrete. Monolithic slabs are faster and less expensive to pour than stem-wall foundations with separate footings.</p>
+          <p><strong>Monolithic slab.</strong> A slab foundation where the perimeter footing and the floor slab are poured as a single continuous piece of concrete in one operation, creating a unified structural element rather than separate footing and slab components. Monolithic slabs are faster and less expensive to construct than stem-wall slabs with separately poured footings, but they require the building site to be nearly flat and the soil to be stable and well-drained. They are the most common slab configuration in residential construction across the Southeast and Southwest.</p>
 
-          <p><strong>Crawl space.</strong> A shallow, accessible area beneath a home created by building the first floor on short foundation walls typically 18 to 48 inches high rather than directly on the ground. Provides access to plumbing, HVAC, and electrical systems but requires moisture management to prevent mold and pest problems.</p>
+          <p><strong>Crawl space.</strong> A shallow accessible area beneath a home created by building the first floor on short perimeter foundation walls typically 18 to 48 inches high, providing access to plumbing, HVAC ductwork, and electrical systems without the excavation cost of a full basement. The primary ongoing maintenance challenge is moisture control: exposed soil in an unconditioned crawl space emits water vapor continuously, and research suggests that up to 50 percent of the air on the first floor of the home originates from the crawl space. Encapsulation with a vapor barrier, closed vents, and a dehumidifier is the most effective solution for chronic crawl space moisture. See our <Link href='/articles/crawl-space-encapsulation-guide' className='text-emerald-700 underline hover:text-emerald-900'>crawl space encapsulation guide</Link> for full details.</p>
 
-          <p><strong>Crawl space encapsulation.</strong> The process of sealing a crawl space with a heavy-duty vapor barrier on the floor and walls, closing foundation vents, and installing a dehumidifier to control humidity. Encapsulation eliminates the chronic moisture problems associated with ventilated crawl spaces and typically costs $2,000 to $8,000. See our <Link href='/articles/crawl-space-encapsulation' className='text-teal-600 hover:text-teal-700 font-semibold'>crawl space encapsulation guide</Link>.</p>
+          <p><strong>Crawl space encapsulation.</strong> The process of sealing a crawl space with a heavy-duty polyethylene vapor barrier on the floor and walls, permanently closing foundation vents, and installing a dehumidifier to maintain controlled humidity in the sealed space. Encapsulation eliminates the chronic moisture accumulation, mold growth, and pest attraction associated with ventilated crawl spaces and typically costs $2,000 to $8,000 depending on crawl space size and accessibility. An encapsulated crawl space also significantly improves the energy efficiency of the home above by eliminating the conditioned air loss that occurs through uninsulated floor joists over an unconditioned space. See our <Link href='/articles/crawl-space-encapsulation-guide' className='text-emerald-700 underline hover:text-emerald-900'>crawl space encapsulation guide</Link> for product and contractor recommendations.</p>
 
-          <p><strong>Full basement.</strong> A foundation type that creates a full-height (typically 8 feet or more) underground level beneath the home by excavating below grade and constructing concrete or block walls from the footings to the first-floor framing. Basements can remain unfinished or be completed as additional living space.</p>
+          <p><strong>Full basement.</strong> A foundation type that creates a full-height underground level beneath the home, typically 8 feet or more of clear headroom, by excavating below grade and constructing concrete or masonry block walls from the footings to the first-floor framing above. Basements can remain unfinished for utility, storage, and mechanical equipment use, or be finished into additional living space at a cost of $20,000 to $50,000, adding 50 to 100 percent more usable square footage at a lower cost per square foot than above-grade additions. The primary ongoing maintenance responsibilities are waterproofing and drainage to manage hydrostatic pressure, and radon testing and mitigation given that below-grade enclosed spaces accumulate radon gas from surrounding soil. See our <Link href='/articles/complete-basement-waterproofing-guide' className='text-emerald-700 underline hover:text-emerald-900'>complete basement waterproofing guide</Link> and <Link href='/articles/radon-testing-and-mitigation' className='text-emerald-700 underline hover:text-emerald-900'>radon testing and mitigation guide</Link> for the two most important basement maintenance topics.</p>
 
-          <p><strong>Frost line (frost depth).</strong> The maximum depth to which the ground freezes in winter in a given location. Building codes require foundation footings to extend below the frost line to prevent frost heave from lifting and cracking the foundation. Frost depth ranges from 0 inches in southern states to 60 inches or more in northern states. In areas with deep frost lines, the cost difference between a crawl space and a full basement is relatively small because deep excavation is required regardless.</p>
+          <p><strong>Frost line (frost depth).</strong> The maximum depth to which the ground freezes during winter in a given location, which building codes use to establish the minimum depth for foundation footings to prevent frost heave from lifting and cracking the foundation. Frost depth ranges from 0 inches in southern states to 60 inches or more in northern states like Minnesota and Maine, and in cold-climate regions where deep footings are required anyway, the incremental cost of excavating an additional 2 to 4 feet for a full basement is relatively modest. This is the primary reason basements are the standard foundation type in the Northeast, Midwest, and Northern Plains while slabs dominate in the South. See our <Link href='/articles/bowing-basement-walls' className='text-emerald-700 underline hover:text-emerald-900'>bowing basement walls guide</Link> for how freeze-thaw cycles in cold climates affect foundation wall integrity over time.</p>
 
-          <p><strong>Hydrostatic pressure.</strong> The lateral force exerted by water-saturated soil against a foundation wall or floor. Hydrostatic pressure is the primary cause of water intrusion in basements and can also cause wall bowing and cracking over time. Managing hydrostatic pressure through drainage and waterproofing is essential for basement foundations.</p>
+          <p><strong>Hydrostatic pressure.</strong> The lateral and upward force exerted by water-saturated soil against a foundation wall or floor, which increases with soil moisture content, soil density, and the depth of the foundation below grade. Hydrostatic pressure is the primary driver of water intrusion in basements, foundation wall cracking, and wall bowing, and it is most severe in clay-rich soils that retain water and in areas with high seasonal water tables. Managing hydrostatic pressure through exterior grading, gutters, French drains, and interior or exterior waterproofing systems is the most important ongoing maintenance responsibility for any basement foundation. See our <Link href='/articles/complete-basement-waterproofing-guide' className='text-emerald-700 underline hover:text-emerald-900'>complete basement waterproofing guide</Link> and <Link href='/articles/bowing-basement-walls' className='text-emerald-700 underline hover:text-emerald-900'>bowing basement walls guide</Link> for how hydrostatic pressure affects basement foundations specifically.</p>
 
-          <p><strong>Vapor barrier.</strong> A sheet of polyethylene plastic or similar material installed between the ground and a foundation to prevent moisture from migrating upward through concrete by capillary action. Vapor barriers are used under slab foundations, on crawl space floors and walls, and behind finished basement walls.</p>
+          <p><strong>Vapor barrier.</strong> A sheet of polyethylene plastic or similar low-permeability material installed between the ground and a foundation element to prevent moisture from migrating upward through capillary action, protecting the structural elements and finished surfaces above. Vapor barriers are used in three distinct applications: under slab foundations to prevent moisture wicking through the concrete, on crawl space floors and walls as the primary moisture control layer in an encapsulated space, and behind finished basement walls to prevent condensation from reaching wood framing and drywall. The minimum thickness for residential applications is 6 mil, though 10 to 20 mil reinforced barriers are preferred for crawl space encapsulation where puncture resistance is important. See our <Link href='/articles/best-vapor-barriers' className='text-emerald-700 underline hover:text-emerald-900'>best vapor barriers guide</Link> for product recommendations by application.</p>
 
-          <p><strong>Geotechnical report (soil test).</strong> A professional assessment of the soil conditions on a building site that includes bearing capacity, water table depth, soil composition, and depth to bedrock. The report determines which foundation types are feasible and whether special engineering is needed. Costs $500 to $2,000 and is recommended before any new construction.</p>
+          <p><strong>Geotechnical report (soil test).</strong> A professional engineering assessment of the soil conditions on a building site that measures bearing capacity, water table depth, soil composition and plasticity, organic content, and depth to bedrock, used to determine which foundation types are structurally feasible and what design modifications are required. The report costs $500 to $2,000 and is typically required by lenders and building departments for engineered foundation designs, though it is valuable even when not required because it identifies soil conditions that affect foundation performance for the life of the structure. Expansive clay, organic fill, poorly compacted soil, and high water tables discovered during a soil test before construction are manageable; the same discoveries after construction require expensive remediation. See our <Link href='/articles/types-of-foundation-cracks' className='text-emerald-700 underline hover:text-emerald-900'>types of foundation cracks guide</Link> for the crack patterns that commonly result from soil conditions that were not identified or addressed at construction.</p>
 
-          <p><strong>Differential settlement.</strong> The condition where one section of a foundation sinks more than another, causing uneven stress that produces cracking, sloping floors, and sticking doors. Differential settlement is caused by variations in soil composition, compaction, or moisture beneath different parts of the foundation.</p>
+          <p><strong>Differential settlement.</strong> The condition where one section of a foundation sinks or shifts more than another due to variations in soil composition, moisture content, or compaction beneath different parts of the foundation, creating uneven structural stress that produces cracking, sloping floors, sticking doors and windows, and in severe cases wall separation. Differential settlement is more damaging than uniform settlement because the uneven movement creates shear forces the structure was not designed to resist, and it is most common in homes built on expansive clay soils, organic fill, or sites where soil compaction was inconsistent during construction. Early warning signs include diagonal cracks from door and window corners, doors that no longer latch properly, and visible floor slopes. See our <Link href='/articles/types-of-foundation-cracks' className='text-emerald-700 underline hover:text-emerald-900'>types of foundation cracks guide</Link> for how to distinguish differential settlement cracks from other crack types.</p>
 
         </div>
       </article>
 
       {/* Related Guides */}
-      <section className='max-w-7xl mx-auto px-6 py-16'>
-        <h2 className='text-3xl font-bold text-slate-900 mb-10'>Related Guides</h2>
-        <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-8'>
-          <Link href='/articles/basement-waterproofing' className='group block p-6 bg-slate-50 rounded-xl hover:bg-slate-100 transition-colors'>
-            <h4 className='text-lg font-bold text-slate-900 group-hover:text-teal-600 transition-colors mb-2'>Complete Basement Waterproofing Guide</h4>
-            <p className='text-slate-600 text-sm'>Everything you need to know about keeping your basement dry.</p>
-          </Link>
-          <Link href='/articles/how-to-finish-a-basement' className='group block p-6 bg-slate-50 rounded-xl hover:bg-slate-100 transition-colors'>
-            <h4 className='text-lg font-bold text-slate-900 group-hover:text-teal-600 transition-colors mb-2'>How to Finish a Basement</h4>
-            <p className='text-slate-600 text-sm'>Step-by-step guide to finishing your basement and adding value.</p>
-          </Link>
-          <Link href='/articles/basement-finishing-cost' className='group block p-6 bg-slate-50 rounded-xl hover:bg-slate-100 transition-colors'>
-            <h4 className='text-lg font-bold text-slate-900 group-hover:text-teal-600 transition-colors mb-2'>Basement Finishing Cost</h4>
-            <p className='text-slate-600 text-sm'>What to expect for basement finishing pricing in 2026.</p>
-          </Link>
-          <Link href='/articles/basement-waterproofing-cost' className='group block p-6 bg-slate-50 rounded-xl hover:bg-slate-100 transition-colors'>
-            <h4 className='text-lg font-bold text-slate-900 group-hover:text-teal-600 transition-colors mb-2'>Basement Waterproofing Cost</h4>
-            <p className='text-slate-600 text-sm'>Professional waterproofing pricing updated for 2026.</p>
-          </Link>
-          <Link href='/articles/interior-vs-exterior-waterproofing' className='group block p-6 bg-slate-50 rounded-xl hover:bg-slate-100 transition-colors'>
-            <h4 className='text-lg font-bold text-slate-900 group-hover:text-teal-600 transition-colors mb-2'>Interior vs Exterior Waterproofing</h4>
-            <p className='text-slate-600 text-sm'>Compare the two main waterproofing approaches.</p>
-          </Link>
-          <Link href='/articles/types-of-foundation-cracks' className='group block p-6 bg-slate-50 rounded-xl hover:bg-slate-100 transition-colors'>
-            <h4 className='text-lg font-bold text-slate-900 group-hover:text-teal-600 transition-colors mb-2'>Types of Foundation Cracks</h4>
-            <p className='text-slate-600 text-sm'>Identify which cracks are cosmetic and which signal serious issues.</p>
-          </Link>
-          <Link href='/articles/bowing-basement-walls' className='group block p-6 bg-slate-50 rounded-xl hover:bg-slate-100 transition-colors'>
-            <h4 className='text-lg font-bold text-slate-900 group-hover:text-teal-600 transition-colors mb-2'>Bowing Basement Walls</h4>
-            <p className='text-slate-600 text-sm'>Causes, signs, and repair options for bowing walls.</p>
-          </Link>
-          <Link href='/articles/crawl-space-encapsulation' className='group block p-6 bg-slate-50 rounded-xl hover:bg-slate-100 transition-colors'>
-            <h4 className='text-lg font-bold text-slate-900 group-hover:text-teal-600 transition-colors mb-2'>Crawl Space Encapsulation Guide</h4>
-            <p className='text-slate-600 text-sm'>How to seal and condition your crawl space for moisture control.</p>
-          </Link>
-          <Link href='/articles/radon-testing-and-mitigation' className='group block p-6 bg-slate-50 rounded-xl hover:bg-slate-100 transition-colors'>
-            <h4 className='text-lg font-bold text-slate-900 group-hover:text-teal-600 transition-colors mb-2'>Radon Testing and Mitigation Guide</h4>
-            <p className='text-slate-600 text-sm'>Test for and reduce radon levels in your home.</p>
-          </Link>
-          <Link href='/articles/how-to-prevent-basement-mold' className='group block p-6 bg-slate-50 rounded-xl hover:bg-slate-100 transition-colors'>
-            <h4 className='text-lg font-bold text-slate-900 group-hover:text-teal-600 transition-colors mb-2'>How to Prevent Basement Mold</h4>
-            <p className='text-slate-600 text-sm'>Keep mold out of your basement with these proven strategies.</p>
-          </Link>
-          <Link href='/articles/basement-insulation' className='group block p-6 bg-slate-50 rounded-xl hover:bg-slate-100 transition-colors'>
-            <h4 className='text-lg font-bold text-slate-900 group-hover:text-teal-600 transition-colors mb-2'>Basement Insulation Guide</h4>
-            <p className='text-slate-600 text-sm'>Proper insulation for your foundation type and climate.</p>
-          </Link>
-          <Link href='/articles/best-basement-dehumidifiers' className='group block p-6 bg-slate-50 rounded-xl hover:bg-slate-100 transition-colors'>
-            <h4 className='text-lg font-bold text-slate-900 group-hover:text-teal-600 transition-colors mb-2'>Best Basement Dehumidifiers</h4>
-            <p className='text-slate-600 text-sm'>Top dehumidifiers for basement moisture control.</p>
-          </Link>
-          <Link href='/articles/egress-window-cost' className='group block p-6 bg-slate-50 rounded-xl hover:bg-slate-100 transition-colors'>
-            <h4 className='text-lg font-bold text-slate-900 group-hover:text-teal-600 transition-colors mb-2'>Egress Window Cost</h4>
-            <p className='text-slate-600 text-sm'>What egress windows cost and why they are required.</p>
-          </Link>
-          <Link href='/articles/sump-pump-buying-guide' className='group block p-6 bg-slate-50 rounded-xl hover:bg-slate-100 transition-colors'>
-            <h4 className='text-lg font-bold text-slate-900 group-hover:text-teal-600 transition-colors mb-2'>Sump Pump Buying Guide</h4>
-            <p className='text-slate-600 text-sm'>Choose the right sump pump for your basement.</p>
-          </Link>
-          <Link href='/articles/homebuyers-inspection-checklist' className='group block p-6 bg-slate-50 rounded-xl hover:bg-slate-100 transition-colors'>
-            <h4 className='text-lg font-bold text-slate-900 group-hover:text-teal-600 transition-colors mb-2'>Homebuyers Inspection Checklist</h4>
-            <p className='text-slate-600 text-sm'>What to check before buying a home with a basement.</p>
-          </Link>
+      <section className='max-w-4xl mx-auto px-6 py-16'>
+        <h2 className='text-3xl font-bold text-slate-900 mb-4'>Related Guides</h2>
+
+        <h3 className='text-xl font-semibold text-slate-800 mb-4'>On thebasement.guide</h3>
+        <div className='grid md:grid-cols-2 gap-6 mb-10'>
+          <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+            <Link href='/articles/complete-basement-waterproofing-guide' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>Complete Basement Waterproofing Guide</Link>
+            <p className='text-slate-600 text-sm mt-1'>The essential companion for any homeowner who has chosen or already has a basement foundation, covering every waterproofing method, drainage system, and moisture management approach for below-grade spaces.</p>
+          </div>
+          <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+            <Link href='/articles/basement-waterproofing-cost' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>Basement Waterproofing Cost 2026</Link>
+            <p className='text-slate-600 text-sm mt-1'>Full pricing for interior drainage systems, exterior membrane waterproofing, and sump pump installation, relevant for budgeting the waterproofing that any basement foundation requires.</p>
+          </div>
+          <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+            <Link href='/articles/interior-vs-exterior-waterproofing' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>Interior vs Exterior Waterproofing</Link>
+            <p className='text-slate-600 text-sm mt-1'>A full comparison of the two primary waterproofing approaches for basement foundations, including which method addresses which water source and the cost and disruption tradeoffs.</p>
+          </div>
+          <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+            <Link href='/articles/crawl-space-encapsulation-guide' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>Crawl Space Encapsulation Guide</Link>
+            <p className='text-slate-600 text-sm mt-1'>The complete guide to sealing and conditioning a crawl space with a vapor barrier, closed vents, and a dehumidifier, the single most important maintenance investment for any crawl space foundation.</p>
+          </div>
+          <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+            <Link href='/articles/types-of-foundation-cracks' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>Types of Foundation Cracks</Link>
+            <p className='text-slate-600 text-sm mt-1'>How to identify and classify every crack pattern in a basement or foundation wall, including which are cosmetic and which indicate structural movement requiring professional repair.</p>
+          </div>
+          <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+            <Link href='/articles/bowing-basement-walls' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>Bowing Basement Walls</Link>
+            <p className='text-slate-600 text-sm mt-1'>What causes foundation walls to bow inward, the four repair methods available in 2026, and the decision framework for choosing between carbon fiber straps, wall anchors, I-beams, and full replacement.</p>
+          </div>
+          <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+            <Link href='/articles/foundation-crack-repair-cost' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>Foundation Crack Repair Cost 2026</Link>
+            <p className='text-slate-600 text-sm mt-1'>Pricing for every foundation crack repair method from DIY epoxy injection to full wall replacement, relevant for budgeting structural repairs in any basement foundation.</p>
+          </div>
+          <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+            <Link href='/articles/basement-finishing-cost' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>Basement Finishing Cost 2026</Link>
+            <p className='text-slate-600 text-sm mt-1'>The full cost breakdown for converting an unfinished basement into livable space, which is the primary financial argument for choosing a basement over a crawl space or slab.</p>
+          </div>
+          <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+            <Link href='/articles/how-to-finish-a-basement' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>How to Finish a Basement</Link>
+            <p className='text-slate-600 text-sm mt-1'>The step-by-step guide to basement finishing covering permits, sequence, moisture management, and how to maximize the return on investment in a below-grade finishing project.</p>
+          </div>
+          <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+            <Link href='/articles/pre-finish-audit' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>Pre-Finish Audit Checklist</Link>
+            <p className='text-slate-600 text-sm mt-1'>Everything to verify before starting a basement finishing project, including moisture tests, structural checks, radon testing, and code requirements that apply to below-grade living spaces.</p>
+          </div>
+          <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+            <Link href='/articles/radon-testing-and-mitigation' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>Radon Testing and Mitigation</Link>
+            <p className='text-slate-600 text-sm mt-1'>Why basement foundations accumulate radon gas, how to test, and what sub-slab depressurization systems cost to install, relevant for any homeowner with a below-grade living space.</p>
+          </div>
+          <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+            <Link href='/articles/basement-insulation-guide' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>Basement Insulation Guide</Link>
+            <p className='text-slate-600 text-sm mt-1'>R-value requirements by climate zone for basement walls and rim joists, the moisture science that determines which insulation materials are safe below grade, and full cost comparisons.</p>
+          </div>
+          <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+            <Link href='/articles/how-to-prevent-basement-mold' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>How to Prevent Basement Mold</Link>
+            <p className='text-slate-600 text-sm mt-1'>How moisture control, ventilation, and material selection prevent mold growth in below-grade spaces, relevant for both basement and crawl space foundations.</p>
+          </div>
+          <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+            <Link href='/articles/homebuyers-basement-inspection-checklist' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>Homebuyer&apos;s Basement Inspection Checklist</Link>
+            <p className='text-slate-600 text-sm mt-1'>What to evaluate when buying a home with any of the three foundation types, including the foundation-specific issues that most commonly affect negotiating position and post-purchase repair costs.</p>
+          </div>
+          <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+            <Link href='/articles/waterproofing-home-appraisal-value' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>Waterproofing and Home Appraisal Value</Link>
+            <p className='text-slate-600 text-sm mt-1'>How foundation type, waterproofing condition, and documented repairs affect appraisal outcomes, including the 10 to 20 percent resale premium that finished, dry basements generate in cold-climate markets.</p>
+          </div>
+          <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+            <Link href='/articles/egress-window-cost' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>Egress Window Cost 2026</Link>
+            <p className='text-slate-600 text-sm mt-1'>What egress window installation costs and why it is required before a basement bedroom or habitable room can be legally counted in the home&apos;s square footage.</p>
+          </div>
+          <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+            <Link href='/articles/best-basement-dehumidifiers' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>Best Basement Dehumidifiers</Link>
+            <p className='text-slate-600 text-sm mt-1'>Top-rated dehumidifiers for maintaining the below-50-percent humidity that both basement and encapsulated crawl space foundations require to prevent mold and wood rot.</p>
+          </div>
         </div>
 
-        {/* Network Links */}
-        <div className='mt-12 p-6 bg-slate-50 rounded-xl'>
-          <h3 className='text-lg font-bold text-slate-900 mb-3'>Our Network</h3>
-          <p className='text-slate-600'><a href='https://thegarage.guide/articles/attached-vs-detached-garage' className='text-teal-600 hover:text-teal-700 font-semibold' target='_blank' rel='noopener noreferrer'>The Garage Guide</a> covers attached vs detached garage comparison, which is another major structural decision that interacts with your foundation choice&mdash;attached garages share the home&apos;s foundation, while detached garages sit on their own slab or foundation.</p>
-          <p className='text-slate-600 mt-3'><a href='https://theseptic.guide/articles/septic-system-installation-cost' className='text-teal-600 hover:text-teal-700 font-semibold' target='_blank' rel='noopener noreferrer'>The Septic Guide</a> covers septic system installation cost, which is another major below-grade system that must be coordinated with your foundation type and building site during new construction.</p>
+        <h3 className='text-xl font-semibold text-slate-800 mb-4'>From Our Network</h3>
+        <div className='grid md:grid-cols-2 gap-6 mb-10'>
+          <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+            <a href='https://theseptic.guide/cost-guides/septic-system-installation-cost' target='_blank' rel='noopener noreferrer' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>Septic System Installation Cost 2026</a>
+            <p className='text-slate-600 text-sm mt-1'>Septic system installation is a major below-grade system that must be coordinated with foundation type and building site layout during new construction. This guide covers what a new septic system costs by type and region alongside the foundation decisions covered here.</p>
+          </div>
+          <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+            <a href='https://theseptic.guide/articles/how-to-find-your-septic-tank' target='_blank' rel='noopener noreferrer' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>How to Find Your Septic Tank</a>
+            <p className='text-slate-600 text-sm mt-1'>For homeowners evaluating an existing property, knowing where the septic system components are located relative to the foundation is important for planning any foundation repair or drainage work that involves excavation.</p>
+          </div>
+        </div>
+
+        <h3 className='text-xl font-semibold text-slate-800 mb-4'>External Resource</h3>
+        <div className='grid md:grid-cols-2 gap-6 mb-10'>
+          <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
+            <a href='https://codes.iccsafe.org/content/IRC2021P2' target='_blank' rel='noopener noreferrer' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>International Residential Code Foundation Requirements</a>
+            <p className='text-slate-600 text-sm mt-1'>The International Residential Code&apos;s foundation chapter covering minimum depth requirements, frost line compliance, wall thickness, and drainage requirements for all three residential foundation types.</p>
+          </div>
         </div>
       </section>
 
