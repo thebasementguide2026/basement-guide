@@ -167,7 +167,7 @@ export default function FoundationComparisonArticle() {
           {/* Concrete Slab Foundations */}
           <h2 className='text-3xl font-bold text-slate-900 mt-16 mb-6'>Concrete Slab Foundations: The Most Affordable Option</h2>
           <p>A slab-on-grade foundation is a single layer of concrete typically 4 to 6 inches thick poured directly onto prepared ground. The ground is leveled, covered with a gravel drainage layer, fitted with a vapor barrier, and reinforced with rebar or wire mesh before the concrete is poured. Monolithic slabs where the footing and floor are poured as a single piece are the most common residential configuration.</p>
-          <p>Slab foundations are the dominant foundation type in warm-climate states including Texas, Florida, Arizona, and much of the Southeast, where the frost line is shallow or nonexistent and basements are uncommon.</p>
+          <p className='mt-4'>Slab foundations are the dominant foundation type in warm-climate states including Texas, Florida, Arizona, and much of the Southeast, where the frost line is shallow or nonexistent and basements are uncommon.</p>
 
           <h3 className='text-2xl font-bold text-slate-800 mt-10 mb-4'>Advantages of Slab Foundations</h3>
           <ul className='space-y-3'>
