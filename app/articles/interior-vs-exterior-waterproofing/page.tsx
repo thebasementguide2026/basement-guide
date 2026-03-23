@@ -17,7 +17,7 @@ const faqSchema = {
       name: 'Which is better, interior or exterior basement waterproofing?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Neither is universally better. Exterior waterproofing prevents water from reaching the foundation and lasts 20 to 50 years, making it the most comprehensive long-term solution. Interior waterproofing manages water after it enters and costs one-third as much, making it the practical choice for most existing homes with minor to moderate seepage. For severe groundwater issues or structural damage, exterior is the better investment.',
+        text: 'Neither is universally better; the right choice depends on your specific water problem, foundation condition, budget, and site constraints. Exterior waterproofing prevents water from ever contacting the foundation wall, which is the most complete theoretical solution and the only method the International Building Code recognizes as fully adequate for structural protection. However, interior drainage systems are highly effective for the vast majority of existing homes, cost significantly less ($3,000 to $10,000 versus $7,000 to $18,000), and are serviceable and warrantied for 25 years or more if something goes wrong. For severe groundwater problems, structural foundation damage, or new construction where the exterior is already exposed, exterior waterproofing is the appropriate choice. For most existing homes with manageable seepage and sound foundation walls, interior systems deliver reliable protection without the cost and disruption of full excavation. See our complete basement waterproofing guide at https://thebasement.guide/articles/complete-basement-waterproofing-guide for the full framework for diagnosing which approach fits your situation.',
       },
     },
     {
@@ -25,7 +25,7 @@ const faqSchema = {
       name: 'How much does basement waterproofing cost in 2026?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Interior waterproofing costs $3,000 to $10,000 on average, with most homeowners paying $4,000 to $8,000 for a perimeter drain system with sump pump. Exterior waterproofing costs $7,000 to $18,000, with most homeowners paying $10,000 to $15,000. Hybrid systems combining both approaches range from $8,000 to $20,000.',
+        text: 'Interior waterproofing costs $3,000 to $10,000 for a typical residential system, with the most common installed price for a complete interior drain tile system with sump pump falling between $4,000 and $8,000 for a standard basement. Exterior waterproofing costs $7,000 to $18,000 with most jobs in the $10,000 to $15,000 range, primarily because excavation labor accounts for a large portion of the total cost regardless of the membrane material used. Hybrid systems combining interior drainage with exterior membrane work on the most problematic wall sections typically run $8,000 to $20,000. Costs increase with clay soil that is harder to excavate, deep footings that require more excavation depth, high water tables that complicate drainage work, and any mold remediation that must be completed before waterproofing can proceed. The cost per linear foot of drainage channel runs $20 to $35 for interior systems and $30 to $90 for exterior French drain installation. See our basement waterproofing cost guide at https://thebasement.guide/articles/basement-waterproofing-cost for a full breakdown by method and basement size.',
       },
     },
     {
@@ -33,7 +33,7 @@ const faqSchema = {
       name: 'Can I waterproof my basement myself?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Some interior tasks like applying sealant, installing a dehumidifier, fixing grading, and injecting small cracks are DIY-friendly. However, perimeter drain systems, sump pump installations, and all exterior waterproofing should be done by licensed professionals for safety, code compliance, and warranty coverage. Improper installation of drainage systems is one of the most common causes of system failure.',
+        text: 'Some interior waterproofing tasks are manageable for experienced DIYers, but most drainage system work and all exterior waterproofing should be done by licensed professionals for safety, performance, and warranty coverage. DIY-appropriate tasks include applying interior sealants like DRYLOK ($30 to $50 per pail), injecting small cracks with epoxy or polyurethane kits ($30 to $80 per crack), installing a dehumidifier, and extending downspouts away from the foundation. Perimeter drain tile systems require jackhammering the concrete floor, excavating a trench at the correct slope, laying perforated pipe properly, and integrating it with a sump pit, all of which require specific skills and tools that most homeowners do not have. Exterior waterproofing involves excavating 8 to 10 feet deep along the foundation perimeter, which is dangerous without proper shoring and requires permits and equipment that make it impractical as a DIY project. Any task involving structural repairs such as crack injection under pressure, wall anchors, or carbon fiber reinforcement should always be left to a professional. See our DIY vs hiring a pro guide at https://thebasement.guide/articles/diy-vs-hiring-pro-basement-projects for a full breakdown of which waterproofing tasks fall within DIY capability.',
       },
     },
     {
@@ -41,7 +41,7 @@ const faqSchema = {
       name: 'How long does basement waterproofing last?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Interior sealants and coatings last 5 to 10 years before reapplication may be needed. Interior drainage systems with sump pumps last 15 to 30 years with proper maintenance. Exterior waterproofing membranes last 20 to 50 years or the lifetime of the home. Battery backups should be replaced every 3 to 5 years regardless of the system type.',
+        text: 'Interior drain tile systems last 25 to 30 years or more with proper maintenance, including annual sump pump testing, battery backup replacement every 3 to 5 years, and periodic inspection of the drain channel for debris accumulation. Exterior waterproofing membranes last 20 to 50 years depending on the membrane type: rubberized asphalt and liquid-applied polyurethane membranes typically last 20 to 30 years, while crystalline treatments that become part of the concrete matrix can last the lifetime of the structure. Interior sealants and paint-on coatings have the shortest lifespan at 5 to 10 years, and their effectiveness diminishes as concrete continues to move and new micro-cracks form. Sump pumps themselves should be replaced every 7 to 10 years depending on usage, and battery backups require replacement every 3 to 5 years to maintain reliable performance during power outages. The factor most affecting system longevity is pairing any waterproofing method with proper exterior drainage maintenance, because even the best interior system is under greater stress when poor grading, clogged gutters, and missing downspout extensions are directing extra water toward the foundation.',
       },
     },
     {
@@ -49,7 +49,7 @@ const faqSchema = {
       name: 'Does waterproofing increase home value?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes. Professional waterproofing can increase home marketability significantly and prevent the 10 to 20 percent price reductions that homes with water damage history typically face during negotiations. Documented waterproofing with a transferable warranty is a genuine selling point that buyers and inspectors look for.',
+        text: 'Yes, documented waterproofing consistently improves home value and marketability, particularly in regions where basement water problems are common and buyers are aware of the risk. Real estate appraisers report that professional waterproofing with transferable warranties can increase appraised value by 5 to 15 percent compared to a comparable home with an undocumented or problematic basement. The effect is most pronounced when waterproofing documentation is provided during the sale, including contractor warranties, inspection reports, and maintenance records that demonstrate the system has been functioning. Conversely, a basement with any history of water problems that has not been documented and remediated can reduce sale price by $10,000 to $25,000 and significantly extend time on market, as buyers and their lenders treat undocumented water history as a material risk. A transferable warranty from a reputable waterproofing contractor is one of the most valuable documents a seller can provide during a real estate transaction. See our waterproofing and home appraisal value guide at https://thebasement.guide/articles/waterproofing-home-appraisal-value for data on how waterproofing documentation affects appraised outcomes.',
       },
     },
     {
@@ -57,23 +57,7 @@ const faqSchema = {
       name: 'What is the best time of year to waterproof a basement?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Late spring through early fall is ideal for exterior waterproofing because the ground is not frozen and conditions are dry enough for excavation and membrane application. Interior systems can be installed year-round because all work happens inside the basement. If you are dealing with active flooding, do not wait for ideal conditions.',
-      },
-    },
-    {
-      '@type': 'Question',
-      name: 'Is interior waterproofing just a bandaid?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'No. A properly installed interior drainage system with a sump pump is a permanent, engineered solution that manages hydrostatic pressure by giving water a controlled path out of the basement. It is the standard recommendation from waterproofing professionals for most existing homes. Interior sealants and coatings applied alone without a drainage system are temporary measures, but a complete interior drainage system is not a bandaid.',
-      },
-    },
-    {
-      '@type': 'Question',
-      name: 'Should I waterproof before finishing my basement?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Absolutely. Never finish a basement that has any history of moisture problems without waterproofing first. Drywall, carpet, and wood framing trap moisture and create hidden mold growth that is expensive to remediate. Waterproof first, verify the system works through at least one full rainy season, then finish.',
+        text: 'Late spring through early fall is the ideal window for exterior waterproofing because dry ground conditions make excavation safer, easier, and less likely to require emergency shoring against saturated soil collapse. Frozen ground makes exterior excavation impossible in most climates, and actively saturated soil from spring snowmelt or heavy rain creates unstable trench conditions that increase cost and safety risk. Interior waterproofing systems can be installed year-round because the work takes place inside the basement, is not weather-dependent, and in fact many homeowners choose to do interior work in late fall or winter when contractor schedules are less compressed and pricing may be more negotiable. The one exception is interior work in extreme cold climates where the jackhammered concrete must be protected from freezing before new concrete is poured over the drain channel, which adds a minor scheduling consideration in northern states. Regardless of season, do not delay addressing an active water problem because water damage, mold growth, and structural deterioration continue year-round and worsen with each wet season that passes without treatment.',
       },
     },
   ],
@@ -128,6 +112,8 @@ export default function InteriorVsExteriorWaterproofing() {
               Interior systems install in 1 to 5 days with low disruption. Exterior requires full excavation over 5 to 14 days. Many homes benefit from a hybrid approach combining both.
             </p>
           </div>
+
+          <p className='text-lg text-slate-700 leading-relaxed mb-12'>The interior versus exterior waterproofing decision is not a question of which method is better in absolute terms but rather which method is appropriate for a specific combination of water source, foundation condition, budget, and site constraints. Interior systems work with water by intercepting it and routing it out before it can spread across the floor; exterior systems work against water by creating a barrier that prevents it from reaching the foundation wall at all. Three factors determine which approach is right for a given home: the severity and source of the water intrusion (condensation versus active seepage versus high water table), whether the foundation has structural damage that must be addressed from the outside, and whether exterior excavation is physically possible given the site conditions (neighboring structures, finished hardscaping, utilities). For the majority of existing homes with manageable seepage and no structural damage, interior systems deliver sufficient protection at a fraction of the cost. Exterior systems are warranted when interior methods have repeatedly failed, when structural damage requires outside access, or when maximum long-term protection is the priority during new construction.</p>
 
           {/* Intro */}
           <p className='text-2xl font-medium text-slate-800 leading-relaxed mb-12 border-l-4 border-teal-500 pl-8'>
@@ -669,85 +655,99 @@ export default function InteriorVsExteriorWaterproofing() {
             </div>
           </div>
 
+
+          {/* Decision Table */}
+          <h2 className='text-4xl mb-6'>Interior vs Exterior: Decision Guide by Situation</h2>
+          <div className='overflow-x-auto my-8 not-prose'>
+            <table className='min-w-full border border-gray-200 rounded-lg'>
+              <thead>
+                <tr className='bg-emerald-800 text-white'>
+                  <th className='px-4 py-3 text-left text-sm font-semibold'>Your Situation</th>
+                  <th className='px-4 py-3 text-left text-sm font-semibold'>Recommended Approach</th>
+                  <th className='px-4 py-3 text-left text-sm font-semibold'>Reason</th>
+                </tr>
+              </thead>
+              <tbody className='divide-y divide-gray-200'>
+                <tr className='bg-white'><td className='px-4 py-3 text-gray-700'>Minor dampness or condensation, no standing water</td><td className='px-4 py-3 text-gray-700'>Interior sealer plus dehumidifier</td><td className='px-4 py-3 text-gray-700'>Active drainage system not needed for condensation-only problems</td></tr>
+                <tr className='bg-gray-50'><td className='px-4 py-3 text-gray-700'>Recurring water at cove joint or through floor</td><td className='px-4 py-3 text-gray-700'>Interior drain tile system with sump pump</td><td className='px-4 py-3 text-gray-700'>Cove joint intrusion is the core use case for interior drainage</td></tr>
+                <tr className='bg-white'><td className='px-4 py-3 text-gray-700'>Water entering through a specific wall crack</td><td className='px-4 py-3 text-gray-700'>Crack injection, then monitor</td><td className='px-4 py-3 text-gray-700'>Address the specific entry point before committing to a full system</td></tr>
+                <tr className='bg-gray-50'><td className='px-4 py-3 text-gray-700'>Chronic seepage through wall face, no bowing</td><td className='px-4 py-3 text-gray-700'>Interior drain tile system</td><td className='px-4 py-3 text-gray-700'>Wall face seepage is manageable with interior drainage at low cost</td></tr>
+                <tr className='bg-white'><td className='px-4 py-3 text-gray-700'>Bowing walls with horizontal cracks</td><td className='px-4 py-3 text-gray-700'>Structural repair first, then interior or exterior waterproofing</td><td className='px-4 py-3 text-gray-700'>Structural issues must be addressed before waterproofing is effective</td></tr>
+                <tr className='bg-gray-50'><td className='px-4 py-3 text-gray-700'>Severe or recurring flooding despite existing interior system</td><td className='px-4 py-3 text-gray-700'>Exterior membrane on worst wall sections plus system review</td><td className='px-4 py-3 text-gray-700'>Interior system may be undersized or drainage may be failing</td></tr>
+                <tr className='bg-white'><td className='px-4 py-3 text-gray-700'>High water table causing floor uplift</td><td className='px-4 py-3 text-gray-700'>Interior drain tile system with high-capacity sump</td><td className='px-4 py-3 text-gray-700'>Interior drainage relieves sub-slab pressure at lower cost than exterior</td></tr>
+                <tr className='bg-gray-50'><td className='px-4 py-3 text-gray-700'>New construction, exterior already exposed</td><td className='px-4 py-3 text-gray-700'>Exterior membrane and footing drain during build</td><td className='px-4 py-3 text-gray-700'>Least expensive time to do exterior work, most comprehensive result</td></tr>
+                <tr className='bg-white'><td className='px-4 py-3 text-gray-700'>Planning to finish basement, no water history</td><td className='px-4 py-3 text-gray-700'>Interior sealer, verify dry for one full season</td><td className='px-4 py-3 text-gray-700'>Confirm dry conditions before installing any organic finishing materials</td></tr>
+                <tr className='bg-gray-50'><td className='px-4 py-3 text-gray-700'>Exterior access blocked by deck, addition, or hardscaping</td><td className='px-4 py-3 text-gray-700'>Interior drain tile system</td><td className='px-4 py-3 text-gray-700'>Exterior excavation not physically possible without destroying structure above</td></tr>
+                <tr className='bg-white'><td className='px-4 py-3 text-gray-700'>Budget under $5,000</td><td className='px-4 py-3 text-gray-700'>Interior drain tile system or crack injection</td><td className='px-4 py-3 text-gray-700'>Exterior waterproofing not achievable at this budget for most homes</td></tr>
+                <tr className='bg-gray-50'><td className='px-4 py-3 text-gray-700'>Buying a home with unknown water history</td><td className='px-4 py-3 text-gray-700'>Professional inspection before deciding</td><td className='px-4 py-3 text-gray-700'>Do not commit to a system without diagnosing the water source first</td></tr>
+                <tr className='bg-white'><td className='px-4 py-3 text-gray-700'>Basement has been remediated and waterproofed, water returning</td><td className='px-4 py-3 text-gray-700'>Hybrid system evaluation</td><td className='px-4 py-3 text-gray-700'>Returning water after proper waterproofing suggests new entry pathway or drainage failure</td></tr>
+              </tbody>
+            </table>
+          </div>
+
           {/* FAQ Section */}
           <h2 className='text-4xl mb-6'>Frequently Asked Questions About Interior vs Exterior Waterproofing</h2>
           <div className='space-y-4 my-8 not-prose'>
             <div className='bg-white rounded-xl border border-slate-200 p-6'>
               <h3 className='font-bold text-slate-900 mb-2'>Which is better, interior or exterior basement waterproofing?</h3>
-              <p className='text-slate-600 text-sm'>Neither is universally better. Exterior waterproofing prevents water from reaching the foundation and lasts 20 to 50 years, making it the most comprehensive long-term solution. Interior waterproofing manages water after it enters and costs one-third as much, making it the practical choice for most existing homes with minor to moderate seepage. For severe groundwater issues or structural damage, exterior is the better investment. For most other situations, a properly installed interior drainage system is highly effective and far less disruptive.</p>
+              <p className='text-slate-600 text-sm'>Neither is universally better; the right choice depends on your specific water problem, foundation condition, budget, and site constraints. Exterior waterproofing prevents water from ever contacting the foundation wall, which is the most complete theoretical solution and the only method the International Building Code recognizes as fully adequate for structural protection. However, interior drainage systems are highly effective for the vast majority of existing homes, cost significantly less ($3,000 to $10,000 versus $7,000 to $18,000), and are serviceable and warrantied for 25 years or more if something goes wrong. For severe groundwater problems, structural foundation damage, or new construction where the exterior is already exposed, exterior waterproofing is the appropriate choice. For most existing homes with manageable seepage and sound foundation walls, interior systems deliver reliable protection without the cost and disruption of full excavation. See our <Link href='/articles/complete-basement-waterproofing-guide' className='text-emerald-700 underline hover:text-emerald-900'>complete basement waterproofing guide</Link> for the full framework for diagnosing which approach fits your situation.</p>
             </div>
             <div className='bg-white rounded-xl border border-slate-200 p-6'>
               <h3 className='font-bold text-slate-900 mb-2'>How much does basement waterproofing cost in 2026?</h3>
-              <p className='text-slate-600 text-sm'>Interior waterproofing costs $3,000 to $10,000 on average, with most homeowners paying $4,000 to $8,000 for a perimeter drain system with sump pump. Exterior waterproofing costs $7,000 to $18,000, with most homeowners paying $10,000 to $15,000. Hybrid systems combining both approaches range from $8,000 to $20,000. Costs vary by home size, soil conditions, water table depth, and severity of the water intrusion. See our <Link href='/articles/basement-waterproofing-cost' className='text-teal-600 hover:underline'>basement waterproofing cost guide</Link> for detailed breakdowns.</p>
+              <p className='text-slate-600 text-sm'>Interior waterproofing costs $3,000 to $10,000 for a typical residential system, with the most common installed price for a complete interior drain tile system with sump pump falling between $4,000 and $8,000 for a standard basement. Exterior waterproofing costs $7,000 to $18,000 with most jobs in the $10,000 to $15,000 range, primarily because excavation labor accounts for a large portion of the total cost regardless of the membrane material used. Hybrid systems combining interior drainage with exterior membrane work on the most problematic wall sections typically run $8,000 to $20,000. Costs increase with clay soil that is harder to excavate, deep footings that require more excavation depth, high water tables that complicate drainage work, and any mold remediation that must be completed before waterproofing can proceed. The cost per linear foot of drainage channel runs $20 to $35 for interior systems and $30 to $90 for exterior French drain installation. See our <Link href='/articles/basement-waterproofing-cost' className='text-emerald-700 underline hover:text-emerald-900'>basement waterproofing cost guide</Link> for a full breakdown by method and basement size.</p>
             </div>
             <div className='bg-white rounded-xl border border-slate-200 p-6'>
               <h3 className='font-bold text-slate-900 mb-2'>Can I waterproof my basement myself?</h3>
-              <p className='text-slate-600 text-sm'>Some interior tasks like applying sealant, installing a dehumidifier, fixing grading, and injecting small cracks are DIY-friendly. However, perimeter drain systems, sump pump installations, and all exterior waterproofing should be done by licensed professionals for safety, code compliance, and warranty coverage. Improper installation of drainage systems is one of the most common causes of system failure. See our <Link href='/articles/diy-vs-hiring-pro-basement-projects' className='text-teal-600 hover:underline'>DIY vs hiring a pro guide</Link>.</p>
+              <p className='text-slate-600 text-sm'>Some interior waterproofing tasks are manageable for experienced DIYers, but most drainage system work and all exterior waterproofing should be done by licensed professionals for safety, performance, and warranty coverage. DIY-appropriate tasks include applying interior sealants like DRYLOK ($30 to $50 per pail), injecting small cracks with epoxy or polyurethane kits ($30 to $80 per crack), installing a dehumidifier, and extending downspouts away from the foundation. Perimeter drain tile systems require jackhammering the concrete floor, excavating a trench at the correct slope, laying perforated pipe properly, and integrating it with a sump pit, all of which require specific skills and tools that most homeowners do not have. Exterior waterproofing involves excavating 8 to 10 feet deep along the foundation perimeter, which is dangerous without proper shoring and requires permits and equipment that make it impractical as a DIY project. Any task involving structural repairs such as crack injection under pressure, wall anchors, or carbon fiber reinforcement should always be left to a professional. See our <Link href='/articles/diy-vs-hiring-pro-basement-projects' className='text-emerald-700 underline hover:text-emerald-900'>DIY vs hiring a pro guide</Link> for a full breakdown of which waterproofing tasks fall within DIY capability.</p>
             </div>
             <div className='bg-white rounded-xl border border-slate-200 p-6'>
               <h3 className='font-bold text-slate-900 mb-2'>How long does basement waterproofing last?</h3>
-              <p className='text-slate-600 text-sm'>Interior sealants and coatings last 5 to 10 years before reapplication may be needed. Interior drainage systems with sump pumps last 15 to 30 years with proper maintenance (sump pumps should be replaced every 7 to 10 years). Exterior waterproofing membranes last 20 to 50 years or the lifetime of the home. Battery backups should be replaced every 3 to 5 years regardless of the system type.</p>
+              <p className='text-slate-600 text-sm'>Interior drain tile systems last 25 to 30 years or more with proper maintenance, including annual sump pump testing, battery backup replacement every 3 to 5 years, and periodic inspection of the drain channel for debris accumulation. Exterior waterproofing membranes last 20 to 50 years depending on the membrane type: rubberized asphalt and liquid-applied polyurethane membranes typically last 20 to 30 years, while crystalline treatments that become part of the concrete matrix can last the lifetime of the structure. Interior sealants and paint-on coatings have the shortest lifespan at 5 to 10 years, and their effectiveness diminishes as concrete continues to move and new micro-cracks form. Sump pumps themselves should be replaced every 7 to 10 years depending on usage, and battery backups require replacement every 3 to 5 years to maintain reliable performance during power outages. The factor most affecting system longevity is pairing any waterproofing method with proper exterior drainage maintenance, because even the best interior system is under greater stress when poor grading, clogged gutters, and missing downspout extensions are directing extra water toward the foundation.</p>
             </div>
             <div className='bg-white rounded-xl border border-slate-200 p-6'>
               <h3 className='font-bold text-slate-900 mb-2'>Does waterproofing increase home value?</h3>
-              <p className='text-slate-600 text-sm'>Yes. Professional waterproofing can increase home marketability significantly and prevent the 10 to 20 percent price reductions that homes with water damage history typically face during negotiations. Documented waterproofing with a transferable warranty is a genuine selling point that buyers and inspectors look for. See our <Link href='/articles/waterproofing-home-appraisal-value' className='text-teal-600 hover:underline'>waterproofing and home appraisal value guide</Link>.</p>
+              <p className='text-slate-600 text-sm'>Yes, documented waterproofing consistently improves home value and marketability, particularly in regions where basement water problems are common and buyers are aware of the risk. Real estate appraisers report that professional waterproofing with transferable warranties can increase appraised value by 5 to 15 percent compared to a comparable home with an undocumented or problematic basement. The effect is most pronounced when waterproofing documentation is provided during the sale, including contractor warranties, inspection reports, and maintenance records that demonstrate the system has been functioning. Conversely, a basement with any history of water problems that has not been documented and remediated can reduce sale price by $10,000 to $25,000 and significantly extend time on market, as buyers and their lenders treat undocumented water history as a material risk. A transferable warranty from a reputable waterproofing contractor is one of the most valuable documents a seller can provide during a real estate transaction. See our <Link href='/articles/waterproofing-home-appraisal-value' className='text-emerald-700 underline hover:text-emerald-900'>waterproofing and home appraisal value guide</Link> for data on how waterproofing documentation affects appraised outcomes.</p>
             </div>
             <div className='bg-white rounded-xl border border-slate-200 p-6'>
               <h3 className='font-bold text-slate-900 mb-2'>What is the best time of year to waterproof a basement?</h3>
-              <p className='text-slate-600 text-sm'>Late spring through early fall is ideal for exterior waterproofing because the ground is not frozen and conditions are dry enough for excavation and membrane application. Interior systems can be installed year-round because all work happens inside the basement. If you are dealing with active flooding, do not wait for ideal conditions. Address the emergency first with our <Link href='/articles/how-to-dry-out-basement-after-flooding' className='text-teal-600 hover:underline'>how to dry out a basement after flooding</Link> guide, then schedule permanent waterproofing.</p>
-            </div>
-            <div className='bg-white rounded-xl border border-slate-200 p-6'>
-              <h3 className='font-bold text-slate-900 mb-2'>Is interior waterproofing just a bandaid?</h3>
-              <p className='text-slate-600 text-sm'>No. A properly installed interior drainage system with a sump pump is a permanent, engineered solution that manages hydrostatic pressure by giving water a controlled path out of the basement. It is the standard recommendation from waterproofing professionals for most existing homes. Interior sealants and coatings applied alone without a drainage system are temporary measures, but a complete interior drainage system is not a bandaid. It is how the majority of wet basements are permanently resolved.</p>
-            </div>
-            <div className='bg-white rounded-xl border border-slate-200 p-6'>
-              <h3 className='font-bold text-slate-900 mb-2'>Should I waterproof before finishing my basement?</h3>
-              <p className='text-slate-600 text-sm'>Absolutely. Never finish a basement that has any history of moisture problems without waterproofing first. Drywall, carpet, and wood framing trap moisture and create hidden mold growth that is expensive to remediate. Waterproof first, verify the system works through at least one full rainy season, then finish. See our <Link href='/articles/pre-finish-audit' className='text-teal-600 hover:underline'>pre-finish audit checklist</Link> and <Link href='/articles/basement-finishing-cost' className='text-teal-600 hover:underline'>basement finishing cost guide</Link>.</p>
+              <p className='text-slate-600 text-sm'>Late spring through early fall is the ideal window for exterior waterproofing because dry ground conditions make excavation safer, easier, and less likely to require emergency shoring against saturated soil collapse. Frozen ground makes exterior excavation impossible in most climates, and actively saturated soil from spring snowmelt or heavy rain creates unstable trench conditions that increase cost and safety risk. Interior waterproofing systems can be installed year-round because the work takes place inside the basement, is not weather-dependent, and in fact many homeowners choose to do interior work in late fall or winter when contractor schedules are less compressed and pricing may be more negotiable. The one exception is interior work in extreme cold climates where the jackhammered concrete must be protected from freezing before new concrete is poured over the drain channel, which adds a minor scheduling consideration in northern states. Regardless of season, do not delay addressing an active water problem because water damage, mold growth, and structural deterioration continue year-round and worsen with each wet season that passes without treatment.</p>
             </div>
           </div>
 
           {/* Glossary */}
-          <h2 className='text-4xl mb-6'>Glossary of Basement Waterproofing Terms</h2>
+          <h2 className='text-4xl mb-6'>Glossary</h2>
           <div className='space-y-4 my-8 not-prose'>
             <div className='bg-slate-50 rounded-xl p-5 border border-slate-200'>
-              <p className='font-bold text-slate-900 mb-1'>Hydrostatic Pressure</p>
-              <p className='text-slate-600 text-sm'>The lateral force exerted by water-saturated soil against a foundation wall or floor. Hydrostatic pressure is the primary driver of basement water intrusion. It increases with soil moisture content and depth below grade. Interior drainage systems manage hydrostatic pressure by giving water a controlled exit path. Exterior waterproofing prevents pressure from reaching the wall.</p>
+              <p className='font-bold text-slate-900 mb-1'>Interior drain tile system</p>
+              <p className='text-slate-600 text-sm'>A perimeter drainage channel installed beneath the basement floor along the base of the foundation walls, consisting of a jackhammered trench, perforated drain pipe surrounded by gravel, and a connection to a sump pit that pumps collected water out of the basement. Interior drain tile systems are the most widely installed professional waterproofing solution for existing homes because they manage hydrostatic pressure effectively by giving water a controlled exit route rather than attempting to block it under pressure. A complete system with sump pump typically costs $3,000 to $10,000 and is warrantied for 25 years or more by most reputable contractors. See our <Link href='/articles/french-drain-cost' className='text-emerald-700 underline hover:text-emerald-900'>French drain cost guide</Link> for detailed pricing by system configuration and linear footage.</p>
             </div>
             <div className='bg-slate-50 rounded-xl p-5 border border-slate-200'>
-              <p className='font-bold text-slate-900 mb-1'>Interior French Drain (Drain Tile)</p>
-              <p className='text-slate-600 text-sm'>A perforated pipe installed in a gravel-filled trench beneath the basement floor along the interior perimeter. The pipe collects water that enters through walls or the floor and directs it to a sump pump for removal. This is the most common professional waterproofing solution for existing homes. See our <Link href='/articles/french-drain-cost' className='text-teal-600 hover:underline'>French drain cost guide</Link>.</p>
+              <p className='font-bold text-slate-900 mb-1'>Exterior waterproofing membrane</p>
+              <p className='text-slate-600 text-sm'>A waterproof coating or sheet material applied to the outside face of the foundation wall below grade after excavating the surrounding soil down to the footing, creating a barrier that prevents water from contacting the concrete. Options include rubberized asphalt membranes, liquid-applied polyurethane coatings, bentonite clay panels, and thermoplastic or PVC sheet membranes, each with different installation requirements, flexibility, and longevity. Exterior membranes are the only waterproofing approach recognized by the International Building Code as fully adequate for structural protection, but the excavation required makes them cost $7,000 to $18,000 for most residential applications. See our <Link href='/articles/complete-basement-waterproofing-guide' className='text-emerald-700 underline hover:text-emerald-900'>complete basement waterproofing guide</Link> for when exterior membranes are warranted versus interior systems.</p>
             </div>
             <div className='bg-slate-50 rounded-xl p-5 border border-slate-200'>
-              <p className='font-bold text-slate-900 mb-1'>Sump Pump</p>
-              <p className='text-slate-600 text-sm'>An electrically powered pump installed in a pit at the lowest point of the basement floor. It automatically activates when the water level in the pit rises to a set point and ejects the water outside through a discharge line. Every interior drainage system requires a sump pump. See our <Link href='/articles/sump-pump-buying-guide' className='text-teal-600 hover:underline'>sump pump buying guide</Link>.</p>
+              <p className='font-bold text-slate-900 mb-1'>Hydrostatic pressure</p>
+              <p className='text-slate-600 text-sm'>The lateral and upward force exerted by water-saturated soil against a foundation wall or floor, which increases with soil moisture content, soil density, and the depth of the foundation below grade. A single cubic foot of saturated soil can weigh over 120 pounds, and this pressure is transmitted horizontally against basement walls and upward against the floor slab through every available pathway including cracks, joints, and porous concrete. Interior waterproofing systems manage hydrostatic pressure by intercepting water as it enters; exterior systems reduce it by keeping the soil adjacent to the foundation drier through drainage and membrane protection. See our <Link href='/articles/bowing-basement-walls' className='text-emerald-700 underline hover:text-emerald-900'>bowing basement walls guide</Link> for how sustained hydrostatic pressure eventually causes structural wall movement.</p>
             </div>
             <div className='bg-slate-50 rounded-xl p-5 border border-slate-200'>
-              <p className='font-bold text-slate-900 mb-1'>Waterproofing Membrane</p>
-              <p className='text-slate-600 text-sm'>A thick, flexible sheet or liquid-applied coating applied to the exterior surface of foundation walls below grade. Membranes create a continuous waterproof barrier that prevents water from contacting or penetrating the concrete. Materials include rubberized asphalt, polyurethane, polymer-based coatings, and sheet membranes.</p>
+              <p className='font-bold text-slate-900 mb-1'>Sump pump</p>
+              <p className='text-slate-600 text-sm'>An electrically powered pump installed in a pit at the lowest point of the basement floor that automatically activates when the collected water level reaches a set threshold, pumping water through a discharge pipe to a location well away from the foundation. Sump pumps are the active mechanical component of any interior waterproofing system and must be paired with a battery backup unit because power outages occur most frequently during the storms that generate the most water. Pumps should be tested annually by pouring water into the pit, and replacement is typically needed every 7 to 10 years depending on usage frequency and model quality. See our <Link href='/articles/sump-pump-buying-guide' className='text-emerald-700 underline hover:text-emerald-900'>sump pump buying guide</Link> and <Link href='/articles/backup-power-sump-pumps' className='text-emerald-700 underline hover:text-emerald-900'>backup power for sump pumps guide</Link> for selection guidance.</p>
             </div>
             <div className='bg-slate-50 rounded-xl p-5 border border-slate-200'>
-              <p className='font-bold text-slate-900 mb-1'>Damp-Proofing</p>
-              <p className='text-slate-600 text-sm'>A thin asphalt-based coating applied to exterior foundation walls during original construction. Damp-proofing resists moisture vapor but cannot withstand hydrostatic pressure or stop liquid water. Many older homes have only damp-proofing, which degrades over time and is often insufficient as soil and drainage conditions change.</p>
+              <p className='font-bold text-slate-900 mb-1'>Hybrid waterproofing system</p>
+              <p className='text-slate-600 text-sm'>A combined approach that uses both interior drainage and exterior membrane work, typically applied when interior methods alone have not fully resolved a severe water problem or when certain wall sections require exterior access for structural repair alongside waterproofing. Hybrid systems cost $8,000 to $20,000 and provide the comprehensive protection of exterior work on the most problematic areas while managing residual water entry through interior drainage. They are most common in homes with high water tables where exterior drainage relieves pressure and interior drainage catches what remains, or in homes where bowing walls require exterior anchor installation alongside interior water management.</p>
             </div>
             <div className='bg-slate-50 rounded-xl p-5 border border-slate-200'>
-              <p className='font-bold text-slate-900 mb-1'>Cove Joint</p>
-              <p className='text-slate-600 text-sm'>The seam where the basement floor meets the foundation wall. The floor and walls are separate concrete pours and are not structurally bonded, creating a natural gap. This gap is the most common water entry point in basements. Interior drainage systems are specifically designed to intercept water at the cove joint.</p>
+              <p className='font-bold text-slate-900 mb-1'>Dimple mat (drainage mat)</p>
+              <p className='text-slate-600 text-sm'>A sheet of high-density polyethylene with a studded or dimpled profile installed on the interior face of basement walls before finishing, creating an air gap between the concrete and the finished wall surface that channels any water weeping through the wall downward into the floor drain system rather than allowing it to contact drywall or insulation. Dimple mats are an alternative to vapor barriers in interior waterproofing systems and are preferred in basements where the wall continues to weep water despite other waterproofing measures, because they allow the concrete to breathe while keeping finished surfaces dry. They typically cost $0.50 to $1.50 per square foot in materials and are installed as part of a complete interior waterproofing and finishing package.</p>
             </div>
             <div className='bg-slate-50 rounded-xl p-5 border border-slate-200'>
-              <p className='font-bold text-slate-900 mb-1'>Efflorescence</p>
-              <p className='text-slate-600 text-sm'>White, powdery mineral deposits that appear on concrete or block surfaces when water migrates through the material and evaporates on the interior face. Efflorescence confirms active moisture movement through the wall and is an early warning sign of water problems. See our <Link href='/articles/efflorescence' className='text-teal-600 hover:underline'>efflorescence guide</Link>.</p>
+              <p className='font-bold text-slate-900 mb-1'>Crystalline waterproofing</p>
+              <p className='text-slate-600 text-sm'>A chemical waterproofing technology in which active compounds penetrate concrete and react with water and cement particles to form insoluble crystals within the pores and micro-cracks, sealing the concrete from within rather than creating a surface barrier that can crack or peel. Crystalline treatment becomes a permanent part of the concrete matrix and has the ability to self-seal new micro-cracks that form over time as the concrete continues to cure and move, which is why it is used in commercial applications including tunnels, water treatment facilities, and below-grade parking structures. For residential applications, crystalline products are most effective as a surface treatment for sound concrete walls with minor vapor transmission rather than as a standalone fix for walls under active hydrostatic pressure. See our <Link href='/articles/crystalline-waterproofing' className='text-emerald-700 underline hover:text-emerald-900'>crystalline waterproofing guide</Link> for a full breakdown of applications and limitations.</p>
             </div>
             <div className='bg-slate-50 rounded-xl p-5 border border-slate-200'>
-              <p className='font-bold text-slate-900 mb-1'>Vapor Barrier</p>
-              <p className='text-slate-600 text-sm'>A sheet of polyethylene plastic or similar impermeable material installed on basement walls to prevent moisture from passing through concrete into the living space. Vapor barriers are installed as part of interior waterproofing systems and are essential behind finished walls. See our <Link href='/articles/best-vapor-barriers' className='text-teal-600 hover:underline'>best vapor barriers guide</Link>.</p>
-            </div>
-            <div className='bg-slate-50 rounded-xl p-5 border border-slate-200'>
-              <p className='font-bold text-slate-900 mb-1'>Crystalline Waterproofing</p>
-              <p className='text-slate-600 text-sm'>A chemical treatment applied to concrete that reacts with moisture to form insoluble crystals within pores and hairline cracks, sealing the concrete from within. Crystalline products can self-heal small new cracks that develop over time. See our <Link href='/articles/crystalline-waterproofing' className='text-teal-600 hover:underline'>crystalline waterproofing guide</Link>.</p>
-            </div>
-            <div className='bg-slate-50 rounded-xl p-5 border border-slate-200'>
-              <p className='font-bold text-slate-900 mb-1'>Hybrid Waterproofing</p>
-              <p className='text-slate-600 text-sm'>An approach that combines interior drainage to manage water that reaches the basement with exterior waterproofing to reduce the volume of water reaching the foundation. Hybrid systems are used for homes with moderate to severe water problems where neither approach alone provides sufficient protection.</p>
+              <p className='font-bold text-slate-900 mb-1'>Cove joint</p>
+              <p className='text-slate-600 text-sm'>The seam between the basement floor slab and the foundation wall where water most commonly enters during hydrostatic pressure events, because the floor and walls are poured at different times and are not structurally bonded or sealed at this joint. Interior drain tile systems are installed at or near the cove joint specifically to intercept water at this entry point before it can spread across the floor surface. Attempts to permanently seal the cove joint against sustained hydrostatic pressure consistently fail because the pressure simply finds new pathways through the floor or lower wall sections.</p>
             </div>
           </div>
 
@@ -762,88 +762,101 @@ export default function InteriorVsExteriorWaterproofing() {
 
           {/* Related Guides */}
           <h2 className='text-4xl mb-6'>Related Guides</h2>
-          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 my-8 not-prose'>
-            <Link href='/articles/basement-waterproofing-cost' className='block bg-white rounded-xl border border-slate-200 p-5 hover:shadow-md transition-shadow'>
-              <h4 className='font-bold text-slate-900 mb-1'>Complete Basement Waterproofing Guide</h4>
-              <p className='text-slate-500 text-sm'>Complete pricing breakdown for professional waterproofing in 2026.</p>
+
+          <h3 className='text-xl font-semibold text-gray-900 mb-4 not-prose'>On thebasement.guide</h3>
+          <div className='grid md:grid-cols-2 gap-6 mb-10 not-prose'>
+            <Link href='/articles/complete-basement-waterproofing-guide' className='bg-white rounded-lg p-6 shadow-sm border border-slate-200 block'>
+              <h4 className='font-bold text-gray-900 mb-1'>Complete Basement Waterproofing Guide</h4>
+              <p className='text-gray-600 text-sm'>The foundational reference covering every waterproofing method, water source diagnosis, DIY versus professional guidance, and the full decision framework for choosing the right approach for your basement.</p>
             </Link>
-            <Link href='/articles/interior-basement-drainage-systems' className='block bg-white rounded-xl border border-slate-200 p-5 hover:shadow-md transition-shadow'>
-              <h4 className='font-bold text-slate-900 mb-1'>Interior Basement Drainage Systems</h4>
-              <p className='text-slate-500 text-sm'>Compare WaterGuard, DryTrak, and traditional drain tile systems.</p>
+            <Link href='/articles/basement-waterproofing-cost' className='bg-white rounded-lg p-6 shadow-sm border border-slate-200 block'>
+              <h4 className='font-bold text-gray-900 mb-1'>Basement Waterproofing Cost 2026</h4>
+              <p className='text-gray-600 text-sm'>Complete pricing for every waterproofing method from DIY sealers to full exterior excavation, with cost ranges by basement size and system complexity.</p>
             </Link>
-            <Link href='/articles/french-drain-cost' className='block bg-white rounded-xl border border-slate-200 p-5 hover:shadow-md transition-shadow'>
-              <h4 className='font-bold text-slate-900 mb-1'>French Drain Cost Guide</h4>
-              <p className='text-slate-500 text-sm'>Interior and exterior drainage system costs compared.</p>
+            <Link href='/articles/french-drain-cost' className='bg-white rounded-lg p-6 shadow-sm border border-slate-200 block'>
+              <h4 className='font-bold text-gray-900 mb-1'>French Drain Cost 2026</h4>
+              <p className='text-gray-600 text-sm'>What interior and exterior French drain installation costs by linear footage and system configuration, the primary pricing reference for the most commonly installed professional waterproofing solution.</p>
             </Link>
-            <Link href='/articles/french-drain-vs-sump-pump' className='block bg-white rounded-xl border border-slate-200 p-5 hover:shadow-md transition-shadow'>
-              <h4 className='font-bold text-slate-900 mb-1'>French Drain vs Sump Pump</h4>
-              <p className='text-slate-500 text-sm'>When you need one, the other, or both.</p>
+            <Link href='/articles/sump-pump-buying-guide' className='bg-white rounded-lg p-6 shadow-sm border border-slate-200 block'>
+              <h4 className='font-bold text-gray-900 mb-1'>Sump Pump Buying Guide</h4>
+              <p className='text-gray-600 text-sm'>How to choose the right sump pump for your interior waterproofing system, including submersible versus pedestal, sizing by flow rate, and the features that matter for long-term reliability.</p>
             </Link>
-            <Link href='/articles/sump-pump-buying-guide' className='block bg-white rounded-xl border border-slate-200 p-5 hover:shadow-md transition-shadow'>
-              <h4 className='font-bold text-slate-900 mb-1'>Sump Pump Buying Guide</h4>
-              <p className='text-slate-500 text-sm'>Choose the right sump pump to complement your waterproofing system.</p>
+            <Link href='/articles/backup-power-sump-pumps' className='bg-white rounded-lg p-6 shadow-sm border border-slate-200 block'>
+              <h4 className='font-bold text-gray-900 mb-1'>Backup Power for Sump Pumps</h4>
+              <p className='text-gray-600 text-sm'>Why battery backup sump pumps are non-negotiable for any interior waterproofing system and how to choose between battery and water-powered backup options.</p>
             </Link>
-            <Link href='/articles/backup-power-sump-pumps' className='block bg-white rounded-xl border border-slate-200 p-5 hover:shadow-md transition-shadow'>
-              <h4 className='font-bold text-slate-900 mb-1'>Backup Power for Sump Pumps</h4>
-              <p className='text-slate-500 text-sm'>Battery, water-powered, and generator options compared.</p>
+            <Link href='/articles/types-of-foundation-cracks' className='bg-white rounded-lg p-6 shadow-sm border border-slate-200 block'>
+              <h4 className='font-bold text-gray-900 mb-1'>Types of Foundation Cracks</h4>
+              <p className='text-gray-600 text-sm'>How to identify foundation crack types and determine whether crack injection alone is sufficient or whether a full drainage system is needed alongside crack repair.</p>
             </Link>
-            <Link href='/articles/types-of-foundation-cracks' className='block bg-white rounded-xl border border-slate-200 p-5 hover:shadow-md transition-shadow'>
-              <h4 className='font-bold text-slate-900 mb-1'>Types of Foundation Cracks</h4>
-              <p className='text-slate-500 text-sm'>Identify which cracks need immediate attention and which are cosmetic.</p>
+            <Link href='/articles/foundation-crack-repair-cost' className='bg-white rounded-lg p-6 shadow-sm border border-slate-200 block'>
+              <h4 className='font-bold text-gray-900 mb-1'>Foundation Crack Repair Cost 2026</h4>
+              <p className='text-gray-600 text-sm'>Pricing for professional epoxy and polyurethane crack injection, relevant for budgeting crack sealing as the first step in any waterproofing program.</p>
             </Link>
-            <Link href='/articles/how-to-prevent-basement-mold' className='block bg-white rounded-xl border border-slate-200 p-5 hover:shadow-md transition-shadow'>
-              <h4 className='font-bold text-slate-900 mb-1'>How to Prevent Basement Mold</h4>
-              <p className='text-slate-500 text-sm'>Keep mold away with proper moisture management strategies.</p>
+            <Link href='/articles/bowing-basement-walls' className='bg-white rounded-lg p-6 shadow-sm border border-slate-200 block'>
+              <h4 className='font-bold text-gray-900 mb-1'>Bowing Basement Walls</h4>
+              <p className='text-gray-600 text-sm'>How hydrostatic pressure causes structural wall movement and why bowing walls must be repaired before any waterproofing system is installed.</p>
             </Link>
-            <Link href='/articles/best-basement-dehumidifiers' className='block bg-white rounded-xl border border-slate-200 p-5 hover:shadow-md transition-shadow'>
-              <h4 className='font-bold text-slate-900 mb-1'>Best Basement Dehumidifiers</h4>
-              <p className='text-slate-500 text-sm'>Top dehumidifiers for basement moisture control in 2026.</p>
+            <Link href='/articles/crystalline-waterproofing' className='bg-white rounded-lg p-6 shadow-sm border border-slate-200 block'>
+              <h4 className='font-bold text-gray-900 mb-1'>Crystalline Waterproofing</h4>
+              <p className='text-gray-600 text-sm'>A detailed explanation of crystalline waterproofing technology, how it compares to membrane and drainage systems, and where it fits into an integrated waterproofing approach.</p>
             </Link>
-            <Link href='/articles/waterproof-basement-paint-sealers' className='block bg-white rounded-xl border border-slate-200 p-5 hover:shadow-md transition-shadow'>
-              <h4 className='font-bold text-slate-900 mb-1'>Waterproof Paint and Sealers</h4>
-              <p className='text-slate-500 text-sm'>Compare DRYLOK, RadonSeal, and other basement sealers.</p>
+            <Link href='/articles/waterproof-basement-paint-sealers' className='bg-white rounded-lg p-6 shadow-sm border border-slate-200 block'>
+              <h4 className='font-bold text-gray-900 mb-1'>Waterproof Basement Paint and Sealers</h4>
+              <p className='text-gray-600 text-sm'>What interior concrete sealers can and cannot do, and how they fit as a first layer in a complete waterproofing system rather than a standalone fix.</p>
             </Link>
-            <Link href='/articles/best-vapor-barriers' className='block bg-white rounded-xl border border-slate-200 p-5 hover:shadow-md transition-shadow'>
-              <h4 className='font-bold text-slate-900 mb-1'>Best Vapor Barriers</h4>
-              <p className='text-slate-500 text-sm'>Essential moisture barriers for basement walls.</p>
+            <Link href='/articles/drylok-vs-radonseal' className='bg-white rounded-lg p-6 shadow-sm border border-slate-200 block'>
+              <h4 className='font-bold text-gray-900 mb-1'>DRYLOK vs RadonSeal</h4>
+              <p className='text-gray-600 text-sm'>A head-to-head comparison of the two most widely used interior concrete sealers for minor vapor transmission reduction, with honest guidance on their limitations.</p>
             </Link>
-            <Link href='/articles/crystalline-waterproofing' className='block bg-white rounded-xl border border-slate-200 p-5 hover:shadow-md transition-shadow'>
-              <h4 className='font-bold text-slate-900 mb-1'>Crystalline Waterproofing Guide</h4>
-              <p className='text-slate-500 text-sm'>Self-healing waterproofing technology explained for 2026.</p>
+            <Link href='/articles/how-to-prevent-basement-mold' className='bg-white rounded-lg p-6 shadow-sm border border-slate-200 block'>
+              <h4 className='font-bold text-gray-900 mb-1'>How to Prevent Basement Mold</h4>
+              <p className='text-gray-600 text-sm'>The mold prevention program that a properly installed waterproofing system enables, covering humidity control, air circulation, and monitoring practices.</p>
             </Link>
-            <Link href='/articles/how-to-finish-a-basement' className='block bg-white rounded-xl border border-slate-200 p-5 hover:shadow-md transition-shadow'>
-              <h4 className='font-bold text-slate-900 mb-1'>How to Finish a Basement</h4>
-              <p className='text-slate-500 text-sm'>Complete guide to finishing your basement after waterproofing.</p>
+            <Link href='/articles/mold-remediation-cost' className='bg-white rounded-lg p-6 shadow-sm border border-slate-200 block'>
+              <h4 className='font-bold text-gray-900 mb-1'>Mold Remediation Cost 2026</h4>
+              <p className='text-gray-600 text-sm'>What professional mold remediation costs when waterproofing has been deferred long enough for mold to establish, the most common expensive consequence of delayed treatment.</p>
             </Link>
-            <Link href='/articles/pre-finish-audit' className='block bg-white rounded-xl border border-slate-200 p-5 hover:shadow-md transition-shadow'>
-              <h4 className='font-bold text-slate-900 mb-1'>Pre-Finish Audit Checklist</h4>
-              <p className='text-slate-500 text-sm'>What to check before finishing your basement.</p>
+            <Link href='/articles/how-to-hire-basement-waterproofing-contractor' className='bg-white rounded-lg p-6 shadow-sm border border-slate-200 block'>
+              <h4 className='font-bold text-gray-900 mb-1'>How to Hire a Basement Waterproofing Contractor</h4>
+              <p className='text-gray-600 text-sm'>How to find, vet, and compare waterproofing contractors, questions to ask, red flags to avoid, and what a good warranty looks like for both interior and exterior systems.</p>
             </Link>
-            <Link href='/articles/how-to-hire-basement-waterproofing-contractor' className='block bg-white rounded-xl border border-slate-200 p-5 hover:shadow-md transition-shadow'>
-              <h4 className='font-bold text-slate-900 mb-1'>How to Hire a Waterproofing Contractor</h4>
-              <p className='text-slate-500 text-sm'>What to look for and red flags to avoid.</p>
+            <Link href='/articles/waterproofing-home-appraisal-value' className='bg-white rounded-lg p-6 shadow-sm border border-slate-200 block'>
+              <h4 className='font-bold text-gray-900 mb-1'>Waterproofing and Home Appraisal Value</h4>
+              <p className='text-gray-600 text-sm'>How documented waterproofing with warranties affects appraised value and buyer confidence during a home sale.</p>
             </Link>
-            <Link href='/articles/waterproofing-home-appraisal-value' className='block bg-white rounded-xl border border-slate-200 p-5 hover:shadow-md transition-shadow'>
-              <h4 className='font-bold text-slate-900 mb-1'>Waterproofing and Home Value</h4>
-              <p className='text-slate-500 text-sm'>How waterproofing affects your home appraisal.</p>
+            <Link href='/articles/homebuyers-basement-inspection-checklist' className='bg-white rounded-lg p-6 shadow-sm border border-slate-200 block'>
+              <h4 className='font-bold text-gray-900 mb-1'>Homebuyer&apos;s Basement Inspection Checklist</h4>
+              <p className='text-gray-600 text-sm'>How to evaluate a basement&apos;s waterproofing status when buying a home, including what documentation to request and how to negotiate for water history.</p>
             </Link>
-            <Link href='/articles/how-to-dry-out-basement-after-flooding' className='block bg-white rounded-xl border border-slate-200 p-5 hover:shadow-md transition-shadow'>
-              <h4 className='font-bold text-slate-900 mb-1'>How to Dry Out After Flooding</h4>
-              <p className='text-slate-500 text-sm'>Emergency steps for basement flood recovery.</p>
+            <Link href='/articles/radon-and-basement-waterproofing' className='bg-white rounded-lg p-6 shadow-sm border border-slate-200 block'>
+              <h4 className='font-bold text-gray-900 mb-1'>Radon and Basement Waterproofing</h4>
+              <p className='text-gray-600 text-sm'>How the sealing work in both interior and exterior waterproofing systems reduces radon entry pathways alongside moisture control.</p>
             </Link>
-            <Link href='/articles/homebuyers-basement-inspection-checklist' className='block bg-white rounded-xl border border-slate-200 p-5 hover:shadow-md transition-shadow'>
-              <h4 className='font-bold text-slate-900 mb-1'>Homebuyers Inspection Checklist</h4>
-              <p className='text-slate-500 text-sm'>What buyers and inspectors look for in basements.</p>
+            <Link href='/articles/diy-vs-hiring-pro-basement-projects' className='bg-white rounded-lg p-6 shadow-sm border border-slate-200 block'>
+              <h4 className='font-bold text-gray-900 mb-1'>DIY vs Hiring a Pro for Basement Projects</h4>
+              <p className='text-gray-600 text-sm'>A full breakdown of which waterproofing tasks fall within DIY capability and which require professional installation for safety and warranty coverage.</p>
             </Link>
           </div>
 
-          {/* Cross-Network Links */}
-          <div className='bg-slate-50 rounded-2xl p-6 my-8 not-prose border border-slate-200'>
-            <h3 className='font-bold text-slate-900 text-lg mb-4'>Our Network</h3>
-            <ul className='space-y-3 text-slate-600'>
-              <li className='flex items-start gap-2'><span className='text-teal-500 font-bold'>•</span> <a href='https://thegarage.guide/articles/water-leaking-into-garage' className='text-teal-600 hover:underline'>The Garage Guide</a> covers water leaking into garage, which involves the same interior vs exterior waterproofing decision for garage-level water intrusion.</li>
-              <li className='flex items-start gap-2'><span className='text-teal-500 font-bold'>•</span> <a href='https://theseptic.guide/articles/septic-overflow-after-rain' className='text-teal-600 hover:underline'>The Septic Guide</a> covers septic overflow after rain, which can contribute to basement water problems in homes where the septic drainfield is near the foundation and becomes saturated during the same storm events.</li>
-            </ul>
+          <h3 className='text-xl font-semibold text-gray-900 mb-4 not-prose'>From Our Network</h3>
+          <div className='grid md:grid-cols-2 gap-6 mb-10 not-prose'>
+            <a href='https://theseptic.guide/problems/septic-overflow-after-rain' target='_blank' rel='noopener noreferrer' className='bg-white rounded-lg p-6 shadow-sm border border-slate-200 block'>
+              <h4 className='font-bold text-gray-900 mb-1'>Septic Overflow After Rain</h4>
+              <p className='text-gray-600 text-sm'>The same heavy rain events that drive hydrostatic pressure against basement walls also trigger septic system overflow on rural properties. This guide covers the septic side of rain-related below-grade water management.</p>
+            </a>
+            <a href='https://theseptic.guide/articles/does-insurance-cover-septic-repair-replacement' target='_blank' rel='noopener noreferrer' className='bg-white rounded-lg p-6 shadow-sm border border-slate-200 block'>
+              <h4 className='font-bold text-gray-900 mb-1'>Does Homeowners Insurance Cover Septic Repair?</h4>
+              <p className='text-gray-600 text-sm'>For homeowners managing both basement waterproofing and septic system concerns, this guide covers how insurance treats septic failures alongside the waterproofing coverage limitations described in this article.</p>
+            </a>
+          </div>
+
+          <h3 className='text-xl font-semibold text-gray-900 mb-4 not-prose'>External Resource</h3>
+          <div className='grid md:grid-cols-2 gap-6 mb-10 not-prose'>
+            <a href='https://www.buildingscience.com/documents/digests/bsd-103-understanding-basements' target='_blank' rel='noopener noreferrer' className='bg-white rounded-lg p-6 shadow-sm border border-slate-200 block'>
+              <h4 className='font-bold text-gray-900 mb-1'>Building Science Corporation Basement Moisture Guidance</h4>
+              <p className='text-gray-600 text-sm'>The Building Science Corporation&apos;s technical research on basement moisture sources, vapor diffusion, condensation, and the science behind why drainage-based interior systems are effective for managing hydrostatic pressure.</p>
+            </a>
           </div>
 
           {/* Lead Form CTA */}
