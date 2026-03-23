@@ -55,6 +55,10 @@ export default function DehumidifierMythsArticle() {
       <main className='max-w-5xl mx-auto px-6 py-24'>
         <div className='prose prose-lg prose-slate max-w-none prose-headings:text-slate-900 prose-headings:font-black prose-headings:tracking-tight prose-p:text-slate-600 prose-p:leading-relaxed prose-a:text-teal-600 prose-a:no-underline hover:prose-a:underline'>
 
+          <p className='text-lg text-slate-700 leading-relaxed mb-8'>
+            A dehumidifier is an appliance that removes excess water vapor from indoor air to maintain relative humidity at a level that prevents mold growth, dust mite proliferation, wood warping, and structural moisture damage. Basement dehumidifiers face a harder job than units used in living spaces above grade — cooler temperatures reduce the efficiency of standard compressor-based units, higher moisture loads from soil and foundation seepage demand more removal capacity, and the enclosed nature of most basements limits the natural air exchange that helps moderate humidity elsewhere in the home. Proper dehumidifier selection requires matching the unit's pint capacity to the actual square footage and dampness level of the space using current DOE standards, which changed in 2019 and made older pint ratings non-comparable to newer ones. The most common dehumidifier failure is not a defective unit — it is a correctly functioning unit that was simply sized for a smaller or drier space than the one it is being asked to control.
+          </p>
+
           <p className='text-2xl font-medium text-slate-800 leading-relaxed mb-12 border-l-4 border-teal-500 pl-8'>
             Dehumidifiers play a key role in controlling indoor humidity, preventing mold growth, improving indoor air quality, and protecting your home from moisture-related damage. Yet widespread misinformation leads many homeowners to buy undersized models that cannot keep up with real-world conditions.
           </p>
