@@ -261,27 +261,27 @@ export default function EgressWindowCost() {
           <div className='grid grid-cols-1 md:grid-cols-2 gap-6 mb-12'>
             <div className='bg-slate-50 rounded-xl p-6'>
               <h4 className='font-bold text-slate-900 mb-2'>Clear Opening</h4>
-              <p className='text-slate-600 text-sm'>The actual open space when the window is fully open. Must be at least 5.7 square feet to meet code.</p>
+              <p className='text-slate-600 text-sm'>The actual usable open space when an egress window is fully opened, measured in square feet and calculated by multiplying the clear opening height by the clear opening width. The IRC requires a minimum clear opening of 5.7 square feet (or 5.0 square feet for windows at grade level) to ensure an adult can exit and a firefighter with equipment can enter in an emergency. Clear opening is distinct from the rough opening cut in the foundation wall &mdash; the window frame, sash, and hardware all reduce the clear opening below the rough opening dimensions, which is why window selection must be verified against the clear opening requirement rather than the overall window size.</p>
             </div>
             <div className='bg-slate-50 rounded-xl p-6'>
               <h4 className='font-bold text-slate-900 mb-2'>Window Well</h4>
-              <p className='text-slate-600 text-sm'>The dug-out area outside the window that keeps soil away and gives you room to climb out safely.</p>
+              <p className='text-slate-600 text-sm'>The dug-out semicircular or rectangular area excavated directly outside an egress window that keeps surrounding soil from pressing against the window, provides the physical space needed to open the window fully, and gives occupants room to climb out safely. IRC code requires the window well to have a minimum floor area of 9 square feet, project at least 36 inches from the foundation wall, and be at least 36 inches wide. Every window well should include a drainage layer of 6 to 12 inches of gravel at the base connected to the footing drain or a dry well to prevent water accumulation that would otherwise push directly through the window frame into the basement.</p>
             </div>
             <div className='bg-slate-50 rounded-xl p-6'>
               <h4 className='font-bold text-slate-900 mb-2'>Sill Height</h4>
-              <p className='text-slate-600 text-sm'>The distance from the basement floor to the bottom of the window. Code says it cannot be higher than 44 inches.</p>
+              <p className='text-slate-600 text-sm'>The vertical distance measured from the finished basement floor surface to the bottom interior edge of the egress window opening, which the IRC limits to a maximum of 44 inches to ensure occupants can reach and operate the window without assistance during an emergency. Sill height is one of the most commonly violated egress requirements in older finished basements, particularly where small hopper windows were installed high on the wall to maximize light while minimizing foundation penetration depth. If existing windows are above 44 inches sill height, the only compliant solution is a new window installation at the correct height rather than modifying the existing opening.</p>
             </div>
             <div className='bg-slate-50 rounded-xl p-6'>
               <h4 className='font-bold text-slate-900 mb-2'>Casement Window</h4>
-              <p className='text-slate-600 text-sm'>The crank-out style that swings open like a door. Most popular for basements because it gives the biggest clear opening.</p>
+              <p className='text-slate-600 text-sm'>A window hinged on one vertical side that swings outward like a door when operated by a crank mechanism, making it the most popular egress window style for basements because the entire sash swings clear to provide the maximum possible clear opening. Unlike double-hung or slider windows where only half the window area opens at any time, a casement window opens the full sash area, making it easier to meet the 5.7 square foot clear opening requirement with a smaller overall window unit. Low-E glass casement windows in vinyl or fiberglass frames are the recommended specification for basement egress applications because they resist moisture, require minimal maintenance, and improve basement energy efficiency.</p>
             </div>
             <div className='bg-slate-50 rounded-xl p-6'>
               <h4 className='font-bold text-slate-900 mb-2'>Lintel</h4>
-              <p className='text-slate-600 text-sm'>The strong horizontal beam placed above the window to support the wall and foundation above it.</p>
+              <p className='text-slate-600 text-sm'>A structural horizontal beam installed directly above a window or door opening in a foundation or load-bearing wall to transfer the weight of the wall and structure above the opening to the sides of the opening rather than allowing it to bear down on the window frame. In egress window installations, the lintel is one of the most critical structural elements because it must be sized by an engineer or experienced contractor to carry the specific load of the foundation wall and floor framing above the opening at that location. Lintel installation is included in standard egress window contractor quotes and is one of the primary reasons egress window installation should not be attempted as a DIY project without structural engineering knowledge.</p>
             </div>
             <div className='bg-slate-50 rounded-xl p-6'>
               <h4 className='font-bold text-slate-900 mb-2'>Low-E Glass</h4>
-              <p className='text-slate-600 text-sm'>Energy-efficient glass that cuts down on heat loss so your basement stays more comfortable year-round.</p>
+              <p className='text-slate-600 text-sm'>A type of window glass coated with a microscopically thin metallic oxide layer that reflects infrared heat while allowing visible light to pass through, reducing heat loss in winter and heat gain in summer to improve the energy efficiency of the basement space. Low-E egress windows may qualify for the federal Energy Efficient Home Improvement Credit (up to $600) when they meet ENERGY STAR Most Efficient U-factor and solar heat gain coefficient thresholds. For basement applications specifically, low-E glass also reduces condensation on the interior glass surface by keeping the glass warmer, which helps prevent the moisture accumulation that leads to mold growth around window frames in below-grade spaces.</p>
             </div>
           </div>
 
