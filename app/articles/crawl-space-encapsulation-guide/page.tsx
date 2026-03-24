@@ -421,6 +421,45 @@ export default function CrawlSpaceEncapsulationGuide() {
               </div>
             </section>
 
+            {/* Related Guides */}
+            <section>
+              <h2 className='text-3xl font-bold text-slate-900 mb-6'>Related Guides</h2>
+              <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
+                <Link href='/articles/basement-vs-crawl-space-vs-slab' className='block bg-slate-50 rounded-lg p-5 border border-slate-200 hover:border-indigo-300 hover:shadow-lg transition-all'>
+                  <h3 className='font-bold text-slate-900 mb-1'>Basement vs Crawl Space vs Slab</h3>
+                  <p className='text-slate-600 text-sm'>Compare the three foundation types and what each means for moisture control and finishing.</p>
+                </Link>
+                <Link href='/articles/best-vapor-barriers' className='block bg-slate-50 rounded-lg p-5 border border-slate-200 hover:border-indigo-300 hover:shadow-lg transition-all'>
+                  <h3 className='font-bold text-slate-900 mb-1'>Best Vapor Barriers</h3>
+                  <p className='text-slate-600 text-sm'>Top-rated vapor barrier products for crawl spaces and basements compared.</p>
+                </Link>
+                <Link href='/articles/complete-basement-waterproofing-guide' className='block bg-slate-50 rounded-lg p-5 border border-slate-200 hover:border-indigo-300 hover:shadow-lg transition-all'>
+                  <h3 className='font-bold text-slate-900 mb-1'>Complete Basement Waterproofing Guide</h3>
+                  <p className='text-slate-600 text-sm'>How crawl space encapsulation fits into a whole-home moisture control strategy.</p>
+                </Link>
+                <Link href='/articles/how-to-prevent-basement-mold' className='block bg-slate-50 rounded-lg p-5 border border-slate-200 hover:border-indigo-300 hover:shadow-lg transition-all'>
+                  <h3 className='font-bold text-slate-900 mb-1'>How to Prevent Basement Mold</h3>
+                  <p className='text-slate-600 text-sm'>Mold prevention strategies that apply equally to crawl spaces and basements.</p>
+                </Link>
+                <Link href='/articles/basement-insulation-guide' className='block bg-slate-50 rounded-lg p-5 border border-slate-200 hover:border-indigo-300 hover:shadow-lg transition-all'>
+                  <h3 className='font-bold text-slate-900 mb-1'>Basement Insulation Guide</h3>
+                  <p className='text-slate-600 text-sm'>Insulation types, R-values, and correct assemblies for below-grade spaces.</p>
+                </Link>
+                <Link href='/articles/sump-pump-buying-guide' className='block bg-slate-50 rounded-lg p-5 border border-slate-200 hover:border-indigo-300 hover:shadow-lg transition-all'>
+                  <h3 className='font-bold text-slate-900 mb-1'>Sump Pump Buying Guide</h3>
+                  <p className='text-slate-600 text-sm'>Choosing the right sump pump for crawl spaces with drainage issues.</p>
+                </Link>
+                <Link href='/articles/mold-remediation-cost' className='block bg-slate-50 rounded-lg p-5 border border-slate-200 hover:border-indigo-300 hover:shadow-lg transition-all'>
+                  <h3 className='font-bold text-slate-900 mb-1'>Mold Remediation Cost</h3>
+                  <p className='text-slate-600 text-sm'>What remediation costs if mold is present before encapsulation begins.</p>
+                </Link>
+                <Link href='/articles/radon-testing-and-mitigation' className='block bg-slate-50 rounded-lg p-5 border border-slate-200 hover:border-indigo-300 hover:shadow-lg transition-all'>
+                  <h3 className='font-bold text-slate-900 mb-1'>Radon Testing and Mitigation</h3>
+                  <p className='text-slate-600 text-sm'>Why radon testing before encapsulating a crawl space matters.</p>
+                </Link>
+              </div>
+            </section>
+
             {/* Final Advice */}
             <section>
               <h2 className='text-3xl font-bold text-slate-900 mb-6'>Final Advice</h2>
