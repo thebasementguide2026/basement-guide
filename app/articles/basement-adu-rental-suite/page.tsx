@@ -11,6 +11,45 @@ export const metadata: Metadata = {
 export default function BasementADURentalSuiteArticle() {
   return (
     <div className='bg-white min-h-screen'>
+
+      {/* Schema: FAQPage */}
+      <script
+        type='application/ld+json'
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: [
+              {
+                '@type': 'Question',
+                name: 'Is a basement ADU legal in my city?',
+                acceptedAnswer: { '@type': 'Answer', text: 'It depends entirely on your local zoning ordinance. Many cities have relaxed ADU rules since 2020 as a housing supply measure, but rules vary widely even within a metro area. Some jurisdictions require owner-occupancy of the primary unit, minimum lot sizes, off-street parking, or prohibit short-term rentals. The only reliable answer is a direct call to your local building department or planning office before spending any money on design or materials. Many cities now offer ADU pre-application meetings and fast-track approval processes. Some offer grants or permit fee waivers for qualifying projects.' },
+              },
+              {
+                '@type': 'Question',
+                name: 'How much does a basement ADU cost?',
+                acceptedAnswer: { '@type': 'Answer', text: 'A code-compliant one-bedroom basement ADU with a full bathroom and kitchenette typically costs $55,000 to $120,000 depending on the condition of the existing basement, local labor rates, and finish level. The biggest cost variables are waterproofing ($8,000 to $18,000), egress windows ($3,000 to $8,000 each), plumbing for the bathroom and kitchenette ($7,000 to $15,000), and electrical with a separate panel ($6,000 to $12,000). Permits and engineering add $3,000 to $10,000. Budget for contingency of at least 15 percent on top of your base estimate. The payback period on a well-located unit is typically 3 to 6 years through rental income alone, before accounting for the appreciation in home value.' },
+              },
+              {
+                '@type': 'Question',
+                name: 'Do I need a separate entrance for a basement rental?',
+                acceptedAnswer: { '@type': 'Answer', text: 'Most jurisdictions that permit basement ADUs require or strongly recommend a separate exterior entrance for the tenant, both for privacy and as a secondary means of egress. A separate entrance allows the tenant to access the unit without passing through the primary living space and is typically required for the unit to be classified as a legal independent dwelling rather than just a finished basement room. Options include a walk-out door through a below-grade entry well, a door through the garage, or an exterior stairwell on the side of the house. Confirm requirements with your local building department since some areas allow shared entrance configurations with proper fire separation between units.' },
+              },
+              {
+                '@type': 'Question',
+                name: 'What are the waterproofing requirements for a legal basement rental?',
+                acceptedAnswer: { '@type': 'Answer', text: 'Most jurisdictions require that any habitable basement space be dry, free of mold, and maintained at a habitable humidity level as a condition of the certificate of occupancy and ongoing rental licensing. In practice this means a full interior perimeter drainage system tied to a reliable sump pump with battery backup, all foundation cracks sealed, crystalline waterproofing or a dimpled membrane on below-grade walls, and a whole-basement dehumidifier maintaining 40 to 50 percent relative humidity. A unit that develops moisture problems after tenants move in is subject to complaint-driven inspections and can be condemned or have its rental permit revoked. Waterproofing is the one area where cutting corners has direct legal and financial consequences beyond the construction cost.' },
+              },
+              {
+                '@type': 'Question',
+                name: 'How do I separate utilities for a basement ADU?',
+                acceptedAnswer: { '@type': 'Answer', text: 'Utility separation requirements vary by jurisdiction but typically involve either a separate utility meter for the unit or a landlord-paid utility arrangement with the cost factored into rent. A separate electrical panel for the ADU is standard practice and often required. Water and gas sub-metering is available where full separate metering is not required or feasible. Separate HVAC is strongly recommended even where shared systems are permitted, both for tenant comfort and to avoid disputes over temperature control and energy costs. A dedicated water heater for the ADU is also standard. Confirm requirements with your local utility companies and building department early in the planning process.' },
+              },
+            ],
+          }),
+        }}
+      />
+
       {/* Article Hero */}
       <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
         <Image
@@ -372,6 +411,37 @@ export default function BasementADURentalSuiteArticle() {
           </div>
         </div>
 
+        {/* FAQ Section */}
+        <div className='mb-20'>
+          <div className='flex items-center space-x-3 mb-4'>
+            <span className='text-teal-600 font-bold text-sm tracking-wider uppercase'>FAQ</span>
+            <span className='text-slate-300 font-bold text-sm tracking-wider uppercase'>&nbsp; Common Questions</span>
+          </div>
+          <h2 className='text-3xl font-bold text-slate-900 mb-8'>Frequently Asked Questions</h2>
+          <div className='space-y-4'>
+            <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+              <h3 className='font-bold text-slate-900 mb-2'>Is a basement ADU legal in my city?</h3>
+              <p className='text-slate-600'>It depends entirely on your local zoning ordinance. Many cities have relaxed ADU rules since 2020 as a housing supply measure, but rules vary widely even within a metro area. Some jurisdictions require owner-occupancy of the primary unit, minimum lot sizes, off-street parking, or prohibit short-term rentals. The only reliable answer is a direct call to your local building department or planning office before spending any money on design or materials. Many cities now offer ADU pre-application meetings and fast-track approval processes. Some offer grants or permit fee waivers for qualifying projects.</p>
+            </div>
+            <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+              <h3 className='font-bold text-slate-900 mb-2'>How much does a basement ADU cost?</h3>
+              <p className='text-slate-600'>A code-compliant one-bedroom basement ADU with a full bathroom and kitchenette typically costs $55,000 to $120,000 depending on the condition of the existing basement, local labor rates, and finish level. The biggest cost variables are waterproofing ($8,000 to $18,000), egress windows ($3,000 to $8,000 each), plumbing for the bathroom and kitchenette ($7,000 to $15,000), and electrical with a separate panel ($6,000 to $12,000). Permits and engineering add $3,000 to $10,000. Budget for contingency of at least 15 percent on top of your base estimate. The payback period on a well-located unit is typically 3 to 6 years through rental income alone, before accounting for the appreciation in home value.</p>
+            </div>
+            <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+              <h3 className='font-bold text-slate-900 mb-2'>Do I need a separate entrance for a basement rental?</h3>
+              <p className='text-slate-600'>Most jurisdictions that permit basement ADUs require or strongly recommend a separate exterior entrance for the tenant, both for privacy and as a secondary means of egress. A separate entrance allows the tenant to access the unit without passing through the primary living space and is typically required for the unit to be classified as a legal independent dwelling rather than just a finished basement room. Options include a walk-out door through a below-grade entry well, a door through the garage, or an exterior stairwell on the side of the house. Confirm requirements with your local building department since some areas allow shared entrance configurations with proper fire separation between units.</p>
+            </div>
+            <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+              <h3 className='font-bold text-slate-900 mb-2'>What are the waterproofing requirements for a legal basement rental?</h3>
+              <p className='text-slate-600'>Most jurisdictions require that any habitable basement space be dry, free of mold, and maintained at a habitable humidity level as a condition of the certificate of occupancy and ongoing rental licensing. In practice this means a full interior perimeter drainage system tied to a reliable sump pump with battery backup, all foundation cracks sealed, crystalline waterproofing or a dimpled membrane on below-grade walls, and a whole-basement dehumidifier maintaining 40 to 50 percent relative humidity. A unit that develops moisture problems after tenants move in is subject to complaint-driven inspections and can be condemned or have its rental permit revoked. Waterproofing is the one area where cutting corners has direct legal and financial consequences beyond the construction cost.</p>
+            </div>
+            <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+              <h3 className='font-bold text-slate-900 mb-2'>How do I separate utilities for a basement ADU?</h3>
+              <p className='text-slate-600'>Utility separation requirements vary by jurisdiction but typically involve either a separate utility meter for the unit or a landlord-paid utility arrangement with the cost factored into rent. A separate electrical panel for the ADU is standard practice and often required. Water and gas sub-metering is available where full separate metering is not required or feasible. Separate HVAC is strongly recommended even where shared systems are permitted, both for tenant comfort and to avoid disputes over temperature control and energy costs. A dedicated water heater for the ADU is also standard. Confirm requirements with your local utility companies and building department early in the planning process.</p>
+            </div>
+          </div>
+        </div>
+
         {/* Glossary */}
         <div className='mb-20'>
           <div className='flex items-center space-x-3 mb-4'>
@@ -379,26 +449,30 @@ export default function BasementADURentalSuiteArticle() {
             <span className='text-slate-300 font-bold text-sm tracking-wider uppercase'>&nbsp; Glossary</span>
           </div>
           <h2 className='text-3xl font-bold text-slate-900 mb-8'>Glossary of Terms</h2>
-          <div className='space-y-4'>
+          <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
             <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
               <h4 className='font-bold text-slate-900 mb-1'>Accessory Dwelling Unit (ADU)</h4>
-              <p className='text-slate-600'>A legal secondary living space on the same property as the main house that can be rented out independently.</p>
+              <p className='text-slate-600'>A self-contained secondary housing unit on the same property as a primary residence, with its own entrance, kitchen, bathroom, and sleeping area. Subject to local zoning approval and building code compliance. Can be attached to the main house, detached, or carved from existing space such as a basement. Also called an in-law suite, granny flat, or secondary suite depending on the region.</p>
             </div>
             <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
               <h4 className='font-bold text-slate-900 mb-1'>Egress Window</h4>
-              <p className='text-slate-600'>A specially sized basement window that meets building code for emergency escape and rescue from a sleeping area.</p>
+              <p className='text-slate-600'>A window sized and positioned to serve as an emergency exit from a basement sleeping room, meeting IRC minimums of 5.7 square feet net clear opening, 20-inch minimum width, 24-inch minimum height, and a maximum sill height of 44 inches above the finished floor. Required by code for any bedroom in a basement ADU. A bedroom without a compliant egress window cannot be legally rented as a sleeping room. See our <Link href='/articles/egress-window-cost' className='text-teal-600 underline hover:text-teal-800'>egress window cost guide</Link>.</p>
             </div>
             <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
               <h4 className='font-bold text-slate-900 mb-1'>Hydrostatic Pressure</h4>
-              <p className='text-slate-600'>The force of groundwater pushing against foundation walls that can force water through concrete pores and cracks.</p>
+              <p className='text-slate-600'>The force exerted by water-saturated soil against a foundation wall and floor slab. Pushes groundwater through concrete pores, cracks, and the cove joint at the floor-wall perimeter. The primary source of moisture problems in basement rentals and the reason a full perimeter drainage system with sump pump is required before finishing any below-grade habitable space.</p>
             </div>
             <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
               <h4 className='font-bold text-slate-900 mb-1'>Crystalline Waterproofing</h4>
-              <p className='text-slate-600'>A chemical treatment applied to concrete that grows self-healing crystals to permanently block water passage.</p>
+              <p className='text-slate-600'>A chemical treatment applied to concrete walls and floors that penetrates the concrete matrix and grows insoluble crystals inside the pores, permanently blocking water migration. Unlike surface coatings that sit on top of the concrete and can be pushed off by hydrostatic pressure, crystalline treatment becomes part of the concrete and self-heals new hairline cracks when moisture is present. See our <Link href='/articles/crystalline-waterproofing' className='text-teal-600 underline hover:text-teal-800'>crystalline waterproofing guide</Link>.</p>
             </div>
             <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
-              <h4 className='font-bold text-slate-900 mb-1'>Vapor Barrier</h4>
-              <p className='text-slate-600'>A material installed to prevent moisture from passing through walls or floors into the living space.</p>
+              <h4 className='font-bold text-slate-900 mb-1'>Certificate of Occupancy (CO)</h4>
+              <p className='text-slate-600'>A document issued by the local building department after final inspection confirming that a finished space meets all applicable code requirements and is legally habitable. A basement ADU cannot be legally rented without a CO. Obtaining the CO requires passing all required inspections including framing, rough electrical, rough plumbing, insulation, and final completion.</p>
+            </div>
+            <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+              <h4 className='font-bold text-slate-900 mb-1'>Separate Entrance</h4>
+              <p className='text-slate-600'>An exterior door providing direct access to the ADU that does not require passing through the primary dwelling. Required or strongly recommended in most jurisdictions for a basement unit to qualify as a legal independent dwelling. Options include a walk-out door through a below-grade entry well, a side-of-house stairwell, or access through a garage with proper fire separation.</p>
             </div>
           </div>
         </div>
