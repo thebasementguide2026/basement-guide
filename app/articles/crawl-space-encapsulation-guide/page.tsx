@@ -21,34 +21,37 @@ export default function CrawlSpaceEncapsulationGuide() {
               {
                 '@type': 'Question',
                 name: 'What is crawl space encapsulation?',
-                acceptedAnswer: {
-                  '@type': 'Answer',
-                  text: 'Crawl space encapsulation is sealing up the space under your house with vapor barriers, insulation, and a dehumidifier to keep out moisture and improve your home.',
-                },
+                acceptedAnswer: { '@type': 'Answer', text: 'Crawl space encapsulation is the process of converting a vented crawl space into a conditioned, sealed space by installing a continuous vapor barrier on the floor and walls, closing foundation vents, insulating the perimeter walls and rim joists, and installing a dehumidifier to maintain controlled humidity. The goal is to eliminate the humid outside air that enters through foundation vents and causes wood rot, mold, floor sagging, and energy loss. Encapsulation treats the crawl space as part of the home\'s conditioned envelope rather than as an exterior space, which is the fundamental shift that makes it effective where traditional vented crawl spaces fail in humid climates.' },
               },
               {
                 '@type': 'Question',
                 name: 'How much does crawl space encapsulation cost?',
-                acceptedAnswer: {
-                  '@type': 'Answer',
-                  text: 'Around $5,500 on average, ranging from $1,500 to $15,000 depending on the size of the space and extras needed.',
-                },
+                acceptedAnswer: { '@type': 'Answer', text: 'A professionally installed encapsulation system costs $3,000 to $15,000 for a typical 800 to 1,200 square foot crawl space, with a national average around $5,500. Vapor barrier materials run $500 to $2,000, insulation adds $800 to $2,500, a quality dehumidifier costs $800 to $2,000, and labor runs $2,000 to $6,000 for a 2 to 5 day installation. If mold remediation is needed before encapsulation, add $1,000 to $5,000. DIY installation of materials only runs $1,500 to $3,000 but requires working in a tight confined space and getting every seal correct. Get at least three quotes from certified crawl space contractors and confirm what is included in each scope.' },
               },
               {
                 '@type': 'Question',
                 name: 'Is crawl space encapsulation worth it?',
-                acceptedAnswer: {
-                  '@type': 'Answer',
-                  text: 'Yes, if your crawl space is moist. It cuts energy costs up to 20 percent, prevents mold, and adds value to your home.',
-                },
+                acceptedAnswer: { '@type': 'Answer', text: 'For homes in humid climates or with any history of crawl space moisture, mold, musty odors, or floor sagging, yes. Encapsulation eliminates the source of those problems rather than treating symptoms. Energy savings of 10 to 20 percent on heating and cooling bills are common, representing $200 to $500 per year depending on your climate and home size. The system recoups 70 to 90 percent of its cost at resale and is a positive line item in home inspections. Homes with a vented crawl space in a humid climate are typically spending money on repeated repairs to flooring, joists, and HVAC systems that encapsulation would have prevented.' },
+              },
+              {
+                '@type': 'Question',
+                name: 'Does crawl space encapsulation require closing the foundation vents?',
+                acceptedAnswer: { '@type': 'Answer', text: 'Yes, closing foundation vents is a core part of encapsulation. Vented crawl spaces were standard practice for decades based on the theory that outside air would dry the space, but in humid climates the opposite happens: warm humid outside air enters the cooler crawl space, condenses on cool surfaces, and deposits moisture directly onto joists and the vapor barrier. Closing the vents and sealing the space eliminates this source of moisture entirely. Most modern building codes now permit or require unvented conditioned crawl spaces. Check with your local building department, as some older code jurisdictions still require vented designs.' },
+              },
+              {
+                '@type': 'Question',
+                name: 'What thickness vapor barrier do I need for crawl space encapsulation?',
+                acceptedAnswer: { '@type': 'Answer', text: 'A minimum of 10 mil polyethylene is required for a functional encapsulation system, with 12 to 20 mil recommended for durability in spaces where foot traffic or stored items may contact the barrier. Thicker barriers resist puncture from rocks, debris, and normal access activity. Reinforced barriers with scrim layers provide the best combination of thickness and tear resistance. Standard 6 mil poly sheeting used in basic moisture control is not adequate for a true encapsulation system. Products like Stego Wrap 15 mil are the contractor standard for full encapsulation. The barrier must cover the entire floor and run up the walls at least 6 inches, with all seams overlapped by 12 inches and sealed with compatible tape or sealant.' },
+              },
+              {
+                '@type': 'Question',
+                name: 'How long does crawl space encapsulation last?',
+                acceptedAnswer: { '@type': 'Answer', text: 'A properly installed encapsulation system lasts 20 to 30 years or more. The vapor barrier itself is rated for 25 years under normal conditions. The dehumidifier requires the most maintenance and typically lasts 8 to 12 years before motor replacement. The rigid foam insulation and vent covers are essentially permanent. Most professional installations include a 10 to 25 year warranty on the encapsulation work. Annual inspections to check for barrier tears, pest intrusion, and dehumidifier function are the primary ongoing maintenance requirement. A system that is inspected and maintained annually will consistently outperform its rated lifespan.' },
               },
               {
                 '@type': 'Question',
                 name: 'Can I encapsulate a crawl space myself?',
-                acceptedAnswer: {
-                  '@type': 'Answer',
-                  text: 'Simple encapsulation is possible DIY for $1,500-$3,000 in materials, but professional installation is recommended for tricky spaces and comes with warranties.',
-                },
+                acceptedAnswer: { '@type': 'Answer', text: 'DIY is possible for homeowners comfortable working in confined spaces who can execute every step correctly. The work involves thorough cleaning and debris removal, careful vapor barrier installation with properly sealed seams and wall coverage, vent sealing, rigid foam insulation on walls and rim joists, and dehumidifier installation with a drain line. The most common DIY failures are incomplete seam sealing, insufficient wall coverage, and missing air sealing at rim joists and penetrations. Any gap in the system allows moisture to enter. Professional installation at $3,000 to $8,000 in additional cost comes with a warranty and the experience to identify and seal every penetration correctly. DIY is appropriate for straightforward accessible spaces; call a professional for low-clearance, wet, or mold-affected crawl spaces.' },
               },
             ],
           }),
@@ -354,23 +357,66 @@ export default function CrawlSpaceEncapsulationGuide() {
               <div className='space-y-4'>
                 <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
                   <h3 className='font-bold text-slate-900 mb-2'>What is crawl space encapsulation?</h3>
-                  <p className='text-slate-700'>It is sealing up the space under your house with vapor barriers, insulation, and a dehumidifier to keep out dampness and improve your home&#39;s air quality and efficiency.</p>
+                  <p className='text-slate-700'>Crawl space encapsulation is the process of converting a vented crawl space into a conditioned, sealed space by installing a continuous vapor barrier on the floor and walls, closing foundation vents, insulating the perimeter walls and rim joists, and installing a dehumidifier to maintain controlled humidity. The goal is to eliminate the humid outside air that enters through foundation vents and causes wood rot, mold, floor sagging, and energy loss. Encapsulation treats the crawl space as part of the home&apos;s conditioned envelope rather than as an exterior space, which is the fundamental shift that makes it effective where traditional vented crawl spaces fail in humid climates.</p>
                 </div>
                 <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
                   <h3 className='font-bold text-slate-900 mb-2'>How much does crawl space encapsulation cost?</h3>
-                  <p className='text-slate-700'>Around $5,500 on average, from $1,500 to $15,000 depending on the size of your crawl space and extras like mold cleanup or sump pumps.</p>
+                  <p className='text-slate-700'>A professionally installed encapsulation system costs $3,000 to $15,000 for a typical 800 to 1,200 square foot crawl space, with a national average around $5,500. Vapor barrier materials run $500 to $2,000, insulation adds $800 to $2,500, a quality dehumidifier costs $800 to $2,000, and labor runs $2,000 to $6,000 for a 2 to 5 day installation. If mold remediation is needed before encapsulation, add $1,000 to $5,000. DIY installation of materials only runs $1,500 to $3,000 but requires working in a tight confined space and getting every seal correct. Get at least three quotes from certified crawl space contractors and confirm what is included in each scope.</p>
                 </div>
                 <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
                   <h3 className='font-bold text-slate-900 mb-2'>Is crawl space encapsulation worth it?</h3>
-                  <p className='text-slate-700'>Yes&#8212;if your crawl space is moist, it cuts energy costs up to 20 percent, stops mold, prevents <Link href='/articles/complete-basement-waterproofing-guide' className='text-indigo-600 underline hover:text-indigo-800'>structural damage</Link>, and adds value to your home.</p>
+                  <p className='text-slate-700'>For homes in humid climates or with any history of crawl space moisture, mold, musty odors, or floor sagging, yes. Encapsulation eliminates the source of those problems rather than treating symptoms. Energy savings of 10 to 20 percent on heating and cooling bills are common, representing $200 to $500 per year depending on your climate and home size. The system recoups 70 to 90 percent of its cost at resale and is a positive line item in home inspections. Homes with a vented crawl space in a humid climate are typically spending money on repeated repairs to flooring, joists, and HVAC systems that encapsulation would have prevented.</p>
+                </div>
+                <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
+                  <h3 className='font-bold text-slate-900 mb-2'>Does crawl space encapsulation require closing the foundation vents?</h3>
+                  <p className='text-slate-700'>Yes, closing foundation vents is a core part of encapsulation. Vented crawl spaces were standard practice for decades based on the theory that outside air would dry the space, but in humid climates the opposite happens: warm humid outside air enters the cooler crawl space, condenses on cool surfaces, and deposits moisture directly onto joists and the vapor barrier. Closing the vents and sealing the space eliminates this source of moisture entirely. Most modern building codes now permit or require unvented conditioned crawl spaces. Check with your local building department, as some older code jurisdictions still require vented designs.</p>
+                </div>
+                <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
+                  <h3 className='font-bold text-slate-900 mb-2'>What thickness vapor barrier do I need for crawl space encapsulation?</h3>
+                  <p className='text-slate-700'>A minimum of 10 mil polyethylene is required for a functional encapsulation system, with 12 to 20 mil recommended for durability in spaces where foot traffic or stored items may contact the barrier. Thicker barriers resist puncture from rocks, debris, and normal access activity. Reinforced barriers with scrim layers provide the best combination of thickness and tear resistance. Standard 6 mil poly sheeting used in basic moisture control is not adequate for a true encapsulation system. Products like Stego Wrap 15 mil are the contractor standard for full encapsulation. The barrier must cover the entire floor and run up the walls at least 6 inches, with all seams overlapped by 12 inches and sealed with compatible tape or sealant.</p>
+                </div>
+                <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
+                  <h3 className='font-bold text-slate-900 mb-2'>How long does crawl space encapsulation last?</h3>
+                  <p className='text-slate-700'>A properly installed encapsulation system lasts 20 to 30 years or more. The vapor barrier itself is rated for 25 years under normal conditions. The dehumidifier requires the most maintenance and typically lasts 8 to 12 years before motor replacement. The rigid foam insulation and vent covers are essentially permanent. Most professional installations include a 10 to 25 year warranty on the encapsulation work. Annual inspections to check for barrier tears, pest intrusion, and dehumidifier function are the primary ongoing maintenance requirement. A system that is inspected and maintained annually will consistently outperform its rated lifespan.</p>
                 </div>
                 <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
                   <h3 className='font-bold text-slate-900 mb-2'>Can I encapsulate a crawl space myself?</h3>
-                  <p className='text-slate-700'>Yes for simple installs. Clean it out, lay the barrier, seal vents, insulate, and add a dehumidifier. But professional installation is recommended for tricky spaces.</p>
+                  <p className='text-slate-700'>DIY is possible for homeowners comfortable working in confined spaces who can execute every step correctly. The work involves thorough cleaning and debris removal, careful vapor barrier installation with properly sealed seams and wall coverage, vent sealing, rigid foam insulation on walls and rim joists, and dehumidifier installation with a drain line. The most common DIY failures are incomplete seam sealing, insufficient wall coverage, and missing air sealing at rim joists and penetrations. Any gap in the system allows moisture to enter. Professional installation at $3,000 to $8,000 in additional cost comes with a warranty and the experience to identify and seal every penetration correctly. DIY is appropriate for straightforward accessible spaces; call a professional for low-clearance, wet, or mold-affected crawl spaces.</p>
+                </div>
+              </div>
+            </section>
+
+            {/* Glossary */}
+            <section>
+              <h2 className='text-3xl font-bold text-slate-900 mb-6'>Glossary of Crawl Space Encapsulation Terms</h2>
+              <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
+                <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
+                  <h4 className='font-bold text-slate-900 mb-1'>Vapor Barrier</h4>
+                  <p className='text-slate-600'>A polyethylene sheet installed on the crawl space floor and walls to block ground moisture from evaporating into the space. Rated by thickness in mils (thousandths of an inch). A minimum of 10 mil is required for encapsulation, with 12 to 20 mil recommended. Must cover the entire floor and extend up all walls with sealed overlapping seams to form a continuous moisture barrier.</p>
                 </div>
                 <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
-                  <h3 className='font-bold text-slate-900 mb-2'>Does crawl space encapsulation stop radon?</h3>
-                  <p className='text-slate-700'>It helps reduce radon levels, but you should test your levels and add dedicated venting if needed.</p>
+                  <h4 className='font-bold text-slate-900 mb-1'>Encapsulation</h4>
+                  <p className='text-slate-600'>A complete crawl space moisture control system that seals the space from ground moisture and outside air using a continuous vapor barrier, closed foundation vents, perimeter wall insulation, and a dehumidifier. Converts a vented crawl space into a conditioned space that is part of the home&apos;s thermal envelope. More comprehensive than a basic vapor barrier installation.</p>
+                </div>
+                <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
+                  <h4 className='font-bold text-slate-900 mb-1'>Rim Joist</h4>
+                  <p className='text-slate-600'>The horizontal board that sits on top of the foundation wall and closes off the ends of the floor joists. A primary air and moisture infiltration point in crawl spaces because it is at grade level and often poorly insulated or sealed. Insulating and air sealing rim joists with rigid foam or spray foam is a required component of effective crawl space encapsulation.</p>
+                </div>
+                <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
+                  <h4 className='font-bold text-slate-900 mb-1'>Stack Effect</h4>
+                  <p className='text-slate-600'>The natural movement of air through a building where warm air rises and exits through the upper floors and roof, drawing replacement air in from below through the crawl space, foundation vents, and any gaps in the floor assembly. In a vented crawl space, the stack effect pulls humid crawl space air directly into the living space above, distributing moisture, allergens, and radon throughout the home. Encapsulation breaks the stack effect at the crawl space level.</p>
+                </div>
+                <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
+                  <h4 className='font-bold text-slate-900 mb-1'>Conditioned Crawl Space</h4>
+                  <p className='text-slate-600'>A crawl space that has been sealed, insulated, and integrated into the home&apos;s thermal and moisture control envelope rather than being treated as an exterior vented space. Maintained at controlled temperature and humidity by the home&apos;s HVAC system or a dedicated dehumidifier. The end state of a properly executed encapsulation project.</p>
+                </div>
+                <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
+                  <h4 className='font-bold text-slate-900 mb-1'>Mil</h4>
+                  <p className='text-slate-600'>A unit of thickness equal to one thousandth of an inch, used to rate vapor barrier thickness. A 10 mil barrier is 0.010 inches thick. Thicker barriers resist puncture and abrasion better than thinner ones. Standard construction poly sheeting is typically 4 to 6 mil, which is insufficient for encapsulation. Encapsulation-grade barriers run 10 to 20 mil, with reinforced scrim-laminated products at the high end.</p>
+                </div>
+                <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
+                  <h4 className='font-bold text-slate-900 mb-1'>Foundation Vents</h4>
+                  <p className='text-slate-600'>Screened openings in the foundation wall of a vented crawl space designed to allow outside air to circulate through the space. Standard practice in residential construction through most of the 20th century. Now understood to worsen moisture problems in humid climates by introducing warm humid air that condenses on cool crawl space surfaces. Closed and sealed as part of encapsulation.</p>
                 </div>
               </div>
             </section>
