@@ -56,6 +56,9 @@ export default function BackupPowerSumpPumps() {
 
         {/* Introduction */}
         <p className='text-lg text-slate-700 leading-relaxed mb-8'>
+          Backup power for sump pumps refers to any power source that keeps a sump pump running when the primary electrical supply fails, covering the four main options: dedicated battery backup sump pumps, portable power stations, portable inverter generators, and permanently installed standby generators. Each option differs in cost, runtime, automatic activation capability, maintenance requirements, and whether it can power other devices beyond the pump itself. Choosing the wrong option is common because homeowners focus on price rather than the combination of surge watt capacity and runtime their specific pump and outage risk require. A sump pump that cannot start due to insufficient surge capacity is as useless as no backup at all, which is why matching the backup&rsquo;s surge rating to the pump&rsquo;s starting wattage is the most important specification to verify before purchasing.
+        </p>
+        <p className='text-lg text-slate-700 leading-relaxed mb-8'>
           Your sump pump is most likely to fail at the exact moment you need it most&mdash;during a heavy storm that knocks out power. Without backup power, your pump sits idle while water rises. According to FEMA, just one inch of flooding can cause $25,000 in damage. This guide covers every backup power option for your sump pump, from $200 portable power stations to $10,000 whole-house generators, with honest recommendations on what&rsquo;s actually worth buying.
         </p>
 
