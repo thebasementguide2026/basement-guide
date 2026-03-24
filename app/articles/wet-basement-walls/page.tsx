@@ -14,6 +14,11 @@ const faqSchema = {
   mainEntity: [
     {
       '@type': 'Question',
+      name: 'What is the foil test and how do I do it?',
+      acceptedAnswer: { '@type': 'Answer', text: 'The foil test is a simple diagnostic that determines whether basement wall moisture is coming through the wall from outside (seepage) or forming on the wall surface from humid indoor air (condensation). Tape a 12-inch square of aluminum foil flat against the wet area of the wall, pressing all edges tight so no air can get behind it, and leave it for 24 to 48 hours. If the outside face of the foil (room side) is wet when you remove it, the moisture is condensation from indoor air hitting the cool wall surface, and a dehumidifier is the fix. If the inside face (wall side) is wet, water is migrating through the wall from the soil side, and waterproofing is needed. If both sides are wet, you have both problems. This test saves homeowners from spending thousands on waterproofing when a $300 dehumidifier would have solved the problem, and from buying a dehumidifier when they have a genuine water intrusion issue that requires drainage.' },
+    },
+    {
+      '@type': 'Question',
       name: 'Why are my basement walls wet when it has not rained?',
       acceptedAnswer: { '@type': 'Answer', text: 'Two common causes: condensation (humid indoor air meeting cool walls) and a high water table pushing moisture through the concrete via vapor diffusion. Do the foil test to determine which one. Condensation is solved with a dehumidifier. Vapor diffusion requires a vapor barrier or waterproofing treatment.' },
     },
@@ -382,20 +387,48 @@ export default function WetBasementWalls() {
 
         {/* Glossary */}
         <h2 className='mt-12 text-3xl font-bold text-gray-900'>Glossary</h2>
-        <dl className='mt-4 space-y-4'>
-          <div><dt className='font-bold text-gray-800'>Hydrostatic pressure.</dt><dd className='text-gray-700'>The force exerted by water in saturated soil against the basement wall and floor. Increases with depth and soil saturation. The primary cause of water entry through cove joints and cracks.</dd></div>
-          <div><dt className='font-bold text-gray-800'>Cove joint.</dt><dd className='text-gray-700'>The junction where the basement wall meets the floor slab. In poured concrete construction, the wall and footing are separate pours, creating a natural cold joint that is not watertight. The most common water entry point in basements.</dd></div>
-          <div><dt className='font-bold text-gray-800'>Efflorescence.</dt><dd className='text-gray-700'>White powdery or crystalline mineral deposits on concrete or masonry surfaces. Caused by water dissolving calcium and other salts in the concrete and depositing them on the surface as it evaporates. Cosmetic but indicates moisture movement.</dd></div>
-          <div><dt className='font-bold text-gray-800'>Vapor diffusion.</dt><dd className='text-gray-700'>The slow migration of water vapor through porous materials like concrete from the high-moisture side (soil) to the low-moisture side (interior). Produces uniformly damp walls without visible water flow.</dd></div>
-          <div><dt className='font-bold text-gray-800'>French drain (interior).</dt><dd className='text-gray-700'>A perforated drain pipe installed in a gravel-filled trench along the interior perimeter of the basement floor. Intercepts water at the cove joint and channels it to a sump pump for removal.</dd></div>
-          <div><dt className='font-bold text-gray-800'>Vapor barrier.</dt><dd className='text-gray-700'>A sheet of polyethylene or similar material attached to basement walls to block water vapor from reaching the interior. Typically 6&ndash;20 mil thickness. Often installed with a drainage mat behind it.</dd></div>
-          <div><dt className='font-bold text-gray-800'>Hydraulic cement.</dt><dd className='text-gray-700'>A fast-setting cement that expands as it cures, used to patch active leaks in concrete. Effective for small holes and minor cracks but not a long-term solution for structural cracks or persistent water pressure.</dd></div>
-          <div><dt className='font-bold text-gray-800'>Crack injection.</dt><dd className='text-gray-700'>A repair method where polyurethane or epoxy resin is injected into a wall crack under pressure, filling the crack through the full thickness of the wall. The standard professional repair for non-structural cracks in poured concrete walls.</dd></div>
-        </dl>
+        <div className='mt-4 grid grid-cols-1 md:grid-cols-2 gap-6'>
+          <div className='rounded-xl border border-gray-200 p-6'>
+            <h4 className='font-bold text-gray-900 mb-1'>Hydrostatic Pressure</h4>
+            <p className='text-gray-600'>The force exerted by water in saturated soil against a basement wall and floor slab. Increases with soil saturation depth and proximity to the water table. The primary driver of water entry through cove joints, wall cracks, and porous concrete. Cannot be stopped by surface sealing alone &mdash; requires drainage to relieve the pressure before it reaches the wall.</p>
+          </div>
+          <div className='rounded-xl border border-gray-200 p-6'>
+            <h4 className='font-bold text-gray-900 mb-1'>Cove Joint</h4>
+            <p className='text-gray-600'>The junction where the basement wall sits on the footing, formed as a cold joint between two separate concrete pours. Never fully watertight by design. The single most common water entry point in poured concrete basements because hydrostatic pressure channels groundwater upward along this perimeter gap. Cannot be permanently sealed from inside with caulk or hydraulic cement &mdash; requires an interior drainage system to intercept water at this point.</p>
+          </div>
+          <div className='rounded-xl border border-gray-200 p-6'>
+            <h4 className='font-bold text-gray-900 mb-1'>Efflorescence</h4>
+            <p className='text-gray-600'>White, powdery, or crystalline mineral deposits on concrete or masonry surfaces caused by water dissolving calcium and other salts inside the concrete and depositing them on the surface as it evaporates. Not mold and not structurally harmful, but reliable evidence that water is actively migrating through the wall. Must be removed mechanically before applying any sealer or paint. See our <Link href='/articles/basement-efflorescence' className='text-teal-600 underline'>efflorescence guide</Link>.</p>
+          </div>
+          <div className='rounded-xl border border-gray-200 p-6'>
+            <h4 className='font-bold text-gray-900 mb-1'>Vapor Diffusion</h4>
+            <p className='text-gray-600'>The slow migration of water vapor through porous materials like concrete from the high-moisture side (soil) to the low-moisture side (interior), driven by vapor pressure differential rather than liquid water movement. Produces walls that feel uniformly damp without visible cracks or water flow. Addressed with penetrating sealers, crystalline waterproofing, or a vapor barrier with drainage mat rather than crack injection or a French drain.</p>
+          </div>
+          <div className='rounded-xl border border-gray-200 p-6'>
+            <h4 className='font-bold text-gray-900 mb-1'>French Drain (Interior)</h4>
+            <p className='text-gray-600'>A perforated drain pipe installed in a gravel-filled trench cut along the interior perimeter of the basement floor. Intercepts water entering at the cove joint and through the lower wall before it reaches the living space, channeling it to a sump pump pit. The standard professional solution for persistent cove joint seepage and high water table conditions. Costs $3,000 to $10,000 for a full perimeter installation. See our <Link href='/articles/french-drain-cost' className='text-teal-600 underline'>French drain cost guide</Link>.</p>
+          </div>
+          <div className='rounded-xl border border-gray-200 p-6'>
+            <h4 className='font-bold text-gray-900 mb-1'>Vapor Barrier</h4>
+            <p className='text-gray-600'>A polyethylene sheet, typically 6 to 20 mil thickness, attached to basement walls to block water vapor from reaching interior surfaces and building materials. Often installed with a drainage mat behind it that channels any water coming through the wall downward to the perimeter drain rather than letting it wet the wall surface. See our <Link href='/articles/best-vapor-barriers' className='text-teal-600 underline'>best vapor barriers guide</Link>.</p>
+          </div>
+          <div className='rounded-xl border border-gray-200 p-6'>
+            <h4 className='font-bold text-gray-900 mb-1'>Hydraulic Cement</h4>
+            <p className='text-gray-600'>A fast-setting cement compound that expands slightly as it cures, used to plug active drips and small holes in concrete walls. Effective for stopping visible water flow at a specific point as a temporary measure. Not a long-term solution for structural cracks, persistent hydrostatic pressure, or cove joint seepage, as the pressure will eventually find another path or push the patch out.</p>
+          </div>
+          <div className='rounded-xl border border-gray-200 p-6'>
+            <h4 className='font-bold text-gray-900 mb-1'>Crack Injection</h4>
+            <p className='text-gray-600'>A professional repair method where two-part polyurethane foam or epoxy resin is injected into a wall crack under low pressure through a series of ports set at intervals along the crack. Fills the crack through the full thickness of the wall, blocking water infiltration. Epoxy restores structural strength and requires a dry surface. Polyurethane foam expands to fill irregular voids and works on wet or actively seeping cracks. The standard repair for non-structural cracks in poured concrete walls. See our <Link href='/articles/foundation-crack-repair-cost' className='text-teal-600 underline'>foundation crack repair cost guide</Link>.</p>
+          </div>
+        </div>
 
         {/* FAQ */}
         <h2 className='mt-12 text-3xl font-bold text-gray-900'>Frequently Asked Questions</h2>
         <div className='mt-6 space-y-6'>
+          <div>
+            <h3 className='text-xl font-bold text-gray-800'>What is the foil test and how do I do it?</h3>
+            <p className='mt-2 text-gray-700'>The foil test is a simple diagnostic that determines whether basement wall moisture is coming through the wall from outside (seepage) or forming on the wall surface from humid indoor air (condensation). Tape a 12-inch square of aluminum foil flat against the wet area of the wall, pressing all edges tight so no air can get behind it, and leave it for 24 to 48 hours. If the outside face of the foil (room side) is wet when you remove it, the moisture is condensation from indoor air hitting the cool wall surface, and a dehumidifier is the fix. If the inside face (wall side) is wet, water is migrating through the wall from the soil side, and waterproofing is needed. If both sides are wet, you have both problems. This test saves homeowners from spending thousands on waterproofing when a $300 dehumidifier would have solved the problem, and from buying a dehumidifier when they have a genuine water intrusion issue that requires drainage.</p>
+          </div>
           <div>
             <h3 className='text-xl font-bold text-gray-800'>Why are my basement walls wet when it has not rained?</h3>
             <p className='mt-2 text-gray-700'>Two common causes: condensation (humid indoor air meeting cool walls) and a high water table pushing moisture through the concrete via vapor diffusion. Do the foil test to determine which one. Condensation is solved with a dehumidifier. Vapor diffusion requires a vapor barrier or waterproofing treatment.</p>
