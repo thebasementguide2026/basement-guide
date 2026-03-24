@@ -3,6 +3,69 @@ import Image from 'next/image';
 import LeadForm from '@/components/LeadForm';
 import type { Metadata } from 'next';
 
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'How long does crystalline waterproofing last?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Properly applied crystalline waterproofing is considered permanent. Because the crystals form inside the concrete matrix rather than on the surface, they cannot peel, crack, delaminate, or wear off. The active chemicals remain in the concrete indefinitely and reactivate whenever moisture is present to trigger new crystal growth.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'Can crystalline waterproofing be applied to an existing basement?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Yes, through topical slurry application. The slurry is brushed or sprayed onto clean, prepared concrete surfaces and penetrates several inches into the wall. The surface must be free of paint, sealers, efflorescence, and contamination. The wall should be damp but not actively streaming water during application.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'Is crystalline waterproofing better than Drylok or other paint sealers?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'For long-term effectiveness on porous poured concrete walls, yes. Paint sealers sit on the concrete surface and physically block pores with a coating that eventually degrades, cracks under hydrostatic pressure, or peels. Crystalline treatment penetrates the concrete and grows crystals that are bonded to the material permanently. For minor dampness, a quality paint sealer is a reasonable budget option. For a basement being finished or a wall with consistent seepage, crystalline treatment is the more durable choice.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'Does crystalline waterproofing work on block foundations?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Not as effectively as on poured concrete. Block foundations have hollow cores that allow water to travel through the block cavities regardless of how well the block material itself is treated. Block basement walls typically require interior drainage solutions rather than wall treatment as the primary waterproofing approach.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'What brands of crystalline waterproofing are most commonly used?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Xypex and Kryton (KIM — Kryton Integral Method) are the two dominant commercial crystalline waterproofing brands. Sika and BASF also produce crystalline admixture products. For DIY topical applications, RadonSeal Deep-Penetrating Concrete Sealer uses a similar silicate-based chemistry and is widely available at home improvement stores.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'How does crystalline waterproofing handle new cracks that form after application?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'When a new hairline crack forms in treated concrete and water contacts the crack, the dormant chemicals in the surrounding concrete reactivate and grow new crystals that fill the crack from the inside. This self-healing mechanism is effective on cracks up to approximately 0.5 millimeters wide. Larger cracks require mechanical repair with epoxy or polyurethane injection.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'Can I apply crystalline waterproofing myself?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Topical slurry products are available for DIY application and can be effective when surface preparation is done correctly. The wall must be clean, free of paint and sealers, and mechanically opened so the product can penetrate. DIY material costs run $1 to $3 per square foot. Professional application at $3 to $8 per square foot includes surface preparation, which is the step most DIY applications get wrong.'
+      }
+    }
+  ]
+};
+
 export const metadata: Metadata = {
   title: 'What is Crystalline Waterproofing? Self-Healing Concrete Technology 2026',
   description: 'Discover how crystalline waterproofing creates self-healing concrete foundations that repair cracks automatically. The future of waterproofing technology explained.',
@@ -32,7 +95,7 @@ export default function CrystallineWaterproofing() {
             <span className='text-cyan-400'>Waterproofing 2026</span>
           </h1>
           <p className='text-xl text-slate-300 max-w-2xl leading-relaxed'>
-            What it is, how it works, and whether it's right for your basement. The complete guide to self-healing concrete technology.
+            What it is, how it works, and whether it&apos;s right for your basement. The complete guide to self-healing concrete technology.
           </p>
           <div className='flex items-center space-x-4 mt-8'>
             <div className='w-10 h-10 rounded-full bg-cyan-500 flex items-center justify-center text-white font-bold text-sm'>BG</div>
@@ -46,303 +109,312 @@ export default function CrystallineWaterproofing() {
 
       {/* Main Content */}
       <article className='max-w-4xl mx-auto px-6 py-16'>
-
-        {/* Introduction */}
         <div className='prose prose-lg max-w-none'>
-          <p className='text-xl text-slate-700 leading-relaxed mb-6'>
-            Crystalline waterproofing is a technology that turns concrete itself into a water barrier &mdash; not by coating the surface, but by growing microscopic crystals inside the concrete&apos;s pores that block water from passing through.
+
+          {/* Entity Definition */}
+          <p className='text-lg text-slate-700 leading-relaxed mb-8'>
+            Crystalline waterproofing is a chemical treatment for concrete and masonry that penetrates the concrete matrix and grows insoluble crystalline structures inside the capillary pores and micro-cracks, permanently blocking water migration through the material rather than simply coating the surface. Unlike barrier-based waterproofing methods such as membrane sheets, tar coatings, or paint sealers that sit on top of the concrete and eventually crack, peel, or degrade, crystalline treatment becomes part of the concrete itself and cannot be separated from it. The crystals remain chemically dormant when dry and reactivate in the presence of moisture, allowing the material to self-seal new hairline cracks up to approximately 0.5 millimeters wide without any additional application. Crystalline waterproofing is used as an admixture in new concrete pours, as a topical slurry on existing foundation walls, and as a dry-shake treatment on fresh floor slabs, making it applicable to both new construction and existing basement retrofits.
           </p>
+
+          {/* Intro */}
+          <p className='text-lg text-slate-700 leading-relaxed mb-8'>
+            For as long as humans have built with concrete, they have fought a losing battle against water. Concrete is naturally porous, filled with millions of microscopic capillary tunnels that act like a hard sponge. Over time, water seeps through these pores, leading to gradual rebar corrosion, efflorescence, and the chronic dampness that plagues so many basements. Traditional barrier methods &mdash; plastic sheets, tar coatings, paint sealers &mdash; sit on the surface and eventually fail. Crystalline waterproofing solves the problem from the inside out.
+          </p>
+
+          {/* The Science */}
+          <h2 className='text-3xl font-black text-slate-900 mt-16 mb-6'>The Science: How Crystalline Waterproofing Works</h2>
+
           <p className='text-slate-600 leading-relaxed mb-6'>
-            It&apos;s been used in commercial construction for decades &mdash; tunnels, water treatment plants, parking garages &mdash; but it&apos;s increasingly showing up in residential basement work, and for good reason. This guide explains how the science actually works, covers the three ways it&apos;s applied, compares it honestly to traditional <Link href='/articles/complete-basement-waterproofing-guide' className='text-cyan-600 underline hover:text-cyan-700'>waterproofing methods</Link>, breaks down costs, and helps you figure out whether it makes sense for your specific situation.
+            Crystalline waterproofing consists of proprietary active chemicals &mdash; typically a blend of portland cement, silica sand, and reactive chemical compounds &mdash; delivered either as an admixture mixed into fresh concrete or a topical slurry brushed onto an existing wall. When these chemicals contact moisture and un-hydrated cement particles inside the concrete matrix, they trigger a chemical reaction that grows long, needle-like insoluble crystals that fill and seal the capillary pores and micro-cracks from within.
           </p>
-        </div>
 
-        {/* How Does It Work */}
-        <h2 className='text-3xl font-black text-slate-900 mt-16 mb-6'>How Does Crystalline Waterproofing Work?</h2>
-        <div className='prose prose-lg max-w-none'>
           <p className='text-slate-600 leading-relaxed mb-6'>
-            Concrete looks solid, but at the microscopic level it&apos;s full of tiny interconnected tunnels &mdash; capillary pores, micro-cracks, and voids left over from the cement hydration process. These pathways are how water gets through your foundation walls, even when there are no visible <Link href='/articles/types-of-foundation-cracks' className='text-cyan-600 underline hover:text-cyan-700'>cracks</Link>.
+            The crystals are not a coating. They grow through the full depth of the concrete, bonding permanently to the material. When the concrete is dry, the crystals lie dormant. When water contacts the treated concrete again &mdash; through a new hairline crack or previously unsealed pore &mdash; the crystallization process reactivates and new crystals form to seal the opening. This self-healing behavior is the defining characteristic that separates crystalline technology from every other waterproofing method.
           </p>
+
+          <h3 className='text-2xl font-bold text-slate-900 mt-10 mb-4'>Limitations to Understand</h3>
+
           <p className='text-slate-600 leading-relaxed mb-6'>
-            Crystalline waterproofing uses proprietary chemical compounds &mdash; typically a blend of Portland cement, fine silica sand, and active chemicals &mdash; that react with two things already present in concrete: moisture and calcium hydroxide (a natural byproduct of cement curing, also called free lime).
+            Crystalline waterproofing is not a complete waterproofing system on its own in most basement situations. Key limitations:
           </p>
+
+          <div className='space-y-4 my-8 not-prose'>
+            <div className='bg-slate-50 border border-slate-100 rounded-2xl p-6'>
+              <p className='font-bold text-slate-900 mb-2'>Crack size limit</p>
+              <p className='text-slate-600 leading-relaxed'>Self-healing is effective on hairline cracks up to approximately 0.5mm. Larger cracks, displaced cracks, or structural cracks require mechanical repair (epoxy or polyurethane injection) before or alongside crystalline treatment. See our <a href='/articles/foundation-crack-repair-cost' className='text-cyan-600 underline hover:text-cyan-700'>foundation crack repair cost guide</a>.</p>
+            </div>
+            <div className='bg-slate-50 border border-slate-100 rounded-2xl p-6'>
+              <p className='font-bold text-slate-900 mb-2'>Not a drainage substitute</p>
+              <p className='text-slate-600 leading-relaxed'>Crystalline treatment reduces water migration through the concrete wall itself but does not address hydrostatic pressure from groundwater accumulation. Homes with high water tables or chronic water intrusion still need a <a href='/articles/french-drain-vs-sump-pump' className='text-cyan-600 underline hover:text-cyan-700'>perimeter drainage system and sump pump</a> in addition to crystalline treatment.</p>
+            </div>
+            <div className='bg-slate-50 border border-slate-100 rounded-2xl p-6'>
+              <p className='font-bold text-slate-900 mb-2'>Surface preparation required</p>
+              <p className='text-slate-600 leading-relaxed'>Topical applications require a clean, open-pore concrete surface. Painted walls, sealed surfaces, or walls with existing coatings must be mechanically prepared before treatment.</p>
+            </div>
+            <div className='bg-slate-50 border border-slate-100 rounded-2xl p-6'>
+              <p className='font-bold text-slate-900 mb-2'>Block foundations</p>
+              <p className='text-slate-600 leading-relaxed'>Crystalline treatment is less effective on hollow concrete block walls because water can travel through the hollow cores rather than through the block material itself. Block walls typically require interior drainage solutions.</p>
+            </div>
+          </div>
+
+          {/* Three Application Methods */}
+          <h2 className='text-3xl font-black text-slate-900 mt-16 mb-6'>The Three Application Methods</h2>
+
+          <h3 className='text-2xl font-bold text-slate-900 mt-10 mb-4'>Integral Admixture</h3>
           <p className='text-slate-600 leading-relaxed mb-6'>
-            When these three ingredients meet inside the concrete matrix, they trigger the growth of needle-like, insoluble calcium silicate hydrate crystals. These crystals grow into and fill the capillary pores, micro-cracks, and voids &mdash; physically blocking the pathways that water would normally travel through. The concrete itself becomes the water barrier, rather than relying on a membrane or coating stuck to the surface.
+            The admixture method adds crystalline chemicals directly to the concrete mix at the batch plant or in the truck before pouring. The entire foundation wall or slab becomes waterproof from core to surface. This is the gold standard for new construction &mdash; every cubic inch of concrete is treated uniformly with no surface prep required and no possibility of delamination. Admixture treatment adds approximately $0.50 to $1.50 per square foot to new foundation costs and is specified by structural engineers on commercial and high-end residential projects as a standard waterproofing measure.
           </p>
+
+          <h3 className='text-2xl font-bold text-slate-900 mt-10 mb-4'>Topical Slurry</h3>
+          <p className='text-slate-600 leading-relaxed mb-6'>
+            The topical method applies a thick slurry of crystalline compound to an existing concrete wall using a brush, roller, or spray. It penetrates several inches into the concrete matrix and forms crystals throughout the treated depth. This is the standard retrofit method for existing basements and the most common application for homeowners upgrading a basement&apos;s moisture resistance before finishing. Topical application costs $3 to $8 per square foot installed by a professional, or $1 to $3 per square foot in materials for DIY application on properly prepared surfaces.
+          </p>
+
+          <h3 className='text-2xl font-bold text-slate-900 mt-10 mb-4'>Dry Shake</h3>
+          <p className='text-slate-600 leading-relaxed mb-6'>
+            Dry shake application spreads crystalline powder onto a freshly poured concrete slab before final finishing. The powder is worked into the top layer of concrete as it is finished, creating a dense, waterproof surface layer. Used primarily for garage floors, basement floor slabs, and commercial concrete flatwork where surface durability and moisture resistance are both priorities.
+          </p>
+
+          {/* Comparison Table */}
+          <h2 className='text-3xl font-black text-slate-900 mt-16 mb-6'>Crystalline vs. Traditional Waterproofing Methods</h2>
         </div>
 
-        {/* Self-Healing Section */}
-        <div className='bg-cyan-50 border-l-4 border-cyan-500 p-6 rounded-r-lg my-10'>
-          <h3 className='text-xl font-bold text-slate-900 mb-3'>The Self-Healing Mechanism</h3>
-          <p className='text-slate-600 leading-relaxed'>
-            Here&apos;s what makes this technology genuinely different: the chemical reaction is activated by water. The active chemicals remain dormant inside the concrete when conditions are dry. But if a new hairline crack forms five, ten, or twenty years later and water starts seeping in, the moisture reactivates the chemicals. New crystals grow and seal the crack from the inside &mdash; without any human intervention. This is why it&apos;s often called &ldquo;self-healing concrete technology.&rdquo;
-          </p>
-          <p className='text-slate-600 leading-relaxed mt-4'>
-            The self-healing capability has a limit. Most crystalline systems can seal cracks up to approximately 0.4 to 0.5 millimeters wide (about the width of five sheets of paper). Anything wider &mdash; a structural crack, for instance &mdash; still needs <Link href='/articles/foundation-crack-repair-cost' className='text-cyan-600 underline hover:text-cyan-700'>traditional repair</Link>. But for the hairline cracks that develop naturally as concrete cures, settles, and responds to temperature cycles, crystalline technology handles them automatically.
-          </p>
-        </div>
-
-        {/* Diagram Image */}
-        <div className='my-12'>
-          <Image
-            src='/images/crystalline waterproofing2.jpg'
-            alt='Diagram showing how crystalline waterproofing works inside concrete pores'
-            width={900}
-            height={500}
-            className='rounded-xl shadow-lg w-full h-auto'
-          />
-          <p className='text-sm text-slate-500 mt-3 text-center italic'>How crystalline waterproofing seals concrete pores and self-heals hairline cracks</p>
-        </div>
-
-        {/* Three Application Methods */}
-        <h2 className='text-3xl font-black text-slate-900 mt-16 mb-6'>The Three Application Methods</h2>
-        <p className='text-slate-600 leading-relaxed mb-8'>
-          Crystalline waterproofing isn&apos;t a single product &mdash; it&apos;s a technology that can be delivered in three different ways depending on whether you&apos;re building new or retrofitting an existing structure.
-        </p>
-
-        <div className='grid md:grid-cols-3 gap-6 mb-12'>
-          {/* Admixture */}
-          <div className='bg-slate-50 rounded-xl p-6 border border-slate-200'>
-            <div className='w-12 h-12 bg-cyan-100 rounded-lg flex items-center justify-center mb-4'>
-              <span className='text-cyan-600 font-bold text-xl'>1</span>
-            </div>
-            <h3 className='text-lg font-bold text-slate-900 mb-2'>Integral Admixture</h3>
-            <p className='text-sm font-semibold text-cyan-600 mb-3'>New Construction</p>
-            <p className='text-slate-600 text-sm leading-relaxed mb-3'>
-              The crystalline chemicals are added directly to the concrete mix at the batching plant or in the ready-mix truck on site. The dosage is typically around 2% of the cement weight. Once poured and cured, the entire foundation contains the active chemicals throughout its full thickness.
-            </p>
-            <p className='text-slate-600 text-sm leading-relaxed mb-3'>
-              This is the most effective application because the chemicals are uniformly distributed. It&apos;s standard practice for commercial below-grade construction and increasingly specified for high-end residential foundations.
-            </p>
-            <p className='text-sm text-slate-500'><strong>Best for:</strong> New home construction, foundation replacement, any project where concrete is being poured fresh.</p>
-            <div className='mt-4 bg-cyan-50 rounded-lg p-3'>
-              <p className='text-sm font-semibold text-cyan-700'>Cost: $2&ndash;$4/sq ft added to the concrete cost</p>
-            </div>
-          </div>
-
-          {/* Topical Slurry */}
-          <div className='bg-slate-50 rounded-xl p-6 border border-slate-200'>
-            <div className='w-12 h-12 bg-cyan-100 rounded-lg flex items-center justify-center mb-4'>
-              <span className='text-cyan-600 font-bold text-xl'>2</span>
-            </div>
-            <h3 className='text-lg font-bold text-slate-900 mb-2'>Topical Coating (Slurry)</h3>
-            <p className='text-sm font-semibold text-cyan-600 mb-3'>Existing Structures</p>
-            <p className='text-slate-600 text-sm leading-relaxed mb-3'>
-              For basements that already exist, the crystalline chemicals are mixed with water into a slurry and applied directly to the concrete surface. The active chemicals then migrate inward through the concrete&apos;s capillary network, typically penetrating several inches deep over time.
-            </p>
-            <p className='text-slate-600 text-sm leading-relaxed mb-3'>
-              The surface needs to be clean, bare concrete &mdash; free of paint, sealers, or coatings. Works on both the positive (exterior) and negative (interior) side of the wall.
-            </p>
-            <p className='text-sm text-slate-500'><strong>Best for:</strong> Retrofitting existing basement walls, <Link href='/articles/pre-finish-audit' className='text-cyan-600 underline hover:text-cyan-700'>pre-finish renovations</Link>.</p>
-            <div className='mt-4 bg-cyan-50 rounded-lg p-3'>
-              <p className='text-sm font-semibold text-cyan-700'>Cost: $3&ndash;$7/sq ft for materials and professional application</p>
-            </div>
-          </div>
-
-          {/* Dry Shake */}
-          <div className='bg-slate-50 rounded-xl p-6 border border-slate-200'>
-            <div className='w-12 h-12 bg-cyan-100 rounded-lg flex items-center justify-center mb-4'>
-              <span className='text-cyan-600 font-bold text-xl'>3</span>
-            </div>
-            <h3 className='text-lg font-bold text-slate-900 mb-2'>Dry Shake</h3>
-            <p className='text-sm font-semibold text-cyan-600 mb-3'>Fresh Slabs</p>
-            <p className='text-slate-600 text-sm leading-relaxed mb-3'>
-              The crystalline powder is broadcast (sprinkled) onto a freshly poured concrete slab and then troweled into the surface during finishing. Primarily used for <Link href='/articles/best-basement-flooring' className='text-cyan-600 underline hover:text-cyan-700'>floor slabs</Link> where a dense, waterproof surface is needed.
-            </p>
-            <p className='text-sm text-slate-500'><strong>Best for:</strong> New basement floor slabs, garage floors, any horizontal pour.</p>
-            <div className='mt-4 bg-cyan-50 rounded-lg p-3'>
-              <p className='text-sm font-semibold text-cyan-700'>Cost: $1&ndash;$3/sq ft as part of the finishing process</p>
-            </div>
-          </div>
-        </div>
-
-        {/* Comparisons Section */}
-        <h2 className='text-3xl font-black text-slate-900 mt-16 mb-6'>Crystalline Waterproofing vs. Traditional Methods</h2>
-        <p className='text-slate-600 leading-relaxed mb-8'>
-          Every waterproofing method has tradeoffs. Here&apos;s how crystalline technology compares to the approaches most homeowners encounter.
-        </p>
-
-        {/* vs Exterior Membranes */}
-        <div className='bg-slate-50 rounded-xl p-8 mb-6 border border-slate-200'>
-          <h3 className='text-xl font-bold text-slate-900 mb-4'>vs. Exterior Membranes (Tar/Bitumen, Sheet Membranes)</h3>
-          <p className='text-slate-600 leading-relaxed mb-4'>
-            Traditional <Link href='/articles/interior-vs-exterior-waterproofing' className='text-cyan-600 underline hover:text-cyan-700'>exterior waterproofing</Link> involves excavating around the foundation and applying a membrane to the outside of the wall. This is effective, proven technology. But it has weaknesses &mdash; membranes can be punctured during backfilling, they degrade over time (especially in freeze-thaw climates), they can&apos;t self-heal if damaged, and they&apos;re expensive because of the excavation required.
-          </p>
-          <p className='text-slate-600 leading-relaxed mb-4'>
-            Crystalline technology doesn&apos;t require excavation, can&apos;t be punctured (it&apos;s inside the concrete), doesn&apos;t degrade with age, and self-heals hairline cracks. However, it can&apos;t bridge large gaps, joints, or structural cracks the way a flexible membrane can.
-          </p>
-          <div className='bg-cyan-50 border border-cyan-200 rounded-lg p-4'>
-            <p className='text-sm text-cyan-800'><strong>Honest take:</strong> For new construction, a crystalline admixture is arguably superior to an exterior membrane for the concrete itself, though most builders still use a membrane at construction joints and pipe penetrations as a belt-and-suspenders approach. For existing homes, a topical crystalline treatment is a strong option for walls with diffuse moisture and hairline cracking, but won&apos;t solve water entry through large cracks or failed joints.</p>
-          </div>
-        </div>
-
-        {/* vs Interior Sealants */}
-        <div className='bg-slate-50 rounded-xl p-8 mb-6 border border-slate-200'>
-          <h3 className='text-xl font-bold text-slate-900 mb-4'>vs. Interior Sealant Paints (<Link href='/articles/drylok-vs-radonseal' className='text-cyan-600 underline hover:text-cyan-700'>Drylok, RadonSeal</Link>, etc.)</h3>
-          <p className='text-slate-600 leading-relaxed mb-4'>
-            Interior sealant paints sit on the surface or penetrate the top fraction of an inch. They can reduce <Link href='/articles/basement-efflorescence' className='text-cyan-600 underline hover:text-cyan-700'>dampness and efflorescence</Link>, but they don&apos;t transform the concrete&apos;s internal structure. Under significant hydrostatic pressure, surface coatings can peel, bubble, or simply be overwhelmed.
-          </p>
-          <p className='text-slate-600 leading-relaxed mb-4'>
-            Crystalline treatments penetrate deeper and create a permanent internal barrier. They also self-heal, which sealant paints cannot do. The tradeoff: crystalline slurries require clean, bare concrete (you can&apos;t apply them over painted surfaces), and they cost more.
-          </p>
-          <div className='bg-cyan-50 border border-cyan-200 rounded-lg p-4'>
-            <p className='text-sm text-cyan-800'><strong>Honest take:</strong> For minor dampness, Drylok or RadonSeal may be sufficient and cheaper. For real water intrusion or hydrostatic pressure, crystalline is in a different league.</p>
-          </div>
-        </div>
-
-        {/* vs Drainage Systems */}
-        <div className='bg-slate-50 rounded-xl p-8 mb-6 border border-slate-200'>
-          <h3 className='text-xl font-bold text-slate-900 mb-4'>vs. Interior Drainage Systems (<Link href='/articles/french-drain-vs-sump-pump' className='text-cyan-600 underline hover:text-cyan-700'>French Drains + Sump Pump</Link>)</h3>
-          <p className='text-slate-600 leading-relaxed mb-4'>
-            Interior <Link href='/articles/french-drain-cost' className='text-cyan-600 underline hover:text-cyan-700'>French drain</Link> systems don&apos;t stop water from entering the concrete &mdash; they manage it after it arrives, channeling it to a <Link href='/articles/sump-pump-buying-guide' className='text-cyan-600 underline hover:text-cyan-700'>sump pump</Link> for removal. Crystalline waterproofing takes the opposite approach: it tries to prevent water from entering the concrete in the first place.
-          </p>
-          <p className='text-slate-600 leading-relaxed mb-4'>
-            In practice, if you have significant hydrostatic pressure from a high water table, crystalline treatment alone may not be enough. Many professionals recommend combining both &mdash; crystalline treatment to reduce water transmission through the walls, plus a drainage system to handle water that gets through via joints, floor-wall junctions, or pipe penetrations.
-          </p>
-          <div className='bg-cyan-50 border border-cyan-200 rounded-lg p-4'>
-            <p className='text-sm text-cyan-800'><strong>Honest take:</strong> Crystalline waterproofing and interior drainage aren&apos;t competing approaches &mdash; they&apos;re complementary. The crystalline treatment handles the concrete. The drainage system handles the joints and penetrations. Together, they&apos;re extremely effective.</p>
-          </div>
-        </div>
-
-        {/* Cost Section */}
-        <h2 className='text-3xl font-black text-slate-900 mt-16 mb-6'>How Much Does Crystalline Waterproofing Cost?</h2>
-        <p className='text-slate-600 leading-relaxed mb-8'>
-          For a typical residential basement (1,000 square feet of wall area), here&apos;s what to expect:
-        </p>
-
-        <div className='overflow-x-auto mb-8'>
+        <div className='overflow-x-auto my-8 not-prose'>
           <table className='w-full border-collapse bg-white rounded-xl overflow-hidden shadow-sm'>
             <thead>
               <tr className='bg-slate-900 text-white'>
-                <th className='text-left p-4 font-bold'>Method</th>
-                <th className='text-left p-4 font-bold'>Cost Per Sq Ft</th>
-                <th className='text-left p-4 font-bold'>Typical Total (1,000 sq ft)</th>
+                <th className='text-left p-4 font-bold'>Feature</th>
+                <th className='text-left p-4 font-bold'>Paint Sealers</th>
+                <th className='text-left p-4 font-bold'>Sheet Membranes</th>
+                <th className='text-left p-4 font-bold'>Crystalline Treatment</th>
               </tr>
             </thead>
             <tbody>
               <tr className='border-b border-slate-200'>
-                <td className='p-4 text-slate-700 font-medium'>Integral Admixture (new construction)</td>
-                <td className='p-4 text-slate-600'>$2&ndash;$4</td>
-                <td className='p-4 text-slate-600'>$2,000&ndash;$4,000</td>
+                <td className='p-4 font-bold text-slate-900'>Location</td>
+                <td className='p-4 text-slate-600'>Surface coating</td>
+                <td className='p-4 text-slate-600'>Surface barrier</td>
+                <td className='p-4 text-slate-600'>Internal matrix</td>
               </tr>
               <tr className='border-b border-slate-200 bg-slate-50'>
-                <td className='p-4 text-slate-700 font-medium'>Topical Slurry (professional)</td>
-                <td className='p-4 text-slate-600'>$3&ndash;$7</td>
-                <td className='p-4 text-slate-600'>$3,000&ndash;$7,000</td>
+                <td className='p-4 font-bold text-slate-900'>Durability</td>
+                <td className='p-4 text-slate-600'>3 to 5 years</td>
+                <td className='p-4 text-slate-600'>10 to 20 years</td>
+                <td className='p-4 text-slate-600'>Permanent</td>
               </tr>
               <tr className='border-b border-slate-200'>
-                <td className='p-4 text-slate-700 font-medium'>DIY Topical Application</td>
-                <td className='p-4 text-slate-600'>$1.50&ndash;$3</td>
-                <td className='p-4 text-slate-600'>$1,500&ndash;$3,000</td>
+                <td className='p-4 font-bold text-slate-900'>Self-healing</td>
+                <td className='p-4 text-slate-600'>No</td>
+                <td className='p-4 text-slate-600'>No</td>
+                <td className='p-4 text-slate-600'>Yes (up to 0.5mm)</td>
               </tr>
-              <tr className='bg-slate-50'>
-                <td className='p-4 text-slate-700 font-medium'>Dry Shake (new slabs)</td>
-                <td className='p-4 text-slate-600'>$1&ndash;$3</td>
-                <td className='p-4 text-slate-600'>$1,000&ndash;$3,000</td>
+              <tr className='border-b border-slate-200 bg-slate-50'>
+                <td className='p-4 font-bold text-slate-900'>Works on wet surfaces</td>
+                <td className='p-4 text-slate-600'>Some</td>
+                <td className='p-4 text-slate-600'>No</td>
+                <td className='p-4 text-slate-600'>Yes</td>
+              </tr>
+              <tr className='border-b border-slate-200'>
+                <td className='p-4 font-bold text-slate-900'>Crack bridging</td>
+                <td className='p-4 text-slate-600'>No</td>
+                <td className='p-4 text-slate-600'>Limited</td>
+                <td className='p-4 text-slate-600'>Limited (hairline only)</td>
+              </tr>
+              <tr className='border-b border-slate-200 bg-slate-50'>
+                <td className='p-4 font-bold text-slate-900'>Block foundation</td>
+                <td className='p-4 text-slate-600'>Poor</td>
+                <td className='p-4 text-slate-600'>Good</td>
+                <td className='p-4 text-slate-600'>Poor</td>
+              </tr>
+              <tr className='border-b border-slate-200'>
+                <td className='p-4 font-bold text-slate-900'>DIY friendly</td>
+                <td className='p-4 text-slate-600'>Yes</td>
+                <td className='p-4 text-slate-600'>Difficult</td>
+                <td className='p-4 text-slate-600'>Topical: yes</td>
+              </tr>
+              <tr className='border-b border-slate-200 bg-slate-50'>
+                <td className='p-4 font-bold text-slate-900'>Typical cost (installed)</td>
+                <td className='p-4 text-slate-600'>$1 to $3 per sq ft</td>
+                <td className='p-4 text-slate-600'>$5 to $15 per sq ft</td>
+                <td className='p-4 text-slate-600'>$3 to $8 per sq ft</td>
+              </tr>
+              <tr>
+                <td className='p-4 font-bold text-slate-900'>Best use case</td>
+                <td className='p-4 text-slate-600'>Minor dampness, paint refresh</td>
+                <td className='p-4 text-slate-600'>New exterior construction</td>
+                <td className='p-4 text-slate-600'>New pours, retrofit porous walls</td>
               </tr>
             </tbody>
           </table>
         </div>
 
-        <p className='text-slate-600 leading-relaxed mb-6'>
-          Compared to the total cost of a comprehensive <Link href='/articles/basement-waterproofing-cost' className='text-cyan-600 underline hover:text-cyan-700'>basement waterproofing project</Link>, crystalline treatment is mid-range &mdash; more than paint-on sealers, less than excavation-based exterior systems ($8,000&ndash;$15,000+), and roughly comparable to interior drainage. The value proposition is strongest in new construction, where the admixture adds minimal cost to the pour but provides lifetime protection.
-        </p>
-
-        {/* Limitations */}
-        <h2 className='text-3xl font-black text-slate-900 mt-16 mb-6'>What Are the Limitations?</h2>
-        <p className='text-slate-600 leading-relaxed mb-8'>
-          Crystalline waterproofing is impressive technology, but it&apos;s not a miracle solution for every situation. Understanding its limits helps you make a smart decision.
-        </p>
-
-        <div className='space-y-4 mb-12'>
-          <div className='bg-red-50 border border-red-200 rounded-lg p-5'>
-            <h4 className='font-bold text-slate-900 mb-2'>It only works in concrete</h4>
-            <p className='text-slate-600 text-sm leading-relaxed'>Crystalline technology requires the specific chemistry of Portland cement to function. It does not work on brick, stone, block (unless the cores are filled with concrete), wood, or other materials. If your foundation is rubble stone or unreinforced block, crystalline treatment isn&apos;t an option. See our <Link href='/articles/old-house-basements' className='text-cyan-600 underline hover:text-cyan-700'>old house basements guide</Link> for alternatives.</p>
-          </div>
-          <div className='bg-red-50 border border-red-200 rounded-lg p-5'>
-            <h4 className='font-bold text-slate-900 mb-2'>It can&apos;t bridge large cracks or joints</h4>
-            <p className='text-slate-600 text-sm leading-relaxed'>The self-healing capability maxes out at roughly 0.5mm. Structural cracks, control joints, cold joints, and pipe penetrations still need conventional treatment &mdash; epoxy injection, caulk, waterstops, or mechanical seals.</p>
-          </div>
-          <div className='bg-red-50 border border-red-200 rounded-lg p-5'>
-            <h4 className='font-bold text-slate-900 mb-2'>It needs moisture to activate</h4>
-            <p className='text-slate-600 text-sm leading-relaxed'>This is both its greatest strength and a limitation. In very dry conditions, the chemicals remain dormant. This isn&apos;t a problem in below-grade applications (there&apos;s almost always moisture), but it means the treatment is most effective in exactly the environments where you need it most.</p>
-          </div>
-          <div className='bg-red-50 border border-red-200 rounded-lg p-5'>
-            <h4 className='font-bold text-slate-900 mb-2'>It won&apos;t stop water under extreme hydrostatic pressure alone</h4>
-            <p className='text-slate-600 text-sm leading-relaxed'>If your basement has a genuinely high water table pushing against the foundation, crystalline treatment will dramatically reduce water transmission, but it may not eliminate it entirely. In these cases, combining crystalline treatment with a <Link href='/articles/french-drain-cost' className='text-cyan-600 underline hover:text-cyan-700'>drainage and sump system</Link> is the right approach.</p>
-          </div>
-          <div className='bg-red-50 border border-red-200 rounded-lg p-5'>
-            <h4 className='font-bold text-slate-900 mb-2'>Surface must be bare concrete for topical application</h4>
-            <p className='text-slate-600 text-sm leading-relaxed'>If your basement walls are painted, sealed, or finished with drywall, the topical slurry can&apos;t penetrate. The surface coating must be removed first, which adds cost and labor.</p>
-          </div>
+        <div className='prose prose-lg max-w-none'>
+          {/* Cost Section */}
+          <h2 className='text-3xl font-black text-slate-900 mt-16 mb-6'>How Much Does Crystalline Waterproofing Cost?</h2>
         </div>
 
-        {/* Is It Worth It */}
-        <h2 className='text-3xl font-black text-slate-900 mt-16 mb-6'>Is Crystalline Waterproofing Worth It for a Residential Basement?</h2>
-        <p className='text-slate-600 leading-relaxed mb-8'>It depends on your situation. Here&apos;s a simple framework:</p>
-
-        <div className='space-y-4 mb-12'>
-          <div className='bg-green-50 border border-green-200 rounded-lg p-5'>
-            <h4 className='font-bold text-green-800 mb-2'>Strong Yes</h4>
-            <p className='text-slate-600 text-sm leading-relaxed'>If you&apos;re building a new home or pouring a new foundation. The admixture adds minimal cost and provides permanent, self-healing protection that no other method can match. There&apos;s almost no reason not to include it.</p>
-          </div>
-          <div className='bg-green-50 border border-green-200 rounded-lg p-5'>
-            <h4 className='font-bold text-green-800 mb-2'>Yes</h4>
-            <p className='text-slate-600 text-sm leading-relaxed'>If you have an existing basement with bare concrete walls showing diffuse dampness, <Link href='/articles/basement-efflorescence' className='text-cyan-600 underline hover:text-cyan-700'>efflorescence</Link>, or minor moisture transmission &mdash; especially if you&apos;re about to <Link href='/articles/how-to-finish-a-basement' className='text-cyan-600 underline hover:text-cyan-700'>finish the basement</Link> and want to seal the concrete before framing walls over it.</p>
-          </div>
-          <div className='bg-yellow-50 border border-yellow-200 rounded-lg p-5'>
-            <h4 className='font-bold text-yellow-800 mb-2'>Maybe</h4>
-            <p className='text-slate-600 text-sm leading-relaxed'>If you have active water intrusion. Crystalline treatment will help, but you&apos;ll likely need to address the root cause (grading, gutters, cracks, drainage) in addition to the crystalline application. Check our <Link href='/articles/why-basement-floods-without-rain' className='text-cyan-600 underline hover:text-cyan-700'>basement flooding guide</Link> and <Link href='/articles/spring-basement-checklist' className='text-cyan-600 underline hover:text-cyan-700'>spring checklist</Link> first.</p>
-          </div>
-          <div className='bg-red-50 border border-red-200 rounded-lg p-5'>
-            <h4 className='font-bold text-red-800 mb-2'>Probably Not</h4>
-            <p className='text-slate-600 text-sm leading-relaxed'>If your foundation is stone, brick, or unreinforced block without concrete fill. The chemistry requires Portland cement.</p>
-          </div>
+        <div className='overflow-x-auto my-8 not-prose'>
+          <table className='w-full border-collapse bg-white rounded-xl overflow-hidden shadow-sm'>
+            <thead>
+              <tr className='bg-slate-900 text-white'>
+                <th className='text-left p-4 font-bold'>Application Method</th>
+                <th className='text-left p-4 font-bold'>DIY Cost</th>
+                <th className='text-left p-4 font-bold'>Professional Cost</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className='border-b border-slate-200'>
+                <td className='p-4 font-bold text-slate-900'>Admixture (new pour)</td>
+                <td className='p-4 text-slate-600'>N/A &mdash; batch plant addition</td>
+                <td className='p-4 text-slate-600'>$0.50 to $1.50 per sq ft added to pour cost</td>
+              </tr>
+              <tr className='border-b border-slate-200 bg-slate-50'>
+                <td className='p-4 font-bold text-slate-900'>Topical slurry (existing walls)</td>
+                <td className='p-4 text-slate-600'>$1 to $3 per sq ft (materials)</td>
+                <td className='p-4 text-slate-600'>$3 to $8 per sq ft installed</td>
+              </tr>
+              <tr>
+                <td className='p-4 font-bold text-slate-900'>Dry shake (floor slab)</td>
+                <td className='p-4 text-slate-600'>N/A &mdash; applied during pour</td>
+                <td className='p-4 text-slate-600'>$0.50 to $1.50 per sq ft added to slab cost</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
 
-        {/* FAQ Section */}
-        <h2 className='text-3xl font-black text-slate-900 mt-16 mb-8'>Frequently Asked Questions</h2>
+        <div className='prose prose-lg max-w-none'>
+          <p className='text-slate-600 leading-relaxed mb-6'>
+            For a typical 1,000 square foot basement with 8-foot walls (approximately 400 linear feet of wall perimeter), a professional topical application runs $4,000 to $8,000 depending on surface preparation required and local labor rates. This is competitive with interior paint sealers at the high end but offers significantly better longevity and the self-healing benefit that no coating can match.
+          </p>
 
-        <div className='space-y-6 mb-12'>
-          <div className='border border-slate-200 rounded-lg p-6'>
-            <h3 className='text-lg font-bold text-slate-900 mb-3'>How long does crystalline waterproofing last?</h3>
-            <p className='text-slate-600 leading-relaxed'>For the life of the concrete. Because the crystals become a permanent, insoluble part of the concrete matrix, they don&apos;t break down, peel, or degrade over time. And because the active chemicals remain in the concrete and reactivate when exposed to new moisture, the system continues working for decades. There&apos;s no reapplication or maintenance needed.</p>
+          <p className='text-slate-600 leading-relaxed mb-6'>
+            Crystalline treatment is often combined with a <a href='/articles/complete-basement-waterproofing-guide' className='text-cyan-600 underline hover:text-cyan-700'>complete waterproofing system</a> including interior drainage and a sump pump for comprehensive protection. In that context, the crystalline treatment handles wall seepage while the drainage system manages any water that does make it through or enters from other sources.
+          </p>
+
+          {/* Is It Right */}
+          <h2 className='text-3xl font-black text-slate-900 mt-16 mb-6'>Is Crystalline Waterproofing Right for Your Basement?</h2>
+
+          <p className='text-slate-600 leading-relaxed mb-6'>Crystalline treatment is the right choice when:</p>
+
+          <div className='space-y-3 my-8 not-prose'>
+            <div className='flex items-start space-x-3'>
+              <span className='text-cyan-500 font-bold text-lg mt-0.5'>&#10004;</span>
+              <p className='text-slate-700'>You are pouring a new foundation and want the most durable long-term waterproofing built into the concrete itself</p>
+            </div>
+            <div className='flex items-start space-x-3'>
+              <span className='text-cyan-500 font-bold text-lg mt-0.5'>&#10004;</span>
+              <p className='text-slate-700'>Your existing poured concrete basement wall is damp or seeping through the wall material (not through cracks or joints)</p>
+            </div>
+            <div className='flex items-start space-x-3'>
+              <span className='text-cyan-500 font-bold text-lg mt-0.5'>&#10004;</span>
+              <p className='text-slate-700'>You are preparing a basement for finishing and want to address wall porosity before insulating and drywalling</p>
+            </div>
+            <div className='flex items-start space-x-3'>
+              <span className='text-cyan-500 font-bold text-lg mt-0.5'>&#10004;</span>
+              <p className='text-slate-700'>You want a treatment that will not delaminate, peel, or require reapplication</p>
+            </div>
+            <div className='flex items-start space-x-3'>
+              <span className='text-cyan-500 font-bold text-lg mt-0.5'>&#10004;</span>
+              <p className='text-slate-700'>You are retrofitting an old basement as part of a <a href='/articles/pre-finish-audit' className='text-cyan-600 underline hover:text-cyan-700'>pre-finish audit</a></p>
+            </div>
           </div>
-          <div className='border border-slate-200 rounded-lg p-6'>
-            <h3 className='text-lg font-bold text-slate-900 mb-3'>Can I apply crystalline waterproofing myself?</h3>
-            <p className='text-slate-600 leading-relaxed'>Yes, for topical slurry applications on existing walls. The process is similar to applying a thick coating &mdash; prep the surface (clean, remove paint or sealers), dampen the concrete, mix the powder with water, and brush or spray it on in two coats. It&apos;s more technical than rolling on <Link href='/articles/drylok-vs-radonseal' className='text-cyan-600 underline hover:text-cyan-700'>Drylok</Link>, but well within the ability of a careful DIYer. Major manufacturers like Xypex and Kryton sell products suitable for residential use.</p>
+
+          <p className='text-slate-600 leading-relaxed mb-6'>Crystalline treatment is not the right primary solution when:</p>
+
+          <div className='space-y-3 my-8 not-prose'>
+            <div className='flex items-start space-x-3'>
+              <span className='text-red-500 font-bold text-lg mt-0.5'>&#10008;</span>
+              <p className='text-slate-700'>Water is entering through large cracks, displaced joints, or the cove joint at the floor-wall intersection</p>
+            </div>
+            <div className='flex items-start space-x-3'>
+              <span className='text-red-500 font-bold text-lg mt-0.5'>&#10008;</span>
+              <p className='text-slate-700'>You have a block foundation with hollow cores</p>
+            </div>
+            <div className='flex items-start space-x-3'>
+              <span className='text-red-500 font-bold text-lg mt-0.5'>&#10008;</span>
+              <p className='text-slate-700'>Your basement floods from groundwater &mdash; drainage is the solution, not wall treatment</p>
+            </div>
+            <div className='flex items-start space-x-3'>
+              <span className='text-red-500 font-bold text-lg mt-0.5'>&#10008;</span>
+              <p className='text-slate-700'>You are looking for a quick cosmetic fix &mdash; surface prep is required for topical applications to work correctly</p>
+            </div>
           </div>
-          <div className='border border-slate-200 rounded-lg p-6'>
-            <h3 className='text-lg font-bold text-slate-900 mb-3'>Does crystalline waterproofing work from the inside (negative side)?</h3>
-            <p className='text-slate-600 leading-relaxed'>Yes &mdash; this is one of its most significant advantages. Because the chemicals travel through the concrete via diffusion, a topical application on the interior basement wall will migrate outward toward the water source. This means you can waterproof from inside the basement without excavating the exterior. Traditional membranes can only be applied to the water-facing (positive) side.</p>
+
+          {/* FAQ Section */}
+          <div className='border-t border-slate-100 pt-16 mt-16'>
+            <h2 className='text-3xl font-black text-slate-900 mb-8'>Frequently Asked Questions</h2>
+            <div className='space-y-6 not-prose'>
+              <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
+                <h4 className='font-bold text-slate-900 mb-2'>How long does crystalline waterproofing last?</h4>
+                <p className='text-slate-600 leading-relaxed'>Properly applied crystalline waterproofing is considered permanent. Because the crystals form inside the concrete matrix rather than on the surface, they cannot peel, crack, delaminate, or wear off. The active chemicals remain in the concrete indefinitely and reactivate whenever moisture is present to trigger new crystal growth. This is the fundamental advantage over coating-based methods that require reapplication every 3 to 10 years. The concrete itself may eventually crack or deteriorate, but the crystalline treatment within the intact material does not degrade.</p>
+              </div>
+              <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
+                <h4 className='font-bold text-slate-900 mb-2'>Can crystalline waterproofing be applied to an existing basement?</h4>
+                <p className='text-slate-600 leading-relaxed'>Yes, through topical slurry application. The slurry is brushed or sprayed onto clean, prepared concrete surfaces and penetrates several inches into the wall. For topical application to work correctly, the surface must be free of paint, sealers, efflorescence, and contamination &mdash; mechanical preparation is often needed before treatment. The wall should be damp but not actively streaming water during application. Most manufacturers recommend keeping the treated surface moist for several days after application to support the crystallization reaction.</p>
+              </div>
+              <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
+                <h4 className='font-bold text-slate-900 mb-2'>Is crystalline waterproofing better than Drylok or other paint sealers?</h4>
+                <p className='text-slate-600 leading-relaxed'>For long-term effectiveness on porous poured concrete walls, yes. Paint sealers including Drylok sit on the concrete surface and physically block pores with a coating that eventually degrades, cracks under hydrostatic pressure, or peels if applied over a damp surface. Crystalline treatment penetrates the concrete and grows crystals that are bonded to the material permanently and cannot be pushed off by hydrostatic pressure the way a surface coating can. For minor dampness on a wall that will not be finished, a quality paint sealer is a reasonable budget option. For a basement being finished or a wall with consistent seepage, crystalline treatment is the more durable choice. See our <a href='/articles/drylok-vs-radonseal' className='text-cyan-600 underline hover:text-cyan-700'>Drylok vs RadonSeal comparison</a> for a full paint sealer breakdown.</p>
+              </div>
+              <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
+                <h4 className='font-bold text-slate-900 mb-2'>Does crystalline waterproofing work on block foundations?</h4>
+                <p className='text-slate-600 leading-relaxed'>Not as effectively as on poured concrete. Block foundations have hollow cores that allow water to travel through the block cavities regardless of how well the block material itself is treated. Crystalline treatment seals the block material and mortar joints but cannot fill the hollow cores, which means water that enters through the top of the wall or through failed mortar joints can bypass the treatment entirely. Block basement walls typically require interior drainage solutions &mdash; a perimeter French drain that captures water at the base of the wall and channels it to a sump pump &mdash; rather than wall treatment as the primary waterproofing approach.</p>
+              </div>
+              <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
+                <h4 className='font-bold text-slate-900 mb-2'>What brands of crystalline waterproofing are most commonly used?</h4>
+                <p className='text-slate-600 leading-relaxed'>Xypex and Kryton (KIM &mdash; Kryton Integral Method) are the two dominant commercial crystalline waterproofing brands used by contractors on residential and commercial projects. Sika and BASF also produce crystalline admixture products used in commercial construction. For DIY topical applications, RadonSeal Deep-Penetrating Concrete Sealer uses a similar silicate-based chemistry and is widely available at home improvement stores, though it is not a true crystalline product &mdash; it seals pores through a different chemical mechanism. True crystalline topical products for retrofit applications are available through waterproofing contractors and specialty building supply distributors.</p>
+              </div>
+              <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
+                <h4 className='font-bold text-slate-900 mb-2'>How does crystalline waterproofing handle new cracks that form after application?</h4>
+                <p className='text-slate-600 leading-relaxed'>This is the self-healing feature. When a new hairline crack forms in treated concrete and water contacts the crack, the dormant chemicals in the surrounding concrete reactivate and grow new crystals that fill the crack from the inside. This self-healing mechanism is effective on cracks up to approximately 0.5 millimeters wide under most manufacturers&apos; specifications. Larger cracks, particularly any crack showing displacement where one side has shifted relative to the other, exceed the self-healing capacity and require mechanical repair with epoxy or polyurethane injection. Structural cracks should always be evaluated by a professional before relying on self-healing to address them.</p>
+              </div>
+              <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
+                <h4 className='font-bold text-slate-900 mb-2'>Can I apply crystalline waterproofing myself?</h4>
+                <p className='text-slate-600 leading-relaxed'>Topical slurry products are available for DIY application and can be effective when surface preparation is done correctly. The wall must be clean, free of paint and sealers, and mechanically opened &mdash; typically by wire brushing or pressure washing &mdash; so the product can penetrate rather than sitting on a sealed surface. The wall should be pre-wetted before application and kept damp for several days afterward to support crystal growth. DIY material costs run $1 to $3 per square foot. Professional application at $3 to $8 per square foot includes surface preparation, which is the step most DIY applications get wrong. If the surface is not properly prepared, the product will not penetrate and will perform no better than a paint sealer.</p>
+              </div>
+            </div>
           </div>
-          <div className='border border-slate-200 rounded-lg p-6'>
-            <h3 className='text-lg font-bold text-slate-900 mb-3'>Will crystalline waterproofing stop a leaking basement?</h3>
-            <p className='text-slate-600 leading-relaxed'>It can significantly reduce or stop water transmission through the concrete walls themselves. But it won&apos;t fix water coming through cracks wider than 0.5mm, construction joints, floor-wall junctions (the cove joint), or pipe penetrations. For a <Link href='/articles/basement-emergency-water-plan' className='text-cyan-600 underline hover:text-cyan-700'>leaking basement</Link>, the most effective approach combines crystalline treatment for the concrete with targeted repairs for cracks and joints, and potentially a drainage system for the floor-wall junction.</p>
+
+          {/* Glossary */}
+          <div className='border-t border-slate-100 pt-16 mt-16'>
+            <h2 className='text-3xl font-black text-slate-900 mb-8'>Glossary of Crystalline Waterproofing Terms</h2>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-6 not-prose'>
+              <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+                <h4 className='font-bold text-slate-900 mb-2'>Crystalline Waterproofing</h4>
+                <p className='text-slate-600 text-sm leading-relaxed'>A concrete treatment technology that uses reactive chemical compounds to grow insoluble crystals inside the concrete matrix, permanently sealing capillary pores and hairline cracks. Distinguished from coating-based methods by penetrating the concrete rather than sitting on the surface, and by the ability to self-heal new cracks in the presence of moisture.</p>
+              </div>
+              <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+                <h4 className='font-bold text-slate-900 mb-2'>Capillary Pores</h4>
+                <p className='text-slate-600 text-sm leading-relaxed'>Microscopic channels and voids in the concrete matrix created during the curing process as water evaporates and cement hydrates. These pores are the primary pathway for water migration through concrete walls. Crystalline treatment fills these pores with crystals to block water movement through the material.</p>
+              </div>
+              <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+                <h4 className='font-bold text-slate-900 mb-2'>Admixture</h4>
+                <p className='text-slate-600 text-sm leading-relaxed'>A chemical added to fresh concrete at the batch plant or mixing truck before pouring. Crystalline admixtures distribute the reactive chemicals throughout the entire concrete pour, making every cubic inch of the finished wall or slab waterproof rather than just the surface layer.</p>
+              </div>
+              <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+                <h4 className='font-bold text-slate-900 mb-2'>Topical Slurry</h4>
+                <p className='text-slate-600 text-sm leading-relaxed'>A thick paste of crystalline compound mixed with water and applied to the surface of existing concrete. Penetrates several inches into the concrete matrix and grows crystals throughout the treated depth. The standard retrofit method for existing basement walls.</p>
+              </div>
+              <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+                <h4 className='font-bold text-slate-900 mb-2'>Self-Healing</h4>
+                <p className='text-slate-600 text-sm leading-relaxed'>The ability of crystalline-treated concrete to reactivate dormant chemicals and grow new crystals when a new crack forms and moisture is present. Effective on hairline cracks up to approximately 0.5mm wide. Not a substitute for mechanical repair of larger or displaced cracks.</p>
+              </div>
+              <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+                <h4 className='font-bold text-slate-900 mb-2'>Hydrostatic Pressure</h4>
+                <p className='text-slate-600 text-sm leading-relaxed'>The force exerted by water-saturated soil against a foundation wall. Crystalline treatment reduces water migration through the wall material but does not relieve hydrostatic pressure, which requires a perimeter drainage system. High hydrostatic pressure can force water through even treated concrete at joints, cracks, and penetrations. See our <a href='/articles/french-drain-vs-sump-pump' className='text-cyan-600 underline hover:text-cyan-700'>French drain vs sump pump guide</a>.</p>
+              </div>
+              <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+                <h4 className='font-bold text-slate-900 mb-2'>Integral vs Topical Application</h4>
+                <p className='text-slate-600 text-sm leading-relaxed'>The two primary crystalline application methods. Integral (admixture) treatment is added to fresh concrete and treats the entire pour uniformly &mdash; used in new construction. Topical treatment is applied to hardened concrete surfaces &mdash; used in retrofits. Integral treatment is generally considered more effective because the chemicals are distributed throughout the full depth of the concrete rather than penetrating from one surface.</p>
+              </div>
+              <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+                <h4 className='font-bold text-slate-900 mb-2'>Efflorescence</h4>
+                <p className='text-slate-600 text-sm leading-relaxed'>White, chalky mineral deposits on concrete surfaces caused by water carrying dissolved salts through the wall and depositing them as it evaporates on the surface. A visible indicator of water migration through the wall and often the first sign that crystalline or other waterproofing treatment is needed. Must be removed by mechanical cleaning before topical crystalline application. See our <a href='/articles/basement-efflorescence' className='text-cyan-600 underline hover:text-cyan-700'>efflorescence guide</a>.</p>
+              </div>
+            </div>
           </div>
-          <div className='border border-slate-200 rounded-lg p-6'>
-            <h3 className='text-lg font-bold text-slate-900 mb-3'>Is crystalline waterproofing environmentally friendly?</h3>
-            <p className='text-slate-600 leading-relaxed'>Yes. Crystalline products are non-toxic, contain no VOCs, and don&apos;t leach harmful chemicals into soil or groundwater. The concrete itself can be fully recycled at end of life without separating any membrane or coating &mdash; a meaningful advantage for sustainable construction. Several crystalline products contribute to LEED and green building certifications.</p>
-          </div>
+
         </div>
-
-        {/* Final Thoughts */}
-        <div className='bg-slate-900 text-white rounded-xl p-8 my-12'>
-          <h2 className='text-2xl font-bold mb-4'>Final Thoughts</h2>
-          <p className='text-slate-300 leading-relaxed mb-4'>
-            Crystalline waterproofing isn&apos;t flashy. There&apos;s no membrane to point at, no visible coating on the wall, no equipment running in the corner. It&apos;s invisible &mdash; just chemistry working quietly inside the concrete.
-          </p>
-          <p className='text-slate-300 leading-relaxed mb-4'>
-            But that&apos;s exactly what makes it compelling. It can&apos;t be punctured. It can&apos;t peel. It can&apos;t be damaged during backfilling. It doesn&apos;t degrade in sunlight or freeze-thaw cycles. And it fixes its own hairline cracks without anyone lifting a finger.
-          </p>
-          <p className='text-slate-300 leading-relaxed mb-4'>
-            For new construction, it&apos;s close to a no-brainer. For existing basements with concrete foundations, it&apos;s a powerful tool &mdash; especially when combined with proper drainage and <Link href='/articles/basement-humidity-guide' className='text-cyan-400 underline hover:text-cyan-300'>humidity control</Link>.
-          </p>
-          <p className='text-slate-300 leading-relaxed'>
-            It&apos;s not a replacement for fixing the root causes of water intrusion (bad grading, clogged gutters, cracked foundations), but it makes the concrete itself part of the solution instead of part of the problem.
-          </p>
-        </div>
-
       </article>
 
       {/* Related Guides */}
@@ -350,29 +422,37 @@ export default function CrystallineWaterproofing() {
         <div className='max-w-7xl mx-auto px-6'>
           <h2 className='text-3xl font-black text-slate-900 mb-10'>Related Guides</h2>
           <div className='grid md:grid-cols-3 gap-6'>
+            <Link href='/articles/complete-basement-waterproofing-guide' className='bg-white rounded-xl p-6 shadow-sm border border-slate-200 hover:shadow-md transition-shadow'>
+              <h3 className='text-lg font-bold text-slate-900 mb-2'>Complete Basement Waterproofing Guide</h3>
+              <p className='text-slate-500 text-sm'>How crystalline treatment fits into a full waterproofing system.</p>
+            </Link>
             <Link href='/articles/interior-vs-exterior-waterproofing' className='bg-white rounded-xl p-6 shadow-sm border border-slate-200 hover:shadow-md transition-shadow'>
-              <h3 className='text-lg font-bold text-slate-900 mb-2'>Interior vs. Exterior Waterproofing</h3>
-              <p className='text-slate-500 text-sm'>Compare methods to find the best waterproofing solution for your home.</p>
+              <h3 className='text-lg font-bold text-slate-900 mb-2'>Interior vs Exterior Waterproofing</h3>
+              <p className='text-slate-500 text-sm'>Compare all waterproofing methods to find the right approach for your basement.</p>
+            </Link>
+            <Link href='/articles/drylok-vs-radonseal' className='bg-white rounded-xl p-6 shadow-sm border border-slate-200 hover:shadow-md transition-shadow'>
+              <h3 className='text-lg font-bold text-slate-900 mb-2'>Drylok vs RadonSeal</h3>
+              <p className='text-slate-500 text-sm'>How paint sealers compare to penetrating treatments on porous concrete walls.</p>
             </Link>
             <Link href='/articles/foundation-crack-repair-cost' className='bg-white rounded-xl p-6 shadow-sm border border-slate-200 hover:shadow-md transition-shadow'>
-              <h3 className='text-lg font-bold text-slate-900 mb-2'>Foundation Crack Repair Cost Guide</h3>
-              <p className='text-slate-500 text-sm'>What to expect for professional crack repair pricing in 2026.</p>
+              <h3 className='text-lg font-bold text-slate-900 mb-2'>Foundation Crack Repair Cost</h3>
+              <p className='text-slate-500 text-sm'>When cracks exceed the self-healing limit and require mechanical repair.</p>
             </Link>
             <Link href='/articles/basement-waterproofing-cost' className='bg-white rounded-xl p-6 shadow-sm border border-slate-200 hover:shadow-md transition-shadow'>
               <h3 className='text-lg font-bold text-slate-900 mb-2'>Basement Waterproofing Cost Guide</h3>
-              <p className='text-slate-500 text-sm'>What to expect for professional waterproofing pricing in 2026.</p>
+              <p className='text-slate-500 text-sm'>Full cost breakdown for interior and exterior waterproofing systems.</p>
             </Link>
             <Link href='/articles/how-to-prevent-basement-mold' className='bg-white rounded-xl p-6 shadow-sm border border-slate-200 hover:shadow-md transition-shadow'>
               <h3 className='text-lg font-bold text-slate-900 mb-2'>How to Prevent Basement Mold</h3>
-              <p className='text-slate-500 text-sm'>Critical steps to prevent mold growth and protect your family.</p>
+              <p className='text-slate-500 text-sm'>Moisture control strategies that complement crystalline wall treatment.</p>
+            </Link>
+            <Link href='/articles/pre-finish-audit' className='bg-white rounded-xl p-6 shadow-sm border border-slate-200 hover:shadow-md transition-shadow'>
+              <h3 className='text-lg font-bold text-slate-900 mb-2'>Pre-Finish Audit</h3>
+              <p className='text-slate-500 text-sm'>Where crystalline treatment fits in a basement preparation checklist before finishing.</p>
             </Link>
             <Link href='/articles/old-house-basements' className='bg-white rounded-xl p-6 shadow-sm border border-slate-200 hover:shadow-md transition-shadow'>
               <h3 className='text-lg font-bold text-slate-900 mb-2'>Old House Basements Guide</h3>
-              <p className='text-slate-500 text-sm'>Renovating and waterproofing basements in pre-1940 homes with historic foundations.</p>
-            </Link>
-            <Link href='/articles/complete-basement-waterproofing-guide' className='bg-white rounded-xl p-6 shadow-sm border border-slate-200 hover:shadow-md transition-shadow'>
-              <h3 className='text-lg font-bold text-slate-900 mb-2'>Complete Waterproofing Guide</h3>
-              <p className='text-slate-500 text-sm'>Everything you need to know about keeping your basement dry.</p>
+              <p className='text-slate-500 text-sm'>Retrofitting waterproofing in older foundations where crystalline topical application is commonly used.</p>
             </Link>
           </div>
         </div>
@@ -389,6 +469,7 @@ export default function CrystallineWaterproofing() {
         </div>
       </section>
 
+      <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
     </div>
   );
 }
