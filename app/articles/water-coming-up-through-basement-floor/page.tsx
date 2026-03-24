@@ -2,6 +2,69 @@ import Link from 'next/link';
 import Image from 'next/image';
 import LeadForm from '@/components/LeadForm';
 import type { Metadata } from 'next';
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'Is water coming up through the basement floor dangerous?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'The water itself is not usually dangerous if it is groundwater — but the consequences of leaving it unaddressed are. Mold begins colonizing wet surfaces within 24 to 48 hours and can spread behind walls and under flooring invisibly. Chronic floor moisture also accelerates rebar corrosion inside the slab. Sewage backup through a floor drain is an immediate health hazard requiring professional remediation.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'Can I just seal my basement floor to stop the water?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Surface sealing addresses the symptom, not the cause. Waterproof coatings reduce vapor transmission through porous concrete and can slow minor dampness, but they will not hold against active hydrostatic pressure. Water under pressure will either push the coating off the surface or find the next weakest point. Effective treatment means managing water movement under and around the slab, not blocking it at the surface.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'Why does my basement floor only get wet in one spot?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'A single wet spot that appears regardless of weather is most likely a plumbing leak under the slab. Confirm this with the main water shutoff test: turn off your home\'s main water supply for several hours and see if the wet spot stops appearing. If the wet spot appears only during or after rain and is located along the floor-wall perimeter, it is likely cove joint seepage driven by hydrostatic pressure.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'Will a dehumidifier fix water coming through the floor?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'No. A dehumidifier removes water vapor from the air but cannot stop liquid water from entering through the slab under pressure. Address the water entry first with drainage improvements, crack repair, or a sump pump, then use a dehumidifier to maintain target humidity in the dry space.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'How much does it cost to fix water coming up through the basement floor?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Gutter cleaning and downspout extensions run $20 to $300 DIY or $150 to $500 professionally. Floor crack injection runs $250 to $500 per crack. A new sump pump installation costs $800 to $3,000. A full interior perimeter drainage system runs $3,000 to $10,000. Exterior waterproofing can reach $8,000 to $25,000. Sub-slab plumbing repair ranges from $500 to $4,000.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'Should I waterproof my basement floor before finishing it?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Absolutely. Any moisture entering through the slab gets trapped behind finished walls, under flooring, and inside insulation once the space is enclosed — creating conditions for mold growth that may not be discovered until significant damage has occurred. A waterproofing investment before finishing is dramatically cheaper than mold remediation and reconstruction after the fact.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'What is the cove joint and why does it leak?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'The cove joint is the gap that runs along the entire perimeter of the basement where the floor slab meets the foundation wall. The floor and wall were poured at different times and never truly bonded. When hydrostatic pressure builds, the cove joint perimeter is almost always the path of least resistance. The correct solution is an interior drainage channel that intercepts water at the cove joint and routes it to a sump pit.'
+      }
+    }
+  ]
+};
 export const metadata: Metadata = {
   title: 'Water Coming Up Through Basement Floor: Causes, Fixes & Costs (2026)',
   description: 'Water pushing up through your basement floor? Learn the causes including hydrostatic pressure, cove joint seepage, and plumbing leaks. Get fix costs from $50 to $25,000.',
@@ -379,25 +442,74 @@ export default function WaterComingUpThroughBasementFloor() {
       <section className='bg-slate-50 py-16'>
         <div className='max-w-4xl mx-auto px-6'>
           <h2 className='text-3xl md:text-4xl font-black text-slate-900 mb-8'>Frequently Asked Questions</h2>
-          <div className='space-y-4'>
-            {[
-              { q: 'Is water coming up through the basement floor dangerous?', a: 'The water itself usually isn\'t dangerous if it\'s groundwater. The bigger risks are mold growth (begins within 24-48 hours), damage to stored belongings, and long-term structural concerns if pressure causes floor heaving or wall movement. Sewage backup is a health hazard requiring immediate professional attention.' },
-              { q: 'Can I just seal my basement floor to stop the water?', a: 'Sealing the floor surface addresses the symptom, not the cause. Waterproof coatings can reduce vapor transmission, but they will not hold against active hydrostatic pressure. The pressure wins eventually, and the coating peels or water finds another way in. Effective treatment means managing water below the slab.' },
-              { q: 'Why does my basement floor only get wet in one spot?', a: 'A single wet spot unrelated to weather is most likely a plumbing leak under the slab. If it appears only during rain, it could be a localized crack aligning with a high-pressure point below, or water running down a wall and pooling at a floor low point.' },
-              { q: 'Will a dehumidifier fix water coming through the floor?', a: 'No. A dehumidifier removes moisture from the air but cannot stop liquid water from entering through the slab. It\'s useful as a supporting tool after you\'ve addressed water entry, but it\'s not a substitute for drainage.' },
-              { q: 'How much does it cost to fix water coming up through the floor?', a: 'Gutter improvements and regrading cost a few hundred dollars. A sump pump runs $800-$3,000. A full interior drainage system costs $3,000-$10,000. Exterior waterproofing can exceed $25,000. Start cheap and escalate only if the problem persists.' },
-              { q: 'Should I waterproof my basement floor before finishing it?', a: 'Absolutely. Finishing without addressing water issues is one of the most expensive mistakes homeowners make. Any moisture through the slab gets trapped behind finishes, creating hidden mold. At minimum, do the plastic sheet test before framing a single wall.' },
-            ].map((faq, i) => (
-              <details key={i} className='bg-white rounded-xl border border-slate-200 overflow-hidden group'>
-                <summary className='flex items-center justify-between p-6 cursor-pointer hover:bg-slate-50 transition-colors'>
-                  <span className='font-bold text-slate-900 pr-4'>{faq.q}</span>
-                  <span className='text-slate-400 group-open:rotate-180 transition-transform text-xl flex-shrink-0'>&#9662;</span>
-                </summary>
-                <div className='px-6 pb-6'>
-                  <p className='text-slate-600 text-sm leading-relaxed'>{faq.a}</p>
-                </div>
-              </details>
-            ))}
+          <div className='space-y-6'>
+            <div className='bg-white rounded-2xl p-6 border border-slate-200'>
+              <h4 className='font-bold text-slate-900 mb-2'>Is water coming up through the basement floor dangerous?</h4>
+              <p className='text-slate-600 leading-relaxed'>The water itself is not usually dangerous if it is groundwater &mdash; but the consequences of leaving it unaddressed are. Mold begins colonizing wet surfaces within 24 to 48 hours and can spread behind walls and under flooring invisibly before you notice it. Chronic floor moisture also accelerates rebar corrosion inside the slab, weakening the concrete over time. In severe cases, extreme hydrostatic pressure causes floor heaving &mdash; slab sections pushed upward &mdash; which is a structural issue requiring professional evaluation. Sewage backup through a floor drain is an immediate health hazard requiring professional remediation due to pathogen and bacteria contamination.</p>
+            </div>
+            <div className='bg-white rounded-2xl p-6 border border-slate-200'>
+              <h4 className='font-bold text-slate-900 mb-2'>Can I just seal my basement floor to stop the water?</h4>
+              <p className='text-slate-600 leading-relaxed'>Surface sealing addresses the symptom, not the cause. Waterproof coatings reduce vapor transmission through porous concrete and can slow minor dampness, but they will not hold against active hydrostatic pressure. Water under pressure will either push the coating off the surface or find the next weakest point &mdash; a crack, a joint, or a penetration &mdash; and enter there instead. Crystalline waterproofing penetrates the concrete matrix and performs better than paint sealers, but even crystalline treatment is not effective against significant hydrostatic pressure without a drainage system relieving the pressure from below. Effective treatment means managing water movement under and around the slab, not blocking it at the surface.</p>
+            </div>
+            <div className='bg-white rounded-2xl p-6 border border-slate-200'>
+              <h4 className='font-bold text-slate-900 mb-2'>Why does my basement floor only get wet in one spot?</h4>
+              <p className='text-slate-600 leading-relaxed'>A single wet spot that appears regardless of weather is most likely a plumbing leak under the slab &mdash; a supply line, drain pipe, or sewer line running beneath the concrete. Confirm this with the main water shutoff test: turn off your home&rsquo;s main water supply for several hours and see if the wet spot stops appearing. A warm spot on an otherwise cold floor, the sound of running water with no fixtures active, or an unexplained increase in your water bill all support a plumbing diagnosis. If the wet spot appears only during or after rain and is located along the floor-wall perimeter, it is likely cove joint seepage driven by hydrostatic pressure rather than a plumbing issue.</p>
+            </div>
+            <div className='bg-white rounded-2xl p-6 border border-slate-200'>
+              <h4 className='font-bold text-slate-900 mb-2'>Will a dehumidifier fix water coming through the floor?</h4>
+              <p className='text-slate-600 leading-relaxed'>No. A dehumidifier removes water vapor from the air but cannot stop liquid water from entering through the slab under pressure. Running a dehumidifier in a basement with active floor water intrusion will reduce ambient humidity and help prevent mold from spreading to dry areas, but it is a damage-control tool, not a solution. A dehumidifier pulling moisture from the air while the floor is actively wet is simply removing water that entered through the floor &mdash; you are managing consequences rather than fixing the source. Address the water entry first with drainage improvements, crack repair, or a sump pump, then use a dehumidifier to maintain target humidity in the dry space.</p>
+            </div>
+            <div className='bg-white rounded-2xl p-6 border border-slate-200'>
+              <h4 className='font-bold text-slate-900 mb-2'>How much does it cost to fix water coming up through the basement floor?</h4>
+              <p className='text-slate-600 leading-relaxed'>Cost depends entirely on the cause and severity. Gutter cleaning and downspout extensions &mdash; the highest-impact low-cost fix for surface water issues &mdash; run $20 to $300 DIY or $150 to $500 professionally. Soil regrading costs $500 to $3,000. Floor crack injection runs $250 to $500 per crack professionally. A new sump pump installation costs $800 to $3,000. A full interior perimeter drainage system &mdash; the correct solution for persistent hydrostatic pressure &mdash; runs $3,000 to $10,000 depending on basement size. Exterior waterproofing and excavation can reach $8,000 to $25,000 for severe cases. Sub-slab plumbing repair ranges from $500 to $4,000 depending on pipe location and access. Always start with the least invasive and least expensive diagnostic steps before committing to major work.</p>
+            </div>
+            <div className='bg-white rounded-2xl p-6 border border-slate-200'>
+              <h4 className='font-bold text-slate-900 mb-2'>Should I waterproof my basement floor before finishing it?</h4>
+              <p className='text-slate-600 leading-relaxed'>Absolutely, and skipping this step is one of the most expensive mistakes in basement finishing. Any moisture entering through the slab gets trapped behind finished walls, under flooring, and inside insulation once the space is enclosed &mdash; creating conditions for mold growth that may not be discovered until significant damage has occurred. At minimum, perform the plastic sheet test described in this guide to confirm whether vapor migration through the slab is occurring before framing any walls. If the test shows moisture, address it before finishing. A waterproofing investment before finishing is dramatically cheaper than mold remediation and reconstruction after the fact.</p>
+            </div>
+            <div className='bg-white rounded-2xl p-6 border border-slate-200'>
+              <h4 className='font-bold text-slate-900 mb-2'>What is the cove joint and why does it leak?</h4>
+              <p className='text-slate-600 leading-relaxed'>The cove joint is the gap that runs along the entire perimeter of the basement where the floor slab meets the foundation wall. The floor and wall were poured at different times during construction and never truly bonded &mdash; there is always a small gap at this joint. When hydrostatic pressure builds below and around the foundation, water travels along the path of least resistance and the cove joint perimeter is almost always that path. Caulk, hydraulic cement, and epoxy applied to the cove joint from inside will hold temporarily but will not permanently stop water under pressure &mdash; the pressure will push the sealant out or route around it. The correct solution is an interior drainage channel installed along the perimeter that intercepts water at the cove joint and routes it to a sump pit rather than trying to block it.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Glossary */}
+      <section className='max-w-4xl mx-auto px-6 py-16'>
+        <h2 className='text-3xl md:text-4xl font-black text-slate-900 mb-8'>Glossary of Basement Floor Water Terms</h2>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
+          <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+            <h4 className='font-bold text-slate-900 mb-2'>Hydrostatic Pressure</h4>
+            <p className='text-slate-600 text-sm leading-relaxed'>The upward and lateral force exerted by groundwater that has saturated the soil surrounding and beneath a foundation. As water accumulates with no drainage path, pressure builds against the floor slab and foundation walls and forces water through any available opening &mdash; cracks, joints, and porous concrete. Relieved by perimeter drainage systems that give groundwater a controlled path to a sump pump. See our <a href='/articles/french-drain-vs-sump-pump' className='text-cyan-600 underline hover:text-cyan-700'>French drain vs sump pump guide</a>.</p>
+          </div>
+          <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+            <h4 className='font-bold text-slate-900 mb-2'>Cove Joint</h4>
+            <p className='text-slate-600 text-sm leading-relaxed'>The perimeter gap between the basement floor slab and the foundation wall, created because the two concrete elements were poured at different times and never fully bonded. The single most common water entry point in a basement. Cannot be permanently sealed from the interior against hydrostatic pressure &mdash; requires a drainage channel along the perimeter to manage water rather than block it.</p>
+          </div>
+          <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+            <h4 className='font-bold text-slate-900 mb-2'>Capillary Action</h4>
+            <p className='text-slate-600 text-sm leading-relaxed'>The movement of water through microscopic pores and channels in concrete driven by surface tension rather than pressure. Capillary action causes water vapor to migrate upward through an intact slab even without visible cracks or hydrostatic pressure, resulting in a chronically damp floor. Confirmed by the plastic sheet test: moisture on the underside of sealed plastic taped to the floor indicates capillary vapor migration through the slab.</p>
+          </div>
+          <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+            <h4 className='font-bold text-slate-900 mb-2'>Floor Heaving</h4>
+            <p className='text-slate-600 text-sm leading-relaxed'>Upward movement or buckling of slab sections caused by extreme hydrostatic pressure beneath the floor or by expansive soil conditions such as frost heave. Floor heaving is a structural concern that requires professional evaluation &mdash; it indicates pressure levels that drainage alone may not fully relieve. Distinguished from normal slab settlement, which moves downward rather than upward.</p>
+          </div>
+          <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+            <h4 className='font-bold text-slate-900 mb-2'>Sump Pit</h4>
+            <p className='text-slate-600 text-sm leading-relaxed'>An excavated basin in the lowest point of the basement floor that collects groundwater from beneath the slab and from perimeter drainage channels. When water in the pit reaches a set level, a float switch activates the sump pump to eject water outside through a discharge line. The termination point for any interior drainage system.</p>
+          </div>
+          <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+            <h4 className='font-bold text-slate-900 mb-2'>Sub-Slab Plumbing</h4>
+            <p className='text-slate-600 text-sm leading-relaxed'>Water supply lines, drain pipes, and sewer lines installed beneath the concrete floor slab during original construction. Sub-slab pipe failures &mdash; from corrosion, root intrusion, joint separation, or ground movement &mdash; create localized wet spots that appear regardless of weather and are unrelated to groundwater. Confirmed by the main water shutoff test and diagnosed precisely with a plumber&rsquo;s camera inspection.</p>
+          </div>
+          <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+            <h4 className='font-bold text-slate-900 mb-2'>Vapor Barrier</h4>
+            <p className='text-slate-600 text-sm leading-relaxed'>A polyethylene sheet or similar waterproof membrane installed beneath a concrete floor slab during construction to block moisture migration from the soil below. Homes built before the 1970s often lack sub-slab vapor barriers, making capillary moisture migration through the slab more common. Cannot be retrofitted under an existing slab without demolition, but topical concrete sealers and crystalline waterproofing treatments can reduce vapor migration from above.</p>
+          </div>
+          <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+            <h4 className='font-bold text-slate-900 mb-2'>Interior Drainage System</h4>
+            <p className='text-slate-600 text-sm leading-relaxed'>A perimeter channel installed along the inside base of the foundation wall, typically by cutting a slot in the concrete floor along the perimeter, laying perforated pipe in gravel, and patching over it. Intercepts water entering at the cove joint and through the lower wall and routes it to the sump pit. The standard professional solution for persistent hydrostatic floor water intrusion. Also called drain tile or a French drain system. See our <a href='/articles/french-drain-cost' className='text-cyan-600 underline hover:text-cyan-700'>French drain cost guide</a>.</p>
           </div>
         </div>
       </section>
@@ -430,6 +542,7 @@ export default function WaterComingUpThroughBasementFloor() {
         </div>
       </section>
 
+      <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
     </div>
   );
 }
