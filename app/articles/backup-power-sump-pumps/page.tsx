@@ -12,6 +12,54 @@ export default function BackupPowerSumpPumps() {
   return (
     <div className='bg-white min-h-screen'>
 
+      {/* Schema: FAQPage */}
+      <script
+        type='application/ld+json'
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: [
+              {
+                '@type': 'Question',
+                name: 'What is the difference between a battery backup sump pump and a portable power station?',
+                acceptedAnswer: { '@type': 'Answer', text: 'A dedicated battery backup sump pump is a complete secondary pump system installed directly in the sump pit alongside the primary pump, powered by a 12-volt marine battery that charges continuously while grid power is available and activates automatically when the primary pump fails or loses power. It is purpose-built for one job and requires no human intervention during a storm. A portable power station is a large rechargeable lithium battery pack with a built-in AC inverter that powers your existing primary pump through a standard outlet, giving you more flexibility to power other devices but requiring the unit to be plugged into your pump and charged before the outage. The key practical difference is automation: a battery backup pump activates on its own with no action required, while a portable power station requires your primary pump to be plugged into it. For most homeowners who want set-and-forget protection for the pump only, a dedicated battery backup is simpler. For homeowners who also want to power a dehumidifier, lights, or phone during an outage, a portable power station provides more value.' },
+              },
+              {
+                '@type': 'Question',
+                name: 'Will a 2,000-watt generator run a sump pump?',
+                acceptedAnswer: { '@type': 'Answer', text: 'Yes, a 2,000W generator will run most 1/3 HP sump pumps comfortably. For a 1/2 HP pump, check the specific surge wattage on your pump\'s label. Some 1/2 HP pumps surge above 3,000W, which would require a larger generator. When in doubt, size up.' },
+              },
+              {
+                '@type': 'Question',
+                name: 'Can I use a portable power station indoors for my sump pump?',
+                acceptedAnswer: { '@type': 'Answer', text: 'Yes, and that is one of their biggest advantages over gas generators. Power stations produce zero emissions and are safe to operate in your basement right next to the sump pit. Just keep them elevated and dry.' },
+              },
+              {
+                '@type': 'Question',
+                name: 'How long will a portable power station run my sump pump?',
+                acceptedAnswer: { '@type': 'Answer', text: 'It depends on the battery capacity and how often your pump cycles. A 2,000Wh station running an 800W pump that cycles on for 30 seconds every 5 minutes would last roughly 10 to 15 hours in real-world use. During heavy rain with frequent cycling, expect 4 to 8 hours from a 2,000Wh unit.' },
+              },
+              {
+                '@type': 'Question',
+                name: 'Should I get a battery backup pump instead of a generator?',
+                acceptedAnswer: { '@type': 'Answer', text: 'If your only goal is keeping the sump pump running, a dedicated battery backup is the simplest solution. It installs directly in the pit and activates automatically. But it only protects the pump, and runtime is limited to 5 to 12 hours. A generator or power station gives you more flexibility and can power other things.' },
+              },
+              {
+                '@type': 'Question',
+                name: 'What happens if my sump pump fails during a power outage and I have no backup?',
+                acceptedAnswer: { '@type': 'Answer', text: 'Water accumulates in the pit, overflows, and floods your basement. Depending on how fast water enters and how long power is out, you could be looking at inches to feet of standing water. Cleanup, drying, mold remediation, and repairs commonly run $5,000 to $25,000. The cost of any backup on this list is a fraction of one flood event.' },
+              },
+              {
+                '@type': 'Question',
+                name: 'How much does it cost to install a sump pump with backup power?',
+                acceptedAnswer: { '@type': 'Answer', text: 'A new sump pump installation runs $600 to $2,500. Add $600 to $2,000 for a battery backup system, or $400 to $2,000 for a portable generator or power station. Total system cost for full protection: $1,200 to $4,500 depending on your choices.' },
+              },
+            ],
+          }),
+        }}
+      />
+
       {/* Article Hero */}
       <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
         <Image
@@ -366,6 +414,10 @@ export default function BackupPowerSumpPumps() {
 
         <div className='space-y-6 mb-8'>
           <div className='border border-slate-200 rounded-lg p-6'>
+            <h3 className='text-lg font-bold text-slate-900 mb-3'>What is the difference between a battery backup sump pump and a portable power station?</h3>
+            <p className='text-slate-600 leading-relaxed'>A dedicated battery backup sump pump is a complete secondary pump system installed directly in the sump pit alongside the primary pump, powered by a 12-volt marine battery that charges continuously while grid power is available and activates automatically when the primary pump fails or loses power. It is purpose-built for one job and requires no human intervention during a storm. A portable power station is a large rechargeable lithium battery pack with a built-in AC inverter that powers your existing primary pump through a standard outlet, giving you more flexibility to power other devices but requiring the unit to be plugged into your pump and charged before the outage. The key practical difference is automation: a battery backup pump activates on its own with no action required, while a portable power station requires your primary pump to be plugged into it (some models with UPS mode handle this automatically). For most homeowners who want set-and-forget protection for the pump only, a dedicated battery backup is simpler. For homeowners who also want to power a dehumidifier, lights, or phone during an outage, a portable power station provides more value. See our <Link href='/articles/battery-vs-water-powered-sump-pumps' className='text-teal-600 hover:underline'>battery vs water-powered backup comparison</Link> for a full breakdown of dedicated backup pump systems.</p>
+          </div>
+          <div className='border border-slate-200 rounded-lg p-6'>
             <h3 className='text-lg font-bold text-slate-900 mb-3'>Will a 2,000-watt generator run a sump pump?</h3>
             <p className='text-slate-600 leading-relaxed'>Yes&mdash;a 2,000W generator will run most 1/3 HP sump pumps comfortably. For a 1/2 HP pump, check the specific surge wattage on your pump&rsquo;s label. Some 1/2 HP pumps surge above 3,000W, which would require a larger generator. When in doubt, size up.</p>
           </div>
@@ -388,6 +440,35 @@ export default function BackupPowerSumpPumps() {
           <div className='border border-slate-200 rounded-lg p-6'>
             <h3 className='text-lg font-bold text-slate-900 mb-3'>How much does it cost to install a sump pump with backup power?</h3>
             <p className='text-slate-600 leading-relaxed'>A new <Link href='/articles/sump-pump-cost' className='text-teal-600 hover:underline'>sump pump installation</Link> runs $600&ndash;$2,500. Add $600&ndash;$2,000 for a battery backup system, or $400&ndash;$2,000 for a portable generator or power station. Total system cost for full protection: $1,200&ndash;$4,500 depending on your choices.</p>
+          </div>
+        </div>
+
+        {/* Glossary */}
+        <h2 className='text-3xl font-bold text-slate-900 mt-12 mb-6'>Glossary of Backup Power Terms</h2>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-6 mb-8'>
+          <div className='border border-slate-200 rounded-lg p-6'>
+            <h4 className='font-bold text-slate-900 mb-1'>Surge Watts (Starting Watts)</h4>
+            <p className='text-slate-600 text-sm'>The peak wattage a generator or power station must supply for a fraction of a second when a motor-driven appliance like a sump pump first starts. Sump pump motors draw 2 to 3 times their running wattage at startup. If a backup power source cannot meet the surge demand, the pump will not start even if the running wattage is within range. Always match backup surge capacity to your pump&rsquo;s starting wattage, not its running wattage.</p>
+          </div>
+          <div className='border border-slate-200 rounded-lg p-6'>
+            <h4 className='font-bold text-slate-900 mb-1'>Running Watts (Continuous Watts)</h4>
+            <p className='text-slate-600 text-sm'>The steady wattage a sump pump draws during normal operation after the motor has started. Lower than surge watts. Used to calculate runtime on a battery-powered unit. A 1,000 Wh battery running an 800W pump continuously would last roughly 1.25 hours, but since sump pumps cycle on and off rather than running continuously, real-world runtime is typically 3 to 5 times longer.</p>
+          </div>
+          <div className='border border-slate-200 rounded-lg p-6'>
+            <h4 className='font-bold text-slate-900 mb-1'>Pure Sine Wave</h4>
+            <p className='text-slate-600 text-sm'>The type of AC power output required for motor-driven appliances like sump pumps. Produces smooth, consistent power that matches utility grid power. The alternative, modified sine wave, is cheaper to produce but can damage pump motors, void warranties, and cause inefficient operation. All quality portable power stations and inverter generators produce pure sine wave output. Confirm this specification before purchasing any backup power device for a sump pump.</p>
+          </div>
+          <div className='border border-slate-200 rounded-lg p-6'>
+            <h4 className='font-bold text-slate-900 mb-1'>LiFePO4 (Lithium Iron Phosphate)</h4>
+            <p className='text-slate-600 text-sm'>A battery chemistry used in premium portable power stations that offers significantly longer cycle life (3,000 to 4,000 charge cycles vs 500 to 800 for standard lithium-ion), better thermal stability, and safer operation in basement environments. A power station with LiFePO4 chemistry used weekly would last over 10 years before the battery degrades to 80 percent capacity. The preferred chemistry for basement backup applications.</p>
+          </div>
+          <div className='border border-slate-200 rounded-lg p-6'>
+            <h4 className='font-bold text-slate-900 mb-1'>UPS Mode (Uninterruptible Power Supply Mode)</h4>
+            <p className='text-slate-600 text-sm'>A feature on some portable power stations that allows the unit to stay plugged into wall power while simultaneously powering connected devices, switching to battery in under 20 milliseconds when grid power fails. Fast enough that a sump pump experiences no interruption. Eliminates the need to manually connect the pump during a storm. The EcoFlow DELTA 2 Max and similar units with UPS mode effectively function as a transparent backup that activates without any human involvement.</p>
+          </div>
+          <div className='border border-slate-200 rounded-lg p-6'>
+            <h4 className='font-bold text-slate-900 mb-1'>Inverter Generator</h4>
+            <p className='text-slate-600 text-sm'>A generator type that uses electronic circuitry to produce stable, clean AC power with low total harmonic distortion (THD), making it safe for sensitive motor-driven appliances like sump pumps. More fuel-efficient and significantly quieter than conventional generators at partial load. The correct generator type for sump pump backup. Conventional (non-inverter) generators produce dirtier power that can damage pump motors over time.</p>
           </div>
         </div>
 
