@@ -52,6 +52,10 @@ export default function WaterComingUpThroughBasementFloor() {
       {/* Intro */}
       <article className='max-w-4xl mx-auto px-6 py-16'>
         <div className='prose prose-lg prose-slate max-w-none'>
+          <p className='text-lg text-slate-700 leading-relaxed mb-8'>
+            Water coming up through a basement floor is the result of hydrostatic pressure &mdash; the upward force exerted by groundwater saturating the soil beneath the slab &mdash; finding its way through the path of least resistance: floor cracks, the cove joint at the floor-wall perimeter, porous concrete, or sub-slab plumbing failures. Unlike wall seepage, which can sometimes be addressed with surface coatings or exterior drainage, floor water intrusion is driven by pressure from below that cannot be permanently blocked by sealing the surface &mdash; the pressure will simply find the next weakest point. The correct approach is to relieve or redirect the pressure using a drainage system that gives water a controlled path to a sump pump rather than trying to stop it with surface treatments alone. Identifying whether the source is groundwater, a plumbing leak, or a sewer backup is the critical first step because each has a completely different fix, urgency level, and cost range.
+          </p>
+
           <p className='text-xl text-slate-700 leading-relaxed'>
             Water on your basement floor doesn&rsquo;t always come from the walls. Sometimes it bubbles up from below &mdash; seeping through cracks in the slab, pooling along the edges where the floor meets the wall, or appearing as a damp patch with no obvious source.
           </p>
