@@ -112,8 +112,13 @@ export default function WaterproofBasementPaintSealers() {
         <div className='grid grid-cols-1 lg:grid-cols-12 gap-12'>
           <article className='lg:col-span-8 prose prose-lg max-w-none'>
 
+            {/* Entity Definition */}
+            <p className='text-lg text-slate-700 leading-relaxed mb-8'>
+              Waterproof basement paint and concrete sealers are products applied to basement walls and floors to reduce or eliminate water vapor transmission, minor seepage, and surface dampness through the concrete or masonry. They fall into three distinct categories &mdash; surface coatings that form a barrier on top of the concrete, penetrating sealers that react chemically inside the concrete pores, and flexible membranes that stretch with the wall to bridge small cracks &mdash; each with different pressure resistance, longevity, and appropriate use cases. No paint or sealer is a substitute for drainage or exterior waterproofing when hydrostatic pressure is the source of the problem: coatings applied over active water pressure will eventually fail as the pressure finds a way through or around the treated surface. The right product depends on whether you are dealing with vapor dampness, minor seepage, moderate wall pressure, or cracking &mdash; and choosing the wrong category for your conditions is the most common reason homeowners are disappointed with results.
+            </p>
+
             {/* Intro */}
-            <p className='text-xl text-slate-700 leading-relaxed'>
+            <p className='text-lg text-slate-700 leading-relaxed mb-8'>
               If you are staring at damp basement walls and wondering what paint or sealer will actually keep the water out, you are not alone. Thousands of homeowners search for the right waterproof basement paint or sealer every month, and the top comparisons are always Drylok vs RadonSeal, with KILZ, Liquid Rubber, Thoroseal, and Sani-Tred right behind them.
             </p>
             <p className='text-lg text-slate-600 leading-relaxed'>
