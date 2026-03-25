@@ -160,7 +160,7 @@ export default function Footer() {
 
         {/* Our Network */}
         <div className="border-t border-slate-700 pt-6 mb-6">
-          <p className="text-slate-400 text-sm">Our Network: <a href="https://theseptic.guide" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">The Septic Guide</a> | <a href="https://thegarage.guide" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">The Garage Guide</a></p>
+          <p className="text-slate-400 text-sm">Our Network: <a href="https://theseptic.guide" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">The Septic Guide</a> | <a href="https://thegarage.guide" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">The Garage Guide</a> | <a href="https://www.thewell.guide" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">The Well Guide</a></p>
         </div>
         {/* Bottom */}
         <div className="border-t border-slate-700 pt-6 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-gray-500">
