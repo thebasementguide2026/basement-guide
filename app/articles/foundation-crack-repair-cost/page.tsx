@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Foundation Crack Repair Cost 2026 | Price Guide',
   description: 'How much does foundation crack repair cost in 2026? Epoxy injection vs. polyurethane foam. Average $350–$1,500 per crack depending on severity and method.',
+  alternates: { canonical: 'https://thebasement.guide/articles/foundation-crack-repair-cost' },
 }
 
 const faqSchema = {

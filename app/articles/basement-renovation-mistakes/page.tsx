@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Basement Renovation Mistakes: The 10 Most Expensive Errors Homeowners Make (2026)',
   description: 'Avoid the 10 most costly basement renovation mistakes. Real 2026 fix costs from $2,000 to $25,000 and how to dodge each one before you start your project.',
+  alternates: { canonical: 'https://thebasement.guide/articles/basement-renovation-mistakes' },
 }
 
 export default function BasementRenovationMistakes() {

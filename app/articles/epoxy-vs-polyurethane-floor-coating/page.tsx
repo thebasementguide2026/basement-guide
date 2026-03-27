@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Epoxy vs Polyurethane Floor Coating: Which One Should You Choose? | The Basement Guide',
   description: 'Complete 2026 comparison of epoxy vs polyurethane floor coatings. Pros, cons, costs, durability, UV resistance, and when to use each on your basement or garage floor.',
+  alternates: { canonical: 'https://thebasement.guide/articles/epoxy-vs-polyurethane-floor-coating' },
 }
 
 export default function EpoxyVsPolyurethaneArticle() {

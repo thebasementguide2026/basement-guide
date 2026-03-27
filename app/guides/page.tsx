@@ -6,6 +6,7 @@ import { articles } from '@/lib/articles'
 export const metadata: Metadata = {
   title: 'Basement Guides | The Basement Guide',
   description: 'In-depth basement waterproofing, finishing, health & safety, and structural guides for homeowners.',
+  alternates: { canonical: 'https://thebasement.guide/guides' },
 }
 
 const sections = [

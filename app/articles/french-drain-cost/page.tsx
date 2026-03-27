@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'French Drain Installation Cost 2026: Interior & Exterior Pricing | The Basement Guide',
   description: 'How much does a French drain cost in 2026? Complete pricing guide covering interior basement drains ($40 to $85/ft), exterior yard drains ($10 to $35/ft), DIY tips, recommended products, and when to hire a pro.',
+  alternates: { canonical: 'https://thebasement.guide/articles/french-drain-cost' },
 }
 
 const faqSchema = {

@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Basement Radon Testing and Mitigation: The Complete Guide (2026)',
   description: 'Radon is the second leading cause of lung cancer. Learn how to test your home, understand your results, choose a mitigation system, and find certified contractors. Costs from $15 to $5,000.',
+  alternates: { canonical: 'https://thebasement.guide/articles/radon-testing-and-mitigation' },
 }
 
 export default function RadonTestingMitigationGuide() {

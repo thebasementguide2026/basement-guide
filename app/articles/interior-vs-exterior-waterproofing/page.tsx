@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Interior vs Exterior Basement Waterproofing 2026: Costs, Methods & Which to Choose | The Basement Guide',
   description: 'Complete 2026 comparison of interior vs exterior basement waterproofing. Real costs ($3,000–$18,000+), methods, lifespan, and when to choose each approach.',
+  alternates: { canonical: 'https://thebasement.guide/articles/interior-vs-exterior-waterproofing' },
 }
 
 const faqSchema = {

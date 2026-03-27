@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Basement Waterproofing Cost 2026: What You\'ll Actually Pay',
   description: 'How much does basement waterproofing cost in 2026? National average $5,230. Interior systems $3,000 to $8,000, exterior $8,000 to $15,000. Full cost breakdown by method.',
+  alternates: { canonical: 'https://thebasement.guide/articles/basement-waterproofing-cost' },
 }
 
 export default function BasementWaterproofingCostPage() {

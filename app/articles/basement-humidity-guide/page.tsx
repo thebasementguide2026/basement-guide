@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Basement Humidity Guide 2026: Ideal Levels, How to Measure & Fix High Humidity | The Basement Guide',
   description: 'Learn what basement humidity levels are safe in 2026. Ideal range is 30–50% RH. Find out how to measure with a hygrometer and fix high humidity fast.',
+  alternates: { canonical: 'https://thebasement.guide/articles/basement-humidity-guide' },
 }
 
 export default function BasementHumidityGuideArticle() {

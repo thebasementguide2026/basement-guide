@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Wet Basement Walls: Causes, Fixes, and When to Worry (2026) | The Basement Guide',
   description: 'Wet basement walls have six different causes and six different fixes. Use the foil test to diagnose your problem, then follow the right fix — from free to $15,000.',
+  alternates: { canonical: 'https://thebasement.guide/articles/wet-basement-walls' },
 }
 
 const faqSchema = {

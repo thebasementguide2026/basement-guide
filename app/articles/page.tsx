@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: 'Basement Articles & Guides | The Basement Guide',
   description:
     'Basement guides and articles covering waterproofing, mold, sump pumps, finishing, and more.',
+  alternates: { canonical: 'https://thebasement.guide/articles' },
 }
 
 const topicGroups: { label: string; id: string; slugs: string[] }[] = [

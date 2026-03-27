@@ -4,6 +4,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Affiliate Disclosure | The Basement Guide',
   description: 'The Basement Guide participates in affiliate programs. Read our full disclosure about how we earn commissions and how it affects our editorial content.',
+  alternates: { canonical: 'https://thebasement.guide/affiliate-disclosure' },
 }
 
 export default function AffiliateDisclosurePage() {

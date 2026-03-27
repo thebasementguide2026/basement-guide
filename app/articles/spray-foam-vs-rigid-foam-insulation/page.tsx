@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Spray Foam vs Rigid Foam Insulation: Which Is Better for Your Basement? | The Basement Guide',
   description: 'Complete 2026 comparison of spray foam vs rigid foam board insulation for basements. R-values, moisture performance, costs, DIY vs pro installation, and when to use each.',
+  alternates: { canonical: 'https://thebasement.guide/articles/spray-foam-vs-rigid-foam-insulation' },
 }
 
 export default function SprayFoamVsRigidFoamArticle() {

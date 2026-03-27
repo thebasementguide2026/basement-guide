@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Musty Basement Smell: Causes, Fixes, and How to Eliminate It for Good (2026) | The Basement Guide',
   description: 'Find out what causes that musty basement smell and how to get rid of it permanently. Step-by-step guide covering moisture sources, DIY fixes, long-term solutions, and when to call professionals.',
+  alternates: { canonical: 'https://thebasement.guide/articles/musty-basement-smell' },
 }
 
 const faqSchema = {

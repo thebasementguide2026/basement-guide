@@ -5,6 +5,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
     title: 'Drop Ceiling vs. Drywall for Basements: Complete Guide 2026 | The Basement Guide',
     description: 'Drop ceiling vs drywall for basements: compare costs, pros, cons, height requirements, moisture resistance, and which ceiling is right for your 2026 basement renovation.',
+  alternates: { canonical: 'https://thebasement.guide/articles/drop-ceiling-vs-drywall' },
   }
 
 export default function DropCeilingVsDrywall() {

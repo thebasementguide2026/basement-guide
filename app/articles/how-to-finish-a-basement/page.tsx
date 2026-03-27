@@ -5,6 +5,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'How to Finish a Basement: The Complete 2026 Guide',
   description: 'The complete 2026 guide to finishing a basement. Step-by-step process, costs, permits, insulation, flooring, and common mistakes to avoid.',
+  alternates: { canonical: 'https://thebasement.guide/articles/how-to-finish-a-basement' },
 }
 
 export default function HowToFinishBasement() {

@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Bowing Basement Walls: Causes, Signs, Repair Costs & Fixes | The Basement Guide',
   description: 'Complete 2026 guide to bowing basement walls. Causes like hydrostatic pressure, early warning signs, repair methods from carbon fiber straps to wall anchors, and updated costs averaging $4,500 nationally.',
+  alternates: { canonical: 'https://thebasement.guide/articles/bowing-basement-walls' },
 }
 
 export default function BowingWallsArticle() {

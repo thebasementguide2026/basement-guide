@@ -4,6 +4,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Terms of Use | The Basement Guide',
   description: 'Read the Terms of Use for The Basement Guide website.',
+  alternates: { canonical: 'https://thebasement.guide/terms' },
 }
 
 export default function TermsPage() {

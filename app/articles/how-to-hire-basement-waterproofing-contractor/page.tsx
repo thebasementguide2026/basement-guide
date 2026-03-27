@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'How to Hire a Basement Waterproofing Contractor Without Getting Scammed (2026)',
   description: 'A step-by-step guide to vetting basement waterproofing contractors in 2026. Red flags, interview questions, realistic costs, and how to avoid common scams.',
+  alternates: { canonical: 'https://thebasement.guide/articles/how-to-hire-basement-waterproofing-contractor' },
 }
 
 export default function HireWaterproofingContractor() {

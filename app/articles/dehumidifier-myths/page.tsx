@@ -77,6 +77,7 @@ const faqSchema = {
 export const metadata: Metadata = {
   title: 'Dehumidifier Myths: Why Your 30-Pint Unit Is Failing & the Science of Proper Sizing | The Basement Guide',
   description: 'Debunking common dehumidifier myths with science-based sizing guidelines updated for 2026. Learn why your 30-pint dehumidifier is undersized and how to choose the right capacity.',
+  alternates: { canonical: 'https://thebasement.guide/articles/dehumidifier-myths' },
 }
 
 export default function DehumidifierMythsArticle() {

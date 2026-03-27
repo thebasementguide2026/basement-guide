@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Best Waterproof Basement Flooring 2026: Options, Costs & ROI',
   description: 'The complete 2026 guide to basement flooring. Compare LVP, Porcelain Tile, Laminate, Engineered Hardwood, Rubber, Epoxy, Carpet Tiles & Polished Concrete on waterproof ratings, durability, cost, and ROI.',
+  alternates: { canonical: 'https://thebasement.guide/articles/best-basement-flooring' },
 }
 
 export default function BestBasementFlooring() {

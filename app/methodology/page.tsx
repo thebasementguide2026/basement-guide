@@ -4,6 +4,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Our Research Methodology | The Basement Guide',
   description: 'Learn how The Basement Guide researches, writes, and updates its content — including how we source pricing data, evaluate products, and maintain editorial independence.',
+  alternates: { canonical: 'https://thebasement.guide/methodology' },
 }
 
 export default function MethodologyPage() {

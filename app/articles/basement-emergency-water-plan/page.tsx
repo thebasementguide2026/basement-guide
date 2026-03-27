@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Water in My Basement: Your Immediate Emergency Plan (2026)',
   description: 'If water is flooding your basement right now, follow this step-by-step emergency plan. Safety first, stop the source, remove water fast, and prevent mold.',
+  alternates: { canonical: 'https://thebasement.guide/articles/basement-emergency-water-plan' },
 }
 
 export default function BasementEmergencyWaterPlan() {

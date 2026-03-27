@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Sump Pump Buying Guide: How to Choose the Right Sump Pump for Your Basement (2026)',
   description: 'Complete 2026 sump pump buying guide. Submersible vs pedestal, sizing by HP and flow rate, critical features, backup systems, pricing, installation, and maintenance.'
+  alternates: { canonical: 'https://thebasement.guide/articles/sump-pump-buying-guide' },
 }
 
 export default function SumpPumpBuyingGuide() {

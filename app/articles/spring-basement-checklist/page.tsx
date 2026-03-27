@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Spring Basement Checklist: Preparing for the Wet Season (2026)',
   description: 'Complete spring basement checklist with 13 steps to protect your basement from flooding, mold, and costly repairs. Gutters, sump pumps, cracks, dehumidifiers, and more.',
+  alternates: { canonical: 'https://thebasement.guide/articles/spring-basement-checklist' },
 }
 
 export default function SpringBasementChecklist() {

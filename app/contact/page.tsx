@@ -4,6 +4,7 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Contact Us | The Basement Guide',
   description: 'Get in touch with The Basement Guide team. Questions about basement waterproofing, article corrections, partnerships, or press inquiries.',
+  alternates: { canonical: 'https://thebasement.guide/contact' },
 }
 
 export default function ContactPage() {

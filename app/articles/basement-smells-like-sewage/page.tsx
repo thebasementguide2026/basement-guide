@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Basement Smells Like Sewage? How to Find the Source and Fix It Fast (2026) | The Basement Guide',
   description: 'A sewage smell in your basement means something in your plumbing has failed. Walk through 7 causes from easiest to hardest, with fix costs from $0 to $5,000.',
+  alternates: { canonical: 'https://thebasement.guide/articles/basement-smells-like-sewage' },
 }
 
 const faqSchema = {

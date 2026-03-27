@@ -4,6 +4,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Start Here | The Basement Guide',
   description: 'Not sure where to start? Answer a few quick questions and get directed to the right basement guides for your situation.',
+  alternates: { canonical: 'https://thebasement.guide/start-here' },
 }
 
 const situations = [

@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Types of Foundation Cracks: What Each One Means (2026) | The Basement Guide',
   description: 'Not all foundation cracks are equal. Learn the four main types, what causes them, risk levels, when to DIY vs call a pro, and three proven repair products for 2026.',
+  alternates: { canonical: 'https://thebasement.guide/articles/types-of-foundation-cracks' },
 }
 
 export default function FoundationCracksArticle() {

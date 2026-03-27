@@ -6,6 +6,7 @@ import { articles } from '@/lib/articles'
 export const metadata: Metadata = {
   title: 'Basement Product Reviews 2026 | The Basement Guide',
   description: 'Honest, research-backed reviews of the best basement products — dehumidifiers, sump pumps, flooring, vapor barriers, and more.',
+  alternates: { canonical: 'https://thebasement.guide/reviews' },
 }
 
 const reviewGroups = [

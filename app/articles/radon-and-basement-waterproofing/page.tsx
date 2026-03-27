@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Radon and Basement Waterproofing: How Sealing Reduces Radon Risks',
   description: 'Learn how basement waterproofing helps reduce radon gas levels. Explore radon entry points, mitigation systems, testing methods, and integrated solutions updated for 2026.',
+  alternates: { canonical: 'https://thebasement.guide/articles/radon-and-basement-waterproofing' },
 }
 
 const faqSchema = {

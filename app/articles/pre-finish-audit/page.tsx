@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Pre-Finish Audit: 7 Things Before Hanging Basement Drywall | The Basement Guide',
   description: 'Don\'t make costly mistakes. These 7 checkpoints will future-proof your basement before you frame a single wall.',
+  alternates: { canonical: 'https://thebasement.guide/articles/pre-finish-audit' },
 }
 
 export default function PreFinishAudit() {

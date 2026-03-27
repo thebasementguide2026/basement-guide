@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Old House Basements: Complete Guide to Renovating, Waterproofing & Insulating Older Homes (2026) | The Basement Guide',
   description: 'Expert guide to renovating basements in pre-1940 homes. Waterproofing stone and brick foundations, insulation strategies, historic preservation tips, and 2026 cost estimates.',
+  alternates: { canonical: 'https://thebasement.guide/articles/old-house-basements' },
 }
 
 export default function OldHouseBasementsArticle() {

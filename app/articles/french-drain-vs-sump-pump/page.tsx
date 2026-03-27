@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'French Drain vs Sump Pump: Which Basement Waterproofing System Is Best? | The Basement Guide',
   description: 'Compare French drain vs sump pump for basement waterproofing. Costs, pros, cons, installation, and why combining both gives the best protection in 2026.',
+  alternates: { canonical: 'https://thebasement.guide/articles/french-drain-vs-sump-pump' },
 }
 
 export default function FrenchDrainVsSumpPumpArticle() {

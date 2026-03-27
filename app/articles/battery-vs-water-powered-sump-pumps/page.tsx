@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Battery Backup vs Water-Powered Sump Pumps: 2026 Comparison Guide',
   description: 'Complete 2026 comparison of battery backup LiFePO4 and water-powered sump pump systems. Flow rates, costs, runtime, pros and cons to help you choose the right backup.',
+  alternates: { canonical: 'https://thebasement.guide/articles/battery-vs-water-powered-sump-pumps' },
 }
 
 export default function BatteryVsWaterPoweredPumps() {

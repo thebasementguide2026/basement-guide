@@ -4,6 +4,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'About The Basement Guide | Expert Waterproofing Advice',
   description: 'The Basement Guide is an independent resource helping homeowners understand basement waterproofing, finishing, and maintenance. Learn about our mission and methodology.',
+  alternates: { canonical: 'https://thebasement.guide/about' },
 }
 
 export default function AboutPage() {

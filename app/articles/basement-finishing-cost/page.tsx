@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Basement Finishing Cost Guide 2026: Breakdowns & ROI | The Basement Guide',
   description: 'How much does it cost to finish a basement in 2026? National averages from $20,000 to $60,000. Detailed breakdowns by sq ft, finish level, and ROI insights.',
+  alternates: { canonical: 'https://thebasement.guide/articles/basement-finishing-cost' },
 }
 
 const faqSchema = {

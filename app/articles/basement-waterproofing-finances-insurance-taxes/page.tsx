@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Basement Waterproofing & Your Finances: Insurance, Taxes, and Home Value (2026)',
   description: 'How basement waterproofing affects your homeowners insurance, tax deductions, and property value. NFIP flood policies, capital improvement rules, and ROI data for 2026.',
+  alternates: { canonical: 'https://thebasement.guide/articles/basement-waterproofing-finances-insurance-taxes' },
 }
 
 export default function BasementWaterproofingFinances() {

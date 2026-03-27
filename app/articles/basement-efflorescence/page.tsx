@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Basement Efflorescence: What That White Powder Really Means (2026) | The Basement Guide',
   description: 'Learn what causes white powder on basement walls, whether efflorescence is dangerous, how to clean it safely, and how to stop it from returning permanently.',
+  alternates: { canonical: 'https://thebasement.guide/articles/basement-efflorescence' },
 }
 
 export default function BasementEfflorescenceArticle() {

@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Best Sump Pumps for 2026: Top Submersible and Pedestal Picks | The Basement Guide',
   description: 'See the best sump pumps for 2026, including top-rated submersible and pedestal models with GPH, horsepower, noise levels, and real-world reliability for wet basements.',
+  alternates: { canonical: 'https://thebasement.guide/articles/best-sump-pumps-2026' },
 }
 
 export default function BestSumpPumps2026() {

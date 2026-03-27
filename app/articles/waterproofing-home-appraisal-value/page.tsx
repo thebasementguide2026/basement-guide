@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'How Much Value Does a Waterproofed Basement Add to Your Home Appraisal?',
   description: 'Discover how professional basement waterproofing boosts home appraisal value. Explore ROI figures, cost vs value data, and real-world examples updated for 2026.',
+  alternates: { canonical: 'https://thebasement.guide/articles/waterproofing-home-appraisal-value' },
 }
 
 export default function WaterproofingAppraisalValueArticle() {

@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Basement Permits Guide: Navigating the Process for Finishing, Renovations, and Conversions | The Basement Guide',
   description: 'Complete guide to basement finishing permits in 2026. Learn when you need a permit, the step-by-step process, code requirements, costs, and tips to avoid fines and delays.',
+  alternates: { canonical: 'https://thebasement.guide/articles/basement-permits-guide' },
 }
 
 export default function BasementPermitsGuideArticle() {

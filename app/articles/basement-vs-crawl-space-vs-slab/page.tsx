@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Basement vs. Crawl Space vs. Slab Foundation: Cost, Pros, Cons, and How to Choose (2026) | The Basement Guide',
   description: 'Compare basement, crawl space, and slab foundations. Costs updated for 2026, pros/cons, longevity, energy efficiency, moisture risk, and how to choose based on your climate, soil, and budget.',
+  alternates: { canonical: 'https://thebasement.guide/articles/basement-vs-crawl-space-vs-slab' },
 }
 
 export default function FoundationComparisonArticle() {

@@ -5,6 +5,7 @@ import SearchResults from '@/components/SearchResults'
 export const metadata: Metadata = {
   title: 'Search Guides | The Basement Guide',
   description: 'Search our library of basement waterproofing, finishing, and maintenance guides.',
+  alternates: { canonical: 'https://thebasement.guide/search' },
 }
 
 export default function SearchPage() {

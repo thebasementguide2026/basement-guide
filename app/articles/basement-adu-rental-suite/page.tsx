@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Basement ADU & Rental Suite Guide: How to Create a Profitable Legal Basement Apartment (2026) | The Basement Guide',
   description: 'Complete 2026 guide to converting your basement into a legal ADU or rental suite. Covers waterproofing, egress, costs, zoning, design, and ROI for basement apartments.',
+  alternates: { canonical: 'https://thebasement.guide/articles/basement-adu-rental-suite' },
 }
 
 export default function BasementADURentalSuiteArticle() {

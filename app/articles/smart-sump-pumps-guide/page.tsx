@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Smart Sump Pumps & Leak Sensors: The 2026 Guide | The Basement Guide',
   description: 'Everything you need to know about smart sump pumps, IoT leak sensors, and Wi-Fi flood monitoring systems. Matter protocol, battery backups, and top picks for 2026.',
+  alternates: { canonical: 'https://thebasement.guide/articles/smart-sump-pumps-guide' },
 }
 
 export default function SmartSumpPumpsGuide() {

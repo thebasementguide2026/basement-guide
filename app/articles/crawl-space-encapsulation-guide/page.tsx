@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Crawl Space Encapsulation: Complete Guide (2026) | The Basement Guide',
   description: 'Complete guide to crawl space encapsulation in 2026. Learn costs, DIY vs pro installation, materials, step-by-step process, and maintenance tips for a dry, healthy crawl space.',
+  alternates: { canonical: 'https://thebasement.guide/articles/crawl-space-encapsulation-guide' },
 }
 
 export default function CrawlSpaceEncapsulationGuide() {

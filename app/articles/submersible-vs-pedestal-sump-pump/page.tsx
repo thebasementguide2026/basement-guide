@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Submersible vs Pedestal Sump Pump: Which Is Right for Your Basement? | The Basement Guide',
   description: 'Compare submersible vs pedestal sump pumps. Learn the pros, cons, costs, noise levels, and best uses to pick the right sump pump for your basement in 2026.',
+  alternates: { canonical: 'https://thebasement.guide/articles/submersible-vs-pedestal-sump-pump' },
 }
 
 export default function SubmersibleVsPedestalSumpPump() {

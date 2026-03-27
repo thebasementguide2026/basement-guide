@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Basement Home Gym Guide: How to Build a Great Workout Space Below Ground (2026) | The Basement Guide',
   description: 'Complete 2026 guide to building a basement home gym. Waterproofing, flooring, ventilation, design tips, realistic costs, and the best equipment for below-grade spaces.',
+  alternates: { canonical: 'https://thebasement.guide/articles/basement-home-gym' },
 }
 
 export default function BasementHomeGym() {

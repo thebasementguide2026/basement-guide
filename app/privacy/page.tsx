@@ -4,6 +4,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Privacy Policy | The Basement Guide',
   description: 'Learn how The Basement Guide collects, uses, and protects your personal information.',
+  alternates: { canonical: 'https://thebasement.guide/privacy' },
 }
 
 export default function PrivacyPage() {

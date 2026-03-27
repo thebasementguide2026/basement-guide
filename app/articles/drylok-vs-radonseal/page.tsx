@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Drylok vs RadonSeal: Which Basement Sealer Is Right for You? | The Basement Guide',
   description: 'Compare Drylok vs RadonSeal for basement waterproofing. Pros, cons, costs, radon protection, and real recommendations to help you choose the best basement wall sealer in 2026.',
+  alternates: { canonical: 'https://thebasement.guide/articles/drylok-vs-radonseal' },
 }
 
 export default function DrylokVsRadonsealArticle() {

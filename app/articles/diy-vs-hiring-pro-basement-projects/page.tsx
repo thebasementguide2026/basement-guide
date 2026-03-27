@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'DIY vs Hiring a Pro for Basement Projects: The Complete Guide | The Basement Guide',
   description: 'Should you DIY or hire a professional for basement waterproofing, flooring, remodeling, mold, bowed walls, and more? 2026 cost comparisons, pros/cons, and expert advice.',
+  alternates: { canonical: 'https://thebasement.guide/articles/diy-vs-hiring-pro-basement-projects' },
 }
 
 export default function DIYvsProArticle() {

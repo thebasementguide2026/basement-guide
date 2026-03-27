@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Interior Basement Drainage Systems: Types, Costs & How to Choose (2026)',
   description: 'Complete guide to interior basement drainage systems. Compare French drains, WaterGuard, DryTrak, and thin-floor systems. Costs $4,000-$15,000. Learn what contractors are actually selling you.',
+  alternates: { canonical: 'https://thebasement.guide/articles/interior-basement-drainage-systems' },
 }
 
 export default function InteriorBasementDrainageSystems() {

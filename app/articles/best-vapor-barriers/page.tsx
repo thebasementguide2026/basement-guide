@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Best Vapor Barriers for Basements & Crawl Spaces (2026) | The Basement Guide',
   description: 'Compare the best vapor barriers for basements and crawl spaces in 2026. Polyethylene, foil-faced, reinforced scrim, dimpled membranes, and liquid applied options reviewed with costs and recommendations.',
+  alternates: { canonical: 'https://thebasement.guide/articles/best-vapor-barriers' },
 }
 
 export default function BestVaporBarriersArticle() {

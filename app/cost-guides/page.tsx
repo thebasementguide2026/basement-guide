@@ -6,6 +6,7 @@ import { articles } from '@/lib/articles'
 export const metadata: Metadata = {
   title: 'Basement Cost Guides 2026 | The Basement Guide',
   description: 'Real 2026 pricing data for every basement project. Finishing, waterproofing, sump pumps, french drains, mold remediation and more.',
+  alternates: { canonical: 'https://thebasement.guide/cost-guides' },
 }
 
 const costSlugs = [

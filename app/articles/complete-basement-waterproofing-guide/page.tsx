@@ -5,6 +5,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Complete Basement Waterproofing Guide: How to Stop Leaks and Protect Your Foundation | 2026',
   description: 'The complete 2026 guide to basement waterproofing. Learn why basements leak, compare interior vs. exterior methods, understand costs, and get a step-by-step plan to protect your home from water damage.',
+  alternates: { canonical: 'https://thebasement.guide/articles/complete-basement-waterproofing-guide' },
 }
 
 export default function CompleteBasementWaterproofingGuide() {

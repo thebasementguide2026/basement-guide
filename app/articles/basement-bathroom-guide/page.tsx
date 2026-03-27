@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Basement Bathroom Guide: How to Add a Bathroom the Right Way (2026) | The Basement Guide',
   description: 'Complete 2026 guide to adding a bathroom in your basement. Costs, plumbing options, waterproofing, materials, and step-by-step planning.',
+  alternates: { canonical: 'https://thebasement.guide/articles/basement-bathroom-guide' },
 }
 
 const faqSchema = {

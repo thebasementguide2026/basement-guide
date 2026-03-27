@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Sump Pump Design Ideas 2026: 10 Ways to Hide and Transform Your Basement',
   description: 'From $30 decorative covers to $2,500 custom cabinetry, these sump pump design ideas turn an eyesore into a seamless part of your finished basement. Photos, costs, and step-by-step options for every budget.',
+  alternates: { canonical: 'https://thebasement.guide/articles/sump-pump-design-ideas' },
 }
 
 const faqSchema = {

@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Does Homeowners Insurance Cover Basement Flooding? 2026 Guide',
       description: 'Most basement floods are not covered by standard homeowners insurance. Here is exactly what your HO-3 covers, what requires separate flood insurance, and the one rider that covers sump pump failures.',
+  alternates: { canonical: 'https://thebasement.guide/articles/basement-flooding-insurance' },
 }
 
 export default function BasementFloodingInsurance() {

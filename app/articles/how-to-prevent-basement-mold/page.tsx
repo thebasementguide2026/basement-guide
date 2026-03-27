@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'How to Prevent Basement Mold: The Complete Guide for Homeowners | The Basement Guide',
   description: 'Learn how to prevent basement mold with proven methods. Control humidity, manage water sources, spot early warning signs, and protect your home from mold damage in 2026.',
+  alternates: { canonical: 'https://thebasement.guide/articles/how-to-prevent-basement-mold' },
 }
 
 export default function PreventMoldArticle() {

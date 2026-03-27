@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'The Homebuyer\'s Basement Inspection Checklist: Don\'t Buy a Money Pit',
   description: 'A detailed 2026 homebuyer basement inspection checklist to spot red flags like hidden mold, fresh paint cover-ups, water damage, and foundation issues before you buy.',
+  alternates: { canonical: 'https://thebasement.guide/articles/homebuyers-basement-inspection-checklist' },
 }
 
 export default function HomebuyersBasementInspectionChecklist() {
