@@ -2,6 +2,11 @@ import Link from 'next/link'
 import Image from 'next/image'
 import LeadForm from '@/components/LeadForm'
 import { articles } from '@/lib/articles'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  alternates: { canonical: 'https://thebasement.guide' },
+}
 
 const featuredSlug = 'complete-basement-waterproofing-guide'
 
