@@ -6,6 +6,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'How to Dry Out a Basement After Flooding (2026) | Step-by-Step Guide',
   description: 'Complete guide to drying out a flooded basement. Step-by-step process for water removal, drying equipment, mold prevention, and insurance documentation.',
+  alternates: { canonical: 'https://thebasement.guide/articles/how-to-dry-out-basement-after-flooding' },
 };
 
 const faqSchema = {

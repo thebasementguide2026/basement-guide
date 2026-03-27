@@ -6,6 +6,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Mold Remediation Cost Guide 2026 | What Homeowners Actually Pay',
   description: 'Professional mold remediation costs $1,500 to $9,000 for most basement and crawl space projects in 2026. National average $3,500 to $4,500. Complete cost breakdown by area, location, mold type, and phase.',
+  alternates: { canonical: 'https://thebasement.guide/articles/mold-remediation-cost' },
 };
 
 const faqSchema = {

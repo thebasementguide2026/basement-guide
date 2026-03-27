@@ -6,6 +6,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Sump Pump Installation Cost 2026: What You Will Actually Pay',
   description: 'Sump pump installation costs $600-$2,500 in 2026. See cost breakdowns by pump type, what affects pricing, DIY vs. pro, and how to avoid overpaying.',
+  alternates: { canonical: 'https://thebasement.guide/articles/sump-pump-cost' },
 };
 
 const faqSchema = {

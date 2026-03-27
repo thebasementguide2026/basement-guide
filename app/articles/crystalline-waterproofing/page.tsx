@@ -69,6 +69,7 @@ const faqSchema = {
 export const metadata: Metadata = {
   title: 'What is Crystalline Waterproofing? Self-Healing Concrete Technology 2026',
   description: 'Discover how crystalline waterproofing creates self-healing concrete foundations that repair cracks automatically. The future of waterproofing technology explained.',
+  alternates: { canonical: 'https://thebasement.guide/articles/crystalline-waterproofing' },
 };
 
 export default function CrystallineWaterproofing() {

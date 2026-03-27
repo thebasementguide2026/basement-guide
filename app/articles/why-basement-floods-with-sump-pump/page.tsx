@@ -6,6 +6,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Why Your Basement Floods Even With a Sump Pump (And How to Fix It)',
   description: 'The 10 most common reasons basements flood despite having a sump pump, how to diagnose each one, and what to do about it. Organized from easy DIY checks to pro-level fixes.',
+  alternates: { canonical: 'https://thebasement.guide/articles/why-basement-floods-with-sump-pump' },
 };
 
 const faqSchema = {

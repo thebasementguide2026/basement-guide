@@ -68,6 +68,7 @@ const faqSchema = {
 export const metadata: Metadata = {
   title: 'Water Coming Up Through Basement Floor: Causes, Fixes & Costs (2026)',
   description: 'Water pushing up through your basement floor? Learn the causes including hydrostatic pressure, cove joint seepage, and plumbing leaks. Get fix costs from $50 to $25,000.',
+  alternates: { canonical: 'https://thebasement.guide/articles/water-coming-up-through-basement-floor' },
 };
 export default function WaterComingUpThroughBasementFloor() {
   return (

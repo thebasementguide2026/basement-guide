@@ -6,6 +6,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Best Backup Power for Sump Pumps 2026 | Generators & Battery Stations',
   description: 'Find the best backup power for your sump pump in 2026. Compare generators, portable power stations, and battery backups with honest recommendations.',
+  alternates: { canonical: 'https://thebasement.guide/articles/backup-power-sump-pumps' },
 };
 
 export default function BackupPowerSumpPumps() {
