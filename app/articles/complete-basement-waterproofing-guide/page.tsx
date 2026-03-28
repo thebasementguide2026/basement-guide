@@ -505,6 +505,15 @@ export default function CompleteBasementWaterproofingGuide() {
             </a>
           </div>
 
+          <h3 className="text-xl font-semibold text-gray-900 mb-4">Also on <span style={{ color: '#1D9E75' }}>The Well Guide</span></h3>
+          <div className="grid md:grid-cols-2 gap-6 mb-10">
+            <a href="https://well.guide/guides/complete-well-guide" target="_blank" rel="noopener noreferrer" className="bg-white rounded-lg p-6 shadow-sm block border-l-4 hover:shadow-md transition-shadow" style={{ borderLeftColor: '#1D9E75', borderTop: '1px solid #E8E4DE', borderRight: '1px solid #E8E4DE', borderBottom: '1px solid #E8E4DE' }}>
+              <h4 className="font-bold text-gray-900 mb-1">The Complete Guide to Private Well Water Systems</h4>
+              <p className="text-gray-600 text-sm">The central reference guide for rural homeowners — how a private well works from aquifer to faucet, all 12 system components, annual maintenance, 20-year cost of ownership, and links to every in-depth well guide on the site.</p>
+              <span className="text-xs mt-2 inline-block" style={{ color: '#1D9E75' }}>well.guide</span>
+            </a>
+          </div>
+
           <h3 className="text-xl font-semibold text-gray-900 mb-4">External Resource</h3>
           <div className="grid md:grid-cols-2 gap-6 mb-10">
             <a href="https://www.epa.gov/mold/moisture-control" target="_blank" rel="noopener noreferrer" className="bg-white rounded-lg p-6 shadow-sm border border-slate-200 block">
