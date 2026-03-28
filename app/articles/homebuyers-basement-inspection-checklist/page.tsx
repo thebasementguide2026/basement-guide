@@ -400,7 +400,7 @@ export default function HomebuyersBasementInspectionChecklist() {
 
             <h3 className='text-xl font-bold text-slate-900 mt-10 mb-4'>Also on <span style={{ color: '#1D9E75' }}>The Well Guide</span></h3>
             <div className='grid md:grid-cols-2 gap-6'>
-              <a href='https://well.guide/guides/buying-house-with-well' target='_blank' rel='noopener noreferrer' className='block bg-white rounded-2xl p-6 border-l-4 hover:shadow-md transition-shadow' style={{ borderLeftColor: '#1D9E75', borderTop: '1px solid #E8E4DE', borderRight: '1px solid #E8E4DE', borderBottom: '1px solid #E8E4DE' }}>
+              <a href='https://www.thewell.guide/guides/buying-house-with-well' target='_blank' rel='noopener noreferrer' className='block bg-white rounded-2xl p-6 border-l-4 hover:shadow-md transition-shadow' style={{ borderLeftColor: '#1D9E75', borderTop: '1px solid #E8E4DE', borderRight: '1px solid #E8E4DE', borderBottom: '1px solid #E8E4DE' }}>
                 <h4 className='text-lg font-bold text-slate-900 mb-2'>Buying a House With a Well: The Complete Inspection and Negotiation Guide</h4>
                 <p className='text-slate-600 text-sm'>If the property you are buying has a private well, this guide covers everything to inspect, test, and negotiate before closing — flow rate testing, water quality panels, pump and pressure tank condition, and how to handle a failing well in a real estate transaction.</p>
                 <span className='text-xs mt-2 inline-block' style={{ color: '#1D9E75' }}>well.guide</span>
