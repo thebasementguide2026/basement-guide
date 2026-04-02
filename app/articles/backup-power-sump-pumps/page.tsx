@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import LeadForm from '@/components/LeadForm';
+import AuthorBio from '@/components/AuthorBio';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -511,6 +512,7 @@ export default function BackupPowerSumpPumps() {
             <h2 className='text-3xl font-black text-white mb-4'>Get Your Sump Pump Installed Right</h2>
             <p className='text-slate-400 text-lg'>Get free quotes from vetted sump pump installation professionals in your area.</p>
           </div>
+          <AuthorBio />
           <LeadForm />
         </div>
       </section>
