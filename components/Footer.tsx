@@ -165,6 +165,7 @@ export default function Footer() {
         {/* Bottom */}
         <div className="border-t border-slate-700 pt-6 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-gray-500">
           <p>&copy; {new Date().getFullYear()} The Basement Guide. All rights reserved.</p>
+          <p>Part of <a href="https://thehome.guide" className="hover:text-gray-300 transition-colors">The Home Guide Network</a></p>
           <div className="flex gap-4">
             <Link href="/privacy" className="hover:text-gray-300 transition-colors">Privacy Policy</Link>
             <Link href="/terms" className="hover:text-gray-300 transition-colors">Terms of Use</Link>
