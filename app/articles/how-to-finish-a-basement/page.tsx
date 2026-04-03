@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import LeadForm from '@/components/LeadForm'
+import BeehiivEmailCapture from '@/components/BeehiivEmailCapture'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -459,6 +460,8 @@ export default function HowToFinishBasement() {
 
       {/* Lead Form */}
       <section className="max-w-4xl mx-auto px-4 py-12">
+        <BeehiivEmailCapture />
+
         <LeadForm />
       </section>
 
