@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import LeadForm from '@/components/LeadForm'
+import BeehiivEmailCapture from '@/components/BeehiivEmailCapture'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -530,6 +531,8 @@ export default function CompleteBasementWaterproofingGuide() {
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-3xl font-bold text-gray-900 mb-4 text-center">Get Your Free Waterproofing Assessment</h2>
           <p className="text-gray-600 text-center mb-8">Connect with certified waterproofing professionals for a free assessment of your home.</p>
+          <BeehiivEmailCapture />
+
           <LeadForm />
         </div>
       </section>
