@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import LeadForm from '@/components/LeadForm'
+import BeehiivEmailCapture from '@/components/BeehiivEmailCapture'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -475,6 +476,8 @@ export default function PreventMoldArticle() {
         <div className='max-w-4xl mx-auto px-4 text-center'>
           <h2 className='text-3xl font-bold text-white mb-4'>Suspect a Mold Issue?</h2>
           <p className='text-slate-300 mb-8 text-lg'>Connect with local mold remediation and waterproofing professionals for a free assessment of your moisture problems.</p>
+          <BeehiivEmailCapture />
+
           <LeadForm />
         </div>
       </section>
