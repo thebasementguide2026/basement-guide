@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import LeadForm from '@/components/LeadForm'
+import BeehiivEmailCapture from '@/components/BeehiivEmailCapture'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -556,6 +557,8 @@ export default function BasementWaterproofingCostPage() {
             </p>
           </div>
           {/* Lead Form */}
+          <BeehiivEmailCapture />
+
           <LeadForm />
         </div>
       </div>
