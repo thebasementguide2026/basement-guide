@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import LeadForm from '@/components/LeadForm'
+import BeehiivEmailCapture from '@/components/BeehiivEmailCapture'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -702,6 +703,8 @@ export default function BestSumpPumps2026() {
           {/* Sidebar */}
           <aside className='lg:col-span-4'>
             <div className='sticky top-8 space-y-8'>
+              <BeehiivEmailCapture />
+
               <LeadForm />
             </div>
           </aside>
