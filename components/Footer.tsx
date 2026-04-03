@@ -141,6 +141,21 @@ export default function Footer() {
   return (
     <footer className="bg-slate-900 text-gray-300 mt-16">
       <div className="container-custom py-12">
+
+        {/* Email Signup Row */}
+        <div className='border-b border-white/10 pb-6 mb-6'>
+          <div className='flex flex-col sm:flex-row items-center justify-center gap-3'>
+            <p className='font-semibold text-white text-sm'>Get free homeowner tips</p>
+            <a
+              href='https://thehomeservicesguide.beehiiv.com/subscribe'
+              className='inline-block px-5 py-2 rounded-lg bg-white/10 hover:bg-white/20 text-white text-sm font-medium transition-colors'
+            >
+              Subscribe Free &rarr;
+            </a>
+          </div>
+          <p className='text-white/30 text-[10px] text-center mt-2'>No spam. Unsubscribe anytime.</p>
+        </div>
+
         {/* Top: Brand + description */}
         <div className="mb-10">
           <h3 className="text-xl font-bold text-white mb-2">The Basement Guide</h3>
