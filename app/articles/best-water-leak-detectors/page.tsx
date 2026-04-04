@@ -4,8 +4,8 @@ import LeadForm from '@/components/LeadForm'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Best Water Leak Detectors & Smart Sensors for Basements 2026 | The Basement Guide',
-  description: 'YoLink vs Govee vs Ring vs Flo by Moen. Find the best water leak detector for your basement in 2026. Standalone, smart-home integrated, and whole-home systems compared.',
+  title: 'Best Water Leak Sensors & Detectors 2026: Top Picks for Every Budget | The Basement Guide',
+  description: 'The best water leak sensors for basements and whole-home protection. Top picks under $50, smart monitoring systems, and what to look for before your basement floods.',
   alternates: { canonical: 'https://thebasement.guide/articles/best-water-leak-detectors' },
 }
 
