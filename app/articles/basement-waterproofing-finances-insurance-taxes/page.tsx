@@ -4,8 +4,8 @@ import LeadForm from '@/components/LeadForm'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Basement Waterproofing & Your Finances: Insurance, Taxes, and Home Value (2026)',
-  description: 'How basement waterproofing affects your homeowners insurance, tax deductions, and property value. NFIP flood policies, capital improvement rules, and ROI data for 2026.',
+  title: 'Does Homeowners Insurance Cover Basement Waterproofing? Insurance, Taxes & Financing | The Basement Guide',
+  description: 'Homeowners insurance rarely covers basement waterproofing. Here is what is covered, whether waterproofing is tax deductible, and financing options when you are paying out of pocket.',
   alternates: { canonical: 'https://thebasement.guide/articles/basement-waterproofing-finances-insurance-taxes' },
 }
 
