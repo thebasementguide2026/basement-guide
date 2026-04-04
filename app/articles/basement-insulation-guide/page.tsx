@@ -4,8 +4,8 @@ import LeadForm from '@/components/LeadForm'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Basement Insulation Guide 2026: R-Values, Materials & Installation | The Basement Guide',
-  description: 'Complete 2026 basement insulation guide. Learn R-value requirements by climate zone, compare XPS vs spray foam vs mineral wool, step-by-step installation, costs, and moisture science.',
+  title: 'Basement Insulation Guide 2026: R-Values, Foam Board & Wall Options | The Basement Guide',
+  description: 'What R-value do you need for basement walls? Recommended R-values by climate zone, best foam board insulation options, and how to insulate basement walls correctly from the inside.',
   alternates: { canonical: 'https://thebasement.guide/articles/basement-insulation-guide' },
 }
 
