@@ -4,8 +4,8 @@ import LeadForm from '@/components/LeadForm'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Egress Window Cost Guide 2026 | The Basement Guide',
-  description: 'How much does it cost to install a basement egress window in 2026? Full cost breakdown for materials, excavation, permits, and labor. National average $3,850 to $4,200.',
+  title: 'Egress Window Cost 2026: Basement Installation & Replacement Prices | The Basement Guide',
+  description: 'Egress window installation costs $1,000 to $5,000 per window including excavation and framing. Basement egress window costs, replacement prices, and what affects your quote.',
   alternates: { canonical: 'https://thebasement.guide/articles/egress-window-cost' },
 }
 
