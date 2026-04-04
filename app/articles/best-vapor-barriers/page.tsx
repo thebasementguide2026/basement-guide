@@ -4,8 +4,8 @@ import LeadForm from '@/components/LeadForm'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Best Vapor Barriers for Basements & Crawl Spaces (2026) | The Basement Guide',
-  description: 'Compare the best vapor barriers for basements and crawl spaces in 2026. Polyethylene, foil-faced, reinforced scrim, dimpled membranes, and liquid applied options reviewed with costs and recommendations.',
+  title: 'Best Vapor Barriers for Basement Walls & Crawl Spaces 2026 | The Basement Guide',
+  description: 'The best vapor barriers for basement walls and crawl spaces compared by thickness, material, and application. Includes when you actually need one and what happens if you skip it.',
   alternates: { canonical: 'https://thebasement.guide/articles/best-vapor-barriers' },
 }
 
