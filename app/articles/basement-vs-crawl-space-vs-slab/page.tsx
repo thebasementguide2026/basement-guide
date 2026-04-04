@@ -92,7 +92,7 @@ export default function FoundationComparisonArticle() {
       {/* Article Hero */}
       <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
         <Image
-          src='/foundation-types.jpg'
+          src='/foundation-concrete-forms.jpg.png'
           alt='Comparison of basement, crawl space, and slab foundations'
           fill
           className='object-cover opacity-45 scale-105 transition-transform duration-700 hover:scale-100'
