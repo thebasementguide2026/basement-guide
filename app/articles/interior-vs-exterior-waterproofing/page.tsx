@@ -70,7 +70,7 @@ export default function InteriorVsExteriorWaterproofing() {
       {/* Article Hero */}
       <section className='relative bg-gradient-to-br from-slate-900 via-slate-800 to-teal-900 text-white py-20 md:py-32 overflow-hidden'>
         <Image
-          src='/images/interior-exterior-waterproofing-hero.webp'
+          src='/foundation-waterproofing-construction.jpg.png'
           alt='Interior vs exterior basement waterproofing comparison'
           fill
           className='object-cover opacity-20'
