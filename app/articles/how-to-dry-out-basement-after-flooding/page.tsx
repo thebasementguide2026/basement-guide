@@ -87,7 +87,7 @@ export default function HowToDryOutBasementAfterFlooding() {
       {/* Article Hero */}
       <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
         <Image
-          src='/cleanupbasement.jpg'
+          src='/images/cleanupbasement.jpg'
           alt='Basement flood cleanup and drying process'
           fill
           className='object-cover opacity-45 scale-105 transition-transform duration-700 hover:scale-100'
