@@ -4,8 +4,8 @@ import LeadForm from '@/components/LeadForm'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Best Basement Dehumidifiers 2026: Top 5 Picks Reviewed and Compared',
-  description: 'Top-rated basement dehumidifiers for 2026. Expert reviews of 50-pint models from Midea, hOmeLabs, Frigidaire, GE, and AlorAir for mold prevention, moisture control, and musty odor elimination.',
+  title: 'Best Dehumidifiers for Basements 2026: Top Brands & Systems Reviewed | The Basement Guide',
+  description: 'The best basement dehumidifiers compared by capacity, drainage type, and price. Top picks for large and small basements, whole-home systems, and the brands that actually last.',
   alternates: { canonical: 'https://thebasement.guide/articles/best-basement-dehumidifiers' },
 }
 
