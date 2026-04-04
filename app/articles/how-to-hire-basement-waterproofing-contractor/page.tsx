@@ -15,7 +15,7 @@ export default function HireWaterproofingContractor() {
       {/* Article Hero */}
       <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
         <Image
-          src='/hire-waterproofing-contractor.jpg'
+          src='/howto hire a contractor .jpg'
           alt='Homeowner meeting with basement waterproofing contractor'
           fill
           className='object-cover opacity-45 scale-105 transition-transform duration-700 hover:scale-100'
