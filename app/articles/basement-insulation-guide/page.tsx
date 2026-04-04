@@ -75,7 +75,7 @@ export default function BasementInsulationGuide() {
       {/* Article Hero */}
       <section className='relative bg-slate-900 text-white py-20 md:py-32 overflow-hidden'>
         <Image
-          src='/images/basement-insulation-hero.webp'
+          src='/images/spraysrigidinsulationhero.jpg'
           alt='Basement wall insulation installation'
           fill
           className='object-cover opacity-30'
