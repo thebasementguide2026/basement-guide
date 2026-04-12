@@ -504,6 +504,14 @@ export const articles: Article[] = [
     readTime: '18 min read',
     image: '/sumppumpdesign.jpg',
   },
+  {
+    title: 'Water in Basement After Rain: Diagnose the Entry Point and Fix It',
+    description: 'Water in basement after rain? Diagnose where it is entering, what is causing it, and what the fix costs. Covers all entry points from cove joint seepage to window wells to wall cracks.',
+    slug: 'problems/basement-water-after-rain',
+    category: 'Problems',
+    readTime: '13 min read',
+    image: '/Basement water after rain.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
