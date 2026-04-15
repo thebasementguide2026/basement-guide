@@ -512,6 +512,14 @@ export const articles: Article[] = [
     readTime: '13 min read',
     image: '/Basement water after rain.jpg',
   },
+  {
+    title: 'Basement Flooding Cleanup: What to Do in the First 72 Hours',
+    description: 'Basement flooded? This hour-by-hour guide covers exactly what to do in the first 72 hours — water removal, what to save vs throw out, insurance documentation, and mold prevention.',
+    slug: 'problems/basement-flooding-cleanup',
+    category: 'Problems',
+    readTime: '14 min read',
+    image: '/flooded basement.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
