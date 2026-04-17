@@ -4,8 +4,8 @@ import LeadForm from '@/components/LeadForm'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Sump Pump Design Ideas 2026: How to Hide, Enclose, and Integrate Your Sump Pump | The Basement Guide',
-  description: 'Creative ways to hide and integrate a sump pump in a finished basement. Cover ideas, enclosure builds, cabinet solutions, and DIY makeovers that make the pump disappear completely.',
+  title: 'How to Hide a Sump Pump: 10 Finished Basement Design Ideas (2026) | The Basement Guide',
+  description: 'How to hide, enclose, or integrate a sump pump in a finished basement. 10 design ideas from $30 pit covers to $2,500 custom cabinetry. Updated 2026.',
   alternates: { canonical: 'https://thebasement.guide/articles/sump-pump-design-ideas' },
 }
 
@@ -101,7 +101,7 @@ export default function SumpPumpDesignIdeas() {
         <div className="mb-8">
           <Image
             src="/sumppumpdesign.jpg"
-            alt="Finished basement with sump pump enclosed in built-in cabinetry"
+            alt="Finished basement with white built-in banquette bench concealing sump pump pit, lid open showing pump access and louvered ventilation panels"
             width={1200}
             height={600}
             className="w-full rounded-lg object-cover"
@@ -111,7 +111,7 @@ export default function SumpPumpDesignIdeas() {
 
         <div className="mb-2 text-sm font-semibold text-blue-600 uppercase tracking-wide">Design Guide</div>
         <h1 className="text-4xl font-bold mb-4">
-          Sump Pump Design Ideas 2026
+          How to Hide a Sump Pump: 10 Finished Basement Design Ideas
         </h1>
         <p className="text-xl text-gray-600 mb-4">
           How to hide, enclose, and integrate your sump pump in a finished basement. Every approach from $30 covers to $2,500 custom cabinetry.
