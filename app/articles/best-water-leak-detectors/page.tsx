@@ -4,8 +4,8 @@ import LeadForm from '@/components/LeadForm'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Best Water Leak Sensors & Detectors 2026: Top Picks for Every Budget | The Basement Guide',
-  description: 'The best water leak sensors for basements and whole-home protection. Top picks under $50, smart monitoring systems, and what to look for before your basement floods.',
+  title: 'Best Water Leak Sensors Under $50, $100, $300 & $500 (2026) | The Basement Guide',
+  description: 'Best water leak sensors under $50, $100, $300 & $500 compared. YoLink, Govee, Ring & Moen reviewed for basement flood protection. Updated 2026.',
   alternates: { canonical: 'https://thebasement.guide/articles/best-water-leak-detectors' },
 }
 
@@ -28,8 +28,8 @@ export default function BestWaterLeakDetectors() {
             <span className='text-cyan-400 font-bold tracking-[0.3em] text-sm uppercase'>Smart Home Guide</span>
           </div>
           <h1 className='text-5xl md:text-7xl font-black text-white mb-6 leading-[0.9] tracking-tighter'>
-            Best Water Leak Detectors<br />
-            <span className='text-cyan-400'>& Smart Sensors 2026</span>
+            Best Water Leak Sensors 2026:<br />
+            <span className='text-cyan-400'>Top Picks Under $50, $100, $300 & $500</span>
           </h1>
           <p className='text-xl text-slate-300 max-w-2xl leading-relaxed'>
             YoLink vs Govee vs Ring vs Flo by Moen. Standalone sensors, smart-home integrated options, and whole-home shutoff systems compared for basement protection.
@@ -49,6 +49,20 @@ export default function BestWaterLeakDetectors() {
       <div className='max-w-4xl mx-auto px-6 py-16'>
         {/* Article Body */}
         <article className='prose prose-lg max-w-none'>
+
+          {/* Best by Budget */}
+          <div className='bg-slate-50 border border-slate-200 rounded-2xl p-8 mb-12'>
+            <h2 className='text-2xl font-bold text-gray-900 mb-6'>Best Water Leak Sensors by Budget</h2>
+            <ul className='space-y-4 text-gray-700 text-lg'>
+              <li><strong>Under $20:</strong> <a href='https://amzn.to/4rGoGhR' target='_blank' rel='noopener noreferrer' className='text-blue-600 hover:text-blue-800 underline'>GoveeLife Water Leak Detector 3-pack</a> &mdash; $30&ndash;40 for three sensors with hub. Best budget coverage for small basements.</li>
+              <li><strong>Under $50:</strong> <a href='https://amzn.to/4tZpI9Z' target='_blank' rel='noopener noreferrer' className='text-blue-600 hover:text-blue-800 underline'>YoLink Water Leak Sensor 4</a> &mdash; $25&ndash;35 per sensor, our top overall pick. 125 ft LoRa range, 2&ndash;5 year battery, 105 dB alarm.</li>
+              <li><strong>Under $100:</strong> <a href='https://amzn.to/4tZpI9Z' target='_blank' rel='noopener noreferrer' className='text-blue-600 hover:text-blue-800 underline'>YoLink 4-pack with hub</a> &mdash; $50&ndash;90. Comprehensive coverage for an average basement with no smart home setup required.</li>
+              <li><strong>Under $300:</strong> <a href='https://amzn.to/47x843P' target='_blank' rel='noopener noreferrer' className='text-blue-600 hover:text-blue-800 underline'>Moen Smart Water Leak Detectors</a> (multi-sensor setup) &mdash; ~$200&ndash;250 with hub. Premium build quality for finished basements.</li>
+              <li><strong>Under $500:</strong> Full Flo by Moen components without professional installation &mdash; ~$400&ndash;500. Whole-home flow monitoring, pairs with Moen spot sensors.</li>
+              <li><strong>Over $500:</strong> <a href='https://amzn.to/4chgks4' target='_blank' rel='noopener noreferrer' className='text-blue-600 hover:text-blue-800 underline'>Flo by Moen installed</a> &mdash; $750&ndash;1,050 total including plumber. Maximum protection with automatic shutoff and insurance discount eligibility.</li>
+            </ul>
+            <p className='mt-4'><a href='#standalone-sensors' className='text-blue-600 hover:text-blue-800 underline font-medium'>Jump to full reviews below &darr;</a></p>
+          </div>
 
           {/* Intro */}
           <p className='text-gray-700 text-lg mb-4'>
@@ -181,7 +195,7 @@ export default function BestWaterLeakDetectors() {
           <div className='bg-slate-50 rounded-2xl p-8 mb-12'>
             <div className='flex items-center space-x-3 mb-4'>
               <span className='bg-cyan-500 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm'>1</span>
-              <h2 className='text-3xl font-bold text-gray-900'>Standalone Sensors: Simple, Affordable, No Smart Home Required</h2>
+              <h2 id='standalone-sensors' className='text-3xl font-bold text-gray-900'>Standalone Sensors: Simple, Affordable, No Smart Home Required</h2>
             </div>
             <p className='text-gray-600 text-lg'>Standalone sensors are the easiest starting point. They require no existing smart home system, install in seconds (place on floor, pair with app), and provide reliable detection with phone alerts through their own dedicated hub and app.</p>
           </div>
