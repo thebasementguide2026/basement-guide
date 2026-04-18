@@ -748,7 +748,7 @@ export default function FoundationCracksArticle() {
           <h3 className='text-xl font-semibold text-slate-800 mb-4'>External Resource</h3>
           <div className='grid md:grid-cols-2 gap-6 mb-10'>
             <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
-              <a href='https://www.concrete.org' target='_blank' rel='noopener noreferrer' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>American Concrete Institute Foundation Crack Guidance</a>
+              <a href='https://www.concrete.org' target='_blank' rel='noopener noreferrer nofollow' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>American Concrete Institute Foundation Crack Guidance</a>
               <p className='text-slate-600 text-sm mt-1'>The American Concrete Institute&apos;s technical standards for concrete crack classification, acceptable crack widths by structural application, and repair method specifications used by professional foundation engineers.</p>
             </div>
           </div>
