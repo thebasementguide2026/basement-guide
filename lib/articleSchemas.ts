@@ -358,12 +358,8 @@ export const articleSchemas: Record<string, ArticleSchemaData> = {
   },
 
   // --- DEHUMIDIFIER MYTHS ---
-  'dehumidifier-myths': {
-    faq: [
-      { q: 'What size dehumidifier do I need for my basement?', a: 'Most basements need a 50-70 pint unit. Measure your space and humidity levels. A 30-pint unit is almost always insufficient for basements over 500 sq ft.' },
-      { q: 'Should I run my basement dehumidifier all the time?', a: 'Yes, during humid months. Set it to maintain 45-50% RH and let it cycle automatically. Continuous drainage eliminates the need to empty the tank.' },
-    ],
-  },
+  // FAQ schema is defined inline in app/articles/dehumidifier-myths/page.tsx
+  // to avoid duplicate FAQPage schema flagged by Google Search Console.
 
   // --- RADON AND BASEMENT WATERPROOFING ---
   'radon-and-basement-waterproofing': {
