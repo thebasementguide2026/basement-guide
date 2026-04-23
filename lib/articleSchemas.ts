@@ -360,12 +360,8 @@ export const articleSchemas: Record<string, ArticleSchemaData> = {
   // to avoid duplicate FAQPage schema flagged by Google Search Console.
 
   // --- RADON AND BASEMENT WATERPROOFING ---
-  'radon-and-basement-waterproofing': {
-    faq: [
-      { q: 'Does waterproofing a basement reduce radon?', a: 'Sealing cracks and gaps can reduce radon entry points, but a dedicated radon mitigation system (sub-slab depressurization) is the most effective solution.' },
-      { q: 'What radon level is dangerous in a basement?', a: 'The EPA recommends action at 4 pCi/L or above. Any level above 2 pCi/L warrants consideration of mitigation, especially in finished basements.' },
-    ],
-  },
+  // FAQ schema is defined inline in app/articles/radon-and-basement-waterproofing/page.tsx
+  // to avoid duplicate FAQPage schema flagged by Google Search Console.
 
   // --- WATERPROOFING HOME APPRAISAL VALUE ---
   'waterproofing-home-appraisal-value': {
