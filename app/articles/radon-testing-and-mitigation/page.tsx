@@ -187,6 +187,7 @@ export default function RadonTestingMitigationGuide() {
                 <p className='text-slate-700'>Used for homes with hollow concrete block foundation walls. Suction is applied to the interior of the hollow block cores. Required when block walls are a primary radon entry point.</p>
               </div>
             </div>
+            <p className='text-slate-700 mb-4'>Basement ventilation is a secondary component of radon mitigation that works alongside primary techniques like sub-slab depressurization. Increasing air exchange dilutes radon concentrations, but exhaust-only ventilation can actually increase radon by creating negative pressure that pulls more soil gas through foundation cracks. Balanced ventilation systems like HRVs and ERVs maintain neutral pressure and are safer additions to a radon mitigation plan. For a complete guide to basement ventilation system types, including which approaches are compatible with radon mitigation, see our <Link href='/articles/basement-ventilation' className='text-teal-600 underline hover:text-teal-800'>basement ventilation guide</Link>.</p>
           </section>
 
                     {/* Costs */}
