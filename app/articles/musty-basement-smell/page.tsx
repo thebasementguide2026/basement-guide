@@ -123,6 +123,10 @@ export default function MustyBasementSmellArticle() {
             <p className='font-bold text-amber-800 mb-1'>Key Indicator</p>
             <p className='text-amber-700'>If the smell worsens after rain or during humid weather, moisture is almost certainly the cause.</p>
           </div>
+
+          <p className='text-lg text-slate-700 leading-relaxed mb-6'>
+            Musty basement smell often has two root causes working together: humidity creating conditions for mold and mildew growth, and inadequate ventilation allowing the resulting odor to accumulate rather than dissipate. Addressing humidity alone, without ventilation, can eliminate visible mold but still leave a lingering stale odor because the air itself is never exchanged. For a comprehensive guide to basement ventilation, including how to add mechanical exhaust or balanced ventilation to a basement without windows, see our <Link href='/articles/basement-ventilation' className='text-teal-600 underline hover:text-teal-800'>basement ventilation guide</Link>.
+          </p>
         </section>
 
         {/* Section 2 - Finding the Source */}
