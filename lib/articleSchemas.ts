@@ -72,10 +72,8 @@ export const articleSchemas: Record<string, ArticleSchemaData> = {
 
   // --- WATERPROOF BASEMENT PAINT & SEALERS ---
   'waterproof-basement-paint-sealers': {
-    faq: [
-      { q: 'Does waterproof basement paint really work?', a: 'Yes, products like Drylok and RadonSeal effectively block minor moisture penetration through concrete walls when applied correctly.' },
-      { q: 'What is the best waterproof paint for basement walls?', a: 'Drylok Extreme is the industry standard for DIY waterproof paint. For deeper penetration, RadonSeal is a professional-grade option.' },
-    ],
+    // FAQ schema is defined inline in app/articles/waterproof-basement-paint-sealers/page.tsx
+    // to avoid duplicate FAQPage schema flagged by Google Search Console.
     products: [
       { name: 'Drylok Extreme Masonry Waterproofer', description: 'Industry-standard basement wall sealant that withstands 15 PSI of hydrostatic pressure.' },
       { name: 'RadonSeal Deep-Penetrating Concrete Sealer', description: 'Professional-grade penetrating sealer that chemically bonds within concrete pores.' },
