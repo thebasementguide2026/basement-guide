@@ -520,6 +520,14 @@ export const articles: Article[] = [
     readTime: '14 min read',
     image: '/flooded basement.jpg',
   },
+  {
+    title: 'Basement Ventilation Guide: Exhaust Fans, Air Exchange, and Systems 2026',
+    description: 'Complete basement ventilation guide covering exhaust fans, ventilation systems, HRV/ERV options, installation, costs, and the critical distinction between ventilation and dehumidification.',
+    slug: 'basement-ventilation',
+    category: 'Article',
+    readTime: '15 min read',
+    image: '/basementventilation.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {
