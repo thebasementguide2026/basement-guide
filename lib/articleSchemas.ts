@@ -38,11 +38,8 @@ export const articleSchemas: Record<string, ArticleSchemaData> = {
 
   // --- HOW TO PREVENT BASEMENT MOLD ---
   'how-to-prevent-basement-mold': {
-    faq: [
-      { q: 'What humidity level causes mold in a basement?', a: 'Mold typically begins growing when relative humidity stays above 60% for extended periods. Keep humidity between 30-50% to prevent growth.' },
-      { q: 'Can I prevent basement mold without a dehumidifier?', a: 'Improving ventilation and fixing water intrusion helps, but a dehumidifier is the most reliable tool for maintaining safe humidity levels year-round.' },
-      { q: 'How often should I inspect for basement mold?', a: 'At least quarterly, and always after heavy rain or flooding events. Check hidden areas behind stored items and along baseboards.' },
-    ],
+    // FAQ schema is defined inline in app/articles/how-to-prevent-basement-mold/page.tsx
+    // to avoid duplicate FAQPage schema flagged by Google Search Console.
     howTo: {
       name: 'How to Prevent Basement Mold',
       description: 'The 5 pillars of permanent mold prevention for your basement.',
@@ -99,11 +96,8 @@ export const articleSchemas: Record<string, ArticleSchemaData> = {
 
   // --- TYPES OF FOUNDATION CRACKS ---
   'types-of-foundation-cracks': {
-    faq: [
-      { q: 'Are vertical foundation cracks serious?', a: 'Most vertical cracks are caused by normal concrete shrinkage and settling. Hairline vertical cracks are usually cosmetic and can be sealed with epoxy.' },
-      { q: 'What does a horizontal crack in my foundation mean?', a: 'Horizontal cracks are the most serious type, indicating the wall is bowing inward from hydrostatic pressure. Call a professional immediately.' },
-      { q: 'When should I call a professional for a foundation crack?', a: 'Call a pro if cracks are wider than 1/4 inch, horizontal, stair-stepping, growing, or actively leaking water.' },
-    ],
+    // FAQ schema is defined inline in app/articles/types-of-foundation-cracks/page.tsx
+    // to avoid duplicate FAQPage schema flagged by Google Search Console.
     products: [
       { name: 'Emecole Metro DIY Crack Repair Kit', description: 'Popular epoxy injection kit for vertical and settlement cracks up to 1/4 inch wide.' },
       { name: 'Applied Technologies Polyurethane Crack Repair Kit', description: 'Polyurethane foam kit for actively leaking cracks that expands on contact with water.' },
@@ -113,20 +107,14 @@ export const articleSchemas: Record<string, ArticleSchemaData> = {
 
   // --- BASEMENT VS CRAWL SPACE VS SLAB ---
   'basement-vs-crawl-space-vs-slab': {
-    faq: [
-      { q: 'Is a basement or crawl space better for resale value?', a: 'A finished basement typically adds the most value, up to $50,000-$100,000 in ROI, especially in colder markets.' },
-      { q: 'Which foundation type is the most energy-efficient?', a: 'Slabs edge out due to direct ground contact and no air leaks, but well-insulated basements use earth temperature for similar efficiency.' },
-      { q: 'How do I know if my soil is suitable for a basement?', a: 'Get a geotechnical report ($800-$2,000). Clay soils favor slabs, sandy soils drain well for basements, rocky areas increase excavation costs.' },
-      { q: 'Can I convert a crawl space to a basement?', a: 'It is possible but expensive ($50,000+) and disruptive, involving jacking up the house. Better to plan ahead during initial construction.' },
-    ],
+    // FAQ schema is defined inline in app/articles/basement-vs-crawl-space-vs-slab/page.tsx
+    // to avoid duplicate FAQPage schema flagged by Google Search Console.
   },
 
   // --- COMPLETE BASEMENT WATERPROOFING GUIDE ---
   'complete-basement-waterproofing-guide': {
-    faq: [
-      { q: 'How much does basement waterproofing cost in 2026?', a: 'Interior systems cost $4,000-$12,000. Exterior membrane and excavation costs $15,000-$35,000. Average full system runs $7,000-$15,000.' },
-      { q: 'Can I waterproof my basement myself?', a: 'Minor tasks like sealing cracks and improving grading are DIY-friendly. Full drain systems and exterior excavation require professionals.' },
-    ],
+    // FAQ schema is defined inline in app/articles/complete-basement-waterproofing-guide/page.tsx
+    // to avoid duplicate FAQPage schema flagged by Google Search Console.
     howTo: {
       name: 'How to Waterproof Your Basement',
       description: 'Step-by-step planning guide for basement waterproofing.',
@@ -151,13 +139,8 @@ export const articleSchemas: Record<string, ArticleSchemaData> = {
 
   // --- INTERIOR VS EXTERIOR WATERPROOFING ---
   'interior-vs-exterior-waterproofing': {
-    faq: [
-      { q: 'Which is better, interior or exterior basement waterproofing?', a: 'Exterior prevents water entry for longer protection, while interior manages water at lower cost. Many homes use both for best results.' },
-      { q: 'How long does basement waterproofing last?', a: 'Interior systems last 15 to 30 years with maintenance. Exterior systems last 20 to 50 years depending on materials and conditions.' },
-      { q: 'Can I do basement waterproofing as a DIY project?', a: 'Minor crack sealing and sump pump replacement can be DIY. Full interior drain systems or exterior excavation require professionals.' },
-      { q: 'Will basement waterproofing stop mold?', a: 'Waterproofing removes the moisture source that causes mold. Combine with proper ventilation and humidity control for full results.' },
-      { q: 'Do I need permits for basement waterproofing?', a: 'Often yes, especially for exterior excavation or major interior drain work. Check with your local building department.' },
-    ],
+    // FAQ schema is defined inline in app/articles/interior-vs-exterior-waterproofing/page.tsx
+    // to avoid duplicate FAQPage schema flagged by Google Search Console.
     products: [
       { name: 'Zoeller M53 Mighty-Mate Sump Pump', description: '1/3 HP submersible sump pump trusted by contractors nationwide.' },
       { name: 'Govee WiFi Water Leak Detector', description: 'Smart water leak sensors with WiFi alerts for 24/7 basement monitoring.' },
@@ -166,10 +149,8 @@ export const articleSchemas: Record<string, ArticleSchemaData> = {
 
   // --- BASEMENT INSULATION GUIDE ---
   'basement-insulation-guide': {
-    faq: [
-      { q: 'What is the best insulation for basement walls?', a: 'Rigid foam board (XPS or EPS) is the most recommended for basement walls. Spray foam is excellent but more expensive.' },
-      { q: 'Should I insulate my basement ceiling or walls?', a: 'Insulating walls is generally more effective and energy-efficient than ceiling insulation for conditioned basements.' },
-    ],
+    // FAQ schema is defined inline in app/articles/basement-insulation-guide/page.tsx
+    // to avoid duplicate FAQPage schema flagged by Google Search Console.
     howTo: {
       name: 'How to Insulate a Basement',
       description: 'Guide to choosing and installing the right basement insulation.',
@@ -185,19 +166,14 @@ export const articleSchemas: Record<string, ArticleSchemaData> = {
 
   // --- BASEMENT FINISHING COST ---
   'basement-finishing-cost': {
-    faq: [
-      { q: 'How much does it cost to finish a basement in 2026?', a: 'Expect to pay $20 to $75 per square foot depending on finishes, layout complexity, and your region. A 1,000 sq ft basement averages $30,000-$50,000.' },
-      { q: 'Does finishing a basement increase home value?', a: 'Yes, a finished basement typically returns 70-75% of the investment at resale and adds significant usable living space.' },
-      { q: 'How long does it take to finish a basement?', a: 'A typical basement finishing project takes 4-8 weeks for a professional crew, longer for complex layouts with bathrooms.' },
-    ],
+    // FAQ schema is defined inline in app/articles/basement-finishing-cost/page.tsx
+    // to avoid duplicate FAQPage schema flagged by Google Search Console.
   },
 
   // --- EGRESS WINDOW COST ---
   'egress-window-cost': {
-    faq: [
-      { q: 'How much does an egress window cost in 2026?', a: 'Expect to pay $2,500 to $5,500 per window installed, including excavation, well, window, and finishing.' },
-      { q: 'Do I need an egress window in my basement?', a: 'Yes, building codes require egress windows in any basement bedroom or habitable space for emergency escape.' },
-    ],
+    // FAQ schema is defined inline in app/articles/egress-window-cost/page.tsx
+    // to avoid duplicate FAQPage schema flagged by Google Search Console.
   },
 
   // --- PRE-FINISH AUDIT ---
@@ -219,10 +195,8 @@ export const articleSchemas: Record<string, ArticleSchemaData> = {
 
   // --- BEST BASEMENT FLOORING ---
   'best-basement-flooring': {
-    faq: [
-      { q: 'What is the best flooring for a basement?', a: 'Luxury vinyl plank (LVP) is the top choice for basements due to its waterproof properties, durability, and realistic appearance.' },
-      { q: 'Can you put hardwood floors in a basement?', a: 'Engineered hardwood can work in dry basements, but solid hardwood is not recommended due to moisture and humidity concerns below grade.' },
-    ],
+    // FAQ schema is defined inline in app/articles/best-basement-flooring/page.tsx
+    // to avoid duplicate FAQPage schema flagged by Google Search Console.
     products: [
       { name: 'Luxury Vinyl Plank (LVP)', description: '100% waterproof, durable, and available in realistic wood and stone patterns. Best overall basement flooring.' },
       { name: 'Ceramic/Porcelain Tile', description: 'Completely waterproof and extremely durable. Ideal for basement bathrooms and utility areas.' },
@@ -232,10 +206,8 @@ export const articleSchemas: Record<string, ArticleSchemaData> = {
 
   // --- SMART SUMP PUMPS GUIDE ---
   'smart-sump-pumps-guide': {
-    faq: [
-      { q: 'What is a smart sump pump?', a: 'A smart sump pump connects to Wi-Fi or a smart home hub and sends alerts, tracks pump cycles, and can predict failures before they happen.' },
-      { q: 'Are smart sump pumps worth the extra cost?', a: 'Yes, the early warning alerts alone can prevent thousands in flood damage. Most systems add $200-$500 to a standard pump setup.' },
-    ],
+    // FAQ schema is defined inline in app/articles/smart-sump-pumps-guide/page.tsx
+    // to avoid duplicate FAQPage schema flagged by Google Search Console.
     products: [
       { name: 'PumpSpy WiFi Sump Pump Monitor', description: 'Retrofit smart monitor that tracks pump cycles and sends alerts for failures or high water.' },
       { name: 'Basement Watchdog WiFi Module', description: 'Add-on WiFi module for existing sump pumps with app-based monitoring and alerts.' },
@@ -252,20 +224,14 @@ export const articleSchemas: Record<string, ArticleSchemaData> = {
 
   // --- FOUNDATION CRACK REPAIR COST ---
   'foundation-crack-repair-cost': {
-    faq: [
-      { q: 'How much does it cost to fix a foundation crack?', a: 'Expect to pay $350-$1,500 per crack depending on severity and method. Epoxy injection averages $350-$600, polyurethane foam $400-$800.' },
-      { q: 'Is epoxy or polyurethane better for foundation crack repair?', a: 'Epoxy creates a rigid, structural bond ideal for dry cracks. Polyurethane is flexible and better for actively leaking or moving cracks.' },
-    ],
+    // FAQ schema is defined inline in app/articles/foundation-crack-repair-cost/page.tsx
+    // to avoid duplicate FAQPage schema flagged by Google Search Console.
   },
 
   // --- FRENCH DRAIN COST ---
   'french-drain-cost': {
-    faq: [
-            { q: 'How much does a French drain cost to install?', a: 'The average cost for a French drain installation in 2026 is $5,000. Exterior yard drains typically range from $2,800 to $6,500 ($10 to $35 per linear foot), while interior basement systems cost between $4,000 and $12,000 ($40 to $85 per linear foot).' },
-      { q: 'Is an interior French drain better than exterior?', a: 'Interior French drains are more effective for managing hydrostatic pressure and rising water tables in existing homes. Exterior drains are better for preventing water from reaching the foundation but require significant excavation.' },
-      { q: 'Can I install a French drain myself?', a: 'Simple exterior yard drains are a feasible DIY project for handy homeowners, typically saving 40 to 60 percent on labor. Interior basement drains involving concrete removal and sump pump installation are best left to professionals.' },
-      { q: 'How long does a French drain last?', a: 'A properly installed French drain lasts 20 to 40 years. Longevity depends on using quality filter fabric, correct gravel sizing, and regular maintenance like annual flushing.' },
-    ],
+    // FAQ schema is defined inline in app/articles/french-drain-cost/page.tsx
+    // to avoid duplicate FAQPage schema flagged by Google Search Console.
   },
 
   // --- SUMP PUMP COST ---
@@ -274,14 +240,8 @@ export const articleSchemas: Record<string, ArticleSchemaData> = {
 
   // --- MOLD REMEDIATION COST ---
     'mold-remediation-cost': {
-    faq: [
-      { q: 'Is mold remediation worth the cost?', a: 'Yes. A small problem caught early costs $500 to $1,500. Left for six months, it can grow into a $5,000 to $10,000 project once it spreads behind walls and damages structural materials.' },
-      { q: 'How long does mold remediation take?', a: 'Most basement jobs take 1 to 5 days. A small, contained area might be done in a single day. Larger projects involving demolition, structural drying, and reconstruction can take 1 to 2 weeks.' },
-      { q: 'Can mold come back after remediation?', a: 'Yes, if the moisture source is not fixed. Mold spores are everywhere. Professional remediation removes the existing colony, but if the basement is still damp, new mold will colonize the same area.' },
-      { q: 'What is the difference between mold removal and mold remediation?', a: 'Mold removal means getting rid of all mold, which is impossible. Mold remediation means returning mold levels to normal, safe levels by removing the colony, cleaning surfaces, and addressing the moisture source.' },
-      { q: 'Should I leave my home during mold remediation?', a: 'For large jobs with significant demolition and HEPA filtration, yes. For small, well-contained jobs, leaving is not necessary but staying out of the work area is.' },
-      { q: 'Does homeowners insurance cover mold remediation?', a: 'Only when mold was caused by a covered peril like a burst pipe. Gradual moisture-related mold is almost never covered. Many policies cap mold coverage at $5,000 to $10,000.' },
-    ],
+    // FAQ schema is defined inline in app/articles/mold-remediation-cost/page.tsx
+    // to avoid duplicate FAQPage schema flagged by Google Search Console.
     howTo: {
       name: 'Professional Mold Remediation Process',
       description: 'Step-by-step overview of what professional mold remediation involves.',
@@ -319,22 +279,14 @@ export const articleSchemas: Record<string, ArticleSchemaData> = {
 
   // --- WHY BASEMENT FLOODS WITH SUMP PUMP ---
   'why-basement-floods-with-sump-pump': {
-        faq: [
-      { q: 'Can a sump pump handle heavy rain?', a: 'A properly sized pump with adequate drainage can handle most rain events. The problem occurs during extreme events or when drainage is inadequate. If your pump handles normal rain but floods during heavy storms, you likely need a larger pump, a secondary pump, or a better drainage system feeding the pit.' },
-      { q: 'How do I know if my sump pump is working?', a: 'Pour a bucket of water into the pit. The float should rise and the pump should activate within a few seconds, evacuating the water quickly. If it does not turn on, turns on but does not pump, or makes unusual noises, it needs attention.' },
-      { q: 'Should I have two sump pumps?', a: 'If you have a high water table, a large basement, or frequent heavy rain, a dual-pump system provides critical redundancy. The secondary pump can share the pit with the primary and activates if the first pump fails or cannot keep up.' },
-      { q: 'Why does my sump pump run constantly?', a: 'A pump that never shuts off usually indicates a high water table, an undersized pump, a stuck float switch, or a discharge line recycling water back toward the foundation. Constant running burns out the motor much faster.' },
-      { q: 'Does homeowners insurance cover sump pump flooding?', a: 'Standard policies usually do not cover flooding caused by sump pump failure or groundwater intrusion. Most insurers offer a water backup and sump pump overflow rider for $40-$100 per year.' },
-      { q: 'My basement only floods in one specific area far from the sump pump. Why?', a: 'This means water is entering through a localized source such as a wall crack, floor-wall joint, or window well that is not connected to the drainage system feeding the pit. You likely need targeted waterproofing or an extension of the interior French drain.' },
-    ],
+    // FAQ schema is defined inline in app/articles/why-basement-floods-with-sump-pump/page.tsx
+    // to avoid duplicate FAQPage schema flagged by Google Search Console.
   },
 
   // --- HOW TO FINISH A BASEMENT ---
   'how-to-finish-a-basement': {
-    faq: [
-      { q: 'Do I need a permit to finish my basement?', a: 'Yes, most jurisdictions require building permits for basement finishing that includes framing, electrical, plumbing, or egress modifications.' },
-      { q: 'Should I waterproof before finishing my basement?', a: 'Absolutely. Address all moisture issues before framing or installing drywall. Waterproofing after finishing is far more expensive and disruptive.' },
-    ],
+    // FAQ schema is defined inline in app/articles/how-to-finish-a-basement/page.tsx
+    // to avoid duplicate FAQPage schema flagged by Google Search Console.
     howTo: {
       name: 'How to Finish a Basement',
       description: 'Complete step-by-step guide to finishing a basement from permits to final touches.',
@@ -426,10 +378,8 @@ export const articleSchemas: Record<string, ArticleSchemaData> = {
 
   // --- MUSTY BASEMENT SMELL ---
   'musty-basement-smell': {
-    faq: [
-      { q: 'What causes a musty smell in a basement?', a: 'Musty odors come from mold, mildew, or bacteria thriving in damp conditions. High humidity, poor ventilation, and hidden moisture are the main culprits.' },
-      { q: 'How do I get rid of a musty basement smell permanently?', a: 'Find and fix the moisture source, run a dehumidifier to maintain 40-50% humidity, improve ventilation, and clean affected surfaces with a vinegar solution.' },
-    ],
+    // FAQ schema is defined inline in app/articles/musty-basement-smell/page.tsx
+    // to avoid duplicate FAQPage schema flagged by Google Search Console.
     howTo: {
       name: 'How to Eliminate Musty Basement Smell',
       description: 'Step-by-step guide to finding the source and permanently eliminating musty basement odors.',
@@ -454,10 +404,8 @@ export const articleSchemas: Record<string, ArticleSchemaData> = {
 
   // --- BASEMENT ADU & RENTAL SUITE ---
   'basement-adu-rental-suite': {
-    faq: [
-      { q: 'Is a basement apartment legal?', a: 'Legality depends on local zoning laws and building codes. Most jurisdictions require proper egress, ceiling height, separate entrance, and permits.' },
-      { q: 'How much does it cost to build a basement apartment?', a: 'A basic basement ADU conversion costs $50,000-$100,000+ including waterproofing, egress, bathroom, kitchenette, and separate entrance.' },
-    ],
+    // FAQ schema is defined inline in app/articles/basement-adu-rental-suite/page.tsx
+    // to avoid duplicate FAQPage schema flagged by Google Search Console.
     howTo: {
       name: 'How to Create a Basement Rental Suite',
       description: 'Guide to converting your basement into a legal, profitable rental apartment.',
@@ -473,10 +421,8 @@ export const articleSchemas: Record<string, ArticleSchemaData> = {
 
   // --- BASEMENT BATHROOM GUIDE ---
   'basement-bathroom-guide': {
-    faq: [
-      { q: 'How much does it cost to add a bathroom in a basement?', a: 'A basement bathroom costs $8,000-$25,000 depending on whether plumbing rough-in exists. Up-flush systems can reduce costs for homes without below-grade sewer access.' },
-      { q: 'Do I need a special toilet for a basement bathroom?', a: 'If your sewer line is above the basement floor, you will need an up-flush (macerating) toilet system or a sewage ejector pump.' },
-    ],
+    // FAQ schema is defined inline in app/articles/basement-bathroom-guide/page.tsx
+    // to avoid duplicate FAQPage schema flagged by Google Search Console.
     howTo: {
       name: 'How to Add a Basement Bathroom',
       description: 'Complete guide to planning and building a bathroom in your basement.',
@@ -545,25 +491,14 @@ export const articleSchemas: Record<string, ArticleSchemaData> = {
 
   // ---- CRYSTALLINE WATERPROOFING ----
   'crystalline-waterproofing': {
-    faq: [
-      { q: 'How long does crystalline waterproofing last?', a: 'For the life of the concrete. The crystals become a permanent, insoluble part of the concrete matrix and do not break down, peel, or degrade. The active chemicals reactivate when exposed to new moisture, so the system continues working for decades with no reapplication or maintenance needed.' },
-      { q: 'Can I apply crystalline waterproofing myself?', a: 'Yes, for topical slurry applications on existing walls. The process involves prepping the surface, dampening the concrete, mixing the powder with water, and brushing or spraying it on in two coats. Major manufacturers like Xypex and Kryton sell products suitable for residential use.' },
-      { q: 'Does crystalline waterproofing work from the inside (negative side)?', a: 'Yes. Because the chemicals travel through the concrete via diffusion, a topical application on the interior basement wall will migrate outward toward the water source. This means you can waterproof from inside the basement without excavating the exterior.' },
-      { q: 'Will crystalline waterproofing stop a leaking basement?', a: 'It can significantly reduce or stop water transmission through the concrete walls themselves. However, it will not fix water coming through cracks wider than 0.5mm, construction joints, floor-wall junctions, or pipe penetrations. For a leaking basement, combine crystalline treatment with targeted repairs and potentially a drainage system.' },
-      { q: 'Is crystalline waterproofing environmentally friendly?', a: 'Yes. Crystalline products are non-toxic, contain no VOCs, and do not leach harmful chemicals into soil or groundwater. The concrete can be fully recycled at end of life without separating any membrane or coating. Several crystalline products contribute to LEED and green building certifications.' },
-    ],
+    // FAQ schema is defined inline in app/articles/crystalline-waterproofing/page.tsx
+    // to avoid duplicate FAQPage schema flagged by Google Search Console.
   },
 
   // ----- BACKUP POWER FOR SUMP PUMPS -----
   'backup-power-sump-pumps': {
-    faq: [
-      { q: 'Will a 2,000-watt generator run a sump pump?', a: 'Yes, a 2,000W generator will run most 1/3 HP sump pumps comfortably. For a 1/2 HP pump, check the specific surge wattage on your pump label. Some 1/2 HP pumps surge above 3,000W, which would require a larger generator.' },
-      { q: 'Can I use a portable power station indoors for my sump pump?', a: 'Yes. Power stations produce zero emissions and are safe to operate in your basement right next to the sump pit. Just keep them elevated and dry.' },
-      { q: 'How long will a portable power station run my sump pump?', a: 'A 2,000Wh station running an 800W pump that cycles on for 30 seconds every 5 minutes would last roughly 10-15 hours. During heavy rain with frequent cycling, expect 4-8 hours from a 2,000Wh unit.' },
-      { q: 'Should I get a battery backup pump instead of a generator?', a: 'If your only goal is keeping the sump pump running, a dedicated battery backup is the simplest solution. But it only protects the pump, and runtime is limited to 5-12 hours. A generator or power station gives more flexibility.' },
-      { q: 'What happens if my sump pump fails during a power outage?', a: 'Water accumulates in the pit, overflows, and floods your basement. Cleanup, drying, mold remediation, and repairs commonly run $5,000-$25,000. The cost of any backup is a fraction of one flood event.' },
-      { q: 'How much does it cost to install a sump pump with backup power?', a: 'A new sump pump installation runs $600-$2,500. Add $600-$2,000 for a battery backup system, or $400-$2,000 for a portable generator or power station. Total: $1,200-$4,500.' },
-    ],
+    // FAQ schema is defined inline in app/articles/backup-power-sump-pumps/page.tsx
+    // to avoid duplicate FAQPage schema flagged by Google Search Console.
     products: [
       { name: 'Honda EU2200i', description: 'Best overall portable inverter generator. 2,200W surge, 1,800W running, ultra-quiet 48-57 dBA.', url: 'https://amzn.to/4bhUZxD' },
       { name: 'Champion 2500W Dual Fuel Inverter', description: 'Best value generator. Runs on gas or propane, 2,500W surge, 53 dBA.', url: 'https://amzn.to/4l9B2ML' },
@@ -577,14 +512,8 @@ export const articleSchemas: Record<string, ArticleSchemaData> = {
 
     // ----- HOW TO DRY OUT A BASEMENT AFTER FLOODING -----
   'how-to-dry-out-basement-after-flooding': {
-    faq: [
-      { q: 'How long does it take to dry out a flooded basement?', a: 'Most basements take 3 to 5 days to dry completely with proper equipment. Severe flooding with saturated walls and insulation can take 1 to 2 weeks. Without professional equipment, drying takes significantly longer and increases mold risk.' },
-      { q: 'Can I dry out a flooded basement myself?', a: 'Small floods under 2 inches from clean water sources are manageable as DIY. Anything involving sewage, deep water, or structural saturation should involve professionals with commercial drying equipment.' },
-      { q: 'When does mold start growing after a basement flood?', a: 'Mold can begin growing within 24 to 48 hours on wet surfaces. This is why rapid water extraction and drying are critical. Every hour counts after a flood.' },
-      { q: 'Does homeowners insurance cover basement flood cleanup?', a: 'Standard policies typically cover sudden internal water damage like burst pipes. Groundwater intrusion and external flooding require separate flood insurance. Sewer backup may be covered with a water backup rider.' },
-      { q: 'Should I remove drywall after a basement flood?', a: 'Yes. Cut and remove drywall at least 12 to 24 inches above the visible water line. Drywall wicks moisture upward, and wet drywall behind walls breeds mold quickly.' },
-      { q: 'How do I know when my basement is fully dry?', a: 'Use a pin moisture meter on walls, floors, and framing. Readings below 15 percent moisture content indicate safe dryness. Professional restorers also use thermal imaging to detect hidden moisture.' },
-    ],
+    // FAQ schema is defined inline in app/articles/how-to-dry-out-basement-after-flooding/page.tsx
+    // to avoid duplicate FAQPage schema flagged by Google Search Console.
     howTo: {
       name: 'How to Dry Out a Basement After Flooding',
       description: 'Step-by-step guide to extracting water, drying structural materials, and preventing mold after a basement flood.',
@@ -607,14 +536,8 @@ export const articleSchemas: Record<string, ArticleSchemaData> = {
 
     // ----- WATER COMING UP THROUGH BASEMENT FLOOR -----
   'water-coming-up-through-basement-floor': {
-    faq: [
-      { q: 'Is water coming up through the basement floor dangerous?', a: 'The water itself usually is not dangerous if it is groundwater. The bigger risks are mold growth within 24 to 48 hours, damage to stored belongings, and long-term structural concerns if pressure causes floor heaving or wall movement. Sewage backup is a health hazard requiring immediate professional attention.' },
-      { q: 'Can I just seal my basement floor to stop the water?', a: 'Sealing the floor surface addresses the symptom, not the cause. Waterproof coatings can reduce vapor transmission, but they will not hold against active hydrostatic pressure. The pressure wins eventually. Effective treatment means managing water below the slab with a drainage system.' },
-      { q: 'Why does my basement floor only get wet in one spot?', a: 'A single wet spot unrelated to weather is most likely a plumbing leak under the slab. If it appears only during rain, it could be a localized crack aligning with a high-pressure point below, or water running down a wall and pooling at a low point.' },
-      { q: 'Will a dehumidifier fix water coming through the floor?', a: 'No. A dehumidifier removes moisture from the air but cannot stop liquid water from entering through the slab. It is useful as a supporting tool after you have addressed water entry, but it is not a substitute for drainage.' },
-      { q: 'How much does it cost to fix water coming up through the floor?', a: 'Gutter improvements and regrading cost a few hundred dollars. A sump pump runs $800 to $3,000. A full interior drainage system costs $3,000 to $10,000. Exterior waterproofing can exceed $25,000. Start with the cheapest solutions first.' },
-      { q: 'Should I waterproof my basement floor before finishing it?', a: 'Absolutely. Finishing without addressing water issues is one of the most expensive mistakes homeowners make. Any moisture through the slab gets trapped behind finishes, creating hidden mold. At minimum, do the plastic sheet test before framing.' },
-    ],
+    // FAQ schema is defined inline in app/articles/water-coming-up-through-basement-floor/page.tsx
+    // to avoid duplicate FAQPage schema flagged by Google Search Console.
     howTo: {
       name: 'How to Fix Water Coming Up Through a Basement Floor',
       description: 'Step-by-step guide to diagnosing and fixing water that pushes up through your basement floor slab.',
