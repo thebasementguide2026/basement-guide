@@ -85,10 +85,8 @@ export const articleSchemas: Record<string, ArticleSchemaData> = {
 
   // --- BOWING BASEMENT WALLS ---
   'bowing-basement-walls': {
-    faq: [
-      { q: 'Can I ignore a bowing basement wall?', a: 'No. Once a wall starts bowing, the structural integrity is compromised. It will only get worse and never improves on its own.' },
-      { q: 'How long does bowing wall repair take?', a: 'Most strap or beam installations take 1-2 days. Wall anchors may take slightly longer if excavation is required.' },
-    ],
+    // FAQ schema is defined inline in app/articles/bowing-basement-walls/page.tsx
+    // to avoid duplicate FAQPage schema flagged by Google Search Console.
     howTo: {
       name: 'How to Repair a Bowing Basement Wall',
       description: 'Overview of the three primary methods for fixing bowing basement walls.',
