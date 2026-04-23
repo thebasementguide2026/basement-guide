@@ -59,6 +59,9 @@ export default function BasementHumidityGuideArticle() {
               <p className='text-slate-600 leading-relaxed mt-4'>
                 In this guide we cover everything you need to know about basement humidity in 2026 &mdash; what levels are normal (30&ndash;50%), why anything over 60% is dangerous, how to measure accurately with a hygrometer, and the best quick fixes versus real long-term solutions. Whether you have a finished basement or just use it for laundry, keeping humidity in check protects your home and health.
               </p>
+              <p className='text-slate-600 leading-relaxed mt-4'>
+                Humidity and air quality are related but distinct problems. A dehumidifier removes moisture from existing air, but it does not exchange stale air for fresh air or remove accumulated pollutants like CO2, VOCs, and radon. Most basements with humidity issues also have ventilation issues, which is why running a dehumidifier alone often leaves the basement dry but still stuffy and oppressive. For a complete guide to basement ventilation, including the critical distinction between ventilation and dehumidification and how to determine which problem you actually have, see our dedicated <Link href='/articles/basement-ventilation' className='text-teal-600 hover:text-teal-700 underline font-medium'>basement ventilation guide</Link>.
+              </p>
             </div>
 
             {/* Section 1 - Normal Humidity */}
