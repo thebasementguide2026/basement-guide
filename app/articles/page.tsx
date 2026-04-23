@@ -39,6 +39,7 @@ const topicGroups: { label: string; id: string; slugs: string[] }[] = [
       'mold-remediation-cost',
       'musty-basement-smell',
       'basement-humidity-guide',
+      'basement-ventilation',
       'dehumidifier-myths',
       'best-basement-dehumidifiers',
       'best-basement-air-purifiers',
