@@ -269,12 +269,8 @@ export const articleSchemas: Record<string, ArticleSchemaData> = {
   },
 
   // --- SUMP PUMP COST ---
-  'sump-pump-cost': {
-    faq: [
-      { q: 'How much does sump pump installation cost in 2026?', a: 'Sump pump installation costs $600-$2,500 including the pump, pit excavation, and discharge line. Battery backup adds $300-$1,000.' },
-      { q: 'How often should you replace a sump pump?', a: 'Replace sump pumps every 7-10 years. Test monthly by pouring water into the pit. Replace sooner if it runs constantly or makes unusual noises.' },
-    ],
-  },
+  // FAQ schema is defined inline in app/articles/sump-pump-cost/page.tsx
+  // to avoid duplicate FAQPage schema flagged by Google Search Console.
 
   // --- MOLD REMEDIATION COST ---
     'mold-remediation-cost': {
