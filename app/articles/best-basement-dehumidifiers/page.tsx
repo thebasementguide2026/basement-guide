@@ -136,6 +136,10 @@ export default function BestBasementDehumidifiers() {
               Before choosing a model, make sure you are addressing the root cause of your moisture problem. A dehumidifier manages humidity in the air, but it cannot stop water intrusion through walls or floors. Fix any active leaks, improve exterior drainage, and consider waterproofing if needed. See our <Link href='/articles/complete-basement-waterproofing-guide' className='text-teal-700 underline font-medium'>complete basement waterproofing guide</Link> for the full approach and our <Link href='/articles/basement-waterproofing-cost' className='text-teal-700 underline font-medium'>basement waterproofing cost guide</Link> for pricing.
             </p>
 
+            <p className='text-slate-700 leading-relaxed mb-6'>
+              Before buying a dehumidifier, confirm that humidity is the actual problem you are trying to solve. If your basement feels stuffy, stale, or oppressive without being visibly damp, a dehumidifier will not fix it. Stale basement air is a ventilation problem, not a humidity problem, and requires air exchange with the outside rather than moisture removal from existing air. For a complete breakdown of how to diagnose ventilation vs humidity problems and which equipment solves which issue, see our <Link href='/articles/basement-ventilation' className='text-teal-700 underline font-medium'>basement ventilation guide</Link>.
+            </p>
+
             {/* Quick Comparison Table */}
             <h2 className='text-2xl font-bold text-slate-900 mb-4'>Quick Comparison: Best Basement Dehumidifiers 2026</h2>
             <div className='overflow-x-auto mb-10'>
