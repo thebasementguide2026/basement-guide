@@ -376,7 +376,7 @@ export default function BasementHumidityGuideArticle() {
           <div className='bg-teal-50 border border-teal-200 rounded-xl p-6'>
             <p className='text-slate-900 font-bold text-lg mb-2'>Need a basement humidity or waterproofing professional?</p>
             <p className='text-slate-700 leading-relaxed mb-4'>Persistent humidity problems often combine multiple causes (drainage, ventilation, hydrostatic pressure) that require professional assessment to diagnose and treat correctly.</p>
-            <Link href='/get-quote' className='inline-block bg-teal-600 hover:bg-teal-700 text-white font-bold py-3 px-6 rounded-full transition-colors'>Get free quotes from licensed basement professionals near you &rarr;</Link>
+            <a href='/#get-quotes' className='inline-block bg-teal-600 hover:bg-teal-700 text-white font-bold py-3 px-6 rounded-full transition-colors'>Get free quotes from licensed basement professionals near you &rarr;</a>
           </div>
         </section>
 
