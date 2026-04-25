@@ -143,7 +143,7 @@ export default function BasementVentilationArticle() {
             <li><strong>VOCs and off-gassing accumulate.</strong> Paint, carpet, foam insulation, pressure-treated lumber, and many common basement materials off-gas volatile organic compounds (VOCs) slowly over months or years. Without ventilation, these compounds accumulate rather than dispersing.</li>
             <li><strong>CO2 rises with any use.</strong> If you spend time in your basement (home office, gym, bedroom, finished living area), you exhale CO2 and consume oxygen. In a sealed basement, CO2 levels can rise enough to cause headaches, drowsiness, and mental fog within hours.</li>
           </ul>
-          <p className='text-slate-700 leading-relaxed'>The <a href='https://www.epa.gov/indoor-air-quality-iaq/remodeling-your-home-and-indoor-air-quality' target='_blank' rel='noopener' className='text-teal-700 underline hover:text-teal-900'>EPA&apos;s Indoor Air Quality guidance for remodeling explicitly states</a> that basements should be included in a home&apos;s ventilation strategy, and that homes without mechanical ventilation should consider adding a system during any significant basement work.</p>
+          <p className='text-slate-700 leading-relaxed'>The <a href='https://www.epa.gov/indoor-air-quality-iaq/best-practices-indoor-air-quality-when-remodeling-your-home' target='_blank' rel='noopener' className='text-teal-700 underline hover:text-teal-900'>EPA&apos;s Indoor Air Quality guidance for remodeling explicitly states</a> that basements should be included in a home&apos;s ventilation strategy, and that homes without mechanical ventilation should consider adding a system during any significant basement work.</p>
         </section>
 
         {/* Ventilation vs Dehumidification */}
@@ -347,7 +347,7 @@ export default function BasementVentilationArticle() {
           <div className='bg-teal-50 border border-teal-200 rounded-xl p-6'>
             <p className='text-slate-900 font-bold text-lg mb-2'>Need a basement ventilation or radon mitigation professional?</p>
             <p className='text-slate-700 leading-relaxed mb-4'>Ventilation installation with combustion appliances or elevated radon requires professional expertise to avoid creating worse problems.</p>
-            <Link href='/get-quote' className='inline-block bg-teal-600 hover:bg-teal-700 text-white font-bold py-3 px-6 rounded-full transition-colors'>Get free quotes from licensed basement ventilation specialists near you &rarr;</Link>
+            <Link href='/quote' className='inline-block bg-teal-600 hover:bg-teal-700 text-white font-bold py-3 px-6 rounded-full transition-colors'>Get free quotes from licensed basement ventilation specialists near you &rarr;</Link>
           </div>
         </section>
 
