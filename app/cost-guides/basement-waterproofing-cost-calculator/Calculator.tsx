@@ -1,6 +1,7 @@
 'use client'
 
-import { useState, useMemo } from 'react'
+import { useState, useMemo, useRef } from 'react'
+import { track } from '@/lib/track'
 
 const SEVERITY = [
   { value: 'minor', label: 'Minor dampness', mult: 0.9 },
@@ -50,6 +51,23 @@ export default function WaterproofingCostCalculator() {
   const [region, setRegion] = useState(REGION[1].value)
   const [urgency, setUrgency] = useState(URGENCY[0].value)
   const [showResults, setShowResults] = useState(false)
+
+  // Fire calculator_start at most once per page view, on the first input interaction.
+  const startedRef = useRef(false)
+  function handleInteract(
+    next: { severity?: string; scope?: string; finish?: string; region?: string; urgency?: string } = {}
+  ) {
+    if (startedRef.current) return
+    startedRef.current = true
+    track('calculator_start', {
+      calculator_name: 'basement_waterproofing_cost',
+      moisture_severity: next.severity ?? severity,
+      project_scope: next.scope ?? scope,
+      finish_level: next.finish ?? finish,
+      regional_cost_factor: next.region ?? region,
+      project_timing: next.urgency ?? urgency,
+    })
+  }
 
   const result = useMemo(() => {
     const sev = SEVERITY.find((s) => s.value === severity)!
@@ -101,6 +119,16 @@ export default function WaterproofingCostCalculator() {
         onSubmit={(e) => {
           e.preventDefault()
           setShowResults(true)
+          // Fire only when a result is actually shown. result is computed via useMemo above
+          // and rendered in the results panel below when showResults is true.
+          track('calculator_complete', {
+            calculator_name: 'basement_waterproofing_cost',
+            moisture_severity: severity,
+            project_scope: scope,
+            finish_level: finish,
+            regional_cost_factor: region,
+            project_timing: urgency,
+          })
           setTimeout(() => {
             document.getElementById('calculator-results')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
           }, 50)
@@ -115,7 +143,7 @@ export default function WaterproofingCostCalculator() {
             max={5000}
             step={50}
             value={sqft}
-            onChange={(e) => setSqft(Number(e.target.value))}
+            onChange={(e) => { handleInteract(); setSqft(Number(e.target.value)) }}
             className={inputClass}
           />
           <p className='text-xs text-slate-500 mt-1'>Typical residential basements range from 600 to 1,500 sq ft.</p>
@@ -123,35 +151,35 @@ export default function WaterproofingCostCalculator() {
 
         <div>
           <label htmlFor='severity' className='block text-sm font-semibold text-slate-800 mb-1.5'>Moisture severity</label>
-          <select id='severity' value={severity} onChange={(e) => setSeverity(e.target.value)} className={inputClass}>
+          <select id='severity' value={severity} onChange={(e) => { handleInteract({ severity: e.target.value }); setSeverity(e.target.value) }} className={inputClass}>
             {SEVERITY.map((o) => <option key={o.value} value={o.value}>{o.label}</option>)}
           </select>
         </div>
 
         <div className='md:col-span-2'>
           <label htmlFor='scope' className='block text-sm font-semibold text-slate-800 mb-1.5'>Likely project scope</label>
-          <select id='scope' value={scope} onChange={(e) => setScope(e.target.value)} className={inputClass}>
+          <select id='scope' value={scope} onChange={(e) => { handleInteract({ scope: e.target.value }); setScope(e.target.value) }} className={inputClass}>
             {SCOPE.map((o) => <option key={o.value} value={o.value}>{o.label}</option>)}
           </select>
         </div>
 
         <div>
           <label htmlFor='finish' className='block text-sm font-semibold text-slate-800 mb-1.5'>Basement finish level</label>
-          <select id='finish' value={finish} onChange={(e) => setFinish(e.target.value)} className={inputClass}>
+          <select id='finish' value={finish} onChange={(e) => { handleInteract({ finish: e.target.value }); setFinish(e.target.value) }} className={inputClass}>
             {FINISH.map((o) => <option key={o.value} value={o.value}>{o.label}</option>)}
           </select>
         </div>
 
         <div>
           <label htmlFor='region' className='block text-sm font-semibold text-slate-800 mb-1.5'>Regional cost factor</label>
-          <select id='region' value={region} onChange={(e) => setRegion(e.target.value)} className={inputClass}>
+          <select id='region' value={region} onChange={(e) => { handleInteract({ region: e.target.value }); setRegion(e.target.value) }} className={inputClass}>
             {REGION.map((o) => <option key={o.value} value={o.value}>{o.label}</option>)}
           </select>
         </div>
 
         <div className='md:col-span-2'>
           <label htmlFor='urgency' className='block text-sm font-semibold text-slate-800 mb-1.5'>Project timing</label>
-          <select id='urgency' value={urgency} onChange={(e) => setUrgency(e.target.value)} className={inputClass}>
+          <select id='urgency' value={urgency} onChange={(e) => { handleInteract({ urgency: e.target.value }); setUrgency(e.target.value) }} className={inputClass}>
             {URGENCY.map((o) => <option key={o.value} value={o.value}>{o.label}</option>)}
           </select>
         </div>
@@ -169,6 +197,7 @@ export default function WaterproofingCostCalculator() {
               setSqft(800); setSeverity(SEVERITY[1].value); setScope(SCOPE[1].value);
               setFinish(FINISH[0].value); setRegion(REGION[1].value); setUrgency(URGENCY[0].value);
               setShowResults(false)
+              track('calculator_reset', { calculator_name: 'basement_waterproofing_cost' })
             }}
             className='inline-flex items-center justify-center rounded-lg bg-white hover:bg-slate-50 text-slate-700 font-semibold px-5 py-3 text-sm border border-slate-300 transition-colors'
           >
