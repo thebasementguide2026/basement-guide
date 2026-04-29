@@ -328,6 +328,7 @@ export default function BasementEmergencyWaterPlan() {
           </div>
           <p className='text-slate-700 leading-relaxed mb-4'>The financial difference between same-day response ($1,000 to $4,500 typical) and delayed response (often $5,000 to $25,000+ once mold and structural damage compound) explains why every hour of the first 24 hours matters. Insurance often covers the immediate water damage but limits or excludes mold caused by delayed response, which means slow action can leave you paying out-of-pocket for the secondary damage.</p>
           <p className='text-slate-700 leading-relaxed'>For full cost details, see our <Link href='/articles/problems/basement-flooding-cleanup' className='text-teal-700 underline hover:text-teal-900'>basement flooding cleanup guide</Link>, <Link href='/articles/mold-remediation-cost' className='text-teal-700 underline hover:text-teal-900'>mold remediation cost guide</Link>, and <Link href='/articles/basement-flooding-insurance' className='text-teal-700 underline hover:text-teal-900'>basement flooding insurance guide</Link>.</p>
+          <p className='text-slate-700 leading-relaxed mt-4'>For a more personalized cost estimate based on your specific basement size, moisture severity, and project scope, use our <Link href='/cost-guides/basement-waterproofing-cost-calculator' className='text-teal-700 underline hover:text-teal-900'>basement waterproofing cost calculator</Link>.</p>
         </section>
 
         {/* After the Emergency */}
