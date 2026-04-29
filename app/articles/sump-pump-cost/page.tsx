@@ -69,6 +69,9 @@ export default function SumpPumpCost() {
           <p className='text-xl text-slate-700 leading-relaxed mb-6'>
             The average cost to install a sump pump in 2026 is <strong>$1,200 to $1,800</strong> for a complete new system professionally installed, with most homeowners paying between <strong>$650 and $2,500</strong> depending on system complexity. Replacing an existing pump in an established pit is the lower end of that range. A full new installation with pit, primary pump, discharge line, check valve, and battery backup sits at the higher end.
           </p>
+          <p className='text-lg text-slate-700 leading-relaxed mb-6'>
+            If sump pump installation is part of a larger basement waterproofing project, our <Link href='/cost-guides/basement-waterproofing-cost-calculator' className='text-teal-700 underline hover:text-teal-900'>cost calculator</Link> estimates the full project including drainage and waterproofing scope.
+          </p>
         </div>
 
         {/* 2026 Sump Pump Cost Breakdown */}
