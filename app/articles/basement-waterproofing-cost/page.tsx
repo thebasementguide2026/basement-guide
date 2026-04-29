@@ -81,6 +81,14 @@ export default function BasementWaterproofingCostPage() {
             The short answer? <strong>Interior systems</strong> (most common): <strong>$3,000 to $8,000</strong>. <strong>Exterior</strong> excavation and membrane: <strong>$8,000 to $15,000</strong>.
           </p>
 
+          {/* Calculator callout */}
+          <div className='my-8 rounded-2xl border-2 border-teal-200 bg-gradient-to-br from-teal-50 to-white p-6'>
+            <p className='text-xs font-bold uppercase tracking-wide text-teal-700 mb-2'>Quick estimate</p>
+            <p className='text-slate-800 leading-relaxed'>
+              Try our <Link href='/cost-guides/basement-waterproofing-cost-calculator' className='text-teal-700 underline font-semibold hover:text-teal-800'>basement waterproofing cost calculator</Link> to get a planning estimate based on your basement size, moisture severity, and project scope. Use it before requesting contractor quotes.
+            </p>
+          </div>
+
           {/* Cost Breakdown Table */}
           <h2 className='text-3xl font-extrabold text-slate-900 mt-16 mb-6'>2026 Basement Waterproofing Costs at a Glance</h2>
           <div className='overflow-x-auto mb-6'>
@@ -510,6 +518,9 @@ export default function BasementWaterproofingCostPage() {
           </ul>
           <p className='text-slate-700 leading-relaxed mb-6'>
             Ready to get started? Grab free quotes from vetted waterproofing pros at the top of this page, or read our <Link href='/articles/complete-basement-waterproofing-guide' className='text-teal-600 underline hover:text-teal-800'>complete basement waterproofing guide</Link> for a full breakdown of every method, material, and decision you&rsquo;ll face.
+          </p>
+          <p className='text-slate-700 leading-relaxed mb-6'>
+            For a personalized cost estimate based on your specific basement, use our <Link href='/cost-guides/basement-waterproofing-cost-calculator' className='text-teal-600 underline hover:text-teal-800'>basement waterproofing cost calculator</Link> before requesting contractor quotes.
           </p>
 
           {/* Related Guides - Expanded */}
