@@ -51,35 +51,35 @@ const webPageSchema = {
 const faqs = [
   {
     q: 'How much does basement waterproofing cost?',
-    a: 'Most homeowners spend between $3,000 and $15,000 on basement waterproofing, with the typical project landing in the $5,000 to $9,000 range. Smaller spot fixes can run $500 to $2,500, full interior drain tile and sump systems often range from $4,000 to $12,000, and exterior excavation projects can reach $15,000 to $30,000 or more on larger or harder to access foundations. Cost depends mostly on basement size, severity of water intrusion, scope of work, finish level, and local labor pricing.',
+    a: 'Basement waterproofing typically costs $3,000 to $15,000, with most projects landing in the $5,000 to $9,000 range. Smaller spot fixes run about $500 to $2,500, full interior drain tile and sump systems generally fall between $4,000 and $12,000, and exterior excavation projects can reach $15,000 to $30,000 or more on larger or harder to access foundations. Final cost depends on basement size, severity of water intrusion, scope of work, finish level, and local labor pricing.',
   },
   {
     q: 'What is the difference between waterproofing and drainage?',
-    a: 'Drainage systems are designed to manage water that has already entered or is moving along the foundation, usually through interior drain tile, a sump pump pit, and a discharge line. Waterproofing focuses on stopping water at the foundation itself, often through exterior membranes, crystalline coatings, or wall sealants. Most modern basement projects combine both, because drainage handles bulk water and waterproofing reduces dampness, vapor, and seepage through walls and floors.',
+    a: 'Drainage manages water that is already entering or moving along the foundation, while waterproofing tries to stop water at the foundation itself. Drainage systems usually include interior drain tile, a sump pump pit, and a discharge line. Waterproofing usually involves exterior membranes, crystalline coatings, or interior wall sealants. Most modern basement projects combine both, because drainage handles bulk water and waterproofing reduces dampness, vapor, and seepage through walls and floors.',
   },
   {
     q: 'How much does an interior french drain cost?',
-    a: 'An interior french drain, sometimes called interior drain tile, typically costs $50 to $100 per linear foot installed, which puts a typical full perimeter system between $4,000 and $12,000 for an average residential basement. Cost depends on basement size, concrete thickness, whether finished walls or flooring need to be removed and replaced, and whether the project includes a new sump pump pit and discharge line.',
+    a: 'An interior french drain typically costs $50 to $100 per linear foot installed, which puts a typical full perimeter system between $4,000 and $12,000 for an average residential basement. Pricing depends on basement size, concrete thickness, whether finished walls or flooring need to be removed and replaced, and whether the project includes a new sump pump pit and discharge line.',
   },
   {
     q: 'Does a finished basement cost more to waterproof?',
-    a: 'Yes. A finished basement adds demolition and rebuild costs because contractors usually need to remove portions of drywall, baseboards, flooring, and sometimes built-ins to access the foundation. Most estimates add 8 to 16 percent to the base waterproofing cost when the basement is partially or fully finished, plus a separate restoration allowance to put the finished space back together after the work is complete.',
+    a: 'Yes. Finished basements usually cost more to waterproof because demolition and restoration work add labor and material costs. Contractors typically need to remove portions of drywall, baseboards, flooring, and sometimes built-ins to access the foundation. Most estimates add 8 to 16 percent to the base waterproofing cost on a partially or fully finished basement, plus a separate restoration allowance to put the finished space back together after the work is complete.',
   },
   {
     q: 'Is this calculator a quote?',
-    a: 'No. This calculator returns a planning estimate based on national pricing data and the inputs you provide. It is not a binding quote from a contractor. Use the range to set a realistic budget, then request 2 to 3 written quotes from licensed local waterproofing contractors before committing to a specific project.',
+    a: 'No. This calculator gives a planning estimate, not a binding contractor quote. The range is based on national pricing data and the inputs you provide. Use it to set a realistic budget, then request 2 to 3 written quotes from licensed local waterproofing contractors before committing to a specific project.',
   },
   {
     q: 'What should I ask a contractor after using this calculator?',
-    a: 'Ask each contractor to put their proposal in writing with a clear scope of work, materials, drainage layout, sump pump model, discharge line plan, warranty terms, and total price. Ask whether the warranty is transferable, who is responsible for any future water entry, and how they handle finished surfaces during the project. Confirm licensing and insurance, and ask for local references on similar basement projects.',
+    a: 'Ask each contractor for a written proposal with a clear scope of work, materials, drainage layout, sump pump model, discharge line plan, warranty terms, and total price. Ask whether the warranty is transferable, who is responsible for any future water entry, and how they handle finished surfaces during the project. Confirm licensing and insurance, and ask for local references on similar basement projects.',
   },
   {
     q: 'How long does a basement waterproofing project usually take?',
-    a: 'A spot fix or sump pump replacement is often completed in one day. A full interior drain tile and sump pump installation typically takes 2 to 4 days. Exterior excavation projects with a waterproof membrane can take 1 to 2 weeks depending on basement size, weather, and site access. Restoration of finished surfaces is a separate timeline and varies by the amount of drywall, flooring, or trim that needs to be replaced.',
+    a: 'Most basement waterproofing projects take one day to two weeks depending on scope. A spot fix or sump pump replacement is often completed in one day. A full interior drain tile and sump pump installation typically takes 2 to 4 days. Exterior excavation projects with a waterproof membrane can take 1 to 2 weeks depending on basement size, weather, and site access. Restoration of finished surfaces is a separate timeline.',
   },
   {
     q: 'What does basement drain tile cost?',
-    a: 'Basement drain tile, the perforated pipe and gravel system installed along the interior or exterior footing, generally costs $50 to $100 per linear foot for interior installations and $100 to $200 per linear foot for exterior installations. Exterior is more expensive because it requires excavation and waterproof membrane work. Total cost on most homes ranges from $4,000 to $15,000 depending on the path length and whether one wall, several walls, or the full perimeter is treated.',
+    a: 'Basement drain tile generally costs $50 to $100 per linear foot for interior installations and $100 to $200 per linear foot for exterior installations. Exterior is more expensive because it requires excavation and waterproof membrane work. Total cost on most homes ranges from $4,000 to $15,000 depending on the path length and whether one wall, several walls, or the full perimeter is treated.',
   },
 ]
 
@@ -94,16 +94,16 @@ const faqSchema = {
 }
 
 const RELATED = [
-  { href: '/articles/basement-waterproofing-cost', title: 'Basement Waterproofing Cost (2026)', desc: 'Full national pricing data for basement waterproofing projects, including interior drainage, exterior excavation, and sealant work.' },
-  { href: '/articles/french-drain-cost', title: 'French Drain Cost', desc: 'How interior and exterior french drain pricing breaks down by linear foot and project type.' },
-  { href: '/articles/sump-pump-cost', title: 'Sump Pump Cost', desc: 'Pricing for sump pump units, installation, battery backups, and discharge line work.' },
-  { href: '/articles/interior-basement-drainage-systems', title: 'Interior Basement Drainage Systems', desc: 'How interior drain tile and sump systems are designed and installed inside a basement.' },
-  { href: '/articles/interior-vs-exterior-waterproofing', title: 'Interior vs Exterior Waterproofing', desc: 'How interior drainage and exterior waterproofing compare on cost, durability, and disruption.' },
-  { href: '/articles/complete-basement-waterproofing-guide', title: 'Complete Basement Waterproofing Guide', desc: 'A homeowner reference that covers diagnosis, methods, and what a quality project looks like.' },
-  { href: '/articles/sump-pump-buying-guide', title: 'Sump Pump Buying Guide', desc: 'How to choose the right sump pump for your basement, including capacity, switch type, and backup power.' },
-  { href: '/articles/why-basement-floods-with-sump-pump', title: 'Why a Basement Still Floods With a Sump Pump', desc: 'Common reasons a basement floods even when a sump pump is installed and what to do about it.' },
-  { href: '/articles/basement-flooding-insurance', title: 'Basement Flooding Insurance', desc: 'What homeowners insurance does and does not cover when a basement floods.' },
-  { href: '/articles/how-to-hire-basement-waterproofing-contractor', title: 'How to Hire a Basement Waterproofing Contractor', desc: 'How to compare contractors, evaluate quotes, and avoid common hiring mistakes.' },
+  { href: '/articles/basement-waterproofing-cost', title: 'Basement Waterproofing Cost (2026)', desc: 'Full national pricing data for basement waterproofing projects, including interior drainage, exterior excavation, sealants, and finished basement repair costs.' },
+  { href: '/articles/french-drain-cost', title: 'French Drain Cost', desc: 'How interior basement drainage and french drain pricing break down by linear foot, including drain tile labor and sump pump tie-in costs.' },
+  { href: '/articles/sump-pump-cost', title: 'Sump Pump Cost', desc: 'Pricing for sump pump units, professional installation, battery backups, and discharge line work in a typical basement.' },
+  { href: '/articles/interior-basement-drainage-systems', title: 'Interior Basement Drainage Systems', desc: 'How interior drain tile, sump pump pits, and perimeter drainage systems are designed and installed inside a basement.' },
+  { href: '/articles/interior-vs-exterior-waterproofing', title: 'Interior vs Exterior Waterproofing', desc: 'How interior drainage and exterior excavation compare on cost, disruption, durability, and which scenarios each is best for.' },
+  { href: '/articles/complete-basement-waterproofing-guide', title: 'Complete Basement Waterproofing Guide', desc: 'A homeowner reference covering diagnosis, repair methods, materials, and what a quality basement waterproofing project looks like.' },
+  { href: '/articles/sump-pump-buying-guide', title: 'Sump Pump Buying Guide', desc: 'How to choose the right sump pump for your basement, including capacity, switch type, horsepower, and backup power options.' },
+  { href: '/articles/why-basement-floods-with-sump-pump', title: 'Why a Basement Still Floods With a Sump Pump', desc: 'Common reasons a basement floods even when a sump pump is installed, and what drainage upgrades typically fix the problem.' },
+  { href: '/articles/basement-flooding-insurance', title: 'Basement Flooding Insurance', desc: 'What homeowners and flood insurance policies cover when a basement floods, and how the cause of water entry affects your claim.' },
+  { href: '/articles/how-to-hire-basement-waterproofing-contractor', title: 'How to Hire a Basement Waterproofing Contractor', desc: 'How to compare basement waterproofing contractors, evaluate quotes line by line, and avoid common hiring mistakes.' },
 ]
 
 export default function BasementWaterproofingCostCalculatorPage() {
@@ -143,8 +143,74 @@ export default function BasementWaterproofingCostCalculatorPage() {
         </div>
 
         {/* Calculator */}
-        <section id='calculator' className='mb-16'>
+        <section id='calculator' className='mb-10'>
           <WaterproofingCostCalculator />
+        </section>
+
+        <p className='text-sm text-slate-600 italic mb-14'>
+          Homeowners often use this estimate to decide whether they likely need a spot fix, an interior drainage system, or a larger exterior waterproofing project.
+        </p>
+
+        {/* Cost by method */}
+        <section className='mb-14'>
+          <h2 className='text-2xl md:text-3xl font-bold text-slate-900 mb-3'>Basement Waterproofing Cost by Method</h2>
+          <p className='text-slate-700 leading-relaxed mb-6'>
+            Typical basement waterproofing costs vary by repair method, project access, and whether the work is done inside or outside the foundation.
+          </p>
+
+          <div className='overflow-x-auto rounded-xl border border-slate-200'>
+            <table className='w-full text-sm'>
+              <thead className='bg-slate-50 text-slate-700'>
+                <tr>
+                  <th scope='col' className='text-left font-semibold px-4 py-3 border-b border-slate-200'>Method</th>
+                  <th scope='col' className='text-left font-semibold px-4 py-3 border-b border-slate-200'>Typical use case</th>
+                  <th scope='col' className='text-left font-semibold px-4 py-3 border-b border-slate-200'>Typical price range</th>
+                  <th scope='col' className='text-left font-semibold px-4 py-3 border-b border-slate-200'>Note</th>
+                </tr>
+              </thead>
+              <tbody className='text-slate-700'>
+                <tr className='border-b border-slate-100'>
+                  <td className='px-4 py-3 font-semibold text-slate-900 align-top'>Crack injection</td>
+                  <td className='px-4 py-3 align-top'>Single foundation cracks letting in water</td>
+                  <td className='px-4 py-3 align-top whitespace-nowrap'>About $250 to $800 per crack</td>
+                  <td className='px-4 py-3 align-top'>Best when leaks are isolated to one or two visible cracks rather than a wider drainage problem.</td>
+                </tr>
+                <tr className='border-b border-slate-100 bg-slate-50/50'>
+                  <td className='px-4 py-3 font-semibold text-slate-900 align-top'>Waterproof coatings and sealers</td>
+                  <td className='px-4 py-3 align-top'>Damp walls and minor seepage on bare concrete or block</td>
+                  <td className='px-4 py-3 align-top whitespace-nowrap'>About $1,500 to $4,000</td>
+                  <td className='px-4 py-3 align-top'>Useful for surface dampness and vapor, but not a fix for active hydrostatic water entry.</td>
+                </tr>
+                <tr className='border-b border-slate-100'>
+                  <td className='px-4 py-3 font-semibold text-slate-900 align-top'>Interior french drain and sump pump</td>
+                  <td className='px-4 py-3 align-top'>Recurring seepage along part of the basement perimeter</td>
+                  <td className='px-4 py-3 align-top whitespace-nowrap'>About $3,000 to $8,000</td>
+                  <td className='px-4 py-3 align-top'>A common starter system covering one or two affected walls plus a sump pump pit.</td>
+                </tr>
+                <tr className='border-b border-slate-100 bg-slate-50/50'>
+                  <td className='px-4 py-3 font-semibold text-slate-900 align-top'>Interior full perimeter drain tile system</td>
+                  <td className='px-4 py-3 align-top'>Standing water or chronic seepage on multiple walls</td>
+                  <td className='px-4 py-3 align-top whitespace-nowrap'>About $4,000 to $12,000</td>
+                  <td className='px-4 py-3 align-top'>Drain tile around the full footing tied into a sump system, often paired with wall vapor management.</td>
+                </tr>
+                <tr className='border-b border-slate-100'>
+                  <td className='px-4 py-3 font-semibold text-slate-900 align-top'>Exterior waterproofing and excavation</td>
+                  <td className='px-4 py-3 align-top'>Heavy water issues, foundation cracks, or pre-finishing protection</td>
+                  <td className='px-4 py-3 align-top whitespace-nowrap'>About $8,000 to $15,000+</td>
+                  <td className='px-4 py-3 align-top'>Most thorough option. Cost grows with depth, soil type, and limited site access.</td>
+                </tr>
+                <tr className='bg-slate-50/50'>
+                  <td className='px-4 py-3 font-semibold text-slate-900 align-top'>Sump pump replacement or discharge upgrades</td>
+                  <td className='px-4 py-3 align-top'>Aging or failed pump, frozen or undersized discharge line</td>
+                  <td className='px-4 py-3 align-top whitespace-nowrap'>Several hundred to a few thousand dollars</td>
+                  <td className='px-4 py-3 align-top'>Scope ranges from a basic pump swap to a new pit, battery backup, and reworked discharge line.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className='text-sm text-slate-600 mt-4'>
+            Interior systems usually cost less up front than exterior excavation, but the right solution depends on where the water is entering and how severe the moisture problem is.
+          </p>
         </section>
 
         {/* What affects cost */}
