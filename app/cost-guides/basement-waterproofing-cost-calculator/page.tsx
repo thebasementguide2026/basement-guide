@@ -1,9 +1,10 @@
-import Link from 'next/link'
 import type { Metadata } from 'next'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import BeehiivEmailCapture from '@/components/BeehiivEmailCapture'
 import LeadForm from '@/components/LeadForm'
 import WaterproofingCostCalculator from './Calculator'
+import RelatedGuides from './RelatedGuides'
+import QuoteCtaWrapper from './QuoteCtaWrapper'
 
 export const metadata: Metadata = {
   title: 'Basement Waterproofing Cost Calculator (2026)',
@@ -278,33 +279,24 @@ export default function BasementWaterproofingCostCalculatorPage() {
         {/* Related guides */}
         <section className='mb-14'>
           <h2 className='text-2xl md:text-3xl font-bold text-slate-900 mb-6'>Related basement guides</h2>
-          <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
-            {RELATED.map((r) => (
-              <Link
-                key={r.href}
-                href={r.href}
-                className='block rounded-lg border border-slate-200 bg-white hover:border-teal-400 hover:shadow-sm transition-all p-5'
-              >
-                <p className='font-semibold text-slate-900 mb-1'>{r.title}</p>
-                <p className='text-sm text-slate-600 leading-relaxed'>{r.desc}</p>
-              </Link>
-            ))}
-          </div>
+          <RelatedGuides items={RELATED} />
         </section>
 
         {/* Beehiiv */}
         <BeehiivEmailCapture />
 
         {/* Lead form */}
-        <section className='mt-12 bg-slate-900 rounded-2xl py-12 px-6 md:px-10'>
-          <div className='max-w-3xl mx-auto'>
-            <div className='text-center mb-8'>
-              <h2 id='get-quotes' className='text-2xl md:text-3xl font-black text-white mb-3'>Get free basement waterproofing quotes</h2>
-              <p className='text-slate-300'>Once you have a planning estimate, the next step is comparing actual quotes from vetted local waterproofing professionals.</p>
+        <QuoteCtaWrapper ctaLocation='page_bottom_lead_form'>
+          <section className='mt-12 bg-slate-900 rounded-2xl py-12 px-6 md:px-10'>
+            <div className='max-w-3xl mx-auto'>
+              <div className='text-center mb-8'>
+                <h2 id='get-quotes' className='text-2xl md:text-3xl font-black text-white mb-3'>Get free basement waterproofing quotes</h2>
+                <p className='text-slate-300'>Once you have a planning estimate, the next step is comparing actual quotes from vetted local waterproofing professionals.</p>
+              </div>
+              <LeadForm />
             </div>
-            <LeadForm />
-          </div>
-        </section>
+          </section>
+        </QuoteCtaWrapper>
 
       </article>
     </div>
