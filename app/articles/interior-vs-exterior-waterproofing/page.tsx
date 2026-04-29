@@ -441,6 +441,10 @@ export default function InteriorVsExteriorWaterproofing() {
             </p>
           </div>
 
+          <p className='text-slate-700 leading-relaxed mb-6'>
+            Both interior drainage and exterior excavation have wide cost ranges depending on basement size, severity, and finish level. For a planning estimate based on your specific situation, use our <Link href='/cost-guides/basement-waterproofing-cost-calculator' className='text-emerald-700 underline hover:text-emerald-900'>waterproofing cost calculator</Link>. The tool factors in project scope (interior drainage versus exterior excavation) as one of its key inputs.
+          </p>
+
           {/* DIY vs Professional */}
           <h2 className='text-4xl mb-6'>DIY vs. Professional Waterproofing</h2>
           <p className='font-semibold text-slate-800 text-xl mb-4'>What You Can Handle Yourself and When to Hire a Pro</p>
