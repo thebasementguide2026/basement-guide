@@ -58,6 +58,10 @@ export default function HireWaterproofingContractor() {
             The good news is you can avoid most scams and bad experiences by doing your homework and asking the right questions. This guide walks you through the process step by step, highlights the biggest red flags, and gives practical tips so you end up with a reliable, long-lasting solution.
           </p>
 
+          <p className='text-xl text-slate-700 leading-relaxed'>
+            Before requesting your first contractor quote, generate a planning estimate using our <Link href='/cost-guides/basement-waterproofing-cost-calculator' className='text-teal-600 underline hover:text-teal-800'>basement waterproofing cost calculator</Link>. Walking into the quote process with a realistic budget range helps you spot inflated bids and have more informed conversations with contractors about scope and pricing.
+          </p>
+
           {/* Section 1 */}
           <h2 className='text-3xl font-black text-slate-900 mt-16 mb-6'>First: Know Your Basement&#39;s Real Problem</h2>
           <p className='text-slate-600 leading-relaxed mb-4'>
