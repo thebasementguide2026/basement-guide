@@ -41,7 +41,19 @@ export default function Home() {
   const reviews = articles
     .filter((a) => ['Reviews', 'Buying Guide'].includes(a.category))
     .slice(0, 7)
-  const costGuides = articles.filter((a) => a.category === 'Cost Guide')
+  const baseCostGuides = articles.filter((a) => a.category === 'Cost Guide')
+  const wpIdx = baseCostGuides.findIndex((a) => a.slug === 'basement-waterproofing-cost')
+  const calculatorCard = {
+    title: 'Basement Waterproofing Cost Calculator',
+    slug: 'basement-waterproofing-cost-calculator',
+    readTime: 'Interactive tool',
+    href: '/cost-guides/basement-waterproofing-cost-calculator',
+  }
+  const costGuides = [
+    ...baseCostGuides.slice(0, wpIdx + 1).map((a) => ({ title: a.title, slug: a.slug, readTime: a.readTime, href: `/articles/${a.slug}` })),
+    calculatorCard,
+    ...baseCostGuides.slice(wpIdx + 1).map((a) => ({ title: a.title, slug: a.slug, readTime: a.readTime, href: `/articles/${a.slug}` })),
+  ]
 
   return (
     <>
@@ -260,10 +272,10 @@ export default function Home() {
             {costGuides.map((article) => (
               <Link
                 key={article.slug}
-                href={`/articles/${article.slug}`}
+                href={article.href}
                 className="group block bg-white/10 backdrop-blur rounded-xl p-5 border border-white/20 hover:bg-white/20 transition-colors"
               >
-                <span className="text-2xl">💰</span>
+                <span className="text-2xl">{article.slug === 'basement-waterproofing-cost-calculator' ? '🧮' : '💰'}</span>
                 <h3 className="font-bold text-white text-sm leading-snug mt-2 group-hover:text-brand-teal transition-colors">
                   {article.title}
                 </h3>
