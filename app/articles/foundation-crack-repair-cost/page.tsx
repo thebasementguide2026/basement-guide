@@ -132,6 +132,8 @@ export default function FoundationCrackRepairCost() {
         {/* Intro */}
         <p className='text-slate-700 leading-relaxed mb-8'>Foundation cracks are one of the most common and most misunderstood home repair issues. Depending on crack type, width, location, and repair method, expect to pay $350 to $1,500 per crack for interior repairs or $2,000 to $7,000 per crack for exterior excavation repairs.</p>
 
+        <p className='text-slate-700 leading-relaxed mb-8'>Foundation cracks are sometimes a symptom of broader water intrusion problems that require waterproofing in addition to crack repair. If you suspect your foundation cracks are part of a larger drainage or waterproofing issue, our <Link href='/cost-guides/basement-waterproofing-cost-calculator' className='text-teal-700 underline hover:text-teal-900'>cost calculator</Link> can help you estimate the full project scope.</p>
+
         {/* How Much Does Foundation Crack Repair Cost in 2026? */}
         <section className='mb-12'>
           <h2 className='text-3xl font-bold text-slate-900 mb-4'>How Much Does Foundation Crack Repair Cost in 2026?</h2>
