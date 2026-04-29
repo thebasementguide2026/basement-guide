@@ -66,6 +66,24 @@ export default function CostGuidesPage() {
           </div>
         </div>
 
+        {/* Calculator callout */}
+        <Link
+          href="/cost-guides/basement-waterproofing-cost-calculator"
+          className="group block mb-12 rounded-xl border-2 border-teal-200 hover:border-teal-400 hover:shadow-md bg-gradient-to-br from-teal-50 to-white p-6 transition-all"
+        >
+          <div className="flex items-start gap-4">
+            <div className="w-12 h-12 rounded-lg bg-teal-600 text-white flex items-center justify-center text-2xl flex-shrink-0">
+              🧮
+            </div>
+            <div className="flex-1">
+              <p className="text-xs font-bold uppercase tracking-wide text-teal-700 mb-1">New Tool</p>
+              <h3 className="text-lg font-bold text-slate-900 group-hover:text-teal-700 transition-colors">Basement Waterproofing Cost Calculator</h3>
+              <p className="text-sm text-gray-600 mt-1">Estimate drainage, french drain, drain tile, and waterproofing costs based on basement size, severity, scope, finish level, and region.</p>
+              <span className="text-teal-700 text-sm font-semibold mt-2 inline-block">Open the calculator →</span>
+            </div>
+          </div>
+        </Link>
+
         {/* Featured guides */}
         <h2 className="text-2xl font-bold text-slate-800 mb-6">Highest-Impact Cost Guides</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
