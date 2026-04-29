@@ -316,6 +316,7 @@ export default function InteriorBasementDrainageSystems() {
                 </tbody>
               </table>
             </div>
+            <p className='text-slate-700 leading-relaxed mt-6'>For a complete cost estimate that includes interior drainage system installation along with any associated waterproofing scope, try our <Link href='/cost-guides/basement-waterproofing-cost-calculator' className='text-teal-600 hover:text-teal-700 underline'>basement waterproofing cost calculator</Link>.</p>
           </section>
 
           {/* What Contractors Are Selling You */}
