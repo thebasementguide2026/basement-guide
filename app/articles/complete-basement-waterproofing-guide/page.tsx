@@ -258,6 +258,7 @@ export default function CompleteBasementWaterproofingGuide() {
             </table>
           </div>
           <p className="text-gray-700 mb-4">The national average for professional basement waterproofing is approximately $5,200, with most homeowners paying between $2,500 and $8,200. See our <Link href="/articles/basement-waterproofing-cost" className="text-teal-700 underline hover:text-teal-900">basement waterproofing cost guide</Link> for detailed breakdowns.</p>
+          <p className="text-gray-700 mb-4">Before contacting contractors for quotes, get a planning estimate based on your specific basement using our <Link href="/cost-guides/basement-waterproofing-cost-calculator" className="text-teal-700 underline hover:text-teal-900">cost calculator</Link>. The tool factors in basement size, moisture severity, project scope, finish level, and regional pricing to give you a realistic budget range.</p>
         </section>
 
         {/* How to Choose a Contractor */}
