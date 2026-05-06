@@ -49,9 +49,16 @@ export default function Home() {
     readTime: 'Interactive tool',
     href: '/cost-guides/basement-waterproofing-cost-calculator',
   }
+  const sumpPumpReplacementCard = {
+    title: 'Sump Pump Replacement Cost Calculator',
+    slug: 'sump-pump-replacement-cost',
+    readTime: 'Interactive tool',
+    href: '/cost-guides/sump-pump-replacement-cost',
+  }
   const costGuides = [
     ...baseCostGuides.slice(0, wpIdx + 1).map((a) => ({ title: a.title, slug: a.slug, readTime: a.readTime, href: `/articles/${a.slug}` })),
     calculatorCard,
+    sumpPumpReplacementCard,
     ...baseCostGuides.slice(wpIdx + 1).map((a) => ({ title: a.title, slug: a.slug, readTime: a.readTime, href: `/articles/${a.slug}` })),
   ]
 
@@ -275,7 +282,7 @@ export default function Home() {
                 href={article.href}
                 className="group block bg-white/10 backdrop-blur rounded-xl p-5 border border-white/20 hover:bg-white/20 transition-colors"
               >
-                <span className="text-2xl">{article.slug === 'basement-waterproofing-cost-calculator' ? '🧮' : '💰'}</span>
+                <span className="text-2xl">{article.slug === 'basement-waterproofing-cost-calculator' ? '🧮' : article.slug === 'sump-pump-replacement-cost' ? '💧' : '💰'}</span>
                 <h3 className="font-bold text-white text-sm leading-snug mt-2 group-hover:text-brand-teal transition-colors">
                   {article.title}
                 </h3>
