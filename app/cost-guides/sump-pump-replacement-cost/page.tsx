@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import BeehiivEmailCapture from '@/components/BeehiivEmailCapture'
 import LeadForm from '@/components/LeadForm'
@@ -18,7 +19,41 @@ export const metadata: Metadata = {
     url: PAGE_URL,
     siteName: 'The Basement Guide',
     type: 'article',
+    images: [{ url: 'https://thebasement.guide/sumppumpcalculator.jpg', width: 1200, height: 630, alt: 'Sump pump replacement cost calculator hero showing a basement sump pump installation' }],
   },
+}
+
+const webPageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  name: 'Sump Pump Replacement Cost 2026',
+  headline: 'Sump Pump Replacement Cost 2026: What You Will Actually Pay',
+  description: 'Real 2026 sump pump replacement costs by pump type, scope, and backup system, plus a calculator that estimates installed price for replacement in an existing pit.',
+  url: PAGE_URL,
+  inLanguage: 'en-US',
+  isPartOf: { '@type': 'WebSite', name: 'The Basement Guide', url: 'https://thebasement.guide' },
+  primaryImageOfPage: { '@type': 'ImageObject', url: 'https://thebasement.guide/sumppumpcalculator.jpg' },
+  about: [
+    { '@type': 'Thing', name: 'Sump pump replacement' },
+    { '@type': 'Thing', name: 'Battery backup sump pump' },
+    { '@type': 'Thing', name: 'Submersible sump pump' },
+  ],
+}
+
+const howToSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'HowTo',
+  name: 'How sump pump replacement works in an existing pit',
+  description: 'The five-step process a licensed plumber follows when replacing a sump pump in an existing sump pit.',
+  totalTime: 'PT3H',
+  estimatedCost: { '@type': 'MonetaryAmount', currency: 'USD', value: '900' },
+  step: [
+    { '@type': 'HowToStep', position: 1, name: 'Power off and prep', text: 'Kill power at the breaker, lay down protection around the pit, and confirm the discharge line is clear.' },
+    { '@type': 'HowToStep', position: 2, name: 'Disconnect and remove the old pump', text: 'Unplug the existing pump, separate it from the discharge line, and lift it out of the pit.' },
+    { '@type': 'HowToStep', position: 3, name: 'Inspect and clean the pit and valve setup', text: 'Check the pit for sediment, inspect or replace the check valve, and correct any small pit issues before installing the new pump.' },
+    { '@type': 'HowToStep', position: 4, name: 'Install and reconnect the new pump', text: 'Set the new pump in the pit, level it, fit it to the discharge line, and tie it into any alarm or backup system.' },
+    { '@type': 'HowToStep', position: 5, name: 'Test with water and verify operation', text: 'Add water to confirm the float kicks on, the pump moves water cleanly, and the pump shuts off at the right level. Test any backup separately.' },
+  ],
 }
 
 const articleSchema = {
@@ -42,6 +77,7 @@ const articleSchema = {
     { '@type': 'Thing', name: 'Battery backup sump pump' },
     { '@type': 'Thing', name: 'Submersible sump pump' },
   ],
+  image: 'https://thebasement.guide/sumppumpcalculator.jpg',
 }
 
 const softwareSchema = {
@@ -134,11 +170,21 @@ export default function SumpPumpReplacementCostPage() {
   return (
     <div className='bg-white min-h-screen'>
       <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }} />
       <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(softwareSchema) }} />
       <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }} />
       <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       <Breadcrumbs items={[{ label: 'Cost Guides', href: '/cost-guides' }, { label: 'Sump Pump Replacement Cost' }]} />
+
+      {/* Hero image */}
+      <div className='relative w-full bg-slate-900 overflow-hidden'>
+        <div className='aspect-[16/7] md:aspect-[16/6] relative'>
+          <Image src='/sumppumpcalculator.jpg' alt='Sump pump replacement cost calculator hero showing a basement sump pump installation' fill priority className='object-cover' sizes='100vw' />
+          <div className='absolute inset-0 bg-gradient-to-t from-slate-900/70 via-slate-900/20 to-transparent' />
+        </div>
+      </div>
 
       <article className='max-w-4xl mx-auto px-4 py-12 md:py-16'>
 
