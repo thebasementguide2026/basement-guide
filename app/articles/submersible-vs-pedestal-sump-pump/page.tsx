@@ -498,8 +498,11 @@ export default function SubmersibleVsPedestalSumpPump() {
               <p className='text-slate-700 leading-relaxed mb-4'>
                 Submersible vs pedestal sump pump comes down to your basement&#39;s needs&#8212;go submersible for heavy duty, pedestal for simple savings. Test water levels first, and add a backup for peace of mind.
               </p>
-              <p className='text-slate-700 leading-relaxed'>
+              <p className='text-slate-700 leading-relaxed mb-4'>
                 For more on protecting your basement from water damage, check out our <Link href='/articles/basement-waterproofing-guide' className='text-teal-600 underline hover:text-teal-800'>complete waterproofing guide</Link> and <Link href='/articles/best-basement-dehumidifiers' className='text-teal-600 underline hover:text-teal-800'>best dehumidifiers for basements</Link>.
+              </p>
+              <p className='text-slate-700 leading-relaxed'>
+                After deciding between submersible and pedestal, use our <Link href='/cost-guides/sump-pump-replacement-cost' className='text-teal-600 underline hover:text-teal-800'>sump pump replacement cost guide</Link> to estimate your specific installed price based on pump type, backup choice, labor scope, and region.
               </p>
             </section>
 

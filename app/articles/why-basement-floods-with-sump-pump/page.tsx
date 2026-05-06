@@ -371,6 +371,10 @@ export default function WhyBasementFloods() {
           </div>
         </div>
 
+        <p className='text-lg text-slate-700 leading-relaxed mb-12'>
+          If your sump pump is failing through age, undersized capacity, or repeated component failure, replacement is usually the right call. Use our <Link href='/cost-guides/sump-pump-replacement-cost' className='text-teal-700 underline font-medium hover:text-teal-900'>sump pump replacement cost guide</Link> to estimate the project before requesting plumber quotes.
+        </p>
+
         {/* FAQ Section */}
         <h2 className='text-3xl md:text-4xl font-black text-slate-900 mb-8 tracking-tight'>Frequently Asked Questions</h2>
         <div className='space-y-6 mb-16'>

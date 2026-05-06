@@ -566,6 +566,9 @@ export default function BestSumpPumps2026() {
                 </tbody>
               </table>
             </div>
+            <p className='text-slate-700 leading-relaxed mt-6'>
+              For a personalized installed cost estimate based on your specific basement, pump choice, and region, use our <Link href='/cost-guides/sump-pump-replacement-cost' className='text-blue-700 underline font-medium hover:text-blue-900'>sump pump replacement cost calculator</Link> before requesting plumber quotes.
+            </p>
           </section>
 
                       {/* Glossary */}

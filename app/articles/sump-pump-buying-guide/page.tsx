@@ -282,6 +282,7 @@ export default function SumpPumpBuyingGuide() {
 
         <div className='prose prose-lg max-w-none mt-8'>
           <p>For a detailed cost breakdown with regional pricing variations, see our <Link href='/articles/sump-pump-cost' className='text-indigo-600 hover:text-indigo-700 underline'>sump pump cost guide</Link>. For how sump pump costs fit into a broader waterproofing project, see our <Link href='/articles/basement-waterproofing-cost' className='text-indigo-600 hover:text-indigo-700 underline'>basement waterproofing cost guide</Link>.</p>
+          <p>Once you have selected the right pump for your basement, use our <Link href='/cost-guides/sump-pump-replacement-cost' className='text-indigo-600 hover:text-indigo-700 underline'>sump pump replacement cost guide</Link> to estimate your installed price based on pump type, backup, labor scope, and region.</p>
         </div>
       </section>
 

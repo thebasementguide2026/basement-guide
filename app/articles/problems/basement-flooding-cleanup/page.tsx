@@ -457,6 +457,8 @@ export default function BasementFloodingCleanupPage() {
           <p className='text-slate-700 leading-relaxed mb-4'><strong>If mold appears:</strong> If mold coverage is less than 10 square feet, the EPA states a homeowner can clean it using appropriate protective equipment and an EPA-registered disinfectant. If mold covers more than 10 square feet, if it is in HVAC systems, or if it is in walls that were not opened during the flood cleanup, professional mold remediation is required.</p>
 
           <p className='text-slate-700 leading-relaxed'>Professional mold remediation costs $1,500 to $9,000 depending on extent and location. See our <Link href='/articles/mold-remediation-cost' className='text-emerald-700 underline hover:text-emerald-900'>mold remediation cost guide</Link> for a full breakdown.</p>
+
+          <p className='text-slate-700 leading-relaxed mt-4'>If a failing or undersized sump pump contributed to the flooding, replacement is often the smartest investment to prevent recurrence. Use our <Link href='/cost-guides/sump-pump-replacement-cost' className='text-emerald-700 underline hover:text-emerald-900'>sump pump replacement cost guide</Link> to estimate the project.</p>
         </section>
 
         {/* FAQ */}

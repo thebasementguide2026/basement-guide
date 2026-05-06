@@ -74,6 +74,17 @@ export default function SumpPumpCost() {
           </p>
         </div>
 
+        {/* Replacement Cost Calculator Callout */}
+        <div className='not-prose my-10 rounded-2xl border-l-4 border-cyan-500 bg-gradient-to-br from-cyan-50 to-slate-50 p-6 md:p-8 shadow-sm'>
+          <div className='flex items-center gap-3 mb-3'>
+            <span className='inline-flex items-center justify-center w-10 h-10 rounded-full bg-cyan-500 text-white font-bold text-sm'>$</span>
+            <h3 className='text-xl font-black text-slate-900 m-0'>Quick estimate</h3>
+          </div>
+          <p className='text-slate-700 leading-relaxed m-0'>
+            If you are replacing an existing sump pump rather than installing one for the first time, use our <Link href='/cost-guides/sump-pump-replacement-cost' className='text-cyan-700 font-semibold underline hover:text-cyan-900'>sump pump replacement cost calculator</Link>. The calculator is tuned for replacement scenarios and factors pump type, backup system, labor scope, and region for an instant installed price range.
+          </p>
+        </div>
+
         {/* 2026 Sump Pump Cost Breakdown */}
         <h2 className='text-3xl font-black text-slate-900 mt-16 mb-6'>2026 Sump Pump Cost Breakdown</h2>
 
