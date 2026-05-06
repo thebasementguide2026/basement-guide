@@ -26,6 +26,7 @@ const footerSections = [
       { label: 'Finishing Cost', href: '/articles/basement-finishing-cost' },
       { label: 'Waterproofing Cost', href: '/articles/basement-waterproofing-cost' },
       { label: 'Waterproofing Cost Calculator', href: '/cost-guides/basement-waterproofing-cost-calculator' },
+      { label: 'Sump Pump Replacement Cost', href: '/cost-guides/sump-pump-replacement-cost' },
       { label: 'Sump Pump Cost', href: '/articles/sump-pump-cost' },
       { label: 'French Drain Cost', href: '/articles/french-drain-cost' },
       { label: 'Foundation Crack Cost', href: '/articles/foundation-crack-repair-cost' },
