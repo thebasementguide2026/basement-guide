@@ -45,6 +45,8 @@ const nextConfig = {
       { source: '/articles/submersible-vs-pedestal-sump-pumps', destination: '/articles/submersible-vs-pedestal-sump-pump', statusCode: 301 },
       { source: '/guides/homebuyers-inspection-checklist', destination: '/articles/homebuyers-basement-inspection-checklist', statusCode: 301 },
       { source: '/articles/basement-flooding-causes', destination: '/articles/basement-emergency-water-plan', statusCode: 301 },
+      { source: '/cost-guides/basement-waterproofing-cost', destination: '/articles/basement-waterproofing-cost', statusCode: 301 },
+      { source: '/articles/epoxy-vs-polyurethane', destination: '/articles/epoxy-vs-polyurethane-floor-coating', statusCode: 301 },
     ]
   },
 }
