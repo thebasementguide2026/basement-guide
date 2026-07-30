@@ -47,6 +47,7 @@ const nextConfig = {
       { source: '/articles/basement-flooding-causes', destination: '/articles/basement-emergency-water-plan', statusCode: 301 },
       { source: '/cost-guides/basement-waterproofing-cost', destination: '/articles/basement-waterproofing-cost', statusCode: 301 },
       { source: '/articles/epoxy-vs-polyurethane', destination: '/articles/epoxy-vs-polyurethane-floor-coating', statusCode: 301 },
+      { source: '/articles/musty-smell-cause-fixes-eliminate', destination: '/articles/musty-basement-smell', statusCode: 301 },
     ]
   },
 }
