@@ -32,7 +32,7 @@ const reviewGroups = [
     title: 'Safety & Air Quality',
     description: 'Detect leaks early and breathe clean air below ground.',
     featured: [],
-    regular: ['best-water-leak-detectors', 'best-basement-air-purifiers'],
+    regular: ['best-water-leak-detectors', 'best-basement-air-purifiers', 'best-window-well-covers-egress-ladders'],
   },
 ]
 
