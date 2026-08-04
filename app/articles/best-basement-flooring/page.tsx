@@ -240,13 +240,13 @@ export default function BestBasementFlooring() {
             <div className="bg-white rounded-lg p-6 shadow-sm mb-4">
               <h3 className="font-semibold text-gray-900 mb-3">Drawbacks</h3>
               <ul className="space-y-2 text-gray-700">
-                <li className="flex items-start gap-2"><span className="text-red-500"> to </span> Can feel hollow or plastic underfoot compared to real wood</li>
-                <li className="flex items-start gap-2"><span className="text-red-500"> to </span> Lower-end products may off-gas VOCs</li>
-                <li className="flex items-start gap-2"><span className="text-red-500"> to </span> Not as eco-friendly as natural materials</li>
+                <li className="flex items-start gap-2"><span className="text-red-500">✗</span> Can feel hollow or plastic underfoot compared to real wood</li>
+                <li className="flex items-start gap-2"><span className="text-red-500">✗</span> Lower-end products may off-gas VOCs</li>
+                <li className="flex items-start gap-2"><span className="text-red-500">✗</span> Not as eco-friendly as natural materials</li>
               </ul>
             </div>
             <div className="bg-emerald-50 border border-emerald-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700"><strong>Cost:</strong> $3.50 to $7.00/sqft material | $5.50 to $11.00/sqft installed | <strong>ROI:</strong> High to most realtors recommend LVP as the top basement flooring for resale value.</p>
+              <p className="text-sm text-gray-700"><strong>Cost:</strong> $3.50 to $7.00/sqft material | $5.50 to $11.00/sqft installed | <strong>ROI:</strong> High — most realtors recommend LVP as the top basement flooring for resale value.</p>
             </div>
           </section>
 
@@ -268,17 +268,17 @@ export default function BestBasementFlooring() {
             <div className="bg-white rounded-lg p-6 shadow-sm mb-4">
               <h3 className="font-semibold text-red-600 mb-3">The Cons</h3>
               <ul className="space-y-2 text-gray-700">
-                <li className="flex items-start gap-2"><span className="text-red-500"> to </span> Cold and hard underfoot without radiant mats</li>
-                <li className="flex items-start gap-2"><span className="text-red-500"> to </span> Labor-intensive professional installation required</li>
-                <li className="flex items-start gap-2"><span className="text-red-500"> to </span> Grout lines require annual sealing to prevent moisture wicking</li>
-                <li className="flex items-start gap-2"><span className="text-red-500"> to </span> Highest installed cost of any basement flooring option</li>
+                <li className="flex items-start gap-2"><span className="text-red-500">✗</span> Cold and hard underfoot without radiant mats</li>
+                <li className="flex items-start gap-2"><span className="text-red-500">✗</span> Labor-intensive professional installation required</li>
+                <li className="flex items-start gap-2"><span className="text-red-500">✗</span> Grout lines require annual sealing to prevent moisture wicking</li>
+                <li className="flex items-start gap-2"><span className="text-red-500">✗</span> Highest installed cost of any basement flooring option</li>
               </ul>
             </div>
             <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-4">
-              <p className="text-sm text-gray-700">📌 <strong>Our Pick:</strong> <a href="https://amzn.to/4sj5RkE" target="_blank" rel="noopener noreferrer sponsored" className="text-emerald-700 underline hover:text-emerald-900">Daltile Porcelain Floor Tile</a> to a trusted brand known for low water absorption and excellent durability in below-grade environments.</p>
+              <p className="text-sm text-gray-700">📌 <strong>Our Pick:</strong> <a href="https://amzn.to/4sj5RkE" target="_blank" rel="noopener noreferrer sponsored" className="text-emerald-700 underline hover:text-emerald-900">Daltile Porcelain Floor Tile</a> — a trusted brand known for low water absorption and excellent durability in below-grade environments.</p>
             </div>
             <div className="bg-emerald-50 border border-emerald-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700"><strong>Cost:</strong> $4.00 to $12.00/sqft material | $12.00 to $27.00/sqft installed | <strong>ROI:</strong> Very High to permanent flooring that outlasts the home itself.</p>
+              <p className="text-sm text-gray-700"><strong>Cost:</strong> $4.00 to $12.00/sqft material | $12.00 to $27.00/sqft installed | <strong>ROI:</strong> Very High — permanent flooring that outlasts the home itself.</p>
             </div>
           </section>
 
@@ -299,14 +299,14 @@ export default function BestBasementFlooring() {
             <div className="bg-white rounded-lg p-6 shadow-sm mb-4">
               <h3 className="font-semibold text-red-600 mb-3">The Cons</h3>
               <ul className="space-y-2 text-gray-700">
-                <li className="flex items-start gap-2"><span className="text-red-500"> to </span> HDF core swells when exposed to standing water</li>
-                <li className="flex items-start gap-2"><span className="text-red-500"> to </span> Not suitable for basements with active moisture issues</li>
-                <li className="flex items-start gap-2"><span className="text-red-500"> to </span> Shorter lifespan than LVP or tile (10 to 20 years)</li>
-                <li className="flex items-start gap-2"><span className="text-red-500"> to </span> Cannot be refinished or repaired easily</li>
+                <li className="flex items-start gap-2"><span className="text-red-500">✗</span> HDF core swells when exposed to standing water</li>
+                <li className="flex items-start gap-2"><span className="text-red-500">✗</span> Not suitable for basements with active moisture issues</li>
+                <li className="flex items-start gap-2"><span className="text-red-500">✗</span> Shorter lifespan than LVP or tile (10 to 20 years)</li>
+                <li className="flex items-start gap-2"><span className="text-red-500">✗</span> Cannot be refinished or repaired easily</li>
               </ul>
             </div>
             <div className="bg-emerald-50 border border-emerald-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700"><strong>Cost:</strong> $1.50 to $4.00/sqft material | $3.00 to $7.00/sqft installed | <strong>ROI:</strong> Low to not recommended unless the basement is verified dry year-round.</p>
+              <p className="text-sm text-gray-700"><strong>Cost:</strong> $1.50 to $4.00/sqft material | $3.00 to $7.00/sqft installed | <strong>ROI:</strong> Low — not recommended unless the basement is verified dry year-round.</p>
             </div>
           </section>
 
@@ -327,14 +327,14 @@ export default function BestBasementFlooring() {
             <div className="bg-white rounded-lg p-6 shadow-sm mb-4">
               <h3 className="font-semibold text-red-600 mb-3">The Cons</h3>
               <ul className="space-y-2 text-gray-700">
-                <li className="flex items-start gap-2"><span className="text-red-500"> to </span> Will warp if submerged for more than 24 hours</li>
-                <li className="flex items-start gap-2"><span className="text-red-500"> to </span> Requires a <Link href="/articles/best-vapor-barriers" className="text-emerald-700 underline">vapor barrier</Link> and <Link href="/articles/best-basement-dehumidifiers" className="text-emerald-700 underline">dehumidifier</Link> setup</li>
-                <li className="flex items-start gap-2"><span className="text-red-500"> to </span> Most expensive option per square foot</li>
-                <li className="flex items-start gap-2"><span className="text-red-500"> to </span> Professional installation recommended</li>
+                <li className="flex items-start gap-2"><span className="text-red-500">✗</span> Will warp if submerged for more than 24 hours</li>
+                <li className="flex items-start gap-2"><span className="text-red-500">✗</span> Requires a <Link href="/articles/best-vapor-barriers" className="text-emerald-700 underline">vapor barrier</Link> and <Link href="/articles/best-basement-dehumidifiers" className="text-emerald-700 underline">dehumidifier</Link> setup</li>
+                <li className="flex items-start gap-2"><span className="text-red-500">✗</span> Most expensive option per square foot</li>
+                <li className="flex items-start gap-2"><span className="text-red-500">✗</span> Professional installation recommended</li>
               </ul>
             </div>
             <div className="bg-emerald-50 border border-emerald-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700"><strong>Cost:</strong> $6.00 to $14.00/sqft material | $10.00 to $21.00/sqft installed | <strong>ROI:</strong> Moderate to premium look but moisture risk limits long-term value.</p>
+              <p className="text-sm text-gray-700"><strong>Cost:</strong> $6.00 to $14.00/sqft material | $10.00 to $21.00/sqft installed | <strong>ROI:</strong> Moderate — premium look but moisture risk limits long-term value.</p>
             </div>
           </section>
 
@@ -356,16 +356,16 @@ export default function BestBasementFlooring() {
             <div className="bg-white rounded-lg p-6 shadow-sm mb-4">
               <h3 className="font-semibold text-red-600 mb-3">The Cons</h3>
               <ul className="space-y-2 text-gray-700">
-                <li className="flex items-start gap-2"><span className="text-red-500"> to </span> Strong rubber odor during initial off-gassing period</li>
-                <li className="flex items-start gap-2"><span className="text-red-500"> to </span> Limited aesthetic options compared to LVP or tile</li>
-                <li className="flex items-start gap-2"><span className="text-red-500"> to </span> Can stain from heavy equipment or chemicals</li>
+                <li className="flex items-start gap-2"><span className="text-red-500">✗</span> Strong rubber odor during initial off-gassing period</li>
+                <li className="flex items-start gap-2"><span className="text-red-500">✗</span> Limited aesthetic options compared to LVP or tile</li>
+                <li className="flex items-start gap-2"><span className="text-red-500">✗</span> Can stain from heavy equipment or chemicals</li>
               </ul>
             </div>
             <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-4">
-              <p className="text-sm text-gray-700">📌 <strong>Our Pick:</strong> <a href="https://amzn.to/4qWnoOx" target="_blank" rel="noopener noreferrer sponsored" className="text-emerald-700 underline hover:text-emerald-900">IncStores Rubber Flooring Rolls</a> to commercial-grade rubber rolls ideal for home gyms and basement workshops.</p>
+              <p className="text-sm text-gray-700">📌 <strong>Our Pick:</strong> <a href="https://amzn.to/4qWnoOx" target="_blank" rel="noopener noreferrer sponsored" className="text-emerald-700 underline hover:text-emerald-900">IncStores Rubber Flooring Rolls</a> — commercial-grade rubber rolls ideal for home gyms and basement workshops.</p>
             </div>
             <div className="bg-emerald-50 border border-emerald-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700"><strong>Cost:</strong> $2.00 to $6.00/sqft material | $3.50 to $9.00/sqft installed | <strong>ROI:</strong> Moderate to excellent functional value for gym and workshop conversions.</p>
+              <p className="text-sm text-gray-700"><strong>Cost:</strong> $2.00 to $6.00/sqft material | $3.50 to $9.00/sqft installed | <strong>ROI:</strong> Moderate — excellent functional value for gym and workshop conversions.</p>
             </div>
           </section>
 
@@ -387,17 +387,17 @@ export default function BestBasementFlooring() {
             <div className="bg-white rounded-lg p-6 shadow-sm mb-4">
               <h3 className="font-semibold text-red-600 mb-3">The Cons</h3>
               <ul className="space-y-2 text-gray-700">
-                <li className="flex items-start gap-2"><span className="text-red-500"> to </span> Extensive slab prep required (grinding, patching, degreasing)</li>
-                <li className="flex items-start gap-2"><span className="text-red-500"> to </span> Can become slippery when wet without anti-slip additives</li>
-                <li className="flex items-start gap-2"><span className="text-red-500"> to </span> May yellow or peel if applied over damp concrete</li>
-                <li className="flex items-start gap-2"><span className="text-red-500"> to </span> Needs recoating every 10 to 20 years</li>
+                <li className="flex items-start gap-2"><span className="text-red-500">✗</span> Extensive slab prep required (grinding, patching, degreasing)</li>
+                <li className="flex items-start gap-2"><span className="text-red-500">✗</span> Can become slippery when wet without anti-slip additives</li>
+                <li className="flex items-start gap-2"><span className="text-red-500">✗</span> May yellow or peel if applied over damp concrete</li>
+                <li className="flex items-start gap-2"><span className="text-red-500">✗</span> Needs recoating every 10 to 20 years</li>
               </ul>
             </div>
             <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-4">
-              <p className="text-sm text-gray-700">📌 <strong>Our Pick:</strong> <a href="https://amzn.to/4tUJ3cB" target="_blank" rel="noopener noreferrer sponsored" className="text-emerald-700 underline hover:text-emerald-900">Rust-Oleum EpoxyShield Basement Floor Coating</a> to the most popular DIY epoxy kit with excellent adhesion and a semi-gloss finish.</p>
+              <p className="text-sm text-gray-700">📌 <strong>Our Pick:</strong> <a href="https://amzn.to/4tUJ3cB" target="_blank" rel="noopener noreferrer sponsored" className="text-emerald-700 underline hover:text-emerald-900">Rust-Oleum EpoxyShield Basement Floor Coating</a> — the most popular DIY epoxy kit with excellent adhesion and a semi-gloss finish.</p>
             </div>
             <div className="bg-emerald-50 border border-emerald-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700"><strong>Cost:</strong> $1.50 to $5.00/sqft material | $3.00 to $12.00/sqft installed | <strong>ROI:</strong> High to low material cost with dramatic visual improvement.</p>
+              <p className="text-sm text-gray-700"><strong>Cost:</strong> $1.50 to $5.00/sqft material | $3.00 to $12.00/sqft installed | <strong>ROI:</strong> High — low material cost with dramatic visual improvement.</p>
             </div>
           </section>
 
@@ -419,14 +419,14 @@ export default function BestBasementFlooring() {
             <div className="bg-white rounded-lg p-6 shadow-sm mb-4">
               <h3 className="font-semibold text-red-600 mb-3">The Cons</h3>
               <ul className="space-y-2 text-gray-700">
-                <li className="flex items-start gap-2"><span className="text-red-500"> to </span> Fibers trap moisture and can harbor mold if not dried quickly</li>
-                <li className="flex items-start gap-2"><span className="text-red-500"> to </span> Not suitable for basements with active water intrusion</li>
-                <li className="flex items-start gap-2"><span className="text-red-500"> to </span> Shortest lifespan of any option (8 to 15 years)</li>
-                <li className="flex items-start gap-2"><span className="text-red-500"> to </span> Stains more easily than hard surfaces</li>
+                <li className="flex items-start gap-2"><span className="text-red-500">✗</span> Fibers trap moisture and can harbor mold if not dried quickly</li>
+                <li className="flex items-start gap-2"><span className="text-red-500">✗</span> Not suitable for basements with active water intrusion</li>
+                <li className="flex items-start gap-2"><span className="text-red-500">✗</span> Shortest lifespan of any option (8 to 15 years)</li>
+                <li className="flex items-start gap-2"><span className="text-red-500">✗</span> Stains more easily than hard surfaces</li>
               </ul>
             </div>
             <div className="bg-emerald-50 border border-emerald-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700"><strong>Cost:</strong> $1.00 to $4.00/sqft material | $2.50 to $7.00/sqft installed | <strong>ROI:</strong> Low to comfort-focused but limited longevity in moisture-prone areas.</p>
+              <p className="text-sm text-gray-700"><strong>Cost:</strong> $1.00 to $4.00/sqft material | $2.50 to $7.00/sqft installed | <strong>ROI:</strong> Low — comfort-focused but limited longevity in moisture-prone areas.</p>
             </div>
           </section>
 
@@ -439,7 +439,7 @@ export default function BestBasementFlooring() {
             <div className="bg-white rounded-lg p-6 shadow-sm mb-4">
               <h3 className="font-semibold text-emerald-700 mb-3">The Pros</h3>
               <ul className="space-y-2 text-gray-700">
-                <li className="flex items-start gap-2"><span className="text-emerald-600">✓</span> Uses your existing slab to no additional materials needed</li>
+                <li className="flex items-start gap-2"><span className="text-emerald-600">✓</span> Uses your existing slab — no additional materials needed</li>
                 <li className="flex items-start gap-2"><span className="text-emerald-600">✓</span> Extremely durable and low maintenance</li>
                 <li className="flex items-start gap-2"><span className="text-emerald-600">✓</span> Can be stained or dyed for custom colors and patterns</li>
                 <li className="flex items-start gap-2"><span className="text-emerald-600">✓</span> Reflective surface brightens dark basements</li>
@@ -448,14 +448,14 @@ export default function BestBasementFlooring() {
             <div className="bg-white rounded-lg p-6 shadow-sm mb-4">
               <h3 className="font-semibold text-red-600 mb-3">The Cons</h3>
               <ul className="space-y-2 text-gray-700">
-                <li className="flex items-start gap-2"><span className="text-red-500"> to </span> Cold and hard underfoot to requires area rugs for comfort</li>
-                <li className="flex items-start gap-2"><span className="text-red-500"> to </span> Sealer must be reapplied every 2 to 5 years</li>
-                <li className="flex items-start gap-2"><span className="text-red-500"> to </span> Cracks in the slab will show through the finish</li>
-                <li className="flex items-start gap-2"><span className="text-red-500"> to </span> Professional grinding equipment required</li>
+                <li className="flex items-start gap-2"><span className="text-red-500">✗</span> Cold and hard underfoot — requires area rugs for comfort</li>
+                <li className="flex items-start gap-2"><span className="text-red-500">✗</span> Sealer must be reapplied every 2 to 5 years</li>
+                <li className="flex items-start gap-2"><span className="text-red-500">✗</span> Cracks in the slab will show through the finish</li>
+                <li className="flex items-start gap-2"><span className="text-red-500">✗</span> Professional grinding equipment required</li>
               </ul>
             </div>
             <div className="bg-emerald-50 border border-emerald-200 rounded-lg p-4">
-              <p className="text-sm text-gray-700"><strong>Cost:</strong> $2.00 to $5.00/sqft material | $3.00 to $8.00/sqft installed | <strong>ROI:</strong> High to lowest cost option with a modern, clean aesthetic.</p>
+              <p className="text-sm text-gray-700"><strong>Cost:</strong> $2.00 to $5.00/sqft material | $3.00 to $8.00/sqft installed | <strong>ROI:</strong> High — lowest cost option with a modern, clean aesthetic.</p>
             </div>
           </section>
 
@@ -634,12 +634,12 @@ export default function BestBasementFlooring() {
                 In 2026, the best basement flooring prioritizes waterproofing without sacrificing style. Here are our top recommendations by use case:
               </p>
               <ul className="space-y-3 text-gray-700">
-                <li><strong>Best Overall:</strong> SPC Luxury Vinyl Plank to unbeatable combination of price, waterproofing, and DIY installation.</li>
-                <li><strong>Best for Durability:</strong> Porcelain Tile to the only true "forever floor" for basements.</li>
-                <li><strong>Best for Gyms:</strong> Rubber Flooring to shock absorption, noise reduction, and 100% waterproof.</li>
-                <li><strong>Best Budget Option:</strong> Polished Concrete or Epoxy to transform your existing slab for under $8,000.</li>
-                <li><strong>Best for Luxury:</strong> Engineered Hardwood to real wood warmth for dry, climate-controlled basements.</li>
-                <li><strong>Best for Comfort:</strong> Carpet Tiles to warmth and softness for bedrooms and playrooms.</li>
+                <li><strong>Best Overall:</strong> SPC Luxury Vinyl Plank — unbeatable combination of price, waterproofing, and DIY installation.</li>
+                <li><strong>Best for Durability:</strong> Porcelain Tile — the only true "forever floor" for basements.</li>
+                <li><strong>Best for Gyms:</strong> Rubber Flooring — shock absorption, noise reduction, and 100% waterproof.</li>
+                <li><strong>Best Budget Option:</strong> Polished Concrete or Epoxy — transform your existing slab for under $8,000.</li>
+                <li><strong>Best for Luxury:</strong> Engineered Hardwood — real wood warmth for dry, climate-controlled basements.</li>
+                <li><strong>Best for Comfort:</strong> Carpet Tiles — warmth and softness for bedrooms and playrooms.</li>
               </ul>
             </div>
           </section>
