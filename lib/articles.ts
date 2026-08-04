@@ -320,6 +320,14 @@ export const articles: Article[] = [
     readTime: '14 min read',
     image: '/leaksensor.jpg',
   },
+  {
+    title: 'Best Basement Window Well Covers and Egress Ladders (2026)',
+    description: 'Best basement window well covers and egress ladders compared. Vercraft, QIPRAONO, HomiShare & Zwinz reviewed for cost, code compliance, and drainage. Updated 2026.',
+    slug: 'best-window-well-covers-egress-ladders',
+    category: 'Reviews',
+    readTime: '12 min read',
+    image: '/egresswindow.jpg',
+  },
     {
       title: 'Basement Humidity Guide 2026: Ideal Levels, How to Measure & Fix High Humidity',
       description: 'Learn what basement humidity levels are safe in 2026. Ideal range is 30-50% RH. Find out how to measure with a hygrometer and fix high humidity fast.',
