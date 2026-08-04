@@ -68,6 +68,7 @@ export const TASK_ID_MAP: Record<string, number[]> = {
 
   // Egress window
   'egress-window-cost': [...DEFAULT_TASK_IDS, 154, 153, 226],
+  'best-window-well-covers-egress-ladders': [...DEFAULT_TASK_IDS, 573, 229, 391, 154, 226, 254],
 
   // Water damage / emergency
   'basement-emergency-water-plan': [...DEFAULT_TASK_IDS, 254, 229, 573, 287, 130, 293],
