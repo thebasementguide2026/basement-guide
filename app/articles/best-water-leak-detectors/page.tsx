@@ -769,6 +769,12 @@ export default function BestWaterLeakDetectors() {
               <p className='text-sm text-gray-600 mt-2'>Comprehensive guide to all basement waterproofing methods.</p>
             </div>
           </Link>
+          <Link href='/articles/best-window-well-covers-egress-ladders' className='group block bg-white border border-gray-200 rounded-xl overflow-hidden hover:shadow-lg transition-shadow'>
+            <div className='p-6'>
+              <h3 className='font-bold text-gray-900 group-hover:text-blue-600 transition-colors'>Best Window Well Covers and Egress Ladders</h3>
+              <p className='text-sm text-gray-600 mt-2'>Compare polycarbonate covers, metal grates, and fixed egress ladders for basement wells.</p>
+            </div>
+          </Link>
         </div>
       </section>
 
