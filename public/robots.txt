@@ -2,3 +2,7 @@ User-agent: *
 Allow: /
 
 Sitemap: https://thebasement.guide/sitemap.xml
+
+# AI / LLM discovery
+# LLM-friendly site index: https://thebasement.guide/llms.txt
+# Full content archive:    https://thebasement.guide/llms-full.txt

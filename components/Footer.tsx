@@ -190,6 +190,7 @@ export default function Footer() {
             <Link href="/privacy" className="hover:text-gray-300 transition-colors">Privacy Policy</Link>
             <Link href="/terms" className="hover:text-gray-300 transition-colors">Terms of Use</Link>
             <Link href="/affiliate-disclosure" className="hover:text-gray-300 transition-colors">Affiliate Disclosure</Link>
+            <a href="/llms.txt" className="hover:text-gray-300 transition-colors" title="LLM/AI-friendly site index">AI/LLMs</a>
           </div>
           <p className="text-center md:text-right">
             This site contains affiliate links. As an Amazon Associate, we earn from qualifying purchases.
