@@ -493,6 +493,10 @@ export default function MustyBasementSmellArticle() {
             <h4 className='text-lg font-bold text-slate-900 mb-2'>Basement Insulation Guide</h4>
             <p className='text-slate-600 text-sm'>How insulating basement walls raises surface temperatures above the dew point, eliminating condensation-driven musty smell in basements where humidity is the primary moisture source.</p>
           </Link>
+          <Link href='/articles/basement-mice-pest-prevention' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
+            <h4 className='text-lg font-bold text-slate-900 mb-2'>Basement Mice & Pest Prevention</h4>
+            <p className='text-slate-600 text-sm'>How to distinguish an ammonia-tinged rodent odor from a musty mold smell, and the sealing plus trapping sequence that eliminates the source rather than masking it.</p>
+          </Link>
           <Link href='/articles/best-basement-air-purifiers' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'>
             <h4 className='text-lg font-bold text-slate-900 mb-2'>Best Basement Air Purifiers</h4>
             <p className='text-slate-600 text-sm'>HEPA air purifiers that reduce airborne mold spore counts and MVOC concentrations in the basement before the stack effect distributes them to upper floors.</p>

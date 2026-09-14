@@ -79,6 +79,7 @@ const footerSections = [
             { label: 'Floor Water Leaks', href: '/articles/water-coming-up-through-basement-floor' },
       { label: 'Water After Rain', href: '/articles/problems/basement-water-after-rain' },
       { label: 'Flooding Cleanup', href: '/articles/problems/basement-flooding-cleanup' },
+      { label: 'Mice & Pest Prevention', href: '/articles/basement-mice-pest-prevention' },
     ],
   },
   {

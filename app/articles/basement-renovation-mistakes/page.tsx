@@ -316,6 +316,10 @@ export default function BasementRenovationMistakes() {
               <h3 className='font-bold text-slate-800 mb-1'>Old House Basements Guide</h3>
               <p className='text-sm text-slate-500'>Renovating and waterproofing basements in older homes built before 1950.</p>
             </Link>
+          <Link href='/articles/basement-mice-pest-prevention' className='block p-4 rounded-lg border border-slate-200 hover:border-teal-400 hover:shadow-md transition-all duration-300'>
+            <h3 className='font-bold text-slate-800 mb-1'>Basement Mice & Pest Prevention</h3>
+            <p className='text-sm text-slate-500'>Seal foundation and utility penetrations before you frame walls, or you build the pests in behind drywall.</p>
+          </Link>
         </div>
       </section>
 

@@ -543,6 +543,13 @@ export const articles: Article[] = [
     category: 'Comparison',
     readTime: '10 min read',
   },
+  {
+    title: 'Basement Mice & Pest Prevention: Sealing, Traps, and Long-Term Fixes (2026)',
+    description: 'Mice get into basements through gaps as small as a quarter inch. Seal foundation cracks, utility penetrations, and the sill plate first, then trap what is inside. Full DIY guide with product picks and 10-year cost breakdown.',
+    slug: 'basement-mice-pest-prevention',
+    category: 'Health & Safety',
+    readTime: '9 min read',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {

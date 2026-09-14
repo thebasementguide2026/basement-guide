@@ -438,6 +438,10 @@ export default function OldHouseBasementsArticle() {
               <h4 className='font-bold text-slate-900 group-hover:text-teal-700 transition-colors mb-2'>How to Prevent Basement Mold</h4>
               <p className='text-slate-500 text-sm'>Critical steps to stop mold before it starts in damp basements.</p>
             </Link>
+            <Link href='/articles/basement-mice-pest-prevention' className='group block bg-white rounded-2xl border border-slate-200 p-6 hover:shadow-lg hover:border-teal-200 transition-all'>
+              <h4 className='font-bold text-slate-900 group-hover:text-teal-700 transition-colors mb-2'>Basement Mice & Pest Prevention</h4>
+              <p className='text-slate-500 text-sm'>Older stone and rubble foundations have more entry gaps. How to seal, exclude, and trap without disturbing historic materials.</p>
+            </Link>
           </div>
         </div>
       </section>

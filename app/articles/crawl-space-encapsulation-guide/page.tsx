@@ -458,6 +458,10 @@ export default function CrawlSpaceEncapsulationGuide() {
                   <h3 className='font-bold text-slate-900 mb-1'>Radon Testing and Mitigation</h3>
                   <p className='text-slate-600 text-sm'>Why radon testing before encapsulating a crawl space matters.</p>
                 </Link>
+                <Link href='/articles/basement-mice-pest-prevention' className='block bg-slate-50 rounded-lg p-5 border border-slate-200 hover:border-indigo-300 hover:shadow-lg transition-all'>
+                  <h3 className='font-bold text-slate-900 mb-1'>Mice & Pest Prevention</h3>
+                  <p className='text-slate-600 text-sm'>Sealing rodent entry points before and after encapsulation to keep the newly conditioned space pest-free.</p>
+                </Link>
               </div>
             </section>
 
