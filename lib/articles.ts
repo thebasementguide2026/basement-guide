@@ -549,6 +549,7 @@ export const articles: Article[] = [
     slug: 'basement-mice-pest-prevention',
     category: 'Health & Safety',
     readTime: '9 min read',
+    image: '/basement-mice-pest-prevention-hero.jpg',
   },
 ]
 

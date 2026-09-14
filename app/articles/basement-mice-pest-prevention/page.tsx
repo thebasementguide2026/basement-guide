@@ -1,10 +1,24 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Basement Mice & Pest Prevention: Sealing, Traps, and Long-Term Fixes (2026) | The Basement Guide',
   description: 'Mice get into basements through gaps as small as a quarter inch. Seal foundation cracks, utility penetrations, and the sill plate first, then trap what is inside. Full DIY guide with product picks and 10-year cost breakdown.',
   alternates: { canonical: 'https://thebasement.guide/articles/basement-mice-pest-prevention' },
+  openGraph: {
+    title: 'Basement Mice & Pest Prevention: Sealing, Traps, and Long-Term Fixes (2026)',
+    description: 'Mice get into basements through gaps as small as a quarter inch. Seal foundation cracks, utility penetrations, and the sill plate first, then trap what is inside.',
+    url: 'https://thebasement.guide/articles/basement-mice-pest-prevention',
+    type: 'article',
+    images: [{ url: 'https://thebasement.guide/basement-mice-pest-prevention-hero.jpg', width: 1200, height: 800, alt: 'Small brown mouse feeding on food crumbs beside a stone basement foundation wall' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Basement Mice & Pest Prevention: Sealing, Traps, and Long-Term Fixes (2026)',
+    description: 'Seal foundation cracks and utility penetrations first, then trap what is inside. Full DIY guide with product picks.',
+    images: ['https://thebasement.guide/basement-mice-pest-prevention-hero.jpg'],
+  },
 }
 
 export default function BasementMicePestPrevention() {
@@ -22,6 +36,7 @@ export default function BasementMicePestPrevention() {
         dateModified: '2026-09-14',
         url: 'https://thebasement.guide/articles/basement-mice-pest-prevention',
         mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://thebasement.guide/articles/basement-mice-pest-prevention' },
+        image: 'https://thebasement.guide/basement-mice-pest-prevention-hero.jpg',
       }) }} />
       <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context': 'https://schema.org',
@@ -56,6 +71,18 @@ export default function BasementMicePestPrevention() {
       <h1 className='text-3xl md:text-4xl font-bold text-[#1B2A3B] mb-6 leading-tight'>
         Basement Mice &amp; Pest Prevention: Sealing, Traps, and Long-Term Fixes (2026)
       </h1>
+
+      {/* Hero Image */}
+      <div className='relative w-full aspect-[3/2] mb-10 rounded-xl overflow-hidden bg-slate-100'>
+        <Image
+          src='/basement-mice-pest-prevention-hero.jpg'
+          alt='Small brown mouse feeding on food crumbs beside a stone basement foundation wall'
+          fill
+          sizes='(max-width: 768px) 100vw, 896px'
+          className='object-cover'
+          priority
+        />
+      </div>
 
       {/* TL;DR */}
       <div className='bg-teal-50 border-l-4 border-[#00A99D] rounded-r-xl p-5 mb-10'>
