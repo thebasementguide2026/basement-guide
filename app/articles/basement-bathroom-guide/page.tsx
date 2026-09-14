@@ -597,6 +597,10 @@ export default function BasementBathroomGuide() {
                 <h3 className='font-bold text-slate-900 mb-2'>Mold Remediation Cost</h3>
                 <p className='text-slate-600 text-sm'>What remediation costs if moisture problems are discovered mid-project.</p>
               </Link>
+              <Link href='/articles/sewage-ejector-pumps-vs-upflush-toilets' className='block bg-slate-50 rounded-xl p-6 border border-slate-100 hover:border-teal-300 hover:shadow-lg transition-all'>
+                <h3 className='font-bold text-slate-900 mb-2'>Sewage Ejector Pumps vs. Upflush Toilets</h3>
+                <p className='text-slate-600 text-sm'>Which drainage system fits your basement bathroom: install cost, lifespan, and slab-break tradeoffs.</p>
+              </Link>
             </div>
           </div>
 

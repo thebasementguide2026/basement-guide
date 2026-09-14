@@ -568,6 +568,10 @@ export default function BasementFinishingCost() {
                   <h4 className='font-bold text-slate-900 mb-1'>Complete Basement Waterproofing Guide</h4>
                   <p className='text-slate-600 text-sm'>Why waterproofing before finishing matters and what it costs.</p>
                 </Link>
+                <Link href='/articles/sewage-ejector-pumps-vs-upflush-toilets' className='block bg-white rounded-2xl p-6 hover:bg-violet-50 transition-colors border border-slate-200'>
+                  <h4 className='font-bold text-slate-900 mb-1'>Sewage Ejector Pumps vs. Upflush Toilets</h4>
+                  <p className='text-slate-600 text-sm'>Which drainage system fits your basement bathroom: install cost, lifespan, and slab-break tradeoffs.</p>
+                </Link>
               </div>
             </section>
 

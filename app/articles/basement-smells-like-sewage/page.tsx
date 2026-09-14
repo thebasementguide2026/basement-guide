@@ -422,6 +422,10 @@ export default function BasementSmellsLikeSewage() {
                 <h3 className='text-xl font-bold text-slate-900 mb-2'>Why Your Basement Floods With a Sump Pump</h3>
                 <p className='text-slate-600'>Diagnose why your sump pump is not preventing flooding.</p>
               </Link>
+              <Link href='/articles/sewage-ejector-pumps-vs-upflush-toilets' className='block bg-white border border-slate-200 rounded-2xl p-6 hover:shadow-lg transition-shadow'>
+                <h3 className='text-xl font-bold text-slate-900 mb-2'>Sewage Ejector Pumps vs. Upflush Toilets</h3>
+                <p className='text-slate-600'>How each system works, when each fails, and how to size the right one for your basement bathroom.</p>
+              </Link>
             </div>
           </section>
         </div>

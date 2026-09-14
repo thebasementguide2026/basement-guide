@@ -517,6 +517,10 @@ export default function HowToFinishBasement() {
             <h3 className="font-bold text-lg mb-1">Basement Home Gym Guide</h3>
             <p className="text-sm text-gray-600">Flooring, ventilation, equipment, and layout for a below-grade workout space.</p>
           </Link>
+          <Link href="/articles/sewage-ejector-pumps-vs-upflush-toilets" className="block p-5 border border-gray-200 rounded-xl hover:border-teal-400 hover:shadow-md transition">
+            <h3 className="font-bold text-lg mb-1">Sewage Ejector Pumps vs. Upflush Toilets</h3>
+            <p className="text-sm text-gray-600">Which drainage system fits your basement bathroom: install cost, lifespan, and slab-break tradeoffs.</p>
+          </Link>
         </div>
       </section>
 
