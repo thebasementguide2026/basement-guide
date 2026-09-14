@@ -536,6 +536,13 @@ export const articles: Article[] = [
     readTime: '15 min read',
     image: '/basementventilation.jpg',
   },
+  {
+    title: 'Sewage Ejector Pumps vs. Upflush Toilets: Which One for Your Basement Bathroom (2026)',
+    description: 'Sewage ejector pump or upflush toilet system for your basement bathroom? Compare install cost, lifespan, slab work, noise, and 10-year TCO with 2026 pricing and product picks.',
+    slug: 'sewage-ejector-pumps-vs-upflush-toilets',
+    category: 'Comparison',
+    readTime: '10 min read',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {

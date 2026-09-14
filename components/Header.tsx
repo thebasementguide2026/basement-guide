@@ -67,6 +67,7 @@ const navItems = [
       { label: 'Basement vs Crawl Space', href: '/articles/basement-vs-crawl-space-vs-slab' },
       { label: 'Drop Ceiling vs Drywall', href: '/articles/drop-ceiling-vs-drywall' },
       { label: 'Epoxy vs Polyurethane', href: '/articles/epoxy-vs-polyurethane-floor-coating' },
+      { label: 'Ejector Pump vs Upflush Toilet', href: '/articles/sewage-ejector-pumps-vs-upflush-toilets' },
     ],
   },
   {
