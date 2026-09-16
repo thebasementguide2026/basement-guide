@@ -34,7 +34,7 @@ const PROJECT_TYPE_OPTIONS = [
   { value: '70', label: 'Concrete Retaining Walls - Repair' },
 ]
 
-const TCPA_TEXT = `By clicking "Get Free Quotes," I consent to be contacted by home service professionals at the phone number and/or email address I provided, including via automated calls, texts, and prerecorded messages, even if my number is on a Do Not Call list. I understand this consent is not a condition of purchase. I also agree to The Basement Guide's Terms of Service and Privacy Policy.`
+const TCPA_TEXT = `By clicking "Get Free Quotes," I consent to be contacted by home service professionals, including Networx Systems, Inc. and its Partners (https://www.networx.com/third-party-contractors), at the phone number and/or email address I provided, including via automated calls, texts, and prerecorded messages, even if my number is on a Do Not Call list. I understand this consent is not a condition of purchase. I also agree to The Basement Guide's Terms of Service and Privacy Policy.`
 
 interface LeadFormProps {
   taskIds?: number[]
@@ -301,7 +301,8 @@ export default function LeadForm({ taskIds }: LeadFormProps) {
       </button>
 
       <p className="text-xs text-gray-500 mt-4 text-center leading-relaxed">
-        By clicking "Get Free Quotes," I consent to be contacted by home service professionals at the phone number and/or email address I provided, including via automated calls, texts, and prerecorded messages, even if my number is on a Do Not Call list. I understand this consent is not a condition of purchase. I also agree to The Basement Guide's{' '}
+        By clicking "Get Free Quotes," I consent to be contacted by home service professionals, including Networx Systems, Inc. and its{' '}
+        <a href="https://www.networx.com/third-party-contractors" target="_blank" rel="noopener noreferrer" className="underline">Partners</a>, at the phone number and/or email address I provided, including via automated calls, texts, and prerecorded messages, even if my number is on a Do Not Call list. I understand this consent is not a condition of purchase. I also agree to The Basement Guide's{' '}
         <a href="/terms" className="underline">Terms of Service</a> and{' '}
         <a href="/privacy" className="underline">Privacy Policy</a>.
       </p>
