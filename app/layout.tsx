@@ -72,6 +72,12 @@ export default function RootLayout({
           type='application/ld+json'
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
         />
+        {/* Google AdSense */}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1671153964932296"
+          crossOrigin="anonymous"
+        ></script>
       </head>
       <body className={inter.className}>
         <Header />
