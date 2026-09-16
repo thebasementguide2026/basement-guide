@@ -3,20 +3,20 @@ import Image from 'next/image'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Basement Mice & Pest Prevention: Sealing, Traps, and Long-Term Fixes (2026) | The Basement Guide',
-  description: 'Mice get into basements through gaps as small as a quarter inch. Seal foundation cracks, utility penetrations, and the sill plate first, then trap what is inside. Full DIY guide with product picks and 10-year cost breakdown.',
+  title: 'Basement Mice & Pest Prevention: Seal, Trap, Fix (2026)',
+  description: 'Mice enter basements through gaps as small as a quarter inch. Seal foundation cracks and utility penetrations first, then trap. DIY guide with picks.',
   alternates: { canonical: 'https://thebasement.guide/articles/basement-mice-pest-prevention' },
   openGraph: {
-    title: 'Basement Mice & Pest Prevention: Sealing, Traps, and Long-Term Fixes (2026)',
-    description: 'Mice get into basements through gaps as small as a quarter inch. Seal foundation cracks, utility penetrations, and the sill plate first, then trap what is inside.',
+    title: 'Basement Mice & Pest Prevention: Seal, Trap, Fix (2026)',
+    description: 'Mice enter basements through gaps as small as a quarter inch. Seal foundation cracks and utility penetrations first, then trap. DIY guide with picks.',
     url: 'https://thebasement.guide/articles/basement-mice-pest-prevention',
     type: 'article',
     images: [{ url: 'https://thebasement.guide/basement-mice-pest-prevention-hero.jpg', width: 1200, height: 800, alt: 'Small brown mouse feeding on food crumbs beside a stone basement foundation wall' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Basement Mice & Pest Prevention: Sealing, Traps, and Long-Term Fixes (2026)',
-    description: 'Seal foundation cracks and utility penetrations first, then trap what is inside. Full DIY guide with product picks.',
+    title: 'Basement Mice & Pest Prevention: Seal, Trap, Fix (2026)',
+    description: 'Seal foundation cracks and utility penetrations first, then trap what is inside. DIY guide with product picks.',
     images: ['https://thebasement.guide/basement-mice-pest-prevention-hero.jpg'],
   },
 }
@@ -28,8 +28,8 @@ export default function BasementMicePestPrevention() {
       <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'Article',
-        headline: 'Basement Mice & Pest Prevention: Sealing, Traps, and Long-Term Fixes (2026)',
-        description: 'Mice get into basements through gaps as small as a quarter inch. Seal foundation cracks, utility penetrations, and the sill plate first, then trap what is inside. Full DIY guide with product picks and 10-year cost breakdown.',
+        headline: 'Basement Mice & Pest Prevention: Seal, Trap, Fix (2026)',
+        description: 'Mice enter basements through gaps as small as a quarter inch. Seal foundation cracks and utility penetrations first, then trap. DIY guide with picks.',
         author: { '@type': 'Organization', name: 'The Basement Guide' },
         publisher: { '@type': 'Organization', name: 'The Basement Guide', url: 'https://thebasement.guide' },
         datePublished: '2026-09-14',
