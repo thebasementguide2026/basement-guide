@@ -121,6 +121,7 @@ export default function BasementInsulationGuide() {
 
         <h3 className='text-2xl font-bold mt-8 mb-4'>Comfort and Usability</h3>
         <p>Wall and floor surface temperatures rise 8 to 15 degrees Fahrenheit with proper insulation, making the space feel warmer in winter and drier in summer. This is the difference between a basement you avoid and one you actually use.</p>
+        <p>Once it's insulated, see our guide on <Link href='/articles/how-to-heat-a-basement' className='text-violet-600 hover:underline'>how to heat a basement</Link> for the cheapest way to warm the space based on how many hours a day you use it.</p>
 
         <h3 className='text-2xl font-bold mt-8 mb-4'>Moisture and Mold Control</h3>
         <p>Warm surfaces stay above the dew point, reducing condensation that leads to <Link href='/articles/how-to-prevent-basement-mold' className='text-violet-600 hover:underline'>mold growth</Link>. Condensation on cold basement walls is one of the most common causes of basement mold, and insulation solves it at the source.</p>

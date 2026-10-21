@@ -55,6 +55,7 @@ export const TASK_ID_MAP: Record<string, number[]> = {
   'basement-adu-rental-suite': [...DEFAULT_TASK_IDS, 154, 153, 221, 236, 226, 258, 130, 229],
   'basement-bathroom-guide': [...DEFAULT_TASK_IDS, 154, 153, 130, 129, 226],
   'basement-home-gym': [...DEFAULT_TASK_IDS, 154, 153, 221, 226, 258],
+  'how-to-heat-a-basement': [...DEFAULT_TASK_IDS, 154, 153, 221, 258, 220],
   'basement-renovation-mistakes': [...DEFAULT_TASK_IDS, 154, 153, 221, 236, 226],
   'pre-finish-audit': [...DEFAULT_TASK_IDS, 154, 153, 287, 579, 229, 258],
   'drop-ceiling-vs-drywall': [...DEFAULT_TASK_IDS, 154, 153, 221, 236, 220],

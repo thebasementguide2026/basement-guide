@@ -551,6 +551,14 @@ export const articles: Article[] = [
     readTime: '9 min read',
     image: '/basement-mice-pest-prevention-hero.jpg',
   },
+  {
+    title: 'How to Heat a Basement: Options, Costs, and What Actually Works',
+    description: 'Space heater, electric fireplace, heated floors, ductwork, or mini-split? Compare costs, 10-year totals, and the best heaters for basements.',
+    slug: 'how-to-heat-a-basement',
+    category: 'Finishing',
+    readTime: '10 min read',
+    image: '/how-to-heat-a-basement-hero.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {

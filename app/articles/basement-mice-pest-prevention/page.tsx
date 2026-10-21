@@ -96,6 +96,9 @@ export default function BasementMicePestPrevention() {
       <p className='text-gray-700 mb-4 leading-relaxed'>
         Basements offer mice everything they want: warmth, darkness, and proximity to a foundation that&apos;s rarely sealed as tightly as the rest of the house. Foundation cracks, gaps around pipes, dryer vents, and utility lines all create openings that look small to you and look like a front door to a mouse. A full-grown mouse can squeeze through a gap the width of a pencil.
       </p>
+      <p className='text-gray-700 mb-4 leading-relaxed'>
+        When cold weather arrives, a heated basement becomes an even stronger draw for mice looking for winter shelter, so if you're warming yours up with our <Link href='/articles/how-to-heat-a-basement' className='text-[#00A99D] underline'>how to heat a basement guide</Link>, check the perimeter seals as part of the project.
+      </p>
       <p className='text-gray-700 mb-8 leading-relaxed'>
         Moisture makes it worse. A damp basement attracts mice the same way it attracts mold, since they need water as much as food. If you&apos;re dealing with mice and you&apos;ve also got a musty smell or standing water after rain, the two problems are usually connected. Fixing one without the other means the mice keep coming back.
       </p>
