@@ -218,7 +218,7 @@ export default function BestWaterLeakDetectors() {
               The sensor has probes on both the top and bottom, so it detects both pooling water from below and drips from above (such as a leaking pipe or condensation). The 105 dB alarm is loud enough to hear through a closed door and up a flight of stairs.
             </p>
             <p className='text-gray-700 text-lg mb-4'>
-              The YoLink app sends instant push notifications, and the system integrates with Alexa and IFTTT for automations. Battery life is 2 to 5 years depending on usage, with low-battery warnings in the app. Temperature monitoring provides freeze alerts when basement temperatures drop near freezing, which can warn you of a heating system failure before pipes burst.
+              The YoLink app sends instant push notifications, and the system integrates with Alexa and IFTTT for automations. Battery life is 2 to 5 years depending on usage, with low-battery warnings in the app. Temperature monitoring provides freeze alerts when basement temperatures drop near freezing, which can warn you of a heating system failure before pipes burst. For everything that leads up to that moment, see our guide on <Link href='/articles/frozen-pipes-in-basement' className='text-teal-600 hover:underline'>frozen pipes in the basement</Link>.
             </p>
             <h4 className='text-lg font-semibold text-gray-900 mb-2'>Setup</h4>
             <p className='text-gray-700 text-lg mb-4'>

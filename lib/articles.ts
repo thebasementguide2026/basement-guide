@@ -559,6 +559,14 @@ export const articles: Article[] = [
     readTime: '10 min read',
     image: '/how-to-heat-a-basement-hero.jpg',
   },
+  {
+    title: 'Frozen Pipes in the Basement: How to Prevent Them and What to Do If One Freezes',
+    description: 'Which basement pipes freeze, how to protect them for under $100, how to thaw a frozen pipe in a finished ceiling, and what a burst pipe really costs.',
+    slug: 'frozen-pipes-in-basement',
+    category: 'Problems',
+    readTime: '11 min read',
+    image: '/frozen-pipes-in-basement-hero.jpg',
+  },
 ]
 
 export function searchArticles(query: string): Article[] {

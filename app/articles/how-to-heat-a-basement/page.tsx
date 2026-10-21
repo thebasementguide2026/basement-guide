@@ -166,7 +166,7 @@ export default function HowToHeatABasement() {
       <ul className='list-disc pl-6 text-gray-700 mb-4 space-y-2'>
         <li><strong>Infrared heaters</strong> warm you and the objects near you quickly. Good for a workout area or a desk.</li>
         <li><strong>Ceramic heaters</strong> blow warm air and heat a small room fast. Cheapest to buy, a little noisier.</li>
-        <li><strong>Oil-filled radiators</strong> heat slowly, stay warm after cycling off, run silently, and hold a steady temperature. Good for a room you sit in for hours. Some models include an anti-freeze setting that switches on automatically near 41°F, which is useful for protecting basement pipes.</li>
+        <li><strong>Oil-filled radiators</strong> heat slowly, stay warm after cycling off, run silently, and hold a steady temperature. Good for a room you sit in for hours. Some models include an anti-freeze setting that switches on automatically near 41°F, which is useful for <Link href='/articles/frozen-pipes-in-basement' className='text-[#00A99D] underline'>protecting basement pipes</Link>.</li>
       </ul>
       <p className='text-gray-700 mb-4 leading-relaxed'>
         Rough sizing: a 1,500-watt heater can serve as the main heat source for about 150 square feet, or supplement existing heat in a larger space.

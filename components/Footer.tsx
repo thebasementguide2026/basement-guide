@@ -12,6 +12,7 @@ const footerSections = [
       { label: 'Crawl Space', href: '/articles/crawl-space-encapsulation-guide' },
       { label: 'Insulation Guide', href: '/articles/basement-insulation-guide' },
       { label: 'Heating a Basement', href: '/articles/how-to-heat-a-basement' },
+      { label: 'Frozen Pipes', href: '/articles/frozen-pipes-in-basement' },
       { label: 'Smart Sump Pumps', href: '/articles/smart-sump-pumps-guide' },
       { label: 'Crystalline Waterproofing', href: '/articles/crystalline-waterproofing' },
       { label: 'Radon & Waterproofing', href: '/articles/radon-and-basement-waterproofing' },

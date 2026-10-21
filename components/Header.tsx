@@ -54,6 +54,7 @@ const navItems = [
       { label: 'Why Basement Still Floods', href: '/articles/why-basement-floods-with-sump-pump' },
               { label: 'Drying Out After Flooding', href: '/articles/how-to-dry-out-basement-after-flooding' },
             { label: 'Floor Water Leaks', href: '/articles/water-coming-up-through-basement-floor' },
+      { label: 'Frozen Pipes', href: '/articles/frozen-pipes-in-basement' },
       { label: 'Mice & Pest Prevention', href: '/articles/basement-mice-pest-prevention' },
     ],
   },
