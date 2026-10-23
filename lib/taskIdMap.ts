@@ -10,6 +10,7 @@ const DEFAULT_TASK_IDS = [337, 393, 143, 417]
 
 export const TASK_ID_MAP: Record<string, number[]> = {
   // Waterproofing articles
+  'sump-pump-running-constantly': [229, ...DEFAULT_TASK_IDS, 573, 254],
   'how-to-winterize-a-basement': [...DEFAULT_TASK_IDS, 229, 573, 258, 254],
   'complete-basement-waterproofing-guide': [...DEFAULT_TASK_IDS, 391, 573, 229, 254, 287, 373],
   'basement-waterproofing-cost': [...DEFAULT_TASK_IDS, 391, 573, 229, 254, 373],

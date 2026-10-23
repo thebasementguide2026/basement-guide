@@ -53,6 +53,7 @@ const navItems = [
       { label: 'Efflorescence', href: '/articles/basement-efflorescence' },
       { label: 'Humidity Issues', href: '/articles/basement-humidity-guide' },
       { label: 'Why Basement Still Floods', href: '/articles/why-basement-floods-with-sump-pump' },
+      { label: 'Sump Pump Running Constantly', href: '/articles/sump-pump-running-constantly' },
               { label: 'Drying Out After Flooding', href: '/articles/how-to-dry-out-basement-after-flooding' },
             { label: 'Floor Water Leaks', href: '/articles/water-coming-up-through-basement-floor' },
       { label: 'Frozen Pipes', href: '/articles/frozen-pipes-in-basement' },

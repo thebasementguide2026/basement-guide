@@ -29,7 +29,7 @@ const sections = [
     id: 'sump-pumps',
     title: 'Sump Pumps & Drainage',
     description: 'Choosing, installing, and troubleshooting sump pumps and drainage systems.',
-    slugs: ['sump-pump-buying-guide', 'smart-sump-pumps-guide', 'battery-vs-water-powered-sump-pumps', 'why-basement-floods-with-sump-pump'],
+    slugs: ['sump-pump-buying-guide', 'sump-pump-running-constantly', 'smart-sump-pumps-guide', 'battery-vs-water-powered-sump-pumps', 'why-basement-floods-with-sump-pump'],
     featured: ['sump-pump-buying-guide'],
   },
   {

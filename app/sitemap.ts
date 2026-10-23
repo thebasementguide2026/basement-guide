@@ -21,7 +21,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
   "spring-basement-checklist": "2026-10-23",
   "how-to-heat-a-basement": "2026-10-23",
   "frozen-pipes-in-basement": "2026-10-23",
-  "basement-mice-pest-prevention": "2026-10-23"
+  "basement-mice-pest-prevention": "2026-10-23",
+  "sump-pump-running-constantly": "2026-10-23",
+  "sump-pump-buying-guide": "2026-10-23",
+  "why-basement-floods-with-sump-pump": "2026-10-23"
 }
 
   const articlePages: MetadataRoute.Sitemap = articles.map((article) => ({

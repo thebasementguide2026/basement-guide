@@ -42,7 +42,7 @@ const faqSchema = {
       name: 'Why does my sump pump run constantly?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'A pump that never shuts off typically indicates one of four things: a high water table that is continuously pushing water into the pit, an undersized pump that cannot evacuate water as fast as it arrives, a stuck or misadjusted float switch that does not release when the water level drops, or a discharge line that is routing water back toward the foundation where it re-enters the drainage system. Constant running significantly shortens pump life by overheating the motor. Diagnose the root cause before simply replacing the pump — a new pump installed into the same conditions will burn out on the same timeline as the old one.',
+        text: 'A pump that never shuts off typically indicates one of four things: a high water table that is continuously pushing water into the pit, an undersized pump that cannot evacuate water as fast as it arrives, a stuck or misadjusted float switch that does not release when the water level drops, or a discharge line that is routing water back toward the foundation where it re-enters the drainage system. Constant running significantly shortens pump life by overheating the motor. Diagnose the root cause before simply replacing the pump — a new pump installed into the same conditions will burn out on the same timeline as the old one. For a full step-by-step diagnosis, see our sump pump running constantly guide.',
       },
     },
     {
@@ -392,7 +392,7 @@ export default function WhyBasementFloods() {
           </div>
           <div className='bg-slate-50 rounded-xl p-6'>
             <h3 className='text-lg font-bold text-slate-900 mb-2'>Why does my sump pump run constantly?</h3>
-            <p className='text-slate-600'>A pump that never shuts off typically indicates one of four things: a high water table that is continuously pushing water into the pit, an undersized pump that cannot evacuate water as fast as it arrives, a stuck or misadjusted float switch that does not release when the water level drops, or a discharge line that is routing water back toward the foundation where it re-enters the drainage system. Constant running significantly shortens pump life by overheating the motor. Diagnose the root cause before simply replacing the pump &mdash; a new pump installed into the same conditions will burn out on the same timeline as the old one.</p>
+            <p className='text-slate-600'>A pump that never shuts off typically indicates one of four things: a high water table that is continuously pushing water into the pit, an undersized pump that cannot evacuate water as fast as it arrives, a stuck or misadjusted float switch that does not release when the water level drops, or a discharge line that is routing water back toward the foundation where it re-enters the drainage system. Constant running significantly shortens pump life by overheating the motor. Diagnose the root cause before simply replacing the pump &mdash; a new pump installed into the same conditions will burn out on the same timeline as the old one. For a full step-by-step diagnosis, see our <Link href='/articles/sump-pump-running-constantly' className='text-[#00A99D] underline'>sump pump running constantly guide</Link>.</p>
           </div>
           <div className='bg-slate-50 rounded-xl p-6'>
             <h3 className='text-lg font-bold text-slate-900 mb-2'>Does homeowners insurance cover sump pump flooding?</h3>

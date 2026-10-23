@@ -37,8 +37,8 @@ export default function Home() {
   const popular = popularSlugs
     .map((slug) => articles.find((a) => a.slug === slug))
     .filter(Boolean) as typeof articles
-  const latestSlugs = ['how-to-winterize-a-basement', 'frozen-pipes-in-basement', 'how-to-heat-a-basement', 'diy-vs-hiring-pro-basement-projects']
-  const latestArticles = [...latestSlugs.map((slug) => articles.find((a) => a.slug === slug)), ...articles.filter((a) => a.slug !== 'bowing-basement-walls' && !latestSlugs.includes(a.slug)).slice(0, 2)].filter(Boolean) as typeof articles
+  const latestSlugs = ['sump-pump-running-constantly', 'how-to-winterize-a-basement', 'frozen-pipes-in-basement', 'how-to-heat-a-basement', 'diy-vs-hiring-pro-basement-projects']
+  const latestArticles = [...latestSlugs.map((slug) => articles.find((a) => a.slug === slug)), ...articles.filter((a) => a.slug !== 'bowing-basement-walls' && !latestSlugs.includes(a.slug)).slice(0, 1)].filter(Boolean) as typeof articles
   const reviews = articles
     .filter((a) => ['Reviews', 'Buying Guide'].includes(a.category))
     .slice(0, 7)

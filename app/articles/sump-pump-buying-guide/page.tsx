@@ -435,7 +435,7 @@ export default function SumpPumpBuyingGuide() {
           </div>
           <div>
             <h3 className='text-xl font-bold text-slate-800 mb-3'>Why does my sump pump keep running?</h3>
-            <p className='text-slate-600'>A sump pump that runs constantly or cycles on and off rapidly usually indicates one of four problems: the check valve is missing or failed, the float switch is stuck in the on position, the pump is undersized for the water volume, or there is a plumbing problem feeding water into the pit continuously. A missing check valve is the most common cause and costs $15 to $40 to fix. See our <Link href='/articles/why-basement-floods-with-sump-pump' className='text-indigo-600 hover:text-indigo-700 underline'>why basement floods with sump pump guide</Link> for more troubleshooting.</p>
+            <p className='text-slate-600'>A sump pump that runs constantly or cycles on and off rapidly usually indicates one of four problems: the check valve is missing or failed, the float switch is stuck in the on position, the pump is undersized for the water volume, or there is a plumbing problem feeding water into the pit continuously. A missing check valve is the most common cause and costs $15 to $40 to fix. See our <Link href='/articles/sump-pump-running-constantly' className='text-indigo-600 hover:text-indigo-700 underline'>sump pump running constantly guide</Link> for more troubleshooting.</p>
           </div>
         </div>
       </section>
