@@ -170,7 +170,7 @@ export default function Footer() {
           <h3 className="text-xl font-bold text-white mb-2">The Basement Guide</h3>
           <p className="text-sm text-gray-400 max-w-md">
             Independent resource for basement waterproofing, finishing, and maintenance advice. Written by
-            homeowners for homeowners &mdash; no contractor sales pitches, just honest guides.
+            homeowners for homeowners. No contractor sales pitches, just honest guides.
           </p>
         </div>
 
