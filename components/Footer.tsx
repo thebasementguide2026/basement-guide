@@ -103,6 +103,7 @@ const footerSections = [
       { label: 'Home Appraisal Value', href: '/articles/waterproofing-home-appraisal-value' },
       { label: 'Homebuyer Checklist', href: '/articles/homebuyers-basement-inspection-checklist' },
       { label: 'Spring Checklist', href: '/articles/spring-basement-checklist' },
+      { label: 'Fall Checklist', href: '/articles/how-to-winterize-a-basement' },
       { label: 'About', href: '/about' },
       { label: 'Start Here', href: '/start-here' },
       { label: 'Contact', href: '/contact' },

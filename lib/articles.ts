@@ -8,6 +8,7 @@ export interface Article {
 }
 
 export const articles: Article[] = [
+  {"title":"How to Winterize a Basement Before the First Freeze","description":"A fall basement checklist for cold climates. Protect pipes and the sump pump from freezing, get ready for snowmelt and outages, and set humidity, heat, and radon right for winter.","slug":"how-to-winterize-a-basement","category":"Seasonal","readTime":"12 min read","image":"/how-to-winterize-a-basement-hero.jpg"},
   {
     title: 'Bowing Basement Walls: Causes, Repair Methods & Cost',
     description: 'A comprehensive guide to bowing basement walls. Causes like hydrostatic pressure, early warning signs, repair methods from carbon fiber straps to wall anchors, and updated costs averaging $4,500 nationally.',

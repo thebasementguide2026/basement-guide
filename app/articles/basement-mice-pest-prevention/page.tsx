@@ -91,6 +91,8 @@ export default function BasementMicePestPrevention() {
         </p>
       </div>
 
+      <p className='text-gray-700 mb-6 leading-relaxed'>Pest-proofing is one step in our <Link href='/articles/how-to-winterize-a-basement' className='text-[#00A99D] underline'>fall basement checklist</Link>.</p>
+
       {/* Why Basements Are Ground Zero */}
       <h2 className='text-2xl font-bold text-[#1B2A3B] mb-4 mt-10'>Why Basements Are Ground Zero for Mice</h2>
       <p className='text-gray-700 mb-4 leading-relaxed'>
@@ -267,6 +269,7 @@ export default function BasementMicePestPrevention() {
       <div className='bg-[#F0FAFA] border border-teal-100 rounded-2xl p-6 mb-10'>
         <h3 className='font-bold text-[#1B2A3B] mb-4'>Related reading</h3>
         <ul className='space-y-2 text-sm'>
+          <li><Link href='/articles/how-to-winterize-a-basement' className='text-[#00A99D] hover:underline'>How to Winterize a Basement</Link></li>
           <li><Link href='/articles/basement-humidity-guide' className='text-[#00A99D] hover:underline'>Basement Humidity Guide</Link></li>
           <li><Link href='/articles/musty-basement-smell' className='text-[#00A99D] hover:underline'>Musty Basement Smell</Link></li>
           <li><Link href='/articles/how-to-prevent-basement-mold' className='text-[#00A99D] hover:underline'>How to Prevent Basement Mold</Link></li>

@@ -121,6 +121,8 @@ export default function FrozenPipesInBasement() {
         The good news: basement pipes are some of the easiest in the house to protect, because you can usually see and reach them.
       </p>
 
+      <p className='text-gray-700 mb-6 leading-relaxed'>This is one part of getting ready for winter. See our full <Link href='/articles/how-to-winterize-a-basement' className='text-[#00A99D] underline'>fall basement checklist</Link>.</p>
+
       {/* Reach-and-Risk Rule */}
       <h2 className='text-2xl font-bold text-[#1B2A3B] mb-4 mt-10'>The Reach-and-Risk Rule</h2>
       <p className='text-gray-700 mb-4 leading-relaxed'>
@@ -448,6 +450,7 @@ export default function FrozenPipesInBasement() {
       <div className='bg-[#F0FAFA] border border-teal-100 rounded-2xl p-6 mb-10'>
         <h3 className='font-bold text-[#1B2A3B] mb-4'>Related Guides</h3>
         <ul className='space-y-2 text-sm'>
+          <li><Link href='/articles/how-to-winterize-a-basement' className='text-[#00A99D] hover:underline'>How to Winterize a Basement</Link></li>
           <li><Link href='/articles/how-to-heat-a-basement' className='text-[#00A99D] hover:underline'>How to Heat a Basement</Link></li>
           <li><Link href='/articles/basement-insulation-guide' className='text-[#00A99D] hover:underline'>Basement Insulation Guide</Link></li>
           <li><Link href='/articles/spray-foam-vs-rigid-foam-insulation' className='text-[#00A99D] hover:underline'>Spray Foam vs. Rigid Foam Insulation</Link></li>

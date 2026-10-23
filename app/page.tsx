@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://thebasement.guide' },
 }
 
-const featuredSlug = 'complete-basement-waterproofing-guide'
+const featuredSlug = 'how-to-winterize-a-basement'
 
 const editorPickSlugs = [
   'how-to-finish-a-basement',
@@ -37,7 +37,8 @@ export default function Home() {
   const popular = popularSlugs
     .map((slug) => articles.find((a) => a.slug === slug))
     .filter(Boolean) as typeof articles
-  const latestArticles = [articles.find((a) => a.slug === 'frozen-pipes-in-basement'), articles.find((a) => a.slug === 'how-to-heat-a-basement'), articles.find((a) => a.slug === 'diy-vs-hiring-pro-basement-projects'), ...articles.filter((a) => a.slug !== 'bowing-basement-walls' && a.slug !== 'diy-vs-hiring-pro-basement-projects' && a.slug !== 'how-to-heat-a-basement' && a.slug !== 'frozen-pipes-in-basement').slice(0, 3)].filter(Boolean) as typeof articles
+  const latestSlugs = ['how-to-winterize-a-basement', 'frozen-pipes-in-basement', 'how-to-heat-a-basement', 'diy-vs-hiring-pro-basement-projects']
+  const latestArticles = [...latestSlugs.map((slug) => articles.find((a) => a.slug === slug)), ...articles.filter((a) => a.slug !== 'bowing-basement-walls' && !latestSlugs.includes(a.slug)).slice(0, 2)].filter(Boolean) as typeof articles
   const reviews = articles
     .filter((a) => ['Reviews', 'Buying Guide'].includes(a.category))
     .slice(0, 7)

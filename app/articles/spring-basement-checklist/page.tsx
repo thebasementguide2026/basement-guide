@@ -56,6 +56,9 @@ export default function SpringBasementChecklist() {
           <p className='text-lg leading-relaxed text-slate-600'>
             This practical spring basement maintenance guide from The Basement Guide walks you through the exact steps that keep thousands of basements dry every year. Spend one weekend on these tasks, and you will feel a lot more confident when the next storm hits.
           </p>
+      <p className='text-gray-700 mb-6 leading-relaxed'>Getting ready for cold weather instead? See our <Link href='/articles/how-to-winterize-a-basement' className='text-[#00A99D] underline'>fall basement checklist</Link>.</p>
+
+
         </div>
 
         {/* Section 1 */}

@@ -11,6 +11,9 @@ export default function ArticleSchemaInjector() {
 
   if (!article) return null
 
+  // This page supplies its complete, date-specific JSON-LD directly.
+  if (slug === 'how-to-winterize-a-basement') return null
+
   const baseUrl = 'https://thebasement.guide'
   const pageUrl = `${baseUrl}/articles/${slug}`
   const imageUrl = article.image ? `${baseUrl}${article.image}` : undefined

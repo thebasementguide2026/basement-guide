@@ -10,6 +10,7 @@ export const metadata: Metadata = {
 }
 
 const sections = [
+  { id: 'seasonal', title: 'Seasonal Maintenance', description: 'Fall and spring checklists to prepare your basement for changing weather.', slugs: ['spring-basement-checklist', 'how-to-winterize-a-basement'], featured: ['how-to-winterize-a-basement'] },
   {
     id: 'waterproofing',
     title: 'Waterproofing',

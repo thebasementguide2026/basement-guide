@@ -155,6 +155,8 @@ export default function HowToHeatABasement() {
         <li><strong>Cover the floor.</strong> A rug or insulated subfloor makes a bigger comfort difference than raising the thermostat. See <Link href='/articles/best-basement-flooring' className='text-[#00A99D] underline'>the best basement flooring options</Link>.</li>
       </ul>
 
+      <p className='text-gray-700 mb-6 leading-relaxed'>For everything else to do before winter, see our <Link href='/articles/how-to-winterize-a-basement' className='text-[#00A99D] underline'>fall basement checklist</Link>.</p>
+
       {/* Option 1 */}
       <h2 className='text-2xl font-bold text-[#1B2A3B] mb-4 mt-10'>Option 1: Plug-In Space Heaters</h2>
       <p className='text-gray-700 mb-4 leading-relaxed'>
@@ -387,6 +389,7 @@ export default function HowToHeatABasement() {
       <div className='bg-[#F0FAFA] border border-teal-100 rounded-2xl p-6 mb-10'>
         <h3 className='font-bold text-[#1B2A3B] mb-4'>Related Guides</h3>
         <ul className='space-y-2 text-sm'>
+          <li><Link href='/articles/how-to-winterize-a-basement' className='text-[#00A99D] hover:underline'>How to Winterize a Basement</Link></li>
           <li><Link href='/articles/basement-insulation-guide' className='text-[#00A99D] hover:underline'>Basement Insulation Guide</Link></li>
           <li><Link href='/articles/spray-foam-vs-rigid-foam-insulation' className='text-[#00A99D] hover:underline'>Spray Foam vs. Rigid Foam Insulation</Link></li>
           <li><Link href='/articles/how-to-finish-a-basement' className='text-[#00A99D] hover:underline'>How to Finish a Basement</Link></li>

@@ -16,6 +16,7 @@ const navItems = [
       { label: 'Structural Issues', href: '/guides#structural' },
       { label: 'Real Estate & Insurance', href: '/guides#real-estate' },
       { label: 'Seasonal Maintenance', href: '/articles/spring-basement-checklist' },
+      { label: 'Fall Basement Checklist', href: '/articles/how-to-winterize-a-basement' },
       { label: 'Insulation', href: '/articles/basement-insulation-guide' },
       { label: 'Heating a Basement', href: '/articles/how-to-heat-a-basement' },
       { label: 'Hiring a Contractor', href: '/articles/how-to-hire-basement-waterproofing-contractor' },
