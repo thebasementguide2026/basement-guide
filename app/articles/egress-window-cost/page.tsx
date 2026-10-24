@@ -4,22 +4,80 @@ import LeadForm from '@/components/LeadForm'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Egress Window Cost 2026: Basement Installation & Replacement Prices | The Basement Guide',
-  description: 'Egress window installation costs $1,000 to $5,000 per window including excavation and framing. Basement egress window costs, replacement prices, and what affects your quote.',
+  title: 'Egress Window Cost 2026: $2,700 to $5,900 Installed | The Basement Guide',
+  description: 'Most basement egress windows cost $2,700 to $5,900 installed, including cutting the foundation, the window, and the well. See costs by wall type and code sizes.',
   alternates: { canonical: 'https://thebasement.guide/articles/egress-window-cost' },
 }
 
 const faqSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'FAQPage',
-  mainEntity: [
-    { '@type': 'Question', name: 'Do I need an egress window even if my basement was finished years ago?', acceptedAnswer: { '@type': 'Answer', text: 'Yes, if you are now using any room as a bedroom or plan to list it as a bedroom on a real estate disclosure, an egress window is required regardless of when the basement was finished. The IRC requirement applies to current use, not the date of construction. Inspectors and appraisers are trained to identify basement bedrooms without proper egress, and a room without it cannot legally be counted as a bedroom. The cost of adding egress retroactively ($2,700 to $5,900) is almost always recovered in the appraised value increase ($15,000 to $30,000) that comes from converting the space to a legal bedroom.' } },
-    { '@type': 'Question', name: 'What is included in the egress window installation price and what adds extra cost?', acceptedAnswer: { '@type': 'Answer', text: 'A standard professionally installed egress window includes the window unit and frame ($800 to $2,000), the window well ($400 to $1,200), excavation and drainage ($800 to $2,000), concrete or block cutting and lintel installation ($600 to $1,500), waterproofing and flashing ($300 to $600), and permits and inspections ($150 to $600). Foundation type is the primary extra cost driver: poured concrete requires diamond-blade saw cutting that costs more than removing concrete block. Deep basements add $500 to $1,500. Interior finishing is almost always excluded and should be budgeted separately at $300 to $800.' } },
-    { '@type': 'Question', name: 'Will I need a window well and ladder with my egress window?', acceptedAnswer: { '@type': 'Answer', text: 'Yes, virtually every below-grade egress window installation requires a window well, and any well deeper than 44 inches from the basement floor requires a permanently mounted ladder or built-in steps. The window well must provide at least 9 square feet of total floor area, project at least 36 inches from the foundation wall, and be at least 36 inches wide. Plastic corrugated wells cost $400 to $800 installed, while galvanized steel wells cost $600 to $1,200. A ladder or steps adds $150 to $350.' } },
-    { '@type': 'Question', name: 'How long does egress window installation take?', acceptedAnswer: { '@type': 'Answer', text: 'Most standard egress window installations complete in 1 to 3 days once the crew starts on-site work. Day 1 covers exterior excavation, concrete or block cutting, and lintel installation. Day 2 covers setting the window unit, installing the window well, backfilling, waterproofing, and flashing. The permit process itself typically takes 2 to 6 weeks before on-site work can begin.' } },
-    { '@type': 'Question', name: 'Can I install a basement egress window myself to save money?', acceptedAnswer: { '@type': 'Answer', text: 'Egress window installation is technically within DIY capability for homeowners with masonry experience, but most who attempt it underestimate the scope. The concrete cutting phase is highest-risk: an incorrect cut can cause cracking that propagates through the foundation wall. Most jurisdictions require a licensed contractor for the permit. Realistic DIY savings are materials only ($1,200 to $2,800 versus $2,700 to $5,900 total), at the cost of significant physical labor, specialized tool rental, and structural risk.' } },
-    { '@type': 'Question', name: 'Are there rebates or tax credits for egress window installation?', acceptedAnswer: { '@type': 'Answer', text: 'The most significant incentive in 2026 is the federal Energy Efficient Home Improvement Credit, covering up to 30 percent of the cost of qualifying energy-efficient windows up to $600 per year. The egress window must meet ENERGY STAR Most Efficient criteria. Some homeowners insurance carriers offer small premium discounts (1 to 5 percent) for adding code-compliant life-safety features. State and local rebate programs vary — check with your state energy office and local utility company.' } },
-  ],
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need an egress window even if my basement was finished years ago?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, if you are now using any room as a bedroom or plan to list it as a bedroom on a real estate disclosure, an egress window is required regardless of when the basement was finished. The IRC requirement applies to current use, not the date of construction, which means a basement bedroom finished in 2005 without egress is still non-compliant today and will be flagged during any future permit pull, home inspection, or appraisal. Inspectors and appraisers are trained to identify basement bedrooms without proper egress, and a room without it cannot legally be counted as a bedroom in the home's square footage or listing. The cost of adding egress retroactively ($2,700 to $5,900) is almost always recovered in the appraised value increase ($15,000 to $30,000) that comes from converting the space to a legal bedroom. Address it before listing the home rather than after, because a buyer's inspector discovering the violation gives the buyer significant negotiating leverage. See our basement permits guide for how retroactive permits work in most jurisdictions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is included in the egress window installation price and what adds extra cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A standard professionally installed egress window includes the window unit and frame ($800 to $2,000), the window well ($400 to $1,200), excavation and drainage ($800 to $2,000), concrete or block cutting and lintel installation ($600 to $1,500), waterproofing and flashing ($300 to $600), and permits and inspections ($150 to $600). What adds significant cost beyond the standard scope is foundation type: poured concrete requires diamond-blade saw cutting that costs meaningfully more than removing concrete block unit by unit, and this difference alone can push a mid-range project to the high end of the range. Deep basements (9 feet or more below grade) require more extensive excavation and larger window wells, adding $500 to $1,500. Any unexpected utilities, tree roots, or existing drainage systems in the excavation path add both time and cost. Interior finishing around the new opening (drywall, trim, painting) is almost always excluded from contractor quotes and should be budgeted separately at $300 to $800 depending on finish level."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will I need a window well and ladder with my egress window?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, virtually every below-grade egress window installation requires a window well, and any well deeper than 44 inches from the basement floor requires a permanently mounted ladder or built-in steps. The window well must provide at least 9 square feet of total floor area, project at least 36 inches from the foundation wall, and be at least 36 inches wide to meet IRC requirements, giving occupants enough room to open the window fully and climb out in an emergency. Plastic corrugated wells are the most common and affordable option at $400 to $800 installed, while galvanized steel wells are more durable and cost $600 to $1,200. A permanently mounted ladder or built-in steps adds $150 to $350 and is required by code when the well depth exceeds 44 inches, which is common in basements with 9-foot or deeper floor-to-ceiling heights. Every well should also have a drainage layer of 6 to 12 inches of gravel at the base connected to the footing drain or a dedicated dry well, because a window well that fills with water during rain pushes water directly through the window frame into the basement."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does egress window installation take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most standard egress window installations complete in 1 to 3 days once the crew starts on-site work. Day 1 typically covers exterior excavation, concrete or block cutting, and lintel installation. Day 2 covers setting the window unit, installing the window well, backfilling, waterproofing, and flashing. A third day is sometimes needed for final grading, drainage connection, interior patching around the opening, and cleanup. Delays most commonly occur from unexpected utilities in the excavation path, rock or dense clay soil that slows digging, rain that makes concrete work impractical, or permit inspection scheduling that requires an inspection before backfilling. The permit process itself typically takes 2 to 6 weeks before on-site work can begin, which is the longer part of the overall project timeline for most homeowners."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I install a basement egress window myself to save money?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Egress window installation is technically within DIY capability for homeowners with masonry experience and access to a concrete cutting saw, but most who attempt it underestimate the scope and end up hiring a contractor partway through. The concrete cutting phase is the highest-risk step: an incorrect cut or missing rebar can cause cracking that propagates through the foundation wall, and improperly sized openings that require widening after the fact cost more to fix than hiring correctly from the start. Most jurisdictions require a licensed contractor for the permit, and an unpermitted egress window installation that is later discovered during a home sale or refinance must be retroactively permitted or removed. The realistic DIY savings are in materials only ($1,200 to $2,800 versus $2,700 to $5,900 total), and those savings come at the cost of significant physical labor, specialized tool rental, permit complications, and structural risk. If you have genuine masonry and concrete experience and can pull a permit in your jurisdiction as an owner-builder, the savings are real. Otherwise, the professional installation cost is worth it for a structural project with this level of consequence. See our DIY vs hiring a pro guide for how to evaluate this decision."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are there rebates or tax credits for egress window installation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The most significant financial incentive available in 2026 is the federal Energy Efficient Home Improvement Credit, which covers up to 30 percent of the cost of qualifying energy-efficient windows up to a maximum credit of $600 per year. To qualify, the egress window must meet ENERGY STAR Most Efficient criteria, which requires specific U-factor and solar heat gain coefficient ratings — ask your contractor or window supplier to confirm the specific unit qualifies before purchasing. Some homeowners insurance carriers offer small premium discounts (typically 1 to 5 percent) for adding code-compliant life-safety features including egress windows, particularly on policies in states where basement egress is mandated. State and local rebate programs vary significantly — check with your state energy office and local utility company for any available incentives that apply to your specific window installation. Document all receipts, contractor invoices, and window specifications carefully, as the tax credit requires IRS Form 5695 and proof of qualifying product specs at filing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does it cost to replace a window well?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Replacing a window well usually costs about the same as installing a new one, roughly $400 to $1,200 depending on the material. Expect more if the drain at the bottom needs to be cleared or rebuilt."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does an egress window add value to a home?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually, mainly because it can make a basement room a legal bedroom. Depending on the market, a legal basement bedroom can add $15,000 to $30,000 in appraised value."
+      }
+    }
+  ]
 }
 
 export default function EgressWindowCost() {
@@ -41,8 +99,7 @@ export default function EgressWindowCost() {
             <span className='text-orange-400 font-bold tracking-[0.3em] text-sm uppercase'>Cost Guide</span>
           </div>
           <h1 className='text-5xl md:text-7xl font-black text-white mb-6 leading-[0.9] tracking-tighter'>
-            Egress Window <br />
-            <span className='text-orange-400'>Cost Guide 2026</span>
+            Basement Egress Window Cost (2026)
           </h1>
           <p className='text-xl text-slate-300 max-w-2xl mb-10 font-medium leading-relaxed'>
             Thinking about turning part of your basement into a legal bedroom? Here is the complete 2026 breakdown of every dollar from window units to permits and labor.
@@ -52,7 +109,7 @@ export default function EgressWindowCost() {
               <div className='w-10 h-10 rounded-full bg-gradient-to-tr from-orange-600 to-red-400 flex items-center justify-center text-white font-bold text-sm mr-4'>BG</div>
               <div>
                 <p className='text-white font-semibold text-sm'>The Basement Guide Staff</p>
-                <p className='text-slate-400 text-xs'>Updated Feb 2026 &middot; 18 min read</p>
+                <p className='text-slate-400 text-xs'>Updated October 24, 2026 &middot; 18 min read</p>
               </div>
             </div>
           </div>
@@ -118,7 +175,7 @@ export default function EgressWindowCost() {
                 </tr>
                 <tr className='hover:bg-slate-50'>
                   <td className='px-6 py-4 font-medium text-slate-900'>Ladder or steps</td>
-                  <td className='px-6 py-4 text-slate-700'>$100 &ndash; $350</td>
+                  <td className='px-6 py-4 text-slate-700'>$150 &ndash; $350</td>
                   <td className='px-6 py-4 text-slate-600'>Required if well deeper than 44 inches</td>
                 </tr>
                 <tr className='hover:bg-slate-50'>
@@ -155,6 +212,10 @@ export default function EgressWindowCost() {
             <p className='text-amber-800'>Deeper basements, poured concrete foundations, and any extra drainage or grading work will push costs toward the higher end of the range.</p>
           </div>
 
+          <Link href='#get-quotes' className='inline-flex items-center justify-center bg-orange-500 hover:bg-orange-600 text-white font-bold px-6 py-4 rounded-lg text-center transition-colors'>
+            Get free quotes from local egress window installers
+          </Link>
+
           {/* How Long */}
           <h2 className='text-3xl font-extrabold text-slate-900 mt-16 mb-6'>How Long Does the Job Take?</h2>
           <p className='text-lg text-slate-700 leading-relaxed mb-6'>
@@ -176,6 +237,43 @@ export default function EgressWindowCost() {
             Yes, for almost every basement. The well must be at least <strong>9 square feet</strong> total area, project 36 inches from the wall, and be 36 inches wide. If the well is deeper than 44 inches, you must add a permanent ladder or steps &mdash; an easy $150 to $300 add-on and a huge safety upgrade.
           </p>
 
+          <h2 className='text-3xl font-extrabold text-slate-900 mt-16 mb-6'>Window Well Installation and Replacement Cost</h2>
+          <p className='text-lg text-slate-700 leading-relaxed mb-6'>
+            A new window well typically costs $400 to $1,200, depending on the material. Corrugated plastic wells run about $400 to $800, and galvanized steel wells about $600 to $1,200. If the well is deeper than 44 inches, add $150 to $350 for a permanent ladder or steps.
+          </p>
+          <p className='text-lg text-slate-700 leading-relaxed mb-6'>
+            Replacing an old window well usually falls in about the same range as a new one. The old well has to be dug out, and the drain at the bottom should be checked while it's open. Expect to pay more if the drain is clogged or has to be rebuilt, or if the well is rusted through and the soil behind it has washed in.
+          </p>
+          <p className='text-lg text-slate-700 leading-relaxed mb-6'>Signs a window well needs to be replaced:</p>
+          <ul className='list-disc pl-6 space-y-2 text-lg text-slate-700 leading-relaxed mb-6'>
+            <li>Rust holes or cracks in the well</li>
+            <li>The well pulling away from the foundation</li>
+            <li>Water pooling in the well after rain</li>
+            <li>Soil washing into the well</li>
+          </ul>
+          <p className='text-lg text-slate-700 leading-relaxed mb-6'>
+            Adding a cover keeps out rain, snow, leaves, and animals. See our guide to the <Link href='/articles/best-window-well-covers-egress-ladders' className='text-teal-600 underline hover:text-teal-800'>best window well covers and egress ladders</Link>.
+          </p>
+
+          <h2 className='text-3xl font-extrabold text-slate-900 mt-16 mb-6'>Egress Window vs. Egress Door</h2>
+          <p className='text-lg text-slate-700 leading-relaxed mb-6'>
+            An egress door is another way to meet the code for a basement exit. It makes the most sense in a walkout basement, where one wall is already at or near ground level, so a standard exterior door can serve as the exit.
+          </p>
+          <p className='text-lg text-slate-700 leading-relaxed mb-6'>
+            In a fully below-grade basement, an egress door needs an exterior stairwell dug down to the basement level, with retaining walls and its own drainage. That usually costs several times more than an egress window, which is why most homeowners choose a window.
+          </p>
+          <p className='text-lg text-slate-700 leading-relaxed mb-6'>Choose an egress door if:</p>
+          <ul className='list-disc pl-6 space-y-2 text-lg text-slate-700 leading-relaxed mb-6'>
+            <li>You have a walkout or partial walkout basement</li>
+            <li>You want an easy way to move furniture in and out</li>
+            <li>The basement will be a rental unit with its own entrance. See our <Link href='/articles/basement-adu-rental-suite' className='text-teal-600 underline hover:text-teal-800'>basement ADU and rental suite guide</Link>.</li>
+          </ul>
+          <p className='text-lg text-slate-700 leading-relaxed mb-6'>Choose an egress window if:</p>
+          <ul className='list-disc pl-6 space-y-2 text-lg text-slate-700 leading-relaxed mb-6'>
+            <li>The basement is fully below grade</li>
+            <li>You're adding a legal bedroom and want the lowest-cost way to meet code</li>
+          </ul>
+
           {/* DIY */}
           <h2 className='text-3xl font-extrabold text-slate-900 mt-16 mb-6'>Can You Install an Egress Window Yourself?</h2>
           <p className='text-lg text-slate-700 leading-relaxed mb-6'>
@@ -186,9 +284,12 @@ export default function EgressWindowCost() {
           </p>
 
           {/* Home Value */}
-          <h2 className='text-3xl font-extrabold text-slate-900 mt-16 mb-6'>Will It Increase Your Home's Value?</h2>
+          <h2 className='text-3xl font-extrabold text-slate-900 mt-16 mb-6'>Does an Egress Window Add Value?</h2>
           <p className='text-lg text-slate-700 leading-relaxed mb-6'>
-            Absolutely. Turning a basement space into a legal bedroom usually adds <strong>$15,000 to $30,000</strong> in appraised value. That is often 3 to 5 times what you spend. Buyers and appraisers love seeing code-compliant bedrooms.
+            Usually, yes, mainly because it can turn a basement room into a legal bedroom. A bedroom generally needs a code-compliant way out, and adding a bedroom is one of the bigger factors in what a home is worth. Depending on your market, a legal basement bedroom can add $15,000 to $30,000 in appraised value, which is often several times what the window costs.
+          </p>
+          <p className='text-lg text-slate-700 leading-relaxed mb-6'>
+            An egress window also adds natural light and a safe exit in a fire, which matters to buyers and inspectors even if the room isn't a bedroom. The added value depends on your local market and whether the room meets every other requirement for a bedroom where you live, such as ceiling height and heat.
           </p>
 
           {/* Permits */}
@@ -235,6 +336,7 @@ export default function EgressWindowCost() {
               <tbody className='divide-y divide-gray-200'>
                 <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Poured concrete foundation</td><td className='px-4 py-3 text-slate-600'>High &mdash; diamond-blade cutting required</td><td className='px-4 py-3 text-slate-600'>Add $500 to $1,000 over block foundation cost</td></tr>
                 <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Concrete block foundation</td><td className='px-4 py-3 text-slate-600'>Standard &mdash; blocks removed unit by unit</td><td className='px-4 py-3 text-slate-600'>Standard range $2,700 to $5,900</td></tr>
+                <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Stone or rubble foundation</td><td className='px-4 py-3 text-slate-600'>Highest and most variable. Cutting can loosen the surrounding stone, and the opening often needs extra structural support.</td><td className='px-4 py-3 text-slate-600'>Get an in-person quote, since prices vary widely.</td></tr>
                 <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Basement 8 feet deep or less</td><td className='px-4 py-3 text-slate-600'>Standard excavation depth</td><td className='px-4 py-3 text-slate-600'>Standard range</td></tr>
                 <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Basement 9 feet or deeper</td><td className='px-4 py-3 text-slate-600'>Larger well, more excavation</td><td className='px-4 py-3 text-slate-600'>Add $500 to $1,500</td></tr>
                 <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Window well deeper than 44 inches</td><td className='px-4 py-3 text-slate-600'>Ladder or steps required by code</td><td className='px-4 py-3 text-slate-600'>Add $150 to $350</td></tr>
@@ -277,6 +379,14 @@ export default function EgressWindowCost() {
             <div className='border-b border-slate-200 pb-6'>
               <h3 className='text-xl font-bold text-slate-900 mb-3'>Are there rebates or tax credits for egress window installation?</h3>
               <p className='text-slate-700 leading-relaxed'>The most significant financial incentive available in 2026 is the federal Energy Efficient Home Improvement Credit, which covers up to 30 percent of the cost of qualifying energy-efficient windows up to a maximum credit of $600 per year. To qualify, the egress window must meet ENERGY STAR Most Efficient criteria, which requires specific U-factor and solar heat gain coefficient ratings &mdash; ask your contractor or window supplier to confirm the specific unit qualifies before purchasing. Some homeowners insurance carriers offer small premium discounts (typically 1 to 5 percent) for adding code-compliant life-safety features including egress windows, particularly on policies in states where basement egress is mandated. State and local rebate programs vary significantly &mdash; check with your state energy office and local utility company for any available incentives that apply to your specific window installation. Document all receipts, contractor invoices, and window specifications carefully, as the tax credit requires IRS Form 5695 and proof of qualifying product specs at filing.</p>
+            </div>
+            <div className='border-b border-slate-200 pb-6'>
+              <h3 className='text-xl font-bold text-slate-900 mb-3'>How much does it cost to replace a window well?</h3>
+              <p className='text-slate-700 leading-relaxed'>Replacing a window well usually costs about the same as installing a new one, roughly $400 to $1,200 depending on the material. Expect more if the drain at the bottom needs to be cleared or rebuilt.</p>
+            </div>
+            <div className='border-b border-slate-200 pb-6'>
+              <h3 className='text-xl font-bold text-slate-900 mb-3'>Does an egress window add value to a home?</h3>
+              <p className='text-slate-700 leading-relaxed'>Usually, mainly because it can make a basement room a legal bedroom. Depending on the market, a legal basement bedroom can add $15,000 to $30,000 in appraised value.</p>
             </div>
           </div>
 

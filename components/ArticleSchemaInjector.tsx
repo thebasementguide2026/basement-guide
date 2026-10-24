@@ -22,11 +22,11 @@ export default function ArticleSchemaInjector() {
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline: article.title,
-    description: article.description,
+    headline: slug === 'egress-window-cost' ? 'Basement Egress Window Cost (2026)' : article.title,
+    description: slug === 'egress-window-cost' ? 'Most basement egress windows cost $2,700 to $5,900 installed, including cutting the foundation, the window, and the well. See costs by wall type and code sizes.' : article.description,
     image: imageUrl,
     datePublished: '2026-02-01T00:00:00-05:00',
-    dateModified: '2026-02-27T00:00:00-05:00',
+    dateModified: slug === 'egress-window-cost' ? '2026-10-24' : '2026-02-27T00:00:00-05:00',
     author: {
       '@type': 'Organization',
       name: 'The Basement Guide',
