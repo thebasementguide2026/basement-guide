@@ -40,7 +40,7 @@ const footerSections = [
     title: 'REVIEWS',
     links: [
       { label: 'Dehumidifiers', href: '/articles/best-basement-dehumidifiers' },
-      { label: 'Sump Pumps', href: '/articles/best-sump-pumps-2026' },
+      { label: 'Best Sump Pumps for 2026', href: '/articles/best-sump-pumps-2026' },
       { label: 'Flooring', href: '/articles/best-basement-flooring' },
       { label: 'Paint & Sealers', href: '/articles/waterproof-basement-paint-sealers' },
       { label: 'Vapor Barriers', href: '/articles/best-vapor-barriers' },

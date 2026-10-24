@@ -1,13 +1,13 @@
 import Script from 'next/script'
 
-export default function BeehiivEmailCapture() {
+export default function BeehiivEmailCapture({ avoidEmDash = false }: { avoidEmDash?: boolean } = {}) {
   return (
     <section className='my-8'>
       <div className='bg-slate-50 rounded-xl pt-10 pb-6 px-6'>
         <div className='text-center max-w-xl mx-auto mb-6'>
           <p className='text-lg font-bold text-slate-900 mb-2'>Get Homeowner Tips in Your Inbox</p>
           <p className='text-slate-600 text-sm leading-relaxed'>
-            Waterproofing guides, moisture control tips, and seasonal basement reminders from The Basement Guide — free to your inbox.
+            {avoidEmDash ? 'Waterproofing guides, moisture control tips, and seasonal basement reminders from The Basement Guide, free to your inbox.' : 'Waterproofing guides, moisture control tips, and seasonal basement reminders from The Basement Guide — free to your inbox.'}
           </p>
         </div>
         <iframe

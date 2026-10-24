@@ -110,7 +110,7 @@ export default function Home() {
                   {article.image && (
                     <Image
                       src={article.image}
-                      alt={article.title}
+                      alt={article.slug === 'best-sump-pumps-2026' ? 'Best Sump Pumps for 2026' : article.title}
                       fill
                       className="object-cover group-hover:scale-105 transition-transform"
                     />
@@ -121,7 +121,7 @@ export default function Home() {
                     {article.category}
                   </span>
                   <h3 className="text-sm font-bold text-gray-900 leading-snug line-clamp-2 group-hover:text-brand-teal transition-colors">
-                    {article.title}
+                    {article.slug === 'best-sump-pumps-2026' ? 'Best Sump Pumps for 2026' : article.title}
                   </h3>
                 </div>
               </Link>
@@ -171,7 +171,7 @@ export default function Home() {
                 {article.image && (
                   <Image
                     src={article.image}
-                    alt={article.title}
+                    alt={article.slug === 'best-sump-pumps-2026' ? 'Best Sump Pumps for 2026' : article.title}
                     fill
                     className="object-cover group-hover:scale-105 transition-transform"
                   />
@@ -182,7 +182,7 @@ export default function Home() {
               </div>
               <div className="p-4">
                 <h3 className="font-bold text-gray-900 leading-snug group-hover:text-brand-teal transition-colors">
-                  {article.title}
+                  {article.slug === 'best-sump-pumps-2026' ? 'Best Sump Pumps for 2026' : article.title}
                 </h3>
                 <p className="text-gray-500 text-sm mt-1 line-clamp-2">{article.description}</p>
               </div>
@@ -208,7 +208,7 @@ export default function Home() {
                   {article.image && (
                     <Image
                       src={article.image}
-                      alt={article.title}
+                      alt={article.slug === 'best-sump-pumps-2026' ? 'Best Sump Pumps for 2026' : article.title}
                       fill
                       className="object-cover"
                     />
@@ -219,7 +219,7 @@ export default function Home() {
                     {article.category}
                   </span>
                   <h3 className="font-bold text-gray-900 text-sm leading-snug line-clamp-2 group-hover:text-brand-teal transition-colors mt-1">
-                    {article.title}
+                    {article.slug === 'best-sump-pumps-2026' ? 'Best Sump Pumps for 2026' : article.title}
                   </h3>
                   <p className="text-gray-500 text-xs mt-1 line-clamp-1">{article.description}</p>
                 </div>
@@ -248,7 +248,7 @@ export default function Home() {
                 {article.image && (
                   <Image
                     src={article.image}
-                    alt={article.title}
+                    alt={article.slug === 'best-sump-pumps-2026' ? 'Best Sump Pumps for 2026' : article.title}
                     fill
                     className="object-cover group-hover:scale-105 transition-transform"
                   />
@@ -259,7 +259,7 @@ export default function Home() {
               </div>
               <div className="p-3">
                 <h3 className="font-bold text-gray-900 text-sm leading-snug line-clamp-2 group-hover:text-brand-teal transition-colors">
-                  {article.title}
+                  {article.slug === 'best-sump-pumps-2026' ? 'Best Sump Pumps for 2026' : article.title}
                 </h3>
               </div>
             </Link>
@@ -285,7 +285,7 @@ export default function Home() {
               >
                 <span className="text-2xl">{article.slug === 'basement-waterproofing-cost-calculator' ? '🧮' : article.slug === 'sump-pump-replacement-cost' ? '💧' : '💰'}</span>
                 <h3 className="font-bold text-white text-sm leading-snug mt-2 group-hover:text-brand-teal transition-colors">
-                  {article.title}
+                  {article.slug === 'best-sump-pumps-2026' ? 'Best Sump Pumps for 2026' : article.title}
                 </h3>
                 <span className="text-gray-400 text-xs mt-1 block">{article.readTime}</span>
               </Link>

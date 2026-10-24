@@ -1,148 +1,231 @@
-import Link from 'next/link'
 import Image from 'next/image'
 import LeadForm from '@/components/LeadForm'
 import BeehiivEmailCapture from '@/components/BeehiivEmailCapture'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Best Sump Pumps for 2026: Top Submersible and Pedestal Picks | The Basement Guide',
-  description: 'See the best sump pumps for 2026, including top-rated submersible and pedestal models with GPH, horsepower, noise levels, and real-world reliability for wet basements.',
-  alternates: { canonical: 'https://thebasement.guide/articles/best-sump-pumps-2026' },
+  "title": "Best Sump Pumps for 2026: 7 Picks for Heavy Rain, Tight Pits, and Every Budget | The Basement Guide",
+  "description": "The best sump pumps for 2026, compared by real flow at 10 feet of lift. Picks for heavy rain, tight pits, pedestal pits, and backup combos, from $100 to $470.",
+  "alternates": {
+    "canonical": "https://thebasement.guide/articles/best-sump-pumps-2026"
+  },
+  "openGraph": {
+    "title": "Best Sump Pumps for 2026: 7 Picks for Heavy Rain, Tight Pits, and Every Budget | The Basement Guide",
+    "description": "The best sump pumps for 2026, compared by real flow at 10 feet of lift. Picks for heavy rain, tight pits, pedestal pits, and backup combos, from $100 to $470.",
+    "url": "https://thebasement.guide/articles/best-sump-pumps-2026"
+  },
+  "twitter": {
+    "title": "Best Sump Pumps for 2026: 7 Picks for Heavy Rain, Tight Pits, and Every Budget | The Basement Guide",
+    "description": "The best sump pumps for 2026, compared by real flow at 10 feet of lift. Picks for heavy rain, tight pits, pedestal pits, and backup combos, from $100 to $470."
+  }
 }
+const schemas = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Best Sump Pumps for 2026, 7 Picks for Heavy Rain, Tight Pits, and Every Budget",
+    "description": "The best sump pumps for 2026, compared by real flow at 10 feet of lift. Picks for heavy rain, tight pits, pedestal pits, and backup combos, from $100 to $470.",
+    "image": "https://thebasement.guide/best%20sumppump.jpg",
+    "author": {
+      "@type": "Organization",
+      "name": "The Basement Guide Editorial Team"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "The Basement Guide",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://thebasement.guide/logo.png"
+      }
+    },
+    "datePublished": "2026-03-01",
+    "dateModified": "2026-10-24",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://thebasement.guide/articles/best-sump-pumps-2026"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Zoeller M53 Mighty-Mate"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Wayne CDU980E"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Zoeller M98 Flow-Mate"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Liberty Pumps 257"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Superior Pump 92341"
+      },
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "name": "Superior Pump 92333"
+      },
+      {
+        "@type": "ListItem",
+        "position": 7,
+        "name": "Basement Watchdog Big Combo (CITS-50)"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is the most reliable sump pump brand?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Zoeller, Liberty, and Wayne have the strongest long-term track records for residential pumps. Zoeller and Liberty in particular are the brands most plumbers install, which means parts and service are easy to find. Within any brand, reliability comes down to two features: a cast iron housing and a vertical float switch. A cheap pump from a good brand with a tethered float will fail sooner than a cast iron vertical-float pump from any of the three."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Zoeller vs. Wayne: which is better?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Zoeller wins on track record and plumber support. Wayne wins on flow per dollar and warranty. The Wayne CDU980E moves about 4,700 GPH at 10 feet with a 5 year warranty for around $250. The Zoeller M98 moves about 3,700 GPH with a 3 year warranty for around $350. If you need maximum water moved, buy the Wayne. If you want the pump your plumber knows best, buy the Zoeller."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What's the best sump pump for a basement that floods regularly?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A high-capacity cast iron primary (the Wayne CDU980E or Zoeller M98), a backup pump in the same pit, and a water alarm on the floor. A bigger pump alone doesn't fix flooding if the power goes out, the switch sticks, or the discharge freezes. The backup and the alarm cover those failures. Then cut the inflow with downspout extensions and grading so the pumps work less."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What horsepower sump pump do I need?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "For most homes, 1/3 HP is enough. Move to 1/2 HP if your pit fills faster than about 1,500 gallons per hour in a storm, or your discharge lifts more than 15 feet. Move to 3/4 HP only for high water tables or heavy, sustained inflow. Horsepower is a rough guide. Flow at 10 feet of lift is the number to compare."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How long do sump pumps last?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Cast iron submersibles usually last 7 to 10 years, and well-sized ones in clean pits often go longer. Thermoplastic and pedestal pumps typically last 5 to 7 years. Battery backups need a new battery every 3 to 5 years. If your pump is past 7 years and you're heading into the wet season, replacing it on your schedule beats replacing it during a storm."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is a cast iron sump pump worth the extra money?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, in almost every case. Cast iron pulls heat away from the motor into the surrounding water, which extends motor life, and it doesn't crack or warp. The price difference is often $40 to $80, which you recover by skipping one replacement over 10 years."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What's the best sump pump for a finished basement?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A quiet, cast iron submersible with a vertical switch, paired with a battery backup and an alert. The Zoeller M98 or Wayne CDU980E as the primary, or the Basement Watchdog Big Combo if you want one pre-plumbed system with phone alerts. Pedestal pumps are usually too loud for finished space. For hiding the pump without blocking access, see our sump pump cover and design ideas."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I replace a sump pump myself?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Usually, yes. If the new pump uses the same discharge size and fits your pit, it's a matter of unplugging the old pump, cutting or unthreading the discharge, setting the new pump on a solid base, reconnecting with a new check valve, drilling the weep hole if the manual calls for it, and testing with a bucket of water. Our sump pump buying guide covers installation details. Call a pro if you're changing pipe size, adding a circuit, or the pit needs work."
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "5-Minute Diagnostic: What Size Sump Pump Do You Need?",
+    "step": [
+      {
+        "@type": "HowToStep",
+        "position": 1,
+        "text": "Unplug the pump (or flip the breaker) once the pump has just emptied the pit."
+      },
+      {
+        "@type": "HowToStep",
+        "position": 2,
+        "text": "Time the fill. Mark the water level, start a timer, and stop it after 1 minute. Measure how many inches the water rose."
+      },
+      {
+        "@type": "HowToStep",
+        "position": 3,
+        "text": "Convert to gallons. For a standard 18 inch round pit, each inch of rise is about 1.1 gallons. For a 24 inch pit, it's about 2 gallons per inch. Multiply by inches of rise to get gallons per minute."
+      },
+      {
+        "@type": "HowToStep",
+        "position": 4,
+        "text": "Convert to GPH. Multiply gallons per minute by 60."
+      },
+      {
+        "@type": "HowToStep",
+        "position": 5,
+        "text": "Add margin. Multiply by 1.5. That's the minimum flow you want at 10 feet."
+      },
+      {
+        "@type": "HowToStep",
+        "position": 6,
+        "text": "Plug the pump back in. Do not skip this."
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://thebasement.guide"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Reviews",
+        "item": "https://thebasement.guide/reviews"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Best Sump Pumps for 2026",
+        "item": "https://thebasement.guide/articles/best-sump-pumps-2026"
+      }
+    ]
+  }
+]
+const beforeForm = "<section class=\"bg-teal-50 border-l-4 border-teal-500 rounded-r-xl p-6 mb-10\"><h2 class=\"text-3xl font-bold text-slate-900 mb-6\">TL;DR</h2><ul class=\"list-disc pl-6 space-y-3 text-slate-700 mb-6\">\n<li><strong>Best overall:</strong> Zoeller M53. Cast iron, simple float switch, and decades of track record. It handles the average basement for about $200.</li>\n<li><strong>Best for heavy rain:</strong> Wayne CDU980E. 3/4 HP, about 4,700 gallons per hour at 10 feet of lift, a 5 year warranty, and it usually costs less than the Zoeller.</li>\n<li><strong>Best premium:</strong> Zoeller M98. 1/2 HP cast iron with a 2-pole mechanical switch. Buy it if your pump runs daily from spring through fall.</li>\n<li><strong>Best for tight pits:</strong> Liberty 257. Fits a 10 inch basin.</li>\n<li><strong>Best budget:</strong> Superior Pump 92341. Cast iron for about $140 to $170.</li>\n<li><strong>Best pedestal:</strong> Superior Pump 92333. About $110, with an adjustable float.</li>\n<li><strong>Best combo with backup:</strong> Basement Watchdog Big Combo. 1/2 HP cast iron primary, battery backup, and phone alerts with the Wi-Fi module.</li>\n<li><strong>The rule that matters most:</strong> compare pumps by gallons per hour at 10 feet, never by the \"max GPH\" on the box. Max GPH is measured at zero lift, and no basement has zero lift.</li>\n</ul></section>\n\n<h2 class=\"text-3xl font-bold text-slate-900 mt-12 mb-6\">Quick Picks: Best Sump Pumps for 2026</h2>\n<div class=\"overflow-x-auto max-w-full mb-8 rounded-lg border border-slate-200\"><table class=\"w-full min-w-[700px] text-sm text-left border-collapse\">\n<thead class=\"bg-slate-100 text-slate-900\">\n<tr>\n<th class=\"border border-slate-200 p-3 align-top\">Pick</th>\n<th class=\"border border-slate-200 p-3 align-top\">Pump</th>\n<th class=\"border border-slate-200 p-3 align-top\">HP</th>\n<th class=\"border border-slate-200 p-3 align-top\">Flow at 10 ft of lift</th>\n<th class=\"border border-slate-200 p-3 align-top\">Build</th>\n<th class=\"border border-slate-200 p-3 align-top\">Switch</th>\n<th class=\"border border-slate-200 p-3 align-top\">Warranty</th>\n<th class=\"border border-slate-200 p-3 align-top\">Typical price</th>\n</tr>\n</thead>\n<tbody><tr>\n<td class=\"border border-slate-200 p-3 align-top\">Best Overall</td>\n<td class=\"border border-slate-200 p-3 align-top\">Zoeller M53</td>\n<td class=\"border border-slate-200 p-3 align-top\">3/10</td>\n<td class=\"border border-slate-200 p-3 align-top\">2,040 GPH</td>\n<td class=\"border border-slate-200 p-3 align-top\">Cast iron</td>\n<td class=\"border border-slate-200 p-3 align-top\">Vertical float</td>\n<td class=\"border border-slate-200 p-3 align-top\">3 yr</td>\n<td class=\"border border-slate-200 p-3 align-top\">$180 to $230</td>\n</tr>\n<tr>\n<td class=\"border border-slate-200 p-3 align-top\">Best for Heavy Rain</td>\n<td class=\"border border-slate-200 p-3 align-top\">Wayne CDU980E</td>\n<td class=\"border border-slate-200 p-3 align-top\">3/4</td>\n<td class=\"border border-slate-200 p-3 align-top\">4,743 GPH</td>\n<td class=\"border border-slate-200 p-3 align-top\">Cast iron and stainless</td>\n<td class=\"border border-slate-200 p-3 align-top\">Vertical float</td>\n<td class=\"border border-slate-200 p-3 align-top\">5 yr</td>\n<td class=\"border border-slate-200 p-3 align-top\">$220 to $280</td>\n</tr>\n<tr>\n<td class=\"border border-slate-200 p-3 align-top\">Best Premium</td>\n<td class=\"border border-slate-200 p-3 align-top\">Zoeller M98</td>\n<td class=\"border border-slate-200 p-3 align-top\">1/2</td>\n<td class=\"border border-slate-200 p-3 align-top\">3,660 GPH</td>\n<td class=\"border border-slate-200 p-3 align-top\">Cast iron</td>\n<td class=\"border border-slate-200 p-3 align-top\">2-pole mechanical vertical float</td>\n<td class=\"border border-slate-200 p-3 align-top\">3 yr</td>\n<td class=\"border border-slate-200 p-3 align-top\">$330 to $380</td>\n</tr>\n<tr>\n<td class=\"border border-slate-200 p-3 align-top\">Best for Tight Pits</td>\n<td class=\"border border-slate-200 p-3 align-top\">Liberty 257</td>\n<td class=\"border border-slate-200 p-3 align-top\">1/3</td>\n<td class=\"border border-slate-200 p-3 align-top\">2,400 GPH</td>\n<td class=\"border border-slate-200 p-3 align-top\">Cast iron</td>\n<td class=\"border border-slate-200 p-3 align-top\">Vertical magnetic float</td>\n<td class=\"border border-slate-200 p-3 align-top\">3 yr</td>\n<td class=\"border border-slate-200 p-3 align-top\">$210 to $250</td>\n</tr>\n<tr>\n<td class=\"border border-slate-200 p-3 align-top\">Best Budget</td>\n<td class=\"border border-slate-200 p-3 align-top\">Superior Pump 92341</td>\n<td class=\"border border-slate-200 p-3 align-top\">1/3</td>\n<td class=\"border border-slate-200 p-3 align-top\">2,760 GPH max (0 ft)</td>\n<td class=\"border border-slate-200 p-3 align-top\">Cast iron</td>\n<td class=\"border border-slate-200 p-3 align-top\">Vertical float</td>\n<td class=\"border border-slate-200 p-3 align-top\">See listing</td>\n<td class=\"border border-slate-200 p-3 align-top\">$140 to $170</td>\n</tr>\n<tr>\n<td class=\"border border-slate-200 p-3 align-top\">Best Pedestal</td>\n<td class=\"border border-slate-200 p-3 align-top\">Superior Pump 92333</td>\n<td class=\"border border-slate-200 p-3 align-top\">1/3</td>\n<td class=\"border border-slate-200 p-3 align-top\">2,280 GPH</td>\n<td class=\"border border-slate-200 p-3 align-top\">Thermoplastic column, stainless impeller</td>\n<td class=\"border border-slate-200 p-3 align-top\">Adjustable mechanical float</td>\n<td class=\"border border-slate-200 p-3 align-top\">1 yr</td>\n<td class=\"border border-slate-200 p-3 align-top\">$100 to $120</td>\n</tr>\n<tr>\n<td class=\"border border-slate-200 p-3 align-top\">Best Combo with Backup</td>\n<td class=\"border border-slate-200 p-3 align-top\">Basement Watchdog Big Combo (CITS-50)</td>\n<td class=\"border border-slate-200 p-3 align-top\">1/2 primary</td>\n<td class=\"border border-slate-200 p-3 align-top\">4,400 GPH max (0 ft) primary, 2,600 GPH max backup</td>\n<td class=\"border border-slate-200 p-3 align-top\">Cast iron primary</td>\n<td class=\"border border-slate-200 p-3 align-top\">Dual reed switches</td>\n<td class=\"border border-slate-200 p-3 align-top\">See listing</td>\n<td class=\"border border-slate-200 p-3 align-top\">$450 to $500, battery often extra</td>\n</tr>\n</tbody></table></div>\n<p class=\"text-slate-700 leading-relaxed mb-6\">Flow figures come from manufacturer and distributor spec sheets. Where a maker only publishes a zero-lift rating, we say so. Prices are typical 2026 street prices and move often, so check the current listing.</p>\n<h2 class=\"text-3xl font-bold text-slate-900 mt-12 mb-6\">How We Chose These Pumps</h2>\n<p class=\"text-slate-700 leading-relaxed mb-6\">We did not run these pumps in a test pit. Here is what we did instead, and it's what a plumber looks at when they pick a pump for your house.</p>\n<ol class=\"list-decimal pl-6 space-y-3 text-slate-700 mb-6\">\n<li><strong>Flow at real lift.</strong> We compared gallons per hour at 10 feet of vertical lift, which is close to what a typical basement pump pushes once you count the climb from the pit to the discharge exit plus friction in the pipe and check valve.</li>\n<li><strong>Build.</strong> Cast iron housings shed motor heat into the water and outlast plastic. Every submersible pick here is cast iron.</li>\n<li><strong>Switch design.</strong> The float switch is the number one failure point on any sump pump. We favored vertical floats and magnetic or mechanical switches that can't snag on the pit wall the way tethered floats do.</li>\n<li><strong>Warranty and parts.</strong> Three years is the floor for a pump we'd put in a finished basement. Brands with a long history of replacement parts and plumber support (Zoeller, Liberty, Wayne) got the edge.</li>\n<li><strong>Owner track record.</strong> We read through long-term owner reports and plumber forums for patterns: switches that stick, seals that leak, motors that die in year two. Pumps with recurring complaints didn't make the list.</li>\n<li><strong>Price per year of service.</strong> A $110 pump that lasts 5 years costs more per year than a $200 pump that lasts 10. The cost table below runs the math.</li>\n</ol>\n<h2 class=\"text-3xl font-bold text-slate-900 mt-12 mb-6\">The 10-Foot Rule: How to Compare Sump Pumps</h2>\n<p class=\"text-slate-700 leading-relaxed mb-6\">Every sump pump box advertises a big number. The 3/4 HP Wayne says 5,673 GPH. The Watchdog says 4,400. Those are zero-lift numbers, measured with the pump pushing water straight out at floor level. Your pump never works like that.</p>\n<p class=\"text-slate-700 leading-relaxed mb-6\">Your pump lifts water out of the pit, up to the rim joist, through a check valve, and out of the house. That's usually 8 to 12 feet of total head. At that height, flow drops a lot. The Wayne CDU980E goes from 5,673 GPH at zero to 4,743 at 10 feet and 3,571 at 20 feet.</p>\n<p class=\"text-slate-700 leading-relaxed mb-6\"><strong>The 10-Foot Rule:</strong> compare pumps by flow at 10 feet of lift, then make sure that number beats your pit's fill rate with at least 50% to spare. If a maker won't publish a 10-foot number, treat the box number as a ceiling.</p>\n<h2 class=\"text-3xl font-bold text-slate-900 mt-12 mb-6\">5-Minute Diagnostic: What Size Sump Pump Do You Need?</h2>\n<p class=\"text-slate-700 leading-relaxed mb-6\">Do this during or right after a heavy rain, when your pit is filling at its fastest.</p>\n<ol class=\"list-decimal pl-6 space-y-3 text-slate-700 mb-6\">\n<li><strong>Unplug the pump</strong> (or flip the breaker) once the pump has just emptied the pit.</li>\n<li><strong>Time the fill.</strong> Mark the water level, start a timer, and stop it after 1 minute. Measure how many inches the water rose.</li>\n<li><strong>Convert to gallons.</strong> For a standard 18 inch round pit, each inch of rise is about 1.1 gallons. For a 24 inch pit, it's about 2 gallons per inch. Multiply by inches of rise to get gallons per minute.</li>\n<li><strong>Convert to GPH.</strong> Multiply gallons per minute by 60.</li>\n<li><strong>Add margin.</strong> Multiply by 1.5. That's the minimum flow you want at 10 feet.</li>\n<li><strong>Plug the pump back in.</strong> Do not skip this.</li>\n</ol>\n<p class=\"text-slate-700 leading-relaxed mb-6\"><strong>Example:</strong> An 18 inch pit rises 20 inches in 1 minute. That's 22 gallons per minute, or 1,320 GPH. With margin, you want about 2,000 GPH at 10 feet. The Zoeller M53 (2,040 GPH) is just enough. If you see that kind of fill rate regularly, step up to the M98 or the Wayne.</p>\n<p class=\"text-slate-700 leading-relaxed mb-6\">Also check these while you're there:</p>\n<ul class=\"list-disc pl-6 space-y-3 text-slate-700 mb-6\">\n<li><strong>Pit diameter.</strong> Under 11 inches, you need a slim pump like the Liberty 257 or a pedestal.</li>\n<li><strong>Vertical lift.</strong> Measure from the pit floor to where the discharge pipe exits the wall. Over 15 feet, look hard at the 1/2 HP and 3/4 HP options.</li>\n<li><strong>Pump age.</strong> If yours is 7+ years old, or it runs constantly in dry weather, see our guide to a <a href=\"/articles/sump-pump-running-constantly\" class=\"text-teal-600 underline hover:text-teal-800\">sump pump running constantly</a> before you buy.</li>\n</ul>\n<h2 class=\"text-3xl font-bold text-slate-900 mt-12 mb-6\">Best Overall: Zoeller M53 Mighty-Mate</h2>\n<p class=\"text-slate-700 leading-relaxed mb-6\"><a href=\"https://link.amazon/B08i36SvK\" class=\"inline-block bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 px-4 rounded text-sm no-underline\" target=\"_blank\" rel=\"sponsored nofollow\">Check Price on Amazon</a></p>\n<p class=\"text-slate-700 leading-relaxed mb-6\"><strong>Specs:</strong> 3/10 HP | 2,040 GPH at 10 ft (34 GPM) | 19 ft shut-off head | cast iron | vertical float switch, on at 7.25 inches, off at 3 inches | 1.5 inch discharge | 10 ft cord | 3 year warranty | about $180 to $230</p>\n<p class=\"text-slate-700 leading-relaxed mb-6\">The M53 is the pump plumbers install when nobody asks for anything special. It's been in production for decades, parts are everywhere, and the design is simple: a cast iron motor housing that sits in water and stays cool, a float that rides up and down on a vertical rod, and a mechanical switch with nothing to program.</p>\n<p class=\"text-slate-700 leading-relaxed mb-6\">It's rated at 3/10 HP, a hair under the 1/3 HP of most competitors. Don't let that bother you. At 10 feet of lift it moves about 2,040 gallons an hour, which covers the average basement with a typical pit and normal groundwater.</p>\n<p class=\"text-slate-700 leading-relaxed mb-6\"><strong>Why it's our top pick:</strong> reliability per dollar. The cast iron housing and simple switch are the two things that keep sump pumps alive, and the M53 has both for about $200.</p>\n<p class=\"text-slate-700 leading-relaxed mb-6\"><strong>Who it's for:</strong> most homes with an 18 inch or larger pit, a pump that runs during storms and snowmelt, and lift under 15 feet.</p>\n<p class=\"text-slate-700 leading-relaxed mb-6\"><strong>Watch out for:</strong> the switch is set to cycle often (7.25 inches on, 3 inches off), so in a small pit with high inflow it will run in short bursts. That's normal, but if your pit fills in under a minute, you need more pump.</p>\n<h2 class=\"text-3xl font-bold text-slate-900 mt-12 mb-6\">Best for Heavy Rain: Wayne CDU980E</h2>\n<p class=\"text-slate-700 leading-relaxed mb-6\"><a href=\"https://link.amazon/B01EgfGqm\" class=\"inline-block bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 px-4 rounded text-sm no-underline\" target=\"_blank\" rel=\"sponsored nofollow\">Check Price on Amazon</a></p>\n<p class=\"text-slate-700 leading-relaxed mb-6\"><strong>Specs:</strong> 3/4 HP | 5,245 GPH at 5 ft, 4,743 GPH at 10 ft, 4,240 GPH at 15 ft, 3,571 GPH at 20 ft | cast iron and stainless steel | vertical float switch, on at 9 inches, off at 4 inches | 1.5 inch discharge | 5 year limited warranty | about $220 to $280</p>\n<p class=\"text-slate-700 leading-relaxed mb-6\">If your pit fills fast during a storm, or your old pump has ever failed to keep up, this is the pump. At 10 feet of lift it moves more than twice the water of the Zoeller M53, and it still pushes over 3,500 GPH at 20 feet. It's the strongest pump on this list and often the cheapest one per gallon.</p>\n<p class=\"text-slate-700 leading-relaxed mb-6\">The 5 year warranty is the longest of any pick here. The float sits on a vertical rod with a solid polypropylene float, so there's no foam float to waterlog.</p>\n<p class=\"text-slate-700 leading-relaxed mb-6\"><strong>Who it's for:</strong> high water tables, homes at the bottom of a slope, basements that take in water every heavy rain, and long or tall discharge runs.</p>\n<p class=\"text-slate-700 leading-relaxed mb-6\"><strong>Watch out for:</strong></p>\n<ul class=\"list-disc pl-6 space-y-3 text-slate-700 mb-6\">\n<li><strong>It's overkill for a small pit.</strong> In a 14 inch pit with modest inflow, a 3/4 HP pump empties the basin in seconds and cycles hard, which wears the switch and motor. Use it where you actually have the water.</li>\n<li><strong>It draws about 10 amps.</strong> Put it on its own circuit, and size any backup or generator for it.</li>\n<li><strong>A 1.5 inch discharge is the minimum.</strong> On long runs, step up to 2 inch pipe past the check valve to cut friction loss.</li>\n</ul>\n<h2 class=\"text-3xl font-bold text-slate-900 mt-12 mb-6\">Best Premium: Zoeller M98 Flow-Mate</h2>\n<p class=\"text-slate-700 leading-relaxed mb-6\"><a href=\"https://link.amazon/B02KGrT6Z\" class=\"inline-block bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 px-4 rounded text-sm no-underline\" target=\"_blank\" rel=\"sponsored nofollow\">Check Price on Amazon</a></p>\n<p class=\"text-slate-700 leading-relaxed mb-6\"><strong>Specs:</strong> 1/2 HP | 3,660 GPH at 10 ft (61 GPM) | 23 ft max head | cast iron housing and volute | 2-pole mechanical vertical float switch | 3 year warranty | about $330 to $380</p>\n<p class=\"text-slate-700 leading-relaxed mb-6\">The M98 is the one to buy if your pump runs every day from March to November. It's built like the M53 but bigger, with a 1/2 HP motor, a 2-pole switch rated for heavier duty, and a higher-capacity volute. It moves about 80% more water than the M53 at 10 feet.</p>\n<p class=\"text-slate-700 leading-relaxed mb-6\">You're paying a premium over the Wayne for the Zoeller name and support network. In our view that's worth it in a finished basement. Zoeller parts are easy to find, and almost every plumber has installed one.</p>\n<p class=\"text-slate-700 leading-relaxed mb-6\"><strong>Alternative:</strong> the Liberty 287 is the closest rival. It's also 1/2 HP cast iron with a vertical magnetic float, a 37 foot shut-off head (better for tall lifts), and a 3 year warranty, at about $330. Pick the 287 if your discharge climbs more than 15 feet.</p>\n<p class=\"text-slate-700 leading-relaxed mb-6\"><strong>Who it's for:</strong> finished basements, high-inflow pits, homes where the pump runs most days, and anyone who wants to replace a pump once a decade.</p>\n<p class=\"text-slate-700 leading-relaxed mb-6\"><strong>Watch out for:</strong> it's heavier and wider than the M53. Measure your pit.</p>\n<h2 class=\"text-3xl font-bold text-slate-900 mt-12 mb-6\">Best for Tight Pits: Liberty 257</h2>\n<p class=\"text-slate-700 leading-relaxed mb-6\"><a href=\"https://link.amazon/B005b3zgp\" class=\"inline-block bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 px-4 rounded text-sm no-underline\" target=\"_blank\" rel=\"sponsored nofollow\">Check Price on Amazon</a></p>\n<p class=\"text-slate-700 leading-relaxed mb-6\"><strong>Specs:</strong> 1/3 HP | 2,400 GPH at 10 ft (40 GPM) | 23 ft max head | one-piece cast iron body, epoxy coated | vertical magnetic float switch | fits a 10 inch basin | 10 ft cord | 3 year warranty | about $210 to $250</p>\n<p class=\"text-slate-700 leading-relaxed mb-6\">Older homes and some builder-grade installs have pits that are too narrow for a standard pump and float. The Liberty 257 was designed for this. Its vertical magnetic float switch rides tight against the pump body, so the whole unit fits in a 10 inch basin.</p>\n<p class=\"text-slate-700 leading-relaxed mb-6\">The magnetic switch has no mechanical contact arm to wear out, which is why it shows up in plumber recommendations for reliability even outside small pits. At 10 feet it out-pumps the Zoeller M53 by about 18%.</p>\n<p class=\"text-slate-700 leading-relaxed mb-6\"><strong>Who it's for:</strong> pits 10 to 14 inches wide, crowded pits with a backup pump, and anyone who wants a magnetic switch.</p>\n<p class=\"text-slate-700 leading-relaxed mb-6\"><strong>Watch out for:</strong> it's priced about the same as the M53, so in a standard 18 inch pit it's a toss-up. In a pit that also holds a backup pump, the slim profile is worth paying for.</p>\n<h2 class=\"text-3xl font-bold text-slate-900 mt-12 mb-6\">Best Budget: Superior Pump 92341</h2>\n<p class=\"text-slate-700 leading-relaxed mb-6\"><a href=\"https://link.amazon/B0h1uAavX\" class=\"inline-block bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 px-4 rounded text-sm no-underline\" target=\"_blank\" rel=\"sponsored nofollow\">Check Price on Amazon</a></p>\n<p class=\"text-slate-700 leading-relaxed mb-6\"><strong>Specs:</strong> 1/3 HP | 2,760 GPH max at 0 ft (46 GPM) | cast iron body | stainless steel impeller | vertical float switch | 3/8 inch solids | about $140 to $170</p>\n<p class=\"text-slate-700 leading-relaxed mb-6\">If you need a pump this weekend and the budget is tight, this is the one to get. You still get a cast iron body and a vertical float switch, the two features that matter most, for about $60 less than the Zoeller M53. The stainless impeller is a nice touch at this price.</p>\n<p class=\"text-slate-700 leading-relaxed mb-6\">Superior only publishes a zero-lift rating for this pump. Expect real flow at 10 feet to be well under 2,760 GPH. Plan on it handling light to moderate inflow, not a pit that fills in a minute.</p>\n<p class=\"text-slate-700 leading-relaxed mb-6\"><strong>Who it's for:</strong> rentals, unfinished basements, a spare pump to keep on the shelf, and pits that only see water a few times a year.</p>\n<p class=\"text-slate-700 leading-relaxed mb-6\"><strong>Watch out for:</strong> the warranty isn't clearly published by retailers, so check the listing before you buy. Don't put it in a finished basement with heavy inflow. Spend the extra on the M53 or the Wayne.</p>\n<h2 class=\"text-3xl font-bold text-slate-900 mt-12 mb-6\">Best Pedestal: Superior Pump 92333</h2>\n<p class=\"text-slate-700 leading-relaxed mb-6\"><a href=\"https://link.amazon/B0gknjvat\" class=\"inline-block bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 px-4 rounded text-sm no-underline\" target=\"_blank\" rel=\"sponsored nofollow\">Check Price on Amazon</a></p>\n<p class=\"text-slate-700 leading-relaxed mb-6\"><strong>Specs:</strong> 1/3 HP | 2,280 GPH at 10 ft (38 GPM) | 20 ft max lift | thermoplastic column, stainless steel impeller | adjustable mechanical float, on/off adjustable from 4 to 12 inches | 1 year warranty | about $100 to $120</p>\n<p class=\"text-slate-700 leading-relaxed mb-6\">Pedestal pumps sit on a column with the motor above the water. They're cheaper, easier to service, and the only option for some very narrow or shallow pits. The Superior 92333 is the best value in the category: strong flow at 10 feet for the price and an easy-to-reach float you can adjust.</p>\n<p class=\"text-slate-700 leading-relaxed mb-6\"><strong>Who it's for:</strong> pits too narrow for a submersible, unfinished basements, and anyone who wants to see and reach the switch without pulling the pump.</p>\n<p class=\"text-slate-700 leading-relaxed mb-6\"><strong>Watch out for:</strong></p>\n<ul class=\"list-disc pl-6 space-y-3 text-slate-700 mb-6\">\n<li><strong>Noise.</strong> The motor runs in open air, so it's louder than a submersible. That matters next to a bedroom or office.</li>\n<li><strong>Lifespan.</strong> Expect 5 to 7 years.</li>\n<li><strong>Warranty.</strong> One year is short.</li>\n</ul>\n<p class=\"text-slate-700 leading-relaxed mb-6\">Read our full <a href=\"/articles/submersible-vs-pedestal-sump-pump\" class=\"text-teal-600 underline hover:text-teal-800\">submersible vs. pedestal sump pump comparison</a> before you choose.</p>\n<h2 class=\"text-3xl font-bold text-slate-900 mt-12 mb-6\">Best Combo with Backup: Basement Watchdog Big Combo (CITS-50)</h2>\n<p class=\"text-slate-700 leading-relaxed mb-6\"><a href=\"https://link.amazon/B0ggkryw9\" class=\"inline-block bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 px-4 rounded text-sm no-underline\" target=\"_blank\" rel=\"sponsored nofollow\">Check Price on Amazon</a></p>\n<p class=\"text-slate-700 leading-relaxed mb-6\"><strong>Specs:</strong> 1/2 HP cast iron primary, 4,400 GPH max at 0 ft | battery backup pump, 2,600 GPH max at 0 ft | dual reed switches | 24/7 controller monitoring of pump, power, and battery | text, email, and app alerts with the BW-Fi module (sold separately) | about $450 to $500, battery often sold separately</p>\n<p class=\"text-slate-700 leading-relaxed mb-6\">Most sump pump failures happen during the storm, when the power goes out or the primary pump gets overwhelmed. A combo system puts a 1/2 HP primary and a battery backup on one pre-plumbed discharge, so you don't have to fit two pumps, two check valves, and a controller into one pit yourself.</p>\n<p class=\"text-slate-700 leading-relaxed mb-6\">The Watchdog's controller is the selling point. It watches the primary pump, AC power, and battery, and with the Wi-Fi module it tells your phone when something goes wrong. If you travel or have a finished basement, that alert is worth more than the pump.</p>\n<p class=\"text-slate-700 leading-relaxed mb-6\"><strong>Who it's for:</strong> finished basements, homes in areas with storm outages, and people who are away from home often.</p>\n<p class=\"text-slate-700 leading-relaxed mb-6\"><strong>Watch out for:</strong></p>\n<ul class=\"list-disc pl-6 space-y-3 text-slate-700 mb-6\">\n<li><strong>Battery cost.</strong> Budget $150 to $250 for a deep cycle battery if one isn't included, and plan to replace it every 3 to 5 years.</li>\n<li><strong>Zero-lift ratings only.</strong> Basement Watchdog publishes the 0 ft numbers, so real flow at 10 feet will be lower.</li>\n<li><strong>The alternative.</strong> If you'd rather keep your current primary, or want a water-powered backup that never needs a battery, see our guides to <a href=\"/articles/backup-power-sump-pumps\" class=\"text-teal-600 underline hover:text-teal-800\">sump pump backup power</a> and <a href=\"/articles/battery-vs-water-powered-sump-pumps\" class=\"text-teal-600 underline hover:text-teal-800\">battery vs. water-powered backups</a>.</li>\n</ul>\n<h2 class=\"text-3xl font-bold text-slate-900 mt-12 mb-6\">Best Sump Pump for Heavy Rain and Basements That Flood Regularly</h2>\n<p class=\"text-slate-700 leading-relaxed mb-6\">Most \"best sump pump\" questions come from people who just watched their pump fall behind in a storm. If that's you, here's what actually fixes it, in order.</p>\n<ol class=\"list-decimal pl-6 space-y-3 text-slate-700 mb-6\">\n<li><strong>Confirm the pump was the problem.</strong> A pump that's too small runs nonstop and the water still rises. A pump with a failed switch doesn't run at all. A clogged or frozen discharge makes the pump run and the water doesn't drop. Each one has a different fix. Our <a href=\"/articles/sump-pump-running-constantly\" class=\"text-teal-600 underline hover:text-teal-800\">sump pump running constantly</a> guide walks through it.</li>\n<li><strong>Size up using the 10-Foot Rule.</strong> Time your pit fill during the next storm. If inflow is over about 1,500 GPH, a 1/3 HP pump is on the edge. Move to the Wayne CDU980E (4,743 GPH at 10 ft) or the Zoeller M98 (3,660 GPH).</li>\n<li><strong>Add a backup.</strong> Heavy rain and power outages arrive together. A battery backup or water-powered backup covers both a power loss and a primary failure. Many homes with chronic water run two pumps in the pit.</li>\n<li><strong>Upgrade the discharge.</strong> Going from 1.5 inch to 2 inch discharge pipe on a long run, and swapping a cheap check valve for a quiet spring-loaded one, can recover several hundred gallons per hour.</li>\n<li><strong>Cut the inflow.</strong> Downspouts that dump next to the foundation send roof water straight to your pit. Extending downspouts 6 to 10 feet and fixing negative grading often does more than a bigger pump. See our <a href=\"/articles/how-to-winterize-a-basement\" class=\"text-teal-600 underline hover:text-teal-800\">basement winterizing checklist</a> for the full exterior list.</li>\n</ol>\n<p class=\"text-slate-700 leading-relaxed mb-6\"><strong>Bottom line:</strong> for a basement that floods regularly, the setup to beat is the Wayne CDU980E or Zoeller M98 as the primary, plus a battery or water-powered backup, plus a high water alarm or leak sensor on the floor. See our picks for the <a href=\"/articles/best-water-leak-detectors\" class=\"text-teal-600 underline hover:text-teal-800\">best water leak detectors</a>.</p>\n<h2 class=\"text-3xl font-bold text-slate-900 mt-12 mb-6\">Submersible or Pedestal? The Short Answer</h2>\n<p class=\"text-slate-700 leading-relaxed mb-6\">Get a submersible if your pit is at least 11 inches wide and the basement is finished or will be. Submersibles are quieter, cooler running, and last longer.</p>\n<p class=\"text-slate-700 leading-relaxed mb-6\">Get a pedestal if your pit is very narrow or shallow, the space is unfinished, and you want the cheapest pump that's easy to service.</p>\n<p class=\"text-slate-700 leading-relaxed mb-6\">The <a href=\"/articles/submersible-vs-pedestal-sump-pump\" class=\"text-teal-600 underline hover:text-teal-800\">full comparison</a> goes deeper.</p>\n<h2 class=\"text-3xl font-bold text-slate-900 mt-12 mb-6\">Sump Pump Cost and 10-Year Cost of Ownership</h2>\n<p class=\"text-slate-700 leading-relaxed mb-6\">The sticker price is only part of it. Pumps last different amounts of time, and backups add battery replacements. Here's what each type actually costs over 10 years, pump hardware only.</p>\n<div class=\"overflow-x-auto max-w-full mb-8 rounded-lg border border-slate-200\"><table class=\"w-full min-w-[700px] text-sm text-left border-collapse\">\n<thead class=\"bg-slate-100 text-slate-900\">\n<tr>\n<th class=\"border border-slate-200 p-3 align-top\">Setup</th>\n<th class=\"border border-slate-200 p-3 align-top\">Upfront hardware</th>\n<th class=\"border border-slate-200 p-3 align-top\">Expected life</th>\n<th class=\"border border-slate-200 p-3 align-top\">Replacements in 10 years</th>\n<th class=\"border border-slate-200 p-3 align-top\">10-year hardware cost</th>\n</tr>\n</thead>\n<tbody><tr>\n<td class=\"border border-slate-200 p-3 align-top\">Thermoplastic pedestal (Superior 92333)</td>\n<td class=\"border border-slate-200 p-3 align-top\">$100 to $120</td>\n<td class=\"border border-slate-200 p-3 align-top\">5 to 7 years</td>\n<td class=\"border border-slate-200 p-3 align-top\">1</td>\n<td class=\"border border-slate-200 p-3 align-top\">$200 to $240</td>\n</tr>\n<tr>\n<td class=\"border border-slate-200 p-3 align-top\">Budget cast iron submersible (Superior 92341)</td>\n<td class=\"border border-slate-200 p-3 align-top\">$140 to $170</td>\n<td class=\"border border-slate-200 p-3 align-top\">5 to 8 years</td>\n<td class=\"border border-slate-200 p-3 align-top\">1</td>\n<td class=\"border border-slate-200 p-3 align-top\">$280 to $340</td>\n</tr>\n<tr>\n<td class=\"border border-slate-200 p-3 align-top\">Standard cast iron submersible (Zoeller M53, Liberty 257)</td>\n<td class=\"border border-slate-200 p-3 align-top\">$180 to $250</td>\n<td class=\"border border-slate-200 p-3 align-top\">7 to 10 years</td>\n<td class=\"border border-slate-200 p-3 align-top\">0 to 1</td>\n<td class=\"border border-slate-200 p-3 align-top\">$180 to $500</td>\n</tr>\n<tr>\n<td class=\"border border-slate-200 p-3 align-top\">High-capacity cast iron (Wayne CDU980E, Zoeller M98)</td>\n<td class=\"border border-slate-200 p-3 align-top\">$220 to $380</td>\n<td class=\"border border-slate-200 p-3 align-top\">7 to 10+ years</td>\n<td class=\"border border-slate-200 p-3 align-top\">0 to 1</td>\n<td class=\"border border-slate-200 p-3 align-top\">$220 to $760</td>\n</tr>\n<tr>\n<td class=\"border border-slate-200 p-3 align-top\">Combo with battery backup (Watchdog Big Combo)</td>\n<td class=\"border border-slate-200 p-3 align-top\">$450 to $500 plus $150 to $250 battery</td>\n<td class=\"border border-slate-200 p-3 align-top\">Pump 7 to 10 years, battery 3 to 5 years</td>\n<td class=\"border border-slate-200 p-3 align-top\">1 to 2 batteries</td>\n<td class=\"border border-slate-200 p-3 align-top\">$750 to $1,250</td>\n</tr>\n</tbody></table></div>\n<p class=\"text-slate-700 leading-relaxed mb-6\"><strong>What to add on top:</strong></p>\n<ul class=\"list-disc pl-6 space-y-3 text-slate-700 mb-6\">\n<li><strong>Professional installation:</strong> usually $150 to $400 for a straight swap, and more if the pit, discharge, or check valve needs work. See our <a href=\"/articles/sump-pump-cost\" class=\"text-teal-600 underline hover:text-teal-800\">sump pump cost guide</a> and <a href=\"/cost-guides/sump-pump-replacement-cost\" class=\"text-teal-600 underline hover:text-teal-800\">replacement cost calculator</a> for full numbers.</li>\n<li><strong>Check valve:</strong> $20 to $50. Replace it when you replace the pump.</li>\n<li><strong>Electricity:</strong> small for most homes. A 1/3 HP pump draws roughly 400 to 700 watts while running, so even a busy pump usually costs a few dollars a month in wet season.</li>\n</ul>\n<p class=\"text-slate-700 leading-relaxed mb-6\"><strong>The math that matters:</strong> the cheapest pump over 10 years is usually a standard cast iron submersible. Paying $80 more upfront buys you one fewer replacement and one fewer weekend in the pit.</p>\n<h2 class=\"text-3xl font-bold text-slate-900 mt-12 mb-6\">Common Mistakes When Buying a Sump Pump</h2>\n<ol class=\"list-decimal pl-6 space-y-3 text-slate-700 mb-6\">\n<li><strong>Shopping by max GPH.</strong> It's a zero-lift number. Compare at 10 feet.</li>\n<li><strong>Buying the biggest pump you can find.</strong> A 3/4 HP pump in a small pit with light inflow short-cycles and wears itself out. Match the pump to your measured fill rate.</li>\n<li><strong>Choosing a tethered float in a small pit.</strong> Tethered floats swing in a wide arc and snag on the pit wall, the backup pump, or the discharge pipe. That's one of the most common causes of a pump that won't turn on. Vertical floats avoid it.</li>\n<li><strong>Reusing the old check valve.</strong> A worn check valve lets water fall back into the pit and makes the new pump run twice as often. Replace it with the pump.</li>\n<li><strong>Skipping the weep hole.</strong> Most submersibles need a small 1/8 inch hole drilled in the discharge pipe between the pump and the check valve to prevent air lock. Check your manual.</li>\n<li><strong>Plugging into an extension cord.</strong> Plug directly into a dedicated GFCI outlet. Extension cords drop voltage and are a common failure point.</li>\n<li><strong>Not testing it.</strong> Pour a 5 gallon bucket into the pit every few months, and every fall before the wet season. If the pump doesn't kick on, you want to know now.</li>\n<li><strong>No backup in a finished basement.</strong> One storm with the power out can ruin flooring, drywall, and furniture. Ten-year cost tables don't capture that.</li>\n</ol>\n<h2 class=\"text-3xl font-bold text-slate-900 mt-12 mb-6\">When to Call a Pro</h2>\n<p class=\"text-slate-700 leading-relaxed mb-6\">Most sump pump swaps are a 1 to 2 hour DIY job if the new pump matches the old pump's discharge and the pit is in good shape. Call a plumber or waterproofing contractor when:</p>\n<ul class=\"list-disc pl-6 space-y-3 text-slate-700 mb-6\">\n<li><strong>There's no pit yet,</strong> or you're adding a second pit. That's concrete cutting and drainage work.</li>\n<li><strong>The pit is cracked, collapsing, or filling with silt and gravel.</strong> The liner needs replacement.</li>\n<li><strong>You're upsizing to 3/4 HP</strong> and need a new circuit, or the discharge needs to go from 1.5 to 2 inch.</li>\n<li><strong>Your discharge line is buried</strong> and freezes or clogs. See our guide to <a href=\"/articles/frozen-pipes-in-basement\" class=\"text-teal-600 underline hover:text-teal-800\">frozen pipes in the basement</a> for the winter side of this.</li>\n<li><strong>Water rises in the basement even though the pump runs.</strong> That points to a drainage problem bigger than the pump. Start with our <a href=\"/articles/complete-basement-waterproofing-guide\" class=\"text-teal-600 underline hover:text-teal-800\">complete basement waterproofing guide</a>.</li>\n</ul>\n"
+const afterForm = "\n<h2 class=\"text-3xl font-bold text-slate-900 mt-12 mb-6\">Frequently Asked Questions</h2>\n<h3 class=\"text-xl font-bold text-slate-900 mt-8 mb-3\">What is the most reliable sump pump brand?</h3>\n<p class=\"text-slate-700 leading-relaxed mb-6\">Zoeller, Liberty, and Wayne have the strongest long-term track records for residential pumps. Zoeller and Liberty in particular are the brands most plumbers install, which means parts and service are easy to find. Within any brand, reliability comes down to two features: a cast iron housing and a vertical float switch. A cheap pump from a good brand with a tethered float will fail sooner than a cast iron vertical-float pump from any of the three.</p>\n<h3 class=\"text-xl font-bold text-slate-900 mt-8 mb-3\">Zoeller vs. Wayne: which is better?</h3>\n<p class=\"text-slate-700 leading-relaxed mb-6\">Zoeller wins on track record and plumber support. Wayne wins on flow per dollar and warranty. The Wayne CDU980E moves about 4,700 GPH at 10 feet with a 5 year warranty for around $250. The Zoeller M98 moves about 3,700 GPH with a 3 year warranty for around $350. If you need maximum water moved, buy the Wayne. If you want the pump your plumber knows best, buy the Zoeller.</p>\n<h3 class=\"text-xl font-bold text-slate-900 mt-8 mb-3\">What's the best sump pump for a basement that floods regularly?</h3>\n<p class=\"text-slate-700 leading-relaxed mb-6\">A high-capacity cast iron primary (the Wayne CDU980E or Zoeller M98), a backup pump in the same pit, and a water alarm on the floor. A bigger pump alone doesn't fix flooding if the power goes out, the switch sticks, or the discharge freezes. The backup and the alarm cover those failures. Then cut the inflow with downspout extensions and grading so the pumps work less.</p>\n<h3 class=\"text-xl font-bold text-slate-900 mt-8 mb-3\">What horsepower sump pump do I need?</h3>\n<p class=\"text-slate-700 leading-relaxed mb-6\">For most homes, 1/3 HP is enough. Move to 1/2 HP if your pit fills faster than about 1,500 gallons per hour in a storm, or your discharge lifts more than 15 feet. Move to 3/4 HP only for high water tables or heavy, sustained inflow. Horsepower is a rough guide. Flow at 10 feet of lift is the number to compare.</p>\n<h3 class=\"text-xl font-bold text-slate-900 mt-8 mb-3\">How long do sump pumps last?</h3>\n<p class=\"text-slate-700 leading-relaxed mb-6\">Cast iron submersibles usually last 7 to 10 years, and well-sized ones in clean pits often go longer. Thermoplastic and pedestal pumps typically last 5 to 7 years. Battery backups need a new battery every 3 to 5 years. If your pump is past 7 years and you're heading into the wet season, replacing it on your schedule beats replacing it during a storm.</p>\n<h3 class=\"text-xl font-bold text-slate-900 mt-8 mb-3\">Is a cast iron sump pump worth the extra money?</h3>\n<p class=\"text-slate-700 leading-relaxed mb-6\">Yes, in almost every case. Cast iron pulls heat away from the motor into the surrounding water, which extends motor life, and it doesn't crack or warp. The price difference is often $40 to $80, which you recover by skipping one replacement over 10 years.</p>\n<h3 class=\"text-xl font-bold text-slate-900 mt-8 mb-3\">What's the best sump pump for a finished basement?</h3>\n<p class=\"text-slate-700 leading-relaxed mb-6\">A quiet, cast iron submersible with a vertical switch, paired with a battery backup and an alert. The Zoeller M98 or Wayne CDU980E as the primary, or the Basement Watchdog Big Combo if you want one pre-plumbed system with phone alerts. Pedestal pumps are usually too loud for finished space. For hiding the pump without blocking access, see our <a href=\"/articles/sump-pump-design-ideas\" class=\"text-teal-600 underline hover:text-teal-800\">sump pump cover and design ideas</a>.</p>\n<h3 class=\"text-xl font-bold text-slate-900 mt-8 mb-3\">Can I replace a sump pump myself?</h3>\n<p class=\"text-slate-700 leading-relaxed mb-6\">Usually, yes. If the new pump uses the same discharge size and fits your pit, it's a matter of unplugging the old pump, cutting or unthreading the discharge, setting the new pump on a solid base, reconnecting with a new check valve, drilling the weep hole if the manual calls for it, and testing with a bucket of water. Our <a href=\"/articles/sump-pump-buying-guide\" class=\"text-teal-600 underline hover:text-teal-800\">sump pump buying guide</a> covers installation details. Call a pro if you're changing pipe size, adding a circuit, or the pit needs work.</p>\n<h2 class=\"text-3xl font-bold text-slate-900 mt-12 mb-6\">Sump Pump Glossary</h2>\n<p class=\"text-slate-700 leading-relaxed mb-6\"><strong>Head (total dynamic head):</strong> The total height and friction your pump has to overcome, from the water in the pit to the discharge exit. Flow drops as head rises.</p>\n<p class=\"text-slate-700 leading-relaxed mb-6\"><strong>GPH at 10 feet:</strong> Gallons per hour the pump moves with 10 feet of head. The most useful number for comparing residential pumps.</p>\n<p class=\"text-slate-700 leading-relaxed mb-6\"><strong>Shut-off head:</strong> The height at which the pump can no longer move any water. Your actual lift should be well below it.</p>\n<p class=\"text-slate-700 leading-relaxed mb-6\"><strong>Vertical float switch:</strong> A float that rides up and down on a rod mounted to the pump. It needs less pit width and can't snag the way a tethered float can.</p>\n<p class=\"text-slate-700 leading-relaxed mb-6\"><strong>Tethered float switch:</strong> A float on a flexible cord that swings up to turn the pump on. It needs a wider pit and is more prone to snagging.</p>\n<p class=\"text-slate-700 leading-relaxed mb-6\"><strong>Vertical magnetic float (VMF):</strong> Liberty's switch design that uses a magnet to trigger the pump, with no mechanical arm to wear.</p>\n<p class=\"text-slate-700 leading-relaxed mb-6\"><strong>Check valve:</strong> A one-way valve on the discharge pipe that keeps pumped water from falling back into the pit.</p>\n<p class=\"text-slate-700 leading-relaxed mb-6\"><strong>Weep hole:</strong> A small hole drilled in the discharge pipe below the check valve that lets trapped air escape and prevents air lock.</p>\n<p class=\"text-slate-700 leading-relaxed mb-6\"><strong>Short cycling:</strong> A pump turning on and off rapidly, usually from an oversized pump, a small pit, or a failing check valve. It wears out switches and motors.</p>\n<p class=\"text-slate-700 leading-relaxed mb-6\"><strong>Combo system:</strong> A primary pump and a backup pump sold together on a shared discharge, usually with a controller and alarm.</p>\n<h2 class=\"text-3xl font-bold text-slate-900 mt-12 mb-6\">Related Guides</h2>\n<ul class=\"list-disc pl-6 space-y-3 text-slate-700 mb-6\">\n<li><a href=\"/articles/sump-pump-buying-guide\" class=\"text-teal-600 underline hover:text-teal-800\">Sump Pump Buying Guide</a></li>\n<li><a href=\"/articles/submersible-vs-pedestal-sump-pump\" class=\"text-teal-600 underline hover:text-teal-800\">Submersible vs. Pedestal Sump Pump</a></li>\n<li><a href=\"/articles/backup-power-sump-pumps\" class=\"text-teal-600 underline hover:text-teal-800\">Sump Pump Backup Power Options</a></li>\n<li><a href=\"/articles/battery-vs-water-powered-sump-pumps\" class=\"text-teal-600 underline hover:text-teal-800\">Battery vs. Water-Powered Backup Sump Pumps</a></li>\n<li><a href=\"/articles/sump-pump-running-constantly\" class=\"text-teal-600 underline hover:text-teal-800\">Sump Pump Running Constantly? 8 Causes and Fixes</a></li>\n<li><a href=\"/articles/sump-pump-cost\" class=\"text-teal-600 underline hover:text-teal-800\">Sump Pump Cost</a></li>\n<li><a href=\"/cost-guides/sump-pump-replacement-cost\" class=\"text-teal-600 underline hover:text-teal-800\">Sump Pump Replacement Cost Calculator</a></li>\n<li><a href=\"/articles/sump-pump-design-ideas\" class=\"text-teal-600 underline hover:text-teal-800\">Sump Pump Cover Ideas and Ways to Hide a Sump Pump</a></li>\n<li><a href=\"/articles/best-water-leak-detectors\" class=\"text-teal-600 underline hover:text-teal-800\">Best Water Leak Detectors</a></li>\n<li><a href=\"/articles/how-to-winterize-a-basement\" class=\"text-teal-600 underline hover:text-teal-800\">How to Winterize a Basement</a></li>\n</ul>\n"
 
 export default function BestSumpPumps2026() {
   return (
     <div className='bg-white min-h-screen'>
-
-      {/* Article Hero */}
-      <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
-        <script
-          type='application/ld+json'
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              '@context': 'https://schema.org',
-              '@type': 'Article',
-              headline: 'Best Sump Pumps for 2026: Top Submersible and Pedestal Picks',
-              description: 'Roundup of the best sump pumps for 2026, including top submersible and pedestal models based on reliability, noise, flow rate, and overall value for wet basements.',
-              image: 'https://thebasement.guide/Submersible.jpg',
-              author: {
-                '@type': 'Organization',
-                name: 'The Basement Guide',
-                url: 'https://thebasement.guide',
-              },
-              publisher: {
-                '@type': 'Organization',
-                name: 'The Basement Guide',
-                logo: {
-                  '@type': 'ImageObject',
-                  url: 'https://thebasement.guide/logo.png',
-                },
-              },
-              datePublished: '2026-03-01',
-              dateModified: '2026-03-01',
-              mainEntityOfPage: {
-                '@type': 'WebPage',
-                '@id': 'https://thebasement.guide/articles/best-sump-pumps-2026',
-              },
-            }),
-          }}
-        />
-        <script
-          type='application/ld+json'
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              '@context': 'https://schema.org',
-              '@type': 'BreadcrumbList',
-              itemListElement: [
-                {
-                  '@type': 'ListItem',
-                  position: 1,
-                  name: 'Home',
-                  item: 'https://thebasement.guide',
-                },
-                {
-                  '@type': 'ListItem',
-                  position: 2,
-                  name: 'Articles',
-                  item: 'https://thebasement.guide/articles',
-                },
-                {
-                  '@type': 'ListItem',
-                  position: 3,
-                  name: 'Best Sump Pumps 2026',
-                  item: 'https://thebasement.guide/articles/best-sump-pumps-2026',
-                },
-              ],
-            }),
-          }}
-        />
-        <script
-          type='application/ld+json'
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              '@context': 'https://schema.org',
-              '@type': 'FAQPage',
-              mainEntity: [
-                {
-                  '@type': 'Question',
-                  name: 'What size sump pump do I need for my basement?',
-                  acceptedAnswer: {
-                    '@type': 'Answer',
-                    text: 'Most homes do well with a 1/3 to 1/2 HP sump pump that can move 2,500 to 4,000 gallons per hour at 5 feet of lift. The right size depends on four factors: the square footage of your basement, how frequently and severely it floods, your local water table depth, and whether you have a single pump or a primary and backup setup. A 1/3 HP pump handles most average-sized basements in areas with moderate rainfall. If you live in a low-lying area, near a body of water, or your basement has flooded more than once in a single storm, step up to a 3/4 HP model like the Wayne CDU980E. When in doubt, size up\u2014a pump that runs briefly at lower capacity lasts longer than an undersized pump running continuously at full load.',
-                  },
-                },
-                {
-                  '@type': 'Question',
-                  name: 'Is a submersible sump pump better than a pedestal pump?',
-                  acceptedAnswer: {
-                    '@type': 'Answer',
-                    text: 'Submersible pumps sit inside the pit, run more quietly (48 to 57 dB vs 58 to 62 dB for pedestal), handle debris and solids better, and are the right choice for finished basements where noise matters. Pedestal pumps keep the motor above the pit, which makes them easier to service, keeps the motor out of the water, and typically extends lifespan to 15 to 20 years in light-duty applications. Submersible pumps are better for heavy flooding, finished living spaces, and pits with sediment or debris. Pedestal pumps are better for unfinished basements, tight budgets, and situations where easy motor access is a priority.',
-                  },
-                },
-                {
-                  '@type': 'Question',
-                  name: 'How long should a sump pump last?',
-                  acceptedAnswer: {
-                    '@type': 'Answer',
-                    text: 'A quality submersible sump pump lasts 7 to 10 years under normal residential use, while pedestal pumps in light-duty applications regularly reach 15 to 20 years because the motor never contacts water. The biggest factors affecting lifespan are how often the pump cycles, water quality (sediment and minerals wear components faster), whether the pump is correctly sized for the load, and how consistently it is maintained. A pump that runs continuously because it is undersized will fail in 3 to 5 years. A correctly sized pump that is tested quarterly, cleaned annually, and paired with a battery backup that prevents dry-running during power outages will consistently reach or exceed its expected lifespan. If your pump is over 7 years old and cycling more frequently than usual, start budgeting for a replacement before it fails during a storm.',
-                  },
-                },
-                {
-                  '@type': 'Question',
-                  name: 'Do I really need a battery backup for my sump pump?',
-                  acceptedAnswer: {
-                    '@type': 'Answer',
-                    text: 'Yes, a battery backup is one of the most important investments a sump pump owner can make, because the storms that cause basement flooding are the same storms that knock out power. A primary pump with no backup is completely useless the moment the power goes out, which is exactly when you need it most. Battery backup systems ($150 to $400) activate automatically when the primary pump loses power and can run for 5 to 10 hours depending on cycling frequency. Water-powered backup pumps are an alternative for homes with municipal water supply\u2014they require no battery and never lose power, but they consume tap water during operation.',
-                  },
-                },
-                            {
-              '@type': 'Question',
-              name: 'How do I know when my sump pump needs replacing?',
-              acceptedAnswer: {
-                '@type': 'Answer',
-                text: 'The clearest signs that a sump pump needs replacing are: the pump runs continuously without shutting off, it makes grinding or rattling noises it didn\\u2019t make before, it cycles on and off rapidly without moving much water, visible rust or corrosion on the housing, or it simply fails to activate when water enters the pit. Age is also a reliable indicator\\u2014if your submersible pump is over 7 years old or your pedestal pump is over 15 years old, start planning a proactive replacement rather than waiting for failure during a storm. The worst time to discover your pump has failed is during a heavy rainfall event when water is actively entering the basement. Annual testing (pour a bucket of water into the pit and verify activation) and quarterly visual inspections catch most issues before they become emergencies.',
-              },
-            },
-                            {
-              '@type': 'Question',
-              name: 'What is the best sump pump for a finished basement?',
-              acceptedAnswer: {
-                '@type': 'Answer',
-                text: 'The best sump pump for a finished basement is the Liberty Pumps 257, because at 48 to 52 dB it is the quietest pump on this list and virtually inaudible during normal operation in an adjacent living space. For finished basements, noise level matters as much as flow capacity\\u2014a pump that wakes you up every time it cycles in a nearby bedroom or disrupts a home theater is a problem regardless of how well it moves water. Pair the Liberty Pumps 257 with a sealed airtight pit cover ($50 to $150) to further reduce noise and block any odors from the pit, and add a rubber vibration isolation pad ($15 to $40) under the pump to eliminate motor vibration transfer through the slab.',
-              },
-            },
-                            {
-              '@type': 'Question',
-              name: 'How much does sump pump installation cost?',
-              acceptedAnswer: {
-                '@type': 'Answer',
-                text: 'Sump pump installation costs $490 to $1,170 on average, including the pump itself ($150 to $600), labor ($200 to $400 for a straightforward swap), and any necessary materials like discharge pipe fittings or a new check valve. Replacing an existing pump in an established pit is significantly cheaper than installing a new system from scratch\\u2014a new pit installation adds $500 to $1,000 for excavation and pit liner. Installing a battery backup system alongside the primary pump adds $150 to $400 for the backup unit plus $100 to $200 in additional labor. Permits are rarely required for pump replacement but may be needed for new pit installation depending on your municipality.',
-              },
-            },
-              ],
-            }),
-          }}
-        />
+      {schemas.map((schema,i)=><script key={i} type='application/ld+json' dangerouslySetInnerHTML={{__html:JSON.stringify(schema)}} />)}
+      <section className='relative min-h-[70vh] bg-slate-900 overflow-hidden'>
         <Image
           src='/best sumppump.jpg'
           alt='Best sump pumps for 2026'
@@ -151,549 +234,33 @@ export default function BestSumpPumps2026() {
           priority
         />
         <div className='absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent' />
-        <div className='relative h-full max-w-7xl mx-auto px-6 flex flex-col justify-end pb-20'>
+        <div className='relative max-w-7xl mx-auto px-6 pt-24 pb-20'>
           <div className='flex items-center space-x-3 mb-8'>
             <div className='w-12 h-px bg-teal-500'></div>
             <span className='text-teal-400 font-bold tracking-[0.3em] text-sm uppercase'>Sump Pumps</span>
           </div>
-          <h1 className='text-5xl md:text-7xl font-black text-white mb-6 leading-[0.9] tracking-tighter'>
-            Best Sump Pumps<br />
-            <span className='text-teal-400'>for 2026</span>
-          </h1>
-          <p className='text-xl text-slate-300 max-w-2xl mb-10 font-light leading-relaxed'>
-            Top submersible and pedestal picks based on power, noise, durability, and real-world value for wet basements.
-          </p>
-          <div className='flex items-center space-x-4 text-sm text-slate-400'>
+          <h1 className='text-4xl md:text-7xl font-black text-white mb-6 leading-[0.95] tracking-tighter'>Best Sump Pumps for 2026, 7 Picks for Heavy Rain, Tight Pits, and Every Budget</h1>
+          <div className='flex flex-wrap items-center gap-4 text-sm text-slate-400'>
             <span className='bg-teal-500/20 text-teal-300 px-3 py-1 rounded-full font-medium'>BG</span>
-            <span className='font-medium'>The Basement Guide Staff</span>
+            <span className='font-medium'>By The Basement Guide Editorial Team</span>
             <span className='text-slate-600'>|</span>
-            <span>Updated Mar 2026 &bull; 10 min read</span>
+            <span>Updated October 2026 &bull; 23 min read</span>
           </div>
         </div>
       </section>
-
-      {/* Main Content */}
       <div className='max-w-7xl mx-auto px-6 py-16'>
         <div className='grid grid-cols-1 lg:grid-cols-12 gap-12'>
-          <article className='lg:col-span-8 space-y-12'>
-
-            {/* Intro */}
-            <section>
-                            <p className='text-lg text-slate-700 leading-relaxed mb-6'>A sump pump is a submersible or pedestal-mounted electric pump installed in a pit at the lowest point of your basement that automatically activates when water reaches a set level and pumps it out through a discharge line to a safe distance from your foundation. The best sump pumps for 2026 range from $150 to $600, run at 1/3 to 3/4 HP, and can move 2,500 to 5,500 gallons per hour depending on the model. Submersible pumps sit inside the pit and run quieter, making them the better choice for finished basements, while pedestal pumps keep the motor above the pit for easier servicing and a longer lifespan. This guide reviews the 6 best sump pumps for 2026 across both types, with full specs, noise ratings, and a decision table to help you match the right pump to your basement.</p>
-              <p className='text-lg text-slate-700 leading-relaxed'>
-                Sump pumps are a real lifesaver for keeping your basement from turning into a swimming pool, especially if you deal with heavy rain or a high water table. This guide rounds up the top submersible and pedestal sump pumps for 2026 so you can match the right pump to your basement.
-              </p>
-              <p className='text-slate-700 leading-relaxed mt-4'>
-                Picking up from our <Link href='/articles/submersible-vs-pedestal-sump-pump' className='text-teal-600 underline hover:text-teal-800'>submersible vs. pedestal sump pump guide</Link>, this roundup highlights the top three models in each style based on 2026 reviews from trusted consumer testing and home improvement resources.
-              </p>
-              <p className='text-slate-700 leading-relaxed mt-4'>
-                Most of the pumps below fall in the 1/3 to 1/2 HP range and can move roughly 2,500&#8211;4,000 gallons per hour (GPH) at 5 feet of lift. That covers what most homeowners need, and every pick includes an automatic float switch and check valve compatibility.
-              </p>
-            </section>
-
-            {/* Quick Comparison Table */}
-            <section>
-              <h2 className='text-3xl font-bold text-slate-900 mb-6'>Quick Look: Best Sump Pumps for 2026</h2>
-              <div className='overflow-x-auto'>
-                <table className='w-full border-collapse bg-white rounded-lg shadow-sm'>
-                  <thead>
-                    <tr className='bg-slate-800 text-white text-sm'>
-                      <th className='p-3 text-left'>Model</th>
-                      <th className='p-3 text-left'>Type</th>
-                      <th className='p-3 text-left'>HP</th>
-                      <th className='p-3 text-left'>GPH @ 5&#39; Head</th>
-                      <th className='p-3 text-left'>Price Range</th>                   <th className='p-3 text-left'>Noise Level</th>                   <th className='p-3 text-left'>Warranty</th>                   <th className='p-3 text-left'>Best For</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr className='bg-slate-50 border-b border-slate-100'>
-                      <td className='p-3 font-medium'>Zoeller M53 Mighty-Mate</td>
-                      <td className='p-3'>Submersible</td>
-                      <td className='p-3'>1/3 HP</td>
-                      <td className='p-3'>2,580</td>
-                      <td className='p-3'>$150–$180</td>                   <td className='p-3'>50–53 dB</td>                   <td className='p-3'>1 year</td>                   <td className='p-3'>Heavy use, gritty water, frequent flooding</td>
-                    </tr>
-                    <tr className='bg-white border-b border-slate-100'>
-                      <td className='p-3 font-medium'>Wayne CDU980E</td>
-                      <td className='p-3'>Submersible</td>
-                      <td className='p-3'>3/4 HP</td>
-                      <td className='p-3'>5,490</td>
-                      <td className='p-3'>$180–$220</td>                   <td className='p-3'>54–57 dB</td>                   <td className='p-3'>3 years</td>                   <td className='p-3'>Large basements, fast water removal</td>
-                    </tr>
-                    <tr className='bg-slate-50 border-b border-slate-100'>
-                      <td className='p-3 font-medium'>Liberty Pumps 257</td>
-                      <td className='p-3'>Submersible</td>
-                      <td className='p-3'>1/3 HP</td>
-                      <td className='p-3'>2,640</td>
-                      <td className='p-3'>$160–$190</td>                   <td className='p-3'>48–52 dB</td>                   <td className='p-3'>2 years</td>                   <td className='p-3'>Tight pits, finished basements, quiet operation</td>
-                    </tr>
-                    <tr className='bg-white border-b border-slate-100'>
-                      <td className='p-3 font-medium'>Superior Pump 92333</td>
-                      <td className='p-3'>Pedestal</td>
-                      <td className='p-3'>1/3 HP</td>
-                      <td className='p-3'>2,760</td>
-                      <td className='p-3'>$80–$110</td>                   <td className='p-3'>58–62 dB</td>                   <td className='p-3'>1 year</td>                   <td className='p-3'>Budget installs, occasional light flooding</td>
-                    </tr>
-                    <tr className='bg-slate-50 border-b border-slate-100'>
-                      <td className='p-3 font-medium'>Wayne SPT33</td>
-                      <td className='p-3'>Pedestal</td>
-                      <td className='p-3'>1 HP</td>
-                      <td className='p-3'>6,000</td>
-                      <td className='p-3'>$130–$160</td>                   <td className='p-3'>55–60 dB</td>                   <td className='p-3'>2 years</td>                   <td className='p-3'>Moderate water, easy-access pits</td>
-                    </tr>
-                    <tr className='bg-teal-50'>
-                      <td className='p-3 font-medium'>Basement Watchdog BWSP</td>
-                      <td className='p-3'>Pedestal</td>
-                      <td className='p-3'>1/2 HP</td>
-                      <td className='p-3'>4,100</td>
-                      <td className='p-3'>$150–$190</td>                   <td className='p-3'>56–60 dB</td>                   <td className='p-3'>2 years</td>                   <td className='p-3'>Homeowners who want built-in alerts</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </section>
-
-            {/* Top 3 Submersible */}
-            <section>
-              <h2 className='text-3xl font-bold text-slate-900 mb-6'>Top 3 Submersible Sump Pumps for 2026</h2>
-              <p className='text-slate-700 leading-relaxed mb-4'>
-                Submersible sump pumps sit down in the pit, stay out of the way, and usually run more quietly than pedestal pumps. They are a strong match for active basements, finished spaces, and gritty water conditions.
-              </p>
-              <div className='w-full rounded-lg overflow-hidden my-6'>
-                <Image
-                  src='/Submersible.jpg'
-                  alt='Top submersible sump pumps for 2026'
-                  width={800}
-                  height={600}
-                  className='w-full h-auto rounded-lg'
-                />
-              </div>
-
-              {/* Zoeller M53 */}
-              <div className='bg-teal-50 border border-teal-200 rounded-lg p-5 mb-6'>
-                <h3 className='text-xl font-bold text-slate-900 mb-2'>1. Zoeller M53 Mighty-Mate &#8212; Best for Heavy Use</h3>
-                <p className='text-slate-700 leading-relaxed mb-3'>
-              The Zoeller M53 is the pump that professional waterproofing contractors reach for when a basement floods regularly. It uses a cast-iron housing not plastic, a 1/3 HP motor, and an automatic float switch that activates the moment water rises in the pit. At 2,580 GPH at 5 feet of head, it moves serious water and can handle solids up to 1/2 inch meaning grit, fine debris, and sediment won&#8217;t kill it the way they kill cheaper pumps.
-            </p>
-            <div className='bg-white rounded-lg p-4 border border-slate-200 mb-3'>
-              <h4 className='font-bold text-slate-900 mb-2'>Specs</h4>
-              <ul className='space-y-1 text-slate-700 text-sm'>
-                <li><strong>Type:</strong> Submersible</li>
-                <li><strong>HP:</strong> 1/3</li>
-                <li><strong>GPH at 5&#8217; head:</strong> 2,580</li>
-                <li><strong>Noise level:</strong> 50 to 53 dB</li>
-                <li><strong>Price range:</strong> $150 to $180</li>
-                <li><strong>Warranty:</strong> 1 year</li>
-              </ul>
-            </div>
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-4 mb-3'>
-              <div className='bg-green-50 rounded-lg p-4 border border-green-200'>
-                <h4 className='font-bold text-green-800 mb-2'>Pros</h4>
-                <ul className='space-y-1 text-slate-700 text-sm'>
-                  <li>&#10003; Cast-iron construction handles heavy, gritty water without degrading</li>
-                  <li>&#10003; Runs quietly at 50 to 53 dB suitable for finished basements</li>
-                  <li>&#10003; Built-in thermal overload protection prevents motor burnout</li>
-                  <li>&#10003; Automatic float switch activates reliably without manual intervention</li>
-                  <li>&#10003; Proven track record commonly lasts 10 to 15 years in typical residential use</li>
-                </ul>
-              </div>
-              <div className='bg-red-50 rounded-lg p-4 border border-red-200'>
-                <h4 className='font-bold text-red-800 mb-2'>Cons</h4>
-                <ul className='space-y-1 text-slate-700 text-sm'>
-                  <li>&#10007; Heavier than plastic models at roughly 30 pounds</li>
-                  <li>&#10007; No built-in alarm or battery backup</li>
-                  <li>&#10007; 1-year warranty is shorter than competitors at this price point</li>
-                  <li>&#10007; Higher upfront cost than budget pedestal options</li>
-                </ul>
-              </div>
-            </div>
-            <p className='text-slate-700 text-sm mb-3'><strong>Best for:</strong> Basements that flood frequently, pits with gritty or sediment-heavy water, and homeowners who want a pump they won&#8217;t have to think about for a decade. If your basement is your primary defense against water intrusion and you can only buy one pump, this is the one.</p>
-                <a href='https://amzn.to/4rJUKkQ' target='_blank' rel='noopener noreferrer sponsored' className='inline-block bg-teal-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-teal-700 transition-colors'>Check Price on Amazon</a>
-              </div>
-
-              {/* Wayne CDU980E */}
-              <div className='bg-teal-50 border border-teal-200 rounded-lg p-5 mb-6'>
-                <h3 className='text-xl font-bold text-slate-900 mb-2'>2. Wayne CDU980E &#8212; Best for Large Basements</h3>
-                <p className='text-slate-700 leading-relaxed mb-3'>
-              The Wayne CDU980E is the highest-capacity pump on this list and it earns that position. A 3/4 HP motor pushing 5,490 GPH means it can evacuate a flooded basement faster than any other pump here nearly twice the flow rate of the Zoeller M53. The combination of stainless steel and cast-iron construction resists corrosion from the minerals and sediment common in high water table basements, and the vertical float switch fits cleanly in narrower pits without getting stuck on the pit walls.
-            </p>
-            <div className='bg-white rounded-lg p-4 border border-slate-200 mb-3'>
-              <h4 className='font-bold text-slate-900 mb-2'>Specs</h4>
-              <ul className='space-y-1 text-slate-700 text-sm'>
-                <li><strong>Type:</strong> Submersible</li>
-                <li><strong>HP:</strong> 3/4</li>
-                <li><strong>GPH at 5&#8217; head:</strong> 5,490</li>
-                <li><strong>Noise level:</strong> 54 to 57 dB</li>
-                <li><strong>Price range:</strong> $180 to $220</li>
-                <li><strong>Warranty:</strong> 3 years</li>
-              </ul>
-            </div>
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-4 mb-3'>
-              <div className='bg-green-50 rounded-lg p-4 border border-green-200'>
-                <h4 className='font-bold text-green-800 mb-2'>Pros</h4>
-                <ul className='space-y-1 text-slate-700 text-sm'>
-                  <li>&#10003; Highest flow rate on this list at 5,490 GPH</li>
-                  <li>&#10003; 3-year warranty longest coverage of any pump reviewed here</li>
-                  <li>&#10003; Stainless steel and cast-iron construction resists corrosion</li>
-                  <li>&#10003; Vertical float design works in narrower pits</li>
-                  <li>&#10003; Straightforward installation no special tools required</li>
-                </ul>
-              </div>
-              <div className='bg-red-50 rounded-lg p-4 border border-red-200'>
-                <h4 className='font-bold text-red-800 mb-2'>Cons</h4>
-                <ul className='space-y-1 text-slate-700 text-sm'>
-                  <li>&#10007; Louder than the Zoeller at 54 to 57 dB</li>
-                  <li>&#10007; Higher price point than 1/3 HP options</li>
-                  <li>&#10007; More power than most average-sized basements need</li>
-                  <li>&#10007; May cycle more frequently in smaller pits due to high flow rate</li>
-                </ul>
-              </div>
-            </div>
-            <p className='text-slate-700 text-sm mb-3'><strong>Best for:</strong> Large basements over 1,500 square feet, homes in low-lying areas or near bodies of water, and any situation where you need water out fast during a storm. The 3-year warranty also makes it the best long-term value on this list.</p>
-                <a href='https://amzn.to/4sfJz33' target='_blank' rel='noopener noreferrer sponsored' className='inline-block bg-teal-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-teal-700 transition-colors'>Check Price on Amazon</a>
-              </div>
-
-              {/* Liberty 257 */}
-              <div className='bg-teal-50 border border-teal-200 rounded-lg p-5 mb-6'>
-                <h3 className='text-xl font-bold text-slate-900 mb-2'>3. Liberty Pumps 257 &#8212; Best for Tight Pits</h3>
-                <p className='text-slate-700 leading-relaxed mb-3'>
-              The Liberty Pumps 257 is the quietest pump on this list at 48 to 52 dB barely louder than a quiet conversation which makes it the standout choice for finished basements used as bedrooms, offices, or media rooms. The compact footprint of roughly 10 inches across fits into pits that would be too tight for the Zoeller or Wayne, and the quick-connect power cord simplifies installation and future replacement.
-            </p>
-            <div className='bg-white rounded-lg p-4 border border-slate-200 mb-3'>
-              <h4 className='font-bold text-slate-900 mb-2'>Specs</h4>
-              <ul className='space-y-1 text-slate-700 text-sm'>
-                <li><strong>Type:</strong> Submersible</li>
-                <li><strong>HP:</strong> 1/3</li>
-                <li><strong>GPH at 5&#8217; head:</strong> 2,640</li>
-                <li><strong>Noise level:</strong> 48 to 52 dB</li>
-                <li><strong>Price range:</strong> $160 to $190</li>
-                <li><strong>Warranty:</strong> 2 years</li>
-              </ul>
-            </div>
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-4 mb-3'>
-              <div className='bg-green-50 rounded-lg p-4 border border-green-200'>
-                <h4 className='font-bold text-green-800 mb-2'>Pros</h4>
-                <ul className='space-y-1 text-slate-700 text-sm'>
-                  <li>&#10003; Quietest pump on this list at 48 to 52 dB</li>
-                  <li>&#10003; Compact 10-inch footprint fits tight or undersized pits</li>
-                  <li>&#10003; Quick-connect power cord simplifies installation and replacement</li>
-                  <li>&#10003; Durable switch mechanism with strong reliability record</li>
-                  <li>&#10003; 2-year warranty with good manufacturer support</li>
-                </ul>
-              </div>
-              <div className='bg-red-50 rounded-lg p-4 border border-red-200'>
-                <h4 className='font-bold text-red-800 mb-2'>Cons</h4>
-                <ul className='space-y-1 text-slate-700 text-sm'>
-                  <li>&#10007; Lower flow rate than the Zoeller and Wayne not ideal for heavy flooding</li>
-                  <li>&#10007; No built-in alarm</li>
-                  <li>&#10007; Not designed for pits with heavy sediment or solids</li>
-                  <li>&#10007; Costs more than the Zoeller for slightly less raw power</li>
-                </ul>
-              </div>
-            </div>
-            <p className='text-slate-700 text-sm mb-3'><strong>Best for:</strong> Finished basements where pump noise is a concern, pits under 12 inches in diameter, and homeowners who experience moderate water intrusion rather than severe flooding. Pair it with a smart sump pump monitor to compensate for the lack of a built-in alarm.</p>
-                <a href='https://amzn.to/4sif0JZ' target='_blank' rel='noopener noreferrer sponsored' className='inline-block bg-teal-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-teal-700 transition-colors'>Check Price on Amazon</a>
-              </div>
-            </section>
-
-            {/* Top 3 Pedestal */}
-            <section>
-              <h2 className='text-3xl font-bold text-slate-900 mb-6'>Top 3 Pedestal Sump Pumps for 2026</h2>
-              <p className='text-slate-700 leading-relaxed mb-4'>
-                Pedestal sump pumps keep the motor up above the pit, which makes them easy to service and often extends their lifespan. They are a great fit for unfinished spaces or situations where you want simple access and long-term durability.
-              </p>
-              <div className='w-full rounded-lg overflow-hidden my-6'>
-                <Image
-                  src='/Pedestal.jpg'
-                  alt='Top pedestal sump pumps for 2026'
-                  width={800}
-                  height={600}
-                  className='w-full h-auto rounded-lg'
-                />
-              </div>
-
-              {/* Superior Pump 92333 */}
-              <div className='bg-teal-50 border border-teal-200 rounded-lg p-5 mb-6'>
-                <h3 className='text-xl font-bold text-slate-900 mb-2'>1. Superior Pump 92333 &#8212; Best Budget Pedestal</h3>
-                <p className='text-slate-700 leading-relaxed mb-3'>
-              The Superior Pump 92333 proves you don&#8217;t need to spend $200 to get reliable basement protection. At $80 to $110, it&#8217;s the most affordable pump on this list, and its stainless steel shaft and 1/3 HP motor are built to last 15 to 20 years in basements that see occasional or light flooding. The motor sits above the pit on a pedestal column, which keeps it completely out of the water and makes it easy to inspect and service without getting into the pit.
-            </p>
-            <div className='bg-white rounded-lg p-4 border border-slate-200 mb-3'>
-              <h4 className='font-bold text-slate-900 mb-2'>Specs</h4>
-              <ul className='space-y-1 text-slate-700 text-sm'>
-                <li><strong>Type:</strong> Pedestal</li>
-                <li><strong>HP:</strong> 1/3</li>
-                <li><strong>GPH at 5&#8217; head:</strong> 2,760</li>
-                <li><strong>Noise level:</strong> 58 to 62 dB</li>
-                <li><strong>Price range:</strong> $80 to $110</li>
-                <li><strong>Warranty:</strong> 1 year</li>
-              </ul>
-            </div>
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-4 mb-3'>
-              <div className='bg-green-50 rounded-lg p-4 border border-green-200'>
-                <h4 className='font-bold text-green-800 mb-2'>Pros</h4>
-                <ul className='space-y-1 text-slate-700 text-sm'>
-                  <li>&#10003; Most affordable pump on this list at $80 to $110</li>
-                  <li>&#10003; Motor sits above pit easy to inspect and service</li>
-                  <li>&#10003; Stainless steel shaft resists corrosion over long-term use</li>
-                  <li>&#10003; Can last 15 to 20 years in light-duty applications</li>
-                  <li>&#10003; Good flow rate for the price at 2,760 GPH</li>
-                </ul>
-              </div>
-              <div className='bg-red-50 rounded-lg p-4 border border-red-200'>
-                <h4 className='font-bold text-red-800 mb-2'>Cons</h4>
-                <ul className='space-y-1 text-slate-700 text-sm'>
-                  <li>&#10007; Loudest pump on this list at 58 to 62 dB not suitable for finished basements</li>
-                  <li>&#10007; Requires a deeper pit of at least 18 inches</li>
-                  <li>&#10007; Not suitable for pits with heavy sediment or debris</li>
-                  <li>&#10007; Basic feature set no alarm, no backup, no smart features</li>
-                </ul>
-              </div>
-            </div>
-            <p className='text-slate-700 text-sm mb-3'><strong>Best for:</strong> Unfinished basements that see occasional light flooding, budget-conscious homeowners replacing an aging pedestal pump, and secondary or vacation homes that need reliable basic protection without a high upfront cost.</p>
-                <a href='https://amzn.to/46wJtvC' target='_blank' rel='noopener noreferrer sponsored' className='inline-block bg-teal-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-teal-700 transition-colors'>Check Price on Amazon</a>
-              </div>
-
-              {/* Wayne SPT33 */}
-              <div className='bg-teal-50 border border-teal-200 rounded-lg p-5 mb-6'>
-                <h3 className='text-xl font-bold text-slate-900 mb-2'>2. Wayne SPT33 &#8212; Best High-Capacity Pedestal</h3>
-                <p className='text-slate-700 leading-relaxed mb-3'>
-                  The Wayne SPT33 is a 1 HP pedestal pump that handles around 6,000 GPH at 5 feet and uses an adjustable float. It offers a strong mix of capacity and durability for basements that see regular water.
-                </p>
-                <div className='grid grid-cols-1 md:grid-cols-2 gap-4 mb-3'>
-                  <div className='bg-green-50 rounded-lg p-4 border border-green-200'>
-                    <h4 className='font-bold text-green-800 mb-2'>Pros</h4>
-                    <ul className='space-y-1 text-slate-700 text-sm'>
-                      <li>&#10003; Solid capacity for a pedestal design</li>
-                      <li>&#10003; Tough cast iron base</li>
-                      <li>&#10003; Quieter than many similarly sized pedestal pumps</li>
-                    </ul>
-                  </div>
-                  <div className='bg-red-50 rounded-lg p-4 border border-red-200'>
-                    <h4 className='font-bold text-red-800 mb-2'>Cons</h4>
-                    <ul className='space-y-1 text-slate-700 text-sm'>
-                      <li>&#10007; Pretty tall overall</li>
-                      <li>&#10007; Basic feature set</li>
-                    </ul>
-                  </div>
-                </div>
-                <p className='text-slate-700 text-sm mb-3'><strong>Best for:</strong> Moderate water levels in pits you can easily reach for maintenance.</p>
-                <a href='https://amzn.to/4u1qUd1' target='_blank' rel='noopener noreferrer sponsored' className='inline-block bg-teal-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-teal-700 transition-colors'>Check Price on Amazon</a>
-              </div>
-
-              {/* Basement Watchdog BWSP */}
-              <div className='bg-teal-50 border border-teal-200 rounded-lg p-5 mb-6'>
-                <h3 className='text-xl font-bold text-slate-900 mb-2'>3. Basement Watchdog BWSP &#8212; Best for Built-In Alerts</h3>
-                <p className='text-slate-700 leading-relaxed mb-3'>
-                  The Basement Watchdog BWSP is a 1/2 HP system that moves around 4,100 GPH and uses a dual float switch for extra reliability. It is designed with alerts and backup-friendly features in mind.
-                </p>
-                <div className='grid grid-cols-1 md:grid-cols-2 gap-4 mb-3'>
-                  <div className='bg-green-50 rounded-lg p-4 border border-green-200'>
-                    <h4 className='font-bold text-green-800 mb-2'>Pros</h4>
-                    <ul className='space-y-1 text-slate-700 text-sm'>
-                      <li>&#10003; Comes with a reliable alarm</li>
-                      <li>&#10003; Long power cord</li>
-                      <li>&#10003; Straightforward maintenance</li>
-                    </ul>
-                  </div>
-                  <div className='bg-red-50 rounded-lg p-4 border border-red-200'>
-                    <h4 className='font-bold text-red-800 mb-2'>Cons</h4>
-                    <ul className='space-y-1 text-slate-700 text-sm'>
-                      <li>&#10007; Flow rate lower than highest-capacity models</li>
-                      <li>&#10007; Premium price for the extra features</li>
-                    </ul>
-                  </div>
-                </div>
-                <p className='text-slate-700 text-sm mb-3'><strong>Best for:</strong> Homeowners who want alerts to stay ahead of issues and plan to pair it with a backup system.</p>
-                <a href='https://amzn.to/4aZnw9Q' target='_blank' rel='noopener noreferrer sponsored' className='inline-block bg-teal-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-teal-700 transition-colors'>Check Price on Amazon</a>
-              </div>
-            </section>
-
-
-          {/* Which Sump Pump Is Right for You? */}
-          <section>
-            <h2 className='text-3xl font-bold text-slate-900 mb-6'>Which Sump Pump Is Right for You?</h2>
-            <div className='overflow-x-auto'>
-              <table className='w-full border-collapse bg-white rounded-lg shadow-sm'>
-                <thead>
-                  <tr className='bg-slate-800 text-white text-sm'>
-                    <th className='p-3 text-left'>Situation</th>
-                    <th className='p-3 text-left'>Recommended Pump</th>
-                    <th className='p-3 text-left'>Why</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr className='bg-slate-50 border-b border-slate-100'>
-                    <td className='p-3'>Basement floods frequently or severely</td>
-                    <td className='p-3 font-medium'>Zoeller M53 Mighty-Mate</td>
-                    <td className='p-3'>Cast-iron construction and proven reliability handle heavy, ongoing use better than any other pump on this list</td>
-                  </tr>
-                  <tr className='bg-white border-b border-slate-100'>
-                    <td className='p-3'>Large basement over 1,500 sq ft</td>
-                    <td className='p-3 font-medium'>Wayne CDU980E</td>
-                    <td className='p-3'>5,490 GPH and 3/4 HP moves water out faster than 1/3 HP pumps best long-term value with 3-year warranty</td>
-                  </tr>
-                  <tr className='bg-slate-50 border-b border-slate-100'>
-                    <td className='p-3'>Finished basement or bedroom nearby</td>
-                    <td className='p-3 font-medium'>Liberty Pumps 257</td>
-                    <td className='p-3'>Quietest pump on this list at 48 to 52 dB nearly silent during normal operation</td>
-                  </tr>
-                  <tr className='bg-white border-b border-slate-100'>
-                    <td className='p-3'>Tight or undersized pit under 12 inches</td>
-                    <td className='p-3 font-medium'>Liberty Pumps 257</td>
-                    <td className='p-3'>Compact 10-inch footprint fits pits that other pumps physically cannot</td>
-                  </tr>
-                  <tr className='bg-slate-50 border-b border-slate-100'>
-                    <td className='p-3'>Budget install or vacation home</td>
-                    <td className='p-3 font-medium'>Superior Pump 92333</td>
-                    <td className='p-3'>Most affordable at $80 to $110 with a 15 to 20 year lifespan in light-duty use</td>
-                  </tr>
-                  <tr className='bg-white border-b border-slate-100'>
-                    <td className='p-3'>Want alerts when water rises</td>
-                    <td className='p-3 font-medium'>Basement Watchdog BWSP</td>
-                    <td className='p-3'>Only pump on this list with a built-in alarm and dual float switch for redundancy</td>
-                  </tr>
-                  <tr className='bg-slate-50 border-b border-slate-100'>
-                    <td className='p-3'>Unfinished basement with heavy water</td>
-                    <td className='p-3 font-medium'>Wayne SPT33</td>
-                    <td className='p-3'>6,000 GPH at 1 HP highest flow rate on this list at a mid-range price</td>
-                  </tr>
-                  <tr className='bg-white'>
-                    <td className='p-3'>Replacing an aging pedestal pump</td>
-                    <td className='p-3 font-medium'>Superior Pump 92333 or Wayne SPT33</td>
-                    <td className='p-3'>Both are direct pedestal replacements with minimal installation changes required</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <p className='text-slate-700 leading-relaxed mt-6'>
-              For a personalized installed cost estimate based on your specific basement, pump choice, and region, use our <Link href='/cost-guides/sump-pump-replacement-cost' className='text-blue-700 underline font-medium hover:text-blue-900'>sump pump replacement cost calculator</Link> before requesting plumber quotes.
-            </p>
-          </section>
-
-                      {/* Glossary */}
-          <section>
-            <h2 className='text-3xl font-bold text-slate-900 mb-6'>Sump Pump Glossary</h2>
-            <div className='space-y-4'>
-              <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
-                <h3 className='font-bold text-slate-900 mb-2'>Sump Pump</h3>
-                <p className='text-slate-700'>A sump pump is an electric pump installed in a pit at the lowest point of a basement or crawl space that automatically activates when water reaches a set level and pumps it out through a discharge line to a safe distance from the foundation. Without a functioning sump pump, homes with high water tables or poor drainage are vulnerable to basement flooding that can cause structural damage, mold growth, and thousands of dollars in repairs. See our <Link href='/articles/sump-pump-buying-guide' className='text-teal-600 underline hover:text-teal-800'>sump pump buying guide</Link> for a full breakdown of how to choose the right pump for your basement.</p>
-              </div>
-              <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
-                <h3 className='font-bold text-slate-900 mb-2'>Submersible Pump</h3>
-                <p className='text-slate-700'>A submersible sump pump sits fully submerged inside the sump pit, with the motor sealed inside a waterproof housing that allows it to operate while surrounded by water. Because the motor is below the waterline, submersible pumps run quieter than pedestal pumps (48 to 57 dB) and handle debris and sediment better, making them the preferred choice for finished basements and pits with gritty water. See our <Link href='/articles/submersible-vs-pedestal-sump-pump' className='text-teal-600 underline hover:text-teal-800'>submersible vs. pedestal sump pump comparison</Link> for a full side-by-side breakdown.</p>
-              </div>
-              <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
-                <h3 className='font-bold text-slate-900 mb-2'>Pedestal Pump</h3>
-                <p className='text-slate-700'>A pedestal sump pump has the motor mounted on a tall column above the pit, keeping it completely out of the water at all times. This design makes the motor easier to inspect and service, and because the motor never contacts water it typically lasts 15 to 20 years in light-duty applications&#8212;longer than most submersible pumps. The trade-off is that pedestal pumps are louder (58 to 62 dB) and more visible, making them better suited to unfinished basements than finished living spaces.</p>
-              </div>
-              <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
-                <h3 className='font-bold text-slate-900 mb-2'>Float Switch</h3>
-                <p className='text-slate-700'>A float switch is the mechanism that tells a sump pump when to turn on and off by detecting the water level inside the pit. As water rises, the float lifts and triggers the pump to activate; as water drops after pumping, the float lowers and shuts the pump off. A reliable float switch is one of the most important components of any sump pump&#8212;a stuck or failed float switch is one of the most common causes of pump failure during a flooding event.</p>
-              </div>
-              <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
-                <h3 className='font-bold text-slate-900 mb-2'>Check Valve</h3>
-                <p className='text-slate-700'>A check valve is a one-way valve installed in the sump pump discharge pipe that prevents water from flowing back into the pit after the pump shuts off. Without a check valve, water in the discharge pipe would drain back into the pit every time the pump cycles off, causing the pump to activate repeatedly and wear out prematurely. Standard check valves close with a loud thud called water hammer; upgrading to a spring-loaded quiet check valve ($20 to $50) eliminates the noise by closing gradually.</p>
-              </div>
-              <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
-                <h3 className='font-bold text-slate-900 mb-2'>Head Pressure</h3>
-                <p className='text-slate-700'>Head pressure refers to the vertical height the pump must push water upward from the pit to the discharge point, measured in feet. The higher the head pressure, the harder the pump works and the lower its effective flow rate&#8212;a pump rated at 4,000 GPH at 5 feet of head may only move 2,500 GPH at 10 feet of head. When comparing pumps, always check the GPH rating at the head height that matches your actual installation, not just the maximum rated flow.</p>
-              </div>
-              <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
-                <h3 className='font-bold text-slate-900 mb-2'>GPH (Gallons Per Hour)</h3>
-                <p className='text-slate-700'>GPH is the measure of how much water a sump pump can move in one hour at a given head height, and it is the most useful spec for comparing pump capacity. A pump moving 2,500 GPH at 5 feet of head is sufficient for most average-sized basements, while larger basements or severe flooding conditions may require 4,000 to 6,000 GPH. Always match GPH to your actual flooding volume&#8212;an oversized pump that short-cycles (turns on and off rapidly) wears out faster than a correctly sized pump running at steady load.</p>
-              </div>
-              <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
-                <h3 className='font-bold text-slate-900 mb-2'>Battery Backup</h3>
-                <p className='text-slate-700'>A battery backup sump pump is a secondary pump that activates automatically when the primary pump loses power or fails, providing continued protection during storms when power outages are most likely. Most battery backup systems run on a 12-volt marine battery and can operate for 5 to 10 hours depending on how frequently the pump cycles. See our <Link href='/articles/backup-power-sump-pumps' className='text-teal-600 underline hover:text-teal-800'>backup power for sump pumps guide</Link> for top-rated backup systems.</p>
-              </div>
-            </div>
-          </section>
-            {/* FAQ */}
-            <section>
-              <h2 className='text-3xl font-bold text-slate-900 mb-6'>Frequently Asked Questions</h2>
-              <div className='space-y-4'>
-                <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
-                  <h3 className='font-bold text-slate-900 mb-2'>What size sump pump do I need for my basement?</h3>
-                  <p className='text-slate-700'>Most homes do well with a 1/3 to 1/2 HP sump pump that can move 2,500 to 4,000 gallons per hour at 5 feet of lift. The right size depends on four factors: the square footage of your basement, how frequently and severely it floods, your local water table depth, and whether you have a single pump or a primary and backup setup. A 1/3 HP pump handles most average-sized basements in areas with moderate rainfall. If you live in a low-lying area, near a body of water, or your basement has flooded more than once in a single storm, step up to a 3/4 HP model like the Wayne CDU980E. When in doubt, size up&#8212;a pump that runs briefly at lower capacity lasts longer than an undersized pump running continuously at full load.</p>
-                </div>
-                <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
-                  <h3 className='font-bold text-slate-900 mb-2'>Is a submersible sump pump better than a pedestal pump?</h3>
-                  <p className='text-slate-700'>Submersible pumps sit inside the pit, run more quietly (48 to 57 dB vs 58 to 62 dB for pedestal), handle debris and solids better, and are the right choice for finished basements where noise matters. Pedestal pumps keep the motor above the pit, which makes them easier to service, keeps the motor out of the water, and typically extends lifespan to 15 to 20 years in light-duty applications. Submersible pumps are better for heavy flooding, finished living spaces, and pits with sediment or debris. Pedestal pumps are better for unfinished basements, tight budgets, and situations where easy motor access is a priority. For a full side-by-side breakdown see our <Link href='/articles/submersible-vs-pedestal-sump-pump' className='text-teal-600 underline hover:text-teal-800'>submersible vs. pedestal sump pump guide</Link>.</p>
-                </div>
-                <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
-                  <h3 className='font-bold text-slate-900 mb-2'>How long should a sump pump last?</h3>
-                  <p className='text-slate-700'>A quality submersible sump pump lasts 7 to 10 years under normal residential use, while pedestal pumps in light-duty applications regularly reach 15 to 20 years because the motor never contacts water. The biggest factors affecting lifespan are how often the pump cycles, water quality (sediment and minerals wear components faster), whether the pump is correctly sized for the load, and how consistently it is maintained. A pump that runs continuously because it is undersized will fail in 3 to 5 years. A correctly sized pump that is tested quarterly, cleaned annually, and paired with a battery backup that prevents dry-running during power outages will consistently reach or exceed its expected lifespan. If your pump is over 7 years old and cycling more frequently than usual, start budgeting for a replacement before it fails during a storm.</p>
-                </div>
-                <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
-                  <h3 className='font-bold text-slate-900 mb-2'>Do I really need a battery backup for my sump pump?</h3>
-                  <p className='text-slate-700'>Yes, a battery backup is one of the most important investments a sump pump owner can make, because the storms that cause basement flooding are the same storms that knock out power. A primary pump with no backup is completely useless the moment the power goes out, which is exactly when you need it most. Battery backup systems ($150 to $400) activate automatically when the primary pump loses power and can run for 5 to 10 hours depending on cycling frequency. Water-powered backup pumps are an alternative for homes with municipal water supply&#8212;they require no battery and never lose power, but they consume tap water during operation.</p>
-                </div>
-                            <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
-              <h3 className='font-bold text-slate-900 mb-2'>How do I know when my sump pump needs replacing?</h3>
-              <p className='text-slate-700'>The clearest signs that a sump pump needs replacing are: the pump runs continuously without shutting off, it makes grinding or rattling noises it didn&#8217;t make before, it cycles on and off rapidly without moving much water, visible rust or corrosion on the housing, or it simply fails to activate when water enters the pit. Age is also a reliable indicator&#8212;if your submersible pump is over 7 years old or your pedestal pump is over 15 years old, start planning a proactive replacement rather than waiting for failure during a storm. The worst time to discover your pump has failed is during a heavy rainfall event when water is actively entering the basement. Annual testing (pour a bucket of water into the pit and verify activation) and quarterly visual inspections catch most issues before they become emergencies.</p>
-            </div>
-            <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
-              <h3 className='font-bold text-slate-900 mb-2'>What is the best sump pump for a finished basement?</h3>
-              <p className='text-slate-700'>The best sump pump for a finished basement is the Liberty Pumps 257, because at 48 to 52 dB it is the quietest pump on this list and virtually inaudible during normal operation in an adjacent living space. For finished basements, noise level matters as much as flow capacity&#8212;a pump that wakes you up every time it cycles in a nearby bedroom or disrupts a home theater is a problem regardless of how well it moves water. Pair the Liberty Pumps 257 with a sealed airtight pit cover ($50 to $150) to further reduce noise and block any odors from the pit, and add a rubber vibration isolation pad ($15 to $40) under the pump to eliminate motor vibration transfer through the slab. See our <Link href='/articles/sump-pump-design-ideas' className='text-teal-600 underline hover:text-teal-800'>sump pump design ideas guide</Link> for enclosure and concealment options that make a sump pump completely invisible in a finished basement.</p>
-            </div>
-            <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
-              <h3 className='font-bold text-slate-900 mb-2'>How much does sump pump installation cost?</h3>
-              <p className='text-slate-700'>Sump pump installation costs $490 to $1,170 on average, including the pump itself ($150 to $600), labor ($200 to $400 for a straightforward swap), and any necessary materials like discharge pipe fittings or a new check valve. Replacing an existing pump in an established pit is significantly cheaper than installing a new system from scratch&#8212;a new pit installation adds $500 to $1,000 for excavation and pit liner. Installing a battery backup system alongside the primary pump adds $150 to $400 for the backup unit plus $100 to $200 in additional labor. Permits are rarely required for pump replacement but may be needed for new pit installation depending on your municipality. See our <Link href='/articles/sump-pump-cost' className='text-teal-600 underline hover:text-teal-800'>full sump pump installation cost guide</Link> for a detailed breakdown by pump type, region, and scope of work.</p>
-            </div>
-              </div>
-            </section>
-
-            {/* Related Guides */}
-            <section>
-              <h2 className='text-3xl font-bold text-slate-900 mb-6'>Related Guides</h2>
-              <div className='space-y-4'>
-                <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
-                  <h3 className='font-bold text-slate-900 mb-2'><Link href='/articles/sump-pump-buying-guide' className='text-teal-600 underline hover:text-teal-800'>Sump Pump Buying Guide</Link></h3>
-                  <p className='text-slate-700'>Everything you need to know about choosing, sizing, and installing a sump pump.</p>
-                </div>
-                <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
-                  <h3 className='font-bold text-slate-900 mb-2'><Link href='/articles/submersible-vs-pedestal-sump-pump' className='text-teal-600 underline hover:text-teal-800'>Submersible vs Pedestal Sump Pump</Link></h3>
-                  <p className='text-slate-700'>Full side-by-side comparison of both pump types including noise, lifespan, and cost.</p>
-                </div>
-                <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
-                  <h3 className='font-bold text-slate-900 mb-2'><Link href='/articles/backup-power-sump-pumps' className='text-teal-600 underline hover:text-teal-800'>Backup Power for Sump Pumps</Link></h3>
-                  <p className='text-slate-700'>Top-rated battery and water-powered backup systems to protect your basement during power outages.</p>
-                </div>
-                <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
-                  <h3 className='font-bold text-slate-900 mb-2'><Link href='/articles/battery-vs-water-powered-sump-pumps' className='text-teal-600 underline hover:text-teal-800'>Battery vs Water-Powered Backup Sump Pumps</Link></h3>
-                  <p className='text-slate-700'>Which backup type is right for your home — full comparison of cost, reliability, and installation.</p>
-                </div>
-                <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
-                  <h3 className='font-bold text-slate-900 mb-2'><Link href='/articles/smart-sump-pumps-guide' className='text-teal-600 underline hover:text-teal-800'>Smart Sump Pumps Guide</Link></h3>
-                  <p className='text-slate-700'>Wi-Fi connected monitors and smart pumps that alert your phone when water levels rise.</p>
-                </div>
-                <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
-                  <h3 className='font-bold text-slate-900 mb-2'><Link href='/articles/sump-pump-cost' className='text-teal-600 underline hover:text-teal-800'>Sump Pump Installation Cost</Link></h3>
-                  <p className='text-slate-700'>Full cost breakdown for new installations and pump replacements by type and region.</p>
-                </div>
-                <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
-                  <h3 className='font-bold text-slate-900 mb-2'><Link href='/articles/sump-pump-design-ideas' className='text-teal-600 underline hover:text-teal-800'>Sump Pump Design Ideas</Link></h3>
-                  <p className='text-slate-700'>How to hide, enclose, and integrate your sump pump into a finished basement.</p>
-                </div>
-                <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
-                  <h3 className='font-bold text-slate-900 mb-2'><Link href='/articles/why-basement-floods-with-sump-pump' className='text-teal-600 underline hover:text-teal-800'>Why Your Basement Still Floods With a Sump Pump</Link></h3>
-                  <p className='text-slate-700'>Troubleshooting guide for basements that flood despite having a working pump.</p>
-                </div>
-                <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
-                  <h3 className='font-bold text-slate-900 mb-2'><Link href='/articles/complete-basement-waterproofing-guide' className='text-teal-600 underline hover:text-teal-800'>Complete Basement Waterproofing Guide</Link></h3>
-                  <p className='text-slate-700'>How sump pumps fit into a full waterproofing strategy for long-term basement protection.</p>
-                </div>
-              </div>
-            </section>
-
+          <article className='lg:col-span-8 min-w-0 space-y-12'>
+            <div data-article-copy='before-form' dangerouslySetInnerHTML={{__html:beforeForm}} />
+            <LeadForm />
+            <div data-article-copy='after-form' dangerouslySetInnerHTML={{__html:afterForm}} />
             {/* From Our Network */}
             <section>
               <h2 className='text-3xl font-bold text-slate-900 mb-6'>From Our Network</h2>
               <p className='text-slate-700 leading-relaxed mb-4'>If you found this guide helpful, these resources from our partner sites cover related topics for homeowners managing water and drainage on their property.</p>
               <div className='space-y-4'>
                 <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
-                  <p className='text-slate-700'><a href='https://theseptic.guide/reviews/best-septic-system-alarms' className='text-teal-600 underline hover:text-teal-800' target='_blank' rel='noopener noreferrer'>The Septic Guide</a> covers septic system alarms and monitoring — a similar set-it-and-forget-it protection system for homes on septic.</p>
+                  <p className='text-slate-700'><a href='https://theseptic.guide/reviews/best-septic-system-alarms' className='text-teal-600 underline hover:text-teal-800' target='_blank' rel='noopener noreferrer'>The Septic Guide</a> covers septic system alarms and monitoring, a similar set-it-and-forget-it protection system for homes on septic.</p>
                 </div>
                 <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
                   <p className='text-slate-700'><a href='https://thegarage.guide' className='text-teal-600 underline hover:text-teal-800' target='_blank' rel='noopener noreferrer'>The Garage Guide</a> covers garage drainage and floor drain maintenance for homeowners managing water intrusion across multiple areas of the home.</p>
@@ -701,14 +268,11 @@ export default function BestSumpPumps2026() {
               </div>
             </section>
 
-          </article>
 
-          {/* Sidebar */}
+          </article>
           <aside className='lg:col-span-4'>
             <div className='sticky top-8 space-y-8'>
-              <BeehiivEmailCapture />
-
-              <LeadForm />
+              <BeehiivEmailCapture avoidEmDash />
             </div>
           </aside>
         </div>
