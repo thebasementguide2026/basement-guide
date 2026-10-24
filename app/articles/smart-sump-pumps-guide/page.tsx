@@ -531,7 +531,7 @@ export default function SmartSumpPumpsGuide() {
                   { title: 'Basement Flooding Insurance', slug: 'basement-waterproofing-finances-insurance-taxes' },
                   { title: 'Complete Basement Waterproofing Guide', slug: 'complete-basement-waterproofing-guide' },
                   { title: 'Basement Emergency Water Plan', slug: 'basement-emergency-water-plan' },
-                  { title: 'Submersible vs Pedestal Sump Pump', slug: 'submersible-vs-pedestal-sump-pumps' },
+                  { title: 'Submersible vs Pedestal Sump Pump', slug: 'submersible-vs-pedestal-sump-pump' },
                   { title: 'Basement Humidity Guide', slug: 'basement-humidity-guide' },
                 ].map((article) => (
                   <Link key={article.slug} href={`/articles/${article.slug}`} className='block bg-slate-50 rounded-lg p-4 border border-slate-200 hover:border-cyan-300 hover:bg-cyan-50 transition-colors'>
