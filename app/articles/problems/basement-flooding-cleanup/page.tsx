@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import Image from 'next/image'
 import LeadForm from '@/components/LeadForm'
 import BeehiivEmailCapture from '@/components/BeehiivEmailCapture'
@@ -6,111 +5,159 @@ import Breadcrumbs from '@/components/Breadcrumbs'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Basement Flooding Cleanup: What to Do in the First 72 Hours | The Basement Guide',
-  description: 'Basement flooded? This hour-by-hour guide covers exactly what to do in the first 72 hours — water removal, what to save vs throw out, insurance documentation, and mold prevention.',
-  alternates: { canonical: 'https://thebasement.guide/articles/problems/basement-flooding-cleanup' },
-}
-
-const faqSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'FAQPage',
-  mainEntity: [
-    {
-      '@type': 'Question',
-      name: 'How long does it take to clean up a flooded basement?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Water removal from a standard basement takes 2 to 6 hours with a submersible pump. Drying takes 3 to 5 days with commercial equipment or 7 to 14 days with consumer-grade equipment. Full reconstruction of finished surfaces after a severe flooding event takes 2 to 8 weeks. The minimum realistic timeline from flood to fully dry and disinfected basement is 4 to 7 days.',
-      },
-    },
-    {
-      '@type': 'Question',
-      name: 'Does homeowners insurance cover a flooded basement?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'It depends on the water source. Burst pipes are typically covered. Sewer backup and sump pump failure are not covered unless you have added a water backup endorsement (costs $50 to $250 per year). Surface flooding from outside requires separate NFIP flood insurance with a 30-day waiting period that cannot be purchased during a flood event.',
-      },
-    },
-    {
-      '@type': 'Question',
-      name: 'Can I clean up a flooded basement myself?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Yes for minor flooding with clean water in an unfinished basement caught within a few hours. For any sewage contamination, any flooding in a finished basement, any visible mold, or water that has been sitting more than 48 hours, professional restoration is strongly recommended. The cost differential between DIY and professional is typically $2,000 to $4,000, less than the cost of mold remediation if DIY cleanup is inadequate.',
-      },
-    },
-    {
-      '@type': 'Question',
-      name: 'How much does professional basement flood cleanup cost?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Professional water extraction and drying costs $1,500 to $3,500. Adding disinfection brings the total to $2,500 to $5,000. Full restoration including drywall removal and rebuild costs $5,000 to $15,000 for a finished basement. Sewage backup cleanup costs $7,000 to $20,000. Responding quickly reduces cost significantly — delays of 48 hours or more add $1,000 to $2,000 to any professional job.',
-      },
-    },
-    {
-      '@type': 'Question',
-      name: 'What should I throw away after basement flooding?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Remove all drywall, fiberglass insulation, cellulose insulation, and carpet padding that contacted floodwater. Discard cardboard boxes, paper items, and particleboard furniture that absorbed water. Mattresses and upholstered furniture that absorbed sewage should be discarded. Concrete, ceramic tile, metal, and solid wood can usually be cleaned and dried. Keep small samples of discarded flooring and carpet for insurance documentation.',
-      },
-    },
-    {
-      '@type': 'Question',
-      name: 'How do I prevent mold after a basement flood?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Remove all standing water and begin aggressive drying within 48 hours. Remove all porous materials that cannot be dried within that window. Run commercial dehumidifiers and air movers continuously until a moisture meter confirms all structural materials read below 19 percent moisture content. Apply EPA-registered disinfectant to all surfaces that contacted floodwater. Monitor the basement for 10 days after drying for musty odors or visible mold growth.',
-      },
-    },
-    {
-      '@type': 'Question',
-      name: 'What is the difference between a flooded basement from a burst pipe vs rain?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'A burst pipe produces Category 1 clean water with no biological hazard, typically covered by standard homeowners insurance, and porous materials can potentially be saved if dried within 48 hours. Rain-driven basement flooding is usually not covered by standard homeowners insurance and requires flood insurance. Sewage backup produces Category 3 black water requiring professional biohazard cleanup protocols and mandatory discarding of all porous materials.',
-      },
-    },
-    {
-      '@type': 'Question',
-      name: 'When should I call a professional instead of cleaning up myself?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Call a professional immediately for: any sewage or Category 3 water, any flooding in a finished basement, any water sitting more than 48 hours, any visible mold growth, and any situation involving an insurance claim. For minor clean water flooding in an unfinished basement caught quickly, DIY cleanup with proper equipment is reasonable.',
-      },
-    },
-  ],
-}
-
-const articleSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'Article',
-  headline: 'Basement Flooding Cleanup: What to Do in the First 72 Hours',
-  description: 'Basement flooded? This hour-by-hour guide covers exactly what to do in the first 72 hours — water removal, what to save vs throw out, insurance documentation, and mold prevention.',
-  url: 'https://thebasement.guide/articles/problems/basement-flooding-cleanup',
-  publisher: {
-    '@type': 'Organization',
-    name: 'The Basement Guide',
-    url: 'https://thebasement.guide',
+  "title": "Basement Flood Cleanup Cost 2026: $1,300 to $6,400 for Most Homes (Price Chart) | The Basement Guide",
+  "description": "Basement flood cleanup costs $1,300 to $6,400 for most homes, or $3.50 to $7.50 per sq ft depending on whether the water is clean, gray, or sewage. Prices by scenario, what insurance pays, and how to vet a restoration company.",
+  "alternates": {
+    "canonical": "https://thebasement.guide/articles/problems/basement-flooding-cleanup"
   },
+  "openGraph": {
+    "title": "Basement Flood Cleanup Cost 2026: $1,300 to $6,400 for Most Homes (Price Chart) | The Basement Guide",
+    "description": "Basement flood cleanup costs $1,300 to $6,400 for most homes, or $3.50 to $7.50 per sq ft depending on whether the water is clean, gray, or sewage. Prices by scenario, what insurance pays, and how to vet a restoration company.",
+    "url": "https://thebasement.guide/articles/problems/basement-flooding-cleanup"
+  },
+  "twitter": {
+    "title": "Basement Flood Cleanup Cost 2026: $1,300 to $6,400 for Most Homes (Price Chart) | The Basement Guide",
+    "description": "Basement flood cleanup costs $1,300 to $6,400 for most homes, or $3.50 to $7.50 per sq ft depending on whether the water is clean, gray, or sewage. Prices by scenario, what insurance pays, and how to vet a restoration company."
+  }
 }
+const schemas = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Basement Flood Cleanup Cost, What Water Removal and Restoration Really Cost in 2026",
+    "description": "Basement flood cleanup costs $1,300 to $6,400 for most homes, or $3.50 to $7.50 per sq ft depending on whether the water is clean, gray, or sewage. Prices by scenario, what insurance pays, and how to vet a restoration company.",
+    "author": {
+      "@type": "Organization",
+      "name": "The Basement Guide Editorial Team"
+    },
+    "dateModified": "2026-10-24",
+    "image": "https://thebasement.guide/flooded%20basement.jpg",
+    "url": "https://thebasement.guide/articles/problems/basement-flooding-cleanup",
+    "publisher": {
+      "@type": "Organization",
+      "name": "The Basement Guide",
+      "url": "https://thebasement.guide"
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://thebasement.guide/articles/problems/basement-flooding-cleanup"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How much does it cost to clean up a flooded basement?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Most homeowners pay $1,300 to $6,400 for professional basement flood cleanup, with the national average for water damage restoration around $3,500. Clean water runs about $3.50 to $4 per square foot, gray water $4 to $6.50, and sewage $7 to $7.50 or more, before rebuilding. A finished basement with cleanup and rebuild often reaches $5,000 to $15,000 or more."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How much does water removal from a basement cost?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Extracting one inch of clean water from a typical basement costs about $500 to $1,500. Deeper water, gray or black water, and finished floors cost more. Water removal is usually the first line item on a restoration bill, followed by several days of drying equipment."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How much does sewage backup cleanup cost?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sewage backup cleanup starts around $7 to $7.50 per square foot, so a 1,000 sq ft basement typically costs $7,000 to $10,000 or more once porous materials are removed and replaced. Standard homeowners policies usually exclude sewer backups unless you carry a water backup endorsement."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does homeowners insurance cover basement flood cleanup?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It depends on the water source. Sudden internal water, like a burst pipe or failed water heater, is usually covered. Sewer and sump pump backups usually need a water backup endorsement, and groundwater or surface flooding needs flood insurance. Slow leaks and seepage are typically treated as maintenance and excluded."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How long does professional basement flood cleanup take?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Extraction usually takes a few hours to a day. Drying with commercial equipment typically takes 3 to 5 days, and longer for deep floods, cold basements, or block walls. Rebuilding a finished basement afterward can take another 2 to 8 weeks."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is it cheaper to clean up a flooded basement myself?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "For a small clean water leak on unfinished concrete, yes. DIY with rented equipment usually costs $500 to $1,500. For sewage, finished basements, or water that's been sitting more than 48 hours, DIY often costs more in the end because missed moisture leads to mold remediation at $1,100 to $3,400."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I know if a restoration company's quote is fair?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Compare the per-square-foot cost against the category rates on this page, and ask for an itemized estimate showing extraction, equipment days, antimicrobial treatment, and removal. Fair quotes include daily moisture monitoring and a defined drying goal. Get a second quote for anything beyond emergency extraction if you have time."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What drives basement flood cleanup costs up the most?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Four things: the water category, how long the water sat, whether the basement is finished, and how much has to be thrown out and rebuilt. Sewage in a finished basement found days later is the most expensive combination. Clean water on bare concrete found within hours is the cheapest."
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "5-Minute Estimate: What Will Your Cleanup Cost?",
+    "step": [
+      {
+        "@type": "HowToStep",
+        "position": 1,
+        "text": "Where did the water come from? Use the category table above. Supply pipe or water heater is clean. Sump failure, groundwater, or washer drain is gray. Sewer, septic, or outdoor floodwater is black."
+      },
+      {
+        "@type": "HowToStep",
+        "position": 2,
+        "text": "How much floor got wet? Measure the wet area in square feet. A typical basement is 800 to 1,200 sq ft, but many floods only cover part of it."
+      },
+      {
+        "@type": "HowToStep",
+        "position": 3,
+        "text": "How deep did it get? Under an inch is a wet-vac and drying job. One to six inches needs pumps and extraction. Over six inches, expect wall damage and longer drying."
+      },
+      {
+        "@type": "HowToStep",
+        "position": 4,
+        "text": "Is the basement finished? Unfinished concrete dries fast. Carpet, pad, drywall, and insulation add removal and disposal on day one and rebuild costs later."
+      },
+      {
+        "@type": "HowToStep",
+        "position": 5,
+        "text": "How long has the water been there? Under 24 hours is the best case. Past 48 hours, plan for gray water pricing and a mold check."
+      }
+    ]
+  }
+]
+const beforeForm = "<blockquote class=\"not-prose bg-emerald-50 border-l-4 border-emerald-600 rounded-r-lg p-6 mb-10\">\n<p class=\"text-slate-700 leading-relaxed mb-5\"><strong>Cleaning up the flood yourself?</strong> This page covers what professional cleanup and restoration cost. For the step-by-step DIY process, from the first hour to a dry basement, see our guide to <a href=\"/articles/how-to-dry-out-basement-after-flooding\" class=\"text-teal-700 underline hover:text-teal-900\">what to do when your basement floods</a>.</p>\n</blockquote>\n<section class=\"not-prose bg-emerald-50 border-l-4 border-emerald-600 rounded-r-lg p-6 mb-10\"><h2 class=\"text-xl font-bold text-emerald-800 mb-3\">TL;DR</h2><ul class=\"list-disc pl-6 space-y-3 text-slate-700 mb-6\">\n<li><strong>Most homeowners pay $1,300 to $6,400</strong> for professional basement flood cleanup. The national average for water damage restoration is about $3,500.</li>\n<li><strong>Per square foot,</strong> expect about $3.50 to $4 for clean water, $4 to $6.50 for gray water, and $7 to $7.50 or more for sewage, before anything gets rebuilt.</li>\n<li><strong>Removing an inch of clean water</strong> from a basement runs $500 to $1,500.</li>\n<li><strong>Finished basements cost the most.</strong> Wet drywall, insulation, and carpet have to come out, and rebuilding is billed separately. Budget $5,000 to $15,000 or more for cleanup plus rebuild.</li>\n<li><strong>Sewage backups start around $7,000 to $10,000</strong> for a 1,000 sq ft basement and climb with every item that has to be thrown out.</li>\n<li><strong>Insurance depends on where the water came from.</strong> A burst pipe is usually covered. Groundwater flooding needs flood insurance, and sewer or sump backups need a backup endorsement.</li>\n<li><strong>Speed is the biggest cost lever.</strong> Every day water sits adds drying time and raises the odds of mold, which adds $1,100 to $3,400.</li>\n</ul></section>\n\n<h2 class=\"text-3xl font-bold text-slate-900 mt-16 mb-6\">Basement Flood Cleanup Cost at a Glance</h2>\n<div class=\"overflow-x-auto mb-8 rounded-xl border border-slate-200\"><table class=\"w-full min-w-[640px] border-collapse text-sm\">\n<thead class=\"bg-slate-50 text-slate-700\">\n<tr>\n<th class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">What You're Paying For</th>\n<th class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Typical Cost</th>\n</tr>\n</thead>\n<tbody><tr>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Average water damage restoration</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">About $3,500</td>\n</tr>\n<tr>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Typical range for most homes</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">$1,300 to $6,400</td>\n</tr>\n<tr>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Clean water (Category 1), per sq ft</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">$3.50 to $4</td>\n</tr>\n<tr>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Gray water (Category 2), per sq ft</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">$4 to $6.50</td>\n</tr>\n<tr>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Sewage or black water (Category 3), per sq ft</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">$7 to $7.50+, plus replacement</td>\n</tr>\n<tr>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Extracting 1 inch of clean water from a basement</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">$500 to $1,500</td>\n</tr>\n<tr>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Mold remediation, if it develops</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">$1,100 to $3,400</td>\n</tr>\n<tr>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Drywall replacement</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">$1.50 to $3 per sq ft</td>\n</tr>\n<tr>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Carpet drying or replacement</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">$1 to $11 per sq ft</td>\n</tr>\n<tr>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Restoration labor</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">$70 to $200 per hour</td>\n</tr>\n</tbody></table></div>\n<p class=\"text-slate-700 leading-relaxed mb-5\">Ranges are national 2026 figures compiled from HomeAdvisor, LawnStarter, and SERVPRO cost data. Prices run higher in big metro areas, after hours, and after regional storms when every crew in town is booked.</p>\n<h2 class=\"text-3xl font-bold text-slate-900 mt-16 mb-6\">The Category Rule: What Kind of Water Sets the Price</h2>\n<p class=\"text-slate-700 leading-relaxed mb-5\">The single biggest factor in what you'll pay is the water category, a standard restoration companies and insurers use to classify how contaminated the water is.</p>\n<div class=\"overflow-x-auto mb-8 rounded-xl border border-slate-200\"><table class=\"w-full min-w-[640px] border-collapse text-sm\">\n<thead class=\"bg-slate-50 text-slate-700\">\n<tr>\n<th class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Category</th>\n<th class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Where It Comes From</th>\n<th class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Per Sq Ft</th>\n<th class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Can You DIY It?</th>\n</tr>\n</thead>\n<tbody><tr>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\"><strong>Category 1: Clean</strong></td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Burst supply pipe, water heater, leaking washer supply line</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">$3.50 to $4</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Usually, if it's caught within 24 hours</td>\n</tr>\n<tr>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\"><strong>Category 2: Gray</strong></td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Washer drain, dishwasher, sump pump failure, groundwater seepage, clean water that sat 48+ hours</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">$4 to $6.50</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Sometimes, with gloves, disinfecting, and fast drying</td>\n</tr>\n<tr>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\"><strong>Category 3: Black</strong></td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Sewer or septic backup, outdoor floodwater, toilet overflow with waste</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">$7 to $7.50+</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">No. Hire a pro.</td>\n</tr>\n</tbody></table></div>\n<p class=\"text-slate-700 leading-relaxed mb-5\"><strong>The Category Rule:</strong> price your cleanup by the dirtiest water that touched the basement, not the cleanest. Clean water turns gray after about 48 hours as bacteria grow, and gray turns black if it sits long enough. That's why a burst pipe found on Monday can cost twice as much as the same leak found on Friday night.</p>\n<p class=\"text-slate-700 leading-relaxed mb-5\">Category 3 water is a health hazard. It carries bacteria, viruses, and parasites, and anything porous it touches, like carpet, drywall, insulation, and upholstered furniture, has to be thrown out. That's what pushes sewage cleanup well past the per-square-foot rate.</p>\n<h2 class=\"text-3xl font-bold text-slate-900 mt-16 mb-6\">5-Minute Estimate: What Will Your Cleanup Cost?</h2>\n<p class=\"text-slate-700 leading-relaxed mb-5\">Answer these five questions to get a realistic range before you call anyone.</p>\n<ol class=\"list-decimal pl-6 space-y-3 text-slate-700 mb-6\">\n<li><strong>Where did the water come from?</strong> Use the category table above. Supply pipe or water heater is clean. Sump failure, groundwater, or washer drain is gray. Sewer, septic, or outdoor floodwater is black.</li>\n<li><strong>How much floor got wet?</strong> Measure the wet area in square feet. A typical basement is 800 to 1,200 sq ft, but many floods only cover part of it.</li>\n<li><strong>How deep did it get?</strong> Under an inch is a wet-vac and drying job. One to six inches needs pumps and extraction. Over six inches, expect wall damage and longer drying.</li>\n<li><strong>Is the basement finished?</strong> Unfinished concrete dries fast. Carpet, pad, drywall, and insulation add removal and disposal on day one and rebuild costs later.</li>\n<li><strong>How long has the water been there?</strong> Under 24 hours is the best case. Past 48 hours, plan for gray water pricing and a mold check.</li>\n</ol>\n<p class=\"text-slate-700 leading-relaxed mb-5\"><strong>Rough math:</strong> wet square feet times the per-square-foot rate for your category. Then add rebuild costs for anything that had to be torn out.</p>\n<p class=\"text-slate-700 leading-relaxed mb-5\"><strong>Example:</strong> a sump pump fails during a storm and leaves 2 inches of water across 900 sq ft of unfinished basement, found the next morning. That's gray water: 900 sq ft times $4 to $6.50 is about $3,600 to $5,850 for extraction, cleaning, and drying.</p>\n<h2 class=\"text-3xl font-bold text-slate-900 mt-16 mb-6\">Basement Flood Cleanup Cost by Scenario</h2>\n<div class=\"overflow-x-auto mb-8 rounded-xl border border-slate-200\"><table class=\"w-full min-w-[640px] border-collapse text-sm\">\n<thead class=\"bg-slate-50 text-slate-700\">\n<tr>\n<th class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Scenario</th>\n<th class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Typical Cost</th>\n<th class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">What's Included</th>\n</tr>\n</thead>\n<tbody><tr>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Small clean water leak, unfinished, under 1 inch</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">$500 to $1,500</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Extraction, fans, and a dehumidifier for a few days</td>\n</tr>\n<tr>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Clean water, 1,000 sq ft unfinished, a few inches</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">$3,300 to $4,100</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Extraction, drying, moisture readings</td>\n</tr>\n<tr>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Gray water, 1,000 sq ft unfinished (sump failure, seepage)</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">$4,100 to $7,000</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Extraction, cleaning, antimicrobial treatment, drying</td>\n</tr>\n<tr>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Finished basement, clean or gray water, cleanup only</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">$4,000 to $8,000</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Extraction, carpet and pad removal, flood cut of drywall, insulation removal, drying</td>\n</tr>\n<tr>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Finished basement, cleanup plus rebuild</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">$5,000 to $15,000+</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">All of the above plus new drywall, insulation, flooring, trim, and paint</td>\n</tr>\n<tr>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Sewage backup, 1,000 sq ft</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">$7,000 to $10,000+</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Category 3 extraction, removal of all porous materials, disinfection, drying, plus rebuild</td>\n</tr>\n<tr>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Mold found after the flood</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Add $1,100 to $3,400</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Containment, removal, HEPA cleaning, antimicrobial treatment</td>\n</tr>\n</tbody></table></div>\n<p class=\"text-slate-700 leading-relaxed mb-5\">The rebuild is often the biggest number, and it's a separate job. Restoration companies dry and clean. A contractor or the restoration company's rebuild division puts the basement back together, often after a separate estimate.</p>\n<h2 class=\"text-3xl font-bold text-slate-900 mt-16 mb-6\">What's in a Professional Cleanup Bill</h2>\n<p class=\"text-slate-700 leading-relaxed mb-5\">Restoration estimates usually list these line items. Most companies, and most insurers, price them with the same estimating software, so line items should look similar across quotes.</p>\n<div class=\"overflow-x-auto mb-8 rounded-xl border border-slate-200\"><table class=\"w-full min-w-[640px] border-collapse text-sm\">\n<thead class=\"bg-slate-50 text-slate-700\">\n<tr>\n<th class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Line Item</th>\n<th class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Typical Cost</th>\n<th class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Notes</th>\n</tr>\n</thead>\n<tbody><tr>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Emergency service call</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">$100 to $300</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Often waived if you hire them for the job</td>\n</tr>\n<tr>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Water extraction</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">$500 to $1,500 per inch for a typical basement</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Truck-mounted or portable extractors</td>\n</tr>\n<tr>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Air movers</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">$25 to $50 per fan per day</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Usually 1 per 10 to 15 linear feet of wall</td>\n</tr>\n<tr>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Commercial dehumidifiers</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">$50 to $100+ per unit per day</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Pull 100+ pints a day</td>\n</tr>\n<tr>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Drying days</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Usually 3 to 5 days</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Billed per day of equipment</td>\n</tr>\n<tr>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Antimicrobial treatment</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Often $0.50 to $1 per sq ft</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Standard for gray and black water</td>\n</tr>\n<tr>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Carpet and pad removal</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">$1 to $3 per sq ft</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Plus disposal</td>\n</tr>\n<tr>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Drywall flood cut</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Often $1 to $3 per sq ft of wall</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Cut 1 to 2 feet above the water line</td>\n</tr>\n<tr>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Contents moving or pack-out</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">$500 to $2,000+</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Moving and storing furniture and boxes</td>\n</tr>\n<tr>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Moisture monitoring</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Usually included</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">You should get daily readings in writing</td>\n</tr>\n</tbody></table></div>\n<h2 class=\"text-3xl font-bold text-slate-900 mt-16 mb-6\">DIY vs. Professional Cleanup Cost</h2>\n<div class=\"overflow-x-auto mb-8 rounded-xl border border-slate-200\"><table class=\"w-full min-w-[640px] border-collapse text-sm\">\n<thead class=\"bg-slate-50 text-slate-700\">\n<tr>\n<th class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Approach</th>\n<th class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Typical Cost</th>\n<th class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Best For</th>\n</tr>\n</thead>\n<tbody><tr>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">DIY with what you own</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">$0 to $200</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Small clean water leak, unfinished floor, under an inch</td>\n</tr>\n<tr>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">DIY with rented equipment</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">$500 to $1,500</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Clean water up to a few inches, unfinished basement, caught fast</td>\n</tr>\n<tr>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Professional extraction and drying only</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">$1,500 to $3,500</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Larger clean or gray water floods</td>\n</tr>\n<tr>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Full professional restoration</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">$3,500 to $15,000+</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Finished basements, sewage, or water that sat more than 48 hours</td>\n</tr>\n</tbody></table></div>\n<p class=\"text-slate-700 leading-relaxed mb-5\"><strong>DIY rental math:</strong> a submersible pump rents for $30 to $60 a day, a commercial dehumidifier for $50 to $100 a day, and air movers for $25 to $50 a day each. Four days of a dehumidifier and four fans runs about $600 to $1,200 before your time.</p>\n<p class=\"text-slate-700 leading-relaxed mb-5\">DIY makes sense when the water is clean, the floor is concrete, and you can start within hours. It stops making sense when the water is sewage, when drywall and carpet are soaked, or when your insurer wants professional moisture documentation for the claim. Our step-by-step guide to <a href=\"/articles/how-to-dry-out-basement-after-flooding\" class=\"text-teal-700 underline hover:text-teal-900\">what to do when your basement floods</a> walks through the DIY process.</p>\n<h2 class=\"text-3xl font-bold text-slate-900 mt-16 mb-6\">What Insurance Pays For</h2>\n<p class=\"text-slate-700 leading-relaxed mb-5\">Whether insurance pays depends on <strong>where the water came from</strong>, not how much damage it did.</p>\n<div class=\"overflow-x-auto mb-8 rounded-xl border border-slate-200\"><table class=\"w-full min-w-[640px] border-collapse text-sm\">\n<thead class=\"bg-slate-50 text-slate-700\">\n<tr>\n<th class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Water Source</th>\n<th class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Standard Homeowners Policy</th>\n<th class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">What You Need</th>\n</tr>\n</thead>\n<tbody><tr>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Burst or leaking pipe, water heater, appliance supply line</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Usually covered</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Standard policy</td>\n</tr>\n<tr>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Sewer or drain backup</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Usually not covered</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Water backup endorsement</td>\n</tr>\n<tr>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Sump pump failure or overflow</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Usually not covered</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Water backup endorsement</td>\n</tr>\n<tr>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Groundwater, surface water, or river flooding</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Not covered</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Flood insurance (NFIP or private)</td>\n</tr>\n<tr>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Slow leak or seepage over time</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Usually not covered</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Fix the cause. Considered maintenance.</td>\n</tr>\n</tbody></table></div>\n<p class=\"text-slate-700 leading-relaxed mb-5\">A water backup endorsement typically costs $50 to $250 a year and comes with coverage limits of $5,000 to $25,000. Check your limit before you start a big cleanup, since a sewage backup in a finished basement can blow past $10,000.</p>\n<p class=\"text-slate-700 leading-relaxed mb-5\"><strong>Before you file:</strong> photograph and video everything before you move it, keep damaged items until the adjuster sees them or approves disposal, and get the restoration company's moisture logs and itemized invoice. See our full guide to <a href=\"/articles/basement-flooding-insurance\" class=\"text-teal-700 underline hover:text-teal-900\">basement flooding insurance</a>.</p>\n<h2 class=\"text-3xl font-bold text-slate-900 mt-16 mb-6\">How to Choose a Basement Flood Cleanup Company</h2>\n<p class=\"text-slate-700 leading-relaxed mb-5\">Restoration is an emergency purchase, which makes it easy to overpay. A few minutes of checking protects you.</p>\n<p class=\"text-slate-700 leading-relaxed mb-5\"><strong>Look for:</strong></p>\n<ul class=\"list-disc pl-6 space-y-3 text-slate-700 mb-6\">\n<li><strong>IICRC certification.</strong> The Institute of Inspection, Cleaning and Restoration Certification sets the industry drying standard. Ask for the certified technician's name.</li>\n<li><strong>A written, itemized estimate</strong> before work beyond emergency extraction begins.</li>\n<li><strong>Daily moisture readings</strong> in writing, with the equipment count and drying goal.</li>\n<li><strong>Experience with your insurer.</strong> Companies that work claims regularly know what adjusters want documented.</li>\n<li><strong>Clear rebuild terms.</strong> Ask whether they rebuild or only dry, and whether the rebuild is a separate contract.</li>\n</ul>\n<p class=\"text-slate-700 leading-relaxed mb-5\"><strong>Red flags:</strong></p>\n<ul class=\"list-disc pl-6 space-y-3 text-slate-700 mb-6\">\n<li>Pressure to sign an <strong>assignment of benefits</strong> on the spot. It lets the company bill your insurer directly and can limit your control over the claim. Read it, or skip it.</li>\n<li>No written estimate, or a quote that's just one number.</li>\n<li>Equipment left running for days with no moisture readings.</li>\n<li>Claims that \"everything has to go\" on a clean water job caught within 24 hours.</li>\n<li>Door-to-door crews showing up after a regional storm.</li>\n</ul>\n<h2 class=\"text-3xl font-bold text-slate-900 mt-16 mb-6\">10-Year Cost: Prevention vs. Another Flood</h2>\n<p class=\"text-slate-700 leading-relaxed mb-5\">Most basements that flood once flood again. Here's how prevention compares to paying for cleanup a second time.</p>\n<div class=\"overflow-x-auto mb-8 rounded-xl border border-slate-200\"><table class=\"w-full min-w-[640px] border-collapse text-sm\">\n<thead class=\"bg-slate-50 text-slate-700\">\n<tr>\n<th class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Prevention Step</th>\n<th class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Upfront Cost</th>\n<th class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">10-Year Cost</th>\n</tr>\n</thead>\n<tbody><tr>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Battery backup sump pump</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">$350 to $900 installed</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">$500 to $1,200 with one battery replacement</td>\n</tr>\n<tr>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Water leak sensors and sump high water alarm</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">$50 to $200</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">$100 to $300 with battery changes</td>\n</tr>\n<tr>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Water backup insurance endorsement</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">$50 to $250 a year</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">$500 to $2,500</td>\n</tr>\n<tr>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Backwater valve on the sewer line</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">$1,000 to $3,000 installed</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">$1,000 to $3,000</td>\n</tr>\n<tr>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">Downspout extensions and grading fixes</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">$100 to $1,500</td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\">$100 to $1,500</td>\n</tr>\n<tr>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\"><strong>One more flood, gray water, finished basement</strong></td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\"></td>\n<td class=\"text-left px-4 py-3 border-b border-slate-200 align-top\"><strong>$5,000 to $15,000+</strong></td>\n</tr>\n</tbody></table></div>\n<p class=\"text-slate-700 leading-relaxed mb-5\">Even doing all of it costs less than one repeat flood in a finished basement. Start with the sump backup and an alarm. See our <a href=\"/articles/best-sump-pumps-2026\" class=\"text-teal-700 underline hover:text-teal-900\">best sump pumps for 2026</a> and <a href=\"/articles/best-water-leak-detectors\" class=\"text-teal-700 underline hover:text-teal-900\">best water leak detectors</a>.</p>\n<h2 class=\"text-3xl font-bold text-slate-900 mt-16 mb-6\">Common Mistakes That Raise Your Cleanup Bill</h2>\n<ol class=\"list-decimal pl-6 space-y-3 text-slate-700 mb-6\">\n<li><strong>Waiting to see if it dries on its own.</strong> Concrete and framing hold water for days. Past 48 hours, clean water becomes gray water and mold becomes likely.</li>\n<li><strong>Throwing things out before photographing them.</strong> Without documentation, insurers can deny or reduce the claim.</li>\n<li><strong>Running a household dehumidifier and calling it done.</strong> A 50-pint unit can't dry a flooded basement. Commercial units pull 100 pints or more a day.</li>\n<li><strong>Leaving wet drywall and insulation in place.</strong> Drywall wicks water upward and hides wet insulation behind it. Leaving it in turns a drying bill into a mold bill.</li>\n<li><strong>Hiring the first company that answers without a written estimate.</strong> Emergency pricing is real, but the scope should still be in writing.</li>\n<li><strong>Treating sewage like clean water.</strong> DIY cleanup of Category 3 water risks your health and usually leaves contamination in porous materials.</li>\n<li><strong>Skipping the cause.</strong> Paying for cleanup without fixing the failed sump pump, missing backwater valve, or grading problem sets up the next bill.</li>\n</ol>\n<h2 class=\"text-3xl font-bold text-slate-900 mt-16 mb-6\">When to Call a Professional</h2>\n<p class=\"text-slate-700 leading-relaxed mb-5\">Call a restoration company, not just a plumber, when any of these are true:</p>\n<ul class=\"list-disc pl-6 space-y-3 text-slate-700 mb-6\">\n<li>The water is sewage, septic, or outdoor floodwater.</li>\n<li>Water reached drywall, carpet, or insulation in a finished basement.</li>\n<li>The water has been sitting more than 48 hours.</li>\n<li>More than a few hundred square feet are wet, or water is more than an inch deep.</li>\n<li>You see or smell mold.</li>\n<li>Your insurer requires professional moisture documentation.</li>\n<li>The electrical panel, outlets, or a gas appliance got wet. Call the utility or an electrician before anyone goes in.</li>\n</ul>\n"
+const afterForm = "\n<h2 class=\"text-3xl font-bold text-slate-900 mt-16 mb-6\">Frequently Asked Questions</h2>\n<h3 class=\"text-xl font-bold text-slate-900 mt-8 mb-3\">How much does it cost to clean up a flooded basement?</h3>\n<p class=\"text-slate-700 leading-relaxed mb-5\">Most homeowners pay $1,300 to $6,400 for professional basement flood cleanup, with the national average for water damage restoration around $3,500. Clean water runs about $3.50 to $4 per square foot, gray water $4 to $6.50, and sewage $7 to $7.50 or more, before rebuilding. A finished basement with cleanup and rebuild often reaches $5,000 to $15,000 or more.</p>\n<h3 class=\"text-xl font-bold text-slate-900 mt-8 mb-3\">How much does water removal from a basement cost?</h3>\n<p class=\"text-slate-700 leading-relaxed mb-5\">Extracting one inch of clean water from a typical basement costs about $500 to $1,500. Deeper water, gray or black water, and finished floors cost more. Water removal is usually the first line item on a restoration bill, followed by several days of drying equipment.</p>\n<h3 class=\"text-xl font-bold text-slate-900 mt-8 mb-3\">How much does sewage backup cleanup cost?</h3>\n<p class=\"text-slate-700 leading-relaxed mb-5\">Sewage backup cleanup starts around $7 to $7.50 per square foot, so a 1,000 sq ft basement typically costs $7,000 to $10,000 or more once porous materials are removed and replaced. Standard homeowners policies usually exclude sewer backups unless you carry a water backup endorsement.</p>\n<h3 class=\"text-xl font-bold text-slate-900 mt-8 mb-3\">Does homeowners insurance cover basement flood cleanup?</h3>\n<p class=\"text-slate-700 leading-relaxed mb-5\">It depends on the water source. Sudden internal water, like a burst pipe or failed water heater, is usually covered. Sewer and sump pump backups usually need a water backup endorsement, and groundwater or surface flooding needs flood insurance. Slow leaks and seepage are typically treated as maintenance and excluded.</p>\n<h3 class=\"text-xl font-bold text-slate-900 mt-8 mb-3\">How long does professional basement flood cleanup take?</h3>\n<p class=\"text-slate-700 leading-relaxed mb-5\">Extraction usually takes a few hours to a day. Drying with commercial equipment typically takes 3 to 5 days, and longer for deep floods, cold basements, or block walls. Rebuilding a finished basement afterward can take another 2 to 8 weeks.</p>\n<h3 class=\"text-xl font-bold text-slate-900 mt-8 mb-3\">Is it cheaper to clean up a flooded basement myself?</h3>\n<p class=\"text-slate-700 leading-relaxed mb-5\">For a small clean water leak on unfinished concrete, yes. DIY with rented equipment usually costs $500 to $1,500. For sewage, finished basements, or water that's been sitting more than 48 hours, DIY often costs more in the end because missed moisture leads to mold remediation at $1,100 to $3,400.</p>\n<h3 class=\"text-xl font-bold text-slate-900 mt-8 mb-3\">How do I know if a restoration company's quote is fair?</h3>\n<p class=\"text-slate-700 leading-relaxed mb-5\">Compare the per-square-foot cost against the category rates on this page, and ask for an itemized estimate showing extraction, equipment days, antimicrobial treatment, and removal. Fair quotes include daily moisture monitoring and a defined drying goal. Get a second quote for anything beyond emergency extraction if you have time.</p>\n<h3 class=\"text-xl font-bold text-slate-900 mt-8 mb-3\">What drives basement flood cleanup costs up the most?</h3>\n<p class=\"text-slate-700 leading-relaxed mb-5\">Four things: the water category, how long the water sat, whether the basement is finished, and how much has to be thrown out and rebuilt. Sewage in a finished basement found days later is the most expensive combination. Clean water on bare concrete found within hours is the cheapest.</p>\n<h2 class=\"text-3xl font-bold text-slate-900 mt-16 mb-6\">Glossary</h2>\n<p class=\"text-slate-700 leading-relaxed mb-5\"><strong>Water category:</strong> The restoration industry's contamination scale. Category 1 is clean, Category 2 is gray, and Category 3 is black or sewage.</p>\n<p class=\"text-slate-700 leading-relaxed mb-5\"><strong>Water class:</strong> A separate scale for how much water was absorbed and how hard the space is to dry, from Class 1 (minimal) to Class 4 (deeply saturated materials like concrete and hardwood).</p>\n<p class=\"text-slate-700 leading-relaxed mb-5\"><strong>Extraction:</strong> Removing standing water with pumps and truck-mounted or portable extractors before drying starts.</p>\n<p class=\"text-slate-700 leading-relaxed mb-5\"><strong>Air mover:</strong> A high-velocity fan aimed along walls and floors to speed evaporation.</p>\n<p class=\"text-slate-700 leading-relaxed mb-5\"><strong>Commercial dehumidifier:</strong> A high-capacity unit, often 100+ pints a day, used to pull evaporated moisture out of the air during drying.</p>\n<p class=\"text-slate-700 leading-relaxed mb-5\"><strong>Flood cut:</strong> Cutting drywall 1 to 2 feet above the water line to remove wet material and expose the wall cavity for drying.</p>\n<p class=\"text-slate-700 leading-relaxed mb-5\"><strong>Antimicrobial treatment:</strong> A disinfecting product applied to framing and hard surfaces after gray or black water to limit bacteria and mold.</p>\n<p class=\"text-slate-700 leading-relaxed mb-5\"><strong>IICRC:</strong> The Institute of Inspection, Cleaning and Restoration Certification, which sets the standards most restoration companies follow.</p>\n<p class=\"text-slate-700 leading-relaxed mb-5\"><strong>Water backup endorsement:</strong> An add-on to a homeowners policy that covers damage from sewer, drain, or sump pump backups.</p>\n<p class=\"text-slate-700 leading-relaxed mb-5\"><strong>Assignment of benefits:</strong> A document that lets a contractor bill your insurer directly. Read it carefully before signing.</p>\n<h2 class=\"text-3xl font-bold text-slate-900 mt-16 mb-6\">Related Guides</h2>\n<ul class=\"list-disc pl-6 space-y-3 text-slate-700 mb-6\">\n<li><a href=\"/articles/how-to-dry-out-basement-after-flooding\" class=\"text-teal-700 underline hover:text-teal-900\">What to Do When Your Basement Floods: Cleanup and Drying Step by Step</a></li>\n<li><a href=\"/articles/basement-flooding-insurance\" class=\"text-teal-700 underline hover:text-teal-900\">Basement Flooding Insurance</a></li>\n<li><a href=\"/articles/mold-remediation-cost\" class=\"text-teal-700 underline hover:text-teal-900\">Mold Remediation Cost</a></li>\n<li><a href=\"/articles/why-basement-floods-with-sump-pump\" class=\"text-teal-700 underline hover:text-teal-900\">Why a Basement Floods Even With a Sump Pump</a></li>\n<li><a href=\"/articles/best-sump-pumps-2026\" class=\"text-teal-700 underline hover:text-teal-900\">Best Sump Pumps for 2026</a></li>\n<li><a href=\"/cost-guides/sump-pump-replacement-cost\" class=\"text-teal-700 underline hover:text-teal-900\">Sump Pump Replacement Cost</a></li>\n<li><a href=\"/articles/best-water-leak-detectors\" class=\"text-teal-700 underline hover:text-teal-900\">Best Water Leak Detectors and Basement Water Alarms</a></li>\n<li><a href=\"/articles/interior-basement-drainage-systems\" class=\"text-teal-700 underline hover:text-teal-900\">Interior Basement Drainage Systems</a></li>\n<li><a href=\"/articles/complete-basement-waterproofing-guide\" class=\"text-teal-700 underline hover:text-teal-900\">Complete Basement Waterproofing Guide</a></li>\n</ul>\n<p class=\"text-slate-700 leading-relaxed mb-5\"><strong>Sources:</strong> cost ranges compiled from <a href=\"https://www.homeadvisor.com/cost/disaster-recovery/repair-water-damage/\" class=\"text-teal-700 underline hover:text-teal-900\" target=\"_blank\" rel=\"noopener\">HomeAdvisor water damage restoration cost data</a>, <a href=\"https://www.lawnstarter.com/blog/?p=75887\" class=\"text-teal-700 underline hover:text-teal-900\" target=\"_blank\" rel=\"noopener\">LawnStarter's 2026 water damage restoration cost guide</a>, and <a href=\"https://www.servpro.com/resources/water-damage/sewer-backup-cost\" class=\"text-teal-700 underline hover:text-teal-900\" target=\"_blank\" rel=\"noopener\">SERVPRO sewer backup cost resources</a>.</p>\n"
 
 export default function BasementFloodingCleanupPage() {
   return (
     <div className='bg-white min-h-screen'>
-
-      <script
-        type='application/ld+json'
-        dangerouslySetInnerHTML={{ __html: JSON.stringify([faqSchema, articleSchema]) }}
-      />
-
+      {schemas.map((schema,i)=><script key={i} type='application/ld+json' dangerouslySetInnerHTML={{__html:JSON.stringify(schema)}} />)}
       <Breadcrumbs items={[
         { label: 'Problems', href: '/articles/problems/basement-water-after-rain' },
         { label: 'Basement Flooding Cleanup' },
       ]} />
-
-      {/* Article Hero */}
-      <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
+      <section className='relative md:h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
         <Image
           src='/flooded basement.jpg'
           alt='Flooded residential basement with murky water covering floor, water heater and furnace visible, cardboard boxes sitting in floodwater'
@@ -119,483 +166,27 @@ export default function BasementFloodingCleanupPage() {
           priority
         />
         <div className='absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent' />
-        <div className='relative h-full max-w-7xl mx-auto px-6 flex flex-col justify-end pb-24'>
+        <div className='relative h-full max-w-7xl mx-auto px-6 flex flex-col justify-end pt-20 md:pt-0 pb-24'>
           <div className='flex items-center gap-3 mb-8'>
             <div className='h-px w-12 bg-amber-500'></div>
             <span className='text-amber-400 font-bold tracking-[0.2em] text-sm uppercase'>Troubleshooting Guide</span>
           </div>
-          <h1 className='text-5xl md:text-7xl font-black text-white mb-6 leading-[0.9] tracking-tighter max-w-4xl'>
-            Basement Flooding<br />
-            <span className='text-amber-400'>Cleanup</span>
-          </h1>
-          <p className='text-xl text-slate-300 max-w-2xl mb-10 font-medium leading-relaxed'>
-            What to do in the first 72 hours&mdash;water removal, what to save vs throw out, insurance documentation, and mold prevention.
-          </p>
+          <h1 className='text-5xl md:text-7xl font-black text-white mb-6 leading-[0.9] tracking-tighter max-w-4xl'>Basement Flood Cleanup Cost, What Water Removal and Restoration Really Cost in 2026</h1>
           <div className='flex items-center space-x-4'>
             <div className='w-10 h-10 rounded-full bg-slate-700 flex items-center justify-center text-white font-bold text-sm'>BG</div>
             <div>
-              <p className='text-white font-medium'>The Basement Guide Staff</p>
-              <p className='text-slate-400 text-sm'>Updated April 2026 &middot; 14 min read</p>
+              <p className='text-white font-medium'>By The Basement Guide Editorial Team</p>
+              <p className='text-slate-400 text-sm'>Updated October 2026 &middot; 15 min read</p>
             </div>
           </div>
         </div>
       </section>
-
-      {/* Main Content */}
       <article className='max-w-4xl mx-auto px-6 py-16'>
-        <div className='prose prose-lg prose-slate max-w-none'>
-
-          {/* TL;DR */}
-          <div className='not-prose bg-emerald-50 border-l-4 border-emerald-600 rounded-r-lg p-6 mb-10'>
-            <p className='text-emerald-800 font-bold text-sm mb-2'>TL;DR</p>
-            <p className='text-slate-700 text-sm leading-relaxed'>You have 24 to 48 hours before mold starts growing. The first action is always safety. Do not enter the basement if the electrical panel is submerged or if you smell gas. Once safe to enter, document everything with photos and video before touching a single item. Then remove water as fast as possible. Every hour water sits, damage compounds and restoration costs increase. Professional water damage restoration costs $3,500 to $12,000 for a typical basement. DIY cleanup with rented equipment costs $500 to $1,500 in equipment and supplies. The decision between the two depends on water depth, water category (clean vs sewage), and whether finished materials are involved. Standard homeowners insurance does not cover most basement flooding. Coverage depends entirely on the water source and what endorsements you carry.</p>
-          </div>
-
-          <p className='text-lg text-slate-700 leading-relaxed'>You walked downstairs and found water. The floor is wet. The carpet is soaked. The drywall at the base of the wall is swelling. Maybe there is two inches of standing water. Maybe the furnace is sitting in it.</p>
-
-          <p className='text-lg text-slate-700 leading-relaxed'>The next 72 hours determine whether this is a $1,500 cleanup or a $15,000 gut and rebuild. The difference comes down almost entirely to how fast you move and whether you move in the right sequence.</p>
-
-          <p className='text-lg text-slate-700 leading-relaxed mb-12'>This guide gives you the exact sequence: what to do first, what to do in the first hour, the first 24 hours, and the first 72 hours. It also tells you what your insurance covers (and what it does not), exactly which materials to discard and which to dry, and when the job is beyond DIY.</p>
-        </div>
-
-        {/* The 48-Hour Rule */}
-        <section className='mt-16 pt-8 border-t border-slate-100'>
-          <h2 className='text-3xl font-bold text-slate-900 mb-4'>The 48-Hour Rule</h2>
-          <p className='text-slate-700 leading-relaxed mb-4'>The principle that governs every decision in this guide is <strong>The 48-Hour Rule</strong>: any porous material that remains wet for more than 48 hours will almost certainly grow mold. Once mold establishes inside a wall cavity, under flooring, or in insulation, the cleanup cost multiplies. FEMA, the CDC, and the EPA all use this 48-hour window as the threshold for salvage versus discard decisions on porous materials.</p>
-          <p className='text-slate-700 leading-relaxed mb-4'>Everything in the first 72 hours is a race against this clock.</p>
-
-          {/* Safety Callout Box */}
-          <div className='bg-red-50 border-l-4 border-red-500 rounded-lg p-5 mt-6'>
-            <p className='text-red-800 font-semibold mb-3'>Before you enter the basement, do three safety checks:</p>
-            <div className='space-y-3 text-sm text-red-700'>
-              <p><strong>1. Electricity:</strong> If your electrical panel, water heater, furnace, or any outlets are submerged or within inches of standing water, do not enter. Call your utility company to disconnect power at the meter before anyone goes downstairs. Water and live electrical current in the same space kills people.</p>
-              <p><strong>2. Gas:</strong> If you smell gas or suspect a line was damaged, leave the building immediately and call your gas utility from outside. Do not use any switches, phones, or lights inside.</p>
-              <p><strong>3. Sewage:</strong> If the water is brown or black, smells of sewage, or came from a drain backup, it is Category 3 water, meaning black water, containing pathogens that cause serious illness. Do not enter without rubber boots, waterproof gloves, eye protection, and an N95 mask at minimum. Sewage contamination may require professional biohazard cleanup.</p>
-            </div>
-          </div>
-        </section>
-
-        {/* Hour-by-Hour Action Timeline */}
-        <section className='mt-16 pt-8 border-t border-slate-100'>
-          <h2 className='text-3xl font-bold text-slate-900 mb-6'>Hour-by-Hour Action Timeline</h2>
-          <div className='overflow-x-auto mb-8'>
-            <table className='w-full border-collapse bg-white rounded-xl overflow-hidden shadow-sm border border-slate-200'>
-              <thead>
-                <tr className='bg-slate-800 text-white'>
-                  <th className='px-6 py-4 text-left font-semibold'>Time Window</th>
-                  <th className='px-6 py-4 text-left font-semibold'>Priority Actions</th>
-                  <th className='px-6 py-4 text-left font-semibold'>What You Are Preventing</th>
-                </tr>
-              </thead>
-              <tbody className='text-slate-700'>
-                <tr className='border-b border-slate-100'>
-                  <td className='px-6 py-4 font-medium'>Before entering</td>
-                  <td className='px-6 py-4'>Electricity check, gas check, water category assessment</td>
-                  <td className='px-6 py-4'>Electrocution, explosion, pathogen exposure</td>
-                </tr>
-                <tr className='border-b border-slate-100 bg-slate-50'>
-                  <td className='px-6 py-4 font-medium'>First 30 minutes</td>
-                  <td className='px-6 py-4'>Document everything with photos and video</td>
-                  <td className='px-6 py-4'>Insurance claim denial</td>
-                </tr>
-                <tr className='border-b border-slate-100'>
-                  <td className='px-6 py-4 font-medium'>Hours 1 to 3</td>
-                  <td className='px-6 py-4'>Begin water removal with pump or wet-dry vac</td>
-                  <td className='px-6 py-4'>Structural saturation, material loss</td>
-                </tr>
-                <tr className='border-b border-slate-100 bg-slate-50'>
-                  <td className='px-6 py-4 font-medium'>Hours 3 to 6</td>
-                  <td className='px-6 py-4'>Remove soaked rugs, carpet, cardboard, paper items</td>
-                  <td className='px-6 py-4'>Mold substrate in 24 hours</td>
-                </tr>
-                <tr className='border-b border-slate-100'>
-                  <td className='px-6 py-4 font-medium'>Hours 6 to 12</td>
-                  <td className='px-6 py-4'>Set up fans and dehumidifiers, open windows</td>
-                  <td className='px-6 py-4'>Mold growth timeline extended</td>
-                </tr>
-                <tr className='border-b border-slate-100 bg-slate-50'>
-                  <td className='px-6 py-4 font-medium'>Hours 12 to 24</td>
-                  <td className='px-6 py-4'>Assess walls and drywall, remove baseboards</td>
-                  <td className='px-6 py-4'>Hidden moisture in wall cavities</td>
-                </tr>
-                <tr className='border-b border-slate-100'>
-                  <td className='px-6 py-4 font-medium'>Hours 24 to 48</td>
-                  <td className='px-6 py-4'>Cut flood-damaged drywall, remove wet insulation</td>
-                  <td className='px-6 py-4'>Mold inside walls</td>
-                </tr>
-                <tr className='border-b border-slate-100 bg-slate-50'>
-                  <td className='px-6 py-4 font-medium'>Hours 48 to 72</td>
-                  <td className='px-6 py-4'>Continue drying, disinfect all surfaces, moisture check</td>
-                  <td className='px-6 py-4'>Residual mold spores</td>
-                </tr>
-                <tr>
-                  <td className='px-6 py-4 font-medium'>Day 4 and beyond</td>
-                  <td className='px-6 py-4'>Final moisture meter check, reconstruction planning</td>
-                  <td className='px-6 py-4'>Rebuilding over hidden moisture</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </section>
-
-        {/* Step 1: Document Before You Touch Anything */}
-        <section className='mt-16 pt-8 border-t border-slate-100'>
-          <h2 className='text-3xl font-bold text-slate-900 mb-4'>Step 1: Document Before You Touch Anything</h2>
-          <p className='text-slate-700 leading-relaxed mb-4'>Before moving a single item, removing any water, or opening any windows, document the entire scene. Insurance adjusters require photographic evidence of the damage as it was found. Cleaning up before documenting is the most common reason insurance claims are reduced or denied.</p>
-
-          <h3 className='text-xl font-bold text-slate-900 mt-6 mb-2'>What to photograph and video:</h3>
-          <ul className='list-disc pl-6 space-y-2 text-slate-700 mb-6'>
-            <li>Every room from multiple angles before anything is moved</li>
-            <li>The water line on walls and the depth of standing water</li>
-            <li>Every damaged item including furniture, appliances, flooring, and stored belongings</li>
-            <li>Make, model, and serial number of every affected appliance (furnace, water heater, washer, dryer, dehumidifier)</li>
-            <li>The exterior of the home including the source of water if visible (overflowing window well, seeping wall, drain backup)</li>
-            <li>Samples of damaged building materials. FEMA specifically recommends keeping small samples of carpet, flooring, wallpaper, and drapes before discarding them, as adjusters use these to verify the materials and calculate replacement costs</li>
-          </ul>
-
-          <p className='text-slate-700 leading-relaxed'><strong>Call your insurance company before starting cleanup if possible.</strong> Some insurers require authorization before cleanup begins for covered events. If you cannot reach them immediately, document thoroughly and begin cleanup. Waiting causes more damage, and courts have sided with homeowners who proceeded with reasonable emergency cleanup while attempting to contact their insurer.</p>
-        </section>
-
-        {/* Step 2: Remove Water */}
-        <section className='mt-16 pt-8 border-t border-slate-100'>
-          <h2 className='text-3xl font-bold text-slate-900 mb-4'>Step 2: Remove Water as Fast as Possible</h2>
-          <p className='text-slate-700 leading-relaxed mb-4'>Water removal speed is the single most important variable in total cleanup cost. Every additional hour of saturation increases the depth of moisture penetration into concrete, wood, drywall, and insulation.</p>
-
-          <h3 className='text-xl font-bold text-slate-900 mt-6 mb-2'>Water depth determines your equipment:</h3>
-
-          <p className='text-slate-700 leading-relaxed mb-4'><strong>Under 1 inch:</strong> A standard wet-dry vacuum handles this. Run it continuously, emptying as needed. Move furniture to dry ground while vacuuming underneath.</p>
-
-          <p className='text-slate-700 leading-relaxed mb-4'><strong>1 to 6 inches:</strong> A submersible pump or utility pump is faster and more effective than a wet-dry vac for this depth. Submersible pumps run $50 to $150 to purchase or $30 to $60 per day to rent. They discharge through a garden hose run to a floor drain, utility sink, or outside.</p>
-
-          <p className='text-slate-700 leading-relaxed mb-4'><strong>Over 6 inches:</strong> A truck-mounted pump or professional extraction unit is the most effective option. Professional water extraction costs $500 to $1,500 for a standard basement. Attempting to remove several inches of standing water with a wet-dry vac is possible but takes hours longer than a proper pump, increasing total saturation time.</p>
-
-          <p className='text-slate-700 leading-relaxed mb-4'><strong>One critical rule for flooded basements:</strong> If the ground outside is still saturated or the water table is still elevated from an ongoing storm, do not pump the basement faster than 2 to 3 feet per day. Pumping too fast when soil outside is fully saturated creates a pressure differential that can crack or bow the foundation walls inward. Wait for the exterior water level to drop before aggressive pumping.</p>
-
-          <p className='text-slate-700 leading-relaxed'><strong>After standing water is removed:</strong> The floor and lower walls will still hold significant moisture. Run wet-dry vac passes over the floor to remove surface water, then move immediately to the drying phase.</p>
-        </section>
-
-        {/* Step 3: Remove Materials */}
-        <section className='mt-16 pt-8 border-t border-slate-100'>
-          <h2 className='text-3xl font-bold text-slate-900 mb-4'>Step 3: Remove Materials That Will Not Dry in Time</h2>
-          <p className='text-slate-700 leading-relaxed mb-4'>Once standing water is removed, the 48-hour clock for porous materials is running. The following materials cannot be reliably dried within 48 hours once saturated and must be removed immediately:</p>
-
-          <h3 className='text-xl font-bold text-slate-900 mt-6 mb-2'>Remove and discard:</h3>
-          <ul className='list-disc pl-6 space-y-2 text-slate-700 mb-6'>
-            <li>Carpet and carpet padding: carpet can sometimes be dried if cleaned within 24 hours and the flood was clean water, but carpet padding absorbs and holds water that cannot be extracted and must be discarded</li>
-            <li>Fiberglass batt insulation: saturated fiberglass loses its R-value permanently and holds moisture against wood framing, creating a mold substrate. FEMA guidance states fibrous wall insulation saturated by floodwater should be removed completely</li>
-            <li>Cellulose insulation: discard and replace, same reasoning as fiberglass</li>
-            <li>Drywall saturated above the waterline. If drywall has been wet for more than 48 hours or absorbed sewage water, remove it. The industry standard is a flood cut: cut drywall 12 inches above the visible water line to expose the wall cavity for drying</li>
-            <li>Cardboard boxes: every cardboard box that contacted water is a mold substrate within 24 hours. Empty contents, photograph, and discard the boxes</li>
-            <li>Paper documents, books: discard non-valuable items. For important documents, place in sealed plastic bags and freeze in a frost-free freezer to halt deterioration until they can be professionally freeze-dried</li>
-            <li>Particleboard and MDF furniture: these materials swell, delaminate, and cannot be reliably dried. Solid wood furniture can often be salvaged if dried quickly</li>
-          </ul>
-
-          <h3 className='text-xl font-bold text-slate-900 mt-6 mb-2'>May be salvageable with rapid response:</h3>
-          <ul className='list-disc pl-6 space-y-2 text-slate-700 mb-6'>
-            <li>Solid hardwood flooring: if dried within 24 to 48 hours with professional equipment, hardwood can sometimes be saved. After 48 hours, cupping and warping become permanent</li>
-            <li>Drywall that is only slightly damp: if the lower section is damp but not saturated, drilling weep holes at the baseboard and running fans into the wall cavity can dry it without removal. Use a moisture meter to confirm</li>
-            <li>Upholstered furniture: valuable pieces may be salvageable if a restoration professional can extract water and dry them quickly. Standard upholstered items that sat in water for more than a day are generally not worth salvaging due to mold risk</li>
-          </ul>
-
-          <h3 className='text-xl font-bold text-slate-900 mt-6 mb-2'>Always salvage:</h3>
-          <ul className='list-disc pl-6 space-y-2 text-slate-700'>
-            <li>Concrete, masonry, ceramic tile: these can be cleaned and dried without replacement</li>
-            <li>Metal components: clean, dry, and inspect for rust</li>
-            <li>Solid wood framing: dry thoroughly and treat with antimicrobial solution, inspect for structural damage after drying</li>
-          </ul>
-        </section>
-
-        {/* Water Category */}
-        <section className='mt-16 pt-8 border-t border-slate-100'>
-          <h2 className='text-3xl font-bold text-slate-900 mb-4'>Water Category: Clean vs Gray vs Black</h2>
-          <p className='text-slate-700 leading-relaxed mb-4'>The water source determines how aggressively you must handle contamination and what you must discard regardless of drying timeline.</p>
-
-          <p className='text-slate-700 leading-relaxed mb-4'><strong>Category 1 (Clean water):</strong> Burst pipe, rainwater intrusion, supply line failure. No inherent biological hazard. Standard cleanup procedures apply. Porous materials can potentially be salvaged if dried within 48 hours.</p>
-
-          <p className='text-slate-700 leading-relaxed mb-4'><strong>Category 2 (Gray water):</strong> Dishwasher overflow, washing machine discharge, toilet overflow without feces. Contains some biological contaminants. All porous materials that absorbed gray water should be treated as contaminated. Disinfection required on all surfaces after drying.</p>
-
-          <p className='text-slate-700 leading-relaxed'><strong>Category 3 (Black water):</strong> Sewage backup, toilet backup with feces, rising floodwater from outside (which picks up sewage and agricultural runoff), any water that has been sitting for more than 48 hours (which degrades to Category 3 regardless of original source). All porous materials that contacted black water must be discarded regardless of drying timeline. This includes drywall, insulation, carpet, flooring, and any soft goods. Professional biohazard cleanup is strongly recommended. Do not attempt to clean Category 3 contamination without proper personal protective equipment and professional-grade disinfectants.</p>
-        </section>
-
-        {/* Step 4: Dry the Basement */}
-        <section className='mt-16 pt-8 border-t border-slate-100'>
-          <h2 className='text-3xl font-bold text-slate-900 mb-4'>Step 4: Dry the Basement Aggressively</h2>
-          <p className='text-slate-700 leading-relaxed mb-4'>After water removal and material removal, the drying phase begins. Professional restoration companies target complete drying within 3 to 5 days using industrial equipment. DIY drying with consumer equipment takes longer and carries more mold risk.</p>
-
-          <h3 className='text-xl font-bold text-slate-900 mt-6 mb-2'>Equipment for drying:</h3>
-
-          <p className='text-slate-700 leading-relaxed mb-4'><strong>Dehumidifiers:</strong> The most important drying tool. A standard 70-pint residential dehumidifier removes 70 pints of moisture per day from the air. A flooded basement requires more capacity. Rent commercial dehumidifiers that remove 150 to 200 pints per day for significantly faster drying. Commercial dehumidifier rental costs $50 to $100 per day. Run continuously, emptying the reservoir or connecting a drain hose.</p>
-
-          <p className='text-slate-700 leading-relaxed mb-4'><strong>Air movers and fans:</strong> Directional fans accelerate surface evaporation. Position fans at wall and floor surfaces to move air across wet materials. Standard box fans help but industrial air movers (available to rent for $25 to $50 per day each) move significantly more air volume. Do not use fans without dehumidifiers. Fans evaporate moisture into the air but dehumidifiers are required to remove it from the space.</p>
-
-          <p className='text-slate-700 leading-relaxed mb-4'><strong>Heat:</strong> Moderate heat (65 to 85 degrees Fahrenheit) accelerates drying. Do not use high heat. Temperatures above 85 degrees accelerate microbial growth. Never use heat on a space that cannot also be dehumidified.</p>
-
-          <p className='text-slate-700 leading-relaxed mb-4'><strong>Ventilation:</strong> Open windows and doors when outdoor humidity is lower than indoor humidity. Close them when outdoor humidity is higher. In most flood scenarios, the basement humidity is extremely high and outdoor air helps, but check with a hygrometer before assuming ventilation helps.</p>
-
-          <p className='text-slate-700 leading-relaxed'><strong>Moisture meter:</strong> A moisture meter ($20 to $60 to purchase) measures the moisture content of wood framing, subfloor, and drywall. Drying is complete when wood reads below 19 percent moisture content. Do not begin reconstruction until the moisture meter confirms all structural materials are dry. Building over wet framing creates a mold problem inside the walls.</p>
-        </section>
-
-        {/* Disinfection After Drying */}
-        <section className='mt-16 pt-8 border-t border-slate-100'>
-          <h2 className='text-3xl font-bold text-slate-900 mb-4'>Disinfection After Drying</h2>
-          <p className='text-slate-700 leading-relaxed mb-4'>Once surfaces are dry, disinfect everything that contacted floodwater. The EPA recommends a solution of no more than one cup of bleach per gallon of water for disinfecting hard surfaces after flooding. Apply, allow 10 minutes of contact time, and wipe dry.</p>
-          <p className='text-slate-700 leading-relaxed mb-4'>For Category 2 and Category 3 water events, professional-grade antimicrobial treatments are more effective than household bleach solutions. Restoration companies apply EPA-registered antimicrobials to all exposed surfaces including wall cavities before closing them up.</p>
-          <p className='text-slate-700 leading-relaxed'>Do not apply disinfectant before drying is complete. Bleach applied to wet surfaces dilutes rapidly and does not provide adequate contact time for effective disinfection.</p>
-        </section>
-
-        {/* Insurance Coverage */}
-        <section className='mt-16 pt-8 border-t border-slate-100'>
-          <h2 className='text-3xl font-bold text-slate-900 mb-4'>Insurance Coverage: What Is and Is Not Covered</h2>
-          <p className='text-slate-700 leading-relaxed mb-4'>This is where most homeowners get surprised. The source of the flooding determines coverage, and most basement flooding sources are excluded from standard homeowners insurance.</p>
-
-          <h3 className='text-xl font-bold text-slate-900 mt-6 mb-2'>What standard homeowners insurance covers:</h3>
-          <ul className='list-disc pl-6 space-y-2 text-slate-700 mb-6'>
-            <li>Burst pipe or supply line failure: typically covered as sudden and accidental water damage</li>
-            <li>Water heater failure: typically covered</li>
-          </ul>
-
-          <h3 className='text-xl font-bold text-slate-900 mt-6 mb-2'>What standard homeowners insurance does NOT cover:</h3>
-          <ul className='list-disc pl-6 space-y-2 text-slate-700 mb-6'>
-            <li>Surface flooding from outside: requires separate NFIP flood insurance (30-day waiting period to activate, cannot be purchased during a flood event)</li>
-            <li>Sump pump failure: not covered unless you have a water backup endorsement</li>
-            <li>Sewer or drain backup: not covered unless you have a water backup endorsement</li>
-            <li>Groundwater seepage: not covered</li>
-            <li>Flooding from any external water source: not covered without separate flood insurance</li>
-          </ul>
-
-          <h3 className='text-xl font-bold text-slate-900 mt-6 mb-2'>What a water backup endorsement covers:</h3>
-          <p className='text-slate-700 leading-relaxed mb-6'>A water backup and sump pump overflow endorsement can be added to most homeowners policies for $50 to $250 per year. It covers damage from sewer backup, drain backup, and sump pump failure. Coverage limits range from $5,000 to $25,000 depending on the endorsement. This endorsement does not cover flood damage from external water sources.</p>
-
-          <h3 className='text-xl font-bold text-slate-900 mt-6 mb-2'>What flood insurance covers:</h3>
-          <p className='text-slate-700 leading-relaxed mb-6'>NFIP flood insurance covers damage from rising water, surface flooding, and storm surge. It does not cover sewer backup or sump pump failure. Average annual premium is $700 to $1,000 for residential properties in moderate-risk zones. There is a mandatory 30-day waiting period before coverage activates.</p>
-
-          <h3 className='text-xl font-bold text-slate-900 mt-6 mb-2'>Insurance claim documentation checklist:</h3>
-          <ul className='list-disc pl-6 space-y-2 text-slate-700'>
-            <li>Photos and video of all damage before cleanup</li>
-            <li>Itemized list of damaged belongings with estimated replacement values</li>
-            <li>Samples of building materials (carpet, flooring, wallpaper)</li>
-            <li>All repair and cleanup receipts</li>
-            <li>Contractor estimates for restoration work</li>
-            <li>Records of the water source (plumber invoice for burst pipe, weather service data for flood event)</li>
-          </ul>
-        </section>
-
-        {/* Professional vs DIY */}
-        <section className='mt-16 pt-8 border-t border-slate-100'>
-          <h2 className='text-3xl font-bold text-slate-900 mb-6'>Professional vs DIY Cleanup</h2>
-          <div className='overflow-x-auto mb-8'>
-            <table className='w-full border-collapse bg-white rounded-xl overflow-hidden shadow-sm border border-slate-200'>
-              <thead>
-                <tr className='bg-slate-800 text-white'>
-                  <th className='px-6 py-4 text-left font-semibold'>Scenario</th>
-                  <th className='px-6 py-4 text-left font-semibold'>DIY Appropriate</th>
-                  <th className='px-6 py-4 text-left font-semibold'>Professional Required</th>
-                </tr>
-              </thead>
-              <tbody className='text-slate-700'>
-                <tr className='border-b border-slate-100'>
-                  <td className='px-6 py-4 font-medium'>Less than 1 inch of clean water, unfinished basement</td>
-                  <td className='px-6 py-4'>Yes</td>
-                  <td className='px-6 py-4'>No</td>
-                </tr>
-                <tr className='border-b border-slate-100 bg-slate-50'>
-                  <td className='px-6 py-4 font-medium'>1 to 3 inches of clean water, unfinished basement</td>
-                  <td className='px-6 py-4'>Possible with rented equipment</td>
-                  <td className='px-6 py-4'>Recommended</td>
-                </tr>
-                <tr className='border-b border-slate-100'>
-                  <td className='px-6 py-4 font-medium'>Any depth of clean water, finished basement</td>
-                  <td className='px-6 py-4'>Possible but risky</td>
-                  <td className='px-6 py-4'>Strongly recommended</td>
-                </tr>
-                <tr className='border-b border-slate-100 bg-slate-50'>
-                  <td className='px-6 py-4 font-medium'>Any sewage (Category 3) water</td>
-                  <td className='px-6 py-4'>No</td>
-                  <td className='px-6 py-4'>Yes</td>
-                </tr>
-                <tr className='border-b border-slate-100'>
-                  <td className='px-6 py-4 font-medium'>Any depth, mold already visible</td>
-                  <td className='px-6 py-4'>No</td>
-                  <td className='px-6 py-4'>Yes</td>
-                </tr>
-                <tr className='border-b border-slate-100 bg-slate-50'>
-                  <td className='px-6 py-4 font-medium'>Insurance claim involved</td>
-                  <td className='px-6 py-4'>Possible but document thoroughly</td>
-                  <td className='px-6 py-4'>Insurer may require professional assessment</td>
-                </tr>
-                <tr>
-                  <td className='px-6 py-4 font-medium'>Water has been sitting more than 48 hours</td>
-                  <td className='px-6 py-4'>No</td>
-                  <td className='px-6 py-4'>Yes</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-
-          <h3 className='text-xl font-bold text-slate-900 mt-6 mb-2'>Professional water damage restoration costs:</h3>
-          <ul className='list-disc pl-6 space-y-2 text-slate-700'>
-            <li>Water extraction and drying only: $1,500 to $3,500</li>
-            <li>Extraction, drying, and disinfection: $2,500 to $5,000</li>
-            <li>Full restoration including drywall removal and rebuild: $5,000 to $15,000</li>
-            <li>Sewage backup cleanup and restoration: $7,000 to $20,000</li>
-          </ul>
-          <p className='text-slate-700 leading-relaxed mt-4'>Responding late adds roughly $1,000 to $2,000 to any professional restoration job due to the additional mold risk and deeper material saturation.</p>
-        </section>
-
-        {/* Mold Prevention */}
-        <section className='mt-16 pt-8 border-t border-slate-100'>
-          <h2 className='text-3xl font-bold text-slate-900 mb-4'>Mold Prevention: The 10-Day Watch</h2>
-          <p className='text-slate-700 leading-relaxed mb-4'>Even after thorough drying, mold can still establish in areas that were not fully dried or in materials with residual moisture. Monitor the basement for 10 days after the flood event.</p>
-
-          <h3 className='text-xl font-bold text-slate-900 mt-6 mb-2'>Signs of developing mold:</h3>
-          <ul className='list-disc pl-6 space-y-2 text-slate-700 mb-6'>
-            <li>Musty odor that was not present before the flood</li>
-            <li>Visible discoloration on walls, floor, or framing (black, green, white, or gray patches)</li>
-            <li>Recurrence of visible moisture on surfaces after drying</li>
-          </ul>
-
-          <p className='text-slate-700 leading-relaxed mb-4'><strong>If mold appears:</strong> If mold coverage is less than 10 square feet, the EPA states a homeowner can clean it using appropriate protective equipment and an EPA-registered disinfectant. If mold covers more than 10 square feet, if it is in HVAC systems, or if it is in walls that were not opened during the flood cleanup, professional mold remediation is required.</p>
-
-          <p className='text-slate-700 leading-relaxed'>Professional mold remediation costs $1,500 to $9,000 depending on extent and location. See our <Link href='/articles/mold-remediation-cost' className='text-emerald-700 underline hover:text-emerald-900'>mold remediation cost guide</Link> for a full breakdown.</p>
-
-          <p className='text-slate-700 leading-relaxed mt-4'>If a failing or undersized sump pump contributed to the flooding, replacement is often the smartest investment to prevent recurrence. Use our <Link href='/cost-guides/sump-pump-replacement-cost' className='text-emerald-700 underline hover:text-emerald-900'>sump pump replacement cost guide</Link> to estimate the project.</p>
-        </section>
-
-        {/* FAQ */}
-        <section className='mt-16 pt-8 border-t border-slate-100'>
-          <h2 className='text-3xl font-bold text-slate-900 mb-6'>Frequently Asked Questions</h2>
-          <div className='space-y-8'>
-            <div>
-              <h3 className='text-xl font-bold text-slate-900 mb-2'>How long does it take to clean up a flooded basement?</h3>
-              <p className='text-slate-700 leading-relaxed'>Water removal from a standard basement takes 2 to 6 hours with a submersible pump or professional extraction unit. Drying the basement thoroughly takes 3 to 5 days with commercial drying equipment or 7 to 14 days with consumer-grade equipment. Material removal, disinfection, and debris disposal add 1 to 2 days. Full reconstruction of finished surfaces after a severe flooding event takes 2 to 8 weeks depending on scope. The minimum realistic timeline from flood to fully dry and disinfected basement is 4 to 7 days.</p>
-            </div>
-            <div>
-              <h3 className='text-xl font-bold text-slate-900 mb-2'>Does homeowners insurance cover a flooded basement?</h3>
-              <p className='text-slate-700 leading-relaxed'>It depends entirely on the water source. Burst pipes and supply line failures are typically covered by standard homeowners insurance. Sewer backup, sump pump failure, and drain overflow are not covered unless you have added a water backup endorsement (costs $50 to $250 per year). Surface flooding from outside requires separate NFIP flood insurance, which cannot be purchased during a flood event and has a 30-day waiting period. Check your policy declarations page for water backup endorsements and call your insurer before beginning cleanup if time allows.</p>
-            </div>
-            <div>
-              <h3 className='text-xl font-bold text-slate-900 mb-2'>Can I clean up a flooded basement myself?</h3>
-              <p className='text-slate-700 leading-relaxed'>Yes for minor flooding with clean water in an unfinished basement caught within a few hours. You need a submersible pump or wet-dry vacuum, commercial dehumidifiers, fans, protective equipment, and a moisture meter. For any sewage contamination, any flooding in a finished basement, any situation where mold is already visible, or any water that has been sitting more than 48 hours, professional restoration is strongly recommended. The cost differential between DIY and professional is typically $2,000 to $4,000, which is less than the cost of mold remediation if DIY cleanup is inadequate.</p>
-            </div>
-            <div>
-              <h3 className='text-xl font-bold text-slate-900 mb-2'>How much does professional basement flood cleanup cost?</h3>
-              <p className='text-slate-700 leading-relaxed'>Professional water extraction and drying for a standard basement costs $1,500 to $3,500. Adding disinfection brings the total to $2,500 to $5,000. Full restoration including drywall removal, insulation removal, and rebuild costs $5,000 to $15,000 for a finished basement. Sewage backup cleanup with biohazard protocols costs $7,000 to $20,000. Responding quickly reduces cost significantly. Delays of 48 hours or more add $1,000 to $2,000 to any professional job due to deeper saturation and mold risk.</p>
-            </div>
-            <div>
-              <h3 className='text-xl font-bold text-slate-900 mb-2'>What should I throw away after basement flooding?</h3>
-              <p className='text-slate-700 leading-relaxed'>FEMA guidance is clear on this: remove all drywall, fiberglass insulation, cellulose insulation, and carpet padding that contacted floodwater. Carpet can sometimes be saved if it absorbed clean water and is dried within 24 hours. Cardboard boxes, paper items, and particleboard furniture that absorbed floodwater should be discarded. Mattresses, upholstered furniture, and pillows that absorbed sewage or gray water should be discarded. Concrete, ceramic tile, metal, and solid wood can usually be cleaned and dried. Keep small samples of discarded flooring, carpet, and wallpaper for insurance documentation before throwing them out.</p>
-            </div>
-            <div>
-              <h3 className='text-xl font-bold text-slate-900 mb-2'>How do I prevent mold after a basement flood?</h3>
-              <p className='text-slate-700 leading-relaxed'>The 48-hour rule governs mold prevention: remove all standing water and begin aggressive drying within 48 hours of the flood event. Remove all porous materials that cannot be dried within that window (insulation, carpet padding, saturated drywall). Run commercial dehumidifiers and air movers continuously until a moisture meter confirms all structural materials read below 19 percent moisture content. Apply EPA-registered disinfectant to all surfaces that contacted floodwater. Monitor the basement for 10 days after drying for musty odors or visible mold growth. See our <Link href='/articles/complete-basement-waterproofing-guide' className='text-emerald-700 underline hover:text-emerald-900'>complete basement waterproofing guide</Link> to prevent the next event.</p>
-            </div>
-            <div>
-              <h3 className='text-xl font-bold text-slate-900 mb-2'>What is the difference between a flooded basement from a burst pipe vs rain?</h3>
-              <p className='text-slate-700 leading-relaxed'>The source determines insurance coverage, water category, and cleanup requirements. A burst pipe produces Category 1 clean water with no biological hazard, typically covered by standard homeowners insurance, and porous materials can potentially be saved if dried within 48 hours. Rain-driven basement flooding is usually Category 1 or 2 water, not covered by standard homeowners insurance (requires flood insurance), and cleanup requirements are similar to burst pipe flooding. Sewage backup produces Category 3 black water, a biological hazard requiring personal protective equipment, professional biohazard cleanup protocols, and mandatory discarding of all porous materials regardless of drying timeline.</p>
-            </div>
-            <div>
-              <h3 className='text-xl font-bold text-slate-900 mb-2'>When should I call a professional instead of cleaning up myself?</h3>
-              <p className='text-slate-700 leading-relaxed'>Call a professional immediately for: any sewage or Category 3 water, any flooding in a finished basement with drywall and insulation, any water that has been sitting more than 48 hours, any visible mold growth, any flooding where the water source is unclear, and any situation involving an insurance claim where professional documentation may be required. For minor clean water flooding in an unfinished basement caught quickly, DIY cleanup with proper equipment is reasonable. When in doubt, the cost of professional assessment ($200 to $400) is worth knowing what you are dealing with before committing to a DIY cleanup that may be inadequate.</p>
-            </div>
-          </div>
-        </section>
-
-        {/* Related Guides */}
-        <section className='mt-16 pt-8 border-t border-slate-100'>
-          <h2 className='text-3xl font-bold text-slate-900 mb-4'>Related Guides</h2>
-          <div className='grid md:grid-cols-2 gap-6'>
-            <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
-              <Link href='/articles/complete-basement-waterproofing-guide' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>Complete Basement Waterproofing Guide</Link>
-              <p className='text-slate-600 text-sm mt-1'>Permanent solutions to prevent the next flood event</p>
-            </div>
-            <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
-              <Link href='/articles/sump-pump-buying-guide' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>Sump Pump Guide</Link>
-              <p className='text-slate-600 text-sm mt-1'>Replacing or upgrading the sump pump that failed</p>
-            </div>
-            <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
-              <Link href='/articles/mold-remediation-cost' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>Mold Remediation Cost</Link>
-              <p className='text-slate-600 text-sm mt-1'>What professional mold removal costs if cleanup was delayed</p>
-            </div>
-            <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
-              <Link href='/articles/problems/basement-water-after-rain' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>Water in Basement After Rain</Link>
-              <p className='text-slate-600 text-sm mt-1'>Diagnosing why flooding keeps happening</p>
-            </div>
-            <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
-              <Link href='/articles/interior-basement-drainage-systems' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>Interior Basement Drainage Systems</Link>
-              <p className='text-slate-600 text-sm mt-1'>Long-term drainage solutions after repeated flooding</p>
-            </div>
-          </div>
-
-          <div className='mt-8'>
-            <h3 className='text-xl font-semibold text-slate-800 mb-4'>External Resource</h3>
-            <div className='grid md:grid-cols-2 gap-6'>
-              <div className='bg-white rounded-lg p-6 shadow-sm border border-slate-200'>
-                <a href='https://www.fema.gov/blog/stay-safe-cleaning-after-flood' target='_blank' rel='noopener noreferrer' className='text-emerald-700 underline hover:text-emerald-900 font-semibold'>FEMA: Stay Safe Cleaning Up After a Flood</a>
-                <p className='text-slate-600 text-sm mt-1'>Federal guidance on personal safety, cleaning procedures, and health precautions during flood cleanup</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Glossary */}
-        <section className='mt-16 pt-8 border-t border-slate-100'>
-          <h2 className='text-3xl font-bold text-slate-900 mb-6'>Glossary</h2>
-          <div className='space-y-6'>
-            <div>
-              <h4 className='font-bold text-slate-900'>Category 1 Water</h4>
-              <p className='text-slate-700'>Clean water from a sanitary source such as a burst supply pipe, rainwater, or appliance supply line. Contains no significant biological contamination at the time of loss. Porous materials can potentially be salvaged if dried within 48 hours. Can degrade to Category 2 or 3 if left standing more than 24 to 48 hours.</p>
-            </div>
-            <div>
-              <h4 className='font-bold text-slate-900'>Category 3 Water (Black Water)</h4>
-              <p className='text-slate-700'>Grossly contaminated water containing pathogens and toxigenic agents. Sources include sewage backup, toilet overflow with feces, rising floodwater from outside, and any water that has been standing more than 48 hours. All porous materials that contacted Category 3 water must be discarded regardless of drying timeline. Professional biohazard cleanup protocols required.</p>
-            </div>
-            <div>
-              <h4 className='font-bold text-slate-900'>Flood Cut</h4>
-              <p className='text-slate-700'>The industry standard technique of cutting drywall 12 inches above the visible water line to expose the wall cavity for drying and inspection. Allows verification that insulation has been removed and framing has been dried before drywall replacement. Named for its use in flood restoration specifically.</p>
-            </div>
-            <div>
-              <h4 className='font-bold text-slate-900'>Moisture Meter</h4>
-              <p className='text-slate-700'>An instrument that measures the moisture content of building materials such as wood framing, drywall, and subfloor. Essential for confirming complete drying before reconstruction. Wood should read below 19 percent moisture content before being closed up in walls or covered with flooring. Costs $20 to $60 for a consumer-grade instrument, $100 to $300 for professional-grade.</p>
-            </div>
-            <div>
-              <h4 className='font-bold text-slate-900'>Water Backup Endorsement</h4>
-              <p className='text-slate-700'>An optional add-on to a standard homeowners insurance policy that covers damage from sewer backup, drain backup, and sump pump failure. Costs $50 to $250 per year. Coverage limits range from $5,000 to $25,000. Does not cover surface flooding from outside, which requires separate NFIP flood insurance.</p>
-            </div>
-            <div>
-              <h4 className='font-bold text-slate-900'>NFIP (National Flood Insurance Program)</h4>
-              <p className='text-slate-700'>The federal program administered by FEMA that provides flood insurance to residential and commercial property owners. Covers damage from rising water, surface flooding, and storm surge. Does not cover sewer backup or sump pump failure. Average annual premium for residential properties in moderate-risk zones is $700 to $1,000. Has a mandatory 30-day waiting period before coverage activates. It cannot be purchased during an active flood event.</p>
-            </div>
-            <div>
-              <h4 className='font-bold text-slate-900'>Dehumidifier Capacity (Pints Per Day)</h4>
-              <p className='text-slate-700'>The volume of moisture a dehumidifier removes from the air in 24 hours. Standard residential dehumidifiers remove 50 to 70 pints per day. Commercial restoration dehumidifiers remove 150 to 200 pints per day. A flooded basement requires commercial-capacity dehumidification for timely drying within the 48-hour mold prevention window.</p>
-            </div>
-            <div>
-              <h4 className='font-bold text-slate-900'>Air Mover</h4>
-              <p className='text-slate-700'>A directional fan designed specifically for water damage restoration that moves high volumes of air across wet surfaces to accelerate evaporation. More effective than standard household fans for drying flooded spaces because they direct airflow at low angles across floors and walls rather than circulating room air. Available to rent from equipment rental companies for $25 to $50 per day each. Most professional restoration companies deploy multiple air movers simultaneously with commercial dehumidifiers to achieve drying within 3 to 5 days.</p>
-            </div>
-            <div>
-              <h4 className='font-bold text-slate-900'>Hydrostatic Pressure</h4>
-              <p className='text-slate-700'>The force exerted by water-saturated soil against foundation walls. Relevant during basement flooding because pumping water from the basement too rapidly when outside soil is fully saturated can create a pressure differential that cracks or bows foundation walls. The recommended maximum pumping rate during active flooding is 2 to 3 feet of water depth removed per day.</p>
-            </div>
-          </div>
-        </section>
-
+        <div data-cleanup-copy='before-form' dangerouslySetInnerHTML={{__html:beforeForm}} />
+        <LeadForm />
+        <div data-cleanup-copy='after-form' dangerouslySetInnerHTML={{__html:afterForm}} />
       </article>
-
-      {/* Newsletter */}
-      <BeehiivEmailCapture />
-
-      {/* Lead Form CTA */}
-      <section className='max-w-4xl mx-auto px-6 py-16'>
-        <div className='bg-slate-900 rounded-2xl p-8 md:p-12'>
-          <h2 className='text-3xl font-bold text-white mb-4'>Get Expert Help With Your Flooded Basement</h2>
-          <p className='text-slate-300 mb-8 text-lg'>
-            Connect with pre-vetted water damage restoration professionals in your area. Free assessments, no obligation.
-          </p>
-          <LeadForm />
-        </div>
-      </section>
-
+      <BeehiivEmailCapture avoidEmDash />
     </div>
   )
 }

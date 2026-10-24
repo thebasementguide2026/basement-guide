@@ -47,6 +47,13 @@ export default function ArticleSchemaInjector() {
   }
 
   // Get additional schemas for this article
+  if (slug === 'how-to-dry-out-basement-after-flooding') {
+    articleSchema.headline = "What to Do When Your Basement Floods, Step by Step Cleanup and Drying"
+    articleSchema.description = "What to do when your basement floods, hour by hour. Safety first, then water removal, what to throw out, cleaning, and drying. How long it takes and when to call a pro."
+    articleSchema.dateModified = '2026-10-24'
+    articleSchema.author.name = 'The Basement Guide Editorial Team'
+  }
+
   const extras = articleSchemas[slug] || {}
   const schemas: object[] = [articleSchema]
 

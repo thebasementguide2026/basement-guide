@@ -521,7 +521,7 @@ export const articleSchemas: Record<string, ArticleSchemaData> = {
         { name: 'Ensure safety', text: 'Turn off electricity at the breaker before entering standing water. Wear rubber boots, N95 respirator, and gloves. Do not enter if sewage is present without proper PPE.' },
         { name: 'Extract standing water', text: 'Use a submersible pump or wet/dry shop vac to remove all standing water as quickly as possible. Time is critical to prevent mold.' },
         { name: 'Remove damaged materials', text: 'Cut out wet drywall 12 to 24 inches above the water line. Remove wet carpet, padding, and insulation. Discard porous materials that cannot be fully dried.' },
-        { name: 'Dry the structure', text: 'Run commercial dehumidifiers and high-velocity air movers for 3 to 5 days. Monitor moisture levels with a pin moisture meter until readings drop below 15 percent.' },
+        { name: 'Dry the structure', text: 'Run commercial dehumidifiers and high-velocity air movers for 3 to 5 days. Monitor moisture levels with a pin moisture meter until readings reach 15% moisture or lower, or within a few points of dry wood elsewhere in the house.' },
         { name: 'Prevent mold', text: 'Apply antimicrobial solution to all affected surfaces. Continue running dehumidifiers and monitor for mold growth for at least 2 weeks after drying.' },
       ],
     },

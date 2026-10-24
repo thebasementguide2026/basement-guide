@@ -17,6 +17,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ]
 
   const articleDates: Record<string, string> = {
+  "problems/basement-flooding-cleanup": "2026-10-24",
+  "how-to-dry-out-basement-after-flooding": "2026-10-24",
   "sump-pump-cost": "2026-10-24",
   "french-drain-cost": "2026-10-24",
   "basement-humidity-guide": "2026-10-24",
