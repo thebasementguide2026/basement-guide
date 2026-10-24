@@ -4,29 +4,134 @@ import LeadForm from '@/components/LeadForm'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'French Drain Cost 2026: Installation Prices Per Linear Foot & Full Project | The Basement Guide',
-  description: 'French drain installation costs $10 to $50 per linear foot or $1,000 to $6,000 for a full project. Covers interior basement drains, exterior yard drains, and what drives the price difference.',
-  alternates: { canonical: 'https://thebasement.guide/articles/french-drain-cost' },
+  "title": "French Drain Cost 2026: $10 to $85 per Foot, Yard vs. Basement Price Chart | The Basement Guide",
+  "description": "French drains cost $10 to $50 per foot in a yard and $40 to $85 per foot inside a basement. See prices for 25 to 200 feet, French drain plus sump pump packages, and DIY costs.",
+  "alternates": {
+    "canonical": "https://thebasement.guide/articles/french-drain-cost"
+  },
+  "openGraph": {
+    "title": "French Drain Cost 2026: $10 to $85 per Foot, Yard vs. Basement Price Chart | The Basement Guide",
+    "description": "French drains cost $10 to $50 per foot in a yard and $40 to $85 per foot inside a basement. See prices for 25 to 200 feet, French drain plus sump pump packages, and DIY costs.",
+    "url": "https://thebasement.guide/articles/french-drain-cost"
+  },
+  "twitter": {
+    "title": "French Drain Cost 2026: $10 to $85 per Foot, Yard vs. Basement Price Chart | The Basement Guide",
+    "description": "French drains cost $10 to $50 per foot in a yard and $40 to $85 per foot inside a basement. See prices for 25 to 200 feet, French drain plus sump pump packages, and DIY costs."
+  }
+}
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "How Much Does a French Drain Cost? 2026 Prices by Foot, Length, and Type",
+  "description": "French drains cost $10 to $50 per foot in a yard and $40 to $85 per foot inside a basement. See prices for 25 to 200 feet, French drain plus sump pump packages, and DIY costs.",
+  "image": "https://thebasement.guide/french-drain-trench.jpg",
+  "datePublished": "2026-02-01T00:00:00-05:00",
+  "dateModified": "2026-10-24",
+  "author": {
+    "@type": "Organization",
+    "name": "The Basement Guide Editorial Team",
+    "url": "https://thebasement.guide"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "The Basement Guide",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://thebasement.guide/logo.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://thebasement.guide/articles/french-drain-cost"
+  }
 }
 
 const faqSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'FAQPage',
-  mainEntity: [
-    { '@type': 'Question', name: 'How much does a French drain cost to install in 2026?', acceptedAnswer: { '@type': 'Answer', text: 'The average French drain installation cost is $5,000 in 2026. Exterior yard drains cost $2,800 to $6,500 for a typical 100-foot installation at $10 to $35 per linear foot. Interior basement perimeter drain systems cost $4,000 to $12,000 or more for a 1,000 square foot basement at $40 to $85 per linear foot. The single biggest cost variable is soil and site conditions, which can each add $500 to $2,000 to the base cost.' } },
-    { '@type': 'Question', name: 'Is an interior French drain better than an exterior French drain for basement waterproofing?', acceptedAnswer: { '@type': 'Answer', text: 'Neither is universally better — they address different water problems. An interior basement perimeter drain intercepts water at the point of entry from the floor-wall joint or rising water table. An exterior French drain intercepts water before it reaches the foundation by capturing surface runoff or shallow groundwater. Many homes benefit from both systems working together.' } },
-    { '@type': 'Question', name: 'Can I install a French drain myself to save money?', acceptedAnswer: { '@type': 'Answer', text: 'A shallow exterior yard French drain is achievable for DIY, with realistic savings of $1,000 to $2,500 in labor. Key requirements are maintaining 1 percent minimum slope, using proper geotextile filter fabric, and calling 811 before digging. Interior basement French drains are not appropriate DIY projects because they require jackhammering concrete, correctly sloping the drain channel, and integrating with a sump pit.' } },
-    { '@type': 'Question', name: 'How long does a French drain last before it needs to be replaced?', acceptedAnswer: { '@type': 'Answer', text: 'A properly installed French drain lasts 20 to 40 years when correct filter fabric is used, gravel sizing is appropriate, and basic annual maintenance is performed. The primary cause of premature failure is clogging from fine soil particles migrating through undersized or missing filter fabric. Annual flushing with a garden hose pushes accumulated sediment toward the discharge end before it hardens.' } },
-    { '@type': 'Question', name: 'Does a French drain increase home value?', acceptedAnswer: { '@type': 'Answer', text: 'Yes, solving basement water and yard drainage problems with a documented French drain installation consistently improves home value by 5 to 15 percent compared to comparable homes with undocumented or problematic drainage. The value effect is strongest for interior basement perimeter drain systems that transform a wet basement into dry, usable space. Keep all contractor invoices, warranties, and inspection records as documentation.' } },
-    { '@type': 'Question', name: 'Does a French drain need a sump pump to work?', acceptedAnswer: { '@type': 'Answer', text: 'Interior basement French drain systems almost always require a sump pump because there is typically no gravity discharge path available below floor level. Exterior French drains use gravity flow exclusively and do not require a pump as long as the discharge point is lower than the drain inlet and slope is maintained at minimum 1 percent. Exterior drains on flat properties may benefit from a pump in the collection basin.' } },
-  ],
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does a French drain cost to install in 2026?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yard or exterior French drain: $10 to $50 per linear foot. Most homeowners pay $1,000 to $5,000. Interior basement French drain: $40 to $85 per linear foot. Most homeowners pay $4,000 to $12,000 for a typical 1,000 sq ft basement. A typical 100-foot exterior installation costs $1,000 to $2,500 for a shallow yard drain, or $2,500 to $5,000 for a deep drain along the foundation. Exterior or yard drains cost $10 to $25 per foot for a shallow yard drain, or $25 to $50 per foot for a deep drain along the foundation. Interior basement perimeter drain systems cost $4,000 to $12,000 or more for a 1,000 square foot basement at $40 to $85 per linear foot, with the higher cost driven by concrete jackhammering, sump pump installation, and the complexity of working inside an occupied home. The single biggest cost variable within each type is soil and site conditions, clay soil, rocky ground, and obstructions like utilities, tree roots, and existing hardscaping can each add $500 to $2,000 to the base cost. Always get at least three written quotes that specify the drain type, pipe material, filter fabric, discharge point, and warranty before committing to a contractor."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is an interior French drain better than an exterior French drain for basement waterproofing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Neither is universally better. They address different water problems, and choosing between them depends on where your water is coming from rather than which system is more expensive or comprehensive. An interior basement perimeter drain is the right choice when water is entering through the floor-wall joint, rising from below due to a high water table, or seeping through the lower wall sections under hydrostatic pressure, because it intercepts water at the point of entry and removes it before it can spread across the floor. An exterior French drain at the foundation footing is the right choice when water is saturating the soil adjacent to the foundation wall and driving hydrostatic pressure against it from outside, because it relieves that pressure at the source before water reaches the wall. Many homes with chronic basement water problems benefit from both systems working together: the exterior drain reduces the volume of water pressing against the foundation, and the interior drain manages any residual water that does enter. See our interior vs exterior waterproofing guide for the full decision framework."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I install a French drain myself to save money?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A shallow exterior yard French drain is one of the more achievable DIY drainage projects for a homeowner comfortable with physical labor and basic excavation work. The realistic DIY savings on a 50-foot exterior drain are $1,000 to $2,500 in labor, with materials running $500 to $1,500 versus a professional installation cost of $2,500 to $4,000. The key requirements for a successful DIY exterior drain are maintaining a consistent 1 percent minimum slope toward the discharge point, using proper non-woven geotextile filter fabric wrapped completely around the gravel bed, and calling 811 before digging to mark underground utilities. Interior basement French drains are not appropriate DIY projects for most homeowners because they require jackhammering reinforced concrete, correctly sloping the drain channel under the slab, integrating the system with a sump pit, and pouring new concrete over the completed drain, all of which require specialized equipment and experience to do correctly. An improperly installed interior drain that does not slope correctly or connect properly to the sump will fail immediately and require professional repair at greater total cost than hiring correctly from the start. See our DIY vs hiring a pro guide for how to evaluate this decision honestly."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does a French drain last before it needs to be replaced?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A properly installed French drain lasts 20 to 40 years when the correct filter fabric is used, gravel sizing is appropriate for the soil type, and basic annual maintenance is performed. The primary cause of premature French drain failure is clogging: fine soil particles migrate through undersized or missing filter fabric over time and fill the gravel voids and pipe perforations, reducing the system's ability to collect and move water. Clay-heavy soils are the most aggressive at clogging French drains because clay particles are small enough to pass through low-quality filter fabrics and dense enough to compact within the gravel bed. Annual flushing of the drain line with a garden hose from the highest access point pushes accumulated sediment toward the discharge end before it hardens into a permanent clog. Interior basement drain systems that incorporate a sump pump have the additional maintenance requirement of pump testing and battery backup replacement, which affects the functional lifespan of the complete system independent of the drain tile itself. See our why does my basement still flood guide for the signs that a French drain is failing or underperforming."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does a French drain increase home value?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, solving basement water and yard drainage problems with a documented French drain installation consistently improves home value and marketability, particularly in regions where basement water issues are common and buyers are conditioned to ask about drainage history. A dry basement with documented waterproofing work including a French drain and sump pump system can increase appraised value by 5 to 15 percent compared to a comparable home with undocumented or problematic drainage, because buyers and appraisers treat unresolved water history as a material risk that discounts the offer price. The value effect is strongest for interior basement perimeter drain systems that transform a wet basement into a dry, usable space, because the square footage becomes genuinely livable and can be legally finished. Exterior yard drains that eliminate standing water near the foundation add value by removing a visible drainage problem that would otherwise show up in a home inspection report as a recommended repair item. Keep all contractor invoices, warranties, and inspection records as part of the home's documentation package, because documented drainage work is significantly more valuable to buyers and appraisers than undocumented improvements. See our waterproofing and home appraisal value guide for data on how drainage improvements affect appraised outcomes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does a French drain need a sump pump to work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Interior basement French drain systems almost always require a sump pump because the drain channel collects water at the lowest point in the basement and there is typically no gravity discharge path available below floor level. The perimeter drain channels water to a sump pit at the lowest point, and the pump then removes it through a discharge line to a point well away from the foundation. Without the pump, the sump pit would fill and overflow, defeating the entire purpose of the drain system. Exterior French drains use gravity flow exclusively and do not require a pump as long as the discharge point is lower than the drain inlet and the slope is maintained at a minimum of 1 percent throughout the run. However, exterior drains on flat properties or those discharging into a dry well rather than a daylight outlet may benefit from a pump in the collection basin when gravity alone is insufficient to move the collected water fast enough during heavy rain events. See our sump pump buying guide and backup power for sump pumps guide for how to choose and protect the pump that pairs with any interior French drain system."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does a 100-foot French drain cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "About $1,000 to $2,500 for a shallow yard drain, $2,500 to $5,000 for a deep drain along the foundation, and $4,000 to $8,500 for an interior basement perimeter drain. Add $800 to $2,500 if the job needs a sump pump, and expect extra for concrete removal, catch basins, or a long discharge line."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does an interior French drain and sump pump cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most homeowners pay $4,800 to $15,000 for an interior perimeter drain plus a sump pump. A 100 foot system with a pump typically runs $4,800 to $11,000, and a 150 foot system $6,800 to $15,250. A battery backup pump adds $500 to $1,500. Get at least three quotes with the drain, pump, and backup priced as separate lines."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is drain tile the same as a French drain?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mostly, yes. Drain tile, weeping tile (the common term in Canada), perimeter drain, and footing drain all describe a perforated pipe in gravel that collects groundwater and carries it away. \"French drain\" usually means a yard or exterior trench, while \"drain tile\" and \"weeping tile\" usually mean the drain around the foundation footing, inside or outside. The per-foot prices on this page apply to all of them."
+      }
+    }
+  ]
 }
 
 export default function FrenchDrainCostPage() {
   return (
     <div className='bg-white min-h-screen'>
+      <script type='application/ld+json' dangerouslySetInnerHTML={{__html:JSON.stringify(articleSchema)}} />
       {/* Article Hero */}
-      <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
+      <section className='relative md:h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
         <Image
           src='/french-drain-trench.jpg'
           alt='French drain installation for cost guide'
@@ -35,17 +140,14 @@ export default function FrenchDrainCostPage() {
           priority
         />
         <div className='absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent' />
-        <div className='relative h-full max-w-7xl mx-auto px-6 flex flex-col justify-end pb-20'>
+        <div className='relative h-full max-w-7xl mx-auto px-6 flex flex-col justify-end pt-20 md:pt-0 pb-20'>
           <div className='flex items-center space-x-3 mb-8'>
             <div className='w-12 h-px bg-violet-500'></div>
             <span className='text-violet-400 font-bold tracking-[0.3em] text-sm uppercase'>Cost Guide</span>
           </div>
-          <h1 className='text-5xl md:text-7xl font-black text-white mb-6 leading-[0.9] tracking-tighter'>
-            French Drain<br />
-            <span className='text-violet-400'>Cost Guide 2026</span>
-          </h1>
+          <h1 className='text-5xl md:text-7xl font-black text-white mb-6 leading-[0.9] tracking-tighter'>How Much Does a French Drain Cost? 2026 Prices by Foot, Length, and Type</h1>
           <p className='text-xl text-slate-300 max-w-2xl mb-10 font-medium leading-relaxed'>
-            Protect your foundation and yard. Real price data from $10 to $85 per linear foot, with full breakdowns by installation type, DIY savings, and recommended products.
+            Protect your foundation and yard. Real price data from $10 to $50 per foot in a yard, $40 to $85 per foot inside a basement, with full breakdowns by installation type, DIY savings, and recommended products.
           </p>
           <div className='flex items-center space-x-4'>
             <div className='flex items-center bg-slate-800/50 backdrop-blur-md rounded-full px-6 py-3 border border-slate-700/50 shadow-2xl'>
@@ -53,11 +155,11 @@ export default function FrenchDrainCostPage() {
                 BG
               </div>
               <div className='flex flex-col'>
-                <span className='text-white font-bold text-sm'>The Basement Guide Staff</span>
+                <span className='text-white font-bold text-sm'>By The Basement Guide Editorial Team</span>
                 <div className='flex items-center text-slate-400 text-xs font-medium'>
-                  <span>Updated Feb 2026</span>
+                  <span>Updated October 2026</span>
                   <span className='mx-2 text-slate-600'>&middot;</span>
-                  <span>18 min read</span>
+                  <span>25 min read</span>
                 </div>
               </div>
             </div>
@@ -69,20 +171,24 @@ export default function FrenchDrainCostPage() {
       <main className='max-w-4xl mx-auto px-6 py-24'>
         <div className='prose prose-lg prose-slate max-w-none prose-headings:text-slate-900 prose-headings:font-black prose-headings:tracking-tight prose-p:text-slate-600 prose-p:leading-relaxed prose-a:text-violet-600 prose-a:no-underline hover:prose-a:underline'>
 
-          
+
           {/* Quick Answer Box */}
           <div className='bg-violet-50 border-l-4 border-violet-600 rounded-r-3xl p-8 mb-16 not-prose shadow-sm'>
-            <p className='text-xs font-bold text-violet-700 uppercase tracking-widest mb-3'>Quick Answer</p>
-            <p className='text-slate-900 text-2xl font-bold mb-4'>
-              A French drain costs <span className='text-violet-600'>$5,000</span> on average in 2026.
-            </p>
-            <p className='text-slate-600 leading-relaxed font-medium'>
-              Expect to pay <strong>$10 to $35 per linear foot</strong> for exterior yard drains and <strong>$40 to $85 per linear foot</strong> for interior basement systems. DIY installations can save 40 to 60 percent on labor.
-            </p>
+            <p className='text-xs font-bold text-violet-700 uppercase tracking-widest mb-3'>TL;DR</p>
+
+<ul className="space-y-3 list-disc pl-6 text-slate-600 leading-relaxed font-medium">
+<li><strong>Yard or exterior French drain:</strong> $10 to $50 per linear foot. Most homeowners pay $1,000 to $5,000.</li>
+<li><strong>Interior basement French drain:</strong> $40 to $85 per linear foot. Most homeowners pay $4,000 to $12,000 for a typical 1,000 sq ft basement.</li>
+<li><strong>Interior drain plus sump pump:</strong> about $4,800 to $15,000, since most interior systems need one.</li>
+<li><strong>100 feet costs</strong> about $1,000 to $2,500 for a shallow yard drain, $2,500 to $5,000 for a deep exterior drain, and $4,000 to $8,500 for an interior basement drain.</li>
+<li><strong>DIY</strong> a shallow yard drain for $400 to $800 in materials and tool rental. Interior basement drains are a pro job.</li>
+<li><strong>Drain tile, weeping tile, and perimeter drain</strong> are other names for the same idea. Prices on this page apply to all of them.</li>
+</ul>
+
           </div>
 
           <p className='text-2xl font-medium text-slate-800 leading-relaxed mb-12 border-l-4 border-violet-500 pl-8'>
-            Whether you are dealing with a swampy backyard or a basement that seeps during every storm, a French drain is the gold standard for residential water management. A French drain is a gravel-filled trench containing a perforated pipe that collects and redirects groundwater or surface water away from a foundation, basement, or low-lying yard area. French drain installation costs $10 to $35 per linear foot for exterior yard drains and $40 to $85 per linear foot for interior basement perimeter systems, with the national average project cost at approximately $5,000 in 2026. The total price depends primarily on whether the drain is installed inside the basement (requiring concrete removal and a sump pump) or outside in the yard (requiring excavation and grading).
+            Whether you are dealing with a swampy backyard or a basement that seeps during every storm, a French drain is the gold standard for residential water management. A French drain is a gravel-filled trench containing a perforated pipe that collects and redirects groundwater or surface water away from a foundation, basement, or low-lying yard area. French drain installation costs $10 to $25 per foot for a shallow yard drain, or $25 to $50 per foot for a deep drain along the foundation. Most homeowners pay $1,000 to $5,000. Interior basement French drain: $40 to $85 per linear foot. Most homeowners pay $4,000 to $12,000 for a typical 1,000 sq ft basement. The total price depends primarily on whether the drain is installed inside the basement (requiring concrete removal and a sump pump) or outside in the yard (requiring excavation and grading).
           </p>
           <p className='text-lg text-slate-700 leading-relaxed mb-8'>
             A French drain is a passive, gravity-fed drainage system with no mechanical components that works by creating a preferential pathway for groundwater and surface water to follow, collecting water in a gravel-filled trench and directing it through a perforated pipe to a lower discharge point. Despite sharing a name, an interior basement French drain and an exterior yard French drain are fundamentally different projects in scope, cost, and purpose. An exterior French drain intercepts water before it reaches the foundation by capturing surface runoff or shallow groundwater in the yard and redirecting it away from the structure, while an interior basement perimeter drain intercepts water after it has already entered or is actively entering the foundation assembly and routes it to a sump pump for removal. Understanding which type your property needs is the most important decision in this project because the two systems solve different problems, and installing the wrong type wastes the entire budget without resolving the underlying water issue. For a complete project estimate that combines french drain installation with sump pump tie-in and any associated waterproofing, try our <Link href='/cost-guides/basement-waterproofing-cost-calculator' className='text-violet-700 underline hover:text-violet-900'>basement waterproofing cost calculator</Link>.
@@ -104,7 +210,7 @@ export default function FrenchDrainCostPage() {
             </div>
             <div className='bg-slate-900 rounded-3xl p-8 text-white'>
               <div className='text-white font-black text-xl mb-4'>Exterior (Yard/Foundation)</div>
-              <div className='text-3xl font-black text-violet-400 mb-2'>$2,800  to  $6,500</div>
+              <div className='text-3xl font-black text-violet-400 mb-2'>$1,000 to $2,500 for a shallow yard drain, or $2,500 to $5,000 for a deep drain along the foundation.</div>
               <div className='text-slate-400 text-sm mb-6 font-medium'>Typical 100-foot installation</div>
               <ul className='space-y-3 text-slate-300 font-medium'>
                 <li className='flex items-center'><span className='text-violet-400 mr-2'>&#10004;</span> Trench excavation</li>
@@ -120,44 +226,127 @@ export default function FrenchDrainCostPage() {
             Not all French drains are created equal. Here is what each type typically costs and when it makes sense to choose one over the other.
           </p>
 
-          <div className='overflow-x-auto my-8 not-prose'>
-            <table className='w-full border-collapse text-left'>
-              <thead>
-                <tr className='bg-slate-100'>
-                  <th className='p-4 font-bold text-slate-900'>Drain Type</th>
-                  <th className='p-4 font-bold text-slate-900'>Cost per Linear Foot</th>
-                  <th className='p-4 font-bold text-slate-900'>Total Range</th>
-                  <th className='p-4 font-bold text-slate-900'>Best For</th>
-                </tr>
-              </thead>
-              <tbody className='text-slate-600'>
-                <tr className='border-b border-slate-100'>
-                  <td className='p-4 font-medium'>Shallow Yard Drain</td>
-                  <td className='p-4'>$10  to  $25</td>
-                  <td className='p-4'>$1,000  to  $2,500</td>
-                  <td className='p-4'>Surface water, soggy lawns</td>
-                </tr>
-                <tr className='border-b border-slate-100'>
-                  <td className='p-4 font-medium'>Deep Exterior Drain</td>
-                  <td className='p-4'>$25  to  $50</td>
-                  <td className='p-4'>$2,500  to  $6,500</td>
-                  <td className='p-4'>Foundation protection, hillside lots</td>
-                </tr>
-                <tr className='border-b border-slate-100'>
-                  <td className='p-4 font-medium'>Interior Perimeter Drain</td>
-                  <td className='p-4'>$40  to  $85</td>
-                  <td className='p-4'>$4,000  to  $12,000</td>
-                  <td className='p-4'>Basement <Link href='/articles/complete-basement-waterproofing-guide' className='text-violet-600 hover:underline'>waterproofing</Link></td>
-                </tr>
-                <tr className='border-b border-slate-100'>
-                  <td className='p-4 font-medium'>Curtain Drain</td>
-                  <td className='p-4'>$12  to  $30</td>
-                  <td className='p-4'>$1,200  to  $4,000</td>
-                  <td className='p-4'>Intercepting hillside runoff</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+<div className="overflow-x-auto my-8 not-prose"><table className="w-full min-w-[640px] border-collapse text-left">
+<thead>
+<tr className="bg-slate-100">
+<th className="p-4 font-bold text-slate-900">Drain Type</th>
+<th className="p-4 font-bold text-slate-900">Per Linear Foot</th>
+<th className="p-4 font-bold text-slate-900">Typical Total</th>
+<th className="p-4 font-bold text-slate-900">Best For</th>
+</tr>
+</thead>
+<tbody className="text-slate-600"><tr className="border-b border-slate-100">
+<td className="p-4 font-medium">Shallow Yard Drain</td>
+<td className="p-4">$10 to $25</td>
+<td className="p-4">$1,000 to $2,500 (100 ft)</td>
+<td className="p-4">Soggy lawns, standing water, downspout runoff</td>
+</tr>
+<tr className="border-b border-slate-100">
+<td className="p-4 font-medium">Deep Exterior Drain (along foundation)</td>
+<td className="p-4">$25 to $50</td>
+<td className="p-4">$2,500 to $5,000 (100 ft)</td>
+<td className="p-4">Water pooling against foundation walls</td>
+</tr>
+<tr className="border-b border-slate-100">
+<td className="p-4 font-medium">Curtain Drain</td>
+<td className="p-4">$12 to $30</td>
+<td className="p-4">$1,200 to $3,000 (100 ft)</td>
+<td className="p-4">Intercepting water uphill of the house</td>
+</tr>
+<tr className="border-b border-slate-100">
+<td className="p-4 font-medium">Interior Basement Perimeter Drain</td>
+<td className="p-4">$40 to $85</td>
+<td className="p-4">$4,000 to $12,000 (1,000 sq ft basement)</td>
+<td className="p-4">Water entering at the floor and wall joint</td>
+</tr>
+<tr className="border-b border-slate-100">
+<td className="p-4 font-medium">Exterior Footing Drain with Full Excavation</td>
+<td className="p-4">Priced per job</td>
+<td className="p-4">$7,000 to $18,000</td>
+<td className="p-4">Rebuilding the original foundation drain, usually with exterior waterproofing</td>
+</tr>
+</tbody></table></div>
+<p>The last row is a different job. Digging down to the footing is part of exterior basement waterproofing. See our <a href="/articles/interior-vs-exterior-waterproofing" className="text-violet-600 hover:underline">interior vs. exterior waterproofing comparison</a> for that pricing.</p>
+
+
+<h2 className="text-4xl mb-6">French Drain Cost by Length</h2>
+<p>Use this chart to sanity-check a quote. Find your length, then the column that matches the job.</p>
+<div className="overflow-x-auto my-8 not-prose"><table className="w-full min-w-[640px] border-collapse text-left">
+<thead>
+<tr className="bg-slate-100">
+<th className="p-4 font-bold text-slate-900">Length</th>
+<th className="p-4 font-bold text-slate-900">Shallow Yard ($10 to $25/ft)</th>
+<th className="p-4 font-bold text-slate-900">Deep Exterior ($25 to $50/ft)</th>
+<th className="p-4 font-bold text-slate-900">Interior Basement ($40 to $85/ft)</th>
+</tr>
+</thead>
+<tbody className="text-slate-600"><tr className="border-b border-slate-100">
+<td className="p-4 font-medium">25 ft</td>
+<td className="p-4">$250 to $625</td>
+<td className="p-4">$625 to $1,250</td>
+<td className="p-4">$1,000 to $2,125</td>
+</tr>
+<tr className="border-b border-slate-100">
+<td className="p-4 font-medium">50 ft</td>
+<td className="p-4">$500 to $1,250</td>
+<td className="p-4">$1,250 to $2,500</td>
+<td className="p-4">$2,000 to $4,250</td>
+</tr>
+<tr className="border-b border-slate-100">
+<td className="p-4 font-medium">100 ft</td>
+<td className="p-4">$1,000 to $2,500</td>
+<td className="p-4">$2,500 to $5,000</td>
+<td className="p-4">$4,000 to $8,500</td>
+</tr>
+<tr className="border-b border-slate-100">
+<td className="p-4 font-medium">150 ft</td>
+<td className="p-4">$1,500 to $3,750</td>
+<td className="p-4">$3,750 to $7,500</td>
+<td className="p-4">$6,000 to $12,750</td>
+</tr>
+<tr className="border-b border-slate-100">
+<td className="p-4 font-medium">200 ft</td>
+<td className="p-4">$2,000 to $5,000</td>
+<td className="p-4">$5,000 to $10,000</td>
+<td className="p-4">$8,000 to $17,000</td>
+</tr>
+</tbody></table></div>
+<p><strong>Two things the chart doesn't show:</strong></p>
+<ul>
+<li><strong>Minimum job charges.</strong> Many drainage contractors charge a $1,000 to $1,500 minimum, so a 25 foot yard drain often costs more than the per-foot math.</li>
+<li><strong>Add-ons.</strong> Concrete removal, a sump pump, catch basins, downspout tie-ins, and a discharge line to daylight are often priced separately. Ask for them as line items.</li>
+</ul>
+<p><strong>How long is a basement perimeter drain?</strong> Measure the outside walls of the basement and add them up. A 1,000 sq ft basement is usually about 125 to 130 linear feet. Contractors sometimes do only the walls that leak, which can cut the length in half.</p>
+
+
+<h2 className="text-4xl mb-6">French Drain and Sump Pump Cost</h2>
+<p>Most interior basement French drains need a sump pump. The drain collects water at the footing, and the pump lifts it out of the house. Exterior drains can often drain to daylight by gravity, so they usually don't need a pump.</p>
+<div className="overflow-x-auto my-8 not-prose"><table className="w-full min-w-[640px] border-collapse text-left">
+<thead>
+<tr className="bg-slate-100">
+<th className="p-4 font-bold text-slate-900">Package</th>
+<th className="p-4 font-bold text-slate-900">Typical Cost</th>
+</tr>
+</thead>
+<tbody className="text-slate-600"><tr className="border-b border-slate-100">
+<td className="p-4 font-medium">Interior drain, 100 ft, plus sump pump</td>
+<td className="p-4">$4,800 to $11,000</td>
+</tr>
+<tr className="border-b border-slate-100">
+<td className="p-4 font-medium">Interior drain, 150 ft, plus sump pump</td>
+<td className="p-4">$6,800 to $15,250</td>
+</tr>
+<tr className="border-b border-slate-100">
+<td className="p-4 font-medium">Sump pump and pit added to an existing drain</td>
+<td className="p-4">$800 to $2,500</td>
+</tr>
+<tr className="border-b border-slate-100">
+<td className="p-4 font-medium">Battery backup pump added</td>
+<td className="p-4">$500 to $1,500 installed</td>
+</tr>
+</tbody></table></div>
+<p>These totals use $40 to $85 per foot for the drain and $800 to $2,500 for the sump pump installed. For pump picks, see our <a href="/articles/best-sump-pumps-2026" className="text-violet-600 hover:underline">best sump pumps for 2026</a>. For full pump pricing, see our <a href="/articles/sump-pump-cost" className="text-violet-600 hover:underline">sump pump cost guide</a>.</p>
+
 
           {/* Key Cost Factors */}
           <h2 className='text-4xl mb-6'>Key Cost Factors</h2>
@@ -168,7 +357,7 @@ export default function FrenchDrainCostPage() {
           <div className='space-y-4 not-prose'>
             <div className='flex items-start gap-3 bg-slate-50 p-4 rounded-xl border border-slate-100'>
               <span className='text-violet-500 mt-0.5 text-lg'>&#9679;</span>
-              <span className='text-slate-700'><strong>Trench Depth:</strong> Shallow yard drains (12 to 18 inches) are cheap to dig. Deep foundation drains (6 to 8 feet) require heavy machinery and shoring, adding $15 to $30 per linear foot.</span>
+              <span className='text-slate-700'><strong>Trench Depth:</strong> Shallow yard drains (18 to 24 inches) are cheap to dig. Trenches deeper than 24 inches add $15 to $30 per linear foot.</span>
             </div>
             <div className='flex items-start gap-3 bg-slate-50 p-4 rounded-xl border border-slate-100'>
               <span className='text-violet-500 mt-0.5 text-lg'>&#9679;</span>
@@ -236,7 +425,7 @@ export default function FrenchDrainCostPage() {
           <div className='bg-amber-50 border-l-4 border-amber-500 rounded-r-2xl p-6 my-8 not-prose'>
             <p className='text-sm font-bold text-amber-700 uppercase tracking-widest mb-2'>DIY Cost Savings</p>
             <p className='text-slate-700 font-medium'>
-              A 50-foot exterior French drain that costs $2,500 to $4,000 professionally can be completed DIY for $500 to $1,500 in materials. The trade-off is 1 to 3 weekends of hard labor and the need to rent a trencher ($200 to $400 per day).
+              A 50 foot shallow yard drain costs about $500 to $1,250 from a contractor, or more if they have a job minimum. Doing it yourself costs about $400 to $800, including roughly 3 cubic yards of washed gravel, perforated pipe, filter fabric, and a one-day trencher rental at $200 to $400. The savings are real but modest on short runs. On 100 feet or more, or deep drains along the foundation, DIY saves more, but the digging is brutal.
             </p>
           </div>
 
@@ -290,7 +479,7 @@ export default function FrenchDrainCostPage() {
               <p className='text-slate-600 text-sm mb-4'>
                 Professional-grade downspout adapter that connects gutters to underground drainage lines. Eliminates surface water pooling near the foundation. Easy snap-fit connection with no special tools required.
               </p>
-              <a href='https://amzn.to/4iFFVjJ' target='_blank' rel='noopener noreferrer nofollow' className='inline-flex items-center bg-violet-600 text-white px-5 py-2.5 rounded-xl font-bold text-sm hover:bg-violet-700 transition-colors'>
+              <a href='https://amzn.to/4iFFVjJ' target='_blank' rel="sponsored nofollow" className='inline-flex items-center bg-violet-600 text-white px-5 py-2.5 rounded-xl font-bold text-sm hover:bg-violet-700 transition-colors'>
                 Check Price on Amazon &rarr;
               </a>
             </div>
@@ -301,7 +490,7 @@ export default function FrenchDrainCostPage() {
               <p className='text-slate-600 text-sm mb-4'>
                 Pre-sloped channel drain system ideal for driveways, patios, and pool decks. Includes grate covers and connects directly to French drain pipe runs. Handles heavy water flow from hardscape areas.
               </p>
-              <a href='https://amzn.to/4kSDXdN' target='_blank' rel='noopener noreferrer nofollow' className='inline-flex items-center bg-violet-600 text-white px-5 py-2.5 rounded-xl font-bold text-sm hover:bg-violet-700 transition-colors'>
+              <a href='https://amzn.to/4kSDXdN' target='_blank' rel="sponsored nofollow" className='inline-flex items-center bg-violet-600 text-white px-5 py-2.5 rounded-xl font-bold text-sm hover:bg-violet-700 transition-colors'>
                 Check Price on Amazon &rarr;
               </a>
             </div>
@@ -312,7 +501,7 @@ export default function FrenchDrainCostPage() {
               <p className='text-slate-600 text-sm mb-4'>
                 The industry standard for French drain installations. Flexible corrugated design conforms to trench contours while perforations collect groundwater from all directions. Available in 100-foot rolls.
               </p>
-              <a href='https://amzn.to/4aPIXtN' target='_blank' rel='noopener noreferrer nofollow' className='inline-flex items-center bg-violet-600 text-white px-5 py-2.5 rounded-xl font-bold text-sm hover:bg-violet-700 transition-colors'>
+              <a href='https://amzn.to/4aPIXtN' target='_blank' rel="sponsored nofollow" className='inline-flex items-center bg-violet-600 text-white px-5 py-2.5 rounded-xl font-bold text-sm hover:bg-violet-700 transition-colors'>
                 Check Price on Amazon &rarr;
               </a>
             </div>
@@ -323,7 +512,7 @@ export default function FrenchDrainCostPage() {
               <p className='text-slate-600 text-sm mb-4'>
                 Automatic pop-up emitters that open when water pressure builds and close when flow stops. Keeps debris out and provides a clean discharge point at the end of your drain line. Mounts flush with the lawn.
               </p>
-              <a href='https://amzn.to/4qXyOBt' target='_blank' rel='noopener noreferrer nofollow' className='inline-flex items-center bg-violet-600 text-white px-5 py-2.5 rounded-xl font-bold text-sm hover:bg-violet-700 transition-colors'>
+              <a href='https://amzn.to/4qXyOBt' target='_blank' rel="sponsored nofollow" className='inline-flex items-center bg-violet-600 text-white px-5 py-2.5 rounded-xl font-bold text-sm hover:bg-violet-700 transition-colors'>
                 Check Price on Amazon &rarr;
               </a>
             </div>
@@ -334,7 +523,7 @@ export default function FrenchDrainCostPage() {
               <p className='text-slate-600 text-sm mb-4'>
                 Collect surface water at low points in your yard and route it into your French drain system. Essential for areas where water pools after rain. Multiple grate styles to match landscaping.
               </p>
-              <a href='https://amzn.to/4s5wFVb' target='_blank' rel='noopener noreferrer nofollow' className='inline-flex items-center bg-violet-600 text-white px-5 py-2.5 rounded-xl font-bold text-sm hover:bg-violet-700 transition-colors'>
+              <a href='https://amzn.to/4s5wFVb' target='_blank' rel="sponsored nofollow" className='inline-flex items-center bg-violet-600 text-white px-5 py-2.5 rounded-xl font-bold text-sm hover:bg-violet-700 transition-colors'>
                 Check Price on Amazon &rarr;
               </a>
             </div>
@@ -345,7 +534,7 @@ export default function FrenchDrainCostPage() {
               <p className='text-slate-600 text-sm mb-4'>
                 Non-woven geotextile fabric that wraps the gravel bed to prevent soil and sediment from clogging the pipe. The single most important factor in long-term French drain performance. Use on every install.
               </p>
-              <a href='https://amzn.to/4aVIKp7' target='_blank' rel='noopener noreferrer nofollow' className='inline-flex items-center bg-violet-600 text-white px-5 py-2.5 rounded-xl font-bold text-sm hover:bg-violet-700 transition-colors'>
+              <a href='https://amzn.to/4aVIKp7' target='_blank' rel="sponsored nofollow" className='inline-flex items-center bg-violet-600 text-white px-5 py-2.5 rounded-xl font-bold text-sm hover:bg-violet-700 transition-colors'>
                 Check Price on Amazon &rarr;
               </a>
             </div>
@@ -459,15 +648,15 @@ export default function FrenchDrainCostPage() {
           <div className='space-y-6 my-8 not-prose'>
             <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
               <h4 className='font-bold text-slate-900 mb-2'>How much does a French drain cost to install in 2026?</h4>
-              <p className='text-slate-600'>The average French drain installation cost is $5,000 in 2026, but the range is wide because interior and exterior systems are fundamentally different projects. Exterior yard drains cost $2,800 to $6,500 for a typical 100-foot installation at $10 to $35 per linear foot, depending on trench depth, soil conditions, and whether hardscape crossings are involved. Interior basement perimeter drain systems cost $4,000 to $12,000 or more for a 1,000 square foot basement at $40 to $85 per linear foot, with the higher cost driven by concrete jackhammering, sump pump installation, and the complexity of working inside an occupied home. The single biggest cost variable within each type is soil and site conditions &mdash; clay soil, rocky ground, and obstructions like utilities, tree roots, and existing hardscaping can each add $500 to $2,000 to the base cost. Always get at least three written quotes that specify the drain type, pipe material, filter fabric, discharge point, and warranty before committing to a contractor.</p>
+              <p className='text-slate-600'>Yard or exterior French drain: $10 to $50 per linear foot. Most homeowners pay $1,000 to $5,000. Interior basement French drain: $40 to $85 per linear foot. Most homeowners pay $4,000 to $12,000 for a typical 1,000 sq ft basement. A typical 100-foot exterior installation costs $1,000 to $2,500 for a shallow yard drain, or $2,500 to $5,000 for a deep drain along the foundation. Exterior or yard drains cost $10 to $25 per foot for a shallow yard drain, or $25 to $50 per foot for a deep drain along the foundation. Interior basement perimeter drain systems cost $4,000 to $12,000 or more for a 1,000 square foot basement at $40 to $85 per linear foot, with the higher cost driven by concrete jackhammering, sump pump installation, and the complexity of working inside an occupied home. The single biggest cost variable within each type is soil and site conditions, clay soil, rocky ground, and obstructions like utilities, tree roots, and existing hardscaping can each add $500 to $2,000 to the base cost. Always get at least three written quotes that specify the drain type, pipe material, filter fabric, discharge point, and warranty before committing to a contractor.</p>
             </div>
             <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
               <h4 className='font-bold text-slate-900 mb-2'>Is an interior French drain better than an exterior French drain for basement waterproofing?</h4>
-              <p className='text-slate-600'>Neither is universally better &mdash; they address different water problems, and choosing between them depends on where your water is coming from rather than which system is more expensive or comprehensive. An interior basement perimeter drain is the right choice when water is entering through the floor-wall joint, rising from below due to a high water table, or seeping through the lower wall sections under hydrostatic pressure, because it intercepts water at the point of entry and removes it before it can spread across the floor. An exterior French drain at the foundation footing is the right choice when water is saturating the soil adjacent to the foundation wall and driving hydrostatic pressure against it from outside, because it relieves that pressure at the source before water reaches the wall. Many homes with chronic basement water problems benefit from both systems working together: the exterior drain reduces the volume of water pressing against the foundation, and the interior drain manages any residual water that does enter. See our <Link href='/articles/interior-vs-exterior-waterproofing' className='text-violet-600 hover:underline'>interior vs exterior waterproofing guide</Link> for the full decision framework.</p>
+              <p className='text-slate-600'>Neither is universally better. They address different water problems, and choosing between them depends on where your water is coming from rather than which system is more expensive or comprehensive. An interior basement perimeter drain is the right choice when water is entering through the floor-wall joint, rising from below due to a high water table, or seeping through the lower wall sections under hydrostatic pressure, because it intercepts water at the point of entry and removes it before it can spread across the floor. An exterior French drain at the foundation footing is the right choice when water is saturating the soil adjacent to the foundation wall and driving hydrostatic pressure against it from outside, because it relieves that pressure at the source before water reaches the wall. Many homes with chronic basement water problems benefit from both systems working together: the exterior drain reduces the volume of water pressing against the foundation, and the interior drain manages any residual water that does enter. See our <Link href='/articles/interior-vs-exterior-waterproofing' className='text-violet-600 hover:underline'>interior vs exterior waterproofing guide</Link> for the full decision framework.</p>
             </div>
             <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
               <h4 className='font-bold text-slate-900 mb-2'>Can I install a French drain myself to save money?</h4>
-              <p className='text-slate-600'>A shallow exterior yard French drain is one of the more achievable DIY drainage projects for a homeowner comfortable with physical labor and basic excavation work. The realistic DIY savings on a 50-foot exterior drain are $1,000 to $2,500 in labor, with materials running $500 to $1,500 versus a professional installation cost of $2,500 to $4,000. The key requirements for a successful DIY exterior drain are maintaining a consistent 1 percent minimum slope toward the discharge point, using proper non-woven geotextile filter fabric wrapped completely around the gravel bed, and calling 811 before digging to mark underground utilities. Interior basement French drains are not appropriate DIY projects for most homeowners because they require jackhammering reinforced concrete, correctly sloping the drain channel under the slab, integrating the system with a sump pit, and pouring new concrete over the completed drain &mdash; all of which require specialized equipment and experience to do correctly. An improperly installed interior drain that does not slope correctly or connect properly to the sump will fail immediately and require professional repair at greater total cost than hiring correctly from the start. See our <Link href='/articles/diy-vs-hiring-pro-basement-projects' className='text-violet-600 hover:underline'>DIY vs hiring a pro guide</Link> for how to evaluate this decision honestly.</p>
+              <p className='text-slate-600'>A shallow exterior yard French drain is one of the more achievable DIY drainage projects for a homeowner comfortable with physical labor and basic excavation work. The realistic DIY savings on a 50-foot exterior drain are $1,000 to $2,500 in labor, with materials running $500 to $1,500 versus a professional installation cost of $2,500 to $4,000. The key requirements for a successful DIY exterior drain are maintaining a consistent 1 percent minimum slope toward the discharge point, using proper non-woven geotextile filter fabric wrapped completely around the gravel bed, and calling 811 before digging to mark underground utilities. Interior basement French drains are not appropriate DIY projects for most homeowners because they require jackhammering reinforced concrete, correctly sloping the drain channel under the slab, integrating the system with a sump pit, and pouring new concrete over the completed drain, all of which require specialized equipment and experience to do correctly. An improperly installed interior drain that does not slope correctly or connect properly to the sump will fail immediately and require professional repair at greater total cost than hiring correctly from the start. See our <Link href='/articles/diy-vs-hiring-pro-basement-projects' className='text-violet-600 hover:underline'>DIY vs hiring a pro guide</Link> for how to evaluate this decision honestly.</p>
             </div>
             <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
               <h4 className='font-bold text-slate-900 mb-2'>How long does a French drain last before it needs to be replaced?</h4>
@@ -481,6 +670,13 @@ export default function FrenchDrainCostPage() {
               <h4 className='font-bold text-slate-900 mb-2'>Does a French drain need a sump pump to work?</h4>
               <p className='text-slate-600'>Interior basement French drain systems almost always require a sump pump because the drain channel collects water at the lowest point in the basement and there is typically no gravity discharge path available below floor level. The perimeter drain channels water to a sump pit at the lowest point, and the pump then removes it through a discharge line to a point well away from the foundation. Without the pump, the sump pit would fill and overflow, defeating the entire purpose of the drain system. Exterior French drains use gravity flow exclusively and do not require a pump as long as the discharge point is lower than the drain inlet and the slope is maintained at a minimum of 1 percent throughout the run. However, exterior drains on flat properties or those discharging into a dry well rather than a daylight outlet may benefit from a pump in the collection basin when gravity alone is insufficient to move the collected water fast enough during heavy rain events. See our <Link href='/articles/sump-pump-buying-guide' className='text-violet-600 hover:underline'>sump pump buying guide</Link> and <Link href='/articles/backup-power-sump-pumps' className='text-violet-600 hover:underline'>backup power for sump pumps guide</Link> for how to choose and protect the pump that pairs with any interior French drain system.</p>
             </div>
+<div className="bg-slate-50 rounded-2xl p-6 border border-slate-100"><h4 className="font-bold text-slate-900 mb-2">How much does a 100-foot French drain cost?</h4><p className="text-slate-600">About $1,000 to $2,500 for a shallow yard drain, $2,500 to $5,000 for a deep drain along the foundation, and $4,000 to $8,500 for an interior basement perimeter drain. Add $800 to $2,500 if the job needs a sump pump, and expect extra for concrete removal, catch basins, or a long discharge line.</p></div>
+
+<div className="bg-slate-50 rounded-2xl p-6 border border-slate-100"><h4 className="font-bold text-slate-900 mb-2">How much does an interior French drain and sump pump cost?</h4><p className="text-slate-600">Most homeowners pay $4,800 to $15,000 for an interior perimeter drain plus a sump pump. A 100 foot system with a pump typically runs $4,800 to $11,000, and a 150 foot system $6,800 to $15,250. A battery backup pump adds $500 to $1,500. Get at least three quotes with the drain, pump, and backup priced as separate lines.</p></div>
+
+<div className="bg-slate-50 rounded-2xl p-6 border border-slate-100"><h4 className="font-bold text-slate-900 mb-2">Is drain tile the same as a French drain?</h4><p className="text-slate-600">Mostly, yes. Drain tile, weeping tile (the common term in Canada), perimeter drain, and footing drain all describe a perforated pipe in gravel that collects groundwater and carries it away. "French drain" usually means a yard or exterior trench, while "drain tile" and "weeping tile" usually mean the drain around the foundation footing, inside or outside. The per-foot prices on this page apply to all of them.</p></div>
+
+
           </div>
 
           {/* Decision Table */}
@@ -493,9 +689,9 @@ export default function FrenchDrainCostPage() {
                 <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>High water table pushing water up through floor cracks</td><td className='px-4 py-3 text-slate-600'>Interior perimeter drain plus sump pump</td><td className='px-4 py-3 text-slate-600'>$4,000 to $12,000</td></tr>
                 <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Water entering through lower wall sections under pressure</td><td className='px-4 py-3 text-slate-600'>Interior perimeter drain plus sump pump</td><td className='px-4 py-3 text-slate-600'>$4,000 to $12,000</td></tr>
                 <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Yard stays soggy days after rain, no basement involvement</td><td className='px-4 py-3 text-slate-600'>Shallow exterior yard drain</td><td className='px-4 py-3 text-slate-600'>$1,000 to $2,500</td></tr>
-                <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Surface water pooling near foundation after rain</td><td className='px-4 py-3 text-slate-600'>Exterior foundation drain or regrading plus downspout extensions</td><td className='px-4 py-3 text-slate-600'>$500 to $3,000</td></tr>
+                <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Surface water pooling near foundation after rain</td><td className='px-4 py-3 text-slate-600'>Exterior French drain or regrading plus downspout extensions</td><td className='px-4 py-3 text-slate-600'>$500 to $3,000</td></tr>
                 <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Hillside or slope directing runoff toward foundation</td><td className='px-4 py-3 text-slate-600'>Curtain drain uphill of foundation</td><td className='px-4 py-3 text-slate-600'>$1,200 to $4,000</td></tr>
-                <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Water saturating soil adjacent to foundation wall</td><td className='px-4 py-3 text-slate-600'>Deep exterior foundation drain at footing level</td><td className='px-4 py-3 text-slate-600'>$2,800 to $6,500</td></tr>
+                <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Water saturating soil adjacent to foundation wall</td><td className='px-4 py-3 text-slate-600'>Exterior footing drain with full excavation</td><td className='px-4 py-3 text-slate-600'>$2,800 to $6,500</td></tr>
                 <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Basement flooding despite existing interior drain</td><td className='px-4 py-3 text-slate-600'>Inspect pump, check drain slope, consider exterior supplemental drain</td><td className='px-4 py-3 text-slate-600'>$500 to $3,000</td></tr>
                 <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>New construction, foundation not yet backfilled</td><td className='px-4 py-3 text-slate-600'>Exterior footing drain during construction</td><td className='px-4 py-3 text-slate-600'>$1,500 to $4,000</td></tr>
                 <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Flat yard, no natural gravity discharge point available</td><td className='px-4 py-3 text-slate-600'>Interior drain with sump pump or exterior drain to dry well</td><td className='px-4 py-3 text-slate-600'>$3,000 to $8,000</td></tr>
@@ -518,8 +714,12 @@ export default function FrenchDrainCostPage() {
               <p className='text-slate-600 text-sm'>A French drain system installed beneath the basement floor along the base of the foundation walls, consisting of a jackhammered trench, perforated drain pipe surrounded by gravel, and a connection to a sump pit that pumps collected water out of the basement. Interior perimeter drains are the most widely installed professional waterproofing solution for existing homes because they intercept water at the floor-wall joint and sub-slab level where hydrostatic pressure most commonly drives water entry. A complete interior perimeter drain system with sump pump typically costs $4,000 to $12,000 for a standard basement and carries 25-year warranties from reputable contractors. See our <a href='/articles/french-drain-vs-sump-pump' className='text-violet-600 hover:underline'>French drain vs sump pump guide</a> for how the two components work together.</p>
             </div>
             <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
-              <h4 className='font-bold text-slate-900 mb-2'>Exterior French Drain (Curtain Drain)</h4>
-              <p className='text-slate-600 text-sm'>A French drain installed outside the foundation at or near the footing level to intercept groundwater before it reaches the foundation wall, relieving hydrostatic pressure at its source rather than managing water after it has entered the foundation assembly. Exterior foundation drains require excavating down to the footing level (typically 6 to 8 feet), installing perforated pipe in a gravel bed wrapped in filter fabric, and backfilling with gravel before restoring landscaping. A curtain drain is a variation installed uphill of the foundation to intercept surface runoff and shallow groundwater moving down a slope before it reaches the foundation perimeter. See our <a href='/articles/interior-vs-exterior-waterproofing' className='text-violet-600 hover:underline'>interior vs exterior waterproofing guide</a> for when exterior drainage is warranted versus interior systems.</p>
+              <h4 className='font-bold text-slate-900 mb-2'>Exterior French Drain</h4>
+              <p className='text-slate-600 text-sm'>A gravel and perforated pipe trench along the outside of the foundation that collects water before it reaches the basement walls.</p>
+            </div>
+            <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
+              <h4 className='font-bold text-slate-900 mb-2'>Curtain Drain</h4>
+              <p className='text-slate-600 text-sm'>A French drain dug uphill of the house, across the slope, that intercepts surface and groundwater and carries it around the house before it gets close to the foundation.</p>
             </div>
             <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
               <h4 className='font-bold text-slate-900 mb-2'>Hydrostatic Pressure</h4>
@@ -575,6 +775,8 @@ export default function FrenchDrainCostPage() {
               <h3 className='font-bold text-violet-700 mb-1'>Basement Insulation Guide</h3>
               <p className='text-sm text-slate-600'>R-values, materials, and installation methods for below-grade walls.</p>
             </Link>
+                      <Link href='/articles/best-sump-pumps-2026' className='group block bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:shadow-lg transition-shadow'><h3 className='font-bold text-violet-700 mb-1'>Best Sump Pumps for 2026</h3></Link>
+            <Link href='/articles/interior-basement-drainage-systems' className='group block bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:shadow-lg transition-shadow'><h3 className='font-bold text-violet-700 mb-1'>Interior Basement Drainage Systems</h3></Link>
           </section>
 
           {/* Lead Form CTA */}
