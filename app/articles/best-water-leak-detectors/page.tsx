@@ -4,14 +4,204 @@ import LeadForm from '@/components/LeadForm'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Best Water Leak Sensors Under $50, $100, $300 & $500 (2026) | The Basement Guide',
-  description: 'Best water leak sensors under $50, $100, $300 & $500 compared. YoLink, Govee, Ring & Moen reviewed for basement flood protection. Updated 2026.',
-  alternates: { canonical: 'https://thebasement.guide/articles/best-water-leak-detectors' },
+  "title": "Best Water Leak Detectors and Basement Water Alarms for 2026 | The Basement Guide",
+  "description": "The best water leak detectors and basement water alarms for 2026, from $15 audible alarms to smart sensors and automatic shutoff. 10 picks, where to place them, and how many you need.",
+  "alternates": {
+    "canonical": "https://thebasement.guide/articles/best-water-leak-detectors"
+  },
+  "openGraph": {
+    "title": "Best Water Leak Detectors and Basement Water Alarms for 2026 | The Basement Guide",
+    "description": "The best water leak detectors and basement water alarms for 2026, from $15 audible alarms to smart sensors and automatic shutoff. 10 picks, where to place them, and how many you need."
+  },
+  "twitter": {
+    "title": "Best Water Leak Detectors and Basement Water Alarms for 2026 | The Basement Guide",
+    "description": "The best water leak detectors and basement water alarms for 2026, from $15 audible alarms to smart sensors and automatic shutoff. 10 picks, where to place them, and how many you need."
+  }
 }
+
+const schemas = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Best Water Leak Detectors and Basement Water Alarms for 2026",
+    "description": "The best water leak detectors and basement water alarms for 2026, from $15 audible alarms to smart sensors and automatic shutoff. 10 picks, where to place them, and how many you need.",
+    "image": "https://thebasement.guide/leakdetectors.jpg",
+    "author": {
+      "@type": "Organization",
+      "name": "The Basement Guide Editorial Team",
+      "url": "https://thebasement.guide"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "The Basement Guide",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://thebasement.guide/logo.png"
+      }
+    },
+    "datePublished": "2026-02-01T00:00:00-05:00",
+    "dateModified": "2026-10-24",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://thebasement.guide/articles/best-water-leak-detectors"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "YoLink Water Leak Sensor 4"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Kidde 60WLDR-W"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "SwitchBot Water Leak Detector"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "GoveeLife Water Leak Detector"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Shelly Flood Gen4"
+      },
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "name": "Ring Alarm Flood & Freeze Sensor"
+      },
+      {
+        "@type": "ListItem",
+        "position": 7,
+        "name": "Samsung SmartThings Water Leak Sensor"
+      },
+      {
+        "@type": "ListItem",
+        "position": 8,
+        "name": "Flo by Moen Smart Water Monitor and Shutoff"
+      },
+      {
+        "@type": "ListItem",
+        "position": 9,
+        "name": "Moen Smart Water Leak Detector"
+      },
+      {
+        "@type": "ListItem",
+        "position": 10,
+        "name": "Basement Watchdog Water Alarm"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is the best water leak detector for a basement?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The YoLink Water Leak Sensor 4 is the best water leak detector for most basements in 2026. It uses LoRa wireless protocol with over 125 feet of range through walls, has dual top and bottom probes, sounds a 105 dB alarm, includes temperature monitoring for freeze alerts, and lasts 2 to 5 years on a single battery. A 4-pack with hub costs $50 to $90. For finished basements with significant financial exposure, the Flo by Moen whole-home system ($600 to $750 plus installation) adds automatic water shutoff capability."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How many leak sensors do I need in my basement?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A typical unfinished basement needs 5 to 6 sensors covering the sump pump pit, water heater, washing machine, HVAC drain, lowest floor point, and any seepage-prone walls. Finished basements need 6 to 10 sensors, adding coverage near finished walls, bathroom fixtures, and laundry areas. At $10 to $35 per sensor, full basement coverage costs $50 to $250."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Will a leak sensor work in a basement with poor Wi-Fi?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "LoRa-based sensors like the YoLink and GoveeLife multi-packs work reliably in basements with poor Wi-Fi because they communicate with their hub via LoRa radio, not Wi-Fi. The hub connects to your router via Wi-Fi or Ethernet, but the sensors themselves do not need Wi-Fi signal. LoRa penetrates concrete walls far better than Wi-Fi, with tested range of 125 or more feet through walls."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can a leak sensor shut off my water automatically?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Individual leak sensors cannot shut off water. They detect water and send alerts. To get automatic shutoff, you need either a whole-home system like the Flo by Moen ($600 to $750 plus installation) that installs on your main water line, or a standalone smart water shutoff valve ($200 to $500) connected to compatible leak sensors. Automatic shutoff is strongly recommended for finished basements and vacation homes."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do leak sensors help with basement flooding from groundwater?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, but with an important distinction. Leak sensors detect water on the floor regardless of the source, so they will alert you when groundwater seepage, sump pump overflow, or rising water reaches the sensor location. However, sensors cannot stop groundwater intrusion the way they can stop a plumbing leak via shutoff valve. For complete groundwater protection, combine leak sensors with a smart sump pump system."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How long do leak sensor batteries last?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Battery life varies by wireless protocol. LoRa sensors (YoLink, GoveeLife) last 2 to 5 years. Z-Wave sensors (Ring) last up to 3 years. Zigbee sensors (SmartThings) last 1 to 2 years. Wi-Fi sensors (Moen) last 1 to 2 years. Thread sensors (newer Matter-compatible models) last 2 to 5 years. All quality sensors send low-battery warnings through their app."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Are water leak detectors worth it?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. A single water damage event in a finished basement costs $10,000 to $50,000 to repair, including water extraction, drying, mold remediation, drywall replacement, flooring replacement, and contents restoration. A complete leak detection system costs $50 to $250 for sensors or $750 to $1,050 for a whole-home system with auto shutoff. discounts typically range from 2 to 10 percent, with the larger discounts usually tied to automatic shutoff systems like Flo by Moen. Ask your insurer what qualifies."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the difference between LoRa, Wi-Fi, Zigbee, and Z-Wave sensors?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "These are wireless communication protocols that determine how sensors talk to their hub and app. LoRa has the longest range (125 feet through walls), lowest power use (2 to 5 year battery), and best concrete penetration, making it ideal for basements. Wi-Fi connects directly to your router but has shorter range in concrete and higher power use (1 to 2 year battery). Zigbee and Z-Wave are mesh protocols used by smart home systems with moderate range and battery life. For basement-specific use, LoRa sensors provide the most reliable performance."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What's the difference between a water leak sensor and a moisture sensor?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A water leak sensor alarms when liquid water touches its probes, like a puddle from a leaking water heater or groundwater on the floor. A moisture or humidity sensor measures water vapor in the air and alerts when humidity climbs too high, which is how mold starts. Basements benefit from both. Leak sensors catch sudden problems, and humidity monitors catch slow ones."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do water leak sensors need Wi-Fi to work?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Audible-only alarms like the Basement Watchdog need no connection at all. They just sound a siren. Smart sensors need a connection to send phone alerts. Some, like Kidde and SwitchBot, connect directly to Wi-Fi with no hub. Others, like YoLink and GoveeLife multi-packs, talk to a hub over a long-range radio signal, which works better in basements with weak Wi-Fi. If your internet or power goes out, a sensor with a built-in siren will still sound locally."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I get an alert on my phone if my basement starts flooding?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Any smart leak sensor (YoLink, Kidde, SwitchBot, GoveeLife, Shelly, Ring, SmartThings, or Moen) will send a push notification when water reaches it. For the earliest warning, put one sensor at the lowest point of the floor and a high water alarm in the sump pit, so you hear about a pump failure before water reaches the floor. Make sure the hub or router is on a battery backup if you want alerts during a power outage."
+        }
+      }
+    ]
+  }
+]
 
 export default function BestWaterLeakDetectors() {
   return (
     <div className='bg-white min-h-screen'>
+      {schemas.map((schema,i)=><script key={i} type='application/ld+json' dangerouslySetInnerHTML={{__html:JSON.stringify(schema)}} />)}
       {/* Article Hero */}
       <section className='relative min-h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
         <Image
@@ -27,20 +217,17 @@ export default function BestWaterLeakDetectors() {
             <div className='w-12 h-px bg-cyan-500'></div>
             <span className='text-cyan-400 font-bold tracking-[0.3em] text-sm uppercase'>Smart Home Guide</span>
           </div>
-          <h1 className='text-5xl md:text-7xl font-black text-white mb-6 leading-[0.9] tracking-tighter'>
-            Best Water Leak Sensors 2026:<br />
-            <span className='text-cyan-400'>Top Picks Under $50, $100, $300 & $500</span>
-          </h1>
+          <h1 className='text-5xl md:text-7xl font-black text-white mb-6 leading-[0.9] tracking-tighter'>Best Water Leak Detectors and Basement Water Alarms for 2026</h1>
           <p className='text-xl text-slate-300 max-w-2xl leading-relaxed'>
             YoLink vs Govee vs Ring vs Flo by Moen. Standalone sensors, smart-home integrated options, and whole-home shutoff systems compared for basement protection.
           </p>
           <div className='flex items-center space-x-4 mt-8 text-sm text-slate-400'>
             <span className='bg-slate-700 text-slate-300 px-3 py-1 rounded-full font-medium'>BG</span>
-            <span>The Basement Guide Staff</span>
+            <span>By The Basement Guide Editorial Team</span>
             <span>|</span>
-            <span>Updated Feb 2026</span>
+            <span>Updated October 2026</span>
             <span>&middot;</span>
-            <span>22 min read</span>
+            <span>31 min read</span>
           </div>
         </div>
       </section>
@@ -54,12 +241,15 @@ export default function BestWaterLeakDetectors() {
           <div className='bg-slate-50 border border-slate-200 rounded-2xl p-8 mb-12'>
             <h2 className='text-2xl font-bold text-gray-900 mb-6'>Best Water Leak Sensors by Budget</h2>
             <ul className='space-y-4 text-gray-700 text-lg'>
-              <li><strong>Under $20:</strong> <a href='https://amzn.to/4rGoGhR' target='_blank' rel='noopener noreferrer' className='text-blue-600 hover:text-blue-800 underline'>GoveeLife Water Leak Detector 3-pack</a> &mdash; $30&ndash;40 for three sensors with hub. Best budget coverage for small basements.</li>
-              <li><strong>Under $50:</strong> <a href='https://amzn.to/4tZpI9Z' target='_blank' rel='noopener noreferrer' className='text-blue-600 hover:text-blue-800 underline'>YoLink Water Leak Sensor 4</a> &mdash; $25&ndash;35 per sensor, our top overall pick. 125 ft LoRa range, 2&ndash;5 year battery, 105 dB alarm.</li>
-              <li><strong>Under $100:</strong> <a href='https://amzn.to/4tZpI9Z' target='_blank' rel='noopener noreferrer' className='text-blue-600 hover:text-blue-800 underline'>YoLink 4-pack with hub</a> &mdash; $50&ndash;90. Comprehensive coverage for an average basement with no smart home setup required.</li>
-              <li><strong>Under $300:</strong> <a href='https://amzn.to/47x843P' target='_blank' rel='noopener noreferrer' className='text-blue-600 hover:text-blue-800 underline'>Moen Smart Water Leak Detectors</a> (multi-sensor setup) &mdash; ~$200&ndash;250 with hub. Premium build quality for finished basements.</li>
-              <li><strong>Under $500:</strong> Full Flo by Moen components without professional installation &mdash; ~$400&ndash;500. Whole-home flow monitoring, pairs with Moen spot sensors.</li>
-              <li><strong>Over $500:</strong> <a href='https://amzn.to/4chgks4' target='_blank' rel='noopener noreferrer' className='text-blue-600 hover:text-blue-800 underline'>Flo by Moen installed</a> &mdash; $750&ndash;1,050 total including plumber. Maximum protection with automatic shutoff and insurance discount eligibility.</li>
+              <li><strong>Under $20:</strong> <a href='https://amzn.to/4rGoGhR' className='text-blue-600 hover:text-blue-800 underline' rel="sponsored nofollow" target="_blank">GoveeLife Water Leak Detector 3-pack</a>, $30&ndash;40 for three sensors with hub. Best budget coverage for small basements.</li>
+              <li><strong>Under $50:</strong> <a href='https://amzn.to/4tZpI9Z' className='text-blue-600 hover:text-blue-800 underline' rel="sponsored nofollow" target="_blank">YoLink Water Leak Sensor 4</a>, $25&ndash;35 per sensor, our top overall pick. 125 ft LoRa range, 2&ndash;5 year battery, 105 dB alarm.</li>
+              <li><strong>Under $50:</strong> Kidde 60WLDR-W: about $45.</li>
+              <li><strong>Under $50:</strong> SwitchBot: about $20 to $30.</li>
+              <li><strong>Under $50:</strong> Shelly Flood Gen4: about $35 to $40.</li>
+              <li><strong>Under $100:</strong> <a href='https://amzn.to/4tZpI9Z' className='text-blue-600 hover:text-blue-800 underline' rel="sponsored nofollow" target="_blank">YoLink 4-pack with hub</a>, $50&ndash;90. Comprehensive coverage for an average basement with no smart home setup required.</li>
+              <li><strong>Under $50:</strong> <a href='https://amzn.to/47x843P' className='text-blue-600 hover:text-blue-800 underline' rel="sponsored nofollow" target="_blank">Moen Smart Water Leak Detectors</a> run $40 to $50 each and work on their own over Wi-Fi, or as add-ons to a Flo system.</li>
+              <li><strong>Over $500:</strong> Full Flo by Moen components without professional installation: $600 to $750 plus $150 to $300 for installation. Whole-home flow monitoring, pairs with Moen spot sensors.</li>
+              <li><strong>Over $500:</strong> <a href='https://amzn.to/4chgks4' className='text-blue-600 hover:text-blue-800 underline' rel="sponsored nofollow" target="_blank">Flo by Moen installed</a>, $750&ndash;1,050 total including plumber. Maximum protection with automatic shutoff and insurance discount eligibility.</li>
             </ul>
             <p className='mt-4'><a href='#standalone-sensors' className='text-blue-600 hover:text-blue-800 underline font-medium'>Jump to full reviews below &darr;</a></p>
           </div>
@@ -91,6 +281,22 @@ export default function BestWaterLeakDetectors() {
               className='w-full h-auto rounded-xl'
             />
           </div>
+
+          {/* TL;DR */}
+          <section className='bg-teal-50 border-l-4 border-teal-500 rounded-r-xl p-6 mb-10'><h2 className="text-3xl font-bold text-gray-900 mb-6">TL;DR</h2>
+<ul className="space-y-2 text-gray-700 text-lg mb-6">
+<li>Best overall: YoLink Water Leak Sensor 4. Long-range, loud siren, phone alerts, and years of battery life. Wirecutter's top pick too.</li>
+<li>Best no-hub leak and freeze alerts: Kidde 60WLDR-W. Connects straight to Wi-Fi, loud siren, and warns you before pipes freeze.</li>
+<li>Best budget Wi-Fi sensor: SwitchBot Water Leak Detector. No hub, IP67 waterproof, and a built-in alarm.</li>
+<li>Best budget multi-pack: GoveeLife. Sensors for $10 to $20 each.</li>
+<li>Best for Matter, HomeKit, and Home Assistant: Shelly Flood Gen4.</li>
+<li>Best for a basement on a budget: Basement Watchdog Water Alarm. No Wi-Fi, no app, no hub, just a loud alarm on the floor.</li>
+<li>Best for your sump pit: a high water alarm that sounds before the pit overflows.</li>
+<li>Best if you already own Ring or SmartThings: the matching sensor for your system.</li>
+<li>Best full protection: Flo by Moen, which detects leaks on your main line and shuts the water off automatically.</li>
+<li>Start with one sensor at the sump pit, one at the water heater, and one at the lowest point of the floor.</li>
+</ul>
+</section>
 
           {/* Quick Comparison Table */}
           <h2 className='text-3xl font-bold text-gray-900 mb-6'>Quick Comparison: Best Water Leak Detectors 2026</h2>
@@ -129,6 +335,36 @@ export default function BestWaterLeakDetectors() {
                   <td className='px-4 py-3'>No</td>
                   <td className='px-4 py-3'>Best budget</td>
                 </tr>
+<tr className="border-b">
+<td className="px-4 py-3 font-medium">Kidde 60WLDR-W</td>
+<td className="px-4 py-3">Standalone, Wi-Fi, no hub</td>
+<td className="px-4 py-3">About $45</td>
+<td className="px-4 py-3">Your Wi-Fi range</td>
+<td className="px-4 py-3">2 AA</td>
+<td className="px-4 py-3">Loud siren (about 95 dB in independent testing)</td>
+<td className="px-4 py-3">No</td>
+<td className="px-4 py-3">Leak plus freeze alerts without a hub</td>
+</tr>
+<tr className="border-b">
+<td className="px-4 py-3 font-medium">SwitchBot Water Leak Detector</td>
+<td className="px-4 py-3">Standalone, Wi-Fi and Bluetooth, no hub</td>
+<td className="px-4 py-3">About $20 to $30</td>
+<td className="px-4 py-3">Your Wi-Fi range</td>
+<td className="px-4 py-3">2 AAA, up to 2 years</td>
+<td className="px-4 py-3">Built-in alarm</td>
+<td className="px-4 py-3">No</td>
+<td className="px-4 py-3">Cheapest Wi-Fi sensor with an alarm, IP67 waterproof</td>
+</tr>
+<tr className="border-b">
+<td className="px-4 py-3 font-medium">Shelly Flood Gen4</td>
+<td className="px-4 py-3">Wi-Fi, Zigbee, Bluetooth, Matter</td>
+<td className="px-4 py-3">About $35 to $40</td>
+<td className="px-4 py-3">Wi-Fi or Zigbee; 2 m sensing cable, extendable</td>
+<td className="px-4 py-3">4 AA, about 2 years</td>
+<td className="px-4 py-3">Built-in buzzer (quieter, about 65 dB)</td>
+<td className="px-4 py-3">No</td>
+<td className="px-4 py-3">Matter, HomeKit, and Home Assistant users, long cable runs</td>
+</tr>
                 <tr className='border-b'>
                   <td className='px-4 py-3 font-medium'>Ring Alarm Flood and Freeze</td>
                   <td className='px-4 py-3'>Smart home Z-Wave</td>
@@ -145,7 +381,7 @@ export default function BestWaterLeakDetectors() {
                   <td className='px-4 py-3'>$20 to $35</td>
                   <td className='px-4 py-3'>SmartThings range</td>
                   <td className='px-4 py-3'>1 to 2 years</td>
-                  <td className='px-4 py-3'>Via automations</td>
+                  <td className='px-4 py-3'>No built-in siren. Can trigger other devices through SmartThings automations.</td>
                   <td className='px-4 py-3'>No</td>
                   <td className='px-4 py-3'>SmartThings households</td>
                 </tr>
@@ -172,6 +408,17 @@ export default function BestWaterLeakDetectors() {
               </tbody>
             </table>
           </div>
+
+          <h2 className="text-3xl font-bold text-gray-900 mb-6">How We Chose These Leak Detectors</h2>
+<p className="text-gray-700 text-lg mb-4">We did not bench-test these sensors ourselves. We compared manufacturer specs, independent test results from outlets that did, and long-term owner reports, and scored each on what decides whether a leak sensor actually saves your basement:</p>
+<ul className="space-y-2 text-gray-700 text-lg mb-6">
+<li><strong>Alert reliability.</strong> Does the alert reach you when Wi-Fi is down or the sensor is two floors from the router? Long-range protocols like LoRa beat Wi-Fi-only sensors in basements.</li>
+<li><strong>Local alarm.</strong> A siren loud enough to hear upstairs matters when your phone is off or you're asleep. We favored sensors measured at 80 dB or louder.</li>
+<li><strong>Battery life and low-battery warnings.</strong> A dead sensor is worse than no sensor because you think you're covered.</li>
+<li><strong>Probe design.</strong> Sensors that detect water at the edge of a puddle catch leaks sooner than sensors that need water under the center. Sensing cables cover more floor than a single puck.</li>
+<li><strong>Total cost for real coverage.</strong> Most basements need 3 to 5 sensors, so we compared hub plus multi-pack pricing, not single-sensor pricing.</li>
+<li><strong>Ecosystem fit.</strong> If you already pay for Ring, SmartThings, Moen, or run Home Assistant or HomeKit, the matching sensor is often the best choice for you.</li>
+</ul>
 
           {/* How Water Leak Sensors Work */}
           <h2 className='text-3xl font-bold text-gray-900 mb-6'>How Water Leak Sensors Work</h2>
@@ -204,9 +451,9 @@ export default function BestWaterLeakDetectors() {
           <div className='bg-white border border-gray-200 rounded-2xl p-8 mb-8 shadow-sm'>
             <div className='flex flex-wrap gap-2 mb-4'>
               <span className='bg-cyan-500 text-white text-xs font-bold px-3 py-1 rounded-full uppercase'>Top Pick</span>
-              <span className='bg-amber-100 text-amber-800 text-xs font-bold px-3 py-1 rounded-full'>Wirecutter #1 in Jan 2026</span>
+              <span className='bg-amber-100 text-amber-800 text-xs font-bold px-3 py-1 rounded-full'>Wirecutter&apos;s top pick</span>
             </div>
-            <h3 className='text-2xl font-bold text-gray-900 mb-4'>YoLink Water Leak Sensor 4 &mdash; Best Overall</h3>
+            <h3 className='text-2xl font-bold text-gray-900 mb-4'>YoLink Water Leak Sensor 4: Best Overall</h3>
             <p className='text-gray-700 text-lg mb-4'>
               The YoLink Water Leak Sensor 4 is our top pick for most basement owners. It earned Wirecutter&apos;s number one recommendation in their January 2026 update, and for good reason. The combination of LoRa wireless range, dual detection probes, loud alarm, and affordable multi-pack pricing makes it the best all-around choice for basement leak detection.
             </p>
@@ -260,7 +507,7 @@ export default function BestWaterLeakDetectors() {
                 <p className='text-sm text-gray-700'>Most basement owners. Especially large basements, basements far from the router, and homeowners who want reliable detection without a smart home ecosystem.</p>
               </div>
             </div>
-            <a href='https://amzn.to/4tZpI9Z' target='_blank' rel='noopener noreferrer' className='inline-block bg-amber-400 hover:bg-amber-500 text-gray-900 font-bold py-3 px-8 rounded-lg transition-colors'>Check Price on Amazon</a>
+            <a href='https://amzn.to/4tZpI9Z' className='inline-block bg-amber-400 hover:bg-amber-500 text-gray-900 font-bold py-3 px-8 rounded-lg transition-colors' rel="sponsored nofollow" target="_blank">Check Price on Amazon</a>
           </div>
 
           {/* GoveeLife */}
@@ -270,7 +517,7 @@ export default function BestWaterLeakDetectors() {
             </div>
             <h3 className='text-2xl font-bold text-gray-900 mb-4'>GoveeLife Water Leak Detector</h3>
             <p className='text-gray-700 text-lg mb-4'>
-              If you want to blanket your basement with sensors at the lowest possible cost, the GoveeLife detectors are the answer. At $10 to $20 per sensor, you can cover every risk point in a typical basement &mdash; sump pit, water heater, washing machine, HVAC drain, foundation walls, far corners &mdash; for under $100 total.
+              If you want to blanket your basement with sensors at the lowest possible cost, the GoveeLife detectors are the answer. At $10 to $20 per sensor, you can cover every risk point in a typical basement, sump pit, water heater, washing machine, HVAC drain, foundation walls, far corners, for under $100 total.
             </p>
             <p className='text-gray-700 text-lg mb-4'>
               The newest multi-pack versions use LoRa for long range and include 100 dB alarms with an optional strobe light for visibility in dark basements. The app sends push notifications, email, or text alerts. Battery life reaches up to 5 years in some models, making these truly set-and-forget devices.
@@ -313,9 +560,22 @@ export default function BestWaterLeakDetectors() {
                 <p className='text-sm text-gray-700'>Budget-conscious homeowners who want comprehensive coverage. Buy enough sensors to cover every water source and vulnerable spot in the basement.</p>
               </div>
             </div>
-            <a href='https://amzn.to/4rGoGhR' target='_blank' rel='noopener noreferrer' className='inline-block bg-amber-400 hover:bg-amber-500 text-gray-900 font-bold py-3 px-8 rounded-lg transition-colors'>Check Price on Amazon</a>
+            <a href='https://amzn.to/4rGoGhR' className='inline-block bg-amber-400 hover:bg-amber-500 text-gray-900 font-bold py-3 px-8 rounded-lg transition-colors' rel="sponsored nofollow" target="_blank">Check Price on Amazon</a>
           </div>
 
+          {/* Kidde */}<div className='bg-white border border-gray-200 rounded-2xl p-8 mb-8 shadow-sm' data-product-review='Kidde'><h3 className="text-2xl font-bold text-gray-900 mb-4">Kidde 60WLDR-W Water Leak + Freeze Detector: Best No-Hub Leak and Freeze Alerts</h3>
+<p className="text-gray-700 text-lg mb-4"><strong>Specs:</strong> Wi-Fi, no hub | 2 AA batteries included | loud built-in siren (about 95 dB in independent testing) | freeze alert at about 37°F | Kidde app alerts | works with Alexa and Google Home | about $45</p>
+<p className="text-gray-700 text-lg mb-4">Kidde is the smoke alarm brand, and this sensor works the same way: it sits quietly until something is wrong, then it's loud. It connects directly to your Wi-Fi with a QR code, so there's no hub to buy, and it keeps sounding its local siren even if your Wi-Fi drops. It's Wirecutter's budget pick.</p>
+<p className="text-gray-700 text-lg mb-4">The freeze alert is the reason to pick it for a basement. It warns you when the space approaches freezing, which is when a pipe near a rim joist or an exterior wall bursts. Pair it with our guide to <a href="/articles/frozen-pipes-in-basement" className="text-blue-600 hover:text-blue-800 underline">frozen pipes in the basement</a>.</p>
+<p className="text-gray-700 text-lg mb-4"><strong>Watch out for:</strong> the water contacts are spaced about half an inch apart, so a thin film of water can take longer to trigger it than a sensor with edge probes. Set it at the lowest spot where water collects, not on a slight rise.</p>
+<p className="text-gray-700 text-lg mb-4"><a href="https://link.amazon/B0hYs0mq2" className="inline-block bg-amber-400 hover:bg-amber-500 text-gray-900 font-bold py-3 px-8 rounded-lg transition-colors" rel="sponsored nofollow" target="_blank">Check Price on Amazon</a></p>
+</div>
+          {/* SwitchBot */}<div className='bg-white border border-gray-200 rounded-2xl p-8 mb-8 shadow-sm' data-product-review='SwitchBot'><h3 className="text-2xl font-bold text-gray-900 mb-4">SwitchBot Water Leak Detector: Best Budget Wi-Fi Sensor</h3>
+<p className="text-gray-700 text-lg mb-4"><strong>Specs:</strong> Wi-Fi and Bluetooth, no hub | 2 AAA batteries, up to 2 years | built-in audible alarm | IP67 waterproof | app and email alerts | works with Alexa, Google Home, and Siri | about $20 to $30</p>
+<p className="text-gray-700 text-lg mb-4">If you want phone alerts without buying a hub, this is the cheapest good option. It's IP67 rated, so it survives sitting in standing water, and it alarms locally and on your phone. It also detects rising or falling water levels, so you can use it as a simple overflow warning on a utility sink or dehumidifier bucket.</p>
+<p className="text-gray-700 text-lg mb-4"><strong>Watch out for:</strong> both water contacts are on the unit itself, so placement matters. Put it flat at the lowest point. Its alarm tested quieter than Kidde's and YoLink's, so don't count on hearing it from the second floor. Rely on the app alert.</p>
+<p className="text-gray-700 text-lg mb-4"><a href="https://link.amazon/B072X1MJZ" className="inline-block bg-amber-400 hover:bg-amber-500 text-gray-900 font-bold py-3 px-8 rounded-lg transition-colors" rel="sponsored nofollow" target="_blank">Check Price on Amazon</a></p>
+</div>
           {/* Smart-Home Integrated Section */}
           <div className='bg-slate-50 rounded-2xl p-8 mb-12'>
             <div className='flex items-center space-x-3 mb-4'>
@@ -327,9 +587,9 @@ export default function BestWaterLeakDetectors() {
 
           {/* Ring */}
           <div className='bg-white border border-gray-200 rounded-2xl p-8 mb-8 shadow-sm'>
-            <h3 className='text-2xl font-bold text-gray-900 mb-4'>Ring Alarm Flood &amp; Freeze Sensor &mdash; Best for Ring Households</h3>
+            <h3 className='text-2xl font-bold text-gray-900 mb-4'>Ring Alarm Flood &amp; Freeze Sensor: Best for Ring Households</h3>
             <p className='text-gray-700 text-lg mb-4'>
-              The Ring Flood and Freeze Sensor is the natural choice for homes already in the Ring ecosystem. It detects water and temperatures below 40 degrees Fahrenheit, sends instant alerts through the Ring app, and can trigger your full Ring Alarm siren &mdash; which is significantly louder than the sensor&apos;s own alarm.
+              The Ring Flood and Freeze Sensor is the natural choice for homes already in the Ring ecosystem. It detects water and temperatures below 40 degrees Fahrenheit, sends instant alerts through the Ring app, and can trigger your full Ring Alarm siren, which is significantly louder than the sensor&apos;s own alarm.
             </p>
             <p className='text-gray-700 text-lg mb-4'>
               Battery life is up to 3 years. The main advantage over standalone sensors is integration with your existing Ring security system. You can build automations like: leak detected = turn on all basement lights, trigger siren, and send notification. If you have Ring Protect monitoring, the monitoring center is also notified.
@@ -371,12 +631,12 @@ export default function BestWaterLeakDetectors() {
                 <p className='text-sm text-gray-700'>Homes with existing Ring security systems that want to add water protection without a new app or hub.</p>
               </div>
             </div>
-            <a href='https://amzn.to/47dndXP' target='_blank' rel='noopener noreferrer' className='inline-block bg-amber-400 hover:bg-amber-500 text-gray-900 font-bold py-3 px-8 rounded-lg transition-colors'>Check Price on Amazon</a>
+            <a href='https://amzn.to/47dndXP' className='inline-block bg-amber-400 hover:bg-amber-500 text-gray-900 font-bold py-3 px-8 rounded-lg transition-colors' rel="sponsored nofollow" target="_blank">Check Price on Amazon</a>
           </div>
 
           {/* SmartThings */}
           <div className='bg-white border border-gray-200 rounded-2xl p-8 mb-8 shadow-sm'>
-            <h3 className='text-2xl font-bold text-gray-900 mb-4'>Samsung SmartThings Water Leak Sensor &mdash; Best for SmartThings Households</h3>
+            <h3 className='text-2xl font-bold text-gray-900 mb-4'>Samsung SmartThings Water Leak Sensor: Best for SmartThings Households</h3>
             <p className='text-gray-700 text-lg mb-4'>
               The Samsung SmartThings Water Leak Sensor is a compact Zigbee sensor that detects water and temperature, then triggers automations across your entire SmartThings ecosystem. You can build routines like: leak detected = turn off smart water valve, turn on lights, and send notification to all household members.
             </p>
@@ -423,6 +683,13 @@ export default function BestWaterLeakDetectors() {
             </div>
           </div>
 
+          {/* Shelly */}<div className='bg-white border border-gray-200 rounded-2xl p-8 mb-8 shadow-sm' data-product-review='Shelly'><h3 className="text-2xl font-bold text-gray-900 mb-4">Shelly Flood Gen4: Best for Matter, HomeKit, and Home Assistant</h3>
+<p className="text-gray-700 text-lg mb-4"><strong>Specs:</strong> Wi-Fi, Zigbee, Bluetooth, and Matter | 4 AA batteries included, about 2 years | built-in buzzer (about 65 dB) | 2 m leak sensing cable, extendable | works with HomeKit, Google Home, and Home Assistant | about $35 to $40</p>
+<p className="text-gray-700 text-lg mb-4">The Shelly is the most flexible sensor on this list. It speaks Wi-Fi, Zigbee, and Matter, so it drops into almost any smart home without a brand-specific hub, and it runs local automations. That matters if you want a leak to trigger something, like shutting off a smart valve or turning on a sump backup alert.</p>
+<p className="text-gray-700 text-lg mb-4">The sensing cable is the other reason to buy it. Instead of a single puck, you lay a cable along the wall where seepage shows up, or around a water heater, and the cable can be extended to cover long runs. Bob Vila named it Best Overall in its testing.</p>
+<p className="text-gray-700 text-lg mb-4"><strong>Watch out for:</strong> the buzzer is the quietest here, about 65 dB, so treat phone alerts as the primary warning. Only the sensing cable is waterproof. Mount the main unit up on the wall, off the floor.</p>
+<p className="text-gray-700 text-lg mb-4"><a href="https://link.amazon/B05uEZONd" className="inline-block bg-amber-400 hover:bg-amber-500 text-gray-900 font-bold py-3 px-8 rounded-lg transition-colors" rel="sponsored nofollow" target="_blank">Check Price on Amazon</a></p>
+</div>
           {/* Whole-Home Systems */}
           <div className='bg-slate-50 rounded-2xl p-8 mb-12'>
             <div className='flex items-center space-x-3 mb-4'>
@@ -437,15 +704,15 @@ export default function BestWaterLeakDetectors() {
             <div className='flex flex-wrap gap-2 mb-4'>
               <span className='bg-purple-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase'>Premium Pick</span>
             </div>
-            <h3 className='text-2xl font-bold text-gray-900 mb-4'>Flo by Moen Smart Water Monitor &amp; Automatic Shutoff &mdash; Best Premium Protection</h3>
+            <h3 className='text-2xl font-bold text-gray-900 mb-4'>Flo by Moen Smart Water Monitor &amp; Automatic Shutoff: Best Premium Protection</h3>
             <p className='text-gray-700 text-lg mb-4'>
-              The Flo by Moen is the premium choice for serious basement protection. A plumber installs the device on your main water supply line. It monitors water flow 24/7, learns your household&apos;s normal usage patterns over the first two weeks, and then detects anomalies that indicate leaks &mdash; a toilet running continuously, a slow drip behind a wall, a burst pipe, or a failing appliance.
+              The Flo by Moen is the premium choice for serious basement protection. A plumber installs the device on your main water supply line. It monitors water flow 24/7, learns your household&apos;s normal usage patterns over the first two weeks, and then detects anomalies that indicate leaks, a toilet running continuously, a slow drip behind a wall, a burst pipe, or a failing appliance.
             </p>
             <p className='text-gray-700 text-lg mb-4'>
               When the system detects a potential leak, it sends an alert to your phone with an option to shut off the water remotely. In severe cases (such as flow patterns consistent with a burst pipe), it can shut the water off automatically before you even see the alert. This capability is what sets whole-home systems apart from sensors. Individual sensors tell you water is on the floor. The Flo by Moen stops the water before it reaches the floor.
             </p>
             <p className='text-gray-700 text-lg mb-4'>
-              Many homeowners insurance companies offer premium discounts of 5 to 10 percent for homes with automatic shutoff systems because these homes file significantly fewer water damage claims. The discount can offset a meaningful portion of the system cost over time. Contact your insurance agent about available discounts before purchasing. See our <Link href='/articles/basement-flooding-insurance' className='text-blue-600 hover:text-blue-800 underline'>basement flooding insurance guide</Link> for what water damage is and is not covered.
+              discounts typically range from 2 to 10 percent, with the larger discounts usually tied to automatic shutoff systems like Flo by Moen. Ask your insurer what qualifies. The discount can offset a meaningful portion of the system cost over time. Contact your insurance agent about available discounts before purchasing. See our <Link href='/articles/basement-flooding-insurance' className='text-blue-600 hover:text-blue-800 underline'>basement flooding insurance guide</Link> for what water damage is and is not covered.
             </p>
             <p className='text-gray-700 text-lg mb-4'>
               The Flo system pairs with optional Moen Smart Water Leak Detectors ($40 to $50 each) for targeted spot detection in the basement. This combination provides both whole-home flow monitoring and specific point detection at vulnerable locations.
@@ -460,7 +727,7 @@ export default function BestWaterLeakDetectors() {
                   <li>&#10003; Automatic water shutoff stops damage at the source</li>
                   <li>&#10003; Learns your usage patterns and detects micro-leaks</li>
                   <li>&#10003; Monitors entire home plumbing from one device</li>
-                  <li>&#10003; Insurance discount eligible (5 to 10 percent from some insurers)</li>
+                  <li>&#10003; discounts typically range from 2 to 10 percent, with the larger discounts usually tied to automatic shutoff systems like Flo by Moen. Ask your insurer what qualifies.</li>
                   <li>&#10003; Real-time flow monitoring through app</li>
                   <li>&#10003; Pairs with Moen spot sensors for layered detection</li>
                   <li>&#10003; Can prevent catastrophic damage while you are away</li>
@@ -486,12 +753,12 @@ export default function BestWaterLeakDetectors() {
                 <p className='text-sm text-gray-700'>Finished basements with significant financial exposure. Homes where owners travel frequently. Pairs well with a <Link href='/articles/smart-sump-pumps-guide' className='text-blue-600 hover:text-blue-800 underline'>smart sump pump system</Link> for complete coverage.</p>
               </div>
             </div>
-            <a href='https://amzn.to/4chgks4' target='_blank' rel='noopener noreferrer' className='inline-block bg-amber-400 hover:bg-amber-500 text-gray-900 font-bold py-3 px-8 rounded-lg transition-colors'>Check Price on Amazon</a>
+            <a href='https://amzn.to/4chgks4' className='inline-block bg-amber-400 hover:bg-amber-500 text-gray-900 font-bold py-3 px-8 rounded-lg transition-colors' rel="sponsored nofollow" target="_blank">Check Price on Amazon</a>
           </div>
 
           {/* Moen Smart Leak Detector */}
           <div className='bg-white border border-gray-200 rounded-2xl p-8 mb-8 shadow-sm'>
-            <h3 className='text-2xl font-bold text-gray-900 mb-4'>Moen Smart Water Leak Detector &mdash; Companion Sensor</h3>
+            <h3 className='text-2xl font-bold text-gray-900 mb-4'>Moen Smart Water Leak Detector: Companion Sensor</h3>
             <p className='text-gray-700 text-lg mb-4'>
               The Moen Smart Water Leak Detector is the targeted companion to the Flo whole-home system. It is a slim sensor with an extended probe cable that reaches under appliances and into tight spaces. It monitors water presence, temperature, and humidity, and sends alerts through the Moen app.
             </p>
@@ -531,8 +798,24 @@ export default function BestWaterLeakDetectors() {
                 <p className='text-sm text-gray-700'>Homeowners who want targeted basement spot detection now with the option to upgrade to full Flo auto-shutoff later.</p>
               </div>
             </div>
-            <a href='https://amzn.to/47x843P' target='_blank' rel='noopener noreferrer' className='inline-block bg-amber-400 hover:bg-amber-500 text-gray-900 font-bold py-3 px-8 rounded-lg transition-colors'>Check Price on Amazon</a>
+            <a href='https://amzn.to/47x843P' className='inline-block bg-amber-400 hover:bg-amber-500 text-gray-900 font-bold py-3 px-8 rounded-lg transition-colors' rel="sponsored nofollow" target="_blank">Check Price on Amazon</a>
           </div>
+
+          <h2 className="text-3xl font-bold text-gray-900 mb-6">Best Water Sensor for a Basement: Floor Sensors, Sump Alarms, and Moisture Monitors</h2>
+<p className="text-gray-700 text-lg mb-4">Basements need three different kinds of protection, and most people only buy one.</p>
+<h3 className="text-xl font-bold text-gray-900 mb-3">1. Floor leak sensors (for leaks and seepage)</h3>
+<p className="text-gray-700 text-lg mb-4">These sit on the floor and alarm when water touches their probes. They catch a burst water heater, a leaking washer hose, or groundwater coming through the floor. Put them at the lowest point of the floor, at the water heater, and wherever water has come in before.</p>
+<p className="text-gray-700 text-lg mb-4"><strong>Best smart pick:</strong> YoLink Water Leak Sensor 4 (reviewed below). The LoRa signal reaches through concrete and floor joists where Wi-Fi sensors drop out. For seepage along a wall, the Shelly Flood Gen4's sensing cable covers more ground than a single puck.</p>
+<p className="text-gray-700 text-lg mb-4"><strong>Best simple pick:</strong> Basement Watchdog Water Alarm. It's battery powered, has no app or hub, and sounds a loud alarm when water touches the sensor. The sensor sits on the floor on a cord, so you can mount the alarm itself where you'll actually hear it. It's the right pick for a rental, an elderly parent's house, or anyone who doesn't want another app.</p>
+<p className="text-gray-700 text-lg mb-4"><a href="https://link.amazon/B0cMrpFfc" className="inline-block bg-amber-400 hover:bg-amber-500 text-gray-900 font-bold py-3 px-8 rounded-lg transition-colors" rel="sponsored nofollow" target="_blank">Check Price on Amazon</a></p>
+<h3 className="text-xl font-bold text-gray-900 mb-3">2. Sump pit high water alarms (for pump failure)</h3>
+<p className="text-gray-700 text-lg mb-4">A floor sensor tells you the basement is already wet. A sump high water alarm tells you the pump is falling behind or has failed, while the water is still in the pit. Mount the float a few inches above the pump's normal turn-on level so it only sounds when something is wrong.</p>
+<p className="text-gray-700 text-lg mb-4"><strong>Our pick:</strong> a float-style sump pit high water alarm. It's the same one we recommend in our guide to a <a href="/articles/sump-pump-running-constantly" className="text-blue-600 hover:text-blue-800 underline">sump pump running constantly</a>.</p>
+<p className="text-gray-700 text-lg mb-4"><a href="https://link.amazon/B06lkYucH" className="inline-block bg-amber-400 hover:bg-amber-500 text-gray-900 font-bold py-3 px-8 rounded-lg transition-colors" rel="sponsored nofollow" target="_blank">Check Price on Amazon</a></p>
+<p className="text-gray-700 text-lg mb-4">If you want phone alerts from the pit, a smart sump pump or a combo system with a monitored controller does this too. See our <a href="/articles/best-sump-pumps-2026" className="text-blue-600 hover:text-blue-800 underline">best sump pumps for 2026</a> and the <a href="/articles/smart-sump-pumps" className="text-blue-600 hover:text-blue-800 underline">smart sump pumps guide</a>.</p>
+<h3 className="text-xl font-bold text-gray-900 mb-3">3. Moisture and humidity monitors (for slow problems)</h3>
+<p className="text-gray-700 text-lg mb-4">A leak sensor won't alarm for damp walls, condensation, or humidity creeping up to the point where mold grows. For that, use a hygrometer or a smart sensor with humidity monitoring, such as the Moen Smart Water Leak Detector reviewed below. Keep basement humidity between 30% and 50%. Our <a href="/articles/basement-humidity-guide" className="text-blue-600 hover:text-blue-800 underline">basement humidity guide</a> covers how.</p>
+<p className="text-gray-700 text-lg mb-4"><strong>The basement setup we recommend:</strong> one floor sensor at the water heater, one at the lowest floor point, one at the washer or utility sink, a high water alarm in the sump pit, and a humidity monitor. Total cost runs about $80 to $200 depending on brands.</p>
 
           {/* Sensor Placement Guide */}
           <h2 className='text-3xl font-bold text-gray-900 mb-6'>Where to Place Leak Sensors in Your Basement</h2>
@@ -542,10 +825,10 @@ export default function BestWaterLeakDetectors() {
 
           <h3 className='text-xl font-bold text-gray-900 mb-3'>Priority 1 Locations (Install First)</h3>
           <ul className='space-y-2 text-gray-700 text-lg mb-6'>
-            <li><strong>1.</strong> Next to the sump pump pit &mdash; first place to overflow if the pump fails</li>
-            <li><strong>2.</strong> At the base of the water heater &mdash; the number one source of indoor water damage in homes with water heaters over 8 years old</li>
-            <li><strong>3.</strong> Behind the washing machine &mdash; hose failures are sudden and high-volume</li>
-            <li><strong>4.</strong> Near the HVAC condensate drain &mdash; clogs cause slow, steady leaks</li>
+            <li><strong>1.</strong> Next to the sump pump pit, first place to overflow if the pump fails</li>
+            <li><strong>2.</strong> At the base of the water heater, the number one source of indoor water damage in homes with water heaters over 8 years old</li>
+            <li><strong>3.</strong> Behind the washing machine, hose failures are sudden and high-volume</li>
+            <li><strong>4.</strong> Near the HVAC condensate drain, clogs cause slow, steady leaks</li>
           </ul>
 
           <h3 className='text-xl font-bold text-gray-900 mb-3'>Priority 2 Locations (Install Next)</h3>
@@ -608,7 +891,7 @@ export default function BestWaterLeakDetectors() {
           {/* Insurance Discounts */}
           <h2 className='text-3xl font-bold text-gray-900 mb-6'>Insurance Discounts for Leak Detection Systems</h2>
           <p className='text-gray-700 text-lg mb-4'>
-            Some homeowners insurance companies offer premium discounts of 2 to 10 percent for homes with smart water leak detection, with the largest discounts reserved for systems with automatic shutoff valves like the Flo by Moen.
+            discounts typically range from 2 to 10 percent, with the larger discounts usually tied to automatic shutoff systems like Flo by Moen. Ask your insurer what qualifies.
           </p>
           <p className='text-gray-700 text-lg mb-4'>
             To qualify for the maximum discount, most insurers require a monitored system that provides 24/7 alerts and an automatic water shutoff valve on the main supply. Individual sensors without shutoff may qualify for smaller discounts depending on your insurer.
@@ -660,7 +943,7 @@ export default function BestWaterLeakDetectors() {
             <div className='border-b border-gray-200 pb-6'>
               <h3 className='text-lg font-bold text-gray-900 mb-2'>Are water leak detectors worth it?</h3>
               <p className='text-gray-700'>
-                Yes. A single water damage event in a finished basement costs $10,000 to $50,000 to repair, including water extraction, drying, mold remediation, drywall replacement, flooring replacement, and contents restoration. A complete leak detection system costs $50 to $250 for sensors or $750 to $1,050 for a whole-home system with auto shutoff. Some insurance companies also offer premium discounts of 2 to 10 percent for homes with monitored leak detection.
+                Yes. A single water damage event in a finished basement costs $10,000 to $50,000 to repair, including water extraction, drying, mold remediation, drywall replacement, flooring replacement, and contents restoration. A complete leak detection system costs $50 to $250 for sensors or $750 to $1,050 for a whole-home system with auto shutoff. discounts typically range from 2 to 10 percent, with the larger discounts usually tied to automatic shutoff systems like Flo by Moen. Ask your insurer what qualifies.
               </p>
             </div>
             <div className='border-b border-gray-200 pb-6'>
@@ -669,6 +952,13 @@ export default function BestWaterLeakDetectors() {
                 These are wireless communication protocols that determine how sensors talk to their hub and app. LoRa has the longest range (125 feet through walls), lowest power use (2 to 5 year battery), and best concrete penetration, making it ideal for basements. Wi-Fi connects directly to your router but has shorter range in concrete and higher power use (1 to 2 year battery). Zigbee and Z-Wave are mesh protocols used by smart home systems with moderate range and battery life. For basement-specific use, LoRa sensors provide the most reliable performance.
               </p>
             </div>
+<div className="border-b border-gray-200 pb-6"><h3 className="text-lg font-bold text-gray-900 mb-2">What's the difference between a water leak sensor and a moisture sensor?</h3><p className="text-gray-700">A water leak sensor alarms when liquid water touches its probes, like a puddle from a leaking water heater or groundwater on the floor. A moisture or humidity sensor measures water vapor in the air and alerts when humidity climbs too high, which is how mold starts. Basements benefit from both. Leak sensors catch sudden problems, and humidity monitors catch slow ones.</p></div>
+
+<div className="border-b border-gray-200 pb-6"><h3 className="text-lg font-bold text-gray-900 mb-2">Do water leak sensors need Wi-Fi to work?</h3><p className="text-gray-700">No. Audible-only alarms like the Basement Watchdog need no connection at all. They just sound a siren. Smart sensors need a connection to send phone alerts. Some, like Kidde and SwitchBot, connect directly to Wi-Fi with no hub. Others, like YoLink and GoveeLife multi-packs, talk to a hub over a long-range radio signal, which works better in basements with weak Wi-Fi. If your internet or power goes out, a sensor with a built-in siren will still sound locally.</p></div>
+
+<div className="border-b border-gray-200 pb-6"><h3 className="text-lg font-bold text-gray-900 mb-2">Can I get an alert on my phone if my basement starts flooding?</h3><p className="text-gray-700">Yes. Any smart leak sensor (YoLink, Kidde, SwitchBot, GoveeLife, Shelly, Ring, SmartThings, or Moen) will send a push notification when water reaches it. For the earliest warning, put one sensor at the lowest point of the floor and a high water alarm in the sump pit, so you hear about a pump failure before water reaches the floor. Make sure the hub or router is on a battery backup if you want alerts during a power outage.</p></div>
+
+
           </div>
 
           {/* Glossary */}
@@ -769,6 +1059,8 @@ export default function BestWaterLeakDetectors() {
               <p className='text-sm text-gray-600 mt-2'>Comprehensive guide to all basement waterproofing methods.</p>
             </div>
           </Link>
+          <Link href='/articles/best-sump-pumps-2026' className='group block bg-white border border-gray-200 rounded-xl overflow-hidden hover:shadow-lg transition-shadow'><div className='p-6'><h3 className='font-bold text-gray-900 group-hover:text-blue-600 transition-colors'>Best Sump Pumps for 2026</h3></div></Link>
+          <Link href='/articles/sump-pump-running-constantly' className='group block bg-white border border-gray-200 rounded-xl overflow-hidden hover:shadow-lg transition-shadow'><div className='p-6'><h3 className='font-bold text-gray-900 group-hover:text-blue-600 transition-colors'>Sump Pump Running Constantly</h3></div></Link>
           <Link href='/articles/best-window-well-covers-egress-ladders' className='group block bg-white border border-gray-200 rounded-xl overflow-hidden hover:shadow-lg transition-shadow'>
             <div className='p-6'>
               <h3 className='font-bold text-gray-900 group-hover:text-blue-600 transition-colors'>Best Window Well Covers and Egress Ladders</h3>

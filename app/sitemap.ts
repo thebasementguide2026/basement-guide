@@ -17,6 +17,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ]
 
   const articleDates: Record<string, string> = {
+  "best-water-leak-detectors": "2026-10-24",
   "best-sump-pumps-2026": "2026-10-24",
   "sump-pump-design-ideas": "2026-10-24",
   "interior-vs-exterior-waterproofing": "2026-10-24",
