@@ -112,7 +112,7 @@ const faqSchema = {
       "name": "How much does an interior French drain and sump pump cost?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Most homeowners pay $4,800 to $15,000 for an interior perimeter drain plus a sump pump. A 100 foot system with a pump typically runs $4,800 to $11,000, and a 150 foot system $6,800 to $15,250. A battery backup pump adds $500 to $1,500. Get at least three quotes with the drain, pump, and backup priced as separate lines."
+        "text": "Most homeowners pay $4,800 to $15,000 for an interior perimeter drain plus a sump pump. A 100 foot system with a pump typically runs $4,800 to $11,000, and a 150 foot system $6,800 to $15,250. A battery backup pump adds $350 to $900. Get at least three quotes with the drain, pump, and backup priced as separate lines."
       }
     },
     {
@@ -342,7 +342,7 @@ export default function FrenchDrainCostPage() {
 </tr>
 <tr className="border-b border-slate-100">
 <td className="p-4 font-medium">Battery backup pump added</td>
-<td className="p-4">$500 to $1,500 installed</td>
+<td className="p-4">$350 to $900 installed</td>
 </tr>
 </tbody></table></div>
 <p>These totals use $40 to $85 per foot for the drain and $800 to $2,500 for the sump pump installed. For pump picks, see our <a href="/articles/best-sump-pumps-2026" className="text-violet-600 hover:underline">best sump pumps for 2026</a>. For full pump pricing, see our <a href="/articles/sump-pump-cost" className="text-violet-600 hover:underline">sump pump cost guide</a>.</p>
@@ -672,7 +672,7 @@ export default function FrenchDrainCostPage() {
             </div>
 <div className="bg-slate-50 rounded-2xl p-6 border border-slate-100"><h4 className="font-bold text-slate-900 mb-2">How much does a 100-foot French drain cost?</h4><p className="text-slate-600">About $1,000 to $2,500 for a shallow yard drain, $2,500 to $5,000 for a deep drain along the foundation, and $4,000 to $8,500 for an interior basement perimeter drain. Add $800 to $2,500 if the job needs a sump pump, and expect extra for concrete removal, catch basins, or a long discharge line.</p></div>
 
-<div className="bg-slate-50 rounded-2xl p-6 border border-slate-100"><h4 className="font-bold text-slate-900 mb-2">How much does an interior French drain and sump pump cost?</h4><p className="text-slate-600">Most homeowners pay $4,800 to $15,000 for an interior perimeter drain plus a sump pump. A 100 foot system with a pump typically runs $4,800 to $11,000, and a 150 foot system $6,800 to $15,250. A battery backup pump adds $500 to $1,500. Get at least three quotes with the drain, pump, and backup priced as separate lines.</p></div>
+<div className="bg-slate-50 rounded-2xl p-6 border border-slate-100"><h4 className="font-bold text-slate-900 mb-2">How much does an interior French drain and sump pump cost?</h4><p className="text-slate-600">Most homeowners pay $4,800 to $15,000 for an interior perimeter drain plus a sump pump. A 100 foot system with a pump typically runs $4,800 to $11,000, and a 150 foot system $6,800 to $15,250. A battery backup pump adds $350 to $900. Get at least three quotes with the drain, pump, and backup priced as separate lines.</p></div>
 
 <div className="bg-slate-50 rounded-2xl p-6 border border-slate-100"><h4 className="font-bold text-slate-900 mb-2">Is drain tile the same as a French drain?</h4><p className="text-slate-600">Mostly, yes. Drain tile, weeping tile (the common term in Canada), perimeter drain, and footing drain all describe a perforated pipe in gravel that collects groundwater and carries it away. "French drain" usually means a yard or exterior trench, while "drain tile" and "weeping tile" usually mean the drain around the foundation footing, inside or outside. The per-foot prices on this page apply to all of them.</p></div>
 

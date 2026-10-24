@@ -4,30 +4,127 @@ import LeadForm from '@/components/LeadForm';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Sump Pump Installation Cost 2026: What You Will Actually Pay',
-  description: 'Sump pump installation costs $600-$2,500 in 2026. See cost breakdowns by pump type, what affects pricing, DIY vs. pro, and how to avoid overpaying.',
-  alternates: { canonical: 'https://thebasement.guide/articles/sump-pump-cost' },
+  "title": "Sump Pump Installation Cost 2026: $1,200 to $2,500 for a New Pit and Pump | The Basement Guide",
+  "description": "Installing a new sump pump and pit costs $1,200 to $2,500, or $1,500 to $3,500 with a battery backup. What's included, crawl space costs, and how to avoid overpaying.",
+  "alternates": {
+    "canonical": "https://thebasement.guide/articles/sump-pump-cost"
+  },
+  "openGraph": {
+    "title": "Sump Pump Installation Cost 2026: $1,200 to $2,500 for a New Pit and Pump | The Basement Guide",
+    "description": "Installing a new sump pump and pit costs $1,200 to $2,500, or $1,500 to $3,500 with a battery backup. What's included, crawl space costs, and how to avoid overpaying.",
+    "url": "https://thebasement.guide/articles/sump-pump-cost"
+  },
+  "twitter": {
+    "title": "Sump Pump Installation Cost 2026: $1,200 to $2,500 for a New Pit and Pump | The Basement Guide",
+    "description": "Installing a new sump pump and pit costs $1,200 to $2,500, or $1,500 to $3,500 with a battery backup. What's included, crawl space costs, and how to avoid overpaying."
+  }
+};
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "How Much Does It Cost to Install a Sump Pump? 2026 Prices for a New Pit and Pump",
+  "description": "Installing a new sump pump and pit costs $1,200 to $2,500, or $1,500 to $3,500 with a battery backup. What's included, crawl space costs, and how to avoid overpaying.",
+  "image": "https://thebasement.guide/images/sumppump5.jpg",
+  "author": {
+    "@type": "Organization",
+    "name": "The Basement Guide Editorial Team",
+    "url": "https://thebasement.guide"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "The Basement Guide",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://thebasement.guide/logo.png"
+    }
+  },
+  "datePublished": "2026-02-01T00:00:00-05:00",
+  "dateModified": "2026-10-24",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://thebasement.guide/articles/sump-pump-cost"
+  }
 };
 
 const faqSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'FAQPage',
-  mainEntity: [
-    { '@type': 'Question', name: 'How much does sump pump installation cost in 2026?', acceptedAnswer: { '@type': 'Answer', text: 'Sump pump installation costs $650 to $2,500 for most residential projects in 2026, with the national average for a complete new system sitting around $1,200 to $1,800. A simple pump replacement in an existing pit runs $650 to $1,200 including labor and the pump unit. A full new installation including concrete cutting, pit excavation, pump, discharge line, and battery backup runs $1,500 to $3,500. The single biggest cost variable is whether a sump pit already exists — new pit installation adds $500 to $1,000 to any project.' } },
-    { '@type': 'Question', name: 'How much does it cost to replace a sump pump vs install a new one?', acceptedAnswer: { '@type': 'Answer', text: 'Replacing an existing sump pump in an established pit typically costs $650 to $1,200 including the new pump unit and 1 to 2 hours of labor. A brand new installation with no existing pit costs $1,200 to $2,500 because it adds $500 to $1,000 for concrete cutting, pit excavation, liner installation, and concrete patching around the new pit.' } },
-    { '@type': 'Question', name: 'Is a battery backup sump pump worth the cost?', acceptedAnswer: { '@type': 'Answer', text: 'Yes, a battery backup sump pump is one of the highest-return additions available for any basement waterproofing system. Power outages most frequently occur during heavy storms that generate the most water, leaving a primary pump without electricity exactly when needed most. A battery backup unit costs $300 to $800 installed and provides 7 to 10 hours of pumping capacity.' } },
-    { '@type': 'Question', name: 'How long does sump pump installation take?', acceptedAnswer: { '@type': 'Answer', text: 'A pump replacement in an existing pit typically takes 1 to 2 hours. A new full installation including pit excavation takes 4 to 6 hours for a standard basement with straightforward discharge routing. Complex installations can take a full day.' } },
-    { '@type': 'Question', name: 'What size sump pump do I need for my basement?', acceptedAnswer: { '@type': 'Answer', text: 'For most residential basements up to approximately 1,500 square feet with a normal water table, a 1/3 HP submersible pump provides sufficient capacity at 2,500 to 3,000 gallons per hour. Basements with high water tables or square footage above 1,500 benefit from a 1/2 HP pump rated at 3,500 to 4,500 gallons per hour.' } },
-    { '@type': 'Question', name: 'Can I install a sump pump myself to save money?', acceptedAnswer: { '@type': 'Answer', text: 'Replacing an existing sump pump in an established pit is a manageable DIY project that saves $150 to $300 in labor. New pit installation is not a realistic DIY project for most homeowners because it requires a concrete cutting saw, proper pit sizing and liner installation, and electrical work that requires a permit and licensed electrician in most jurisdictions.' } },
-  ],
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does sump pump installation cost in 2026?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sump pump installation costs $650 to $2,500 for most residential projects in 2026, with the national average for a complete new system sitting around $1,200 to $1,800. A simple pump replacement in an existing pit at the lower end runs $650 to $1,200 including labor and the pump unit. A full new installation including concrete cutting, pit excavation, pump, discharge line, and battery backup runs $1,500 to $3,500. The single biggest cost variable is whether a sump pit already exists, new pit installation adds $500 to $1,000 to any project. Always get at least three written quotes that specify the pump model, horsepower, discharge routing, and whether battery backup is included before committing to a contractor. See our sump pump buying guide for how to choose the right pump before pricing installation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does it cost to replace a sump pump vs install a new one?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Replacing a pump in an existing pit costs $650 to $1,200 installed. A first-time installation with a new pit costs $1,200 to $2,500, because the crew has to cut the concrete floor, dig the pit, set the basin, and run a new discharge line. See our replacement cost guide for replacement pricing by pump type."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is a battery backup sump pump worth the cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, a battery backup sump pump is one of the highest-return additions available for any basement waterproofing system and should be considered mandatory rather than optional. Power outages most frequently occur during the heavy thunderstorms and hurricanes that generate the most water, leaving a primary pump without electricity exactly when it is needed most. A battery backup unit costs $300 to $800 installed and provides 7 to 10 hours of pumping capacity on a full charge, which covers the duration of most storm events. The cost of a backup unit is a fraction of the average basement flood damage claim, which runs $3,000 to $10,000 for water extraction, drying, and content replacement. Batteries require replacement every 3 to 5 years at $50 to $150, making the ongoing cost minimal relative to the protection provided. See our backup power for sump pumps guide and battery vs water-powered backup comparison for full guidance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does sump pump installation take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A pump swap takes 1 to 3 hours. A first-time installation with a new pit takes 4 to 8 hours, usually one day. Complex installations involving new pit cutting through thick poured concrete, long discharge line routing through finished walls, or simultaneous battery backup installation can take a full day. DIY pump swaps in existing pits typically take 1 to 3 hours for a homeowner comfortable with basic plumbing. The permit process, where required, adds 1 to 4 weeks to the overall timeline before on-site work can begin."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What size sump pump do I need for my basement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For most residential basements up to approximately 1,500 square feet with a normal water table, a 1/3 HP submersible pump provides sufficient capacity at 2,500 to 3,000 gallons per hour. Basements with high water tables, chronic flooding during heavy rain, or square footage above 1,500 square feet benefit from a 1/2 HP pump rated at 3,500 to 4,500 gallons per hour. Severe flooding situations, very large basements, or properties in flood-prone areas may require a 3/4 HP pump. The key sizing metric is whether the pump can remove water faster than it enters during a peak inflow event, an undersized pump that runs continuously without lowering the water level in the pit needs to be replaced with a higher horsepower model. See our submersible vs pedestal sump pump guide for the full sizing and type selection framework."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I install a sump pump myself to save money?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Replacing an existing sump pump in an established pit is a manageable DIY project that saves $150 to $300 in labor for a homeowner comfortable with basic plumbing. The process involves disconnecting the discharge union fitting, unplugging the power cord, lifting out the old pump, lowering the new pump into position, reconnecting the discharge line, and testing by pouring water into the pit. New pit installation is not a realistic DIY project for most homeowners because it requires a concrete cutting saw, proper pit sizing and liner installation, and electrical work that requires a permit and licensed electrician in most jurisdictions. An incorrectly installed pit that is too small, too shallow, or improperly positioned relative to the floor drain system will underperform and may require professional correction at greater total cost than hiring correctly from the start. See our DIY vs hiring a pro guide for an honest assessment of which basement projects fall within DIY capability."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you add a sump pump to an existing basement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Most sump pumps are added to basements years after the house was built. A crew cuts a hole in the concrete floor near the lowest point or where water collects, digs a pit about 2 feet deep, sets a basin, and runs a discharge line out through the wall. It usually takes one day and costs $1,200 to $2,500. If water comes in along the walls, the pump is often paired with an interior drain, which costs more. See our French drain cost guide."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does it cost to install a battery backup sump pump?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Adding a battery backup to an existing sump pump costs $350 to $900 installed. If you're installing a new pit, a combo system with a primary and backup pump brings the full job to $1,500 to $3,500. Plan on replacing the battery every 3 to 5 years for $50 to $150."
+      }
+    }
+  ]
 };
 
 export default function SumpPumpCost() {
   return (
     <div className='bg-white min-h-screen'>
+      <script type='application/ld+json' dangerouslySetInnerHTML={{__html:JSON.stringify(articleSchema)}} />
 
       {/* Article Hero */}
-      <section className='relative h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
+      <section className='relative md:h-[70vh] min-h-[500px] bg-slate-900 overflow-hidden'>
         <Image
           src='/images/sumppump5.jpg'
           alt='Sump pump installation in a basement pit'
@@ -36,23 +133,18 @@ export default function SumpPumpCost() {
           priority
         />
         <div className='absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent' />
-        <div className='relative h-full max-w-7xl mx-auto px-6 flex flex-col justify-end pb-20'>
+        <div className='relative h-full max-w-7xl mx-auto px-6 flex flex-col justify-end pt-20 md:pt-0 pb-20'>
           <div className='flex items-center space-x-3 mb-8'>
             <div className='w-12 h-px bg-cyan-500'></div>
             <span className='text-cyan-400 font-bold tracking-[0.3em] text-sm uppercase'>Cost Guide</span>
           </div>
-          <h1 className='text-5xl md:text-7xl font-black text-white mb-6 leading-[0.9] tracking-tighter'>
-            Sump Pump <br />
-            <span className='text-cyan-400'>Installation Cost 2026</span>
-          </h1>
-          <p className='text-xl text-slate-300 max-w-2xl leading-relaxed'>
-            Installing a sump pump typically costs $600&ndash;$2,500, with most homeowners paying around $1,200 for a standard submersible pump with professional installation.
-          </p>
+          <h1 className='text-5xl md:text-7xl font-black text-white mb-6 leading-[0.9] tracking-tighter'>How Much Does It Cost to Install a Sump Pump? 2026 Prices for a New Pit and Pump</h1>
+
           <div className='flex items-center space-x-4 mt-8'>
             <div className='w-10 h-10 rounded-full bg-cyan-500 flex items-center justify-center text-white font-bold text-sm'>BG</div>
             <div>
-              <p className='text-white font-medium'>The Basement Guide Staff</p>
-              <p className='text-slate-400 text-sm'>Updated March 2026 &nbsp;&middot;&nbsp; 18 min read</p>
+              <p className='text-white font-medium'>By The Basement Guide Editorial Team</p>
+              <p className='text-slate-400 text-sm'>Updated October 2026 &nbsp;&middot;&nbsp; 18 min read</p>
             </div>
           </div>
         </div>
@@ -60,6 +152,20 @@ export default function SumpPumpCost() {
 
       {/* Main Content */}
       <article className='max-w-4xl mx-auto px-6 py-16'>
+<div data-which-page='B' className='bg-cyan-50 border-cyan-500 border-l-4 rounded-r-xl p-6 mb-8'><p className="text-slate-700 leading-relaxed mb-4"><strong>Adding a sump pump for the first time?</strong> You're in the right place. This page covers cutting a new pit, installing the pump, and running the discharge line.</p>
+<p className="text-slate-700 leading-relaxed mb-4"><strong>Replacing a pump in a pit you already have?</strong> That costs $650 to $1,200. See our <a href="/cost-guides/sump-pump-replacement-cost" className="text-cyan-700 underline hover:text-cyan-900">sump pump replacement cost guide and calculator</a>.</p>
+</div>
+<div data-cost-tldr='B' className='bg-cyan-50 border-cyan-200 border rounded-xl p-6 mb-8'><h2 className='text-xl font-bold text-slate-900 mb-3'>TL;DR</h2><ul className="space-y-3 list-disc pl-6 text-slate-700 leading-relaxed">
+<li>A first-time sump pump installation with a new pit costs <strong>$1,200 to $2,500</strong>. Most homeowners pay around $1,800.</li>
+<li>Adding a battery backup brings the total to <strong>$1,500 to $3,500</strong>.</li>
+<li>The pit is the expensive part. Cutting concrete, digging, and setting the basin adds <strong>$500 to $1,000</strong> over a pump swap.</li>
+<li>A crawl space installation usually costs <strong>$1,000 to $3,000</strong>.</li>
+<li>Expect one day of work. Ask for the pump, pit, discharge line, check valve, and electrical work as separate line items.</li>
+</ul>
+</div>
+          <p className='text-xl text-slate-700 max-w-2xl leading-relaxed'>
+            Installing a sump pump typically costs $1,200 to $2,500 for a first-time installation with a new pit, with most homeowners paying around $1,800.
+          </p>
 
         {/* Entity Definition / Opening */}
         <div className='prose prose-lg max-w-none'>
@@ -93,10 +199,10 @@ export default function SumpPumpCost() {
           <table className='w-full border-collapse text-sm'>
             <thead><tr className='bg-slate-800 text-white'><th className='px-4 py-3 text-left font-semibold'>Scenario</th><th className='px-4 py-3 text-left font-semibold'>Estimated Cost</th><th className='px-4 py-3 text-left font-semibold'>What Is Included</th></tr></thead>
             <tbody className='divide-y divide-gray-200'>
-              <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Pump replacement, existing pit</td><td className='px-4 py-3 text-slate-600'>$650 to $1,200</td><td className='px-4 py-3 text-slate-600'>New pump, installation labor, check valve</td></tr>
+              <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Replacement in an existing pit</td><td className='px-4 py-3 text-slate-600'>$650 to $1,200</td><td className='px-4 py-3 text-slate-600'><Link href='/cost-guides/sump-pump-replacement-cost' className='text-cyan-700 underline hover:text-cyan-900'>See our replacement cost guide</Link></td></tr>
               <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>New pump, new pit (no existing system)</td><td className='px-4 py-3 text-slate-600'>$1,200 to $2,500</td><td className='px-4 py-3 text-slate-600'>Concrete cutting, pit excavation, liner, pump, discharge line</td></tr>
               <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Complete system with battery backup</td><td className='px-4 py-3 text-slate-600'>$1,500 to $3,500</td><td className='px-4 py-3 text-slate-600'>All of the above plus battery backup unit</td></tr>
-              <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Battery backup only (existing primary pump)</td><td className='px-4 py-3 text-slate-600'>$300 to $800</td><td className='px-4 py-3 text-slate-600'>Backup pump, battery, installation</td></tr>
+              <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Battery backup only (existing primary pump)</td><td className='px-4 py-3 text-slate-600'>$350 to $900 installed</td><td className='px-4 py-3 text-slate-600'>Backup pump, battery, installation</td></tr>
               <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Pedestal pump replacement</td><td className='px-4 py-3 text-slate-600'>$400 to $900</td><td className='px-4 py-3 text-slate-600'>Pedestal unit, installation labor</td></tr>
               <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Submersible pump replacement</td><td className='px-4 py-3 text-slate-600'>$600 to $1,500</td><td className='px-4 py-3 text-slate-600'>Submersible unit, installation labor</td></tr>
               <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>High-capacity system (1/2 HP or 3/4 HP)</td><td className='px-4 py-3 text-slate-600'>$1,500 to $4,000</td><td className='px-4 py-3 text-slate-600'>Larger pump, larger pit if needed, discharge line upgrade</td></tr>
@@ -114,12 +220,15 @@ export default function SumpPumpCost() {
               <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Submersible (1/3 HP)</td><td className='px-4 py-3 text-slate-600'>$150 to $400</td><td className='px-4 py-3 text-slate-600'>$600 to $1,500</td><td className='px-4 py-3 text-slate-600'>Most residential basements, finished spaces</td></tr>
               <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Submersible (1/2 HP)</td><td className='px-4 py-3 text-slate-600'>$200 to $500</td><td className='px-4 py-3 text-slate-600'>$800 to $1,800</td><td className='px-4 py-3 text-slate-600'>High water table, larger basements</td></tr>
               <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Submersible (3/4 HP)</td><td className='px-4 py-3 text-slate-600'>$300 to $700</td><td className='px-4 py-3 text-slate-600'>$1,000 to $2,500</td><td className='px-4 py-3 text-slate-600'>Severe flooding, commercial-grade residential</td></tr>
-              <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Battery backup unit</td><td className='px-4 py-3 text-slate-600'>$150 to $500</td><td className='px-4 py-3 text-slate-600'>$300 to $800</td><td className='px-4 py-3 text-slate-600'>Secondary protection during power outages</td></tr>
+              <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Battery backup unit</td><td className='px-4 py-3 text-slate-600'>$150 to $500</td><td className='px-4 py-3 text-slate-600'>$350 to $900 installed</td><td className='px-4 py-3 text-slate-600'>Secondary protection during power outages</td></tr>
               <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Water-powered backup</td><td className='px-4 py-3 text-slate-600'>$200 to $400</td><td className='px-4 py-3 text-slate-600'>$400 to $700</td><td className='px-4 py-3 text-slate-600'>Unlimited runtime where municipal water available</td></tr>
               <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Smart WiFi pump</td><td className='px-4 py-3 text-slate-600'>$300 to $600</td><td className='px-4 py-3 text-slate-600'>$800 to $2,000</td><td className='px-4 py-3 text-slate-600'>Remote monitoring, alert-based maintenance</td></tr>
             </tbody>
           </table>
         </div>
+
+<p className="text-slate-700 leading-relaxed mb-4"><strong>Installing new? Consider a combo system.</strong> If you're cutting a new pit, it's the cheapest time to add a backup. A combo system puts a primary pump and a battery backup on one discharge line. Our pick is the Basement Watchdog Big Combo, a 1/2 HP cast iron primary with a battery backup and phone alerts through its optional Wi-Fi module. See all our picks in the <a href="/articles/best-sump-pumps-2026" className="text-cyan-700 underline hover:text-cyan-900">best sump pumps for 2026</a>.</p>
+<p className="text-slate-700 leading-relaxed mb-4"><strong>Basement Watchdog Big Combo:</strong> <a href="https://link.amazon/B0ggkryw9" className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 px-4 rounded text-sm no-underline" rel="sponsored nofollow" target="_blank">Check Price on Amazon</a></p>
 
         {/* Key Cost Factors */}
         <h2 className='text-3xl font-black text-slate-900 mt-16 mb-6'>Key Cost Factors</h2>
@@ -127,7 +236,7 @@ export default function SumpPumpCost() {
         <div className='space-y-4 not-prose mb-12'>
           <div className='flex items-start gap-3 bg-slate-50 p-4 rounded-xl border border-slate-100'>
             <span className='text-cyan-500 mt-0.5 text-lg'>&#9679;</span>
-            <span className='text-slate-700'><strong>Existing pit or new pit:</strong> This is the single biggest cost variable. If a sump pit already exists, a pump swap is 1 to 2 hours of labor at $75 to $150 per hour plus the pump unit cost. If no pit exists, the installer must cut through the concrete floor, excavate 2 to 3 cubic feet of soil, install a pit liner, and patch the concrete around the liner. Pit installation adds $500 to $1,000 to the total project cost.</span>
+            <span className='text-slate-700'><strong>Existing pit or new pit:</strong> This is the single biggest cost variable. A pump swap takes 1 to 3 hours. A first-time installation with a new pit takes 4 to 8 hours, usually one day. If no pit exists, the installer must cut through the concrete floor, excavate 2 to 3 cubic feet of soil, install a pit liner, and patch the concrete around the liner. Pit installation adds $500 to $1,000 to the total project cost.</span>
           </div>
           <div className='flex items-start gap-3 bg-slate-50 p-4 rounded-xl border border-slate-100'>
             <span className='text-cyan-500 mt-0.5 text-lg'>&#9679;</span>
@@ -143,13 +252,17 @@ export default function SumpPumpCost() {
           </div>
           <div className='flex items-start gap-3 bg-slate-50 p-4 rounded-xl border border-slate-100'>
             <span className='text-cyan-500 mt-0.5 text-lg'>&#9679;</span>
-            <span className='text-slate-700'><strong>Labor rates by region:</strong> Plumber and waterproofing contractor rates run $75 to $150 per hour nationally. Most pump installations take 2 to 4 hours for a swap in an existing pit or 4 to 6 hours for a new pit installation. Regional labor rates vary by 20 to 30 percent, with the Northeast and Pacific Northwest at the higher end and the Midwest and Southeast at the lower end.</span>
+            <span className='text-slate-700'><strong>Labor rates by region:</strong> Plumber and waterproofing contractor rates run $75 to $150 per hour nationally. A pump swap takes 1 to 3 hours. A first-time installation with a new pit takes 4 to 8 hours, usually one day. Regional labor rates vary by 20 to 30 percent, with the Northeast and Pacific Northwest at the higher end and the Midwest and Southeast at the lower end.</span>
           </div>
           <div className='flex items-start gap-3 bg-slate-50 p-4 rounded-xl border border-slate-100'>
             <span className='text-cyan-500 mt-0.5 text-lg'>&#9679;</span>
             <span className='text-slate-700'><strong>Foundation type:</strong> Cutting through poured concrete to install a new pit is faster and less expensive than cutting through concrete block, which must be removed block by block and requires more careful structural consideration.</span>
           </div>
         </div>
+
+<h2 className="text-3xl font-black text-slate-900 mt-16 mb-6">Crawl Space Sump Pump Installation Cost</h2>
+<p className="text-slate-700 leading-relaxed mb-4">A crawl space sump pump usually costs <strong>$1,000 to $3,000</strong> installed. The pump and basin are the same as a basement system, but the work is slower. Crews dig the pit in a cramped space, often on a dirt floor, and the discharge line has to exit through the rim joist or foundation wall.</p>
+<p className="text-slate-700 leading-relaxed mb-4">Costs climb when the crawl space is very tight, needs a vapor barrier cut and resealed, or when the sump is part of a full encapsulation, which is priced separately. If your crawl space floods regularly, ask whether the quote includes a sealed lid on the basin so it doesn't add humidity to the space.</p>
 
         {/* What Is Included */}
         <h2 className='text-3xl font-black text-slate-900 mt-16 mb-6'>What Is Included in a Professional Sump Pump Installation</h2>
@@ -182,10 +295,10 @@ export default function SumpPumpCost() {
         {/* DIY vs Professional */}
         <h2 className='text-3xl font-black text-slate-900 mt-16 mb-6'>DIY vs Professional Installation</h2>
         <p className='text-slate-600 leading-relaxed mb-6'>
-          <strong>What you can realistically do yourself:</strong> Replacing an existing submersible pump in an established pit is a manageable DIY project for a homeowner comfortable with basic plumbing and electrical work. The process involves disconnecting the discharge pipe union fitting and unplugging the power cord, lifting the old pump out, lowering the new pump into position, reconnecting the discharge union, and plugging in. Most pump swaps take 1 to 2 hours and require no special tools. DIY savings on a pump swap run $150 to $300 in labor.
+          <strong>What you can realistically do yourself:</strong> Replacing an existing submersible pump in an established pit is a manageable DIY project for a homeowner comfortable with basic plumbing and electrical work. The process involves disconnecting the discharge pipe union fitting and unplugging the power cord, lifting the old pump out, lowering the new pump into position, reconnecting the discharge union, and plugging in. A pump swap takes 1 to 3 hours. A first-time installation with a new pit takes 4 to 8 hours, usually one day. DIY savings on a pump swap run $150 to $300 in labor.
         </p>
         <p className='text-slate-600 leading-relaxed mb-8'>
-          <strong>What to hire a professional for:</strong> New pit installation requires concrete cutting with a diamond-blade saw, excavation, pit liner installation, and concrete patching &mdash; work that requires specialized equipment and experience. Electrical work connecting the pump to a dedicated GFCI circuit should be done by a licensed electrician in most jurisdictions. Discharge line routing through finished walls or underground requires planning that a professional can execute more reliably than most DIYers.
+          <strong>What to hire a professional for:</strong> New pit installation requires concrete cutting with a diamond-blade saw, excavation, pit liner installation, and concrete patching, work that requires specialized equipment and experience. Electrical work connecting the pump to a dedicated GFCI circuit should be done by a licensed electrician in most jurisdictions. Discharge line routing through finished walls or underground requires planning that a professional can execute more reliably than most DIYers.
         </p>
         <div className='overflow-x-auto not-prose mb-12'>
           <table className='w-full border-collapse text-sm'>
@@ -206,14 +319,14 @@ export default function SumpPumpCost() {
           A submersible sump pump typically lasts 7 to 10 years under normal use conditions, with cast-iron models like the Zoeller M53 lasting toward the upper end and entry-level thermoplastic models in high-use applications lasting toward the lower end. Pedestal pumps last 10 to 25 years because the motor stays dry above the pit and does not experience the corrosion that shortens submersible motor life.
         </p>
         <p className='text-slate-600 leading-relaxed mb-6'>
-          The most reliable indicator that a pump needs replacement is increased cycling frequency, unusual noise, or a pump that runs but does not move water effectively. Do not wait for complete failure &mdash; a pump that fails during a heavy storm with no backup in place can result in thousands of dollars of flood damage.
+          The most reliable indicator that a pump needs replacement is increased cycling frequency, unusual noise, or a pump that runs but does not move water effectively. Do not wait for complete failure, a pump that fails during a heavy storm with no backup in place can result in thousands of dollars of flood damage.
         </p>
         <p className='text-slate-600 leading-relaxed mb-12'>
           Budget $500 to $1,500 for pump replacement every 7 to 10 years as an ongoing maintenance cost of basement waterproofing.
         </p>
 
         {/* Does Homeowners Insurance Cover */}
-        <h2 className='text-3xl font-black text-slate-900 mt-16 mb-6'>Does Homeowners Insurance Cover Sump Pump Replacement</h2>
+        <h2 className='text-3xl font-black text-slate-900 mt-16 mb-6'>Does Homeowners Insurance Cover a Sump Pump?</h2>
         <p className='text-slate-600 leading-relaxed mb-6'>
           Standard homeowners insurance does not cover sump pump replacement as routine maintenance or equipment failure. However, some policies include water backup and sump pump failure endorsements that cover water damage resulting from a sump pump failure during a storm event. These endorsements typically cost $50 to $150 per year to add to a standard policy and provide $5,000 to $25,000 in coverage for water damage caused by pump failure or drain backup.
         </p>
@@ -230,7 +343,7 @@ export default function SumpPumpCost() {
               <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Existing pump failed, pit in good condition</td><td className='px-4 py-3 text-slate-600'>Submersible pump replacement</td><td className='px-4 py-3 text-slate-600'>$650 to $1,200</td></tr>
               <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Existing pump working but 7 to 10 years old</td><td className='px-4 py-3 text-slate-600'>Proactive pump replacement</td><td className='px-4 py-3 text-slate-600'>$650 to $1,200</td></tr>
               <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>No sump pump or pit, basement has water issues</td><td className='px-4 py-3 text-slate-600'>New pit plus submersible pump</td><td className='px-4 py-3 text-slate-600'>$1,200 to $2,500</td></tr>
-              <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Existing pump but no battery backup</td><td className='px-4 py-3 text-slate-600'>Battery backup unit added to existing system</td><td className='px-4 py-3 text-slate-600'>$300 to $800</td></tr>
+              <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Existing pump but no battery backup</td><td className='px-4 py-3 text-slate-600'>Battery backup unit added to existing system</td><td className='px-4 py-3 text-slate-600'>$350 to $900 installed</td></tr>
               <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Complete new system from scratch</td><td className='px-4 py-3 text-slate-600'>Pit, pump, discharge line, battery backup</td><td className='px-4 py-3 text-slate-600'>$1,500 to $3,500</td></tr>
               <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>High water table, basement floods during storms</td><td className='px-4 py-3 text-slate-600'>1/2 HP or 3/4 HP high-capacity submersible</td><td className='px-4 py-3 text-slate-600'>$800 to $2,500</td></tr>
               <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Finished basement, quiet operation required</td><td className='px-4 py-3 text-slate-600'>Submersible pump with sealed pit cover</td><td className='px-4 py-3 text-slate-600'>$650 to $1,500</td></tr>
@@ -283,11 +396,12 @@ export default function SumpPumpCost() {
         <div className='space-y-6 my-8 not-prose'>
           <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
             <h4 className='font-bold text-slate-900 mb-2'>How much does sump pump installation cost in 2026?</h4>
-            <p className='text-slate-600'>Sump pump installation costs $650 to $2,500 for most residential projects in 2026, with the national average for a complete new system sitting around $1,200 to $1,800. A simple pump replacement in an existing pit at the lower end runs $650 to $1,200 including labor and the pump unit. A full new installation including concrete cutting, pit excavation, pump, discharge line, and battery backup runs $1,500 to $3,500. The single biggest cost variable is whether a sump pit already exists &mdash; new pit installation adds $500 to $1,000 to any project. Always get at least three written quotes that specify the pump model, horsepower, discharge routing, and whether battery backup is included before committing to a contractor. See our <Link href='/articles/sump-pump-buying-guide' className='text-cyan-600 hover:underline'>sump pump buying guide</Link> for how to choose the right pump before pricing installation.</p>
+            <p className='text-slate-600'>Sump pump installation costs $650 to $2,500 for most residential projects in 2026, with the national average for a complete new system sitting around $1,200 to $1,800. A simple pump replacement in an existing pit at the lower end runs $650 to $1,200 including labor and the pump unit. A full new installation including concrete cutting, pit excavation, pump, discharge line, and battery backup runs $1,500 to $3,500. The single biggest cost variable is whether a sump pit already exists, new pit installation adds $500 to $1,000 to any project. Always get at least three written quotes that specify the pump model, horsepower, discharge routing, and whether battery backup is included before committing to a contractor. See our <Link href='/articles/sump-pump-buying-guide' className='text-cyan-600 hover:underline'>sump pump buying guide</Link> for how to choose the right pump before pricing installation.</p>
           </div>
           <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
             <h4 className='font-bold text-slate-900 mb-2'>How much does it cost to replace a sump pump vs install a new one?</h4>
-            <p className='text-slate-600'>Replacing an existing sump pump in an established pit is significantly less expensive than a new installation because the most labor-intensive part of the project, the pit excavation and concrete cutting, has already been done. A pump replacement in an existing pit typically costs $650 to $1,200 including the new pump unit and 1 to 2 hours of labor. A brand new installation with no existing pit costs $1,200 to $2,500 because it adds $500 to $1,000 for concrete cutting, pit excavation, liner installation, and concrete patching around the new pit. If your existing pump is 7 to 10 years old and showing signs of wear, proactive replacement before it fails completely avoids the emergency service premium that contractors charge for same-day or after-hours calls. See our <Link href='/articles/best-sump-pumps-2026' className='text-cyan-600 hover:underline'>best sump pumps 2026 guide</Link> for current top-rated replacement models.</p>
+            <p className="text-slate-600">Replacing a pump in an existing pit costs $650 to $1,200 installed. A first-time installation with a new pit costs $1,200 to $2,500, because the crew has to cut the concrete floor, dig the pit, set the basin, and run a new discharge line. See our <a href="/cost-guides/sump-pump-replacement-cost" className="text-cyan-700 underline hover:text-cyan-900">replacement cost guide</a> for replacement pricing by pump type.</p>
+
           </div>
           <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
             <h4 className='font-bold text-slate-900 mb-2'>Is a battery backup sump pump worth the cost?</h4>
@@ -295,16 +409,21 @@ export default function SumpPumpCost() {
           </div>
           <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
             <h4 className='font-bold text-slate-900 mb-2'>How long does sump pump installation take?</h4>
-            <p className='text-slate-600'>A pump replacement in an existing pit typically takes 1 to 2 hours for a professional installer including disconnecting the old pump, installing the new unit, reconnecting the discharge line, and testing. A new full installation including pit excavation takes 4 to 6 hours for a standard basement with straightforward discharge routing. Complex installations involving new pit cutting through thick poured concrete, long discharge line routing through finished walls, or simultaneous battery backup installation can take a full day. DIY pump swaps in existing pits typically take 1 to 3 hours for a homeowner comfortable with basic plumbing. The permit process, where required, adds 1 to 4 weeks to the overall timeline before on-site work can begin.</p>
+            <p className='text-slate-600'>A pump swap takes 1 to 3 hours. A first-time installation with a new pit takes 4 to 8 hours, usually one day. Complex installations involving new pit cutting through thick poured concrete, long discharge line routing through finished walls, or simultaneous battery backup installation can take a full day. DIY pump swaps in existing pits typically take 1 to 3 hours for a homeowner comfortable with basic plumbing. The permit process, where required, adds 1 to 4 weeks to the overall timeline before on-site work can begin.</p>
           </div>
           <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
             <h4 className='font-bold text-slate-900 mb-2'>What size sump pump do I need for my basement?</h4>
-            <p className='text-slate-600'>For most residential basements up to approximately 1,500 square feet with a normal water table, a 1/3 HP submersible pump provides sufficient capacity at 2,500 to 3,000 gallons per hour. Basements with high water tables, chronic flooding during heavy rain, or square footage above 1,500 square feet benefit from a 1/2 HP pump rated at 3,500 to 4,500 gallons per hour. Severe flooding situations, very large basements, or properties in flood-prone areas may require a 3/4 HP pump. The key sizing metric is whether the pump can remove water faster than it enters during a peak inflow event &mdash; an undersized pump that runs continuously without lowering the water level in the pit needs to be replaced with a higher horsepower model. See our <Link href='/articles/submersible-vs-pedestal-sump-pump' className='text-cyan-600 hover:underline'>submersible vs pedestal sump pump guide</Link> for the full sizing and type selection framework.</p>
+            <p className='text-slate-600'>For most residential basements up to approximately 1,500 square feet with a normal water table, a 1/3 HP submersible pump provides sufficient capacity at 2,500 to 3,000 gallons per hour. Basements with high water tables, chronic flooding during heavy rain, or square footage above 1,500 square feet benefit from a 1/2 HP pump rated at 3,500 to 4,500 gallons per hour. Severe flooding situations, very large basements, or properties in flood-prone areas may require a 3/4 HP pump. The key sizing metric is whether the pump can remove water faster than it enters during a peak inflow event, an undersized pump that runs continuously without lowering the water level in the pit needs to be replaced with a higher horsepower model. See our <Link href='/articles/submersible-vs-pedestal-sump-pump' className='text-cyan-600 hover:underline'>submersible vs pedestal sump pump guide</Link> for the full sizing and type selection framework.</p>
           </div>
           <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
             <h4 className='font-bold text-slate-900 mb-2'>Can I install a sump pump myself to save money?</h4>
             <p className='text-slate-600'>Replacing an existing sump pump in an established pit is a manageable DIY project that saves $150 to $300 in labor for a homeowner comfortable with basic plumbing. The process involves disconnecting the discharge union fitting, unplugging the power cord, lifting out the old pump, lowering the new pump into position, reconnecting the discharge line, and testing by pouring water into the pit. New pit installation is not a realistic DIY project for most homeowners because it requires a concrete cutting saw, proper pit sizing and liner installation, and electrical work that requires a permit and licensed electrician in most jurisdictions. An incorrectly installed pit that is too small, too shallow, or improperly positioned relative to the floor drain system will underperform and may require professional correction at greater total cost than hiring correctly from the start. See our <Link href='/articles/diy-vs-hiring-pro-basement-projects' className='text-cyan-600 hover:underline'>DIY vs hiring a pro guide</Link> for an honest assessment of which basement projects fall within DIY capability.</p>
           </div>
+<div className="bg-slate-50 rounded-2xl p-6 border border-slate-100"><h4 className="font-bold text-slate-900 mb-2">Can you add a sump pump to an existing basement?</h4><p className="text-slate-600">Yes. Most sump pumps are added to basements years after the house was built. A crew cuts a hole in the concrete floor near the lowest point or where water collects, digs a pit about 2 feet deep, sets a basin, and runs a discharge line out through the wall. It usually takes one day and costs $1,200 to $2,500. If water comes in along the walls, the pump is often paired with an interior drain, which costs more. See our <a href="/articles/french-drain-cost" className="text-cyan-600 hover:underline">French drain cost guide</a>.</p></div>
+
+<div className="bg-slate-50 rounded-2xl p-6 border border-slate-100"><h4 className="font-bold text-slate-900 mb-2">How much does it cost to install a battery backup sump pump?</h4><p className="text-slate-600">Adding a battery backup to an existing sump pump costs $350 to $900 installed. If you're installing a new pit, a combo system with a primary and backup pump brings the full job to $1,500 to $3,500. Plan on replacing the battery every 3 to 5 years for $50 to $150.</p></div>
+
+
         </div>
 
       </article>

@@ -10,12 +10,13 @@ import QuoteCtaWrapper from './QuoteCtaWrapper'
 const PAGE_URL = 'https://thebasement.guide/cost-guides/sump-pump-replacement-cost'
 
 export const metadata: Metadata = {
-  title: 'Sump Pump Replacement Cost 2026: Real Prices, Calculator, and When to Replace | The Basement Guide',
-  description: 'See real 2026 sump pump replacement costs, compare common project scenarios, and use the calculator to estimate your installed price based on pump type, backup system, labor scope, and region.',
+  twitter: {"title":"Sump Pump Replacement Cost 2026: $650 to $1,200 Installed (Calculator) | The Basement Guide","description":"Replacing a sump pump costs $650 to $1,200 installed, or $150 to $400 for the pump alone if you do it yourself. Repair costs, backup add-ons, and a calculator for your job."},
+  title: "Sump Pump Replacement Cost 2026: $650 to $1,200 Installed (Calculator) | The Basement Guide",
+  description: "Replacing a sump pump costs $650 to $1,200 installed, or $150 to $400 for the pump alone if you do it yourself. Repair costs, backup add-ons, and a calculator for your job.",
   alternates: { canonical: PAGE_URL },
   openGraph: {
-    title: 'Sump Pump Replacement Cost 2026: Real Prices, Calculator, and When to Replace',
-    description: 'Real 2026 sump pump replacement costs plus a calculator that estimates your installed price by pump type, backup system, labor scope, and region.',
+    title: "Sump Pump Replacement Cost 2026: $650 to $1,200 Installed (Calculator) | The Basement Guide",
+    description: "Replacing a sump pump costs $650 to $1,200 installed, or $150 to $400 for the pump alone if you do it yourself. Repair costs, backup add-ons, and a calculator for your job.",
     url: PAGE_URL,
     siteName: 'The Basement Guide',
     type: 'article',
@@ -59,12 +60,12 @@ const howToSchema = {
 const articleSchema = {
   '@context': 'https://schema.org',
   '@type': 'Article',
-  headline: 'Sump Pump Replacement Cost 2026: What You Will Actually Pay',
+  headline: "Sump Pump Replacement Cost 2026, Prices by Pump Type, Repairs, and Calculator",
   description: 'Real 2026 sump pump replacement costs by pump type, scope, and backup system, plus a calculator that estimates installed price for replacement in an existing pit.',
   url: PAGE_URL,
   datePublished: '2026-05-06',
-  dateModified: '2026-05-06',
-  author: { '@type': 'Organization', name: 'The Basement Guide', url: 'https://thebasement.guide' },
+  dateModified: '2026-10-24',
+  author: { '@type': 'Organization', name: 'The Basement Guide Editorial Team', url: 'https://thebasement.guide' },
   publisher: {
     '@type': 'Organization',
     name: 'The Basement Guide',
@@ -113,7 +114,7 @@ const faqs = [
   },
   {
     q: 'How much does a battery backup add?',
-    a: 'A new battery backup setup typically adds $350 to $900 on top of a standard pump replacement. Stronger setups with larger batteries, higher-output backup pumps, or smart controllers can push the add-on to $700 to $1,400. The exact number depends on the hardware tier and how much extra plumbing or electrical work is needed at the pit.',
+    a: 'A new battery backup setup typically adds $350 to $900 on top of a standard pump replacement. Combo primary and backup systems add $700 to $1,400. The exact number depends on the hardware tier and how much extra plumbing or electrical work is needed at the pit.',
   },
   {
     q: 'How long does sump pump replacement take?',
@@ -143,6 +144,7 @@ const faqs = [
     q: 'When should I upgrade to backup protection?',
     a: 'Upgrade to backup protection if you have a finished basement, store anything valuable below grade, live in a flood-prone or high-water-table area, or lose power during the same storms that cause heavy water entry. A battery backup is the single most effective add-on for protecting a basement during the exact moment a primary pump is most likely to fail.',
   },
+  {"q":"How much does sump pump repair cost?","a":"Most sump pump repairs cost $100 to $350 with a plumber, including a $75 to $150 service call. Float switch and check valve replacements are the most common, at $100 to $250 each. If the motor has failed, or the pump is more than 7 years old, replacing the pump for $650 to $1,200 installed is usually the better buy."},
 ]
 
 const faqSchema = {
@@ -192,16 +194,26 @@ export default function SumpPumpReplacementCostPage() {
         <div className='mb-8'>
           <div className='flex items-center space-x-3 mb-4'>
             <span className='bg-teal-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide'>Cost Guide</span>
-            <span className='text-slate-500 text-sm'>Updated May 2026</span>
+            <span className='text-slate-500 text-sm'>Updated October 2026</span>
           </div>
           <h1 className='text-4xl md:text-5xl font-black text-slate-900 leading-tight tracking-tight mb-6'>
-            Sump Pump Replacement Cost 2026: What You Will Actually Pay
+            Sump Pump Replacement Cost 2026, Prices by Pump Type, Repairs, and Calculator
           </h1>
+          <p className='text-sm font-medium text-slate-600 mb-6'>By The Basement Guide Editorial Team</p>
+          <div data-which-page='A' className='bg-teal-50 border-teal-500 border-l-4 rounded-r-xl p-6 mb-8'><p className="text-slate-700 leading-relaxed mb-4"><strong>Already have a sump pump?</strong> You're in the right place. This page covers replacing or repairing a pump in an existing pit.</p>
+<p className="text-slate-700 leading-relaxed mb-4"><strong>No sump pump yet?</strong> Adding a new pit and pump is a different job that costs $1,200 to $2,500. See our <a href="/articles/sump-pump-cost" className="text-teal-700 underline hover:text-teal-900">sump pump installation cost guide</a>.</p>
+</div>
+
 
           <div className='space-y-4 text-lg text-slate-700 leading-relaxed'>
-            <p>
-              Replacing a sump pump in an existing pit usually costs about <span className='font-semibold'>$650 to $1,200</span> installed. Pedestal replacements can start around <span className='font-semibold'>$400 to $900</span>, and more complex replacements with battery backup, finished-basement protection, or extra discharge and electrical work can run <span className='font-semibold'>$1,500 to $3,000</span> or more.
-            </p>
+<div data-cost-tldr='A' className='bg-teal-50 border-teal-200 border rounded-xl p-6 mb-8'><h2 className='text-xl font-bold text-slate-900 mb-3'>TL;DR</h2><ul className="space-y-3 list-disc pl-6 text-slate-700 leading-relaxed">
+<li>Replacing a sump pump in an existing pit costs <strong>$650 to $1,200</strong> installed for a standard submersible.</li>
+<li>The pump alone costs <strong>$150 to $400</strong> if you replace it yourself. Most swaps take 1 to 3 hours.</li>
+<li>Common repairs run <strong>$100 to $350</strong> installed. Replace instead of repairing if the pump is over 7 years old or the repair costs more than half of a new pump.</li>
+<li>Adding a battery backup during the replacement adds <strong>$350 to $900</strong>.</li>
+<li>Replacements with new discharge plumbing, electrical work, or a combo backup system run <strong>$1,500 to $3,000</strong> or more.</li>
+</ul>
+</div>
             <p>
               The biggest cost drivers are pump type, whether you add or upgrade a backup system, any check valve or discharge line work, electrical or alarm updates at the pit, and the local labor market. Everything else, like pit access, finished flooring near the pit, and emergency timing, sits on top of those five.
             </p>
@@ -305,6 +317,45 @@ export default function SumpPumpReplacementCostPage() {
           </p>
         </section>
 
+        <section className='mb-14' data-cost-block='A4'><h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-3">Replacing It Yourself? What the Pump Alone Costs</h2>
+<p className="text-slate-700 leading-relaxed mb-4">If your pit is in good shape and the new pump uses the same discharge size, a pump swap is one of the easier basement jobs. Here's what the pump itself costs. These are our picks from our full <a href="/articles/best-sump-pumps-2026" className="text-teal-700 underline hover:text-teal-900">best sump pumps for 2026</a> roundup.</p>
+<div className="overflow-x-auto rounded-xl border border-slate-200 mb-6"><table className="w-full min-w-[600px] text-sm">
+<thead className="bg-slate-50 text-slate-700">
+<tr>
+<th className="text-left font-semibold px-4 py-3 border-b border-slate-200">Pump</th>
+<th className="text-left font-semibold px-4 py-3 border-b border-slate-200">Best For</th>
+<th className="text-left font-semibold px-4 py-3 border-b border-slate-200">Typical Price</th>
+</tr>
+</thead>
+<tbody className="text-slate-700"><tr className="border-b border-slate-100">
+<td className="px-4 py-3 align-top">Zoeller M53 (3/10 HP, cast iron)</td>
+<td className="px-4 py-3 align-top">Most basements, our best overall pick</td>
+<td className="px-4 py-3 align-top">$180 to $230</td>
+</tr>
+<tr className="border-b border-slate-100">
+<td className="px-4 py-3 align-top">Wayne CDU980E (3/4 HP, cast iron and stainless)</td>
+<td className="px-4 py-3 align-top">Heavy rain, high water tables</td>
+<td className="px-4 py-3 align-top">$220 to $280</td>
+</tr>
+<tr className="border-b border-slate-100">
+<td className="px-4 py-3 align-top">Liberty 257 (1/3 HP, cast iron)</td>
+<td className="px-4 py-3 align-top">Narrow pits, 10 inches and up</td>
+<td className="px-4 py-3 align-top">$210 to $250</td>
+</tr>
+<tr className="border-b border-slate-100">
+<td className="px-4 py-3 align-top">Superior Pump 92341 (1/3 HP, cast iron)</td>
+<td className="px-4 py-3 align-top">Budget replacement</td>
+<td className="px-4 py-3 align-top">$140 to $170</td>
+</tr>
+</tbody></table></div>
+<p className="text-slate-700 leading-relaxed mb-4"><strong>Zoeller M53:</strong> <a href="https://link.amazon/B08i36SvK" className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 px-4 rounded text-sm no-underline" rel="sponsored nofollow" target="_blank">Check Price on Amazon</a></p>
+<p className="text-slate-700 leading-relaxed mb-4"><strong>Wayne CDU980E:</strong> <a href="https://link.amazon/B01EgfGqm" className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 px-4 rounded text-sm no-underline" rel="sponsored nofollow" target="_blank">Check Price on Amazon</a></p>
+<p className="text-slate-700 leading-relaxed mb-4"><strong>Liberty 257:</strong> <a href="https://link.amazon/B005b3zgp" className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 px-4 rounded text-sm no-underline" rel="sponsored nofollow" target="_blank">Check Price on Amazon</a></p>
+<p className="text-slate-700 leading-relaxed mb-4"><strong>Superior Pump 92341:</strong> <a href="https://link.amazon/B0h1uAavX" className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 px-4 rounded text-sm no-underline" rel="sponsored nofollow" target="_blank">Check Price on Amazon</a></p>
+<p className="text-slate-700 leading-relaxed mb-4"><strong>Replace the check valve too.</strong> A worn check valve makes a new pump run twice as often. It's a $20 to $50 part.</p>
+<p className="text-slate-700 leading-relaxed mb-4"><strong>Check valve:</strong> <a href="https://link.amazon/B0cdNRGX5" className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 px-4 rounded text-sm no-underline" rel="sponsored nofollow" target="_blank">Check Price on Amazon</a></p>
+</section>
+
         {/* Cost by project scope */}
         <section className='mb-14'>
           <h2 className='text-2xl md:text-3xl font-bold text-slate-900 mb-3'>Sump pump replacement cost by project scope</h2>
@@ -356,7 +407,7 @@ export default function SumpPumpReplacementCostPage() {
         <section className='mb-14'>
           <h2 className='text-2xl md:text-3xl font-bold text-slate-900 mb-3'>How backup systems affect replacement cost</h2>
           <p className='text-slate-700 leading-relaxed mb-4'>
-            Backup protection is the single biggest add-on most homeowners decide on during a sump pump replacement. A new battery backup typically adds <span className='font-semibold'>$350 to $900</span>. A stronger setup with a larger battery, higher-output backup pump, or a smart controller can add <span className='font-semibold'>$700 to $1,400</span>.
+            Backup protection is the single biggest add-on most homeowners decide on during a sump pump replacement. A new battery backup typically adds <span className='font-semibold'>$350 to $900</span>. Combo primary and backup systems add $700 to $1,400.
           </p>
           <p className='text-slate-700 leading-relaxed mb-4'>
             Backup protection is most worth it when you have a finished basement, store anything valuable below grade, or live in an area where storms knock out power and dump water at the same time. For unfinished basements with low water volume, you can often skip the upgrade and put the savings toward a stronger primary pump.
@@ -369,6 +420,42 @@ export default function SumpPumpReplacementCostPage() {
         {/* Repair vs replace */}
         <section className='mb-14'>
           <h2 className='text-2xl md:text-3xl font-bold text-slate-900 mb-3'>Sump pump repair vs replacement</h2>
+<div className="overflow-x-auto rounded-xl border border-slate-200 mb-6"><table className="w-full min-w-[600px] text-sm">
+<thead className="bg-slate-50 text-slate-700">
+<tr>
+<th className="text-left font-semibold px-4 py-3 border-b border-slate-200">Repair</th>
+<th className="text-left font-semibold px-4 py-3 border-b border-slate-200">Part Cost</th>
+<th className="text-left font-semibold px-4 py-3 border-b border-slate-200">Installed by a Plumber</th>
+</tr>
+</thead>
+<tbody className="text-slate-700"><tr className="border-b border-slate-100">
+<td className="px-4 py-3 align-top">Float switch replacement</td>
+<td className="px-4 py-3 align-top">$20 to $60</td>
+<td className="px-4 py-3 align-top">$100 to $250</td>
+</tr>
+<tr className="border-b border-slate-100">
+<td className="px-4 py-3 align-top">Check valve replacement</td>
+<td className="px-4 py-3 align-top">$20 to $50</td>
+<td className="px-4 py-3 align-top">$100 to $250</td>
+</tr>
+<tr className="border-b border-slate-100">
+<td className="px-4 py-3 align-top">Clearing a clogged intake or impeller</td>
+<td className="px-4 py-3 align-top">$0</td>
+<td className="px-4 py-3 align-top">$100 to $200</td>
+</tr>
+<tr className="border-b border-slate-100">
+<td className="px-4 py-3 align-top">Discharge line repair or freeze guard</td>
+<td className="px-4 py-3 align-top">$20 to $80</td>
+<td className="px-4 py-3 align-top">$150 to $350</td>
+</tr>
+<tr className="border-b border-slate-100">
+<td className="px-4 py-3 align-top">Motor failure</td>
+<td className="px-4 py-3 align-top">Not worth repairing</td>
+<td className="px-4 py-3 align-top">Replace the pump</td>
+</tr>
+</tbody></table></div>
+<p className="text-slate-700 leading-relaxed mb-4">Most repair calls include a $75 to $150 service fee before any work. When the motor fails or the pump hums but won't move water, replacement almost always costs less than a repair. If the pump runs nonstop but water isn't rising, read our guide to a <a href="/articles/sump-pump-running-constantly" className="text-teal-700 underline hover:text-teal-900">sump pump running constantly</a> before you call anyone.</p>
+
           <p className='text-slate-700 leading-relaxed mb-4'>
             Repair makes sense when you have a relatively young pump (under 5 to 7 years) with a clear, single point of failure: a stuck float switch, a failed check valve, or a clogged impeller. The fix is usually inexpensive and the rest of the system has plenty of life left.
           </p>
@@ -468,7 +555,7 @@ export default function SumpPumpReplacementCostPage() {
         </section>
 
         {/* Beehiiv */}
-        <BeehiivEmailCapture />
+        <BeehiivEmailCapture avoidEmDash />
 
         {/* Lead form */}
         <QuoteCtaWrapper ctaLocation='page_bottom_lead_form'>
