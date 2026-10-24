@@ -361,7 +361,7 @@ export default function BasementHumidityGuideArticle() {
             <p className='text-slate-700 text-sm'><strong>Cost:</strong> $50 to $200 in materials. <strong>Time:</strong> 4 to 6 hours.</p>
           </div>
 
-          <p className='text-slate-700 leading-relaxed'>Steps 1, 2, 3, and 5 cost under $50 combined. Step 4, a dehumidifier, adds $150 to $400. If levels rebound after the fixes, you have an underlying source problem that requires a long-term solution.</p>
+          <p className='text-slate-700 leading-relaxed'>Steps 1, 2, 3, and 5 cost $100 to $380 combined. Step 4, a dehumidifier, adds $150 to $400. If levels rebound after the fixes, you have an underlying source problem that requires a long-term solution.</p>
         </section>
 
         <section className='mb-16'><h2 className="text-3xl font-bold text-slate-900 mb-5">What to Set Your Basement Dehumidifier To</h2>
