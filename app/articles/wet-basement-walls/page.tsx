@@ -4,73 +4,124 @@ import LeadForm from '@/components/LeadForm'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Wet Basement Walls: Causes, Fixes, and When to Worry (2026) | The Basement Guide',
-  description: 'Wet basement walls have six different causes and six different fixes. Use the foil test to diagnose your problem, then follow the right fix — from free to $15,000.',
+  title: 'Wet or Damp Basement Walls: 6 Causes and How to Fix Each (2026) | The Basement Guide',
+  description: 'Damp, sweating, or wet basement walls? Use the foil test to tell condensation from seepage, then find the right fix for each of six causes, from free to $15,000.',
   alternates: { canonical: 'https://thebasement.guide/articles/wet-basement-walls' },
 }
 
 const faqSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'FAQPage',
-  mainEntity: [
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
     {
-      '@type': 'Question',
-      name: 'What is the foil test and how do I do it?',
-      acceptedAnswer: { '@type': 'Answer', text: 'The foil test is a simple diagnostic that determines whether basement wall moisture is coming through the wall from outside (seepage) or forming on the wall surface from humid indoor air (condensation). Tape a 12-inch square of aluminum foil flat against the wet area of the wall, pressing all edges tight so no air can get behind it, and leave it for 24 to 48 hours. If the outside face of the foil (room side) is wet when you remove it, the moisture is condensation from indoor air hitting the cool wall surface, and a dehumidifier is the fix. If the inside face (wall side) is wet, water is migrating through the wall from the soil side, and waterproofing is needed. If both sides are wet, you have both problems. This test saves homeowners from spending thousands on waterproofing when a $300 dehumidifier would have solved the problem, and from buying a dehumidifier when they have a genuine water intrusion issue that requires drainage.' },
+      "@type": "Question",
+      "name": "What is the foil test and how do I do it?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The foil test is a simple diagnostic that determines whether basement wall moisture is coming through the wall from outside (seepage) or forming on the wall surface from humid indoor air (condensation). Tape a 12-inch square of aluminum foil flat against the wet area of the wall, pressing all edges tight so no air can get behind it, and leave it for 24 to 48 hours. If the outside face of the foil (room side) is wet when you remove it, the moisture is condensation from indoor air hitting the cool wall surface, and a dehumidifier is the fix. If the inside face (wall side) is wet, water is migrating through the wall from the soil side, and waterproofing is needed. If both sides are wet, you have both problems. This test saves homeowners from spending thousands on waterproofing when a $300 dehumidifier would have solved the problem, and from buying a dehumidifier when they have a genuine water intrusion issue that requires drainage."
+      }
     },
     {
-      '@type': 'Question',
-      name: 'Why are my basement walls wet when it has not rained?',
-      acceptedAnswer: { '@type': 'Answer', text: 'Two common causes: condensation (humid indoor air meeting cool walls) and a high water table pushing moisture through the concrete via vapor diffusion. Do the foil test to determine which one. Condensation is solved with a dehumidifier. Vapor diffusion requires a vapor barrier or waterproofing treatment.' },
+      "@type": "Question",
+      "name": "Why are my basement walls wet when it has not rained?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Two common causes: condensation (humid indoor air meeting cool walls) and a high water table pushing moisture through the concrete via vapor diffusion. Do the foil test to determine which one. Condensation is solved with a dehumidifier. Vapor diffusion requires a vapor barrier or waterproofing treatment."
+      }
     },
     {
-      '@type': 'Question',
-      name: 'Is it normal for basement walls to be damp?',
-      acceptedAnswer: { '@type': 'Answer', text: 'Slight coolness is normal. Visible moisture, water droplets, or wet patches are not. Concrete walls will always feel cooler than the air, but they should not feel wet. Any persistent dampness indicates a moisture source that should be identified and addressed.' },
+      "@type": "Question",
+      "name": "Is it normal for basement walls to be damp?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Slight coolness is normal. Visible moisture, water droplets, or wet patches are not. Concrete walls will always feel cooler than the air, but they should not feel wet. Any persistent dampness indicates a moisture source that should be identified and addressed."
+      }
     },
     {
-      '@type': 'Question',
-      name: 'Can I just paint over wet basement walls with waterproof paint?',
-      acceptedAnswer: { '@type': 'Answer', text: 'Waterproof paint like DryLok can reduce minor vapor diffusion through porous concrete, but it cannot stop active water pressure from cracks, cove joints, or hydrostatic pressure. If water is actively entering your basement, paint will peel off within a year. Fix the water source first, then paint as a secondary barrier.' },
+      "@type": "Question",
+      "name": "Can I just paint over wet basement walls with waterproof paint?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Waterproof paint like DryLok or Kilz Basement can reduce minor vapor diffusion through porous concrete, but it cannot stop active water pressure from cracks, cove joints, or hydrostatic pressure. If water is actively entering your basement, paint will peel off within a year. Fix the water source first, then paint as a secondary barrier. See our waterproof paint and sealers guide."
+      }
     },
     {
-      '@type': 'Question',
-      name: 'How much does it cost to fix wet basement walls?',
-      acceptedAnswer: { '@type': 'Answer', text: 'It depends on the cause. Extending downspouts costs $10-$30 each. A dehumidifier costs $200-$400. Crack injection runs $300-$600 per crack. An interior French drain system costs $3,000-$10,000. Exterior waterproofing runs $5,000-$15,000.' },
+      "@type": "Question",
+      "name": "How much does it cost to fix wet basement walls?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It depends entirely on the cause. Extending downspouts costs $10–$30 each. A dehumidifier costs $200–$400. Crack injection runs $300–$600 per crack. An interior French drain system costs $3,000–$10,000. Exterior waterproofing runs $5,000–$15,000. See our complete waterproofing cost guide for the full breakdown."
+      }
     },
     {
-      '@type': 'Question',
-      name: 'Should I buy a house with wet basement walls?',
-      acceptedAnswer: { '@type': 'Answer', text: 'Not necessarily a deal-breaker, but get a professional inspection before closing. The key question is what is causing the moisture and how much will it cost to fix. Condensation or poor drainage is very different from structural wall failure or a failed exterior waterproofing system.' },
+      "@type": "Question",
+      "name": "Should I buy a house with wet basement walls?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not necessarily a deal-breaker, but get a professional inspection before closing. The key question is what is causing the moisture and how much will it cost to fix. Condensation or poor drainage (cheap fixes) is very different from structural wall failure or a failed exterior waterproofing system (expensive fixes). Use the inspection findings to negotiate the price or request repairs before closing. See our homebuyers basement inspection checklist."
+      }
     },
     {
-      '@type': 'Question',
-      name: 'Will wet basement walls cause mold?',
-      acceptedAnswer: { '@type': 'Answer', text: 'Yes, if the moisture persists. Mold can begin growing on damp surfaces within 24 to 48 hours in warm conditions. Concrete itself does not support mold well, but anything attached to or stored against a wet wall — drywall, wood framing, cardboard boxes, carpet — will grow mold quickly.' },
+      "@type": "Question",
+      "name": "Will wet basement walls cause mold?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, if the moisture persists. Mold can begin growing on damp surfaces within 24 to 48 hours in warm conditions. Concrete itself does not support mold well, but anything attached to or stored against a wet wall, drywall, wood framing, cardboard boxes, carpet, will grow mold quickly. Address the moisture source promptly and see our mold prevention guide."
+      }
     },
     {
-      '@type': 'Question',
-      name: 'Can wet basement walls affect my home value?',
-      acceptedAnswer: { '@type': 'Answer', text: 'Yes. Visible water damage, staining, efflorescence, and mold are red flags for buyers and home inspectors. Unresolved moisture issues can reduce your home value by 10 to 25 percent depending on severity. Conversely, a professionally waterproofed basement with documentation can actually increase value.' },
+      "@type": "Question",
+      "name": "Can wet basement walls affect my home's value?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Visible water damage, staining, efflorescence, and mold are red flags for buyers and home inspectors. Unresolved moisture issues can reduce your home's value by 10 to 25% depending on severity. Conversely, a professionally waterproofed basement with documentation can actually increase value. See our guide on how waterproofing affects home appraisal value."
+      }
     },
     {
-      '@type': 'Question',
-      name: 'Do homes on septic systems have different basement moisture issues?',
-      acceptedAnswer: { '@type': 'Answer', text: 'Sometimes. If the septic system drainfield is located near the house, a saturated or failing drainfield can raise the local water table and increase hydrostatic pressure against basement walls. If your basement moisture coincides with septic system problems like slow drains, yard odor, or soggy ground over the drainfield, the septic system may be contributing.' },
+      "@type": "Question",
+      "name": "Do homes on septic systems have different basement moisture issues?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sometimes. If the septic system's drainfield is located near the house, a saturated or failing drainfield can raise the local water table and increase hydrostatic pressure against basement walls. If your basement moisture coincides with septic system problems like slow drains, yard odor, or soggy ground over the drainfield, the septic system may be contributing to the issue. See The Septic Guide for septic-specific help."
+      }
     },
-  ],
+    {
+      "@type": "Question",
+      "name": "Why are my basement walls sweating?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sweating walls are condensation. Moist air hits a cold foundation wall and turns to water. In summer it comes from humid outdoor air, and in winter from warm, moist indoor air. A dehumidifier, better air circulation, and wall insulation usually fix it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why are my basement walls wet in winter?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually condensation. Warm, moist air from the house reaches cold foundation walls, especially behind furniture and finished walls where air doesn't move. Pull items away from exterior walls, vent bathrooms and dryers outside, and consider insulating the walls."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is water seeping through my basement wall an emergency?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It needs attention soon, but it's rarely an emergency on its own. Move belongings away, check gutters, downspouts, and window wells outside, and dry the area. Call a contractor right away if water is flowing steadily, a crack is widening, or the wall is bowing."
+      }
+    }
+  ]
 }
 
 const articleSchema = {
   '@context': 'https://schema.org',
   '@type': 'Article',
-  headline: 'Wet Basement Walls: Causes, Fixes, and When to Worry',
-  description: 'Wet basement walls have six different causes and six different fixes. Use the foil test to diagnose your problem, then follow the right fix.',
+  headline: 'Wet or Damp Basement Walls? Causes, Fixes, and When to Worry',
+  description: 'Damp, sweating, or wet basement walls? Use the foil test to tell condensation from seepage, then find the right fix for each of six causes, from free to $15,000.',
   image: 'https://thebasement.guide/wetwalls.jpg',
   author: { '@type': 'Organization', name: 'The Basement Guide', url: 'https://thebasement.guide' },
   publisher: { '@type': 'Organization', name: 'The Basement Guide', url: 'https://thebasement.guide' },
   datePublished: '2026-03-10',
-  dateModified: '2026-03-10',
+  dateModified: '2026-10-24',
 }
 
 const datasetSchema = {
@@ -109,15 +160,14 @@ export default function WetBasementWalls() {
         <div className='absolute inset-0 flex flex-col justify-end p-8'>
           <span className='mb-3 inline-block w-fit rounded bg-teal-500 px-3 py-1 text-xs font-bold uppercase tracking-widest text-white'>Waterproofing Guide</span>
           <h1 className='text-4xl font-bold text-white md:text-5xl'>
-            Wet Basement Walls<br />
-            <span className='text-teal-400'>Causes, Fixes & When to Worry</span>
+            Wet or Damp Basement Walls? Causes, Fixes, and When to Worry
           </h1>
           <p className='mt-3 max-w-2xl text-lg text-gray-200'>Six types of wet walls. Six different fixes. Costs from $0 to $15,000. Start with the foil test.</p>
           <div className='mt-4 flex items-center gap-3'>
             <div className='flex h-8 w-8 items-center justify-center rounded-full bg-teal-500 text-xs font-bold text-white'>BG</div>
             <div>
               <p className='text-sm font-semibold text-white'>The Basement Guide</p>
-              <p className='text-xs text-gray-300'>Updated Mar 2026 &middot; 22 min read</p>
+              <p className='text-xs text-gray-300'>Updated October 24, 2026 &middot; 22 min read</p>
             </div>
           </div>
         </div>
@@ -125,6 +175,16 @@ export default function WetBasementWalls() {
 
       {/* Main Content */}
       <div className='mx-auto max-w-3xl px-4 py-10'>
+        <div className='bg-teal-50 border-l-4 border-[#00A99D] rounded-r-xl p-5 mb-10'>
+          <p className='text-gray-700 mb-4 leading-relaxed'><strong>TL;DR</strong></p>
+          <ul className='list-disc pl-6 space-y-2 text-gray-700 leading-relaxed mb-6'>
+            <li>Wet basement walls come from six causes: condensation, cracks, cove joint seepage, efflorescence, poor drainage outside, and moisture moving through porous concrete.</li>
+            <li>Start with the foil test. Tape a 12-inch square of foil to the wall for 24 to 48 hours. Wet on the room side means condensation. Wet on the wall side means water is coming through the wall.</li>
+            <li>Condensation, often called sweating walls, is usually fixed with a dehumidifier, better air circulation, and insulation. It's often the cheapest fix.</li>
+            <li>Water seeping or leaking through the wall needs the source fixed, starting outside with gutters, downspouts, and grading.</li>
+            <li>Costs run from almost nothing for condensation to $15,000 for exterior waterproofing or structural repair.</li>
+          </ul>
+        </div>
         <p className='text-lg text-gray-700 leading-relaxed'>Wet basement walls are a symptom of one or more distinct moisture problems, each with a different cause, fix, and cost: condensation forming on cool wall surfaces from humid indoor air, water seeping through cracks under hydrostatic pressure, groundwater entering at the cove joint where wall meets footing, vapor diffusing slowly through porous concrete, or surface water from poor exterior drainage reaching the foundation. Diagnosing which problem you have before spending money is the most important step, because the correct fix for condensation (a dehumidifier) is completely different from the correct fix for cove joint seepage (an interior drainage system), and applying the wrong solution wastes both time and money. The foil test described in this guide takes two minutes to set up and reliably distinguishes between moisture coming through the wall from outside and moisture condensing on the wall surface from inside, which is the single most important diagnostic distinction in basement moisture management. Treatment costs range from free (extending a downspout) to $15,000 (exterior waterproofing excavation), making accurate diagnosis the highest-value action a homeowner can take before contacting a contractor.</p>
         <p className='text-lg text-gray-700 leading-relaxed mt-4'>Wet basement walls are not all the same problem. Water streaming through a crack during a rainstorm is a different issue than a wall that feels damp to the touch year-round, and both are different from white, crusty deposits appearing on the surface. Each has a different cause, a different fix, and a different price tag.</p>
         <p className='mt-4 text-lg text-gray-700 leading-relaxed'>The guides that treat them all the same lead homeowners to either overpay for a problem they could fix themselves or underpay for a band-aid that fails in six months. This guide walks through every type of wet basement wall, how to diagnose which one you have, what each fix actually costs, and when you need a professional versus when you can handle it yourself.</p>
@@ -170,11 +230,11 @@ export default function WetBasementWalls() {
             <tbody className='divide-y divide-gray-200'>
               <tr className='bg-white'><td className='px-4 py-3'>Uniform dampness across entire wall</td><td className='px-4 py-3'>Condensation or vapor diffusion through porous concrete</td><td className='px-4 py-3'>Low to moderate</td><td className='px-4 py-3'>Dehumidifier, ventilation, vapor barrier</td></tr>
               <tr className='bg-gray-50'><td className='px-4 py-3'>Water seeping through a visible crack</td><td className='px-4 py-3'>Hydrostatic pressure forcing water through a structural crack</td><td className='px-4 py-3'>Moderate to high</td><td className='px-4 py-3'>Crack injection DIY or pro; address drainage</td></tr>
-              <tr className='bg-white'><td className='px-4 py-3'>Water entering where wall meets floor</td><td className='px-4 py-3'>Hydrostatic pressure at the footing &mdash; #1 most common leak location</td><td className='px-4 py-3'>Moderate to high</td><td className='px-4 py-3'>Interior French drain + sump pump</td></tr>
+              <tr className='bg-white'><td className='px-4 py-3'>Water entering where wall meets floor</td><td className='px-4 py-3'>Hydrostatic pressure at the footing: #1 most common leak location</td><td className='px-4 py-3'>Moderate to high</td><td className='px-4 py-3'>Interior French drain + sump pump</td></tr>
               <tr className='bg-gray-50'><td className='px-4 py-3'>White powdery deposits (efflorescence)</td><td className='px-4 py-3'>Mineral salts left as water passes through and evaporates</td><td className='px-4 py-3'>Low (cosmetic)</td><td className='px-4 py-3'>Clean deposits, address moisture source, seal wall</td></tr>
               <tr className='bg-white'><td className='px-4 py-3'>Wet streaks from window wells</td><td className='px-4 py-3'>Window well drainage failure</td><td className='px-4 py-3'>Moderate</td><td className='px-4 py-3'>Clean drain, add gravel, install cover</td></tr>
               <tr className='bg-gray-50'><td className='px-4 py-3'>Damp patches only after rain</td><td className='px-4 py-3'>Surface water not draining away from foundation</td><td className='px-4 py-3'>Moderate</td><td className='px-4 py-3'>Fix grading, extend downspouts</td></tr>
-              <tr className='bg-red-50'><td className='px-4 py-3 font-semibold text-red-700'>Wall is wet AND bowing inward</td><td className='px-4 py-3 text-red-700'>Hydrostatic pressure causing structural failure</td><td className='px-4 py-3 font-bold text-red-700'>HIGH &mdash; URGENT</td><td className='px-4 py-3'>Structural repair first, waterproofing second</td></tr>
+              <tr className='bg-red-50'><td className='px-4 py-3 font-semibold text-red-700'>Wall is wet AND bowing inward</td><td className='px-4 py-3 text-red-700'>Hydrostatic pressure causing structural failure</td><td className='px-4 py-3 font-bold text-red-700'>HIGH: URGENT</td><td className='px-4 py-3'>Structural repair first, waterproofing second</td></tr>
             </tbody>
           </table>
         </div>
@@ -193,7 +253,7 @@ export default function WetBasementWalls() {
             <h3 className='text-2xl font-bold text-gray-900'>Condensation</h3>
             <span className='ml-2 rounded bg-green-100 px-2 py-1 text-xs font-semibold text-green-700'>Fix: $200&ndash;$500</span>
           </div>
-          <p className='text-gray-700'>Condensation is the most misdiagnosed basement wall problem. Homeowners see wet walls and assume water is coming through the concrete. In many cases &mdash; especially in summer &mdash; the moisture is forming on the surface because warm, humid air from the house meets the naturally cool basement walls (typically 55&ndash;60&deg;F year-round).</p>
+          <p className='text-gray-700'>Condensation is the most misdiagnosed basement wall problem. Homeowners see wet walls and assume water is coming through the concrete. In many cases, especially in summer, the moisture is forming on the surface because warm, humid air from the house meets the naturally cool basement walls (typically 55&ndash;60&deg;F year-round).</p>
           <div className='mt-4 rounded-lg bg-gray-50 p-4'>
             <p className='font-semibold text-gray-800'>Clues it is condensation:</p>
             <ul className='mt-2 list-disc pl-5 text-gray-700 space-y-1'>
@@ -206,10 +266,10 @@ export default function WetBasementWalls() {
           </div>
           <div className='mt-4 space-y-3'>
             <p className='font-semibold text-gray-800'>How to fix it:</p>
-            <p className='text-gray-700'><strong>Step 1 &mdash; Run a dehumidifier.</strong> A basement dehumidifier rated for your square footage is the primary fix. Set it to maintain 30&ndash;50% relative humidity. For a full rundown on sizing and models, see our <Link href='/articles/best-basement-dehumidifiers' className='text-teal-600 underline'>best basement dehumidifiers guide</Link>. Cost: $200&ndash;$400 for a quality unit.</p>
-            <p className='text-gray-700'><strong>Step 2 &mdash; Improve air circulation.</strong> Stagnant air makes condensation worse. A simple box fan or HVAC air circulation keeps air moving and reduces the temperature differential that causes condensation.</p>
-            <p className='text-gray-700'><strong>Step 3 &mdash; Insulate cold surfaces.</strong> Wrapping cold water pipes with foam insulation eliminates pipe sweating. Insulating basement walls with rigid foam or spray foam reduces the temperature differential. See our <Link href='/articles/basement-insulation-guide' className='text-teal-600 underline'>basement insulation guide</Link> for material options and costs.</p>
-            <p className='text-gray-700'><strong>Step 4 &mdash; Check your dryer vent.</strong> A clothes dryer vented into the basement instead of to the outside pumps massive amounts of moisture into the air. This single issue causes more basement condensation problems than most homeowners realize. Make sure the dryer vent exits the building completely.</p>
+            <p className='text-gray-700'><strong>Step 1: Run a dehumidifier.</strong> A basement dehumidifier rated for your square footage is the primary fix. Set it to maintain 30&ndash;50% relative humidity. For a full rundown on sizing and models, see our <Link href='/articles/best-basement-dehumidifiers' className='text-teal-600 underline'>best basement dehumidifiers guide</Link>. Cost: $200&ndash;$400 for a quality unit.</p>
+            <p className='text-gray-700'><strong>Step 2: Improve air circulation.</strong> Stagnant air makes condensation worse. A simple box fan or HVAC air circulation keeps air moving and reduces the temperature differential that causes condensation.</p>
+            <p className='text-gray-700'><strong>Step 3: Insulate cold surfaces.</strong> Wrapping cold water pipes with foam insulation eliminates pipe sweating. Insulating basement walls with rigid foam or spray foam reduces the temperature differential. See our <Link href='/articles/basement-insulation-guide' className='text-teal-600 underline'>basement insulation guide</Link> for material options and costs.</p>
+            <p className='text-gray-700'><strong>Step 4: Check your dryer vent.</strong> A clothes dryer vented into the basement instead of to the outside pumps massive amounts of moisture into the air. This single issue causes more basement condensation problems than most homeowners realize. Make sure the dryer vent exits the building completely.</p>
           </div>
           <p className='mt-3 text-sm text-gray-500'>Cost: $200&ndash;$500 for a dehumidifier and pipe insulation. $1,000&ndash;$3,000 if adding wall insulation.</p>
         </div>
@@ -268,10 +328,10 @@ export default function WetBasementWalls() {
             <h3 className='text-2xl font-bold text-gray-900'>Efflorescence: White Deposits on Walls</h3>
             <span className='ml-2 rounded bg-green-100 px-2 py-1 text-xs font-semibold text-green-700'>Fix: $5&ndash;$20 (cleaning)</span>
           </div>
-          <p className='text-gray-700'>Efflorescence is the white, powdery, or crystalline deposit that appears on concrete and masonry walls. It is not mold. It is mineral salt &mdash; primarily calcium carbonate &mdash; left behind when water passes through the concrete, dissolves the calcium, and evaporates on the surface.</p>
+          <p className='text-gray-700'>Efflorescence is the white, powdery, or crystalline deposit that appears on concrete and masonry walls. It is not mold. It is mineral salt, primarily calcium carbonate, left behind when water passes through the concrete, dissolves the calcium, and evaporates on the surface.</p>
           <div className='mt-4 rounded-lg bg-blue-50 border border-blue-200 p-4'>
             <p className='font-semibold text-blue-800'>What it means:</p>
-            <p className='mt-1 text-blue-700'>Efflorescence itself is cosmetic and harmless. But it is proof that water is moving through your wall. Where there is efflorescence, there is moisture &mdash; even if the wall does not feel wet to the touch.</p>
+            <p className='mt-1 text-blue-700'>Efflorescence itself is cosmetic and harmless. But it is proof that water is moving through your wall. Where there is efflorescence, there is moisture, even if the wall does not feel wet to the touch.</p>
           </div>
           <p className='mt-4 text-gray-700'>Clean the deposits with a stiff brush and a solution of white vinegar and water (1:1 ratio). For heavy deposits, a muriatic acid wash (follow safety precautions) removes them completely. Then address the underlying moisture source using the diagnostic approach in this guide. For a deeper dive, see our <Link href='/articles/basement-efflorescence' className='text-teal-600 underline'>basement efflorescence guide</Link>.</p>
           <p className='mt-3 text-sm text-gray-500'>Cost: $5&ndash;$20 for cleaning supplies. The underlying moisture fix varies by cause.</p>
@@ -330,8 +390,44 @@ export default function WetBasementWalls() {
             <p className='text-gray-700'><strong>Exterior waterproofing membrane.</strong> Applied to the outside of the foundation wall during excavation, this is the most permanent solution but also the most expensive ($5,000&ndash;$15,000). See our <Link href='/articles/interior-vs-exterior-waterproofing' className='text-teal-600 underline'>interior vs exterior waterproofing comparison</Link> for when each approach makes sense.</p>
             <p className='text-gray-700'><strong>Crystalline waterproofing.</strong> A penetrating treatment that reacts with moisture inside the concrete to form crystals that block the pores. Effective for vapor diffusion but not for active water flow. See our <Link href='/articles/crystalline-waterproofing' className='text-teal-600 underline'>crystalline waterproofing guide</Link> for details.</p>
           </div>
-          <p className='mt-3 text-sm text-gray-500'>Cost: $500&ndash;$2,000 for interior vapor barrier. $5,000&ndash;$15,000 for exterior membrane. $200&ndash;$500 for crystalline treatment DIY.</p>
+          <p className='mt-3 text-sm text-gray-500'>Cost: $200 to $500 DIY, or $1,000 to $3,000 professionally installed for interior vapor barrier. $5,000&ndash;$15,000 for exterior membrane. $200&ndash;$500 for crystalline treatment DIY.</p>
         </div>
+
+        <h2 className='mt-12 text-3xl font-bold text-gray-900'>Basement Walls Sweating? Condensation in Summer and Winter</h2>
+        <p className='mt-4 text-gray-700'>Sweating walls are condensation, the first cause above. The foil test confirms it. What causes it, and how to fix it, depends on the season.</p>
+
+        <h3 className='mt-6 text-2xl font-bold text-gray-900'>Summer Condensation</h3>
+        <p className='mt-3 text-gray-700'>Warm, humid outdoor air gets into the basement and hits the cooler foundation walls. Walls feel slick, and water may bead or run down them on humid days.</p>
+        <ul className='mt-4 list-disc pl-6 space-y-2 text-gray-700'>
+          <li>Run a dehumidifier and keep humidity between 30 and 50%. See our <Link href='/articles/basement-humidity-guide' className='text-teal-600 underline'>basement humidity guide</Link>.</li>
+          <li>Keep basement windows closed on humid days. Opening them lets in more moisture, not less. Our <Link href='/articles/basement-ventilation' className='text-teal-600 underline'>basement ventilation guide</Link> explains when ventilation helps and when it hurts.</li>
+          <li>Insulate cold water pipes so they stop dripping.</li>
+        </ul>
+
+        <h3 className='mt-6 text-2xl font-bold text-gray-900'>Winter Condensation</h3>
+        <p className='mt-3 text-gray-700'>Warm, moist air from the house reaches foundation walls that have gotten very cold. Condensation forms where air doesn't move, behind furniture, stored boxes, shelving, and finished walls, so it often isn't noticed until mold appears.</p>
+        <ul className='mt-4 list-disc pl-6 space-y-2 text-gray-700'>
+          <li>Pull furniture and storage a few inches away from exterior walls.</li>
+          <li>Make sure bathroom fans and the dryer vent to the outside.</li>
+          <li>Insulating the walls is the long-term fix, since a warmer wall surface doesn't condense. See our <Link href='/articles/basement-insulation-guide' className='text-teal-600 underline'>basement insulation guide</Link>.</li>
+          <li>For everything else to do before cold weather, see our guide on <Link href='/articles/how-to-winterize-a-basement' className='text-teal-600 underline'>how to winterize a basement</Link>.</li>
+        </ul>
+        <p className='mt-4 text-gray-700'>If the foil test shows water on both sides, you have condensation and seepage at the same time. Fix the seepage first.</p>
+
+        <h2 className='mt-12 text-3xl font-bold text-gray-900'>Water Seeping or Leaking Through Basement Walls: What to Do Now</h2>
+        <p className='mt-4 text-gray-700'>If water is actively running or seeping through a wall, deal with the damage first, then find the source.</p>
+        <ol className='mt-4 list-decimal pl-6 space-y-2 text-gray-700'>
+          <li>Move boxes, furniture, and anything electrical away from the wet area.</li>
+          <li>Mark exactly where the water comes in and take photos. Note whether it's coming through a crack, at the cove joint where the wall meets the floor, around a pipe, or across a wide area of the wall.</li>
+          <li>Check outside right away. Look for overflowing gutters, a downspout dumping water at the foundation, a window well full of water, or ground that slopes toward the house.</li>
+          <li>Note when it happens. Water that only appears during or after heavy rain points to surface drainage or hydrostatic pressure. Water that appears without rain points to condensation, a plumbing leak, or a high water table.</li>
+          <li>Dry the area with fans and a dehumidifier to keep mold from starting.</li>
+        </ol>
+        <p className='mt-4 text-gray-700'>Then match what you found to the causes above. If water comes up through the floor rather than the walls, see our guide to <Link href='/articles/water-coming-up-through-basement-floor' className='text-teal-600 underline'>water coming up through the basement floor</Link>. If it only happens after rain, see <Link href='/articles/problems/basement-water-after-rain' className='text-teal-600 underline'>water in the basement after rain</Link>.</p>
+        <p className='mt-4 text-gray-700'>Call a waterproofing contractor if water flows through the wall during every storm, a crack is widening or leaking steadily, or the wall is bowing or cracked horizontally. See our guide to <Link href='/articles/bowing-basement-walls' className='text-teal-600 underline'>bowing basement walls</Link>.</p>
+        <Link href='#get-quotes' className='mt-6 inline-flex items-center justify-center rounded-lg bg-teal-600 px-6 py-4 text-center font-bold text-white transition-colors hover:bg-teal-700'>
+          Get free quotes from local basement waterproofing contractors
+        </Link>
 
         {/* When to Worry */}
         <h2 className='mt-12 text-3xl font-bold text-gray-900'>When to Worry: Warning Signs That Need Professional Help</h2>
@@ -391,11 +487,11 @@ export default function WetBasementWalls() {
         <div className='mt-4 grid grid-cols-1 md:grid-cols-2 gap-6'>
           <div className='rounded-xl border border-gray-200 p-6'>
             <h4 className='font-bold text-gray-900 mb-1'>Hydrostatic Pressure</h4>
-            <p className='text-gray-600'>The force exerted by water in saturated soil against a basement wall and floor slab. Increases with soil saturation depth and proximity to the water table. The primary driver of water entry through cove joints, wall cracks, and porous concrete. Cannot be stopped by surface sealing alone &mdash; requires drainage to relieve the pressure before it reaches the wall.</p>
+            <p className='text-gray-600'>The force exerted by water in saturated soil against a basement wall and floor slab. Increases with soil saturation depth and proximity to the water table. The primary driver of water entry through cove joints, wall cracks, and porous concrete. Cannot be stopped by surface sealing alone: requires drainage to relieve the pressure before it reaches the wall.</p>
           </div>
           <div className='rounded-xl border border-gray-200 p-6'>
             <h4 className='font-bold text-gray-900 mb-1'>Cove Joint</h4>
-            <p className='text-gray-600'>The junction where the basement wall sits on the footing, formed as a cold joint between two separate concrete pours. Never fully watertight by design. The single most common water entry point in poured concrete basements because hydrostatic pressure channels groundwater upward along this perimeter gap. Cannot be permanently sealed from inside with caulk or hydraulic cement &mdash; requires an interior drainage system to intercept water at this point.</p>
+            <p className='text-gray-600'>The junction where the basement wall sits on the footing, formed as a cold joint between two separate concrete pours. Never fully watertight by design. The single most common water entry point in poured concrete basements because hydrostatic pressure channels groundwater upward along this perimeter gap. Cannot be permanently sealed from inside with caulk or hydraulic cement: requires an interior drainage system to intercept water at this point.</p>
           </div>
           <div className='rounded-xl border border-gray-200 p-6'>
             <h4 className='font-bold text-gray-900 mb-1'>Efflorescence</h4>
@@ -452,7 +548,7 @@ export default function WetBasementWalls() {
           </div>
           <div>
             <h3 className='text-xl font-bold text-gray-800'>Will wet basement walls cause mold?</h3>
-            <p className='mt-2 text-gray-700'>Yes, if the moisture persists. Mold can begin growing on damp surfaces within 24 to 48 hours in warm conditions. Concrete itself does not support mold well, but anything attached to or stored against a wet wall &mdash; drywall, wood framing, cardboard boxes, carpet &mdash; will grow mold quickly. Address the moisture source promptly and see our <Link href='/articles/how-to-prevent-basement-mold' className='text-teal-600 underline'>mold prevention guide</Link>.</p>
+            <p className='mt-2 text-gray-700'>Yes, if the moisture persists. Mold can begin growing on damp surfaces within 24 to 48 hours in warm conditions. Concrete itself does not support mold well, but anything attached to or stored against a wet wall, drywall, wood framing, cardboard boxes, carpet, will grow mold quickly. Address the moisture source promptly and see our <Link href='/articles/how-to-prevent-basement-mold' className='text-teal-600 underline'>mold prevention guide</Link>.</p>
           </div>
           <div>
             <h3 className='text-xl font-bold text-gray-800'>Can wet basement walls affect my home&apos;s value?</h3>
@@ -461,6 +557,18 @@ export default function WetBasementWalls() {
           <div>
             <h3 className='text-xl font-bold text-gray-800'>Do homes on septic systems have different basement moisture issues?</h3>
             <p className='mt-2 text-gray-700'>Sometimes. If the septic system&apos;s drainfield is located near the house, a saturated or failing drainfield can raise the local water table and increase hydrostatic pressure against basement walls. If your basement moisture coincides with septic system problems like slow drains, yard odor, or soggy ground over the drainfield, the septic system may be contributing to the issue. See <a href='https://theseptic.guide' className='text-teal-600 underline' target='_blank' rel='noopener noreferrer'>The Septic Guide</a> for septic-specific help.</p>
+          </div>
+          <div>
+            <h3 className='text-xl font-bold text-gray-800'>Why are my basement walls sweating?</h3>
+            <p className='mt-2 text-gray-700'>Sweating walls are condensation. Moist air hits a cold foundation wall and turns to water. In summer it comes from humid outdoor air, and in winter from warm, moist indoor air. A dehumidifier, better air circulation, and wall insulation usually fix it.</p>
+          </div>
+          <div>
+            <h3 className='text-xl font-bold text-gray-800'>Why are my basement walls wet in winter?</h3>
+            <p className='mt-2 text-gray-700'>Usually condensation. Warm, moist air from the house reaches cold foundation walls, especially behind furniture and finished walls where air doesn't move. Pull items away from exterior walls, vent bathrooms and dryers outside, and consider insulating the walls.</p>
+          </div>
+          <div>
+            <h3 className='text-xl font-bold text-gray-800'>Is water seeping through my basement wall an emergency?</h3>
+            <p className='mt-2 text-gray-700'>It needs attention soon, but it's rarely an emergency on its own. Move belongings away, check gutters, downspouts, and window wells outside, and dry the area. Call a contractor right away if water is flowing steadily, a crack is widening, or the wall is bowing.</p>
           </div>
         </div>
 
