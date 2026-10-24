@@ -22,14 +22,14 @@ export default function ArticleSchemaInjector() {
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline: slug === 'egress-window-cost' ? 'Basement Egress Window Cost (2026)' : article.title,
+    headline: slug === 'interior-vs-exterior-waterproofing' ? 'Interior vs. Exterior Basement Waterproofing, Which Does Your House Need?' : slug === 'egress-window-cost' ? 'Basement Egress Window Cost (2026)' : article.title,
     description: slug === 'egress-window-cost' ? 'Most basement egress windows cost $2,700 to $5,900 installed, including cutting the foundation, the window, and the well. See costs by wall type and code sizes.' : article.description,
     image: imageUrl,
     datePublished: '2026-02-01T00:00:00-05:00',
-    dateModified: slug === 'egress-window-cost' ? '2026-10-24' : '2026-02-27T00:00:00-05:00',
+    dateModified: ['interior-vs-exterior-waterproofing', 'egress-window-cost'].includes(slug) ? '2026-10-24' : '2026-02-27T00:00:00-05:00',
     author: {
       '@type': 'Organization',
-      name: 'The Basement Guide',
+      name: slug === 'interior-vs-exterior-waterproofing' ? 'The Basement Guide Editorial Team' : 'The Basement Guide',
       url: baseUrl,
     },
     publisher: {

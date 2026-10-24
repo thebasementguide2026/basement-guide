@@ -4,10 +4,29 @@ import LeadForm from '@/components/LeadForm'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Interior vs Exterior Basement Waterproofing 2026: Costs, Methods & Which to Choose | The Basement Guide',
-  description: 'Complete 2026 comparison of interior vs exterior basement waterproofing. Real costs ($3,000–$18,000+), methods, lifespan, and when to choose each approach.',
+  title: 'Interior vs Exterior Waterproofing: $3K to $10K vs $7K to $18K (2026) | The Basement Guide',
+  description: "Interior waterproofing costs $3,000 to $10,000 and fixes most leaks without digging. Exterior runs $7,000 to $18,000 and stops water at the source. Here's how to choose.",
+  openGraph: {
+    title: 'Interior vs Exterior Waterproofing: $3K to $10K vs $7K to $18K (2026) | The Basement Guide',
+    description: "Interior waterproofing costs $3,000 to $10,000 and fixes most leaks without digging. Exterior runs $7,000 to $18,000 and stops water at the source. Here's how to choose.",
+  },
   alternates: { canonical: 'https://thebasement.guide/articles/interior-vs-exterior-waterproofing' },
 }
+
+const additionalFaqs = [
+  {
+    question: 'Is interior waterproofing just a band-aid?',
+    answer: `No, but it is a different strategy. Exterior waterproofing keeps water out of the wall. Interior waterproofing lets water reach the wall, then catches it at the footing and pumps it away before it reaches your floor. For most leaks, the kind that come through the cove joint or the lower part of the wall after heavy rain, an interior drain system is a permanent fix that comes with a lifetime warranty from most contractors. It becomes a band-aid in two cases: when the wall is bowing or cracking under soil pressure, which is a structural problem water management won't solve, and when water is soaking through the block high on the wall, which an interior system won't stop. If either describes your basement, start with our guide to <a href="/articles/bowing-basement-walls" class="text-emerald-700 underline hover:text-emerald-900">bowing basement walls</a>.`,
+  },
+  {
+    question: 'When will a contractor recommend exterior instead of interior?',
+    answer: `Exterior waterproofing is usually recommended in four situations. First, when water is getting through the middle or upper part of the wall, not just the bottom. Second, when the foundation is block or stone that soaks up water and keeps the basement damp. Third, when the basement is finished or about to be finished and you need the walls themselves dry, not just the floor. Fourth, when the yard is already being dug up for a new foundation, an addition, or regrading, so excavation costs are partly paid for. If none of these apply, most contractors will recommend interior because it does the job for roughly half the price.`,
+  },
+  {
+    question: 'I got two quotes that recommend completely different systems. How do I know which is right?',
+    answer: `Ask each contractor the same three questions: where exactly the water is entering, what is causing it, and why their system addresses that cause. A credible quote names the entry point (cove joint, wall crack, window well, floor) and ties the fix to it. Be cautious with any quote that skips the diagnosis, pushes a single system for every problem, or adds encapsulation, dehumidifiers, and wall bracing without explaining why each is needed. Compare warranty terms, whether the warranty transfers to the next owner, and what is excluded. Our guide to <a href="/articles/how-to-hire-basement-waterproofing-contractor" class="text-emerald-700 underline hover:text-emerald-900">hiring a waterproofing contractor</a> has a full checklist of questions to ask.`,
+  },
+]
 
 const faqSchema = {
   '@context': 'https://schema.org',
@@ -26,7 +45,7 @@ const faqSchema = {
       name: 'How much does basement waterproofing cost in 2026?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Interior waterproofing costs $3,000 to $10,000 for a typical residential system, with the most common installed price for a complete interior drain tile system with sump pump falling between $4,000 and $8,000 for a standard basement. Exterior waterproofing costs $7,000 to $18,000 with most jobs in the $10,000 to $15,000 range, primarily because excavation labor accounts for a large portion of the total cost regardless of the membrane material used. Hybrid systems combining interior drainage with exterior membrane work on the most problematic wall sections typically run $8,000 to $20,000. Costs increase with clay soil that is harder to excavate, deep footings that require more excavation depth, high water tables that complicate drainage work, and any mold remediation that must be completed before waterproofing can proceed. The cost per linear foot of drainage channel runs $20 to $35 for interior systems and $30 to $90 for exterior French drain installation. See our basement waterproofing cost guide at https://thebasement.guide/articles/basement-waterproofing-cost for a full breakdown by method and basement size.',
+        text: 'Interior waterproofing costs $3,000 to $10,000 for a typical residential system, with the most common installed price for a complete interior drain tile system with sump pump falling between $4,000 and $8,000 for a standard basement. Exterior waterproofing costs $7,000 to $18,000 with most jobs in the $10,000 to $15,000 range, primarily because excavation labor accounts for a large portion of the total cost regardless of the membrane material used. Hybrid systems combining interior drainage with exterior membrane work on the most problematic wall sections typically run $8,000 to $20,000. Costs increase with clay soil that is harder to excavate, deep footings that require more excavation depth, high water tables that complicate drainage work, and any mold remediation that must be completed before waterproofing can proceed. Interior drain tile systems typically run $40 to $85 per linear foot installed, with most jobs landing between $50 and $70 per foot. Exterior excavation and membrane work is usually priced per job rather than per foot because dig depth, access, and soil vary so much from house to house. See our basement waterproofing cost guide at https://thebasement.guide/articles/basement-waterproofing-cost for a full breakdown by method and basement size.',
       },
     },
     {
@@ -42,7 +61,7 @@ const faqSchema = {
       name: 'How long does basement waterproofing last?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Interior drain tile systems last 25 to 30 years or more with proper maintenance, including annual sump pump testing, battery backup replacement every 3 to 5 years, and periodic inspection of the drain channel for debris accumulation. Exterior waterproofing membranes last 20 to 50 years depending on the membrane type: rubberized asphalt and liquid-applied polyurethane membranes typically last 20 to 30 years, while crystalline treatments that become part of the concrete matrix can last the lifetime of the structure. Interior sealants and paint-on coatings have the shortest lifespan at 5 to 10 years, and their effectiveness diminishes as concrete continues to move and new micro-cracks form. Sump pumps themselves should be replaced every 7 to 10 years depending on usage, and battery backups require replacement every 3 to 5 years to maintain reliable performance during power outages. The factor most affecting system longevity is pairing any waterproofing method with proper exterior drainage maintenance, because even the best interior system is under greater stress when poor grading, clogged gutters, and missing downspout extensions are directing extra water toward the foundation.',
+        text: '25+ years for the drain tile, with the sump pump replaced every 7 to 10 years. Maintenance includes annual sump pump testing, battery backup replacement every 3 to 5 years, and periodic inspection of the drain channel for debris accumulation. Exterior waterproofing membranes last 20 to 50 years depending on the membrane type: rubberized asphalt and liquid-applied polyurethane membranes typically last 20 to 30 years, while crystalline treatments that become part of the concrete matrix can last the lifetime of the structure. Interior sealants and paint-on coatings have the shortest lifespan at 5 to 10 years, and their effectiveness diminishes as concrete continues to move and new micro-cracks form. Sump pumps themselves should be replaced every 7 to 10 years depending on usage, and battery backups require replacement every 3 to 5 years to maintain reliable performance during power outages. The factor most affecting system longevity is pairing any waterproofing method with proper exterior drainage maintenance, because even the best interior system is under greater stress when poor grading, clogged gutters, and missing downspout extensions are directing extra water toward the foundation.',
       },
     },
     {
@@ -61,6 +80,11 @@ const faqSchema = {
         text: 'Late spring through early fall is the ideal window for exterior waterproofing because dry ground conditions make excavation safer, easier, and less likely to require emergency shoring against saturated soil collapse. Frozen ground makes exterior excavation impossible in most climates, and actively saturated soil from spring snowmelt or heavy rain creates unstable trench conditions that increase cost and safety risk. Interior waterproofing systems can be installed year-round because the work takes place inside the basement, is not weather-dependent, and in fact many homeowners choose to do interior work in late fall or winter when contractor schedules are less compressed and pricing may be more negotiable. The one exception is interior work in extreme cold climates where the jackhammered concrete must be protected from freezing before new concrete is poured over the drain channel, which adds a minor scheduling consideration in northern states. Regardless of season, do not delay addressing an active water problem because water damage, mold growth, and structural deterioration continue year-round and worsen with each wet season that passes without treatment.',
       },
     },
+    ...additionalFaqs.map((faq) => ({
+      '@type': 'Question',
+      name: faq.question,
+      acceptedAnswer: { '@type': 'Answer', text: faq.answer.replace(/<[^>]+>/g, '') },
+    })),
   ],
 }
 
@@ -77,17 +101,15 @@ export default function InteriorVsExteriorWaterproofing() {
           priority
         />
         <div className='relative max-w-4xl mx-auto px-6 text-center'>
-          <div className='inline-block bg-teal-500/20 text-teal-300 text-xs font-bold uppercase tracking-widest px-4 py-1.5 rounded-full mb-6 border border-teal-500/30'>
-            Expanded Edition
-          </div>
           <h1 className='text-4xl md:text-6xl font-black mb-6 leading-tight tracking-tight'>
-            Interior vs. Exterior <br className='hidden md:block' /> Waterproofing 2026
+            Interior vs. Exterior Basement Waterproofing, Which Does Your House Need?
           </h1>
           <p className='text-lg md:text-xl text-slate-300 max-w-2xl mx-auto leading-relaxed'>
             Stopping water vs. managing it. Real 2026 pricing, detailed methods, and clear factors to help you decide which approach protects your basement.
           </p>
+          <p className='text-sm text-slate-300 mt-8'>By The Basement Guide Editorial Team</p>
           <div className='flex items-center text-center text-sm text-slate-400 mt-8 gap-4 justify-center'>
-            <span>Updated Feb 2026</span>
+            <span>Updated October 2026</span>
             <span className='mx-2 text-slate-600'>·</span>
             <span>32 min read</span>
           </div>
@@ -322,7 +344,7 @@ export default function InteriorVsExteriorWaterproofing() {
                 </tr>
                 <tr className='border-b border-slate-200'>
                   <td className='p-3 font-medium'>Lifespan</td>
-                  <td className='p-3'>15 to 30 years with maintenance</td>
+                  <td className='p-3'>25+ years (pump every 7 to 10 yrs)</td>
                   <td className='p-3'>20 to 50 years</td>
                 </tr>
                 <tr className='border-b border-slate-200 bg-slate-50'>
@@ -363,7 +385,8 @@ export default function InteriorVsExteriorWaterproofing() {
           </div>
 
           {/* Cost Breakdown */}
-          <h2 className='text-4xl mb-6'>2026 Basement Waterproofing Cost Breakdown</h2>
+          <h2 className='text-4xl mb-6'>Cost to Waterproof a Basement From the Inside vs. the Outside (2026)</h2>
+          <p>Waterproofing from the inside costs $3,000 to $10,000 for a typical 1,000 sq ft basement, with most homeowners paying $4,000 to $8,000. Waterproofing from the outside costs $7,000 to $18,000, with most paying $10,000 to $15,000, because the crew has to dig down to the footing on every wall they treat. The gap gets wider when there is a deck, driveway, patio, or landscaping in the way, since all of that has to come out and go back in. For a full line-by-line breakdown by method and region, see our <Link href='/articles/basement-waterproofing-cost'>basement waterproofing cost guide</Link>.</p>
           <p className='font-semibold text-slate-800 text-xl mb-4'>National Averages for a Typical 1,000-Square-Foot Basement</p>
           <div className='overflow-x-auto my-8 not-prose'>
             <table className='w-full text-sm border-collapse'>
@@ -699,7 +722,7 @@ export default function InteriorVsExteriorWaterproofing() {
             </div>
             <div className='bg-white rounded-xl border border-slate-200 p-6'>
               <h3 className='font-bold text-slate-900 mb-2'>How much does basement waterproofing cost in 2026?</h3>
-              <p className='text-slate-600 text-sm'>Interior waterproofing costs $3,000 to $10,000 for a typical residential system, with the most common installed price for a complete interior drain tile system with sump pump falling between $4,000 and $8,000 for a standard basement. Exterior waterproofing costs $7,000 to $18,000 with most jobs in the $10,000 to $15,000 range, primarily because excavation labor accounts for a large portion of the total cost regardless of the membrane material used. Hybrid systems combining interior drainage with exterior membrane work on the most problematic wall sections typically run $8,000 to $20,000. Costs increase with clay soil that is harder to excavate, deep footings that require more excavation depth, high water tables that complicate drainage work, and any mold remediation that must be completed before waterproofing can proceed. The cost per linear foot of drainage channel runs $20 to $35 for interior systems and $30 to $90 for exterior French drain installation. See our <Link href='/articles/basement-waterproofing-cost' className='text-emerald-700 underline hover:text-emerald-900'>basement waterproofing cost guide</Link> for a full breakdown by method and basement size.</p>
+              <p className='text-slate-600 text-sm'>Interior waterproofing costs $3,000 to $10,000 for a typical residential system, with the most common installed price for a complete interior drain tile system with sump pump falling between $4,000 and $8,000 for a standard basement. Exterior waterproofing costs $7,000 to $18,000 with most jobs in the $10,000 to $15,000 range, primarily because excavation labor accounts for a large portion of the total cost regardless of the membrane material used. Hybrid systems combining interior drainage with exterior membrane work on the most problematic wall sections typically run $8,000 to $20,000. Costs increase with clay soil that is harder to excavate, deep footings that require more excavation depth, high water tables that complicate drainage work, and any mold remediation that must be completed before waterproofing can proceed. Interior drain tile systems typically run $40 to $85 per linear foot installed, with most jobs landing between $50 and $70 per foot. Exterior excavation and membrane work is usually priced per job rather than per foot because dig depth, access, and soil vary so much from house to house. See our <Link href='/articles/basement-waterproofing-cost' className='text-emerald-700 underline hover:text-emerald-900'>basement waterproofing cost guide</Link> for a full breakdown by method and basement size.</p>
             </div>
             <div className='bg-white rounded-xl border border-slate-200 p-6'>
               <h3 className='font-bold text-slate-900 mb-2'>Can I waterproof my basement myself?</h3>
@@ -707,7 +730,7 @@ export default function InteriorVsExteriorWaterproofing() {
             </div>
             <div className='bg-white rounded-xl border border-slate-200 p-6'>
               <h3 className='font-bold text-slate-900 mb-2'>How long does basement waterproofing last?</h3>
-              <p className='text-slate-600 text-sm'>Interior drain tile systems last 25 to 30 years or more with proper maintenance, including annual sump pump testing, battery backup replacement every 3 to 5 years, and periodic inspection of the drain channel for debris accumulation. Exterior waterproofing membranes last 20 to 50 years depending on the membrane type: rubberized asphalt and liquid-applied polyurethane membranes typically last 20 to 30 years, while crystalline treatments that become part of the concrete matrix can last the lifetime of the structure. Interior sealants and paint-on coatings have the shortest lifespan at 5 to 10 years, and their effectiveness diminishes as concrete continues to move and new micro-cracks form. Sump pumps themselves should be replaced every 7 to 10 years depending on usage, and battery backups require replacement every 3 to 5 years to maintain reliable performance during power outages. The factor most affecting system longevity is pairing any waterproofing method with proper exterior drainage maintenance, because even the best interior system is under greater stress when poor grading, clogged gutters, and missing downspout extensions are directing extra water toward the foundation.</p>
+              <p className='text-slate-600 text-sm'>25+ years for the drain tile, with the sump pump replaced every 7 to 10 years. Maintenance includes annual sump pump testing, battery backup replacement every 3 to 5 years, and periodic inspection of the drain channel for debris accumulation. Exterior waterproofing membranes last 20 to 50 years depending on the membrane type: rubberized asphalt and liquid-applied polyurethane membranes typically last 20 to 30 years, while crystalline treatments that become part of the concrete matrix can last the lifetime of the structure. Interior sealants and paint-on coatings have the shortest lifespan at 5 to 10 years, and their effectiveness diminishes as concrete continues to move and new micro-cracks form. Sump pumps themselves should be replaced every 7 to 10 years depending on usage, and battery backups require replacement every 3 to 5 years to maintain reliable performance during power outages. The factor most affecting system longevity is pairing any waterproofing method with proper exterior drainage maintenance, because even the best interior system is under greater stress when poor grading, clogged gutters, and missing downspout extensions are directing extra water toward the foundation.</p>
             </div>
             <div className='bg-white rounded-xl border border-slate-200 p-6'>
               <h3 className='font-bold text-slate-900 mb-2'>Does waterproofing increase home value?</h3>
@@ -717,6 +740,12 @@ export default function InteriorVsExteriorWaterproofing() {
               <h3 className='font-bold text-slate-900 mb-2'>What is the best time of year to waterproof a basement?</h3>
               <p className='text-slate-600 text-sm'>Late spring through early fall is the ideal window for exterior waterproofing because dry ground conditions make excavation safer, easier, and less likely to require emergency shoring against saturated soil collapse. Frozen ground makes exterior excavation impossible in most climates, and actively saturated soil from spring snowmelt or heavy rain creates unstable trench conditions that increase cost and safety risk. Interior waterproofing systems can be installed year-round because the work takes place inside the basement, is not weather-dependent, and in fact many homeowners choose to do interior work in late fall or winter when contractor schedules are less compressed and pricing may be more negotiable. The one exception is interior work in extreme cold climates where the jackhammered concrete must be protected from freezing before new concrete is poured over the drain channel, which adds a minor scheduling consideration in northern states. Regardless of season, do not delay addressing an active water problem because water damage, mold growth, and structural deterioration continue year-round and worsen with each wet season that passes without treatment.</p>
             </div>
+            {additionalFaqs.map((faq) => (
+              <div key={faq.question} className='bg-white rounded-xl border border-slate-200 p-6'>
+                <h3 className='font-bold text-slate-900 mb-2'>{faq.question}</h3>
+                <p className='text-slate-600 text-sm' dangerouslySetInnerHTML={{ __html: faq.answer }} />
+              </div>
+            ))}
           </div>
 
           {/* Glossary */}
