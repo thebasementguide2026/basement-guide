@@ -304,7 +304,7 @@ export default function SubmersibleVsPedestalSumpPump() {
               <div className='space-y-4'>
                 <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
                   <h3 className='font-bold text-slate-900 mb-2'>Flood Risk</h3>
-                  <p className='text-slate-700'>Submersible for heavy water&#8212;higher head pressure, up to 25 feet lift. Pedestal for light duty at 15&#8211;20 feet. If your basement has recurring <Link href='/articles/basement-waterproofing-guide' className='text-teal-600 underline hover:text-teal-800'>waterproofing issues</Link>, go submersible.</p>
+                  <p className='text-slate-700'>Submersible for heavy water&#8212;higher head pressure, up to 25 feet lift. Pedestal for light duty at 15&#8211;20 feet. If your basement has recurring <Link href='/articles/complete-basement-waterproofing-guide' className='text-teal-600 underline hover:text-teal-800'>waterproofing issues</Link>, go submersible.</p>
                 </div>
                 <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
                   <h3 className='font-bold text-slate-900 mb-2'>Noise and Space</h3>
@@ -312,7 +312,7 @@ export default function SubmersibleVsPedestalSumpPump() {
                 </div>
                 <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
                   <h3 className='font-bold text-slate-900 mb-2'>Cost and Maintenance</h3>
-                  <p className='text-slate-700'>Pedestal wins on upfront savings and ease of service. Submersible wins on long-term power and performance. Check our <Link href='/articles/basement-waterproofing-cost-guide' className='text-teal-600 underline hover:text-teal-800'>cost guide</Link> for full pricing details.</p>
+                  <p className='text-slate-700'>Pedestal wins on upfront savings and ease of service. Submersible wins on long-term power and performance. Check our <Link href='/articles/basement-waterproofing-cost' className='text-teal-600 underline hover:text-teal-800'>cost guide</Link> for full pricing details.</p>
                 </div>
                 <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
                   <h3 className='font-bold text-slate-900 mb-2'>Installation</h3>
@@ -499,7 +499,7 @@ export default function SubmersibleVsPedestalSumpPump() {
                 Submersible vs pedestal sump pump comes down to your basement&#39;s needs&#8212;go submersible for heavy duty, pedestal for simple savings. Test water levels first, and add a backup for peace of mind.
               </p>
               <p className='text-slate-700 leading-relaxed mb-4'>
-                For more on protecting your basement from water damage, check out our <Link href='/articles/basement-waterproofing-guide' className='text-teal-600 underline hover:text-teal-800'>complete waterproofing guide</Link> and <Link href='/articles/best-basement-dehumidifiers' className='text-teal-600 underline hover:text-teal-800'>best dehumidifiers for basements</Link>.
+                For more on protecting your basement from water damage, check out our <Link href='/articles/complete-basement-waterproofing-guide' className='text-teal-600 underline hover:text-teal-800'>complete waterproofing guide</Link> and <Link href='/articles/best-basement-dehumidifiers' className='text-teal-600 underline hover:text-teal-800'>best dehumidifiers for basements</Link>.
               </p>
               <p className='text-slate-700 leading-relaxed'>
                 After deciding between submersible and pedestal, use our <Link href='/cost-guides/sump-pump-replacement-cost' className='text-teal-600 underline hover:text-teal-800'>sump pump replacement cost guide</Link> to estimate your specific installed price based on pump type, backup choice, labor scope, and region.

@@ -50,7 +50,7 @@ export default function SumpPumpBuyingGuide() {
         <div className='prose prose-lg max-w-none'>
           <p>A sump pump is the last line of defense between your basement and water damage. It sits in a pit at the lowest point of your basement floor, automatically activates when water rises to a certain level, and ejects the water outside before it can flood your living space. Every basement with a history of water intrusion, an interior drainage system, or a high water table needs a sump pump. Most basements benefit from one even without a history of flooding because conditions change over time.</p>
           <p className='mt-6'>Choosing the wrong sump pump means either a pump that cannot keep up with water volume during a heavy storm resulting in flooding or an oversized pump that short-cycles, burns out prematurely, and wastes money. This guide covers every factor that matters including pump types, sizing by horsepower and flow rate, critical features, backup systems, pricing, installation, and maintenance. By the end, you will know exactly what to buy and why.</p>
-          <p className='mt-6'>For specific product recommendations with pricing and reviews, see our <Link href='/articles/best-sump-pumps' className='text-indigo-600 hover:text-indigo-700 underline'>best sump pumps 2026 roundup</Link>. For installation and replacement pricing, see our <Link href='/articles/sump-pump-cost' className='text-indigo-600 hover:text-indigo-700 underline'>sump pump cost guide</Link>. For backup power options, see our <Link href='/articles/backup-power-sump-pumps' className='text-indigo-600 hover:text-indigo-700 underline'>backup power for sump pumps guide</Link>.</p>
+          <p className='mt-6'>For specific product recommendations with pricing and reviews, see our <Link href='/articles/best-sump-pumps-2026' className='text-indigo-600 hover:text-indigo-700 underline'>best sump pumps 2026 roundup</Link>. For installation and replacement pricing, see our <Link href='/articles/sump-pump-cost' className='text-indigo-600 hover:text-indigo-700 underline'>sump pump cost guide</Link>. For backup power options, see our <Link href='/articles/backup-power-sump-pumps' className='text-indigo-600 hover:text-indigo-700 underline'>backup power for sump pumps guide</Link>.</p>
         </div>
       </section>
 
@@ -300,7 +300,7 @@ export default function SumpPumpBuyingGuide() {
 
           <h3 className='text-xl font-bold text-slate-800 mt-8 mb-4'>When to Hire a Professional</h3>
           <p>Hire a professional for new installations where no sump pit exists (requires cutting concrete, excavating, and installing a basin), situations requiring a new discharge line routed through the foundation wall, any installation involving electrical work beyond plugging into an existing outlet, installations that include a battery backup system or <Link href='/articles/interior-basement-drainage-systems' className='text-indigo-600 hover:text-indigo-700 underline'>interior drainage system</Link>, and any installation in a finished basement where drywall, flooring, or fixtures need to be worked around.</p>
-          <p className='mt-4'>For guidance on finding a qualified installer, see our <Link href='/articles/how-to-hire-waterproofing-contractor' className='text-indigo-600 hover:text-indigo-700 underline'>how to hire a waterproofing contractor guide</Link>.</p>
+          <p className='mt-4'>For guidance on finding a qualified installer, see our <Link href='/articles/how-to-hire-basement-waterproofing-contractor' className='text-indigo-600 hover:text-indigo-700 underline'>how to hire a waterproofing contractor guide</Link>.</p>
         </div>
       </section>
 
@@ -339,7 +339,7 @@ export default function SumpPumpBuyingGuide() {
             <a href='https://amzn.to/40q94Ts' target='_blank' rel='noopener noreferrer' className='inline-block mt-4 text-indigo-600 hover:text-indigo-700 font-semibold'>Check Price on Amazon →</a>
           </div>
         </div>
-        <p className='text-slate-600 mt-6'>See our <Link href='/articles/best-sump-pumps' className='text-indigo-600 hover:text-indigo-700 underline'>best sump pumps 2026 roundup</Link> for specific model recommendations and pricing.</p>
+        <p className='text-slate-600 mt-6'>See our <Link href='/articles/best-sump-pumps-2026' className='text-indigo-600 hover:text-indigo-700 underline'>best sump pumps 2026 roundup</Link> for specific model recommendations and pricing.</p>
       </section>
 
       {/* Section 9 - Maintenance */}
@@ -372,7 +372,7 @@ export default function SumpPumpBuyingGuide() {
 
           <h3 className='text-xl font-bold text-slate-800 mt-8 mb-4'>Every 7 to 10 Years</h3>
           <p>Replace the primary pump proactively, even if it is still working. Sump pumps do not give much warning before failure. A pump that ran reliably for 9 years can fail completely during the next heavy rain. Replacing proactively on a schedule is far cheaper than emergency replacement plus flood damage cleanup.</p>
-          <p className='mt-4'>See our <Link href='/articles/best-sump-pumps' className='text-indigo-600 hover:text-indigo-700 underline'>best sump pumps 2026</Link> for current replacement recommendations. For more maintenance details, see our <Link href='/articles/spring-basement-checklist' className='text-indigo-600 hover:text-indigo-700 underline'>spring basement checklist</Link> which includes a full sump pump inspection protocol.</p>
+          <p className='mt-4'>See our <Link href='/articles/best-sump-pumps-2026' className='text-indigo-600 hover:text-indigo-700 underline'>best sump pumps 2026</Link> for current replacement recommendations. For more maintenance details, see our <Link href='/articles/spring-basement-checklist' className='text-indigo-600 hover:text-indigo-700 underline'>spring basement checklist</Link> which includes a full sump pump inspection protocol.</p>
         </div>
       </section>
 
@@ -419,7 +419,7 @@ export default function SumpPumpBuyingGuide() {
           </div>
           <div>
             <h3 className='text-xl font-bold text-slate-800 mb-3'>What is the best sump pump brand?</h3>
-            <p className='text-slate-600'>Zoeller is widely considered the most reliable residential sump pump brand by both homeowners and waterproofing professionals. Wayne offers excellent value. Liberty Pumps leads in smart features. Superior Pump provides solid budget-friendly options. Basement Watchdog makes the best battery backup systems. See our <Link href='/articles/best-sump-pumps' className='text-indigo-600 hover:text-indigo-700 underline'>best sump pumps 2026 roundup</Link> for specific model recommendations.</p>
+            <p className='text-slate-600'>Zoeller is widely considered the most reliable residential sump pump brand by both homeowners and waterproofing professionals. Wayne offers excellent value. Liberty Pumps leads in smart features. Superior Pump provides solid budget-friendly options. Basement Watchdog makes the best battery backup systems. See our <Link href='/articles/best-sump-pumps-2026' className='text-indigo-600 hover:text-indigo-700 underline'>best sump pumps 2026 roundup</Link> for specific model recommendations.</p>
           </div>
           <div>
             <h3 className='text-xl font-bold text-slate-800 mb-3'>Should I get a submersible or pedestal sump pump?</h3>
@@ -495,7 +495,7 @@ export default function SumpPumpBuyingGuide() {
       <section className='max-w-4xl mx-auto px-6 py-12'>
         <h2 className='text-3xl font-bold text-slate-900 mb-8'>Related Guides</h2>
         <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-4'>
-          <Link href='/articles/best-sump-pumps' className='block p-4 border border-slate-200 rounded-lg hover:border-indigo-300 hover:bg-indigo-50 transition'>
+          <Link href='/articles/best-sump-pumps-2026' className='block p-4 border border-slate-200 rounded-lg hover:border-indigo-300 hover:bg-indigo-50 transition'>
             <h3 className='font-bold text-slate-900'>Best Sump Pumps 2026</h3>
           </Link>
           <Link href='/articles/sump-pump-cost' className='block p-4 border border-slate-200 rounded-lg hover:border-indigo-300 hover:bg-indigo-50 transition'>
@@ -549,7 +549,7 @@ export default function SumpPumpBuyingGuide() {
           <Link href='/articles/best-basement-dehumidifiers' className='block p-4 border border-slate-200 rounded-lg hover:border-indigo-300 hover:bg-indigo-50 transition'>
             <h3 className='font-bold text-slate-900'>Best Basement Dehumidifiers</h3>
           </Link>
-          <Link href='/articles/how-to-hire-waterproofing-contractor' className='block p-4 border border-slate-200 rounded-lg hover:border-indigo-300 hover:bg-indigo-50 transition'>
+          <Link href='/articles/how-to-hire-basement-waterproofing-contractor' className='block p-4 border border-slate-200 rounded-lg hover:border-indigo-300 hover:bg-indigo-50 transition'>
             <h3 className='font-bold text-slate-900'>How to Hire a Waterproofing Contractor</h3>
           </Link>
           <Link href='/articles/spring-basement-checklist' className='block p-4 border border-slate-200 rounded-lg hover:border-indigo-300 hover:bg-indigo-50 transition'>

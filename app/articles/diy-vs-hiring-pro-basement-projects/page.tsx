@@ -391,8 +391,8 @@ export default function DIYvsProArticle() {
             <div className='bg-white rounded-lg p-6 border border-slate-200'>
               <h4 className='font-bold text-slate-900 mb-3'>Related Guides</h4>
               <ul className='space-y-3 text-sm'>
-                <li><Link href='/articles/how-to-hire-a-basement-contractor' className='text-indigo-600 hover:underline'>How to Hire a Basement Contractor</Link></li>
-                <li><Link href='/articles/common-renovation-mistakes' className='text-indigo-600 hover:underline'>Common Renovation Mistakes</Link></li>
+                <li><Link href='/articles/how-to-hire-basement-waterproofing-contractor' className='text-indigo-600 hover:underline'>How to Hire a Basement Contractor</Link></li>
+                <li><Link href='/articles/basement-renovation-mistakes' className='text-indigo-600 hover:underline'>Common Renovation Mistakes</Link></li>
                 <li><Link href='/articles/complete-basement-waterproofing-guide' className='text-indigo-600 hover:underline'>Complete Waterproofing Guide</Link></li>
                 <li><Link href='/articles/how-to-finish-a-basement' className='text-indigo-600 hover:underline'>How to Finish a Basement</Link></li>
                 <li><Link href='/articles/bowing-basement-walls' className='text-indigo-600 hover:underline'>Bowing Basement Walls Guide</Link></li>

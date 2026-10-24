@@ -78,7 +78,7 @@ export default function BestWaterLeakDetectors() {
             Water leak sensors spot moisture the moment it appears and alert you within seconds, giving you time to respond before water reaches carpet, drywall, furniture, and stored belongings.
           </p>
           <p className='text-gray-700 text-lg mb-6'>
-            For how leak sensors fit into a complete smart basement flood prevention system alongside smart sump pumps and battery backups, see our <Link href='/articles/smart-sump-pumps' className='text-blue-600 hover:text-blue-800 underline'>smart sump pumps guide</Link>.
+            For how leak sensors fit into a complete smart basement flood prevention system alongside smart sump pumps and battery backups, see our <Link href='/articles/smart-sump-pumps-guide' className='text-blue-600 hover:text-blue-800 underline'>smart sump pumps guide</Link>.
           </p>
 
           {/* Article Image */}
@@ -483,7 +483,7 @@ export default function BestWaterLeakDetectors() {
               </div>
               <div className='bg-gray-50 rounded-lg p-4'>
                 <span className='text-xs font-bold text-gray-500 uppercase'>Best For</span>
-                <p className='text-sm text-gray-700'>Finished basements with significant financial exposure. Homes where owners travel frequently. Pairs well with a <Link href='/articles/smart-sump-pumps' className='text-blue-600 hover:text-blue-800 underline'>smart sump pump system</Link> for complete coverage.</p>
+                <p className='text-sm text-gray-700'>Finished basements with significant financial exposure. Homes where owners travel frequently. Pairs well with a <Link href='/articles/smart-sump-pumps-guide' className='text-blue-600 hover:text-blue-800 underline'>smart sump pump system</Link> for complete coverage.</p>
               </div>
             </div>
             <a href='https://amzn.to/4chgks4' target='_blank' rel='noopener noreferrer' className='inline-block bg-amber-400 hover:bg-amber-500 text-gray-900 font-bold py-3 px-8 rounded-lg transition-colors'>Check Price on Amazon</a>
@@ -648,7 +648,7 @@ export default function BestWaterLeakDetectors() {
             <div className='border-b border-gray-200 pb-6'>
               <h3 className='text-lg font-bold text-gray-900 mb-2'>Do leak sensors help with basement flooding from groundwater?</h3>
               <p className='text-gray-700'>
-                Yes, but with an important distinction. Leak sensors detect water on the floor regardless of the source, so they will alert you when groundwater seepage, sump pump overflow, or rising water reaches the sensor location. However, sensors cannot stop groundwater intrusion the way they can stop a plumbing leak via shutoff valve. For complete groundwater protection, combine leak sensors with a <Link href='/articles/smart-sump-pumps' className='text-blue-600 hover:text-blue-800 underline'>smart sump pump system</Link>.
+                Yes, but with an important distinction. Leak sensors detect water on the floor regardless of the source, so they will alert you when groundwater seepage, sump pump overflow, or rising water reaches the sensor location. However, sensors cannot stop groundwater intrusion the way they can stop a plumbing leak via shutoff valve. For complete groundwater protection, combine leak sensors with a <Link href='/articles/smart-sump-pumps-guide' className='text-blue-600 hover:text-blue-800 underline'>smart sump pump system</Link>.
               </p>
             </div>
             <div className='border-b border-gray-200 pb-6'>
@@ -715,7 +715,7 @@ export default function BestWaterLeakDetectors() {
       <section className='max-w-4xl mx-auto px-6 mb-16'>
         <h2 className='text-3xl font-bold text-gray-900 mb-6'>Related Guides</h2>
         <div className='grid md:grid-cols-3 gap-6'>
-          <Link href='/articles/smart-sump-pumps' className='group block bg-white border border-gray-200 rounded-xl overflow-hidden hover:shadow-lg transition-shadow'>
+          <Link href='/articles/smart-sump-pumps-guide' className='group block bg-white border border-gray-200 rounded-xl overflow-hidden hover:shadow-lg transition-shadow'>
             <div className='p-6'>
               <h3 className='font-bold text-gray-900 group-hover:text-blue-600 transition-colors'>Smart Sump Pumps Guide</h3>
               <p className='text-sm text-gray-600 mt-2'>Smart sump pump systems for automated basement flood prevention.</p>

@@ -352,7 +352,7 @@ export default function BasementWaterproofingCostPage() {
           {/* Permits - Expanded */}
           <h2 className='text-3xl font-extrabold text-slate-900 mt-16 mb-6'>Do You Need a Permit?</h2>
           <p className='text-slate-700 leading-relaxed mb-4'>
-            In most jurisdictions, interior waterproofing work (French drains, sump pumps, sealers) does not require a <Link href='/articles/basement-permits' className='text-teal-600 underline hover:text-teal-800'>building permit</Link>. Exterior waterproofing usually requires a permit because it involves excavation near the foundation and potentially modifying drainage systems that affect neighboring properties. Some municipalities also require permits for sump pump discharge routing.
+            In most jurisdictions, interior waterproofing work (French drains, sump pumps, sealers) does not require a <Link href='/articles/basement-permits-guide' className='text-teal-600 underline hover:text-teal-800'>building permit</Link>. Exterior waterproofing usually requires a permit because it involves excavation near the foundation and potentially modifying drainage systems that affect neighboring properties. Some municipalities also require permits for sump pump discharge routing.
           </p>
           <p className='text-slate-700 leading-relaxed mb-4'>
             Your contractor should know the local requirements &mdash; if they tell you permits aren&rsquo;t necessary for exterior work, that&rsquo;s a yellow flag.

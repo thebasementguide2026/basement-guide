@@ -200,7 +200,7 @@ export default function CrawlSpaceEncapsulationGuide() {
                 </div>
                 <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
                   <h3 className='font-bold text-slate-900 mb-2'>4. Add Insulation</h3>
-                  <p className='text-slate-700'>Install rigid <Link href='/articles/basement-insulation' className='text-indigo-600 underline hover:text-indigo-800'>foam boards</Link> (R-5 to R-10) on walls and rim joists. Spray foam fills tricky spots and keeps things efficient.</p>
+                  <p className='text-slate-700'>Install rigid <Link href='/articles/basement-insulation-guide' className='text-indigo-600 underline hover:text-indigo-800'>foam boards</Link> (R-5 to R-10) on walls and rim joists. Spray foam fills tricky spots and keeps things efficient.</p>
                 </div>
                 <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
                   <h3 className='font-bold text-slate-900 mb-2'>5. Set Up Dehumidifier and Drainage</h3>

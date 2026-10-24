@@ -49,7 +49,7 @@ export default function CompleteBasementWaterproofingGuide() {
           <h3 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">The Stack Effect, Your Basement Air Is Your Home's Air</h3>
           <p className="text-gray-700 mb-4">Here is something most homeowners do not realize: the air in your basement does not stay in your basement. Through a natural phenomenon called the stack effect, warm air rises through your home and pulls basement air up with it.</p>
           <p className="text-gray-700 mb-4">That means if your basement has mold spores, excess humidity, or musty odors, every person living above it is breathing that air in. The EPA has flagged this as a genuine health concern, and it is one of the biggest reasons waterproofing is not optional. It is a health decision.</p>
-          <p className="text-gray-700 mb-4">Radon gas also enters basements through the same foundation pathways as water and concentrates in the living space. See our <Link href="/articles/basement-radon-testing-mitigation-guide" className="text-teal-700 underline hover:text-teal-900">radon testing and mitigation guide</Link> for testing instructions.</p>
+          <p className="text-gray-700 mb-4">Radon gas also enters basements through the same foundation pathways as water and concentrates in the living space. See our <Link href="/articles/radon-testing-and-mitigation" className="text-teal-700 underline hover:text-teal-900">radon testing and mitigation guide</Link> for testing instructions.</p>
 
           <h3 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">Structural Damage Happens Slowly, Then All at Once</h3>
           <p className="text-gray-700 mb-4">Water is patient. It does not need to pour through your walls to cause damage. Persistent moisture creates hydrostatic pressure against your foundation, the force of water-saturated soil pushing inward.</p>
@@ -264,7 +264,7 @@ export default function CompleteBasementWaterproofingGuide() {
         {/* How to Choose a Contractor */}
         <section className="mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">How to Choose a Basement Waterproofing Contractor</h2>
-          <p className="text-gray-700 mb-6">If your situation calls for professional help, choosing the right contractor is critical. See our complete <Link href="/articles/how-to-hire-a-waterproofing-contractor" className="text-teal-700 underline hover:text-teal-900">guide to hiring a waterproofing contractor</Link> for detailed vetting advice.</p>
+          <p className="text-gray-700 mb-6">If your situation calls for professional help, choosing the right contractor is critical. See our complete <Link href="/articles/how-to-hire-basement-waterproofing-contractor" className="text-teal-700 underline hover:text-teal-900">guide to hiring a waterproofing contractor</Link> for detailed vetting advice.</p>
 
           <h3 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">What to Look For</h3>
           <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-6">

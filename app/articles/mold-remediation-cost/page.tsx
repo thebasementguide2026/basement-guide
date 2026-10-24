@@ -137,7 +137,7 @@ export default function MoldRemediationCost() {
 
           <div className="bg-teal-50 border border-teal-200 rounded-lg p-6 mb-8">
             <h4 className="font-bold text-slate-900 mb-2">Cost Per Square Foot</h4>
-            <p className="text-slate-700">Most remediation companies price at $10 to $25 per square foot for standard work. Difficult access areas like <Link href="/articles/crawl-space-vs-basement" className="text-teal-700 underline">crawl spaces</Link> or mold behind finished walls can push that to $25 to $30 per square foot. HVAC duct remediation is priced separately and typically runs $2,000 to $10,000 depending on the size of the system.</p>
+            <p className="text-slate-700">Most remediation companies price at $10 to $25 per square foot for standard work. Difficult access areas like <Link href="/articles/basement-vs-crawl-space-vs-slab" className="text-teal-700 underline">crawl spaces</Link> or mold behind finished walls can push that to $25 to $30 per square foot. HVAC duct remediation is priced separately and typically runs $2,000 to $10,000 depending on the size of the system.</p>
           </div>
         </section>
 

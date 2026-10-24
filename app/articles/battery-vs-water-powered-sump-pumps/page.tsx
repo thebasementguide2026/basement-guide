@@ -252,7 +252,7 @@ export default function BatteryVsWaterPoweredPumps() {
           <h3 className='text-xl font-bold text-slate-900 mt-8 mb-2'>Water-Powered: Hire a Plumber</h3>
           <p className='text-slate-700 leading-relaxed mb-4'>Water-powered backup pumps require a connection to your home&apos;s municipal water supply line, a backflow preventer (RPZ assembly), and in most jurisdictions a plumbing permit and inspection. Most local codes require a licensed plumber for this work.</p>
           <p className='text-slate-700 leading-relaxed mb-4'>Installation takes 3 to 5 hours and costs $200 to $400 for labor plus $100 to $300 for the RPZ assembly. Do not attempt to install a water-powered backup without a backflow preventer. Without one, contaminated sump water can flow backward into your drinking water supply and the municipal water system.</p>
-          <p className='text-slate-700 leading-relaxed mb-4'>See our{' '}<Link href='/articles/diy-vs-pro-basement-waterproofing' className='text-indigo-600 hover:text-indigo-700 underline'>DIY vs hiring a pro guide</Link> for general guidance on which basement projects are safe to do yourself.</p>
+          <p className='text-slate-700 leading-relaxed mb-4'>See our{' '}<Link href='/articles/diy-vs-hiring-pro-basement-projects' className='text-indigo-600 hover:text-indigo-700 underline'>DIY vs hiring a pro guide</Link> for general guidance on which basement projects are safe to do yourself.</p>
         </section>
 
         {/* Maintenance and Testing */}
@@ -295,7 +295,7 @@ export default function BatteryVsWaterPoweredPumps() {
             </div>
             <div className='border border-slate-200 rounded-lg p-6'>
               <h3 className='text-lg font-bold text-slate-900 mb-2'>Can I install a battery backup sump pump myself?</h3>
-              <p className='text-slate-700 leading-relaxed'>Yes, most battery backup sump pump kits are designed for DIY installation with step-by-step instructions. You need basic plumbing skills (cutting and gluing PVC pipe), a GFCI-protected outlet near the sump pit, and 2 to 4 hours of time. Water-powered pumps are harder to install yourself because they require a connection to the municipal water supply and a backflow preventer that most plumbing codes require a licensed plumber to install. See our <Link href='/articles/diy-vs-pro-basement-waterproofing' className='text-indigo-600 hover:text-indigo-700 underline'>DIY vs hiring a pro guide</Link> for help deciding.</p>
+              <p className='text-slate-700 leading-relaxed'>Yes, most battery backup sump pump kits are designed for DIY installation with step-by-step instructions. You need basic plumbing skills (cutting and gluing PVC pipe), a GFCI-protected outlet near the sump pit, and 2 to 4 hours of time. Water-powered pumps are harder to install yourself because they require a connection to the municipal water supply and a backflow preventer that most plumbing codes require a licensed plumber to install. See our <Link href='/articles/diy-vs-hiring-pro-basement-projects' className='text-indigo-600 hover:text-indigo-700 underline'>DIY vs hiring a pro guide</Link> for help deciding.</p>
             </div>
             <div className='border border-slate-200 rounded-lg p-6'>
               <h3 className='text-lg font-bold text-slate-900 mb-2'>How long does a LiFePO4 sump pump battery last?</h3>
@@ -365,7 +365,7 @@ export default function BatteryVsWaterPoweredPumps() {
               <h3 className='font-bold text-slate-900 mb-1'>Best Water Leak Detectors</h3>
               <p className='text-slate-600 text-sm'>Top-rated water sensors and smart leak detection systems for 2026.</p>
             </Link>
-            <Link href='/articles/basement-flooding-causes' className='block p-6 border border-slate-200 rounded-lg hover:border-indigo-300 hover:shadow-md transition-all'>
+            <Link href='/articles/basement-emergency-water-plan' className='block p-6 border border-slate-200 rounded-lg hover:border-indigo-300 hover:shadow-md transition-all'>
               <h3 className='font-bold text-slate-900 mb-1'>Why Basements Flood With a Sump Pump</h3>
               <p className='text-slate-600 text-sm'>Common reasons your sump pump fails when you need it most.</p>
             </Link>
@@ -381,7 +381,7 @@ export default function BatteryVsWaterPoweredPumps() {
               <h3 className='font-bold text-slate-900 mb-1'>Basement Waterproofing Cost</h3>
               <p className='text-slate-600 text-sm'>Complete pricing guide for every waterproofing method in 2026.</p>
             </Link>
-            <Link href='/articles/diy-vs-pro-basement-waterproofing' className='block p-6 border border-slate-200 rounded-lg hover:border-indigo-300 hover:shadow-md transition-all'>
+            <Link href='/articles/diy-vs-hiring-pro-basement-projects' className='block p-6 border border-slate-200 rounded-lg hover:border-indigo-300 hover:shadow-md transition-all'>
               <h3 className='font-bold text-slate-900 mb-1'>DIY vs Hiring a Pro</h3>
               <p className='text-slate-600 text-sm'>Which basement projects are safe to tackle yourself and which need a contractor.</p>
             </Link>

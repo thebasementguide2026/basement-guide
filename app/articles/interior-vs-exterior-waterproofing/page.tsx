@@ -652,7 +652,7 @@ export default function InteriorVsExteriorWaterproofing() {
               <p className='font-bold text-amber-800 mb-2'>Warning Signs That Need Immediate Attention</p>
               <ul className='space-y-2 text-slate-600 text-sm'>
                 <li className='flex items-start gap-2'><span className='text-amber-500'>&#9888;</span>Musty or damp smell returning to the basement</li>
-                <li className='flex items-start gap-2'><span className='text-amber-500'>&#9888;</span>White mineral deposits (<Link href='/articles/efflorescence' className='text-amber-700 hover:underline'>efflorescence</Link>) appearing on walls</li>
+                <li className='flex items-start gap-2'><span className='text-amber-500'>&#9888;</span>White mineral deposits (<Link href='/articles/basement-efflorescence' className='text-amber-700 hover:underline'>efflorescence</Link>) appearing on walls</li>
                 <li className='flex items-start gap-2'><span className='text-amber-500'>&#9888;</span>Sump pump running more frequently than usual</li>
                 <li className='flex items-start gap-2'><span className='text-amber-500'>&#9888;</span>New cracks appearing in foundation walls or floor</li>
               </ul>

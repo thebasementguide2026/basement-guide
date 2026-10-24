@@ -354,7 +354,7 @@ export default function BowingWallsArticle() {
                 </table>
               </div>
               <p className='text-sm text-slate-500 mt-4'>
-                Insurance rarely covers bowing basement wall repair unless the damage resulted from a sudden covered event like a named storm or flood and you carry flood insurance. See our <Link href='/articles/basement-flooding-insurance' className='text-indigo-600 underline hover:text-indigo-800'>basement flooding insurance guide</Link> and <Link href='/articles/waterproofing-finances' className='text-indigo-600 underline hover:text-indigo-800'>waterproofing finances guide</Link> for details on what is and is not covered.
+                Insurance rarely covers bowing basement wall repair unless the damage resulted from a sudden covered event like a named storm or flood and you carry flood insurance. See our <Link href='/articles/basement-flooding-insurance' className='text-indigo-600 underline hover:text-indigo-800'>basement flooding insurance guide</Link> and <Link href='/articles/basement-waterproofing-finances-insurance-taxes' className='text-indigo-600 underline hover:text-indigo-800'>waterproofing finances guide</Link> for details on what is and is not covered.
               </p>
             </section>
 
@@ -384,7 +384,7 @@ export default function BowingWallsArticle() {
                   Call a foundation repair professional if any of the following are true: the wall has bowed inward more than 1 inch, you see a horizontal crack across the wall, the bowing appears to be progressing (getting worse over time), you see a gap between the wall and the floor or ceiling, or multiple walls are showing signs of movement simultaneously.
                 </p>
                 <p className='text-slate-700 leading-relaxed mt-4'>
-                  <strong className='text-red-800'>Do not attempt to repair structural bowing as a DIY project.</strong> Incorrect repairs can make the problem worse, void insurance coverage, and create liability issues if you sell the home. For guidance on finding a qualified contractor, see our <Link href='/articles/how-to-hire-a-waterproofing-contractor' className='text-indigo-600 underline hover:text-indigo-800'>how to hire a basement waterproofing contractor</Link> guide. The same vetting principles apply to foundation repair contractors.
+                  <strong className='text-red-800'>Do not attempt to repair structural bowing as a DIY project.</strong> Incorrect repairs can make the problem worse, void insurance coverage, and create liability issues if you sell the home. For guidance on finding a qualified contractor, see our <Link href='/articles/how-to-hire-basement-waterproofing-contractor' className='text-indigo-600 underline hover:text-indigo-800'>how to hire a basement waterproofing contractor</Link> guide. The same vetting principles apply to foundation repair contractors.
                 </p>
               </div>
             </section>

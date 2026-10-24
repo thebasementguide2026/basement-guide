@@ -136,7 +136,7 @@ export default function FoundationComparisonArticle() {
 
           <p className='text-lg text-slate-700 leading-relaxed mt-4'>Choosing between a basement, crawl space, and slab foundation is one of the most consequential and least reversible decisions in residential construction, because the foundation type determines not just the initial build cost but the home&apos;s moisture risk profile, energy performance, usable square footage, and resale value for the entire life of the structure. Unlike most home improvement decisions that can be undone or changed at reasonable cost, converting from one foundation type to another after construction is either technically impossible (slab to basement) or prohibitively expensive (crawl space to basement, starting at $50,000). In practice, geography and climate resolve the decision for most homeowners before personal preference enters the picture: cold-climate regions require deep footings that make basements cost-competitive, warm dry regions favor slabs, and humid or sloped terrain often points to crawl spaces. The cases where a genuine choice exists are new construction in transitional climate zones and renovation projects where the existing foundation type is being evaluated against the cost of a conversion.</p>
 
-          <p className='mt-8'>If you already have a basement and want to improve it, see our <Link href='/articles/basement-waterproofing' className='text-teal-600 hover:text-teal-700 font-semibold'>complete basement waterproofing guide</Link> or our <Link href='/articles/how-to-finish-a-basement' className='text-teal-600 hover:text-teal-700 font-semibold'>how to finish a basement guide</Link>.</p>
+          <p className='mt-8'>If you already have a basement and want to improve it, see our <Link href='/articles/complete-basement-waterproofing-guide' className='text-teal-600 hover:text-teal-700 font-semibold'>complete basement waterproofing guide</Link> or our <Link href='/articles/how-to-finish-a-basement' className='text-teal-600 hover:text-teal-700 font-semibold'>how to finish a basement guide</Link>.</p>
 
           {/* Quick Comparison Table */}
           <h2 className='text-3xl font-bold text-slate-900 mt-16 mb-8'>Quick Comparison: Basement vs. Crawl Space vs. Slab</h2>
@@ -204,7 +204,7 @@ export default function FoundationComparisonArticle() {
             <li>In areas with termite or pest risk, elevated construction allows for inspection and treatment access.</li>
             <li>Crawl spaces cost less than basements while providing many of the same practical benefits.</li>
           </ul>
-          <p>See our <Link href='/articles/crawl-space-encapsulation' className='text-teal-600 hover:text-teal-700 font-semibold'>crawl space encapsulation guide</Link> for detailed information on sealing and conditioning crawl spaces.</p>
+          <p>See our <Link href='/articles/crawl-space-encapsulation-guide' className='text-teal-600 hover:text-teal-700 font-semibold'>crawl space encapsulation guide</Link> for detailed information on sealing and conditioning crawl spaces.</p>
 
           <h3 className='text-2xl font-bold text-slate-800 mt-10 mb-4'>Disadvantages of Crawl Space Foundations</h3>
           <ul className='space-y-3'>
@@ -233,7 +233,7 @@ export default function FoundationComparisonArticle() {
             <li>The earth-contact walls provide natural temperature stability, keeping the basement cool in summer and warm in winter with minimal energy input. This reduces whole-house heating and cooling costs by 10 to 30 percent compared to homes on crawl spaces.</li>
             <li>Basements also serve as storm shelters in tornado-prone regions, provide ample storage even when unfinished, and allow full access to plumbing, HVAC, and electrical systems.</li>
           </ul>
-          <p>For information on finishing your basement, see our <Link href='/articles/how-to-finish-a-basement' className='text-teal-600 hover:text-teal-700 font-semibold'>how to finish a basement guide</Link>, <Link href='/articles/basement-finishing-cost' className='text-teal-600 hover:text-teal-700 font-semibold'>basement finishing cost guide</Link>, and <Link href='/articles/pre-finish-audit-checklist' className='text-teal-600 hover:text-teal-700 font-semibold'>pre-finish audit checklist</Link>.</p>
+          <p>For information on finishing your basement, see our <Link href='/articles/how-to-finish-a-basement' className='text-teal-600 hover:text-teal-700 font-semibold'>how to finish a basement guide</Link>, <Link href='/articles/basement-finishing-cost' className='text-teal-600 hover:text-teal-700 font-semibold'>basement finishing cost guide</Link>, and <Link href='/articles/pre-finish-audit' className='text-teal-600 hover:text-teal-700 font-semibold'>pre-finish audit checklist</Link>.</p>
 
           <h3 className='text-2xl font-bold text-slate-800 mt-10 mb-4'>Disadvantages of Full Basement Foundations</h3>
           <ul className='space-y-3'>
@@ -295,7 +295,7 @@ export default function FoundationComparisonArticle() {
             <li>Sagging or uneven floors from deteriorating support joists or posts</li>
             <li>Standing water from poor drainage or high water table</li>
           </ul>
-          <p>See our <Link href='/articles/crawl-space-encapsulation' className='text-teal-600 hover:text-teal-700 font-semibold'>crawl space encapsulation guide</Link> for solutions.</p>
+          <p>See our <Link href='/articles/crawl-space-encapsulation-guide' className='text-teal-600 hover:text-teal-700 font-semibold'>crawl space encapsulation guide</Link> for solutions.</p>
 
           <h3 className='text-2xl font-bold text-slate-800 mt-10 mb-4'>Basement Foundation Problems</h3>
           <ul className='space-y-3'>

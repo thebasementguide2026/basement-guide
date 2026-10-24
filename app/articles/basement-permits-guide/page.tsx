@@ -367,7 +367,7 @@ export default function BasementPermitsGuideArticle() {
                 <li><Link href='/articles/basement-adu-rental-suite' className='text-indigo-600 hover:underline'>Basement ADU & Rental Suite Guide</Link></li>
                 <li><Link href='/articles/complete-basement-waterproofing-guide' className='text-indigo-600 hover:underline'>Complete Waterproofing Guide</Link></li>
                 <li><Link href='/articles/types-of-foundation-cracks' className='text-indigo-600 hover:underline'>Types of Foundation Cracks</Link></li>
-                <li><Link href='/articles/basement-mold-prevention' className='text-indigo-600 hover:underline'>Mold Prevention Guide</Link></li>
+                <li><Link href='/articles/how-to-prevent-basement-mold' className='text-indigo-600 hover:underline'>Mold Prevention Guide</Link></li>
               </ul>
             </div>
           </aside>

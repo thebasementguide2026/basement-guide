@@ -278,7 +278,7 @@ export default function BasementFloodingInsurance() {
               <h3 className='text-lg font-bold text-slate-900 mb-2 group-hover:text-indigo-600'>Basement Waterproofing Finances and Insurance</h3>
               <p className='text-slate-600 text-sm'>A deeper look at the financial and tax dimensions of waterproofing, including how it affects home value and what is and is not deductible.</p>
             </Link>
-            <Link href='/articles/how-to-dry-out-basement' className='group block bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:border-indigo-300 hover:shadow-lg transition-all'>
+            <Link href='/articles/how-to-dry-out-basement-after-flooding' className='group block bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:border-indigo-300 hover:shadow-lg transition-all'>
               <h3 className='text-lg font-bold text-slate-900 mb-2 group-hover:text-indigo-600'>How to Dry Out a Basement After Flooding</h3>
               <p className='text-slate-600 text-sm'>The step-by-step process for drying and documenting a flooded basement in a way that supports a stronger insurance claim.</p>
             </Link>
@@ -286,7 +286,7 @@ export default function BasementFloodingInsurance() {
               <h3 className='text-lg font-bold text-slate-900 mb-2 group-hover:text-indigo-600'>Basement Emergency Water Plan</h3>
               <p className='text-slate-600 text-sm'>What to do in the first hour after water enters your basement, including the documentation steps that matter most for your claim.</p>
             </Link>
-            <Link href='/articles/best-sump-pumps' className='group block bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:border-indigo-300 hover:shadow-lg transition-all'>
+            <Link href='/articles/best-sump-pumps-2026' className='group block bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:border-indigo-300 hover:shadow-lg transition-all'>
               <h3 className='text-lg font-bold text-slate-900 mb-2 group-hover:text-indigo-600'>Best Sump Pumps 2026</h3>
               <p className='text-slate-600 text-sm'>Reviewed and ranked sump pumps including battery backup models that are often required for water backup rider approval and loss mitigation discounts.</p>
             </Link>
