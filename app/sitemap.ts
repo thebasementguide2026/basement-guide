@@ -17,6 +17,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ]
 
   const articleDates: Record<string, string> = {
+  "bowing-basement-walls": "2026-10-25",
   "basement-waterproofing-cost": "2026-10-25",
   "best-vapor-barriers": "2026-10-25",
   "waterproof-basement-paint-sealers": "2026-10-25",
