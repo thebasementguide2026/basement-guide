@@ -1,7 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import LeadForm from '@/components/LeadForm'
-import BeehiivEmailCapture from '@/components/BeehiivEmailCapture'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -201,7 +200,8 @@ export default function BasementWaterproofingCostPage() {
 
       {/* Main Content */}
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12'>
-        <div className='max-w-4xl'>
+        <div className='grid grid-cols-1 lg:grid-cols-12 gap-12'>
+        <div className='lg:col-span-8 min-w-0'>
 
 <aside data-cost-tldr className='bg-indigo-50 border border-indigo-200 rounded-2xl p-6 mb-8'><h2 className='text-xl font-bold text-slate-900 mb-4'>TL;DR</h2><div dangerouslySetInnerHTML={{ __html: "<ul class=\"list-disc pl-6 space-y-3 text-slate-700\">\n<li><strong>Most homeowners pay $2,500 to $8,200</strong> for professional basement waterproofing. The national average is about $5,230.</li>\n<li><strong>Interior French drain and sump pump:</strong> $3,000 to $8,000 for most jobs, or about $40 to $85 per linear foot. A full perimeter on a 1,000 sq ft basement usually runs $5,000 to $10,000.</li>\n<li><strong>Exterior (foundation) waterproofing:</strong> $8,000 to $15,000, and up to $18,000 or more for deep basements or hard access.</li>\n<li><strong>Smaller fixes:</strong> crack injection costs $250 to $800 per crack. Waterproof paint or sealer costs $300 to $800 DIY or $1,500 to $4,000 from a pro.</li>\n<li><strong>Start outside.</strong> Clean gutters, extend downspouts, and fix grading first. It's cheap or free and solves more basement water problems than most people expect.</li>\n</ul>\n" }} /></aside>
           {/* Intro */}
@@ -711,10 +711,12 @@ export default function BasementWaterproofingCostPage() {
               <a href='https://thegarage.guide/cost-guides/garage-floor-coating-cost' className='text-teal-600 underline hover:text-teal-800'>The Garage Guide</a> covers <a href='https://thegarage.guide/cost-guides/garage-floor-coating-cost' className='text-teal-600 underline hover:text-teal-800'>garage floor coating cost</a> and <a href='https://thegarage.guide/problems/water-leaking-into-garage' className='text-teal-600 underline hover:text-teal-800'>garage waterproofing</a>, which involve similar moisture management principles applied to garage slabs and foundations.
             </p>
           </div>
-          {/* Lead Form */}
-          <BeehiivEmailCapture avoidEmDash />
-
-          <LeadForm />
+        </div>
+        <aside className='lg:col-span-4 min-w-0' aria-label='Get free waterproofing quotes'>
+          <div className='sticky top-24'>
+            <LeadForm />
+          </div>
+        </aside>
         </div>
       </div>
     </div>
