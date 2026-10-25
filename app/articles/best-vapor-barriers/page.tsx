@@ -16,83 +16,75 @@ export default function BestVaporBarriersArticle() {
         type='application/ld+json'
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'FAQPage',
-            mainEntity: [
-              {
-                '@type': 'Question',
-                name: 'What is the best vapor barrier for a crawl space?',
-                acceptedAnswer: {
-                  '@type': 'Answer',
-                  text: 'Reinforced poly like Stego Wrap 15-Mil is the top choice for crawl spaces due to its durability, low permeance, and puncture resistance.',
-                },
-              },
-              {
-                '@type': 'Question',
-                name: 'What mil thickness should I use for a vapor barrier?',
-                acceptedAnswer: {
-                  '@type': 'Answer',
-                  text: 'For crawl space floors, use at least 10-mil polyethylene for light-duty applications and 15 to 20 mil for encapsulation systems or areas with foot traffic. The 6-mil minimum is adequate for basement wall applications behind framing.',
-                },
-              },
-              {
-                '@type': 'Question',
-                name: 'Do I need a vapor barrier on basement walls?',
-                acceptedAnswer: {
-                  '@type': 'Answer',
-                  text: 'Yes, if you plan to finish your basement with framing, insulation, and drywall. Without a vapor barrier between the concrete wall and the framing, moisture vapor migrates through the concrete and creates conditions for mold growth.',
-                },
-              },
-              {
-                '@type': 'Question',
-                name: 'Can I install a vapor barrier myself?',
-                acceptedAnswer: {
-                  '@type': 'Answer',
-                  text: 'Yes, basic vapor barrier installation is a manageable DIY project. Rolling out polyethylene sheeting on a crawl space floor, taping seams, and securing edges takes 1 to 2 days for a typical 800 to 1,200 square foot space.',
-                },
-              },
-              {
-                '@type': 'Question',
-                name: 'What is the difference between a vapor barrier and a vapor retarder?',
-                acceptedAnswer: {
-                  '@type': 'Answer',
-                  text: 'A vapor barrier is a Class I vapor retarder with a perm rating of 0.1 or less that blocks virtually all moisture vapor. A vapor retarder is a broader term that includes Class II (0.1 to 1.0 perms) and Class III (1.0 to 10 perms).',
-                },
-              },
-              {
-                '@type': 'Question',
-                name: 'Should I put a vapor barrier under a concrete slab?',
-                acceptedAnswer: {
-                  '@type': 'Answer',
-                  text: 'Yes. Installing a vapor barrier under a new concrete slab prevents ground moisture from wicking upward through the cured concrete via capillary action. Use at least 10 to 15 mil polyethylene rated to ASTM E1745 Class A standards.',
-                },
-              },
-              {
-                '@type': 'Question',
-                name: 'Do I need a vapor barrier in addition to rigid foam insulation?',
-                acceptedAnswer: {
-                  '@type': 'Answer',
-                  text: 'Rigid foam boards are themselves vapor retarders when installed in sufficient thickness, but may not provide true Class I vapor barrier performance. Many building codes recommend a separate polyethylene vapor barrier against the concrete wall in addition to rigid foam.',
-                },
-              },
-              {
-                '@type': 'Question',
-                name: 'Can a vapor barrier cause mold?',
-                acceptedAnswer: {
-                  '@type': 'Answer',
-                  text: 'A vapor barrier installed incorrectly can create conditions for mold by trapping moisture. Fix active water intrusion before installing a barrier, use a dimpled membrane on walls with minor seepage, and never install two vapor barriers in the same assembly.',
-                },
-              },
-              {
-                '@type': 'Question',
-                name: 'How long does a vapor barrier last?',
-                acceptedAnswer: {
-                  '@type': 'Answer',
-                  text: 'Polyethylene vapor barriers last 20 or more years when properly installed. Reinforced scrim barriers last 25 or more years. Dimpled membranes last 20 or more years. Spray-on liquid barriers have a shorter lifespan of 10 to 15 years.',
-                },
-              },
-            ],
-          }),
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What mil thickness should I use for a vapor barrier?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For crawl space floors, use at least 10-mil polyethylene for light-duty applications and 15 to 20 mil for encapsulation systems or areas with foot traffic. The 6-mil minimum is adequate for basement wall applications behind framing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need a vapor barrier on basement walls?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not a plastic one. Polyethylene sheeting on the inside of a basement wall traps moisture against the concrete and can cause mold in the framing and insulation, which is why the U.S. Department of Energy and Building Science Corporation advise against it. Instead, glue unfaced XPS or EPS rigid foam board directly to the concrete with sealed seams, then frame in front of it. If the wall seeps water, fix the water first and use a dimpled drainage membrane."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I install a vapor barrier myself?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, basic vapor barrier installation is a manageable DIY project. Rolling out polyethylene sheeting on a crawl space floor, taping seams, and securing edges takes 1 to 2 days for a typical 800 to 1,200 square foot space."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between a vapor barrier and a vapor retarder?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A vapor barrier is a Class I vapor retarder with a perm rating of 0.1 or less that blocks virtually all moisture vapor. A vapor retarder is a broader term that includes Class II (0.1 to 1.0 perms) and Class III (1.0 to 10 perms)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I put a vapor barrier under a concrete slab?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Installing a vapor barrier under a new concrete slab prevents ground moisture from wicking upward through the cured concrete via capillary action. Use at least 10 to 15 mil polyethylene rated to ASTM E1745 Class A standards."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need a vapor barrier in addition to rigid foam insulation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. On basement walls, rigid foam glued tight to the concrete with sealed seams provides the moisture control the wall needs while still letting it dry slowly toward the inside. Adding plastic sheeting behind or in front of the foam creates a second barrier that traps moisture. Use unfaced insulation in any stud cavities in front of the foam."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can a vapor barrier cause mold?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, when it's in the wrong place. Plastic sheeting on the inside of basement walls is the most common example. Moisture moving through the concrete condenses behind the plastic and wets the framing and insulation. On crawl space floors and under concrete slabs, a properly lapped and sealed vapor barrier reduces mold risk by keeping ground moisture out of the air."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does a vapor barrier last?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Polyethylene vapor barriers last 20 or more years when properly installed. Reinforced scrim barriers last 25 or more years. Dimpled membranes last 20 or more years. Spray-on liquid barriers have a shorter lifespan of 10 to 15 years."
+      }
+    }
+  ]
+}),
         }}
       />
 
@@ -120,9 +112,9 @@ export default function BestVaporBarriersArticle() {
           </p>
           <div className='flex items-center space-x-4 text-sm text-slate-400'>
             <span className='bg-indigo-500/20 text-indigo-300 px-3 py-1 rounded-full font-medium'>BG</span>
-            <span className='font-medium'>The Basement Guide Staff</span>
+            <span className='font-medium'>By The Basement Guide Editorial Team</span>
             <span className='text-slate-600'>|</span>
-            <span>Updated Feb 2026 &bull; 25 min read</span>
+            <span>Updated October 2026 &bull; 25 min read</span>
           </div>
         </div>
       </section>
@@ -131,6 +123,8 @@ export default function BestVaporBarriersArticle() {
       <div className='max-w-7xl mx-auto px-6 py-16'>
         <div className='grid grid-cols-1 lg:grid-cols-12 gap-12'>
           <article className='lg:col-span-8 space-y-12'>
+
+            <aside data-vapor-tldr className='bg-indigo-50 border border-indigo-200 rounded-lg p-6'><h2 className='text-xl font-bold text-slate-900 mb-4'>TL;DR</h2><div dangerouslySetInnerHTML={{ __html: "<ul class=\"list-disc pl-6 space-y-3 text-slate-700\">\n<li><strong>Crawl space floors:</strong> use 10 to 20 mil polyethylene, with 15 to 20 mil for encapsulation, rocky soil, or crawl spaces you move around in. Our pick is Americover 20-Mil.</li>\n<li><strong>Under a new concrete slab:</strong> use a heavy-duty under-slab barrier like Stego Wrap 15-Mil.</li>\n<li><strong>Basement walls:</strong> don't put plastic sheeting on the inside of basement walls. The U.S. Department of Energy and Building Science Corporation both advise against it because it traps moisture against the wall. Use rigid foam board glued tight to the concrete instead.</li>\n<li><strong>Walls with seepage:</strong> fix the water first, then use a dimpled membrane like DMX AG that drains into a perimeter drain.</li>\n<li><strong>Materials run $0.10 to $1.00 per square foot.</strong> Professional installation adds $1 to $3 per square foot.</li>\n</ul>\n" }} /></aside>
 
             {/* Intro */}
             <section>
@@ -170,7 +164,7 @@ export default function BestVaporBarriersArticle() {
                   <tbody>
                     <tr className='bg-slate-50 border-b border-slate-100'>
                       <td className='p-3 font-medium'>Polyethylene sheeting</td>
-                      <td className='p-3'>Basements and crawl spaces (general)</td>
+                      <td className='p-3'><strong>Best Overall for Crawl Spaces</strong><br />Crawl space floors and under-slab</td>
                       <td className='p-3'>6 to 20 mil</td>
                       <td className='p-3'>$0.10 to $0.50</td>
                       <td className='p-3'>0.01 to 0.06</td>
@@ -179,7 +173,7 @@ export default function BestVaporBarriersArticle() {
                     </tr>
                     <tr className='bg-white border-b border-slate-100'>
                       <td className='p-3 font-medium'>Foil-faced poly</td>
-                      <td className='p-3'>Insulated basements in cold climates</td>
+                      <td className='p-3'><strong>Best Reflective Insulation for Ductwork</strong><br />Reflectix is a reflective foil insulation. It's useful for wrapping ductwork and water heaters, and in above-grade spaces. Don't use it against basement walls, where foil facing traps moisture against the concrete.</td>
                       <td className='p-3'>6 to 10 mil</td>
                       <td className='p-3'>$0.20 to $0.60</td>
                       <td className='p-3'>0.01 to 0.05</td>
@@ -366,14 +360,16 @@ export default function BestVaporBarriersArticle() {
               </div>
             </section>
 
+<section data-vapor-wall-guidance><div dangerouslySetInnerHTML={{ __html: "<h2 class=\"text-3xl font-bold text-slate-900 mb-6\">Should You Put a Vapor Barrier on Basement Walls?</h2>\n<p class=\"text-slate-700 leading-relaxed mb-4\"><strong>No, not plastic sheeting.</strong> This is the most common basement vapor barrier mistake. Concrete foundation walls pick up moisture from the soil and need to dry toward the inside of the basement. Plastic sheeting on the inside of the wall stops that drying. Moisture condenses behind the plastic and soaks the framing and insulation, which is how mold starts in finished basements.</p>\n<p class=\"text-slate-700 leading-relaxed mb-4\">The U.S. Department of Energy's Building America program says polyethylene sheeting on the interior of basement walls will \"trap moisture in the walls,\" and Building Science Corporation's basement insulation guidance says no interior vapor barriers should be installed so the wall can dry inward.</p>\n<p class=\"text-slate-700 leading-relaxed mb-4\"><strong>What to do instead:</strong></p>\n<ol class=\"list-decimal pl-6 space-y-3 text-slate-700 mb-6\">\n<li><strong>Fix any water problems first.</strong> If water comes through the wall or at the floor joint, deal with it with crack repair, grading, or an interior drainage system before you insulate.</li>\n<li><strong>Glue rigid foam board directly to the concrete.</strong> Unfaced XPS (up to about 2 inches) or EPS foam, with every seam and edge sealed with foam sealant or tape. The foam controls moisture well enough on its own and keeps the wall surface warm, so condensation doesn't form.</li>\n<li><strong>Frame in front of the foam,</strong> with a capillary break such as a foam sill gasket under the bottom plate.</li>\n<li><strong>Fill the stud cavities, if you want more insulation, with unfaced insulation only.</strong> No kraft paper or plastic facing.</li>\n<li><strong>Finish with drywall.</strong> Leave about a half-inch gap between the drywall and the floor.</li>\n</ol>\n<p class=\"text-slate-700 leading-relaxed mb-4\"><strong>Closed-cell spray foam</strong> is the other moisture-safe option. It's the least risky approach, but it costs more and must be covered with drywall or an ignition barrier.</p>\n<p class=\"text-slate-700 leading-relaxed mb-4\"><strong>What about walls that seep?</strong> Use a dimpled drainage membrane like DMX AG, mechanically fastened to the wall and draining into an interior perimeter drain. It manages water. It isn't a vapor barrier in the plastic-sheeting sense, and it's the right product when water is actually coming through. See our <a href=\"/articles/interior-basement-drainage-systems\" class=\"text-indigo-600 underline hover:text-indigo-800\">interior basement drainage systems guide</a>.</p>\n" }} /></section>
+
             {/* Product 1 */}
             <section>
               <h2 className='text-3xl font-bold text-slate-900 mb-2'>Our Top 5 Picks for 2026</h2>
               <h3 className='text-2xl font-bold text-slate-900 mb-2 mt-8'>1. Americover 20-Mil Vapor Barrier</h3>
-              <p className='text-indigo-600 font-semibold mb-4'>Best Overall for Crawl Spaces and Basements</p>
+              <p className='text-indigo-600 font-semibold mb-4'>Best Overall for Crawl Spaces</p>
               <p className='text-slate-700 leading-relaxed mb-4'>The Americover 20-mil polyethylene vapor barrier is our top overall pick for its combination of heavy-duty thickness, true Class I vapor performance, and straightforward installation. At 20 mil, it is thick enough to handle rocky crawl space floors, foot traffic during inspections, and the general abuse that below-grade barriers endure over decades of service.</p>
               <p className='text-slate-700 leading-relaxed mb-4'>The material is a virgin polyethylene resin (not recycled), which matters for long-term durability because recycled poly can contain weak points and inconsistencies. It meets ASTM E1745 Class A standards for under-slab use, making it suitable for both crawl space floors and new concrete slab pours. The perm rating is well under 0.1, providing true vapor barrier performance.</p>
-              <p className='text-slate-700 leading-relaxed mb-4'>Installation is straightforward: roll out the barrier over prepared soil or against walls, overlap seams by at least 12 inches, and seal all seams with vapor barrier tape (not duct tape, which degrades underground). Extend the barrier up crawl space walls by 6 to 12 inches and secure with mechanical fasteners or adhesive. For basement wall applications, install behind framing and insulation before drywall.</p>
+              <p className='text-slate-700 leading-relaxed mb-4'>Installation is straightforward: roll out the barrier over prepared soil, overlap seams by at least 12 inches, and seal all seams with vapor barrier tape (not duct tape, which degrades underground). Extend the barrier up crawl space walls by 6 to 12 inches and secure with mechanical fasteners or adhesive.</p>
               <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>Specs:</strong> 20 mil thickness, virgin polyethylene, Class I vapor retarder (under 0.1 perms), ASTM E1745 Class A, available in various roll sizes.</p>
               <div className='grid grid-cols-1 md:grid-cols-2 gap-6 mb-6'>
                 <div className='bg-green-50 rounded-lg p-6 border border-green-200'>
@@ -384,7 +380,7 @@ export default function BestVaporBarriersArticle() {
                     <li>&#10003; Meets ASTM E1745 Class A for under-slab use</li>
                     <li>&#10003; True Class I vapor retarder (under 0.1 perms)</li>
                     <li>&#10003; Expected lifespan of 20 or more years</li>
-                    <li>&#10003; Works for crawl spaces, basement walls, and under slabs</li>
+                    <li>&#10003; Works for crawl spaces and under slabs</li>
                   </ul>
                 </div>
                 <div className='bg-red-50 rounded-lg p-6 border border-red-200'>
@@ -396,20 +392,20 @@ export default function BestVaporBarriersArticle() {
                   </ul>
                 </div>
               </div>
-              <p className='text-slate-700 leading-relaxed mb-4'><strong>Best for:</strong> Most crawl space floors, under-slab installations, and basement wall applications where maximum durability matters. Our top recommendation for DIY crawl space encapsulation.</p>
+              <p className='text-slate-700 leading-relaxed mb-4'><strong>Best for:</strong> Crawl space floors and under-slab.</p>
               <p className='text-slate-700 leading-relaxed mb-4'><strong>Price:</strong> $0.25 to $0.50 per square foot depending on roll size.</p>
               <div className='bg-indigo-50 border border-indigo-200 rounded-lg p-5'>
                 <p className='text-indigo-900 font-semibold'>Best Pick: Americover 20-Mil Vapor Barrier</p>
-                <a href='https://amzn.to/3OQxtyV' target='_blank' rel='noopener noreferrer sponsored' className='inline-block mt-3 bg-indigo-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-indigo-700 transition-colors'>Check Price on Amazon</a>
+                <a href='https://amzn.to/3OQxtyV' target='_blank' rel='sponsored nofollow' className='inline-block mt-3 bg-indigo-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-indigo-700 transition-colors'>Check Price on Amazon</a>
               </div>
             </section>
 
             {/* Product 2 */}
             <section>
               <h3 className='text-2xl font-bold text-slate-900 mb-2'>2. Reflectix Foil-Faced Insulation Barrier</h3>
-              <p className='text-indigo-600 font-semibold mb-4'>Best for Cold Climate Basements</p>
-              <p className='text-slate-700 leading-relaxed mb-4'>The Reflectix foil-faced barrier combines a polyethylene vapor barrier with a reflective foil surface that bounces radiant heat back into the basement. This dual function makes it the best choice for finished basements in cold climates where both moisture control and energy efficiency matter.</p>
-              <p className='text-slate-700 leading-relaxed mb-4'>The reflective surface provides an R-value contribution when installed with a dead air space (at least 3/4 inch gap between the foil and the wall surface). In a typical basement wall assembly with rigid foam insulation and an air gap, the Reflectix adds measurable energy savings by reflecting heat that would otherwise be lost through the foundation wall. The reflective surface also brightens dark basement spaces, which is a practical bonus during construction and ongoing use.</p>
+              <p className='text-indigo-600 font-semibold mb-4'>Best Reflective Insulation for Ductwork</p>
+              
+              <p className='text-slate-700 leading-relaxed mb-4'>The reflective surface provides an R-value contribution when installed with a dead air space (at least 3/4 inch gap between the foil and the wall surface). The reflective surface also brightens dark basement spaces, which is a practical bonus during construction and ongoing use.</p>
               <p className='text-slate-700 leading-relaxed mb-4'>The material is lighter and thinner than the Americover, making it easier to handle for wall applications. However, it is not as puncture-resistant as heavier poly barriers, so it is less suitable for crawl space floors where it would be walked on. The foil surface can tear if snagged during installation, so handle with care.</p>
               <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>Specs:</strong> Foil-faced polyethylene, reflective radiant barrier, Class I vapor retarder, available in rolls of various widths.</p>
               <div className='grid grid-cols-1 md:grid-cols-2 gap-6 mb-6'>
@@ -417,7 +413,6 @@ export default function BestVaporBarriersArticle() {
                   <h4 className='font-bold text-green-800 mb-3'>Pros</h4>
                   <ul className='space-y-2 text-slate-700 text-sm'>
                     <li>&#10003; Dual function: vapor barrier plus radiant heat reflection</li>
-                    <li>&#10003; Improves energy efficiency in cold climate basements</li>
                     <li>&#10003; Reflective surface brightens dark spaces</li>
                     <li>&#10003; Lighter and easier to handle for wall installations</li>
                     <li>&#10003; Mildew-resistant surface</li>
@@ -434,11 +429,11 @@ export default function BestVaporBarriersArticle() {
                   </ul>
                 </div>
               </div>
-              <p className='text-slate-700 leading-relaxed mb-4'><strong>Best for:</strong> Finished basement walls in cold climates where energy efficiency is a priority. Install behind framing with rigid foam insulation for maximum benefit. See our <Link href='/articles/basement-insulation-guide' className='text-indigo-600 underline hover:text-indigo-800'>basement insulation guide</Link> and <Link href='/articles/spray-foam-vs-rigid-foam-insulation' className='text-indigo-600 underline hover:text-indigo-800'>spray foam vs rigid foam comparison</Link> for insulation options that pair with this barrier.</p>
+              <p className='text-slate-700 leading-relaxed mb-4'><strong>Best for:</strong> Reflectix is a reflective foil insulation. It's useful for wrapping ductwork and water heaters, and in above-grade spaces. Don't use it against basement walls, where foil facing traps moisture against the concrete.</p>
               <p className='text-slate-700 leading-relaxed mb-4'><strong>Price:</strong> $0.20 to $0.60 per square foot.</p>
               <div className='bg-indigo-50 border border-indigo-200 rounded-lg p-5'>
                 <p className='text-indigo-900 font-semibold'>Best Pick: Reflectix Foil Insulation Barrier</p>
-                <a href='https://amzn.to/4r01DNu' target='_blank' rel='noopener noreferrer sponsored' className='inline-block mt-3 bg-indigo-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-indigo-700 transition-colors'>Check Price on Amazon</a>
+                <a href='https://amzn.to/4r01DNu' target='_blank' rel='sponsored nofollow' className='inline-block mt-3 bg-indigo-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-indigo-700 transition-colors'>Check Price on Amazon</a>
               </div>
             </section>
 
@@ -448,16 +443,16 @@ export default function BestVaporBarriersArticle() {
               <p className='text-indigo-600 font-semibold mb-4'>Best Professional-Grade for Encapsulation</p>
               <p className='text-slate-700 leading-relaxed mb-4'>Stego Wrap is the industry standard among professional crawl space encapsulation contractors. The 15-mil reinforced polyethylene with woven scrim provides exceptional tear resistance, puncture resistance, and long-term durability that basic poly cannot match.</p>
               <p className='text-slate-700 leading-relaxed mb-4'>The woven scrim reinforcement (a fabric-like mesh embedded in the polyethylene) prevents tears from propagating. If a rock or sharp object punctures the barrier, the tear stays small rather than ripping across the sheet. This is critical in crawl spaces with rocky soil, debris, or areas where technicians need to walk during HVAC maintenance, plumbing repairs, or annual inspections.</p>
-              <p className='text-slate-700 leading-relaxed mb-4'>Many Stego Wrap products include antimicrobial treatment that inhibits mold and mildew growth on the barrier surface. The perm rating is well under 0.1, meeting Class I standards. It exceeds ASTM E1745 Class A requirements and is the most commonly specified barrier in professional encapsulation specifications.</p>
-              <p className='text-slate-700 leading-relaxed mb-4'>The trade-off is cost: Stego Wrap costs roughly twice as much per square foot as basic polyethylene. For a professional encapsulation that is expected to last 25 or more years and be walked on regularly, the premium is justified. For a basement wall application behind drywall that will never see foot traffic, basic poly is adequate.</p>
-              <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>Specs:</strong> 15 mil reinforced polyethylene with woven scrim, antimicrobial treatment, Class I vapor retarder (under 0.1 perms), ASTM E1745 Class A, puncture-resistant.</p>
+              <p className='text-slate-700 leading-relaxed mb-4'>Some Stego products include an antimicrobial treatment, so check the product label. The perm rating is well under 0.1, meeting Class I standards. It exceeds ASTM E1745 Class A requirements and is the most commonly specified barrier in professional encapsulation specifications.</p>
+              <p className='text-slate-700 leading-relaxed mb-4'>The trade-off is cost: Stego Wrap costs more than basic poly. For a professional encapsulation that is expected to last 25 or more years and be walked on regularly, the premium is justified. For a basement wall application behind drywall that will never see foot traffic, basic poly is adequate.</p>
+              <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>Specs:</strong> 15 mil reinforced polyethylene with woven scrim. Some Stego products include an antimicrobial treatment, so check the product label. Class I vapor retarder (under 0.1 perms), ASTM E1745 Class A, puncture-resistant.</p>
               <div className='grid grid-cols-1 md:grid-cols-2 gap-6 mb-6'>
                 <div className='bg-green-50 rounded-lg p-6 border border-green-200'>
                   <h4 className='font-bold text-green-800 mb-3'>Pros</h4>
                   <ul className='space-y-2 text-slate-700 text-sm'>
                     <li>&#10003; Woven scrim prevents tear propagation</li>
                     <li>&#10003; Handles foot traffic without damage</li>
-                    <li>&#10003; Antimicrobial treatment inhibits mold on barrier surface</li>
+                    <li>&#10003; Some Stego products include an antimicrobial treatment, so check the product label.</li>
                     <li>&#10003; 25 or more year expected lifespan</li>
                     <li>&#10003; Industry standard for professional encapsulation</li>
                     <li>&#10003; Exceeds ASTM E1745 Class A requirements</li>
@@ -476,7 +471,7 @@ export default function BestVaporBarriersArticle() {
               <p className='text-slate-700 leading-relaxed mb-4'><strong>Price:</strong> $0.30 to $0.70 per square foot.</p>
               <div className='bg-indigo-50 border border-indigo-200 rounded-lg p-5'>
                 <p className='text-indigo-900 font-semibold'>Best Pick: Stego Wrap 15-Mil Vapor Barrier</p>
-                <a href='https://amzn.to/4qXjC7n' target='_blank' rel='noopener noreferrer sponsored' className='inline-block mt-3 bg-indigo-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-indigo-700 transition-colors'>Check Price on Amazon</a>
+                <a href='https://amzn.to/4qXjC7n' target='_blank' rel='sponsored nofollow' className='inline-block mt-3 bg-indigo-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-indigo-700 transition-colors'>Check Price on Amazon</a>
               </div>
             </section>
 
@@ -484,10 +479,10 @@ export default function BestVaporBarriersArticle() {
             <section>
               <h3 className='text-2xl font-bold text-slate-900 mb-2'>4. DMX AG Dimpled Membrane</h3>
               <p className='text-indigo-600 font-semibold mb-4'>Best for Uneven Surfaces and Wall Drainage</p>
-              <p className='text-slate-700 leading-relaxed mb-4'>The DMX AG dimpled membrane takes a fundamentally different approach from flat poly barriers. Instead of lying flat against the surface, the raised dimples create a continuous air gap (approximately 8mm) between the membrane and the wall or floor. This air gap serves two critical functions: it allows moisture that penetrates the barrier to drain downward rather than pooling behind it, and it allows air circulation that helps manage condensation.</p>
+              <p className='text-slate-700 leading-relaxed mb-4'>The DMX AG dimpled membrane takes a fundamentally different approach from flat poly barriers. The membrane has about 8mm dimple height, which creates an air and drainage gap behind the membrane. This air gap serves two critical functions: it allows moisture that penetrates the barrier to drain downward rather than pooling behind it, and it allows air circulation that helps manage condensation.</p>
               <p className='text-slate-700 leading-relaxed mb-4'>This makes the DMX AG the best choice for basement walls with minor seepage or old, uneven surfaces where a flat poly barrier would trap moisture. The dimpled design conforms to irregular surfaces without bunching or folding, and the air gap prevents the trapped-moisture problems that can occur when flat poly is installed directly against a damp concrete wall.</p>
               <p className='text-slate-700 leading-relaxed mb-4'>The trade-off is a higher perm rating than flat polyethylene. Dimpled membranes are not true Class I vapor barriers. They slow moisture vapor significantly but allow some through, making them more of a moisture management system than a true vapor block. For applications where absolute vapor blocking is required (under slabs, over crawl space soil), use flat poly instead.</p>
-              <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>Specs:</strong> Dimpled HDPE membrane, approximately 8mm air gap, conforms to uneven surfaces, mechanical or adhesive installation.</p>
+              <p className='text-slate-700 leading-relaxed mb-4 text-sm'><strong>Specs:</strong> Dimpled HDPE membrane, about 8mm dimple height, which creates an air and drainage gap behind the membrane, conforms to uneven surfaces, mechanical or adhesive installation.</p>
               <div className='grid grid-cols-1 md:grid-cols-2 gap-6 mb-6'>
                 <div className='bg-green-50 rounded-lg p-6 border border-green-200'>
                   <h4 className='font-bold text-green-800 mb-3'>Pros</h4>
@@ -496,7 +491,7 @@ export default function BestVaporBarriersArticle() {
                     <li>&#10003; Conforms to uneven and irregular surfaces</li>
                     <li>&#10003; Reduces condensation buildup on cold concrete</li>
                     <li>&#10003; Easy to install with mechanical fasteners or adhesive strips</li>
-                    <li>&#10003; Good for both walls and as a subfloor underlayment</li>
+                    <li>&#10003; Good for basement walls with seepage and uneven walls</li>
                     <li>&#10003; Does not trap moisture behind it like flat poly can</li>
                   </ul>
                 </div>
@@ -510,11 +505,11 @@ export default function BestVaporBarriersArticle() {
                   </ul>
                 </div>
               </div>
-              <p className='text-slate-700 leading-relaxed mb-4'><strong>Best for:</strong> Basement walls with minor seepage or dampness where flat poly would trap moisture. Uneven or irregular basement walls in older homes. Subfloor applications under finished flooring. See our <Link href='/articles/old-house-basements' className='text-indigo-600 underline hover:text-indigo-800'>old house basements guide</Link> for specific challenges in pre-1960 foundations.</p>
+              <p className='text-slate-700 leading-relaxed mb-4'><strong>Best for:</strong> Basement walls with minor seepage or dampness where flat poly would trap moisture. Uneven or irregular basement walls in older homes. See our <Link href='/articles/old-house-basements' className='text-indigo-600 underline hover:text-indigo-800'>old house basements guide</Link> for specific challenges in pre-1960 foundations.</p>
               <p className='text-slate-700 leading-relaxed mb-4'><strong>Price:</strong> $0.40 to $0.80 per square foot.</p>
               <div className='bg-indigo-50 border border-indigo-200 rounded-lg p-5'>
                 <p className='text-indigo-900 font-semibold'>Best Pick: DMX AG Dimpled Membrane</p>
-                <a href='https://amzn.to/4aGDlU7' target='_blank' rel='noopener noreferrer sponsored' className='inline-block mt-3 bg-indigo-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-indigo-700 transition-colors'>Check Price on Amazon</a>
+                <a href='https://amzn.to/4aGDlU7' target='_blank' rel='sponsored nofollow' className='inline-block mt-3 bg-indigo-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-indigo-700 transition-colors'>Check Price on Amazon</a>
               </div>
             </section>
 
@@ -553,7 +548,7 @@ export default function BestVaporBarriersArticle() {
               <p className='text-slate-700 leading-relaxed mb-4'><strong>Price:</strong> $0.50 to $1.00 per square foot.</p>
               <div className='bg-indigo-50 border border-indigo-200 rounded-lg p-5'>
                 <p className='text-indigo-900 font-semibold'>Best Pick: Ames Block & Wall Liquid Rubber</p>
-                <a href='https://amzn.to/4aRUoBh' target='_blank' rel='noopener noreferrer sponsored' className='inline-block mt-3 bg-indigo-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-indigo-700 transition-colors'>Check Price on Amazon</a>
+                <a href='https://amzn.to/4aRUoBh' target='_blank' rel='sponsored nofollow' className='inline-block mt-3 bg-indigo-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-indigo-700 transition-colors'>Check Price on Amazon</a>
               </div>
             </section>
 
@@ -581,24 +576,7 @@ export default function BestVaporBarriersArticle() {
               </div>
 
               <h3 className='text-xl font-bold text-slate-900 mb-4'>Basement Wall Installation</h3>
-              <div className='space-y-4 mb-6'>
-                <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
-                  <h4 className='font-bold text-slate-900 mb-2'>Step 1: Fix any active leaks</h4>
-                  <p className='text-slate-700'>A vapor barrier manages moisture vapor, not liquid water. If walls have active water intrusion, address the water source first with crack injection, drainage, or exterior waterproofing. See our <Link href='/articles/complete-basement-waterproofing-guide' className='text-indigo-600 underline hover:text-indigo-800'>complete waterproofing guide</Link>.</p>
-                </div>
-                <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
-                  <h4 className='font-bold text-slate-900 mb-2'>Step 2: Install the barrier against the concrete</h4>
-                  <p className='text-slate-700'>For flat poly or foil-faced barriers, attach directly to the concrete wall using adhesive or mechanical fasteners before framing. For dimpled membranes, the dimples face the concrete to create the air gap.</p>
-                </div>
-                <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
-                  <h4 className='font-bold text-slate-900 mb-2'>Step 3: Frame and insulate over the barrier</h4>
-                  <p className='text-slate-700'>Install wood or metal framing over the barrier, add rigid foam or spray foam insulation, and finish with drywall. The barrier must be between the concrete and the insulation to prevent moisture from reaching the organic materials. See our <Link href='/articles/basement-insulation-guide' className='text-indigo-600 underline hover:text-indigo-800'>basement insulation guide</Link> for insulation options.</p>
-                </div>
-                <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
-                  <h4 className='font-bold text-slate-900 mb-2'>Step 4: Do not double up vapor barriers</h4>
-                  <p className='text-slate-700'>Install only one vapor barrier per wall assembly. Two vapor barriers (one against the concrete and one on the warm side of the insulation) can trap moisture between them and cause mold in the wall cavity.</p>
-                </div>
-              </div>
+<div data-vapor-wall-install><div dangerouslySetInnerHTML={{ __html: "<p class=\"text-slate-700 leading-relaxed mb-4\">Don't install plastic sheeting or foil-faced barriers against the inside of a basement wall. For a dry wall you plan to finish:</p>\n<ol class=\"list-decimal pl-6 space-y-3 text-slate-700 mb-6\">\n<li>Clean the wall and confirm it's dry. Tape a 2 foot square of plastic to the wall for 24 to 48 hours. If moisture collects behind it, fix the water source first.</li>\n<li>Glue unfaced XPS or EPS rigid foam board directly to the concrete with foam board adhesive, pressing it tight so there are no air gaps behind it.</li>\n<li>Seal every seam and edge with foam sealant or foam tape.</li>\n<li>Install a foam sill gasket under the bottom plate, then frame the wall in front of the foam.</li>\n<li>Add unfaced insulation in the stud cavities if desired, then drywall with a half-inch gap at the floor.</li>\n</ol>\n<p class=\"text-slate-700 leading-relaxed mb-4\">For a wall with seepage, fasten a dimpled membrane like DMX AG to the wall so water drains down behind it into an interior perimeter drain, and fix the drainage before finishing.</p>\n" }} /></div>
 
               <h3 className='text-xl font-bold text-slate-900 mb-4'>DIY vs Professional Installation</h3>
               <p className='text-slate-700 leading-relaxed mb-4'>Basic poly sheeting installation on a crawl space floor or basement walls is a manageable DIY project that takes 1 to 2 days for a typical space. You need the barrier material, vapor barrier tape, a utility knife, mechanical fasteners or adhesive, and basic tools.</p>
@@ -615,7 +593,7 @@ export default function BestVaporBarriersArticle() {
                 </div>
                 <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
                   <h3 className='font-bold text-slate-900 mb-2'>Do I need a vapor barrier on basement walls?</h3>
-                  <p className='text-slate-700'>Yes, if you plan to finish your basement with framing, insulation, and drywall. Without a vapor barrier between the concrete wall and the framing, moisture vapor migrates through the concrete and reaches the organic materials (wood framing, paper-faced drywall, fiberglass insulation) where it creates conditions for mold growth. Install the barrier directly against the concrete before framing, with rigid foam insulation between the barrier and the framing for additional moisture and thermal protection. See our <Link href='/articles/pre-finish-audit' className='text-indigo-600 underline hover:text-indigo-800'>pre-finish audit checklist</Link> for everything to verify before finishing your basement.</p>
+                  <p className='text-slate-700'>Not a plastic one. Polyethylene sheeting on the inside of a basement wall traps moisture against the concrete and can cause mold in the framing and insulation, which is why the U.S. Department of Energy and Building Science Corporation advise against it. Instead, glue unfaced XPS or EPS rigid foam board directly to the concrete with sealed seams, then frame in front of it. If the wall seeps water, fix the water first and use a dimpled drainage membrane.</p>
                 </div>
                 <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
                   <h3 className='font-bold text-slate-900 mb-2'>Can I install a vapor barrier myself?</h3>
@@ -631,11 +609,11 @@ export default function BestVaporBarriersArticle() {
                 </div>
                 <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
                   <h3 className='font-bold text-slate-900 mb-2'>Do I need a vapor barrier in addition to rigid foam insulation?</h3>
-                  <p className='text-slate-700'>It depends on the insulation type. Rigid foam boards (XPS and polyiso) are themselves vapor retarders when installed in sufficient thickness (typically 1.5 inches or more of XPS achieves a perm rating under 1.0). However, rigid foam alone may not provide true Class I vapor barrier performance (0.1 perms or less). Many building scientists and building codes recommend a separate polyethylene vapor barrier against the concrete wall in addition to rigid foam insulation for below-grade applications to ensure complete moisture control. The safest approach is barrier against concrete, then rigid foam, then framing. See our <Link href='/articles/basement-insulation-guide' className='text-indigo-600 underline hover:text-indigo-800'>basement insulation guide</Link> for detailed wall assembly recommendations.</p>
+                  <p className='text-slate-700'>No. On basement walls, rigid foam glued tight to the concrete with sealed seams provides the moisture control the wall needs while still letting it dry slowly toward the inside. Adding plastic sheeting behind or in front of the foam creates a second barrier that traps moisture. Use unfaced insulation in any stud cavities in front of the foam.</p>
                 </div>
                 <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
                   <h3 className='font-bold text-slate-900 mb-2'>Can a vapor barrier cause mold?</h3>
-                  <p className='text-slate-700'>A vapor barrier installed incorrectly can create conditions for mold by trapping moisture. This happens most commonly when a flat poly barrier is installed against a damp concrete wall that has active water intrusion (not just vapor), trapping liquid water between the barrier and the wall. It also happens when two vapor barriers are installed in the same wall assembly, trapping moisture in the wall cavity with no way to dry. To avoid these problems, fix active water intrusion before installing a barrier, use a dimpled membrane instead of flat poly on walls with minor seepage, and never install two vapor barriers in the same assembly. Always pair the barrier with a dehumidifier to maintain humidity below 50 percent. See our <Link href='/articles/how-to-prevent-basement-mold' className='text-indigo-600 underline hover:text-indigo-800'>mold prevention guide</Link>.</p>
+                  <p className='text-slate-700'>Yes, when it's in the wrong place. Plastic sheeting on the inside of basement walls is the most common example. Moisture moving through the concrete condenses behind the plastic and wets the framing and insulation. On crawl space floors and under concrete slabs, a properly lapped and sealed vapor barrier reduces mold risk by keeping ground moisture out of the air.</p>
                 </div>
                 <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
                   <h3 className='font-bold text-slate-900 mb-2'>How long does a vapor barrier last?</h3>
@@ -658,7 +636,7 @@ export default function BestVaporBarriersArticle() {
                 </div>
                 <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
                   <h3 className='font-bold text-slate-900 mb-2'>Mil thickness</h3>
-                  <p className='text-slate-700'>A unit of measurement equal to one-thousandth of an inch, used to describe vapor barrier thickness. A 6-mil barrier is 0.006 inches thick. A 20-mil barrier is 0.020 inches thick (approximately the thickness of a credit card). Thicker barriers resist punctures and tears better and last longer.</p>
+                  <p className='text-slate-700'>A unit of measurement equal to one-thousandth of an inch, used to describe vapor barrier thickness. A 6-mil barrier is 0.006 inches thick. A 20 mil barrier is about 0.5 millimeters thick, roughly two-thirds the thickness of a credit card. Thicker barriers resist punctures and tears better and last longer.</p>
                 </div>
                 <div className='bg-slate-50 rounded-lg p-6 border border-slate-200'>
                   <h3 className='font-bold text-slate-900 mb-2'>Polyethylene sheeting</h3>
@@ -690,6 +668,8 @@ export default function BestVaporBarriersArticle() {
                 </div>
               </div>
             </section>
+
+<div data-vapor-sources><div dangerouslySetInnerHTML={{ __html: "<p class=\"text-slate-700 leading-relaxed mb-4\"><strong>Sources:</strong> basement wall guidance from the <a href=\"https://www.energy.gov/eere/buildings/downloads/building-america-top-innovations-hall-fame-profile-basement-insulation\" class=\"text-indigo-600 underline hover:text-indigo-800\" target=\"_blank\" rel=\"noopener\">U.S. Department of Energy Building America basement insulation profile</a> and <a href=\"https://buildingscience.com/sites/default/files/migrate/pdf/BSCInfo_511_Basement_Insulation.pdf\" class=\"text-indigo-600 underline hover:text-indigo-800\" target=\"_blank\" rel=\"noopener\">Building Science Corporation's BSCInfo 511, Basement Insulation</a>.</p>\n" }} /></div>
 
             {/* Related Guides */}
             <section>
@@ -737,7 +717,7 @@ export default function BestVaporBarriersArticle() {
                 <Link href='/articles/radon-and-basement-waterproofing' className='bg-slate-50 rounded-lg p-4 border border-slate-200 hover:border-indigo-300 transition-colors'>
                   <p className='font-medium text-slate-900'>Radon and Basement Waterproofing</p>
                 </Link>
-              </div>
+              <Link href='/articles/interior-basement-drainage-systems' className='bg-slate-50 rounded-lg p-4 border border-slate-200 hover:border-indigo-300 transition-colors'><p className='font-medium text-slate-900'>Interior Basement Drainage Systems</p></Link></div>
             </section>
 
           </article>
