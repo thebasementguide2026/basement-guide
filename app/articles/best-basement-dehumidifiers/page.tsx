@@ -209,7 +209,7 @@ export default function BestBasementDehumidifiers() {
           "@type": "ListItem",
           "position": 6,
           "name": "AprilAire E070",
-          "url": "https://link.amazon/B0aNDuQyc"
+          "url": "https://link.amazon/B07ZfRH5k"
         }
       ]
     }
@@ -642,7 +642,7 @@ export default function BestBasementDehumidifiers() {
               <p className='text-slate-700 leading-relaxed mb-4'>It's also ductable. With its 8-inch duct collars, an installer can pull air from one part of the basement and push dry air into another, or connect it to your HVAC system so it dries more than one room. Bob Vila named it the best whole-house dehumidifier in its testing.</p>
               <p className='text-slate-700 leading-relaxed mb-4'><strong>Who it's for:</strong> basements over 1,500 sq ft, basements that stay above 60% humidity with a portable unit running, finished basements where you don't want a bucket unit in the room, and sealed crawl spaces.</p>
               <p className='text-slate-700 leading-relaxed mb-4'><strong>Watch out for:</strong> it costs several times more than a portable unit once installation is included, and it needs a drain or a condensate pump nearby. For most basements under 1,500 sq ft, a 50-pint portable unit with a drain hose does the job.</p>
-              <a href='https://link.amazon/B0aNDuQyc' target='_blank' rel='sponsored nofollow' className='inline-block bg-teal-600 hover:bg-teal-700 text-white font-semibold py-2 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
+              <a href='https://link.amazon/B07ZfRH5k' target='_blank' rel='sponsored nofollow' className='inline-block bg-teal-600 hover:bg-teal-700 text-white font-semibold py-2 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
             </div>
 
             {/* Which Dehumidifier Is Right */}
