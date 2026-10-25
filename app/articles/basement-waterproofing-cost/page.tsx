@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   title: 'Basement Waterproofing Cost 2026: What You\'ll Actually Pay',
   description: 'How much does basement waterproofing cost in 2026? National average $5,230. Interior systems $3,000 to $8,000, exterior $8,000 to $15,000. Full cost breakdown by method.',
   alternates: { canonical: 'https://thebasement.guide/articles/basement-waterproofing-cost' },
+  openGraph: {"title":"Basement Waterproofing Cost 2026: What You'll Actually Pay","description":"How much does basement waterproofing cost in 2026? National average $5,230. Interior systems $3,000 to $8,000, exterior $8,000 to $15,000. Full cost breakdown by method.","url":"https://thebasement.guide/articles/basement-waterproofing-cost","type":"article","images":["https://thebasement.guide/foundation-waterproofing-construction.jpg.png"]},
 }
 
 export default function BasementWaterproofingCostPage() {
@@ -17,18 +18,150 @@ export default function BasementWaterproofingCostPage() {
         type='application/ld+json'
         dangerouslySetInnerHTML={{
           __html: JSON.stringify([
-            {
-              '@context': 'https://schema.org',
-              '@type': 'Article',
-              headline: 'Basement Waterproofing Cost 2026: What You\'ll Actually Pay',
-              description: 'How much does basement waterproofing cost in 2026? National average $5,230. Interior systems $3,000 to $8,000, exterior $8,000 to $15,000. Full cost breakdown by method.',
-              datePublished: '2025-02-01',
-              dateModified: '2026-03-03',
-              author: { '@type': 'Organization', name: 'The Basement Guide' },
-              publisher: { '@type': 'Organization', name: 'The Basement Guide' },
-              image: '/foundation-waterproofing-construction.jpg.png',
-            },
-          ]),
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Basement Waterproofing Cost 2026: What You'll Actually Pay",
+    "description": "How much does basement waterproofing cost in 2026? National average $5,230. Interior systems $3,000 to $8,000, exterior $8,000 to $15,000. Full cost breakdown by method.",
+    "datePublished": "2025-02-01",
+    "dateModified": "2026-10-25",
+    "author": {
+      "@type": "Organization",
+      "name": "The Basement Guide Editorial Team"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "The Basement Guide"
+    },
+    "image": "/foundation-waterproofing-construction.jpg.png"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How much does basement waterproofing cost per square foot?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Most basement waterproofing systems cost $3 to $10 per square foot as a rough estimate, but cost per square foot is a misleading metric for waterproofing because the work happens along the perimeter walls, not across the entire floor area. Interior French drain systems are more accurately priced by the linear foot at $40 to $85 per linear foot of perimeter. A 1,000 square foot basement with roughly 130 linear feet of perimeter typically costs $5,000 to $10,000 for a full-perimeter interior French drain and sump pump system. Crack injection costs $250 to $800 per crack regardless of basement size. Exterior waterproofing with membrane and drain tile costs $8,000 to $15,000 for a standard basement."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is interior or exterior waterproofing better?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Interior waterproofing is the better choice for roughly 80 percent of residential basement water problems. It costs $3,000 to $8,000 compared to $8,000 to $15,000 for exterior, installs in 2 to 5 days with minimal disruption, and effectively manages hydrostatic pressure, wall seepage, and floor-wall joint leaks. Exterior waterproofing is more thorough because it stops water before it reaches the foundation, but it requires full excavation down to the footings, tears up landscaping, and costs 2 to 3 times more. Choose exterior waterproofing only for severe or persistent flooding, known exterior drainage failures, or when interior systems alone have not solved the problem. See our interior vs exterior waterproofing guide for a full comparison."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How long does a waterproofing system last?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Interior French drain systems last 20 to 30 years when properly installed and maintained. Exterior waterproof membranes last 25 to 50 years and are virtually maintenance-free once backfilled. Sump pumps are the component that needs regular replacement, typically every 7 to 10 years at a cost of $650 to $1,200 installed. The backup battery needs replacing every 3 to 5 years at about $50 to $150. Waterproof paint and sealers last only 2 to 5 years before peeling and need reapplication. Crack injections last 10 to 20 years for epoxy and 5 to 15 years for polyurethane."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Will waterproofing stop all water?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A well-designed waterproofing system stops 95 to 99 percent of water entry under normal conditions. No residential system is 100 percent effective against extreme flooding events such as catastrophic storms or sewer backups that can overwhelm any drainage capacity. The best protection combines good exterior drainage (clean gutters, extended downspouts, proper grading) with an interior French drain and sump pump system. Adding a battery backup sump pump protects against the most common failure scenario, a power outage during a heavy storm when the primary pump cannot run."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I finance waterproofing?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Most established waterproofing contractors offer financing, often at 0 percent interest for 12 to 24 months through third-party lenders. Other options include home equity loans or HELOCs (lower interest rates but your home is collateral), personal loans (quick approval at 8 to 15 percent interest), and credit cards (only for smaller jobs like crack injection where you can pay the balance quickly). Waterproofing is one of the few home improvements where financing makes strong financial sense because delaying the work typically costs more in compounding water damage. See our basement waterproofing finances guide for a detailed financial analysis."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What if I only have dampness, not actual water?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Start with the cheapest fixes first: clean gutters, extend downspouts at least 6 feet from the foundation, and correct the grading so soil slopes away at 1 inch per foot for the first 6 feet. These exterior fixes are free or low-cost and solve the problem for more homeowners than expected. If dampness persists, add a dehumidifier ($200 to $600) and keep basement humidity below 50 percent. If walls are damp but not actively leaking, apply a waterproof sealer ($300 to $800 DIY or $1,500 to $4,000 professional). Only invest in a full interior drainage system ($3,000 to $8,000) if simpler solutions do not resolve the moisture."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does waterproofing work if my basement is already finished?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, but waterproofing a finished basement is more complicated and costs $1,000 to $3,000 more than waterproofing an unfinished basement. A contractor must remove a strip of drywall, insulation, and flooring along the perimeter walls to access the floor-wall joint where the French drain is installed. After the drainage system is in place and concrete is patched, the drywall and flooring need to be repaired or replaced. This is exactly why waterproofing should always be done before finishing a basement. See our pre-finish audit checklist for everything to verify before starting a basement finishing project."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What’s the difference between waterproofing and damp proofing?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Damp proofing is a thin, tar-based coating applied to the exterior of foundation walls during new construction to resist soil moisture vapor. Waterproofing is a more robust system (rubber membrane, drainage board, and drain tile) designed to handle liquid water under hydrostatic pressure. Damp proofing does not stop liquid water and is not waterproofing. Most homes, including many built today, get only damp proofing, because building codes require full waterproofing only where there's a high water table or other severe soil water conditions. As that thin coating ages, it stops resisting even soil moisture, which is one reason older homes develop basement water problems."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How much does it cost to waterproof a basement from the outside?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Exterior basement waterproofing, also called foundation waterproofing, usually costs $8,000 to $15,000. The crew digs down to the footings, applies a waterproof membrane and drainage board to the walls, installs drain tile at the footing, and backfills. Deep basements, block or stone walls, and decks, patios, or driveways in the way can push the price to $18,000 or more. It's the most thorough fix, but interior drainage at $3,000 to $8,000 solves most basement water problems for far less."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How much does it cost to seal a basement?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sealing basement walls with a waterproof paint or penetrating sealer costs about $300 to $800 in DIY materials for most basements, or $1,500 to $4,000 for a professional, roughly $1 to $8 per square foot of wall. Sealing individual cracks costs $20 to $50 per crack DIY or $250 to $800 per crack for professional injection. Sealers handle dampness and minor vapor. They won't stop active leaks or water pushed in by hydrostatic pressure. See our waterproof paint and sealer picks."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How much does it cost to fix hydrostatic pressure in a basement?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Most homeowners pay $3,000 to $8,000 to relieve hydrostatic pressure with an interior French drain and sump pump. The drain gives groundwater a path to the pump before it pushes through the floor and wall joint. A full perimeter on a 1,000 sq ft basement runs about $5,000 to $10,000, and the same system usually handles water coming up through the floor. Exterior waterproofing at $8,000 to $15,000 is the alternative when water comes through the wall face. Waterproof paint doesn't hold back hydrostatic pressure."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do basement waterproofing contractors price a job?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Most price interior drainage by the linear foot of wall, typically $40 to $85 per foot, then add the sump pit and pump, battery backup, crack repairs, and any wall membrane. Exterior jobs are usually quoted per job, because digging depth and access drive the cost. Quotes vary widely because companies scope the same basement differently: one may drain every wall while another drains only the leaking ones. Ask each contractor to put the linear footage, pump model, and warranty in writing so you can compare. See how to hire a waterproofing contractor."
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://thebasement.guide/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Cost Guides",
+        "item": "https://thebasement.guide/cost-guides"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Basement Waterproofing Cost",
+        "item": "https://thebasement.guide/articles/basement-waterproofing-cost"
+      }
+    ]
+  }
+]),
         }}
       />
 
@@ -58,8 +191,8 @@ export default function BasementWaterproofingCostPage() {
             <div className='flex items-center bg-slate-800/50 backdrop-blur-md rounded-full px-6 py-3 border border-slate-700/50 shadow-2xl'>
               <div className='w-10 h-10 rounded-full bg-gradient-to-tr from-indigo-600 to-purple-400 flex items-center justify-center text-white font-bold text-sm mr-4'>BG</div>
               <div>
-                <p className='text-white font-semibold text-sm'>The Basement Guide Staff</p>
-                <p className='text-slate-400 text-xs'>Updated March 2026 &middot; 18 min read</p>
+                <p className='text-white font-semibold text-sm'>By The Basement Guide Editorial Team</p>
+                <p className='text-slate-400 text-xs'>Updated October 2026 &middot; 18 min read</p>
               </div>
             </div>
           </div>
@@ -70,6 +203,7 @@ export default function BasementWaterproofingCostPage() {
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12'>
         <div className='max-w-4xl'>
 
+<aside data-cost-tldr className='bg-indigo-50 border border-indigo-200 rounded-2xl p-6 mb-8'><h2 className='text-xl font-bold text-slate-900 mb-4'>TL;DR</h2><div dangerouslySetInnerHTML={{ __html: "<ul class=\"list-disc pl-6 space-y-3 text-slate-700\">\n<li><strong>Most homeowners pay $2,500 to $8,200</strong> for professional basement waterproofing. The national average is about $5,230.</li>\n<li><strong>Interior French drain and sump pump:</strong> $3,000 to $8,000 for most jobs, or about $40 to $85 per linear foot. A full perimeter on a 1,000 sq ft basement usually runs $5,000 to $10,000.</li>\n<li><strong>Exterior (foundation) waterproofing:</strong> $8,000 to $15,000, and up to $18,000 or more for deep basements or hard access.</li>\n<li><strong>Smaller fixes:</strong> crack injection costs $250 to $800 per crack. Waterproof paint or sealer costs $300 to $800 DIY or $1,500 to $4,000 from a pro.</li>\n<li><strong>Start outside.</strong> Clean gutters, extend downspouts, and fix grading first. It's cheap or free and solves more basement water problems than most people expect.</li>\n</ul>\n" }} /></aside>
           {/* Intro */}
           <p className='text-lg text-slate-700 leading-relaxed mb-4'>
             Those numbers can feel abstract until you&rsquo;re standing in a basement that smells like wet concrete and wondering if the stain on the wall is getting bigger. This guide gives you real 2026 pricing by method, honest advice on what&rsquo;s worth the money, and the information you need to avoid overpaying or underspending on one of the most important investments you&rsquo;ll make in your home.
@@ -102,14 +236,14 @@ export default function BasementWaterproofingCostPage() {
                 </tr>
               </thead>
               <tbody>
-                <tr><td className='p-4 border border-slate-200 font-medium'>Crack injection (epoxy/polyurethane)</td><td className='p-4 border border-slate-200'>$250 to $800 per crack</td><td className='p-4 border border-slate-200'>Hairline cracks, minor leaks</td><td className='p-4 border border-slate-200'>&mdash;</td></tr>
-                <tr className='bg-slate-50'><td className='p-4 border border-slate-200 font-medium'>Interior waterproof paint/sealer</td><td className='p-4 border border-slate-200'>$1,500 to $4,000</td><td className='p-4 border border-slate-200'>Dampness, minor vapor</td><td className='p-4 border border-slate-200'>$3 to $10/sq ft</td></tr>
-                <tr><td className='p-4 border border-slate-200 font-medium'>Interior French drain + sump pump</td><td className='p-4 border border-slate-200'>$3,000 to $8,000</td><td className='p-4 border border-slate-200'>Seepage, hydrostatic pressure</td><td className='p-4 border border-slate-200'>$60 to $120</td></tr>
-                <tr className='bg-slate-50'><td className='p-4 border border-slate-200 font-medium'>Sump pump system (new or upgrade)</td><td className='p-4 border border-slate-200'>$800 to $2,500</td><td className='p-4 border border-slate-200'>Standing water removal</td><td className='p-4 border border-slate-200'>&mdash;</td></tr>
-                <tr><td className='p-4 border border-slate-200 font-medium'>Exterior membrane + drainage</td><td className='p-4 border border-slate-200'>$8,000 to $15,000</td><td className='p-4 border border-slate-200'>Severe or persistent water</td><td className='p-4 border border-slate-200'>$100 to $200</td></tr>
+                <tr><td className='p-4 border border-slate-200 font-medium'>Crack injection (epoxy/polyurethane)</td><td className='p-4 border border-slate-200'>$250 to $800 per crack</td><td className='p-4 border border-slate-200'>Hairline cracks, minor leaks</td><td className='p-4 border border-slate-200'>N/A</td></tr>
+                <tr className='bg-slate-50'><td className='p-4 border border-slate-200 font-medium'>Interior waterproof paint/sealer</td><td className='p-4 border border-slate-200'>$1,500 to $4,000</td><td className='p-4 border border-slate-200'>Dampness, minor vapor</td><td className='p-4 border border-slate-200'>$1 to $8/sq ft</td></tr>
+                <tr><td className='p-4 border border-slate-200 font-medium'>Interior French drain + sump pump</td><td className='p-4 border border-slate-200'>$3,000 to $8,000</td><td className='p-4 border border-slate-200'>Seepage, hydrostatic pressure</td><td className='p-4 border border-slate-200'>$40 to $85</td></tr>
+                <tr className='bg-slate-50'><td className='p-4 border border-slate-200 font-medium'>Sump pump system (new or upgrade)</td><td className='p-4 border border-slate-200'>$800 to $2,500</td><td className='p-4 border border-slate-200'>Standing water removal</td><td className='p-4 border border-slate-200'>N/A</td></tr>
+                <tr><td className='p-4 border border-slate-200 font-medium'>Exterior membrane + drainage</td><td className='p-4 border border-slate-200'>$8,000 to $15,000</td><td className='p-4 border border-slate-200'>Severe or persistent water</td><td className='p-4 border border-slate-200'>Quoted per job</td></tr>
                 <tr className='bg-slate-50'><td className='p-4 border border-slate-200 font-medium'>Exterior French drain only</td><td className='p-4 border border-slate-200'>$4,000 to $8,000</td><td className='p-4 border border-slate-200'>Surface water/grading issues</td><td className='p-4 border border-slate-200'>$40 to $85</td></tr>
                 <tr><td className='p-4 border border-slate-200 font-medium'>Full interior + exterior combined</td><td className='p-4 border border-slate-200'>$12,000 to $22,000</td><td className='p-4 border border-slate-200'>Worst-case scenarios</td><td className='p-4 border border-slate-200'>Varies</td></tr>
-                <tr className='bg-slate-50'><td className='p-4 border border-slate-200 font-medium font-bold'>National average (complete job)</td><td className='p-4 border border-slate-200 font-bold'>$5,230</td><td className='p-4 border border-slate-200'>&mdash;</td><td className='p-4 border border-slate-200'>&mdash;</td></tr>
+                <tr className='bg-slate-50'><td className='p-4 border border-slate-200 font-medium font-bold'>National average (complete job)</td><td className='p-4 border border-slate-200 font-bold'>$5,230</td><td className='p-4 border border-slate-200'>N/A</td><td className='p-4 border border-slate-200'>N/A</td></tr>
               </tbody>
             </table>
           </div>
@@ -121,17 +255,18 @@ export default function BasementWaterproofingCostPage() {
             Yes, and it&rsquo;s not even close. Untreated water problems get worse over time, never better. A small crack that seeps during heavy rain today becomes a foundation integrity issue in a few years. <Link href='/articles/how-to-prevent-basement-mold' className='text-teal-600 underline hover:text-teal-800'>Mold</Link> can begin growing within 24 to 48 hours of a moisture event, and professional <Link href='/articles/mold-remediation-cost' className='text-teal-600 underline hover:text-teal-800'>mold remediation</Link> runs $1,500 to $9,000 depending on how far it spreads.
           </p>
           <p className='text-slate-700 leading-relaxed mb-4'>
-            Foundation repairs &mdash; the kind you need when water damage is left unchecked for years &mdash; average $5,000 to $15,000 and can reach $25,000 for serious structural work. Meanwhile, waterproofing itself returns roughly <strong>30 percent ROI</strong> at resale according to 2026 industry data, and a dry basement with a functioning system can boost your sale price by $10,000 to $15,000 or more.
+            Foundation repairs, the kind you need when water damage is left unchecked for years, average $5,000 to $15,000 and can reach $25,000 for serious structural work. Meanwhile, waterproofing itself returns roughly <strong>30 percent ROI</strong> at resale according to 2026 industry data.
           </p>
           <p className='text-slate-700 leading-relaxed mb-4'>
-            More importantly, unresolved water issues can reduce your home&rsquo;s value by 10 to 25 percent &mdash; and some buyers will walk away entirely when an inspector flags active moisture. The U.S. Environmental Protection Agency recommends controlling moisture as the single most important step in preventing mold in homes.
+            More importantly, unresolved water issues can reduce your home&rsquo;s value by 10 to 25 percent, and some buyers will walk away entirely when an inspector flags active moisture. The U.S. Environmental Protection Agency recommends controlling moisture as the single most important step in preventing mold in homes.
           </p>
           <p className='text-slate-700 leading-relaxed mb-12'>
-            You&rsquo;re not just waterproofing a basement &mdash; you&rsquo;re protecting the structural integrity, <Link href='/articles/radon-and-basement-waterproofing' className='text-teal-600 underline hover:text-teal-800'>air quality</Link>, and resale value of your entire house.
+            You&rsquo;re not just waterproofing a basement, you&rsquo;re protecting the structural integrity, <Link href='/articles/radon-and-basement-waterproofing' className='text-teal-600 underline hover:text-teal-800'>air quality</Link>, and resale value of your entire house.
           </p>
 
           {/* 1000 Sq Ft Basement Cost */}
           <h2 className='text-3xl font-extrabold text-slate-900 mt-16 mb-6'>How Much Does It Cost to Waterproof a 1,000 Sq Ft Basement?</h2>
+<div dangerouslySetInnerHTML={{ __html: "<p class=\"text-slate-700 leading-relaxed mb-4\">Most professional waterproofing on a 1,000 sq ft basement costs $3,000 to $10,000, or about $3 to $10 per square foot. Where you land depends on the method.</p>\n" }} />
           <p className='text-slate-700 leading-relaxed mb-6'>
             Since most basements fall somewhere in the 800 to 1,200 square foot range, here&rsquo;s what a typical 1,000 sq ft basement looks like across different methods:
           </p>
@@ -148,13 +283,13 @@ export default function BasementWaterproofingCostPage() {
                 <tr><td className='p-4 border border-slate-200 font-medium'>Waterproof paint/sealer (DIY)</td><td className='p-4 border border-slate-200'>$300 to $800</td><td className='p-4 border border-slate-200'>Surface-level dampness barrier. Temporary fix.</td></tr>
                 <tr className='bg-slate-50'><td className='p-4 border border-slate-200 font-medium'>Waterproof paint/sealer (pro)</td><td className='p-4 border border-slate-200'>$1,500 to $4,000</td><td className='p-4 border border-slate-200'>Better application, minor warranty. Still temporary.</td></tr>
                 <tr><td className='p-4 border border-slate-200 font-medium'>Crack injection (2 to 3 cracks)</td><td className='p-4 border border-slate-200'>$500 to $2,400</td><td className='p-4 border border-slate-200'>Targeted leak repair. Addresses specific entry points.</td></tr>
-                <tr className='bg-slate-50'><td className='p-4 border border-slate-200 font-medium'>Interior French drain + sump pump</td><td className='p-4 border border-slate-200'>$4,500 to $7,500</td><td className='p-4 border border-slate-200'>Full perimeter drainage system. Solves 80 percent of problems.</td></tr>
+                <tr className='bg-slate-50'><td className='p-4 border border-slate-200 font-medium'>Interior French drain + sump pump</td><td className='p-4 border border-slate-200'>$5,000 to $10,000</td><td className='p-4 border border-slate-200'>Full perimeter drainage system. Solves 80 percent of problems.</td></tr>
                 <tr><td className='p-4 border border-slate-200 font-medium'>Exterior membrane + drain tile</td><td className='p-4 border border-slate-200'>$9,000 to $14,000</td><td className='p-4 border border-slate-200'>Maximum protection. Stops water before it reaches foundation.</td></tr>
               </tbody>
             </table>
           </div>
           <p className='text-slate-700 leading-relaxed mb-12'>
-            A 1,000 sq ft basement with roughly 130 linear feet of perimeter is the most common job contractors quote. If you&rsquo;re getting quotes significantly outside these ranges, ask questions &mdash; either the scope is different from what you expected, or you should get more bids.
+            A 1,000 sq ft basement with roughly 130 linear feet of perimeter is the most common job contractors quote. If you&rsquo;re getting quotes significantly outside these ranges, ask questions, either the scope is different from what you expected, or you should get more bids.
           </p>
 
           {/* Interior vs Exterior - Expanded */}
@@ -166,10 +301,11 @@ export default function BasementWaterproofingCostPage() {
             <div className='bg-indigo-50 border border-indigo-200 rounded-2xl p-8'>
               <h3 className='text-xl font-bold text-slate-900 mb-4'>Interior Waterproofing</h3>
               <p className='text-2xl font-bold text-indigo-600 mb-4'>$3,000 to $8,000</p>
-              <p className='text-slate-700 leading-relaxed mb-4'>Interior waterproofing doesn&rsquo;t stop water from reaching your foundation &mdash; it manages water after it gets inside. A contractor cuts a narrow channel along the perimeter of your basement floor, installs a perforated drain pipe in gravel, and routes everything to a sump pump that pushes the water outside.</p>
-              <ul className='space-y-4 text-slate-700'>
-                <li className='mb-2'><span className='text-green-600 mr-2'>&#10003;</span>Less invasive &mdash; no digging up your yard</li>
-                <li className='mb-2'><span className='text-green-600 mr-2'>&#10003;</span>Installs in 1 to 5 days</li>
+              <p className='text-slate-700 leading-relaxed mb-4'>Interior waterproofing doesn&rsquo;t stop water from reaching your foundation, it manages water after it gets inside. A contractor cuts a narrow channel along the perimeter of your basement floor, installs a perforated drain pipe in gravel, and routes everything to a sump pump that pushes the water outside.</p>
+              <div dangerouslySetInnerHTML={{ __html: "<p class=\"text-slate-700 leading-relaxed mb-4\">That range covers most interior jobs, including the many where the contractor drains only the walls that leak. A full perimeter on a 1,000 sq ft basement, about 130 linear feet, usually runs $5,000 to $10,000.</p>\n" }} />
+<ul className='space-y-4 text-slate-700'>
+                <li className='mb-2'><span className='text-green-600 mr-2'>&#10003;</span>Less invasive, no digging up your yard</li>
+                <li className='mb-2'><span className='text-green-600 mr-2'>&#10003;</span>Installs in 2 to 5 days</li>
                 <li className='mb-2'><span className='text-green-600 mr-2'>&#10003;</span>Handles the vast majority of basement water problems</li>
                 <li className='mb-2'><span className='text-green-600 mr-2'>&#10003;</span>Best for seepage along floor-wall joint, general dampness, or moderate hydrostatic pressure</li>
               </ul>
@@ -188,7 +324,7 @@ export default function BasementWaterproofingCostPage() {
           </div>
           <h3 className='text-xl font-bold text-slate-900 mb-4'>Which One Should You Choose?</h3>
           <p className='text-slate-700 leading-relaxed mb-4'>
-            For about 80 percent of homeowners, an interior French drain and sump pump system is the best balance of cost, effectiveness, and disruption. Start there unless you have a specific reason to go exterior &mdash; like water actively pouring through foundation walls during every rain, or a home with known exterior drainage failures.
+            For about 80 percent of homeowners, an interior French drain and sump pump system is the best balance of cost, effectiveness, and disruption. Start there unless you have a specific reason to go exterior, like water actively pouring through foundation walls during every rain, or a home with known exterior drainage failures.
           </p>
           <p className='text-slate-700 leading-relaxed mb-12'>
             See our full <Link href='/articles/interior-vs-exterior-waterproofing' className='text-teal-600 underline hover:text-teal-800'>interior vs exterior waterproofing guide</Link> for a deeper dive.
@@ -197,14 +333,14 @@ export default function BasementWaterproofingCostPage() {
           {/* Best Method */}
           <h2 className='text-3xl font-extrabold text-slate-900 mt-16 mb-6'>What Is the Best Method to Waterproof a Basement?</h2>
           <p className='text-slate-700 leading-relaxed mb-6'>
-            For most homes, the answer is an interior perimeter French drain system paired with a quality sump pump &mdash; typically running $3,000 to $8,000 installed. It handles hydrostatic pressure, wall seepage, and floor-joint leaks in a single system. That said, the best method depends entirely on what&rsquo;s causing your water problem:
+            For most homes, the answer is an interior perimeter French drain system paired with a quality sump pump, typically running $3,000 to $8,000 installed. It handles hydrostatic pressure, wall seepage, and floor-joint leaks in a single system. That said, the best method depends entirely on what&rsquo;s causing your water problem:
           </p>
           <ul className='list-disc pl-6 space-y-3 text-slate-700 mb-6'>
-            <li className='mb-3'><strong>Minor dampness or condensation:</strong> Start with waterproof paint or sealer ($300 to $4,000) and a <Link href='/articles/dehumidifier-myths' className='text-teal-600 underline hover:text-teal-800'>dehumidifier</Link>. This isn&rsquo;t true waterproofing &mdash; it&rsquo;s moisture management &mdash; but for mild issues, it may be all you need.</li>
+            <li className='mb-3'><strong>Minor dampness or condensation:</strong> Start with waterproof paint or sealer ($300 to $4,000) and a <Link href='/articles/dehumidifier-myths' className='text-teal-600 underline hover:text-teal-800'>dehumidifier</Link>. This isn&rsquo;t true waterproofing, it&rsquo;s moisture management, but for mild issues, it may be all you need.</li>
             <li className='mb-3'><strong>One or two leaking cracks:</strong> <Link href='/articles/foundation-crack-repair-cost' className='text-teal-600 underline hover:text-teal-800'>Crack injection</Link> ($250 to $800 per crack) is targeted, affordable, and effective. Epoxy for structural cracks, polyurethane for active leaks.</li>
             <li className='mb-3'><strong>Widespread seepage or recurring water:</strong> Interior French drain + sump pump. The standard solution and where most homeowners land.</li>
             <li className='mb-3'><strong>Severe, persistent flooding:</strong> Full exterior waterproofing, possibly combined with an interior drainage system.</li>
-            <li className='mb-3'><strong>Combination approach:</strong> Many experienced contractors recommend addressing the exterior drainage first (gutters, grading, downspout extensions &mdash; often free or cheap fixes) before spending thousands on interior systems. Sometimes fixing the surface water problem solves 90 percent of the issue.</li>
+            <li className='mb-3'><strong>Combination approach:</strong> Many experienced contractors recommend addressing the exterior drainage first (gutters, grading, downspout extensions, often free or cheap fixes) before spending thousands on interior systems. Sometimes fixing the surface water problem solves 90 percent of the issue.</li>
           </ul>
           <p className='text-slate-700 leading-relaxed mb-12'>
             See our <Link href='/articles/complete-basement-waterproofing-guide' className='text-teal-600 underline hover:text-teal-800'>complete waterproofing guide</Link> for a full breakdown of every method.
@@ -214,13 +350,13 @@ export default function BasementWaterproofingCostPage() {
           <h2 className='text-3xl font-extrabold text-slate-900 mt-16 mb-6'>Factors That Affect Your Final Price</h2>
           <p className='text-slate-700 leading-relaxed mb-6'>No two waterproofing jobs cost the same. Here&rsquo;s what drives the number up or down:</p>
           <ul className='list-disc pl-6 space-y-3 text-slate-700 mb-12'>
-            <li className='mb-3'><strong>Basement size and perimeter length.</strong> Most contractors price interior drainage by the linear foot ($60 to $120/LF), so a larger basement costs more. A 1,000 sq ft basement with 130 LF of perimeter is a standard job. A 2,000 sq ft basement or L-shaped layout with 200+ LF will cost proportionally more.</li>
+            <li className='mb-3'><strong>Basement size and perimeter length.</strong> Most contractors price interior drainage by the linear foot ($40 to $85/LF), so a larger basement costs more. A 1,000 sq ft basement with 130 LF of perimeter is a standard job. A 2,000 sq ft basement or L-shaped layout with 200+ LF will cost proportionally more.</li>
             <li className='mb-3'><strong>Severity of the water problem.</strong> There&rsquo;s a significant price difference between &ldquo;walls feel damp when it rains&rdquo; and &ldquo;I get two inches of standing water every spring.&rdquo; Worse problems mean bigger pumps, more extensive drainage, and potentially structural repairs before waterproofing can begin.</li>
             <li className='mb-3'><strong>Foundation type.</strong> Poured concrete is easier and cheaper to waterproof than concrete block or stone foundations. Block walls have mortar joints that create multiple entry points, and stone or rubble foundations (common in pre-1940 homes) require specialized approaches that cost more.</li>
             <li className='mb-3'><strong>Accessibility.</strong> A walkout basement with easy access costs less than a fully below-grade basement. Exterior waterproofing costs jump when there&rsquo;s a deck, patio, or mature landscaping that has to be removed and replaced.</li>
-            <li className='mb-3'><strong>Existing damage.</strong> If water has already caused foundation cracks, <Link href='/articles/how-to-prevent-basement-mold' className='text-teal-600 underline hover:text-teal-800'>mold growth</Link>, or structural deterioration, those repairs add to the total before waterproofing even begins. Water damage remediation alone runs $1,300 to $6,300.</li>
+            <li className='mb-3'><strong>Existing damage.</strong> If water has already caused foundation cracks, <Link href='/articles/how-to-prevent-basement-mold' className='text-teal-600 underline hover:text-teal-800'>mold growth</Link>, or structural deterioration, those repairs add to the total before waterproofing even begins. <Link href='/articles/problems/basement-flooding-cleanup' className='text-teal-600 underline hover:text-teal-800'>Water damage remediation</Link> alone runs $1,300 to $6,400.</li>
             <li className='mb-3'><strong>Your location.</strong> Labor rates, soil conditions, and water table levels vary significantly by region. Homeowners in the Northeast, Pacific Northwest, and Great Lakes region typically pay 15 to 30 percent more than the national average. Arid climates like the Southwest generally pay less.</li>
-            <li className='mb-3'><strong>Add-ons.</strong> A <Link href='/articles/dehumidifier-myths' className='text-teal-600 underline hover:text-teal-800'>dehumidifier</Link> adds $800 to $2,000. Battery backup for the sump pump adds $200 to $600. <Link href='/articles/smart-sump-pumps-guide' className='text-teal-600 underline hover:text-teal-800'>Smart sump pump monitoring</Link> adds $100 to $300. These are worth it &mdash; especially the battery backup &mdash; but they push the total up.</li>
+            <li className='mb-3'><strong>Add-ons.</strong> A contractor-installed whole-basement <Link href='/articles/dehumidifier-myths' className='text-teal-600 underline hover:text-teal-800'>dehumidifier</Link> adds $800 to $2,000. A good <Link href='/articles/best-basement-dehumidifiers' className='text-teal-600 underline hover:text-teal-800'>portable unit</Link> costs $200 to $600. Battery backup for the sump pump adds $350 to $900 installed. <Link href='/articles/smart-sump-pumps-guide' className='text-teal-600 underline hover:text-teal-800'>Smart sump pump monitoring</Link> adds $100 to $300. These are worth it, especially the battery backup, but they push the total up.</li>
           </ul>
 
           {/* DIY Section - Expanded */}
@@ -228,17 +364,17 @@ export default function BasementWaterproofingCostPage() {
           <p className='text-slate-700 leading-relaxed mb-6'>Some of it, yes. Here&rsquo;s the honest breakdown:</p>
           <h3 className='text-xl font-bold text-slate-900 mb-4'>Realistic DIY projects (under $1,000):</h3>
           <ul className='list-disc pl-6 space-y-4 text-slate-700 mb-6'>
-            <li className='mb-3'>Applying <Link href='/articles/waterproof-basement-paint-sealers' className='text-teal-600 underline hover:text-teal-800'>waterproof paint or sealer</Link> to walls &mdash; $200 to $500 in materials</li>
-            <li className='mb-3'>Sealing small cracks with hydraulic cement or polyurethane caulk &mdash; $20 to $50 per crack</li>
-            <li className='mb-3'>Improving exterior grading so water flows away from the foundation &mdash; often free</li>
-            <li className='mb-3'>Extending downspouts at least 6 feet from the house &mdash; $10 to $30 per downspout</li>
-            <li className='mb-3'>Adding or cleaning gutters &mdash; varies</li>
+            <li className='mb-3'>Applying <Link href='/articles/waterproof-basement-paint-sealers' className='text-teal-600 underline hover:text-teal-800'>waterproof paint or sealer</Link> to walls, $300 to $800 in materials</li>
+            <li className='mb-3'>Sealing small cracks with hydraulic cement or polyurethane caulk, $20 to $50 per crack</li>
+            <li className='mb-3'>Improving exterior grading so water flows away from the foundation, often free</li>
+            <li className='mb-3'>Extending downspouts at least 6 feet from the house, $10 to $30 per downspout</li>
+            <li className='mb-3'>Adding or cleaning gutters, varies</li>
           </ul>
           <h3 className='text-xl font-bold text-slate-900 mb-4'>Not realistic DIY projects:</h3>
           <ul className='list-disc pl-6 space-y-4 text-slate-700 mb-6'>
-            <li className='mb-3'><strong>Interior French drain installation</strong> &mdash; requires cutting concrete, managing drainage slope, proper sump pit construction, and electrical work. One mistake with the slope means water pools instead of draining.</li>
-            <li className='mb-3'><strong>Exterior waterproofing</strong> &mdash; requires professional excavation equipment, membrane application expertise, and proper backfill techniques. Getting this wrong can compromise your foundation.</li>
-            <li className='mb-3'><strong>Sump pump installation</strong> &mdash; technically possible for a handy homeowner, but electrical work near water is a safety concern, and improper discharge routing causes neighborhood drainage problems.</li>
+            <li className='mb-3'><strong>Interior French drain installation</strong>, requires cutting concrete, managing drainage slope, proper sump pit construction, and electrical work. One mistake with the slope means water pools instead of draining.</li>
+            <li className='mb-3'><strong>Exterior waterproofing</strong>, requires professional excavation equipment, membrane application expertise, and proper backfill techniques. Getting this wrong can compromise your foundation.</li>
+            <li className='mb-3'><strong>Sump pump installation</strong>, technically possible for a handy homeowner, but electrical work near water is a safety concern, and improper discharge routing causes neighborhood drainage problems.</li>
           </ul>
           <p className='text-slate-700 leading-relaxed mb-12'>
             The sweet spot: handle the cheap exterior fixes yourself (grading, gutters, downspouts, crack sealing) and hire a pro for drainage systems. Many homeowners save thousands by fixing surface water issues themselves and discovering that the &ldquo;serious&rdquo; basement water problem was actually just bad grading all along. For more guidance, see our <Link href='/articles/diy-vs-hiring-pro-basement-projects' className='text-teal-600 underline hover:text-teal-800'>DIY vs hiring a pro guide</Link>.
@@ -267,19 +403,19 @@ export default function BasementWaterproofingCostPage() {
             </table>
           </div>
           <p className='text-slate-700 leading-relaxed mb-12'>
-            The most commonly replaced component is the sump pump &mdash; budget $500 to $1,500 for a replacement every 7 to 10 years. The drainage system itself (pipes and gravel) lasts decades if properly installed. Battery backups need replacement every 3 to 5 years ($100 to $300). A well-installed interior system with a quality pump and annual maintenance will protect your basement for 20+ years.
+            The most commonly replaced component is the sump pump, budget $650 to $1,200 installed for a replacement every 7 to 10 years. The drainage system itself (pipes and gravel) lasts decades if properly installed. The backup battery needs replacing every 3 to 5 years, about $50 to $150. A well-installed interior system with a quality pump and annual maintenance will protect your basement for 20+ years.
           </p>
 
           {/* Home Value - Expanded */}
           <h2 className='text-3xl font-extrabold text-slate-900 mt-16 mb-6'>Does Basement Waterproofing Increase Home Value?</h2>
           <p className='text-slate-700 leading-relaxed mb-4'>
-            Yes &mdash; in two distinct ways. First, the direct ROI: waterproofing returns roughly <strong>30 percent of its cost</strong> at resale according to 2026 remodeling data. A $6,000 system adds about $1,800 in appraised value. Not amazing on paper &mdash; but that&rsquo;s not where the real value lies.
+            Yes, in two distinct ways. First, the direct ROI: waterproofing returns roughly <strong>30 percent of its cost</strong> at resale according to 2026 remodeling data. A $6,000 system adds about $1,800 in appraised value. Not amazing on paper, but that&rsquo;s not where the real value lies.
           </p>
           <p className='text-slate-700 leading-relaxed mb-4'>
             The bigger financial impact is what it prevents. A home with documented water issues can lose 10 to 25 percent of its sale price because buyers either walk away or use the problem as leverage to negotiate a steep discount. A basement with a dry track record, a visible sump system, and a transferable warranty removes that objection entirely.
           </p>
           <p className='text-slate-700 leading-relaxed mb-12'>
-            And if you&rsquo;re planning to <Link href='/articles/how-to-finish-a-basement' className='text-teal-600 underline hover:text-teal-800'>finish the basement</Link> into living space, waterproofing is the mandatory first step. A finished basement adds $20,000 to $50,000 in functional value to a home. But no one finishes a wet basement &mdash; and if they do, they&rsquo;re signing up for mold, rot, and a very expensive tearout. For homebuyers evaluating a property, our <Link href='/articles/homebuyers-basement-inspection-checklist' className='text-teal-600 underline hover:text-teal-800'>basement inspection checklist</Link> covers exactly what to look for.
+            And if you&rsquo;re planning to <Link href='/articles/how-to-finish-a-basement' className='text-teal-600 underline hover:text-teal-800'>finish the basement</Link> into living space, waterproofing is the mandatory first step. A finished basement adds $20,000 to $50,000 in functional value to a home. But no one finishes a wet basement, and if they do, they&rsquo;re signing up for mold, rot, and a very expensive tearout. For homebuyers evaluating a property, our <Link href='/articles/homebuyers-basement-inspection-checklist' className='text-teal-600 underline hover:text-teal-800'>basement inspection checklist</Link> covers exactly what to look for.
           </p>
 
           {/* Detailed Cost Breakdown by Method */}
@@ -298,7 +434,7 @@ export default function BasementWaterproofingCostPage() {
             The workhorse of basement waterproofing. A contractor jackhammers a narrow trench around the interior perimeter, installs perforated drain pipe in gravel, connects everything to a sump pit with a pump, and patches the concrete. Water that enters through the walls or floor-wall joint is intercepted and pumped out before it reaches your living space.
           </p>
           <p className='text-slate-700 leading-relaxed mb-4'>
-            <strong>What you&rsquo;re paying for:</strong> concrete cutting and removal, drain pipe and gravel, sump pit and pump, labor (typically 2 to 4 days), and cleanup. The pump is the critical component &mdash; a good 1/3 HP submersible pump runs $150 to $400. A cast-iron primary pump with a battery backup system runs $500 to $1,200. See our <Link href='/articles/sump-pump-buying-guide' className='text-teal-600 underline hover:text-teal-800'>sump pump buying guide</Link> and <Link href='/articles/sump-pump-cost' className='text-teal-600 underline hover:text-teal-800'>sump pump cost breakdown</Link>. For a detailed look at how these systems work, see our <Link href='/articles/interior-basement-drainage-systems' className='text-teal-600 underline hover:text-teal-800'>interior basement drainage systems</Link> guide.
+            <strong>What you&rsquo;re paying for:</strong> concrete cutting and removal, drain pipe and gravel, sump pit and pump, labor (typically 2 to 5 days), and cleanup. The pump is the critical component, a good 1/3 HP submersible pump runs $150 to $400. A cast-iron primary pump with a battery backup system runs $500 to $1,200. See our <Link href='/articles/sump-pump-buying-guide' className='text-teal-600 underline hover:text-teal-800'>sump pump buying guide</Link> and <Link href='/articles/sump-pump-cost' className='text-teal-600 underline hover:text-teal-800'>sump pump cost breakdown</Link>. For a detailed look at how these systems work, see our <Link href='/articles/interior-basement-drainage-systems' className='text-teal-600 underline hover:text-teal-800'>interior basement drainage systems</Link> guide.
           </p>
 
           <h3 className='text-xl font-bold text-slate-900 mt-8 mb-4'>Exterior Waterproofing: $8,000 to $15,000</h3>
@@ -306,18 +442,19 @@ export default function BasementWaterproofingCostPage() {
             The full treatment. Excavation down to the footings (8 to 10 feet deep on a full basement), application of a waterproof membrane to the foundation walls, installation of drainage board and drain tile at the footing level, and careful backfill with drainage-friendly material.
           </p>
           <p className='text-slate-700 leading-relaxed mb-4'>
-            <strong>What you&rsquo;re paying for:</strong> primarily labor and equipment &mdash; excavation is expensive. Also includes membrane material, drain tile, gravel, and landscaping restoration. The work itself is highly effective and long-lasting, but the disruption is significant.
+            <strong>What you&rsquo;re paying for:</strong> primarily labor and equipment, excavation is expensive. Also includes membrane material, drain tile, gravel, and landscaping restoration. The work itself is highly effective and long-lasting, but the disruption is significant.
           </p>
 
-          <h3 className='text-xl font-bold text-slate-900 mt-8 mb-4'>Sump Pump System: $800 to $2,500</h3>
+          <div dangerouslySetInnerHTML={{ __html: "<p class=\"text-slate-700 leading-relaxed mb-4\">Exterior waterproofing is also called foundation waterproofing. Deep basements, block or stone walls, and decks, patios, or driveways in the way can push the price to $18,000 or more. Contractors usually quote it per job rather than per foot, because digging depth and access drive the cost. See our <a href=\"/articles/interior-vs-exterior-waterproofing\" class=\"text-teal-600 underline hover:text-teal-800\">interior vs. exterior waterproofing guide</a> for a full comparison.</p>\n" }} />
+<h3 className='text-xl font-bold text-slate-900 mt-8 mb-4'>Sump Pump System: $800 to $2,500</h3>
           <p className='text-slate-700 leading-relaxed mb-12'>
-            If you already have drainage but need a new or upgraded pump, this is a standalone job. Includes the pump, pit (if needed), discharge line, and check valve. A battery backup adds $200 to $600 and is strongly recommended &mdash; power outages often coincide with the heavy storms that cause flooding.
+            If you already have drainage but need a new or upgraded pump, this is a standalone job. A new pit and pump typically runs $1,200 to $2,500 installed. <Link href='/cost-guides/sump-pump-replacement-cost' className='text-teal-600 underline hover:text-teal-800'>Replacing the pump in an existing pit</Link> costs $650 to $1,200. Includes the pump, pit (if needed), discharge line, and check valve. A battery backup adds $350 to $900 installed and is strongly recommended, power outages often coincide with the heavy storms that cause flooding.
           </p>
 
           {/* Is Waterproofing Paint Enough - NEW */}
           <h2 className='text-3xl font-extrabold text-slate-900 mt-16 mb-6'>Is Waterproofing Paint Enough for a Basement?</h2>
           <p className='text-slate-700 leading-relaxed mb-4'>
-            In most cases, no. <Link href='/articles/waterproof-basement-paint-sealers' className='text-teal-600 underline hover:text-teal-800'>Waterproofing paint</Link> like Drylok or <Link href='/articles/crystalline-waterproofing' className='text-teal-600 underline hover:text-teal-800'>Xypex</Link> can handle minor vapor transmission through concrete &mdash; the kind that makes walls feel damp or slightly sweaty. But it will not stop active water leaks, seepage, or hydrostatic pressure.
+            In most cases, no. <Link href='/articles/waterproof-basement-paint-sealers' className='text-teal-600 underline hover:text-teal-800'>Waterproofing paint</Link> like Drylok, or a <Link href='/articles/crystalline-waterproofing' className='text-teal-600 underline hover:text-teal-800'>crystalline sealer</Link> like <Link href='/articles/crystalline-waterproofing' className='text-teal-600 underline hover:text-teal-800'>Xypex</Link>, can handle minor vapor transmission through concrete, the kind that makes walls feel damp or slightly sweaty. But it will not stop active water leaks, seepage, or hydrostatic pressure.
           </p>
           <p className='text-slate-700 leading-relaxed mb-4'>
             What typically happens: a homeowner applies waterproof paint, it looks great for a year or two, then starts bubbling, peeling, and flaking as water pressure pushes it off the wall from behind. Now you&rsquo;ve spent $1,500 to $4,000 on paint that needs to be scraped off before a real waterproofing system can be installed.
@@ -339,14 +476,14 @@ export default function BasementWaterproofingCostPage() {
               </thead>
               <tbody>
                 <tr><td className='p-4 border border-slate-200 font-medium'>Crack injection</td><td className='p-4 border border-slate-200'>2 to 4 hours</td><td className='p-4 border border-slate-200'>Minimal</td></tr>
-                <tr className='bg-slate-50'><td className='p-4 border border-slate-200 font-medium'>Waterproof paint</td><td className='p-4 border border-slate-200'>1 to 2 days</td><td className='p-4 border border-slate-200'>Low &mdash; move items from walls</td></tr>
-                <tr><td className='p-4 border border-slate-200 font-medium'>Interior French drain + sump</td><td className='p-4 border border-slate-200'>2 to 5 days</td><td className='p-4 border border-slate-200'>Moderate &mdash; dust, noise, temporary mess</td></tr>
-                <tr className='bg-slate-50'><td className='p-4 border border-slate-200 font-medium'>Exterior waterproofing</td><td className='p-4 border border-slate-200'>5 to 14 days</td><td className='p-4 border border-slate-200'>High &mdash; yard excavation, weather dependent</td></tr>
+                <tr className='bg-slate-50'><td className='p-4 border border-slate-200 font-medium'>Waterproof paint</td><td className='p-4 border border-slate-200'>1 to 2 days</td><td className='p-4 border border-slate-200'>Low, move items from walls</td></tr>
+                <tr><td className='p-4 border border-slate-200 font-medium'>Interior French drain + sump</td><td className='p-4 border border-slate-200'>2 to 5 days</td><td className='p-4 border border-slate-200'>Moderate, dust, noise, temporary mess</td></tr>
+                <tr className='bg-slate-50'><td className='p-4 border border-slate-200 font-medium'>Exterior waterproofing</td><td className='p-4 border border-slate-200'>5 to 14 days</td><td className='p-4 border border-slate-200'>High, yard excavation, weather dependent</td></tr>
               </tbody>
             </table>
           </div>
           <p className='text-slate-700 leading-relaxed mb-12'>
-            For interior systems, most crews complete a standard basement in 2 to 3 days. Day one is demolition (cutting concrete, excavating the trench). Day two is drain installation and sump pit. Day three is concrete patching and cleanup. Plan to keep the basement clear of furniture and stored items during the work. The concrete dust is significant &mdash; cover or remove anything you care about.
+            For interior systems, most crews complete a standard basement in 2 to 3 days. Day one is demolition (cutting concrete, excavating the trench). Day two is drain installation and sump pit. Day three is concrete patching and cleanup. Plan to keep the basement clear of furniture and stored items during the work. The concrete dust is significant, cover or remove anything you care about.
           </p>
 
           {/* Permits - Expanded */}
@@ -355,7 +492,7 @@ export default function BasementWaterproofingCostPage() {
             In most jurisdictions, interior waterproofing work (French drains, sump pumps, sealers) does not require a <Link href='/articles/basement-permits-guide' className='text-teal-600 underline hover:text-teal-800'>building permit</Link>. Exterior waterproofing usually requires a permit because it involves excavation near the foundation and potentially modifying drainage systems that affect neighboring properties. Some municipalities also require permits for sump pump discharge routing.
           </p>
           <p className='text-slate-700 leading-relaxed mb-4'>
-            Your contractor should know the local requirements &mdash; if they tell you permits aren&rsquo;t necessary for exterior work, that&rsquo;s a yellow flag.
+            Your contractor should know the local requirements, if they tell you permits aren&rsquo;t necessary for exterior work, that&rsquo;s a yellow flag.
           </p>
           <p className='text-slate-700 leading-relaxed mb-12'>
             Homeowners insurance typically does not cover waterproofing as a preventive measure. It may cover sudden water damage (burst pipe, failed sump pump) but not gradual seepage or long-term moisture issues. See our <Link href='/articles/basement-flooding-insurance' className='text-teal-600 underline hover:text-teal-800'>basement flooding insurance guide</Link> for a full explanation of what&rsquo;s covered and what isn&rsquo;t.
@@ -364,7 +501,7 @@ export default function BasementWaterproofingCostPage() {
           {/* How to Hire - NEW */}
           <h2 className='text-3xl font-extrabold text-slate-900 mt-16 mb-6'>How to Hire the Right Contractor (and Avoid Getting Ripped Off)</h2>
           <ul className='list-disc pl-6 space-y-3 text-slate-700 mb-6'>
-            <li className='mb-3'><strong>Get 3 to 5 written quotes.</strong> Not ballpark numbers over the phone &mdash; actual written estimates after they&rsquo;ve seen your basement. Quotes should specify the method, materials, linear footage, pump model, and warranty terms.</li>
+            <li className='mb-3'><strong>Get 3 to 5 written quotes.</strong> Not ballpark numbers over the phone, actual written estimates after they&rsquo;ve seen your basement. Quotes should specify the method, materials, linear footage, pump model, and warranty terms.</li>
             <li className='mb-3'><strong>Ask what they&rsquo;re actually installing.</strong> You want to know pipe diameter, gravel type, sump pump model and horsepower, and whether a battery backup is included.</li>
             <li className='mb-3'><strong>Check for licensing, insurance, and warranty.</strong> Verify their license. Make sure they carry liability insurance and workers&rsquo; comp. A transferable warranty matters for resale value.</li>
             <li className='mb-3'><strong>Be skeptical of the lowest bid.</strong> If one quote comes in at $2,000 and the others are $5,000 to $7,000, the low bidder is probably cutting corners.</li>
@@ -379,13 +516,13 @@ export default function BasementWaterproofingCostPage() {
           <h2 className='text-3xl font-extrabold text-slate-900 mt-16 mb-6'>Can You Finance Basement Waterproofing?</h2>
           <p className='text-slate-700 leading-relaxed mb-4'>Yes. Most established waterproofing companies offer financing, often 0 percent interest for 12 to 24 months. Common options:</p>
           <ul className='list-disc pl-6 space-y-4 text-slate-700 mb-6'>
-            <li className='mb-3'><strong>Contractor financing:</strong> Payment plans through third-party lenders. Read the terms carefully &mdash; promotional rates expire.</li>
+            <li className='mb-3'><strong>Contractor financing:</strong> Payment plans through third-party lenders. Read the terms carefully, promotional rates expire.</li>
             <li className='mb-3'><strong>Home equity loan or HELOC:</strong> Lower interest rates, but your home is collateral.</li>
             <li className='mb-3'><strong>Personal loan:</strong> Quick approval, no home equity required, but higher rates (8 to 15 percent).</li>
             <li className='mb-3'><strong>Credit card:</strong> Only for smaller jobs (crack injection, paint) where you can pay it off quickly.</li>
           </ul>
           <p className='text-slate-700 leading-relaxed mb-12'>
-            Waterproofing is one of the few home improvements that&rsquo;s genuinely urgent &mdash; putting it off usually costs more in the long run. If financing helps you get it done now instead of waiting two years while the damage compounds, it&rsquo;s a smart financial move. See our <Link href='/articles/basement-waterproofing-finances-insurance-taxes' className='text-teal-600 underline hover:text-teal-800'>basement waterproofing finances guide</Link> for a detailed financial analysis.
+            Waterproofing is one of the few home improvements that&rsquo;s genuinely urgent, putting it off usually costs more in the long run. If financing helps you get it done now instead of waiting two years while the damage compounds, it&rsquo;s a smart financial move. See our <Link href='/articles/basement-waterproofing-finances-insurance-taxes' className='text-teal-600 underline hover:text-teal-800'>basement waterproofing finances guide</Link> for a detailed financial analysis.
           </p>
 
           {/* What If Only Dampness - NEW Expanded */}
@@ -406,7 +543,7 @@ export default function BasementWaterproofingCostPage() {
             Yes, but it&rsquo;s more complicated and slightly more expensive. A contractor can install an interior French drain system in a finished basement, but it typically requires removing a strip of drywall, <Link href='/articles/basement-insulation-guide' className='text-teal-600 underline hover:text-teal-800'>insulation</Link>, and flooring along the perimeter walls to access the floor-wall joint. After the system is installed and concrete is patched, the drywall and <Link href='/articles/best-basement-flooring' className='text-teal-600 underline hover:text-teal-800'>flooring</Link> need to be repaired. This adds $1,000 to $3,000 to the total project cost.
           </p>
           <p className='text-slate-700 leading-relaxed mb-12'>
-            It&rsquo;s not ideal &mdash; which is exactly why we always recommend waterproofing before you finish your basement. It&rsquo;s cheaper, cleaner, and results in a better system when there&rsquo;s no finished materials in the way. Check our <Link href='/articles/pre-finish-audit' className='text-teal-600 underline hover:text-teal-800'>pre-finish basement audit</Link> to make sure your basement is ready.
+            It&rsquo;s not ideal, which is exactly why we always recommend waterproofing before you finish your basement. It&rsquo;s cheaper, cleaner, and results in a better system when there&rsquo;s no finished materials in the way. Check our <Link href='/articles/pre-finish-audit' className='text-teal-600 underline hover:text-teal-800'>pre-finish basement audit</Link> to make sure your basement is ready.
           </p>
 
           {/* Decision Table */}
@@ -420,10 +557,10 @@ export default function BasementWaterproofingCostPage() {
                 <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>One or two cracks that weep during rain</td><td className='px-4 py-3 text-slate-600'>Isolated crack entry points</td><td className='px-4 py-3 text-slate-600'>Epoxy or polyurethane crack injection</td><td className='px-4 py-3 text-slate-600'>$250 to $800 per crack</td></tr>
                 <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Water appears along base of wall after rain</td><td className='px-4 py-3 text-slate-600'>Hydrostatic pressure at cove joint</td><td className='px-4 py-3 text-slate-600'>Interior French drain plus sump pump</td><td className='px-4 py-3 text-slate-600'>$3,000 to $8,000</td></tr>
                 <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Water coming up through floor cracks</td><td className='px-4 py-3 text-slate-600'>Sub-slab hydrostatic pressure</td><td className='px-4 py-3 text-slate-600'>Interior French drain plus sump pump</td><td className='px-4 py-3 text-slate-600'>$3,000 to $8,000</td></tr>
-                <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Puddles after every rain regardless of crack location</td><td className='px-4 py-3 text-slate-600'>High water table or widespread seepage</td><td className='px-4 py-3 text-slate-600'>Interior perimeter drainage system</td><td className='px-4 py-3 text-slate-600'>$4,000 to $8,000</td></tr>
+                <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Puddles after every rain regardless of crack location</td><td className='px-4 py-3 text-slate-600'>High water table or widespread seepage</td><td className='px-4 py-3 text-slate-600'>Interior perimeter drainage system</td><td className='px-4 py-3 text-slate-600'>$5,000 to $10,000</td></tr>
                 <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Yard pools near foundation, basement stays damp</td><td className='px-4 py-3 text-slate-600'>Poor exterior drainage directing water toward foundation</td><td className='px-4 py-3 text-slate-600'>Regrade yard, extend downspouts, exterior French drain</td><td className='px-4 py-3 text-slate-600'>$0 to $3,000</td></tr>
                 <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Water pouring through wall face during heavy rain</td><td className='px-4 py-3 text-slate-600'>Exterior soil saturation, failed damp-proofing</td><td className='px-4 py-3 text-slate-600'>Exterior membrane plus footing drain</td><td className='px-4 py-3 text-slate-600'>$8,000 to $15,000</td></tr>
-                <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Bowing walls with water entry</td><td className='px-4 py-3 text-slate-600'>Structural failure plus hydrostatic pressure</td><td className='px-4 py-3 text-slate-600'>Structural repair first, then waterproofing</td><td className='px-4 py-3 text-slate-600'>$10,000 to $25,000</td></tr>
+                <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Bowing walls with water entry</td><td className='px-4 py-3 text-slate-600'>Structural failure plus hydrostatic pressure</td><td className='px-4 py-3 text-slate-600'><Link href='/articles/bowing-basement-walls' className='text-teal-600 underline hover:text-teal-800'>Structural repair first</Link>, then waterproofing</td><td className='px-4 py-3 text-slate-600'>$10,000 to $25,000</td></tr>
                 <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Musty smell but no visible water</td><td className='px-4 py-3 text-slate-600'>Hidden mold from chronic low-level moisture</td><td className='px-4 py-3 text-slate-600'>Identify moisture source, dehumidifier, possible sealer</td><td className='px-4 py-3 text-slate-600'>$200 to $4,000</td></tr>
                 <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Finished basement with water behind walls</td><td className='px-4 py-3 text-slate-600'>Active moisture trapped by finishing materials</td><td className='px-4 py-3 text-slate-600'>Remove affected materials, waterproof, refinish</td><td className='px-4 py-3 text-slate-600'>$5,000 to $15,000</td></tr>
                 <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Recurring flooding despite existing sump pump</td><td className='px-4 py-3 text-slate-600'>Undersized pump, failed backup, or overwhelmed drain</td><td className='px-4 py-3 text-slate-600'>Upgrade pump, add battery backup, inspect drain tile</td><td className='px-4 py-3 text-slate-600'>$500 to $2,500</td></tr>
@@ -438,7 +575,7 @@ export default function BasementWaterproofingCostPage() {
           <div className='space-y-6 mb-12'>
             <div>
               <h3 className='text-lg font-bold text-slate-900 mb-2'>How much does basement waterproofing cost per square foot?</h3>
-              <p className='text-slate-700 leading-relaxed'>Most basement waterproofing systems cost $3 to $10 per square foot as a rough estimate, but cost per square foot is a misleading metric for waterproofing because the work happens along the perimeter walls, not across the entire floor area. Interior French drain systems are more accurately priced by the linear foot at $60 to $120 per linear foot of perimeter. A 1,000 square foot basement with roughly 130 linear feet of perimeter typically costs $4,500 to $7,500 for an interior French drain and sump pump system. Crack injection costs $250 to $800 per crack regardless of basement size. Exterior waterproofing with membrane and drain tile costs $8,000 to $15,000 for a standard basement.</p>
+              <p className='text-slate-700 leading-relaxed'>Most basement waterproofing systems cost $3 to $10 per square foot as a rough estimate, but cost per square foot is a misleading metric for waterproofing because the work happens along the perimeter walls, not across the entire floor area. Interior French drain systems are more accurately priced by the linear foot at $40 to $85 per linear foot of perimeter. A 1,000 square foot basement with roughly 130 linear feet of perimeter typically costs $5,000 to $10,000 for a full-perimeter interior French drain and sump pump system. Crack injection costs $250 to $800 per crack regardless of basement size. Exterior waterproofing with membrane and drain tile costs $8,000 to $15,000 for a standard basement.</p>
             </div>
             <div>
               <h3 className='text-lg font-bold text-slate-900 mb-2'>Is interior or exterior waterproofing better?</h3>
@@ -446,11 +583,11 @@ export default function BasementWaterproofingCostPage() {
             </div>
             <div>
               <h3 className='text-lg font-bold text-slate-900 mb-2'>How long does a waterproofing system last?</h3>
-              <p className='text-slate-700 leading-relaxed'>Interior French drain systems last 20 to 30 years when properly installed and maintained. Exterior waterproof membranes last 25 to 50 years and are virtually maintenance-free once backfilled. Sump pumps are the component that needs regular replacement, typically every 7 to 10 years at a cost of $500 to $1,500. Battery backup systems need replacement every 3 to 5 years at $100 to $300. Waterproof paint and sealers last only 2 to 5 years before peeling and need reapplication. Crack injections last 10 to 20 years for epoxy and 5 to 15 years for polyurethane.</p>
+              <p className='text-slate-700 leading-relaxed'>Interior French drain systems last 20 to 30 years when properly installed and maintained. Exterior waterproof membranes last 25 to 50 years and are virtually maintenance-free once backfilled. Sump pumps are the component that needs regular replacement, typically every 7 to 10 years at a cost of $650 to $1,200 installed. The backup battery needs replacing every 3 to 5 years at about $50 to $150. Waterproof paint and sealers last only 2 to 5 years before peeling and need reapplication. Crack injections last 10 to 20 years for epoxy and 5 to 15 years for polyurethane.</p>
             </div>
             <div>
               <h3 className='text-lg font-bold text-slate-900 mb-2'>Will waterproofing stop all water?</h3>
-              <p className='text-slate-700 leading-relaxed'>A well-designed waterproofing system stops 95 to 99 percent of water entry under normal conditions. No residential system is 100 percent effective against extreme flooding events such as catastrophic storms or sewer backups that can overwhelm any drainage capacity. The best protection combines good exterior drainage (clean gutters, extended downspouts, proper grading) with an interior French drain and sump pump system. Adding a battery backup sump pump protects against the most common failure scenario &mdash; a power outage during a heavy storm when the primary pump cannot run.</p>
+              <p className='text-slate-700 leading-relaxed'>A well-designed waterproofing system stops 95 to 99 percent of water entry under normal conditions. No residential system is 100 percent effective against extreme flooding events such as catastrophic storms or sewer backups that can overwhelm any drainage capacity. The best protection combines good exterior drainage (clean gutters, extended downspouts, proper grading) with an interior French drain and sump pump system. Adding a battery backup sump pump protects against the most common failure scenario, a power outage during a heavy storm when the primary pump cannot run.</p>
             </div>
             <div>
               <h3 className='text-lg font-bold text-slate-900 mb-2'>Can I finance waterproofing?</h3>
@@ -466,9 +603,12 @@ export default function BasementWaterproofingCostPage() {
             </div>
             <div>
               <h3 className='text-lg font-bold text-slate-900 mb-2'>What&rsquo;s the difference between waterproofing and damp proofing?</h3>
-              <p className='text-slate-700 leading-relaxed'>Damp proofing is a thin, tar-based coating applied to the exterior of foundation walls during new construction to resist soil moisture vapor. Waterproofing is a more robust system (rubber membrane, drainage board, and drain tile) designed to handle liquid water under hydrostatic pressure. Damp proofing does not stop liquid water and is not waterproofing. Many homes built before 1990 received only damp proofing during construction, which is one reason older homes develop basement water problems as the thin coating deteriorates over time. If your home was built before 1990 and has moisture issues, it was almost certainly damp proofed rather than waterproofed.</p>
+              <p className='text-slate-700 leading-relaxed'>Damp proofing is a thin, tar-based coating applied to the exterior of foundation walls during new construction to resist soil moisture vapor. Waterproofing is a more robust system (rubber membrane, drainage board, and drain tile) designed to handle liquid water under hydrostatic pressure. Damp proofing does not stop liquid water and is not waterproofing. Most homes, including many built today, get only damp proofing, because building codes require full waterproofing only where there's a high water table or other severe soil water conditions. As that thin coating ages, it stops resisting even soil moisture, which is one reason older homes develop basement water problems.</p>
             </div>
-          </div>
+          <div><h3 className='text-lg font-bold text-slate-900 mb-2'>How much does it cost to waterproof a basement from the outside?</h3><div dangerouslySetInnerHTML={{ __html: "<p class=\"text-slate-700 leading-relaxed mb-4\">Exterior basement waterproofing, also called foundation waterproofing, usually costs $8,000 to $15,000. The crew digs down to the footings, applies a waterproof membrane and drainage board to the walls, installs drain tile at the footing, and backfills. Deep basements, block or stone walls, and decks, patios, or driveways in the way can push the price to $18,000 or more. It's the most thorough fix, but interior drainage at $3,000 to $8,000 solves most basement water problems for far less.</p>\n" }} /></div>
+<div><h3 className='text-lg font-bold text-slate-900 mb-2'>How much does it cost to seal a basement?</h3><div dangerouslySetInnerHTML={{ __html: "<p class=\"text-slate-700 leading-relaxed mb-4\">Sealing basement walls with a waterproof paint or penetrating sealer costs about $300 to $800 in DIY materials for most basements, or $1,500 to $4,000 for a professional, roughly $1 to $8 per square foot of wall. Sealing individual cracks costs $20 to $50 per crack DIY or $250 to $800 per crack for professional injection. Sealers handle dampness and minor vapor. They won't stop active leaks or water pushed in by hydrostatic pressure. See our <a href=\"/articles/waterproof-basement-paint-sealers\" class=\"text-teal-600 underline hover:text-teal-800\">waterproof paint and sealer picks</a>.</p>\n" }} /></div>
+<div><h3 className='text-lg font-bold text-slate-900 mb-2'>How much does it cost to fix hydrostatic pressure in a basement?</h3><div dangerouslySetInnerHTML={{ __html: "<p class=\"text-slate-700 leading-relaxed mb-4\">Most homeowners pay $3,000 to $8,000 to relieve hydrostatic pressure with an interior French drain and sump pump. The drain gives groundwater a path to the pump before it pushes through the floor and wall joint. A full perimeter on a 1,000 sq ft basement runs about $5,000 to $10,000, and the same system usually handles <a href=\"/articles/water-coming-up-through-basement-floor\" class=\"text-teal-600 underline hover:text-teal-800\">water coming up through the floor</a>. Exterior waterproofing at $8,000 to $15,000 is the alternative when water comes through the wall face. Waterproof paint doesn't hold back hydrostatic pressure.</p>\n" }} /></div>
+<div><h3 className='text-lg font-bold text-slate-900 mb-2'>How do basement waterproofing contractors price a job?</h3><div dangerouslySetInnerHTML={{ __html: "<p class=\"text-slate-700 leading-relaxed mb-4\">Most price interior drainage by the linear foot of wall, typically $40 to $85 per foot, then add the sump pit and pump, battery backup, crack repairs, and any wall membrane. Exterior jobs are usually quoted per job, because digging depth and access drive the cost. Quotes vary widely because companies scope the same basement differently: one may drain every wall while another drains only the leaking ones. Ask each contractor to put the linear footage, pump model, and warranty in writing so you can compare. See <a href=\"/articles/how-to-hire-basement-waterproofing-contractor\" class=\"text-teal-600 underline hover:text-teal-800\">how to hire a waterproofing contractor</a>.</p>\n" }} /></div></div>
 
           {/* Glossary - Expanded */}
           <h2 className='text-3xl font-extrabold text-slate-900 mt-16 mb-6'>Glossary of Basement Waterproofing Terms</h2>
@@ -479,7 +619,7 @@ export default function BasementWaterproofingCostPage() {
             </div>
             <div>
               <h4 className='text-base font-bold text-slate-900'>French Drain</h4>
-              <p className='text-slate-700 leading-relaxed'>A perforated pipe installed in a gravel-filled trench along the interior perimeter of a basement floor to collect groundwater and route it to a sump pump for removal. The trench is cut into the concrete slab at the floor-wall joint where most basement water enters. Interior French drains cost $60 to $120 per linear foot installed and are the most common basement waterproofing method. See our <Link href='/articles/french-drain-cost' className='text-teal-600 underline hover:text-teal-800'>French drain cost guide</Link> and <Link href='/articles/interior-basement-drainage-systems' className='text-teal-600 underline hover:text-teal-800'>interior basement drainage systems guide</Link> for detailed comparisons.</p>
+              <p className='text-slate-700 leading-relaxed'>A perforated pipe installed in a gravel-filled trench along the interior perimeter of a basement floor to collect groundwater and route it to a sump pump for removal. The trench is cut into the concrete slab at the floor-wall joint where most basement water enters. Interior French drains cost $40 to $85 per linear foot installed and are the most common basement waterproofing method. See our <Link href='/articles/french-drain-cost' className='text-teal-600 underline hover:text-teal-800'>French drain cost guide</Link> and <Link href='/articles/interior-basement-drainage-systems' className='text-teal-600 underline hover:text-teal-800'>interior basement drainage systems guide</Link> for detailed comparisons.</p>
             </div>
             <div>
               <h4 className='text-base font-bold text-slate-900'>Sump Pump</h4>
@@ -487,7 +627,7 @@ export default function BasementWaterproofingCostPage() {
             </div>
             <div>
               <h4 className='text-base font-bold text-slate-900'>Vapor Barrier</h4>
-              <p className='text-slate-700 leading-relaxed'>A sheet of polyethylene plastic (typically 6 mil thick) or a specialized membrane installed on basement walls or floors to prevent water vapor from passing through concrete into the living space. A <Link href='/articles/best-vapor-barriers' className='text-teal-600 underline hover:text-teal-800'>vapor barrier</Link> manages moisture in the air (water vapor), while waterproofing systems manage liquid water. Both are needed for a dry, comfortable basement.</p>
+              <div dangerouslySetInnerHTML={{ __html: "<p class=\"text-slate-700 leading-relaxed mb-4\">A material that slows water vapor from passing through it. In basements, a polyethylene vapor barrier belongs on crawl space floors and under concrete slabs. It does not belong on the inside of basement walls, where plastic sheeting traps moisture against the concrete and can cause mold in framing and insulation. On walls, rigid foam board glued tight to the concrete handles vapor control instead. A vapor barrier manages water vapor. Waterproofing systems manage liquid water. See our <a href=\"/articles/best-vapor-barriers\" class=\"text-teal-600 underline hover:text-teal-800\">vapor barrier guide</a>.</p>\n" }} />
             </div>
             <div>
               <h4 className='text-base font-bold text-slate-900'>Membrane</h4>
@@ -503,7 +643,7 @@ export default function BasementWaterproofingCostPage() {
             </div>
             <div>
               <h4 className='text-base font-bold text-slate-900'>Grading</h4>
-              <p className='text-slate-700 leading-relaxed'>The slope of the ground surface around a home&rsquo;s foundation. Proper grading directs surface water (rain and snowmelt) away from the foundation at a rate of at least 1 inch of drop per foot for the first 6 feet. Improper grading is the single most common &mdash; and most easily corrected &mdash; cause of basement water problems. Correcting grading is free or low-cost and should always be the first step before investing in interior or exterior waterproofing systems.</p>
+              <p className='text-slate-700 leading-relaxed'>The slope of the ground surface around a home&rsquo;s foundation. Proper grading directs surface water (rain and snowmelt) away from the foundation at a rate of at least 1 inch of drop per foot for the first 6 feet. Improper grading is the single most common, and most easily corrected, cause of basement water problems. Correcting grading is free or low-cost and should always be the first step before investing in interior or exterior waterproofing systems.</p>
             </div>
           </div>
 
@@ -513,7 +653,7 @@ export default function BasementWaterproofingCostPage() {
             <li className='mb-3'><strong>Start outside.</strong> Before spending a dollar on interior waterproofing, fix your gutters, extend your downspouts, and correct your grading. These are cheap or free and solve the problem for more homeowners than you&rsquo;d expect.</li>
             <li className='mb-3'><strong>Don&rsquo;t put it off.</strong> Water damage is progressive. A $5,000 fix today prevents a $15,000 fix in three years. Every year you wait, the problem gets more expensive.</li>
             <li className='mb-3'><strong>Get multiple quotes.</strong> Three to five written estimates from licensed, insured contractors. Compare specifics, not just bottom-line numbers.</li>
-            <li className='mb-3'><strong>Invest in the pump.</strong> If you&rsquo;re getting an interior system, don&rsquo;t let the contractor install the cheapest pump available. A quality submersible pump with a battery backup is the heart of the system &mdash; and the part that saves your basement during a power outage in a storm.</li>
+            <li className='mb-3'><strong>Invest in the pump.</strong> If you&rsquo;re getting an interior system, don&rsquo;t let the contractor install the cheapest pump available. A quality submersible pump with a battery backup is the heart of the system, and the part that saves your basement during a power outage in a storm.</li>
             <li className='mb-3'><strong>Waterproof before you finish.</strong> If you&rsquo;re planning to <Link href='/articles/how-to-finish-a-basement' className='text-teal-600 underline hover:text-teal-800'>finish your basement</Link>, waterproof first. Always. No exceptions.</li>
           </ul>
           <p className='text-slate-700 leading-relaxed mb-6'>
@@ -544,7 +684,7 @@ export default function BasementWaterproofingCostPage() {
             </Link>
             <Link href='/articles/how-to-finish-a-basement' className='group block bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:border-indigo-300 hover:shadow-lg transition-all'>
               <h3 className='text-lg font-bold text-slate-900 mb-2 group-hover:text-indigo-600'>How to Finish a Basement</h3>
-              <p className='text-slate-600 text-sm'>Step-by-step guide &mdash; waterproof first!</p>
+              <p className='text-slate-600 text-sm'>Step-by-step guide, waterproof first!</p>
             </Link>
             <Link href='/articles/diy-vs-hiring-pro-basement-projects' className='group block bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:border-indigo-300 hover:shadow-lg transition-all'>
               <h3 className='text-lg font-bold text-slate-900 mb-2 group-hover:text-indigo-600'>DIY vs Hire a Pro</h3>
@@ -554,7 +694,11 @@ export default function BasementWaterproofingCostPage() {
               <h3 className='text-lg font-bold text-slate-900 mb-2 group-hover:text-indigo-600'>Complete Waterproofing Guide</h3>
               <p className='text-slate-600 text-sm'>Everything about waterproofing methods, not just costs.</p>
             </Link>
-          </div>
+          <Link href='/articles/interior-basement-drainage-systems' className='group block bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:border-indigo-300 hover:shadow-lg transition-all'><h3 className='text-lg font-bold text-slate-900 mb-2 group-hover:text-indigo-600'>Interior Basement Drainage Systems</h3></Link>
+<Link href='/articles/problems/basement-flooding-cleanup' className='group block bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:border-indigo-300 hover:shadow-lg transition-all'><h3 className='text-lg font-bold text-slate-900 mb-2 group-hover:text-indigo-600'>Basement Flood Cleanup Cost</h3></Link>
+<Link href='/articles/bowing-basement-walls' className='group block bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:border-indigo-300 hover:shadow-lg transition-all'><h3 className='text-lg font-bold text-slate-900 mb-2 group-hover:text-indigo-600'>Bowing Basement Walls</h3></Link>
+<Link href='/articles/best-sump-pumps-2026' className='group block bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:border-indigo-300 hover:shadow-lg transition-all'><h3 className='text-lg font-bold text-slate-900 mb-2 group-hover:text-indigo-600'>Best Sump Pumps for 2026</h3></Link>
+<Link href='/articles/waterproof-basement-paint-sealers' className='group block bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:border-indigo-300 hover:shadow-lg transition-all'><h3 className='text-lg font-bold text-slate-900 mb-2 group-hover:text-indigo-600'>Waterproof Basement Paint and Sealers</h3></Link></div>
 
 
           {/* Cross-Network Links */}
@@ -568,7 +712,7 @@ export default function BasementWaterproofingCostPage() {
             </p>
           </div>
           {/* Lead Form */}
-          <BeehiivEmailCapture />
+          <BeehiivEmailCapture avoidEmDash />
 
           <LeadForm />
         </div>

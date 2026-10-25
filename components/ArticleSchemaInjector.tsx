@@ -12,7 +12,7 @@ export default function ArticleSchemaInjector() {
   if (!article) return null
 
   // This page supplies its complete, date-specific JSON-LD directly.
-  if (['how-to-winterize-a-basement', 'sump-pump-running-constantly', 'wet-basement-walls', 'sump-pump-design-ideas', 'best-sump-pumps-2026', 'best-water-leak-detectors', 'basement-humidity-guide', 'french-drain-cost', 'sump-pump-cost', 'best-basement-dehumidifiers', 'interior-basement-drainage-systems'].includes(slug)) return null
+  if (['basement-waterproofing-cost', 'how-to-winterize-a-basement', 'sump-pump-running-constantly', 'wet-basement-walls', 'sump-pump-design-ideas', 'best-sump-pumps-2026', 'best-water-leak-detectors', 'basement-humidity-guide', 'french-drain-cost', 'sump-pump-cost', 'best-basement-dehumidifiers', 'interior-basement-drainage-systems'].includes(slug)) return null
 
   const baseUrl = 'https://thebasement.guide'
   const pageUrl = `${baseUrl}/articles/${slug}`
