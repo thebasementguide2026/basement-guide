@@ -4,97 +4,217 @@ import LeadForm from '@/components/LeadForm'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Best Dehumidifiers for Basements 2026: Top Brands & Systems Reviewed | The Basement Guide',
-  description: 'The best basement dehumidifiers compared by capacity, drainage type, and price. Top picks for large and small basements, whole-home systems, and the brands that actually last.',
-  alternates: { canonical: 'https://thebasement.guide/articles/best-basement-dehumidifiers' },
+  "title": "Best Dehumidifiers for Basements 2026: 6 Picks for Damp, Cold, and No-Drain Basements | The Basement Guide",
+  "description": "The best basement dehumidifiers for 2026, from $250 50-pint units with built-in pumps to whole-basement systems. Sizing chart by square footage, pump vs. drain, and picks for cold basements.",
+  "alternates": {
+    "canonical": "https://thebasement.guide/articles/best-basement-dehumidifiers"
+  },
+  "openGraph": {
+    "title": "Best Dehumidifiers for Basements 2026: 6 Picks for Damp, Cold, and No-Drain Basements | The Basement Guide",
+    "description": "The best basement dehumidifiers for 2026, from $250 50-pint units with built-in pumps to whole-basement systems. Sizing chart by square footage, pump vs. drain, and picks for cold basements."
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "Best Dehumidifiers for Basements 2026: 6 Picks for Damp, Cold, and No-Drain Basements | The Basement Guide",
+    "description": "The best basement dehumidifiers for 2026, from $250 50-pint units with built-in pumps to whole-basement systems. Sizing chart by square footage, pump vs. drain, and picks for cold basements."
+  }
 }
 
 export default function BestBasementDehumidifiers() {
   const jsonLd = {
-    '@context': 'https://schema.org',
-    '@graph': [
-      {
-        '@type': 'Article',
-        headline: 'Best Basement Dehumidifiers 2026: Top 5 Picks Reviewed and Compared',
-        description: 'Top-rated basement dehumidifiers for 2026. Expert reviews of 50-pint models for mold prevention and moisture control.',
-        url: 'https://thebasement.guide/articles/best-basement-dehumidifiers',
-        image: 'https://thebasement.guide/topdehumidfier.jpg',
-        datePublished: '2025-03-01',
-        dateModified: '2026-03-13',
-        author: { '@type': 'Organization', name: 'Basement Guide', url: 'https://thebasement.guide' },
-        publisher: { '@type': 'Organization', name: 'Basement Guide', url: 'https://thebasement.guide', logo: { '@type': 'ImageObject', url: 'https://thebasement.guide/TheBasement%20Guide%20Logo.png' } },
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Best Basement Dehumidifiers 2026, 6 Picks by Size, Drain Setup, and Temperature",
+      "description": "The best basement dehumidifiers for 2026, from $250 50-pint units with built-in pumps to whole-basement systems. Sizing chart by square footage, pump vs. drain, and picks for cold basements.",
+      "url": "https://thebasement.guide/articles/best-basement-dehumidifiers",
+      "image": "https://thebasement.guide/topdehumidfier.jpg",
+      "datePublished": "2025-03-01",
+      "dateModified": "2026-10-24",
+      "author": {
+        "@type": "Organization",
+        "name": "The Basement Guide Editorial Team",
+        "url": "https://thebasement.guide"
       },
-      {
-        '@type': 'BreadcrumbList',
-        itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://thebasement.guide' },
-          { '@type': 'ListItem', position: 2, name: 'Articles', item: 'https://thebasement.guide/articles' },
-          { '@type': 'ListItem', position: 3, name: 'Best Basement Dehumidifiers', item: 'https://thebasement.guide/articles/best-basement-dehumidifiers' },
-        ],
-      },
-      {
-        '@type': 'FAQPage',
-        mainEntity: [
-          {
-            '@type': 'Question',
-            name: 'What size dehumidifier do I need for my basement?',
-            acceptedAnswer: { '@type': 'Answer', text: 'For most basements up to 1,500 square feet with moderate dampness, a 50-pint dehumidifier is the right choice. Very damp basements may need a 50 to 70 pint unit, and wet basements with standing water after rain may need 70 pints or more.' },
-          },
-          {
-            '@type': 'Question',
-            name: 'How much does it cost to run a basement dehumidifier?',
-            acceptedAnswer: { '@type': 'Answer', text: 'A 50-pint Energy Star dehumidifier running 12 hours per day costs approximately $80 to $130 per year in electricity. All five models in this roundup use washable filters, so there is no ongoing filter replacement cost.' },
-          },
-          {
-            '@type': 'Question',
-            name: 'Do I need a dehumidifier with a built-in pump?',
-            acceptedAnswer: { '@type': 'Answer', text: 'You need a built-in pump if your basement does not have a floor drain at or below the level of the dehumidifier. A pump pushes collected water upward through a hose to a sink, utility drain, or out a window.' },
-          },
-          {
-            '@type': 'Question',
-            name: 'Will a dehumidifier get rid of musty basement smell?',
-            acceptedAnswer: { '@type': 'Answer', text: 'A dehumidifier reduces musty smell by lowering the humidity that feeds mold and mildew. In most cases, running a dehumidifier at 45 to 50 percent humidity for 1 to 2 weeks significantly reduces or eliminates the smell.' },
-          },
-          {
-            '@type': 'Question',
-            name: 'Can a dehumidifier prevent mold in my basement?',
-            acceptedAnswer: { '@type': 'Answer', text: 'A dehumidifier is the single most effective tool for preventing mold in a basement after water intrusion has been addressed. Mold requires moisture above 60 percent relative humidity to grow.' },
-          },
-          {
-            '@type': 'Question',
-            name: 'Should I run my basement dehumidifier all the time?',
-            acceptedAnswer: { '@type': 'Answer', text: 'Yes. Basements generate moisture continuously. Set the unit to your target humidity of 45 to 50 percent and let it run continuously. The built-in humidistat will cycle the compressor on and off automatically.' },
-          },
-          {
-            '@type': 'Question',
-            name: 'Do I need both a dehumidifier and an air purifier in my basement?',
-            acceptedAnswer: { '@type': 'Answer', text: 'For most basements with moisture problems, yes. A dehumidifier removes excess moisture but does not filter airborne particles. An air purifier captures mold spores, dust, and allergens. Running both provides complete air quality management.' },
-          },
-          {
-            '@type': 'Question',
-            name: 'What humidity level should I set my basement dehumidifier to?',
-            acceptedAnswer: { '@type': 'Answer', text: 'Set your basement dehumidifier to 45 to 50 percent relative humidity. This range prevents mold growth, reduces dust mite populations, prevents condensation, and keeps the air comfortable.' },
-          },
-          {
-            '@type': 'Question',
-            name: 'How long do basement dehumidifiers last?',
-            acceptedAnswer: { '@type': 'Answer', text: 'Consumer-grade 50-pint basement dehumidifiers last 5 to 8 years with regular maintenance. Commercial-grade units like the AlorAir Sentinel HD55 last 10 to 15 years.' },
-          },
-        ],
-      },
-      {
-        '@type': 'ItemList',
-        name: 'Best Basement Dehumidifiers 2026',
-        itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Midea 50 Pint Cube', url: 'https://amzn.to/4bkRWDV' },
-          { '@type': 'ListItem', position: 2, name: 'hOmeLabs 50 Pint', url: 'https://amzn.to/472xTIO' },
-          { '@type': 'ListItem', position: 3, name: 'Frigidaire Gallery 50 Pint', url: 'https://amzn.to/46xBQVT' },
-          { '@type': 'ListItem', position: 4, name: 'GE APER50LZ', url: 'https://amzn.to/4sn6wBH' },
-          { '@type': 'ListItem', position: 5, name: 'AlorAir Sentinel HD55', url: 'https://amzn.to/4cjqhFt' },
-        ],
-      },
-    ],
-  }
+      "publisher": {
+        "@type": "Organization",
+        "name": "Basement Guide",
+        "url": "https://thebasement.guide",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://thebasement.guide/TheBasement%20Guide%20Logo.png"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://thebasement.guide"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Articles",
+          "item": "https://thebasement.guide/articles"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Best Basement Dehumidifiers",
+          "item": "https://thebasement.guide/articles/best-basement-dehumidifiers"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What size dehumidifier do I need for my basement?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Use current DOE ratings. A damp basement up to 1,000 sq ft needs 22 to 35 pints, a basement of 1,000 to 1,500 sq ft or one with wet spots needs 35 to 50 pints, and anything larger or very wet needs a 50-pint unit or a whole-basement system. A 50-pint unit sold today is roughly equal to an older 70-pint rating."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does it cost to run a basement dehumidifier?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A 50-pint Energy Star dehumidifier running 12 hours per day costs approximately $80 to $130 per year in electricity at average U.S. rates. All five models use washable filters, so there is no ongoing filter cost. Over 3 years including purchase price, total ownership ranges from $410 for the Midea Cube to $1,450 for the AlorAir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a dehumidifier with a built-in pump?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You need a built-in pump if your basement does not have a floor drain at or below the level of the dehumidifier. A pump pushes collected water upward through a hose to a sink, utility drain, or out a window. The hOmeLabs, Frigidaire Gallery, and GE APER50LZ all include built-in pumps. The GE pump is the strongest at 15 feet of vertical lift."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will a dehumidifier get rid of musty basement smell?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A dehumidifier reduces musty smell by lowering the humidity that feeds mold and mildew. In most cases, running a dehumidifier at 45 to 50 percent humidity for 1 to 2 weeks significantly reduces or eliminates the smell. If the odor persists, active mold colonies may be present. See our musty basement smell guide and mold prevention guide."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a dehumidifier prevent mold in my basement?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A dehumidifier is the single most effective tool for preventing mold after water intrusion has been addressed. Mold requires moisture above 60 percent relative humidity to grow. A dehumidifier set to 45 to 50 percent keeps conditions below the threshold. However, it does not kill existing mold or fix water intrusion. See our mold prevention guide and mold remediation cost guide."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I run my basement dehumidifier all the time?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Basements generate moisture continuously from concrete walls, soil contact, humid air infiltrating through windows and gaps, and condensation on cold surfaces. Set the unit to your target humidity (45 to 50 percent) and let it run continuously. The built-in humidistat will cycle the compressor on and off automatically. Energy Star models are designed for continuous operation at reasonable electricity cost."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need both a dehumidifier and an air purifier in my basement?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For most basements with moisture problems, yes. A dehumidifier removes excess moisture but does not filter airborne particles, mold spores, or chemical pollutants. An air purifier with a HEPA filter captures mold spores, dust, and allergens, and an activated carbon layer removes musty odors and VOCs. See our best basement air purifiers guide."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What humidity level should I set my basement dehumidifier to?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Set your basement dehumidifier to 45 to 50 percent relative humidity. This prevents mold growth (begins above 60 percent), reduces dust mite populations (thrive above 50 percent), prevents condensation on cold surfaces, and keeps the air comfortable. In winter, you may reduce to 40 to 45 percent. See our basement humidity guide for seasonal targets."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long do basement dehumidifiers last?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Consumer-grade 50-pint basement dehumidifiers last 5 to 8 years with regular maintenance (filter cleaning every 2 weeks, coil cleaning every 6 months, drain line maintenance annually). Commercial-grade units like the AlorAir Sentinel HD55 last 10 to 15 years. Signs of needed replacement include running continuously without reaching target humidity, unusual noises, and persistent ice buildup."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does a basement dehumidifier cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A good portable 50-pint basement dehumidifier costs about $250 to $350, and models with a built-in pump sit at the top of that range. Running one costs roughly $80 to $120 a year in electricity. A whole-basement system like the AprilAire E070 typically costs $1,300 to $2,800 installed, including the unit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What size dehumidifier do I need for a 1,000 sq ft basement?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Under current DOE ratings, a damp 1,000 sq ft basement needs about 22 to 35 pints, and one with wet spots or seepage needs 35 to 50 pints. Most people buy a 50-pint unit for a 1,000 sq ft basement because it handles humid summers without running nonstop. If it still can't hold the room under 60%, look for a water problem before buying a bigger unit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a dehumidifier with a pump for my basement?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Only if you don't have a floor drain where the dehumidifier sits. With a floor drain, a regular unit with a continuous drain hose works fine. Without one, a built-in pump like the GE APER50LZ's lets you run a hose up to a sink, a window, or a sump pit, so the unit never shuts off because the bucket is full."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Best Basement Dehumidifiers 2026",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Midea 50 Pint Cube",
+          "url": "https://amzn.to/4bkRWDV"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "hOmeLabs 50 Pint",
+          "url": "https://amzn.to/472xTIO"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Frigidaire Gallery 50 Pint",
+          "url": "https://amzn.to/46xBQVT"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "GE APER50LZ",
+          "url": "https://amzn.to/4sn6wBH"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "AlorAir Sentinel HD55",
+          "url": "https://amzn.to/4cjqhFt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "AprilAire E070",
+          "url": "https://link.amazon/B0aNDuQyc"
+        }
+      ]
+    }
+  ]
+}
 
   return (
     <>
@@ -102,16 +222,19 @@ export default function BestBasementDehumidifiers() {
       <div className='max-w-6xl mx-auto px-4 py-8'>
 
         {/* Hero */}
-        <div className='relative h-72 md:h-96 rounded-2xl overflow-hidden mb-8'>
+        <div className='relative h-[28rem] md:h-96 rounded-2xl overflow-hidden mb-8'>
           <Image src='/topdehumidfier.jpg' alt='Best basement dehumidifiers for moisture control' fill className='object-cover' priority />
           <div className='absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-8'>
             <div>
               <p className='text-teal-300 text-sm font-medium mb-2'>Reviews</p>
-              <h1 className='text-3xl md:text-5xl font-bold text-white leading-tight'>Best Basement Dehumidifiers<br /><span className='text-teal-300'>2026</span></h1>
-              <p className='text-slate-300 mt-2'>Top 5 Picks Reviewed and Compared</p>
+              <h1 className='text-3xl md:text-5xl font-bold text-white leading-tight'>Best Basement Dehumidifiers 2026, 6 Picks by Size, Drain Setup, and Temperature</h1>
+              <div className='mt-4 text-sm text-slate-200'><p className='font-semibold'>By The Basement Guide Editorial Team</p><p>Updated October 2026 · 25 min read</p></div>
+              <p className='text-slate-300 mt-2'>Top 6 Picks Reviewed and Compared</p>
             </div>
           </div>
         </div>
+
+        <aside data-dehumidifier-tldr className='bg-teal-50 border border-teal-200 rounded-xl p-6 mb-8'><h2 className='text-xl font-bold text-slate-900 mb-3'>TL;DR</h2><div dangerouslySetInnerHTML={{ __html: "<ul class=\"list-disc pl-6 text-slate-700 space-y-2 mb-4\">\n<li><strong>Best overall:</strong> Midea 50 Pint Cube. Quiet, efficient, and it runs down to 41°F. Add the drain hose or an add-on pump if you don't want to empty a bucket.</li>\n<li><strong>Best for basements without a floor drain:</strong> GE APER50LZ. Its built-in pump pushes water up to 15 feet vertically to a sink or out a window.</li>\n<li><strong>Best smart features:</strong> hOmeLabs 50 Pint, with a built-in pump and app control.</li>\n<li><strong>Best for large or very wet basements:</strong> AprilAire E070, a 70-pint whole-basement system that drains on its own and can be ducted to more than one room.</li>\n<li><strong>Best for cold basements and crawl spaces:</strong> AlorAir Sentinel HD55, built to keep working in cool, damp spaces.</li>\n<li><strong>Size by your basement,</strong> not the box. Most basements up to 1,500 sq ft need a 35 to 50 pint unit under current ratings. Set it to 45% humidity.</li>\n</ul>\n" }} /></aside>
 
         {/* Two Column Layout */}
         <div className='flex flex-col lg:flex-row gap-8'>
@@ -125,7 +248,7 @@ export default function BestBasementDehumidifiers() {
 
             {/* Definition Intro */}
             <p className='text-lg text-slate-700 leading-relaxed mb-4'>
-              A basement dehumidifier is a compressor-based appliance that removes excess moisture from below-grade air to maintain relative humidity between 30 and 50 percent, preventing mold growth, musty odors, wood rot, and condensation damage. The best basement dehumidifiers in 2026 cost $250 to $1,000, remove 50 to 55 pints of moisture per day under DOE 2019 test standards, and include features like built-in pumps, smart app control, and low-temperature operation down to 38 to 41 degrees Fahrenheit. This guide reviews the top 5 models and helps you choose the right one for your basement.
+              A basement dehumidifier is a compressor-based appliance that removes excess moisture from below-grade air to maintain relative humidity between 30 and 50 percent, preventing mold growth, musty odors, wood rot, and condensation damage. The best basement dehumidifiers in 2026 cost $250 to $1,000, remove 50 to 55 pints of moisture per day under DOE 2019 test standards, and include features like built-in pumps, smart app control, and low-temperature operation down to 38 to 41 degrees Fahrenheit. This guide reviews the top 6 models and helps you choose the right one for your basement.
             </p>
 
             <p className='text-slate-700 leading-relaxed mb-4'>
@@ -160,7 +283,7 @@ export default function BestBasementDehumidifiers() {
                   <tr className='bg-white border-b border-slate-100'>
                     <td className='p-3 font-medium'>Midea 50 Pint Cube</td>
                     <td className='p-3'>50 pints/day</td>
-                    <td className='p-3'>Up to 4,500 sq ft</td>
+                    <td className='p-3'>1,000 to 1,500 sq ft, or wet spots</td>
                     <td className='p-3'>No (add-on)</td>
                     <td className='p-3'>Wi-Fi app</td>
                     <td className='p-3'>Under 50 dB</td>
@@ -170,7 +293,7 @@ export default function BestBasementDehumidifiers() {
                   <tr className='bg-slate-50 border-b border-slate-100'>
                     <td className='p-3 font-medium'>hOmeLabs 50 Pint</td>
                     <td className='p-3'>50 pints/day</td>
-                    <td className='p-3'>Up to 4,500 sq ft</td>
+                    <td className='p-3'>1,000 to 1,500 sq ft, or wet spots</td>
                     <td className='p-3'>Built-in</td>
                     <td className='p-3'>Wi-Fi + voice</td>
                     <td className='p-3'>45 dB</td>
@@ -180,7 +303,7 @@ export default function BestBasementDehumidifiers() {
                   <tr className='bg-white border-b border-slate-100'>
                     <td className='p-3 font-medium'>Frigidaire Gallery 50 Pint</td>
                     <td className='p-3'>50 pints/day</td>
-                    <td className='p-3'>Up to 4,500 sq ft</td>
+                    <td className='p-3'>1,000 to 1,500 sq ft, or wet spots</td>
                     <td className='p-3'>Built-in</td>
                     <td className='p-3'>Wi-Fi app</td>
                     <td className='p-3'>47 dB</td>
@@ -190,7 +313,7 @@ export default function BestBasementDehumidifiers() {
                   <tr className='bg-slate-50 border-b border-slate-100'>
                     <td className='p-3 font-medium'>GE APER50LZ</td>
                     <td className='p-3'>50 pints/day</td>
-                    <td className='p-3'>Up to 4,500 sq ft</td>
+                    <td className='p-3'>1,000 to 1,500 sq ft, or wet spots</td>
                     <td className='p-3'>Built-in (15 ft)</td>
                     <td className='p-3'>Wi-Fi app</td>
                     <td className='p-3'>47 dB</td>
@@ -207,9 +330,12 @@ export default function BestBasementDehumidifiers() {
                     <td className='p-3'>$800 to $1,000</td>
                     <td className='p-3'>Severe humidity and crawl spaces</td>
                   </tr>
+                <tr className='bg-slate-50'><td className='p-3 font-medium'>AprilAire E070</td><td className='p-3'>70 pints</td><td className='p-3'>Up to 2,200 sq ft</td><td className='p-3'>Gravity drain (no pump, no bucket)</td><td className='p-3'></td><td className='p-3'></td><td className='p-3'>$1,300 to $2,800 installed</td><td className='p-3'>Best Whole-Basement Dehumidifier</td></tr>
                 </tbody>
               </table>
             </div>
+
+<div dangerouslySetInnerHTML={{ __html: "<h2 class=\"text-2xl font-bold text-slate-900 mb-4\">How We Chose These Dehumidifiers</h2>\n<p class=\"text-slate-700 leading-relaxed mb-4\">We did not bench-test these units ourselves. We compared manufacturer specs, independent reviews from outlets that tested them, and long-term owner reports, and focused on what matters in a basement specifically:</p>\n<ul class=\"list-disc pl-6 text-slate-700 space-y-2 mb-4\">\n<li><strong>Real capacity under current ratings.</strong> Dehumidifier ratings changed in 2019, and a unit sold today as 50 pints is roughly what used to be labeled 70 pints. We compared everything on the current standard.</li>\n<li><strong>Cold-temperature performance.</strong> Basements often sit between 55°F and 65°F. We favored units with auto-defrost that keep pulling water when the room is cool.</li>\n<li><strong>Drainage options.</strong> A dehumidifier that stops every time the bucket fills isn't protecting your basement. We weighed built-in pumps, continuous drain hoses, and gravity drains.</li>\n<li><strong>Energy use and noise.</strong> These run for hours a day, sometimes all summer.</li>\n<li><strong>Owner-reported reliability,</strong> including compressor failures, pump failures, and how long units last.</li>\n</ul>\n" }} />
 
             {/* Annual Cost of Ownership */}
             <h2 className='text-2xl font-bold text-slate-900 mb-4'>Annual Cost of Ownership</h2>
@@ -234,7 +360,7 @@ export default function BestBasementDehumidifiers() {
                     <td className='p-3'>$250 to $300</td>
                     <td className='p-3'>$80 to $120</td>
                     <td className='p-3'>Washable (free)</td>
-                    <td className='p-3'>$410 to $660</td>
+                    <td className='p-3'>$490 to $660</td>
                     <td className='p-3'>Yes</td>
                   </tr>
                   <tr className='bg-slate-50 border-b border-slate-100'>
@@ -280,13 +406,7 @@ export default function BestBasementDehumidifiers() {
             <h2 className='text-2xl font-bold text-slate-900 mb-4'>How to Choose the Right Basement Dehumidifier</h2>
 
             <h3 className='text-xl font-bold text-slate-900 mb-2'>Get the Right Capacity</h3>
-            <p className='text-slate-700 leading-relaxed mb-4'>
-              For most basements, a 50-pint dehumidifier is the right starting point. A 50-pint unit removes 50 pints (approximately 6.25 gallons) of water from the air per day under DOE 2019 test conditions (65 degrees Fahrenheit, 60 percent relative humidity). This handles basements up to 4,500 square feet with moderate dampness.
-            </p>
-            <p className='text-slate-700 leading-relaxed mb-4'>
-              If your basement is very damp (visible condensation on pipes, musty smell year-round) or wet (standing water after rain, active seepage), you may need a higher-capacity unit or two units in different zones. For a detailed sizing chart and the formula to calculate exact capacity for your space, see our <Link href='/articles/dehumidifier-myths' className='text-teal-700 underline font-medium'>dehumidifier myths and sizing guide</Link>, which covers the science of proper sizing step by step.
-            </p>
-
+<div dangerouslySetInnerHTML={{ __html: "<p class=\"text-slate-700 leading-relaxed mb-4\">Size your dehumidifier by your basement's square footage and how damp it is, using current DOE ratings:</p>\n<div class=\"overflow-x-auto mb-10 max-w-full\"><table class=\"w-full min-w-[640px] text-sm border border-slate-200 rounded-lg overflow-hidden\">\n<thead class=\"bg-teal-700 text-white\">\n<tr>\n<th class=\"p-3 text-left\">Basement Size and Condition</th>\n<th class=\"p-3 text-left\">Capacity (Current DOE Rating)</th>\n<th class=\"p-3 text-left\">Our Pick</th>\n</tr>\n</thead>\n<tbody><tr class=\"bg-white border-b border-slate-100\">\n<td class=\"p-3 text-left\">Up to 1,000 sq ft, damp or musty</td>\n<td class=\"p-3 text-left\">22 to 35 pints</td>\n<td class=\"p-3 text-left\">Any 50-pint pick below. It will cycle less and last longer.</td>\n</tr>\n<tr class=\"bg-slate-50 border-b border-slate-100\">\n<td class=\"p-3 text-left\">1,000 to 1,500 sq ft, or wet spots</td>\n<td class=\"p-3 text-left\">35 to 50 pints</td>\n<td class=\"p-3 text-left\">Midea 50 Pint Cube or GE APER50LZ</td>\n</tr>\n<tr class=\"bg-white border-b border-slate-100\">\n<td class=\"p-3 text-left\">Over 1,500 sq ft, or very wet</td>\n<td class=\"p-3 text-left\">50 pints, or a whole-basement system</td>\n<td class=\"p-3 text-left\">AprilAire E070</td>\n</tr>\n</tbody></table></div>\n<p class=\"text-slate-700 leading-relaxed mb-4\"><strong>About the \"up to 4,500 sq ft\" claim:</strong> many manufacturers advertise 50-pint units for spaces up to 4,500 square feet. That number assumes moderately damp air in open space. A real basement with seepage, a laundry area, or poor airflow needs far more capacity per square foot, so use the table above instead. For what to set it to and how humidity changes by season, see our <a href=\"/articles/basement-humidity-guide\" class=\"text-teal-700 underline font-medium\">basement humidity guide</a>.</p>\n" }} />
             <h3 className='text-xl font-bold text-slate-900 mb-2'>Built-In Pump vs Gravity Drain</h3>
             <p className='text-slate-700 leading-relaxed mb-4'>
               This is the most important feature decision for basement use. A dehumidifier collects water in an internal tank or drains it through a hose. In a basement, you have three drainage options:
@@ -300,7 +420,7 @@ export default function BestBasementDehumidifiers() {
 
             <h3 className='text-xl font-bold text-slate-900 mb-2'>Low-Temperature Operation</h3>
             <p className='text-slate-700 leading-relaxed mb-4'>
-              Basements are cooler than the rest of the house, typically 55 to 65 degrees Fahrenheit. Standard dehumidifiers lose efficiency below 65 degrees and can ice up below 50 degrees. All five models in this roundup are rated for low-temperature operation with auto-defrost, but the operating range varies. The GE APER50LZ operates down to 38 degrees Fahrenheit, making it the best choice for unheated basements and three-season use. The Midea Cube operates down to 41 degrees. The AlorAir Sentinel HD55 is designed specifically for cold, humid environments like crawl spaces and unheated basements.
+              Basements are cooler than the rest of the house, typically 55 to 65 degrees Fahrenheit. Most standard dehumidifiers lose efficiency below about 65°F, and units without auto-defrost can frost over in a cool basement. Models with auto-defrost keep working down to about 41°F. The GE APER50LZ operates down to 38 degrees Fahrenheit, making it the best choice for unheated basements and three-season use. The Midea Cube operates down to 41 degrees. The AlorAir Sentinel HD55 is designed specifically for cold, humid environments like crawl spaces and unheated basements.
             </p>
 
             <h3 className='text-xl font-bold text-slate-900 mb-2'>Smart Controls and Wi-Fi</h3>
@@ -313,8 +433,8 @@ export default function BestBasementDehumidifiers() {
               <Image src='/topdehumidfier.jpg' alt='Top basement dehumidifiers for moisture control' fill className='object-cover' />
             </div>
 
-            {/* Our Top 5 Picks */}
-            <h2 className='text-2xl font-bold text-slate-900 mb-6'>Our Top 5 Picks for 2026</h2>
+            {/* Our Top 6 Picks */}
+            <h2 className='text-2xl font-bold text-slate-900 mb-6'>Our Top 6 Picks for 2026</h2>
 
             {/* Product 1: Midea */}
             <div className='bg-white border border-slate-200 rounded-xl p-6 mb-6 shadow-sm'>
@@ -324,12 +444,12 @@ export default function BestBasementDehumidifiers() {
                 The Midea 50 Pint Cube tops our list for its combination of performance, compact design, and value. The unique cube shape with a lift-out water tank (you carry it like a bucket) makes it the most space-efficient 50-pint model on the market. It fits in tight basement corners and against walls where tower-style units would block walkways.
               </p>
               <p className='text-slate-700 leading-relaxed mb-4'>
-                Performance is strong: 50 pints per day at DOE 2019 conditions, coverage up to 4,500 square feet, and operation down to 41 degrees Fahrenheit with automatic defrost. The compressor is quieter than most competitors at under 50 dB on low speed. The VeSync app provides real-time humidity readings, scheduling, and remote control.
+                Performance is strong: 50 pints per day at DOE 2019 conditions, capacity for 1,000 to 1,500 sq ft, or wet spots, and operation down to 41 degrees Fahrenheit with automatic defrost. The compressor is quieter than most competitors at under 50 dB on low speed. The VeSync app provides real-time humidity readings, scheduling, and remote control.
               </p>
               <p className='text-slate-700 leading-relaxed mb-4'>
                 The main limitation is the lack of a built-in pump. If your basement has a floor drain, this is a non-issue because you run a gravity drain hose directly to the drain. If you need to pump water upward, you will need to add an external condensate pump ($30 to $60). The washable filter saves money over the life of the unit because there are no replacement filters to buy.
               </p>
-              <p className='text-slate-700 text-sm mb-4'><strong>Specs:</strong> 50 pints/day, 4,500 sq ft coverage, 41 degrees F minimum, under 50 dB, Wi-Fi app control, Energy Star, washable filter, lift-out bucket tank.</p>
+              <p className='text-slate-700 text-sm mb-4'><strong>Specs:</strong> 50 pints/day, 1,000 to 1,500 sq ft, or wet spots, 41 degrees F minimum, under 50 dB, Wi-Fi app control, Energy Star, washable filter, lift-out bucket tank.</p>
               <div className='grid grid-cols-1 md:grid-cols-2 gap-4 mb-3'>
                 <div className='bg-green-50 rounded-lg p-4 border border-green-200'>
                   <h4 className='font-bold text-green-800 mb-2'>Pros</h4>
@@ -353,7 +473,7 @@ export default function BestBasementDehumidifiers() {
               </div>
               <p className='text-slate-700 text-sm mb-3'><strong>Best for:</strong> Most basements with a floor drain or where an external pump add-on is acceptable. Best value in the 50-pint category.</p>
               <p className='text-slate-700 text-sm mb-3'><strong>Price:</strong> $250 to $300</p>
-              <a href='https://amzn.to/4bkRWDV' target='_blank' rel='noopener noreferrer sponsored' className='inline-block bg-teal-600 hover:bg-teal-700 text-white font-semibold py-2 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
+              <a href='https://amzn.to/4bkRWDV' target='_blank' rel='sponsored nofollow' className='inline-block bg-teal-600 hover:bg-teal-700 text-white font-semibold py-2 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
             </div>
 
             {/* Product 2: hOmeLabs */}
@@ -369,7 +489,7 @@ export default function BestBasementDehumidifiers() {
               <p className='text-slate-700 leading-relaxed mb-4'>
                 The washable filter captures dust and mold spores before they reach the coils, extending the unit&#39;s lifespan and improving basement air quality. Noise level is 45 dB on low, which is quieter than most competitors. The main drawback is the app, which some users report as occasionally glitchy during initial setup, though performance is stable once connected.
               </p>
-              <p className='text-slate-700 text-sm mb-4'><strong>Specs:</strong> 50 pints/day, 4,500 sq ft coverage, built-in pump, Wi-Fi + Alexa/Google voice control, auto-restart, 45 dB low, Energy Star, washable filter.</p>
+              <p className='text-slate-700 text-sm mb-4'><strong>Specs:</strong> 50 pints/day, 1,000 to 1,500 sq ft, or wet spots, built-in pump, Wi-Fi + Alexa/Google voice control, auto-restart, 45 dB low, Energy Star, washable filter.</p>
               <div className='grid grid-cols-1 md:grid-cols-2 gap-4 mb-3'>
                 <div className='bg-green-50 rounded-lg p-4 border border-green-200'>
                   <h4 className='font-bold text-green-800 mb-2'>Pros</h4>
@@ -393,7 +513,7 @@ export default function BestBasementDehumidifiers() {
               </div>
               <p className='text-slate-700 text-sm mb-3'><strong>Best for:</strong> Smart home households that want voice control and app monitoring. Ideal for basements without floor drains because of the built-in pump.</p>
               <p className='text-slate-700 text-sm mb-3'><strong>Price:</strong> $280 to $350</p>
-              <a href='https://amzn.to/472xTIO' target='_blank' rel='noopener noreferrer sponsored' className='inline-block bg-teal-600 hover:bg-teal-700 text-white font-semibold py-2 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
+              <a href='https://amzn.to/472xTIO' target='_blank' rel='sponsored nofollow' className='inline-block bg-teal-600 hover:bg-teal-700 text-white font-semibold py-2 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
             </div>
 
             {/* Product 3: Frigidaire */}
@@ -401,7 +521,7 @@ export default function BestBasementDehumidifiers() {
               <h2 className='text-2xl font-bold text-slate-900 mb-1'>3. Frigidaire Gallery 50 Pint</h2>
               <p className='text-teal-700 font-semibold mb-3'>Best for Fast Moisture Removal</p>
               <p className='text-slate-700 leading-relaxed mb-4'>
-                The Frigidaire Gallery is the performance leader in this roundup. In independent testing, it dropped humidity from 90 percent to 35 percent in under 40 minutes, which is the fastest performance of any 50-pint consumer dehumidifier tested in 2026. If your basement takes on significant moisture during storms or has chronically high humidity that needs aggressive initial treatment, this is the model to buy.
+                The Frigidaire Gallery is the performance leader in this roundup. If your basement takes on significant moisture during storms or has chronically high humidity that needs aggressive initial treatment, this is the model to buy.
               </p>
               <p className='text-slate-700 leading-relaxed mb-4'>
                 The built-in pump and Wi-Fi app control provide the same convenience as the hOmeLabs, and the custom humidity settings allow precise control between 35 and 85 percent in 5-percent increments. Energy efficiency is strong for a unit this powerful.
@@ -409,12 +529,11 @@ export default function BestBasementDehumidifiers() {
               <p className='text-slate-700 leading-relaxed mb-4'>
                 The trade-offs are weight (40 pounds, heavier than the Midea Cube) and filter maintenance (the filter needs cleaning more frequently than other models because the high airflow captures more dust). Neither is a real problem for a unit that stays in one place in the basement.
               </p>
-              <p className='text-slate-700 text-sm mb-4'><strong>Specs:</strong> 50 pints/day, 4,500 sq ft coverage, built-in pump, Wi-Fi app control, custom humidity settings, Energy Star, washable filter, 47 dB.</p>
+              <p className='text-slate-700 text-sm mb-4'><strong>Specs:</strong> 50 pints/day, 1,000 to 1,500 sq ft, or wet spots, built-in pump, Wi-Fi app control, custom humidity settings, Energy Star, washable filter, 47 dB.</p>
               <div className='grid grid-cols-1 md:grid-cols-2 gap-4 mb-3'>
                 <div className='bg-green-50 rounded-lg p-4 border border-green-200'>
                   <h4 className='font-bold text-green-800 mb-2'>Pros</h4>
                   <ul className='space-y-1 text-slate-700 text-sm'>
-                    <li>&#10003; Fastest moisture removal in testing (90 to 35 percent in under 40 minutes)</li>
                     <li>&#10003; Built-in pump for drain-free basements</li>
                     <li>&#10003; Custom humidity target in 5-percent increments</li>
                     <li>&#10003; Wi-Fi app control with real-time monitoring</li>
@@ -433,7 +552,7 @@ export default function BestBasementDehumidifiers() {
               </div>
               <p className='text-slate-700 text-sm mb-3'><strong>Best for:</strong> Wet basements prone to storm moisture. Best choice for homeowners who need aggressive, fast dehumidification. Pairs well with a <Link href='/articles/sump-pump-buying-guide' className='text-teal-700 underline font-medium'>sump pump system</Link> for complete water management.</p>
               <p className='text-slate-700 text-sm mb-3'><strong>Price:</strong> $280 to $350</p>
-              <a href='https://amzn.to/46xBQVT' target='_blank' rel='noopener noreferrer sponsored' className='inline-block bg-teal-600 hover:bg-teal-700 text-white font-semibold py-2 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
+              <a href='https://amzn.to/46xBQVT' target='_blank' rel='sponsored nofollow' className='inline-block bg-teal-600 hover:bg-teal-700 text-white font-semibold py-2 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
             </div>
 
             {/* Product 4: GE */}
@@ -449,7 +568,7 @@ export default function BestBasementDehumidifiers() {
               <p className='text-slate-700 leading-relaxed mb-4'>
                 The smart app provides remote monitoring and control, though some users report the initial Wi-Fi setup process requires patience. The design is sleek and modern compared to boxy competitors, which matters if your basement doubles as a living space. The main drawback is the lack of wheels, making it harder to reposition once placed.
               </p>
-              <p className='text-slate-700 text-sm mb-4'><strong>Specs:</strong> 50 pints/day, 4,500 sq ft coverage, built-in pump (15 ft vertical), Wi-Fi app control, 38 degrees F minimum, 47 dB, Energy Star, washable filter.</p>
+              <p className='text-slate-700 text-sm mb-4'><strong>Specs:</strong> 50 pints/day, 1,000 to 1,500 sq ft, or wet spots, built-in pump (15 ft vertical), Wi-Fi app control, 38 degrees F minimum, 47 dB, Energy Star, washable filter.</p>
               <div className='grid grid-cols-1 md:grid-cols-2 gap-4 mb-3'>
                 <div className='bg-green-50 rounded-lg p-4 border border-green-200'>
                   <h4 className='font-bold text-green-800 mb-2'>Pros</h4>
@@ -459,7 +578,6 @@ export default function BestBasementDehumidifiers() {
                     <li>&#10003; Smart app for remote humidity monitoring</li>
                     <li>&#10003; Sleek design for finished basements</li>
                     <li>&#10003; Energy Star rated</li>
-                    <li>&#10003; Effective at reducing moisture that contributes to radon entry</li>
                   </ul>
                 </div>
                 <div className='bg-red-50 rounded-lg p-4 border border-red-200'>
@@ -473,7 +591,7 @@ export default function BestBasementDehumidifiers() {
               </div>
               <p className='text-slate-700 text-sm mb-3'><strong>Best for:</strong> Basements without floor drains that need to pump water upward to a sink or elevated drain. Best choice for cold basements and three-season use.</p>
               <p className='text-slate-700 text-sm mb-3'><strong>Price:</strong> $250 to $300</p>
-              <a href='https://amzn.to/4sn6wBH' target='_blank' rel='noopener noreferrer sponsored' className='inline-block bg-teal-600 hover:bg-teal-700 text-white font-semibold py-2 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
+              <a href='https://amzn.to/4sn6wBH' target='_blank' rel='sponsored nofollow' className='inline-block bg-teal-600 hover:bg-teal-700 text-white font-semibold py-2 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
             </div>
 
             {/* Product 5: AlorAir */}
@@ -481,7 +599,7 @@ export default function BestBasementDehumidifiers() {
               <h2 className='text-2xl font-bold text-slate-900 mb-1'>5. AlorAir Sentinel HD55</h2>
               <p className='text-teal-700 font-semibold mb-3'>Best Commercial-Grade for Severe Humidity</p>
               <p className='text-slate-700 leading-relaxed mb-4'>
-                The AlorAir Sentinel HD55 is a commercial-grade unit designed for the toughest basement and crawl space environments. At 55 pints per day, it has the highest capacity in this roundup, and its construction is built to last 10 to 15 years in continuous operation compared to 5 to 8 years for consumer-grade models.
+                The AlorAir Sentinel HD55 is a commercial-grade unit designed for the toughest basement and crawl space environments. It is a 55-pint unit built for cool, damp basements and crawl spaces, rated by the manufacturer for spaces up to about 1,300 sq ft. Its construction is built to last 10 to 15 years in continuous operation compared to 5 to 8 years for consumer-grade models.
               </p>
               <p className='text-slate-700 leading-relaxed mb-4'>
                 Auto-defrost for cold-weather operation, MERV-8 filtration for capturing mold and dust, and optional remote monitoring make it the most capable unit for problem basements and crawl spaces with chronic severe humidity. The compact, low-profile design fits in crawl spaces where tower-style units would not. It can also be ducted into existing HVAC systems for whole-space distribution.
@@ -495,7 +613,7 @@ export default function BestBasementDehumidifiers() {
                   <h4 className='font-bold text-green-800 mb-2'>Pros</h4>
                   <ul className='space-y-1 text-slate-700 text-sm'>
                     <li>&#10003; Commercial-grade construction (10 to 15 year lifespan)</li>
-                    <li>&#10003; Highest capacity at 55 pints per day</li>
+                    <li>&#10003; 55-pint capacity for cool, damp basements and crawl spaces</li>
                     <li>&#10003; Auto-defrost for cold crawl spaces and unheated basements</li>
                     <li>&#10003; MERV-8 filtration for mold and dust capture</li>
                     <li>&#10003; Compact profile fits crawl spaces</li>
@@ -514,7 +632,17 @@ export default function BestBasementDehumidifiers() {
               </div>
               <p className='text-slate-700 text-sm mb-3'><strong>Best for:</strong> Crawl spaces, severely humid basements, chronic moisture problems that burn through consumer units, and homeowners who want commercial durability. See our <Link href='/articles/crawl-space-encapsulation-guide' className='text-teal-700 underline font-medium'>crawl space encapsulation guide</Link> for how a dehumidifier fits into a complete crawl space system.</p>
               <p className='text-slate-700 text-sm mb-3'><strong>Price:</strong> $800 to $1,000</p>
-              <a href='https://amzn.to/4cjqhFt' target='_blank' rel='noopener noreferrer sponsored' className='inline-block bg-teal-600 hover:bg-teal-700 text-white font-semibold py-2 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
+              <a href='https://amzn.to/4cjqhFt' target='_blank' rel='sponsored nofollow' className='inline-block bg-teal-600 hover:bg-teal-700 text-white font-semibold py-2 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
+            </div>
+
+            <div data-aprilaire-review className='bg-white border border-slate-200 rounded-xl p-6 mb-6 shadow-sm'>
+              <h2 className='text-2xl font-bold text-slate-900 mb-1'>6. AprilAire E070, Best Whole-Basement Dehumidifier</h2>
+              <p className='text-slate-700 text-sm mb-4'><strong>Specs:</strong> 70 pints per day | up to 2,200 sq ft | gravity drain with 10 ft hose included, no bucket | 8-inch inlet and outlet duct collars | designed for basements and sealed crawl spaces | professional installation recommended | typically $1,300 to $2,800 installed, including the unit</p>
+              <p className='text-slate-700 leading-relaxed mb-4'>If you've tried a portable unit and your basement still reads 60% or higher every summer, this is the step up. The AprilAire E070 is a fixed system that sits in the basement, often hung from the joists or set on a platform, and drains continuously to a floor drain or condensate pump. There's no bucket to empty and no tank to forget about.</p>
+              <p className='text-slate-700 leading-relaxed mb-4'>It's also ductable. With its 8-inch duct collars, an installer can pull air from one part of the basement and push dry air into another, or connect it to your HVAC system so it dries more than one room. Bob Vila named it the best whole-house dehumidifier in its testing.</p>
+              <p className='text-slate-700 leading-relaxed mb-4'><strong>Who it's for:</strong> basements over 1,500 sq ft, basements that stay above 60% humidity with a portable unit running, finished basements where you don't want a bucket unit in the room, and sealed crawl spaces.</p>
+              <p className='text-slate-700 leading-relaxed mb-4'><strong>Watch out for:</strong> it costs several times more than a portable unit once installation is included, and it needs a drain or a condensate pump nearby. For most basements under 1,500 sq ft, a 50-pint portable unit with a drain hose does the job.</p>
+              <a href='https://link.amazon/B0aNDuQyc' target='_blank' rel='sponsored nofollow' className='inline-block bg-teal-600 hover:bg-teal-700 text-white font-semibold py-2 px-6 rounded-lg transition-colors'>Check Price on Amazon</a>
             </div>
 
             {/* Which Dehumidifier Is Right */}
@@ -547,12 +675,12 @@ export default function BestBasementDehumidifiers() {
                   <tr className='bg-slate-50 border-b border-slate-100'>
                     <td className='p-3'>Very wet basement, storm moisture</td>
                     <td className='p-3 font-medium'>Frigidaire Gallery 50 Pint</td>
-                    <td className='p-3'>Fastest dehumidification tested</td>
+                    <td className='p-3'>Fast moisture removal</td>
                   </tr>
                   <tr className='bg-white border-b border-slate-100'>
                     <td className='p-3'>Crawl space or severe chronic humidity</td>
                     <td className='p-3 font-medium'>AlorAir Sentinel HD55</td>
-                    <td className='p-3'>Commercial durability, highest capacity</td>
+                    <td className='p-3'>Commercial durability, 55-pint capacity</td>
                   </tr>
                   <tr className='bg-slate-50 border-b border-slate-100'>
                     <td className='p-3'>Cold unheated basement</td>
@@ -618,7 +746,7 @@ export default function BestBasementDehumidifiers() {
             <div className='space-y-4 mb-10'>
               <div className='bg-slate-50 rounded-lg p-4'>
                 <h3 className='font-semibold text-slate-900 mb-2'>What size dehumidifier do I need for my basement?</h3>
-                <p className='text-slate-700 text-sm'>For most basements up to 1,500 square feet with moderate dampness, a 50-pint dehumidifier is the right choice. Very damp basements (visible condensation, musty smell year-round) may need a 50 to 70 pint unit, and wet basements with standing water after rain may need 70 pints or more. For a detailed sizing chart, see our <Link href='/articles/dehumidifier-myths' className='text-teal-700 underline'>dehumidifier myths and sizing guide</Link>.</p>
+                <p className='text-slate-700 text-sm'>Use current DOE ratings. A damp basement up to 1,000 sq ft needs 22 to 35 pints, a basement of 1,000 to 1,500 sq ft or one with wet spots needs 35 to 50 pints, and anything larger or very wet needs a 50-pint unit or a whole-basement system. A 50-pint unit sold today is roughly equal to an older 70-pint rating.</p>
               </div>
               <div className='bg-slate-50 rounded-lg p-4'>
                 <h3 className='font-semibold text-slate-900 mb-2'>How much does it cost to run a basement dehumidifier?</h3>
@@ -652,6 +780,9 @@ export default function BestBasementDehumidifiers() {
                 <h3 className='font-semibold text-slate-900 mb-2'>How long do basement dehumidifiers last?</h3>
                 <p className='text-slate-700 text-sm'>Consumer-grade 50-pint basement dehumidifiers last 5 to 8 years with regular maintenance (filter cleaning every 2 weeks, coil cleaning every 6 months, drain line maintenance annually). Commercial-grade units like the AlorAir Sentinel HD55 last 10 to 15 years. Signs of needed replacement include running continuously without reaching target humidity, unusual noises, and persistent ice buildup.</p>
               </div>
+            <div className='bg-slate-50 rounded-lg p-4'><h3 className='font-semibold text-slate-900 mb-2'>How much does a basement dehumidifier cost?</h3><p className='text-slate-700 text-sm'>A good portable 50-pint basement dehumidifier costs about $250 to $350, and models with a built-in pump sit at the top of that range. Running one costs roughly $80 to $120 a year in electricity. A whole-basement system like the AprilAire E070 typically costs $1,300 to $2,800 installed, including the unit.</p></div>
+<div className='bg-slate-50 rounded-lg p-4'><h3 className='font-semibold text-slate-900 mb-2'>What size dehumidifier do I need for a 1,000 sq ft basement?</h3><p className='text-slate-700 text-sm'>Under current DOE ratings, a damp 1,000 sq ft basement needs about 22 to 35 pints, and one with wet spots or seepage needs 35 to 50 pints. Most people buy a 50-pint unit for a 1,000 sq ft basement because it handles humid summers without running nonstop. If it still can't hold the room under 60%, look for a water problem before buying a bigger unit.</p></div>
+<div className='bg-slate-50 rounded-lg p-4'><h3 className='font-semibold text-slate-900 mb-2'>Do I need a dehumidifier with a pump for my basement?</h3><p className='text-slate-700 text-sm'>Only if you don't have a floor drain where the dehumidifier sits. With a floor drain, a regular unit with a continuous drain hose works fine. Without one, a built-in pump like the GE APER50LZ's lets you run a hose up to a sink, a window, or a sump pit, so the unit never shuts off because the bucket is full.</p></div>
             </div>
 
             {/* Glossary */}
@@ -667,7 +798,7 @@ export default function BestBasementDehumidifiers() {
               </div>
               <div className='bg-slate-50 rounded-lg p-4'>
                 <h4 className='font-semibold text-slate-900 mb-1'>Auto-defrost</h4>
-                <p className='text-slate-700 text-sm'>A feature that detects ice formation on the evaporator coils and temporarily pauses the compressor while running the fan to melt the ice. Essential for basement dehumidifiers because below-grade temperatures (55 to 65 degrees Fahrenheit) cause coil icing in units without this feature.</p>
+                <p className='text-slate-700 text-sm'>A feature that detects ice formation on the evaporator coils and temporarily pauses the compressor while running the fan to melt the ice. Most standard dehumidifiers lose efficiency below about 65°F, and units without auto-defrost can frost over in a cool basement. Models with auto-defrost keep working down to about 41°F.</p>
               </div>
               <div className='bg-slate-50 rounded-lg p-4'>
                 <h4 className='font-semibold text-slate-900 mb-1'>Condensate pump</h4>
@@ -743,7 +874,8 @@ export default function BestBasementDehumidifiers() {
               <Link href='/articles/basement-efflorescence' className='block bg-slate-50 rounded-lg p-4 border border-slate-200 hover:border-teal-300 transition-colors'>
                 <h3 className='font-semibold text-slate-900 text-sm'>Basement Efflorescence</h3>
               </Link>
-            </div>
+            <Link href='/articles/best-water-leak-detectors' className='block bg-slate-50 rounded-lg p-4 border border-slate-200 hover:border-teal-300 transition-colors'><h3 className='font-semibold text-slate-900 text-sm'>Best Water Leak Detectors and Basement Water Alarms</h3></Link>
+</div>
 
             {/* From Our Network */}
             <div className='bg-slate-50 rounded-lg p-6 mb-8'>
