@@ -4,63 +4,79 @@ import LeadForm from '@/components/LeadForm'
 import type { Metadata } from 'next'
 
 const faqSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'FAQPage',
-  mainEntity: [
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
     {
-      '@type': 'Question',
-      name: 'Is Drylok or RadonSeal better for a basement?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'They solve different problems and are not direct substitutes. Drylok is a surface coating that forms a physical barrier on the wall face, handles up to 15 PSI of water pressure, and leaves a painted finish. RadonSeal is a penetrating silicate sealer that soaks into the concrete matrix and reacts chemically to seal pores from within. Many contractors apply RadonSeal first to seal the pores, then Drylok over it for a finished appearance and added pressure resistance.'
+      "@type": "Question",
+      "name": "Is Drylok or RadonSeal better for a basement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "They solve different problems and are not direct substitutes. Drylok is a surface coating that forms a physical barrier on the wall face, handles up to 15 PSI of water pressure, and leaves a painted finish. RadonSeal is a penetrating silicate sealer that soaks into the concrete matrix and reacts chemically to seal pores from within. Many contractors apply RadonSeal first to seal the pores, then Drylok over it for a finished appearance and added pressure resistance."
       }
     },
     {
-      '@type': 'Question',
-      name: 'Can waterproof basement paint stop active leaks?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Not reliably, and not against significant hydrostatic pressure. Surface coatings like Drylok and KILZ are rated for specific PSI limits but active leaks through cracks or the cove joint often exceed those limits. For active leaks driven by hydrostatic pressure, the correct solution is a drainage system that relieves the pressure before it reaches the wall.'
+      "@type": "Question",
+      "name": "Can waterproof basement paint stop active leaks?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not reliably, and not against significant hydrostatic pressure. Surface coatings like Drylok and KILZ are rated for specific PSI limits but active leaks through cracks or the cove joint often exceed those limits. For active leaks driven by hydrostatic pressure, the correct solution is a drainage system that relieves the pressure before it reaches the wall."
       }
     },
     {
-      '@type': 'Question',
-      name: 'Do I need to prep concrete before applying basement sealer?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Yes, and surface preparation is the single biggest factor in whether any product performs as rated. All products require a clean, open-pore concrete surface free of existing paint, sealers, efflorescence, oil, and dust. Skipping prep is the primary cause of peeling, bubbling, and premature failure in DIY applications.'
+      "@type": "Question",
+      "name": "Do I need to prep concrete before applying basement sealer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, and surface preparation is the single biggest factor in whether any product performs as rated. All products require a clean, open-pore concrete surface free of existing paint, sealers, efflorescence, oil, and dust. Surface coatings (Drylok, KILZ, MasterSeal): apply to a clean, dry wall. Penetrating sealers (RadonSeal): apply to clean, bare, unpainted concrete. They can go on damp concrete, so follow the label. Skipping prep is the primary cause of peeling, bubbling, and premature failure in DIY applications."
       }
     },
     {
-      '@type': 'Question',
-      name: 'Will waterproof basement paint work on a wet wall?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'It depends on the product. Standard surface coatings including Drylok and KILZ require the wall to be clean and dry before application. Penetrating sealers like RadonSeal actually require a damp surface to activate the chemical reaction. If your wall is consistently wet or seeping, address the moisture source or install drainage before sealing.'
+      "@type": "Question",
+      "name": "Will waterproof basement paint work on a wet wall?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It depends on the product. Surface coatings (Drylok, KILZ, MasterSeal): apply to a clean, dry wall. Penetrating sealers (RadonSeal): apply to clean, bare, unpainted concrete. They can go on damp concrete, so follow the label. If your wall is consistently wet or seeping, address the moisture source or install drainage before sealing."
       }
     },
     {
-      '@type': 'Question',
-      name: 'Can I paint over Drylok or other waterproof coatings?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Yes. Once Drylok and similar latex surface coatings are fully cured, they can be painted over with standard latex paint. RadonSeal can be painted over with any compatible paint after it cures. Flexible rubber membranes like Liquid Rubber and Sani-Tred are typically not painted over.'
+      "@type": "Question",
+      "name": "Can I paint over Drylok or other waterproof coatings?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Once Drylok and similar latex surface coatings are fully cured, they can be painted over with standard latex paint. RadonSeal can be painted over with any compatible paint after it cures. Flexible rubber membranes like Liquid Rubber and Sani-Tred are typically not painted over."
       }
     },
     {
-      '@type': 'Question',
-      name: 'How long do waterproof basement paints and sealers last?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Latex surface coatings like Drylok Extreme and KILZ last 10 to 15 years. Penetrating sealers like RadonSeal are considered permanent in stable concrete. Flexible rubber membranes last 20 years or more. Cementitious coatings like MasterSeal 583 last 15 to 25 years. Longevity depends heavily on surface preparation quality and correct product selection.'
+      "@type": "Question",
+      "name": "How long do waterproof basement paints and sealers last?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Drylok Extreme typically lasts 10 to 15 years, and KILZ Basement and Masonry 8 to 12 years. Penetrating sealers like RadonSeal are considered permanent in stable concrete. Flexible rubber membranes last 20 years or more. Cementitious coatings like MasterSeal 583 last 15 to 25 years. Longevity depends heavily on surface preparation quality and correct product selection."
       }
     },
     {
-      '@type': 'Question',
-      name: 'Are waterproof basement paints and sealers safe to use indoors?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'All products listed in this guide are formulated for interior use and are safe when applied with adequate ventilation. Most modern waterproof coatings are low-VOC or zero-VOC formulations. Once fully cured, all listed products are safe for occupied spaces.'
+      "@type": "Question",
+      "name": "Are waterproof basement paints and sealers safe to use indoors?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "All products listed in this guide are formulated for interior use and are safe when applied with adequate ventilation. Most modern waterproof coatings are low-VOC or zero-VOC formulations. Once fully cured, all listed products are safe for occupied spaces."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Kilz vs. Drylok: which is better for basement walls?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Drylok Extreme is the stronger product. It's rated to resist up to 15 psi of water pressure, compared with up to 12 psi for KILZ Basement and Masonry, and it typically lasts longer, about 10 to 15 years versus 8 to 12. KILZ costs less, about $35 to $50 a gallon versus $45 to $60 for Drylok Extreme, and works well on walls that are only damp. For walls with real seepage, choose Drylok Extreme."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you use waterproof paint on a basement floor?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Only some products. Most waterproofing paints are made for walls and will peel off a floor with moisture coming up through the slab. Test the floor with a taped-down plastic sheet for 24 to 48 hours first. If moisture shows up, use a penetrating sealer like RadonSeal or a flexible coating made for floors like Sani-Tred Permaflex, then add a floor finish on top if you want color."
       }
     }
   ]
@@ -159,14 +175,14 @@ export default function WaterproofBasementPaintSealers() {
             <span className='text-teal-400'>Paint & Sealers 2026</span>
           </h1>
           <p className='text-xl text-slate-300 max-w-2xl mb-10 font-medium leading-relaxed'>
-            Drylok vs RadonSeal vs KILZ, Liquid Rubber, Thoroseal, and Sani-Tred. A clear breakdown based on real 2026 performance data.
+            Drylok vs RadonSeal vs KILZ, Liquid Rubber, MasterSeal 583 (formerly Thoroseal), and Sani-Tred. A clear breakdown based on real 2026 performance data.
           </p>
           <div className='flex items-center space-x-4 text-sm text-slate-400'>
-            <span>The Basement Guide Staff</span>
+            <span>By The Basement Guide Editorial Team</span>
             <span>&bull;</span>
-            <span>Updated February 2026</span>
+            <span>Updated October 2026</span>
             <span>&bull;</span>
-            <span>26 min read</span>
+            <span>15 min read</span>
           </div>
         </div>
       </section>
@@ -176,14 +192,16 @@ export default function WaterproofBasementPaintSealers() {
         <div className='grid grid-cols-1 lg:grid-cols-12 gap-12'>
           <article className='lg:col-span-8 prose prose-lg max-w-none'>
 
+            <aside data-paint-tldr className='not-prose bg-teal-50 border border-teal-200 rounded-xl p-6 mb-8'><h2 className='text-xl font-bold text-slate-900 mb-4'>TL;DR</h2><div dangerouslySetInnerHTML={{ __html: "<ul class=\"space-y-3 my-6 list-disc list-inside text-slate-600\">\n<li><strong>Best all-around basement wall paint:</strong> Drylok Extreme. Rated to 15 psi of water pressure, widely available, and easy to roll on.</li>\n<li><strong>Best if you don't want a painted look:</strong> RadonSeal. It soaks into bare concrete and seals the pores from inside, so it won't peel.</li>\n<li><strong>Best budget option:</strong> KILZ Basement and Masonry, rated to 12 psi.</li>\n<li><strong>Best for cracked or moving walls:</strong> a flexible liquid rubber coating like Liquid Rubber Foundation Sealant or Sani-Tred Permaflex, which stretch instead of cracking.</li>\n<li><strong>What these products can't do:</strong> stop active leaks, water pushing through cracks, or water coming in where the wall meets the floor. For those, you need crack repair or a drainage system.</li>\n</ul>\n" }} /></aside>
+
             {/* Entity Definition */}
             <p className='text-lg text-slate-700 leading-relaxed mb-8'>
-              Waterproof basement paint and concrete sealers are products applied to basement walls and floors to reduce or eliminate water vapor transmission, minor seepage, and surface dampness through the concrete or masonry. They fall into three distinct categories &mdash; surface coatings that form a barrier on top of the concrete, penetrating sealers that react chemically inside the concrete pores, and flexible membranes that stretch with the wall to bridge small cracks &mdash; each with different pressure resistance, longevity, and appropriate use cases. No paint or sealer is a substitute for drainage or exterior waterproofing when hydrostatic pressure is the source of the problem: coatings applied over active water pressure will eventually fail as the pressure finds a way through or around the treated surface. The right product depends on whether you are dealing with vapor dampness, minor seepage, moderate wall pressure, or cracking &mdash; and choosing the wrong category for your conditions is the most common reason homeowners are disappointed with results.
+              Waterproof basement paint and concrete sealers are products applied to basement walls and floors to reduce or eliminate water vapor transmission, minor seepage, and surface dampness through the concrete or masonry. They fall into three distinct categories: surface coatings that form a barrier on top of the concrete, penetrating sealers that react chemically inside the concrete pores, and flexible membranes that stretch with the wall to bridge small cracks, each with different pressure resistance, longevity, and appropriate use cases. No paint or sealer is a substitute for drainage or exterior waterproofing when hydrostatic pressure is the source of the problem: coatings applied over active water pressure will eventually fail as the pressure finds a way through or around the treated surface. The right product depends on whether you are dealing with vapor dampness, minor seepage, moderate wall pressure, or cracking, and choosing the wrong category for your conditions is the most common reason homeowners are disappointed with results.
             </p>
 
             {/* Intro */}
             <p className='text-lg text-slate-700 leading-relaxed mb-8'>
-              If you are staring at damp basement walls and wondering what paint or sealer will actually keep the water out, you are not alone. Thousands of homeowners search for the right waterproof basement paint or sealer every month, and the top comparisons are always Drylok vs RadonSeal, with KILZ, Liquid Rubber, Thoroseal, and Sani-Tred right behind them.
+              If you are staring at damp basement walls and wondering what paint or sealer will actually keep the water out, you are not alone. Thousands of homeowners search for the right waterproof basement paint or sealer every month, and the top comparisons are always Drylok vs RadonSeal, with KILZ, Liquid Rubber, MasterSeal 583 (formerly Thoroseal), and Sani-Tred right behind them.
             </p>
             <p className='text-lg text-slate-600 leading-relaxed'>
               This guide from The Basement Guide gives you a clear, up-to-date breakdown based on real 2026 performance data, manufacturer specs, contractor feedback, and homeowner results. We compare how each product works, what it costs, how long it lasts, and exactly when to choose one over the others.
@@ -197,9 +215,9 @@ export default function WaterproofBasementPaintSealers() {
             <h2 className='text-3xl font-bold text-slate-900 mt-12 mb-6'>How Basement Waterproofing Paints and Sealers Work</h2>
             <p className='text-lg text-slate-600 leading-relaxed'>There are three main types:</p>
             <ul className='space-y-4 my-6'>
-              <li className='text-lg text-slate-600'><strong>Surface coatings (Drylok, KILZ)</strong> &mdash; Thick paint-like layers that form a barrier on top of the concrete. Good for minor seepage and a finished look.</li>
-              <li className='text-lg text-slate-600'><strong>Penetrating sealers (RadonSeal)</strong> &mdash; Soak deep into the pores and react chemically to block water from inside the concrete. Invisible and long-lasting.</li>
-              <li className='text-lg text-slate-600'><strong>Flexible membranes (Liquid Rubber, Sani-Tred, Thoroseal)</strong> &mdash; Rubber-like or cementitious layers that stretch with the wall and bridge small cracks.</li>
+              <li className='text-lg text-slate-600'><strong>Surface coatings (Drylok, KILZ)</strong>: Thick paint-like layers that form a barrier on top of the concrete. Good for minor seepage and a finished look.</li>
+              <li className='text-lg text-slate-600'><strong>Penetrating sealers (RadonSeal)</strong>: Soak deep into the pores and react chemically to block water from inside the concrete. Invisible and long-lasting.</li>
+              <li className='text-lg text-slate-600'><strong>Flexible membranes (Liquid Rubber, Sani-Tred, MasterSeal 583 (formerly Thoroseal))</strong>: Rubber-like or cementitious layers that stretch with the wall and bridge small cracks.</li>
             </ul>
             <p className='text-lg text-slate-600 leading-relaxed'>Most products in the $30-80 per gallon range fall into one of these categories. For a more permanent penetrating solution, see our <a href='/articles/crystalline-waterproofing' className='text-teal-600 underline hover:text-teal-800'>crystalline waterproofing guide</a>.</p>
 
@@ -237,6 +255,8 @@ export default function WaterproofBasementPaintSealers() {
             </div>
             <p className='text-sm text-slate-500 italic'>Data compiled from manufacturer specs, 2025-2026 contractor reviews, and independent tests as of February 2026.</p>
 
+<section data-paint-methods><div dangerouslySetInnerHTML={{ __html: "<h2 class=\"text-3xl font-bold text-slate-900 mt-12 mb-6\">How We Chose These Products</h2>\n<p class=\"text-lg text-slate-600 leading-relaxed mb-6\">We did not run our own lab tests. We compared manufacturer specifications, including pressure ratings, coverage, and surface requirements, and weighed them against contractor feedback and long-term homeowner reports. We looked for:</p>\n<ul class=\"space-y-3 my-6 list-disc list-inside text-slate-600\">\n<li><strong>A clear pressure rating or sealing method.</strong> Basement walls hold back water pressure from the soil outside. We favored products that state how much they can resist, or that seal the concrete itself.</li>\n<li><strong>Real-world durability.</strong> Peeling, blistering, and efflorescence pushing through the coating were the most common failures in owner reports.</li>\n<li><strong>Fit for the job.</strong> A smooth poured wall, a porous block wall, and a cracked wall each call for a different product.</li>\n<li><strong>DIY-friendly application</strong> with a roller or brush, without specialty equipment.</li>\n</ul>\n" }} /></section>
+
             {/* Decision Guide */}
             <h2 className='text-3xl font-bold text-slate-900 mt-12 mb-6'>Which One Should You Choose?</h2>
             <p className='text-lg text-slate-600 leading-relaxed mb-6'>Here is the simple decision guide our readers use most often:</p>
@@ -262,6 +282,8 @@ export default function WaterproofBasementPaintSealers() {
                 <p className='text-slate-700'><strong>Tight budget:</strong> KILZ</p>
               </div>
             </div>
+
+<section data-paint-floors><div dangerouslySetInnerHTML={{ __html: "<h2 class=\"text-3xl font-bold text-slate-900 mt-12 mb-6\">Waterproof Paint and Sealers for Basement Floors</h2>\n<p class=\"text-lg text-slate-600 leading-relaxed mb-6\">Most basement waterproofing paints are made for walls. Floors are harder, because moisture rises up through the slab and foot traffic wears coatings down. Regular paint and many coatings peel off a damp basement floor within a year or two.</p>\n<p class=\"text-lg text-slate-600 leading-relaxed mb-6\"><strong>Test the slab first.</strong> Tape a 2 foot square of clear plastic to the floor and leave it for 24 to 48 hours. If moisture collects under the plastic or the concrete darkens, the slab is pushing up moisture, and any surface coating needs a moisture-tolerant product or a penetrating sealer underneath it.</p>\n<p class=\"text-lg text-slate-600 leading-relaxed mb-6\"><strong>What works on basement floors:</strong></p>\n<ul class=\"space-y-3 my-6 list-disc list-inside text-slate-600\">\n<li><strong>Penetrating sealers, like RadonSeal.</strong> They soak into bare concrete and seal it from within, so there's no film to peel. They can go on first, with a floor paint or coating on top if you want color.</li>\n<li><strong>Flexible liquid rubber coatings, like Sani-Tred Permaflex.</strong> Made for both basement walls and floors, and they can serve as a base under other floor finishes.</li>\n<li><strong>Epoxy or polyurethane floor coatings.</strong> Durable and good-looking on a dry slab, but they can lift on a slab with moisture coming through. See our comparison of <a href=\"/articles/epoxy-vs-polyurethane-floor-coating\" class=\"text-teal-600 underline hover:text-teal-800\">epoxy vs. polyurethane floor coatings</a>.</li>\n</ul>\n<p class=\"text-lg text-slate-600 leading-relaxed mb-6\"><strong>What to skip:</strong> wall-only waterproofing paints and standard latex floor paint on a slab that fails the plastic sheet test.</p>\n" }} /></section>
 
             {/* Recommended Products with Affiliate Links */}
             <h2 className='text-3xl font-bold text-slate-900 mt-12 mb-6'>Recommended Waterproof Basement Paint & Sealers</h2>
@@ -309,7 +331,7 @@ export default function WaterproofBasementPaintSealers() {
             <h2 className='text-3xl font-bold text-slate-900 mt-12 mb-6'>How to Apply Waterproof Basement Paint or Sealer</h2>
             <ol className='space-y-3 my-6 list-decimal list-inside'>
               <li className='text-lg text-slate-600'>Fix exterior grading and gutters first.</li>
-              <li className='text-lg text-slate-600'>Clean walls with a wire brush or pressure washer and let dry completely.</li>
+              <li className='text-lg text-slate-600'>Clean walls with a wire brush or pressure washer. Surface coatings (Drylok, KILZ, MasterSeal): apply to a clean, dry wall. Penetrating sealers (RadonSeal): apply to clean, bare, unpainted concrete. They can go on damp concrete, so follow the label.</li>
               <li className='text-lg text-slate-600'>Etch or use a concrete cleaner if needed for adhesion.</li>
               <li className='text-lg text-slate-600'>Apply two full coats or as directed.</li>
               <li className='text-lg text-slate-600'>Let it cure fully before finishing the basement.</li>
@@ -319,7 +341,7 @@ export default function WaterproofBasementPaintSealers() {
             {/* Final Thoughts */}
             <h2 className='text-3xl font-bold text-slate-900 mt-12 mb-6'>Final Thoughts</h2>
             <p className='text-lg text-slate-600 leading-relaxed'>
-              A good waterproof basement paint or sealer can make a huge difference when paired with proper drainage and grading. For a complete overview of all approaches, see our <a href='/articles/complete-basement-waterproofing-guide' className='text-teal-600 underline hover:text-teal-800'>complete basement waterproofing guide</a>. Drylok and KILZ are the go-to surface coatings for most DIY jobs, RadonSeal shines for deep protection, and the flexible rubber options Liquid Rubber and Sani-Tred are worth the extra cost when movement or cracks are involved. Thoroseal remains the tough choice for serious pressure.
+              A good waterproof basement paint or sealer can make a huge difference when paired with proper drainage and grading. For a complete overview of all approaches, see our <a href='/articles/complete-basement-waterproofing-guide' className='text-teal-600 underline hover:text-teal-800'>complete basement waterproofing guide</a>. Drylok and KILZ are the go-to surface coatings for most DIY jobs, RadonSeal shines for deep protection, and the flexible rubber options Liquid Rubber and Sani-Tred are worth the extra cost when movement or cracks are involved. MasterSeal 583 (formerly Thoroseal) remains the tough choice for serious pressure.
             </p>
             <p className='text-lg text-slate-600 leading-relaxed mt-4'>
               If you are still not sure which product fits your basement best or you want help choosing the right amount for your square footage, many readers at The Basement Guide find it helpful to share a few quick details about their walls and moisture issues. Our team can send a short customized recommendation and connect you with local pros if needed. No pressure, just practical next steps.
@@ -330,32 +352,34 @@ export default function WaterproofBasementPaintSealers() {
             <div className='space-y-6 not-prose'>
               <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
                 <h4 className='font-bold text-slate-900 mb-2'>Is Drylok or RadonSeal better for a basement?</h4>
-                <p className='text-slate-600 leading-relaxed'>They solve different problems and are not direct substitutes. Drylok is a surface coating that forms a physical barrier on the wall face, handles up to 15 PSI of water pressure, and leaves a painted finish &mdash; the right choice when you want a visible improvement and are dealing with minor to moderate seepage on poured concrete or block walls. RadonSeal is a penetrating silicate sealer that soaks into the concrete matrix and reacts chemically to seal pores from within &mdash; invisible after application, effective for vapor dampness and radon reduction, and considered permanent in most conditions. Many contractors apply RadonSeal first to seal the pores, then Drylok over it for a finished appearance and added pressure resistance. See our <a href='/articles/drylok-vs-radonseal' className='text-teal-600 underline hover:text-teal-800'>Drylok vs RadonSeal comparison</a> for a full head-to-head breakdown.</p>
+                <p className='text-slate-600 leading-relaxed'>They solve different problems and are not direct substitutes. Drylok is a surface coating that forms a physical barrier on the wall face, handles up to 15 PSI of water pressure, and leaves a painted finish, the right choice when you want a visible improvement and are dealing with minor to moderate seepage on poured concrete or block walls. RadonSeal is a penetrating silicate sealer that soaks into the concrete matrix and reacts chemically to seal pores from within, invisible after application, effective for vapor dampness and radon reduction, and considered permanent in most conditions. Many contractors apply RadonSeal first to seal the pores, then Drylok over it for a finished appearance and added pressure resistance. See our <a href='/articles/drylok-vs-radonseal' className='text-teal-600 underline hover:text-teal-800'>Drylok vs RadonSeal comparison</a> for a full head-to-head breakdown.</p>
               </div>
               <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
                 <h4 className='font-bold text-slate-900 mb-2'>Can waterproof basement paint stop active leaks?</h4>
-                <p className='text-slate-600 leading-relaxed'>Not reliably, and not against significant hydrostatic pressure. Surface coatings like Drylok and KILZ are rated for specific PSI limits &mdash; Drylok Extreme up to 15 PSI, KILZ up to 12 PSI &mdash; but active leaks through cracks or the cove joint often exceed those limits, particularly during heavy rain or snowmelt. Flexible membranes like Liquid Rubber and Sani-Tred handle cracking and movement better than rigid coatings but still require the wall surface to be structurally sound and the leak source to be manageable. For active leaks driven by hydrostatic pressure, the correct solution is a drainage system that relieves the pressure before it reaches the wall &mdash; paint applied over active pressure is a temporary fix at best. See our <a href='/articles/complete-basement-waterproofing-guide' className='text-teal-600 underline hover:text-teal-800'>complete waterproofing guide</a> for drainage solutions.</p>
+                <p className='text-slate-600 leading-relaxed'>Not reliably, and not against significant hydrostatic pressure. Surface coatings like Drylok and KILZ are rated for specific PSI limits, Drylok Extreme up to 15 PSI, KILZ up to 12 PSI, but active leaks through cracks or the cove joint often exceed those limits, particularly during heavy rain or snowmelt. Flexible membranes like Liquid Rubber and Sani-Tred handle cracking and movement better than rigid coatings but still require the wall surface to be structurally sound and the leak source to be manageable. For active leaks driven by hydrostatic pressure, the correct solution is a drainage system that relieves the pressure before it reaches the wall: paint applied over active pressure is a temporary fix at best. See our <a href='/articles/complete-basement-waterproofing-guide' className='text-teal-600 underline hover:text-teal-800'>complete waterproofing guide</a> for drainage solutions.</p>
               </div>
               <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
                 <h4 className='font-bold text-slate-900 mb-2'>Do I need to prep concrete before applying basement sealer?</h4>
-                <p className='text-slate-600 leading-relaxed'>Yes, and surface preparation is the single biggest factor in whether any product performs as rated. All products require a clean, open-pore concrete surface &mdash; free of existing paint, sealers, <a href='/articles/basement-efflorescence' className='text-teal-600 underline hover:text-teal-800'>efflorescence</a>, oil, and dust. Wire brushing or mechanical grinding removes light contamination. Muriatic acid etching opens the pores of smooth concrete for better penetration. Efflorescence must be removed by wire brushing or chemical treatment before sealing &mdash; applying product over efflorescence traps moisture and causes early failure. Walls should be damp but not wet for most surface coatings, and penetrating sealers like RadonSeal typically require a damp surface to trigger the chemical reaction. Skipping prep is the primary cause of peeling, bubbling, and premature failure in DIY applications.</p>
+                <p className='text-slate-600 leading-relaxed'>Yes, and surface preparation is the single biggest factor in whether any product performs as rated. All products require a clean, open-pore concrete surface, free of existing paint, sealers, <a href='/articles/basement-efflorescence' className='text-teal-600 underline hover:text-teal-800'>efflorescence</a>, oil, and dust. Wire brushing or mechanical grinding removes light contamination. Muriatic acid etching opens the pores of smooth concrete for better penetration. Efflorescence must be removed by wire brushing or chemical treatment before sealing: applying product over efflorescence traps moisture and causes early failure. Surface coatings (Drylok, KILZ, MasterSeal): apply to a clean, dry wall. Penetrating sealers (RadonSeal): apply to clean, bare, unpainted concrete. They can go on damp concrete, so follow the label. Skipping prep is the primary cause of peeling, bubbling, and premature failure in DIY applications.</p>
               </div>
               <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
                 <h4 className='font-bold text-slate-900 mb-2'>Will waterproof basement paint work on a wet wall?</h4>
-                <p className='text-slate-600 leading-relaxed'>It depends on the product. Standard surface coatings including Drylok and KILZ require the wall to be clean and dry before application &mdash; applying to a wet or actively seeping wall causes adhesion failure and early peeling. Penetrating sealers like RadonSeal actually require a damp surface to activate the chemical reaction, but the wall should not be actively dripping. Hydraulic cement can be applied directly into an active leak as a temporary plug before coating. Flexible rubber membranes like Liquid Rubber can tolerate damp surfaces better than latex coatings but still perform best when the wall is not actively wet. If your wall is consistently wet or seeping, address the moisture source or install drainage before sealing &mdash; no coating adheres reliably to a wall under active water pressure for more than a season.</p>
+                <p className='text-slate-600 leading-relaxed'>It depends on the product. Surface coatings (Drylok, KILZ, MasterSeal): apply to a clean, dry wall. Penetrating sealers (RadonSeal): apply to clean, bare, unpainted concrete. They can go on damp concrete, so follow the label. Hydraulic cement can be applied directly into an active leak as a temporary plug before coating. Flexible rubber membranes like Liquid Rubber can tolerate damp surfaces better than latex coatings but still perform best when the wall is not actively wet. If your wall is consistently wet or seeping, address the moisture source or install drainage before sealing: no coating adheres reliably to a wall under active water pressure for more than a season.</p>
               </div>
               <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
                 <h4 className='font-bold text-slate-900 mb-2'>Can I paint over Drylok or other waterproof coatings?</h4>
-                <p className='text-slate-600 leading-relaxed'>Yes. Once Drylok and similar latex surface coatings are fully cured &mdash; typically 24 hours &mdash; they can be painted over with standard latex paint. The waterproof coating acts as the barrier layer and the finish paint goes on top for color and appearance. Do not apply oil-based paint over water-based waterproof coatings. RadonSeal, being a penetrating sealer that leaves no surface film, can be painted over with any compatible paint or even a surface coating like Drylok after it cures. Flexible rubber membranes like Liquid Rubber and Sani-Tred are typically not painted over &mdash; their finished appearance is part of the product design, and paint may not bond well to the flexible rubber surface.</p>
+                <p className='text-slate-600 leading-relaxed'>Yes. Once Drylok and similar latex surface coatings are fully cured, typically 24 hours, they can be painted over with standard latex paint. The waterproof coating acts as the barrier layer and the finish paint goes on top for color and appearance. Do not apply oil-based paint over water-based waterproof coatings. RadonSeal, being a penetrating sealer that leaves no surface film, can be painted over with any compatible paint or even a surface coating like Drylok after it cures. Flexible rubber membranes like Liquid Rubber and Sani-Tred are typically not painted over, their finished appearance is part of the product design, and paint may not bond well to the flexible rubber surface.</p>
               </div>
               <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
                 <h4 className='font-bold text-slate-900 mb-2'>How long do waterproof basement paints and sealers last?</h4>
-                <p className='text-slate-600 leading-relaxed'>Longevity varies significantly by product type and application quality. Latex surface coatings like Drylok Extreme and KILZ last 10 to 15 years with proper prep and application. Penetrating sealers like RadonSeal are considered permanent in stable concrete &mdash; the crystals formed inside the concrete do not degrade. Flexible rubber membranes like Liquid Rubber and Sani-Tred last 20 years or more when applied at the correct thickness. Cementitious coatings like MasterSeal 583 last 15 to 25 years. In all cases, longevity depends heavily on surface preparation quality, correct product selection for the conditions, and whether the underlying moisture source has been properly managed. A well-prepped wall with the right product in low-pressure conditions will outperform a poorly-prepped wall with a premium product every time.</p>
+                <p className='text-slate-600 leading-relaxed'>Longevity varies significantly by product type and application quality. Drylok Extreme typically lasts 10 to 15 years, and KILZ Basement and Masonry 8 to 12 years. Penetrating sealers like RadonSeal are considered permanent in stable concrete, the crystals formed inside the concrete do not degrade. Flexible rubber membranes like Liquid Rubber and Sani-Tred last 20 years or more when applied at the correct thickness. Cementitious coatings like MasterSeal 583 last 15 to 25 years. In all cases, longevity depends heavily on surface preparation quality, correct product selection for the conditions, and whether the underlying moisture source has been properly managed. A well-prepped wall with the right product in low-pressure conditions will outperform a poorly-prepped wall with a premium product every time.</p>
               </div>
               <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'>
                 <h4 className='font-bold text-slate-900 mb-2'>Are waterproof basement paints and sealers safe to use indoors?</h4>
-                <p className='text-slate-600 leading-relaxed'>All products listed in this guide are formulated for interior use and are safe when applied with adequate ventilation. Open windows and run fans during application and for several hours after. Most modern waterproof coatings are low-VOC or zero-VOC formulations. Latex-based products like Drylok and KILZ have minimal odor and dry quickly. Flexible rubber products like Liquid Rubber and Sani-Tred have stronger odor during application and require more ventilation time. RadonSeal is water-based and low odor. All products should be kept away from skin and eyes during application, and gloves and eye protection are recommended. Once fully cured &mdash; typically 24 to 72 hours depending on the product &mdash; all listed products are safe for occupied spaces.</p>
+                <p className='text-slate-600 leading-relaxed'>All products listed in this guide are formulated for interior use and are safe when applied with adequate ventilation. Open windows and run fans during application and for several hours after. Most modern waterproof coatings are low-VOC or zero-VOC formulations. Latex-based products like Drylok and KILZ have minimal odor and dry quickly. Flexible rubber products like Liquid Rubber and Sani-Tred have stronger odor during application and require more ventilation time. RadonSeal is water-based and low odor. All products should be kept away from skin and eyes during application, and gloves and eye protection are recommended. Once fully cured, typically 24 to 72 hours depending on the product, all listed products are safe for occupied spaces.</p>
               </div>
+            <div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'><h4 className='font-bold text-slate-900 mb-2'>Kilz vs. Drylok: which is better for basement walls?</h4><p className='text-slate-600 leading-relaxed'>Drylok Extreme is the stronger product. It's rated to resist up to 15 psi of water pressure, compared with up to 12 psi for KILZ Basement and Masonry, and it typically lasts longer, about 10 to 15 years versus 8 to 12. KILZ costs less, about $35 to $50 a gallon versus $45 to $60 for Drylok Extreme, and works well on walls that are only damp. For walls with real seepage, choose Drylok Extreme.</p></div>
+<div className='bg-slate-50 rounded-2xl p-6 border border-slate-100'><h4 className='font-bold text-slate-900 mb-2'>Can you use waterproof paint on a basement floor?</h4><p className='text-slate-600 leading-relaxed'>Only some products. Most waterproofing paints are made for walls and will peel off a floor with moisture coming up through the slab. Test the floor with a taped-down plastic sheet for 24 to 48 hours first. If moisture shows up, use a penetrating sealer like RadonSeal or a flexible coating made for floors like Sani-Tred Permaflex, then add a floor finish on top if you want color.</p></div>
             </div>
 
             <p className='text-sm text-slate-500 italic mt-8'>This guide is based on the latest 2026 product data and real-world performance. Local conditions vary, so test a small area first and consult a professional if you have active leaks or structural concerns.</p>
@@ -373,7 +397,7 @@ export default function WaterproofBasementPaintSealers() {
               </div>
               <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
                 <h4 className='font-bold text-slate-900 mb-2'>Flexible Membrane</h4>
-                <p className='text-slate-600 leading-relaxed text-sm'>A rubber-based or elastomeric waterproofing product that cures to a thick, flexible coating that can stretch with minor wall movement and bridge hairline cracks. Examples include Liquid Rubber and Sani-Tred. Applied at higher film thickness than standard coatings &mdash; typically 30 to 60 mils dry film thickness.</p>
+                <p className='text-slate-600 leading-relaxed text-sm'>A rubber-based or elastomeric waterproofing product that cures to a thick, flexible coating that can stretch with minor wall movement and bridge hairline cracks. Examples include Liquid Rubber and Sani-Tred. Applied at higher film thickness than standard coatings, typically 30 to 60 mils dry film thickness.</p>
               </div>
               <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
                 <h4 className='font-bold text-slate-900 mb-2'>Cementitious Coating</h4>
@@ -389,7 +413,7 @@ export default function WaterproofBasementPaintSealers() {
               </div>
               <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
                 <h4 className='font-bold text-slate-900 mb-2'>Efflorescence</h4>
-                <p className='text-slate-600 leading-relaxed text-sm'>White, chalky mineral deposits on concrete surfaces caused by water carrying dissolved salts through the wall and depositing them as it evaporates. Must be removed before any paint or sealer is applied &mdash; coating over <a href='/articles/basement-efflorescence' className='text-teal-600 underline hover:text-teal-800'>efflorescence</a> traps moisture and causes premature failure.</p>
+                <p className='text-slate-600 leading-relaxed text-sm'>White, chalky mineral deposits on concrete surfaces caused by water carrying dissolved salts through the wall and depositing them as it evaporates. Must be removed before any paint or sealer is applied, coating over <a href='/articles/basement-efflorescence' className='text-teal-600 underline hover:text-teal-800'>efflorescence</a> traps moisture and causes premature failure.</p>
               </div>
               <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
                 <h4 className='font-bold text-slate-900 mb-2'>Hydrostatic Pressure</h4>
@@ -454,7 +478,9 @@ export default function WaterproofBasementPaintSealers() {
             <h3 className='font-bold text-slate-900 mb-2'>Basement Efflorescence Explained</h3>
             <p className='text-slate-600 text-sm'>What that white powder means and why it must be addressed before sealing.</p>
           </Link>
-        </div>
+        <Link href='/articles/interior-basement-drainage-systems' className='block bg-white border border-slate-200 rounded-xl p-6 hover:border-teal-400 hover:shadow-lg transition-all duration-300'><h3 className='font-bold text-slate-900 mb-2'>Interior Basement Drainage Systems</h3></Link>
+<Link href='/articles/wet-basement-walls' className='block bg-white border border-slate-200 rounded-xl p-6 hover:border-teal-400 hover:shadow-lg transition-all duration-300'><h3 className='font-bold text-slate-900 mb-2'>Wet or Damp Basement Walls</h3></Link>
+<Link href='/articles/epoxy-vs-polyurethane-floor-coating' className='block bg-white border border-slate-200 rounded-xl p-6 hover:border-teal-400 hover:shadow-lg transition-all duration-300'><h3 className='font-bold text-slate-900 mb-2'>Epoxy vs. Polyurethane Floor Coating</h3></Link></div>
       </section>
 
       {/* CTA */}
