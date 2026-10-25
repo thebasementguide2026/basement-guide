@@ -54,6 +54,17 @@ export default function ArticleSchemaInjector() {
     articleSchema.author.name = 'The Basement Guide Editorial Team'
   }
 
+  const finishingOverrides: Record<string, { headline: string; description: string }> = {
+    'basement-finishing-cost': { headline: "How Much Does It Cost to Finish a Basement? 2026 Prices by Size and Finish Level", description: "Finishing a basement costs about $32,000 on average, or $15 to $120+ per sq ft depending on finish level. See prices for 400 to 2,000 sq ft, room-by-room costs, and what you get back at resale." },
+    'how-to-finish-a-basement': { headline: "How to Finish a Basement, Step by Step (2026 Guide)", description: "How to finish a basement step by step, in the order the pros do it: moisture and radon first, then permits, rough-in, framing, egress, insulation, flooring, drywall, and lighting." },
+  }
+  if (finishingOverrides[slug]) {
+    articleSchema.headline = finishingOverrides[slug].headline
+    articleSchema.description = finishingOverrides[slug].description
+    articleSchema.author.name = 'The Basement Guide Editorial Team'
+    articleSchema.dateModified = '2026-10-24'
+  }
+
   const extras = articleSchemas[slug] || {}
   const schemas: object[] = [articleSchema]
 

@@ -4,90 +4,53 @@ import BeehiivEmailCapture from '@/components/BeehiivEmailCapture'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'How to Finish a Basement: The Complete 2026 Guide',
-  description: 'The complete 2026 guide to finishing a basement. Step-by-step process, costs, permits, insulation, flooring, and common mistakes to avoid.',
-  alternates: { canonical: 'https://thebasement.guide/articles/how-to-finish-a-basement' },
+  "title": "How to Finish a Basement Step by Step: The Complete 2026 Guide | The Basement Guide",
+  "description": "How to finish a basement step by step, in the order the pros do it: moisture and radon first, then permits, rough-in, framing, egress, insulation, flooring, drywall, and lighting.",
+  "alternates": {
+    "canonical": "https://thebasement.guide/articles/how-to-finish-a-basement"
+  },
+  "openGraph": {
+    "title": "How to Finish a Basement Step by Step: The Complete 2026 Guide | The Basement Guide",
+    "description": "How to finish a basement step by step, in the order the pros do it: moisture and radon first, then permits, rough-in, framing, egress, insulation, flooring, drywall, and lighting."
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "How to Finish a Basement Step by Step: The Complete 2026 Guide | The Basement Guide",
+    "description": "How to finish a basement step by step, in the order the pros do it: moisture and radon first, then permits, rough-in, framing, egress, insulation, flooring, drywall, and lighting."
+  }
 }
 
 export default function HowToFinishBasement() {
   return (
     <main className="bg-white text-gray-800">
 
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'FAQPage',
-            mainEntity: [
-              {
-                '@type': 'Question',
-                name: 'How much does it cost to finish a basement in 2026?',
-                acceptedAnswer: { '@type': 'Answer', text: 'Most homeowners spend $25 to $50 per square foot to finish a basement, putting a typical 1,000 square foot project in the $25,000 to $50,000 range. Basic finishes with no bathroom run $15 to $25 per square foot. High-end custom projects with a full bathroom, wet bar, home theater, or premium finishes can exceed $75 per square foot. The biggest single cost variable is whether a bathroom is added — a basement bathroom with shower typically adds $10,000 to $25,000 depending on plumbing complexity.' },
-              },
-              {
-                '@type': 'Question',
-                name: 'What should I do before finishing a basement?',
-                acceptedAnswer: { '@type': 'Answer', text: 'Address moisture first — this is non-negotiable. Perform a plastic sheet test to confirm whether vapor migration through the slab is occurring, and inspect all walls for seepage, efflorescence, or staining. Test for radon. Have any foundation cracks professionally evaluated. Confirm ceiling height meets code minimum. Check whether egress windows are required for the rooms you plan to add.' },
-              },
-              {
-                '@type': 'Question',
-                name: 'Do I need a permit to finish a basement?',
-                acceptedAnswer: { '@type': 'Answer', text: 'Yes, in virtually all US jurisdictions. Basement finishing involves framing, electrical, plumbing, and HVAC work that requires permits and inspections at multiple stages. Skipping permits can void your homeowners insurance, create legal liability, and cause serious complications at resale. Permit costs typically run $500 to $2,000 for a full basement finishing project.' },
-              },
-              {
-                '@type': 'Question',
-                name: 'Do I need an egress window to finish a basement?',
-                acceptedAnswer: { '@type': 'Answer', text: 'Any room you intend to use as a bedroom or sleeping area requires a code-compliant egress window in virtually every US jurisdiction. The IRC requires a minimum net clear opening of 5.7 square feet, a minimum width of 20 inches, a minimum height of 24 inches, and a maximum sill height of 44 inches above the finished floor. Installation costs run $2,500 to $5,000 per window installed.' },
-              },
-              {
-                '@type': 'Question',
-                name: 'How do I insulate a basement correctly?',
-                acceptedAnswer: { '@type': 'Answer', text: 'The correct approach is continuous insulation applied directly to the concrete wall before framing, not fiberglass batts between studs against the concrete. The 2026 gold standard is 2 inches of rigid foam (XPS or EPS, R-10) applied directly to the concrete wall as a thermal break, followed by Rockwool mineral wool batts between the studs for additional R-value.' },
-              },
-              {
-                '@type': 'Question',
-                name: 'Can I finish a basement myself or should I hire a contractor?',
-                acceptedAnswer: { '@type': 'Answer', text: 'A hybrid approach is the most cost-effective strategy: hire licensed professionals for rough-in trades, DIY the finishing work. Painting, trim work, LVP flooring, and basic shelving are reasonable DIY tasks. Electrical, plumbing, HVAC, structural modifications, and egress windows must be handled by licensed professionals. A hybrid approach can save 30 to 40 percent of total project cost.' },
-              },
-              {
-                '@type': 'Question',
-                name: 'How long does it take to finish a basement?',
-                acceptedAnswer: { '@type': 'Answer', text: 'A typical basement finishing project with a general contractor takes 6 to 12 weeks from permit approval through final inspection. Basic finishes with no bathroom run 4 to 6 weeks. Mid-range projects with a half bath take 8 to 12 weeks. High-end custom projects take 12 to 20 weeks or more. DIY projects take 3 to 6 months or more.' },
-              },
-              {
-                '@type': 'Question',
-                name: 'What flooring is best for a finished basement?',
-                acceptedAnswer: { '@type': 'Answer', text: 'Luxury Vinyl Plank (LVP) is the dominant choice for finished basements in 2026 because it is 100 percent waterproof, dimensionally stable below grade, comfortable underfoot, and available at $3 to $8 per square foot installed. Always install a dimpled underlayment or thermal break subfloor system beneath any finished floor.' },
-              },
-            ],
-          }),
-        }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How much does it cost to finish a basement in 2026?","acceptedAnswer":{"@type":"Answer","text":"Finishing a basement costs about $32,000 on average, and most homeowners pay $15,000 to $75,000. A basic finish runs about $15 to $30 per square foot, a mid-range finish with a bathroom $35 to $65, and a high-end finish $70 to $120 or more. A bathroom adds $8,000 to $30,000 depending on whether it's a half or full bath, and each egress window adds $2,500 to $5,000 installed. Set aside 10% to 15% for surprises. For prices by basement size, room-by-room costs, and a full line-item breakdown, see our basement finishing cost guide."}},{"@type":"Question","name":"What should I do before finishing a basement?","acceptedAnswer":{"@type":"Answer","text":"Address moisture first, this is non-negotiable. Perform the plastic sheet test described in this guide to confirm whether vapor migration through the slab is occurring, and inspect all walls for seepage, efflorescence, or staining. Any active water intrusion must be corrected with proper waterproofing before framing begins. Test for radon, a $15 to $30 test kit determines whether a mitigation system is needed before the space is enclosed. Have any foundation cracks professionally evaluated and repaired. Confirm ceiling height meets your local code minimum (typically 7 feet for habitable space). Check whether egress windows are required for the rooms you plan to add, any bedroom requires a code-compliant egress window in virtually all US jurisdictions. Doing these things before the first framing nail goes in prevents the most expensive mistakes in basement finishing."}},{"@type":"Question","name":"Do I need a permit to finish a basement?","acceptedAnswer":{"@type":"Answer","text":"Yes, in virtually all US jurisdictions. Basement finishing involves framing, electrical, plumbing, and HVAC work that requires permits and inspections at multiple stages, typically framing, rough electrical, rough plumbing, insulation, and final completion. Skipping permits is never worth it: unpermitted work can void your homeowners insurance for related claims, create legal liability, and cause serious complications at resale when a buyer's inspector identifies work that does not appear in the permit record. Most cities now use e-Permitting systems that streamline the process. Permit costs typically run $500 to $2,000 for a full basement finishing project."}},{"@type":"Question","name":"Do I need an egress window to finish a basement?","acceptedAnswer":{"@type":"Answer","text":"Any room you intend to use as a bedroom or sleeping area requires a code-compliant egress window in virtually every US jurisdiction. The IRC requires a minimum net clear opening of 5.7 square feet, a minimum width of 20 inches, a minimum height of 24 inches, and a maximum sill height of 44 inches above the finished floor. If the window well is deeper than 44 inches below grade, a permanently attached ladder is required. Egress windows are not optional, a basement room without a compliant egress window cannot legally be designated as a bedroom. Installation costs run $2,500 to $5,000 per window installed. See our egress window cost guide for full pricing and code details."}},{"@type":"Question","name":"How do I insulate a basement correctly?","acceptedAnswer":{"@type":"Answer","text":"The correct approach is continuous insulation applied directly to the concrete wall before framing, not fiberglass batts between studs against the concrete. Concrete is cold, and warm interior air contacting a cold concrete wall through a fiberglass batt will condense into liquid water at the dew point inside the wall cavity, creating hidden mold conditions. The 2026 gold standard is 2 inches of rigid foam (XPS or EPS, R-10) applied directly to the concrete wall as a thermal break, followed by Rockwool mineral wool batts between the studs for additional R-value. This assembly keeps the dew point outside the stud cavity where condensation cannot form on building materials. Avoid standard fiberglass batts against concrete walls entirely."}},{"@type":"Question","name":"Can I finish a basement myself or should I hire a contractor?","acceptedAnswer":{"@type":"Answer","text":"A hybrid approach is the most cost-effective strategy for most homeowners: hire licensed professionals for rough-in trades, DIY the finishing work. Painting, trim work, LVP flooring installation, dimpled underlayment, and basic shelving are all reasonable DIY tasks. Electrical, plumbing, HVAC, structural framing modifications, egress window cutting, and waterproofing systems must be handled by licensed professionals, these trades require permits and inspections, and unlicensed work creates liability, insurance, and resale complications. A hybrid approach can save 30 to 40 percent of total project cost while keeping all code-required work properly permitted and inspected."}},{"@type":"Question","name":"How long does it take to finish a basement?","acceptedAnswer":{"@type":"Answer","text":"A typical basement finishing project with a general contractor takes 6 to 12 weeks from permit approval through final inspection. Basic finishes with no bathroom run 4 to 6 weeks. Mid-range projects with a half bath take 8 to 12 weeks. High-end custom projects with a full bath, home theater, or wet bar take 12 to 20 weeks or more. DIY projects take significantly longer, 3 to 6 months or more depending on how much time you can dedicate each week and how quickly you can schedule licensed subcontractors for inspected trades. Permit approval adds 1 to 4 weeks on the front end."}},{"@type":"Question","name":"What flooring is best for a finished basement?","acceptedAnswer":{"@type":"Answer","text":"Luxury Vinyl Plank (LVP) is the dominant choice for finished basements in 2026 because it is 100 percent waterproof, dimensionally stable below grade, comfortable underfoot, and available in a wide range of styles at $3 to $8 per square foot installed. If the sump pump fails and water enters, LVP can be lifted, the subfloor dried, and the flooring reinstalled, a level of resilience no other flooring option matches in a below-grade environment. Always install a dimpled underlayment or thermal break subfloor system beneath any finished floor to create an air gap between the cold concrete and your flooring. Never install carpet directly on concrete, and avoid solid hardwood below grade. See our basement flooring guide for a full comparison of all below-grade flooring options."}},{"@type":"Question","name":"Can any basement be finished?","acceptedAnswer":{"@type":"Answer","text":"Most can, but not all should be finished as-is. A basement needs to stay dry, have enough ceiling height (about 7 feet for living space), and pass a radon test, or be mitigated, before it's worth finishing. Basements with active leaks, very low ceilings, or structural cracks need those problems fixed first, which can add $5,000 to $25,000. Run through our pre-finish basement audit to find out where yours stands."}},{"@type":"Question","name":"What are the code requirements for a finished basement?","acceptedAnswer":{"@type":"Answer","text":"Most cities follow the International Residential Code: about 7 feet of ceiling height in living space, an egress window in every bedroom, smoke and carbon monoxide alarms, fireblocking in framed walls, and permitted electrical work. Local rules vary, so confirm with your building department before you frame."}}]}) }} />
 
       {/* Article Hero */}
       <section className="relative bg-gray-900 text-white py-20 md:py-28">
         <div className="absolute inset-0 bg-gradient-to-b from-gray-900/80 to-gray-900/95" />
         <div className="relative max-w-4xl mx-auto px-4 text-center">
           <span className="inline-block text-teal-400 text-sm font-semibold tracking-widest uppercase mb-4">Complete Finishing Guide</span>
-          <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-6">How to Finish a Basement:<br /><span className="text-teal-400">The Complete 2026 Guide</span></h1>
-          <p className="text-lg text-gray-300 max-w-2xl mx-auto mb-6">From the first inspection through the final coat of paint — the step-by-step process, real costs, and common mistakes to avoid.</p>
+          <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-6">How to Finish a Basement, Step by Step (2026 Guide)</h1>
+          <p className="text-lg text-gray-300 max-w-2xl mx-auto mb-6">From the first inspection through the final coat of paint, the step-by-step process, real costs, and common mistakes to avoid.</p>
           <div className="flex items-center justify-center gap-3 text-sm text-gray-400">
             <span className="bg-teal-600 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold">BG</span>
             <div className="text-left">
-              <p className="text-white font-medium">The Basement Guide Staff</p>
-              <p>Updated March 2026 · 35 min read</p>
+              <p className="text-white font-medium">By The Basement Guide Editorial Team</p>
+              <p>Updated October 2026 · 26 min read</p>
             </div>
           </div>
         </div>
       </section>
 
+      <section className="max-w-4xl mx-auto px-4 pt-12"><aside data-finishing-tldr="B" className="bg-teal-50 border-teal-200 border rounded-2xl p-6"><h2 className="text-xl font-bold mb-4">TL;DR</h2><div dangerouslySetInnerHTML={{ __html: "<ul class=\"list-disc pl-6 space-y-3\">\n<li class=\"mb-3\"><strong>Fix water first.</strong> Run a 48-hour plastic sheet test and test for radon before you buy a single stud. Finishing over a moisture problem is the most expensive mistake you can make.</li>\n<li class=\"mb-3\"><strong>Pull permits.</strong> Most cities require them for framing, electrical, plumbing, and new bedrooms, and unpermitted work causes problems at resale.</li>\n<li class=\"mb-3\"><strong>Work in this order:</strong> rough-in plumbing, electrical, and HVAC, then framing and fireblocking, egress, insulation, flooring, drywall, and lighting.</li>\n<li class=\"mb-3\"><strong>Know the code basics:</strong> about 7 feet of ceiling height for living space, an egress window in any bedroom, and smoke and CO alarms.</li>\n<li class=\"mb-3\"><strong>Budget about $32,000 on average,</strong> or $15,000 to $75,000 depending on size and finish level. See our <a href=\"/articles/basement-finishing-cost\" class=\"text-teal-700 underline\">basement finishing cost guide</a>.</li>\n<li class=\"mb-3\"><strong>Expect 6 to 12 weeks</strong> with a contractor, or 3 to 6 months or more doing it yourself.</li>\n</ul>\n" }} /></aside></section>
+
       {/* Intro */}
       <section className="max-w-4xl mx-auto px-4 py-12 space-y-5">
-        <p className="text-lg leading-relaxed">Finishing a basement is the construction process of converting an unfinished below-grade space into code-compliant habitable living area by adding framing, insulation, drywall, flooring, electrical, lighting, plumbing, and mechanical systems that meet local building codes for ceiling height, egress, ventilation, and fire safety. Unlike finishing above-grade rooms, basement finishing must address challenges unique to below-grade construction: moisture migration through concrete, limited natural light and ventilation, code requirements for emergency egress in sleeping rooms, and the need to manage mechanical systems &mdash; plumbing, HVAC, and electrical panels &mdash; that are typically concentrated in the basement. The correct sequence matters as much as the individual tasks: moisture issues must be resolved before framing, rough-in plumbing and electrical must be inspected before drywall, and permits must be pulled before any work begins or the finished space cannot be legally sold or occupied. A properly permitted and sequenced basement finish adds 65 to 80 percent of its cost to resale value while delivering immediate utility as living space your household uses every day.</p>
-        <p className="text-lg leading-relaxed">Finishing a basement is one of the best home improvement investments you can make. It is almost always cheaper than building an addition, it adds usable living space to a footprint you already own, and according to the <a href="https://www.nar.realtor/research-and-statistics/research-reports/remodeling-impact" target="_blank" rel="noopener noreferrer" className="text-teal-700 underline">2025 NAR Remodeling Impact Report</a>, a basement conversion to living area can recover approximately 67% of the project cost at resale.</p>
-        <p className="text-lg leading-relaxed">But it is also one of the most commonly botched projects in residential construction — because basements come with challenges that no other room in your house has. Moisture. Low ceilings. Building codes. Mechanical obstructions.</p>
-        <p className="text-lg leading-relaxed">These are not reasons to skip the project. They are reasons to do it right. This guide walks you through the entire process — from the first inspection through the final coat of paint — in the order things actually need to happen.</p>
+        <p className="text-lg leading-relaxed">Finishing a basement is the construction process of converting an unfinished below-grade space into code-compliant habitable living area by adding framing, insulation, drywall, flooring, electrical, lighting, plumbing, and mechanical systems that meet local building codes for ceiling height, egress, ventilation, and fire safety. Unlike finishing above-grade rooms, basement finishing must address challenges unique to below-grade construction: moisture migration through concrete, limited natural light and ventilation, code requirements for emergency egress in sleeping rooms, and the need to manage mechanical systems, plumbing, HVAC, and electrical panels, that are typically concentrated in the basement. The correct sequence matters as much as the individual tasks: moisture issues must be resolved before framing, rough-in plumbing and electrical must be inspected before drywall, and permits must be pulled before any work begins or the finished space cannot be legally sold or occupied. A properly permitted and sequenced basement finish adds about 70% of its cost to resale value, according to the 2025 Cost vs Value Report, while delivering immediate utility as living space your household uses every day.</p>
+        <p className="text-lg leading-relaxed">Finishing a basement is one of the best home improvement investments you can make. It is almost always cheaper than building an addition, it adds usable living space to a footprint you already own, and a basement conversion to living area can recover about 70%, according to the 2025 Cost vs Value Report.</p>
+        <p className="text-lg leading-relaxed">But it is also one of the most commonly botched projects in residential construction, because basements come with challenges that no other room in your house has. Moisture. Low ceilings. Building codes. Mechanical obstructions.</p>
+        <p className="text-lg leading-relaxed">These are not reasons to skip the project. They are reasons to do it right. This guide walks you through the entire process, from the first inspection through the final coat of paint, in the order things actually need to happen.</p>
       </section>
 
       {/* Table of Contents */}
@@ -98,7 +61,7 @@ export default function HowToFinishBasement() {
             <li className="mb-1">How much it costs to finish a basement (with cost table)</li>
             <li className="mb-1">Planning, permitting, and the 2026 legal landscape</li>
             <li className="mb-1">Moisture science, vapor control, and radon standards</li>
-            <li className="mb-1">Rough-in infrastructure — plumbing, electrical, HVAC</li>
+            <li className="mb-1">Rough-in infrastructure, plumbing, electrical, HVAC</li>
             <li className="mb-1">Structural framing and fireblocking</li>
             <li className="mb-1">Egress windows and life safety</li>
             <li className="mb-1">2026 insulation standards and dew point science</li>
@@ -113,39 +76,13 @@ export default function HowToFinishBasement() {
       {/* Cost Section */}
       <section className="max-w-4xl mx-auto px-4 py-12">
         <h2 className="text-3xl font-bold mb-6">How Much Does It Cost to Finish a Basement?</h2>
-        <p className="text-lg leading-relaxed mb-6">Most homeowners spend between $25 and $50 per square foot to finish a basement, which puts a typical 1,000 square foot project in the $25,000 to $50,000 range. A basic finish (framing, insulation, drywall, paint, simple flooring) on the lower end; a full build-out with a bathroom, wet bar, and premium finishes on the higher end. High-end custom projects can easily exceed $75,000.</p>
-
-        <h3 className="text-2xl font-bold mb-4">What Drives the Cost Up or Down</h3>
-        <ul className="list-disc pl-6 space-y-3 mb-6">
-          <li className="mb-3"><strong>Bathrooms:</strong> The single biggest expense most people do not fully anticipate. Adding a <Link href="/articles/basement-bathroom-guide" className="text-teal-700 underline">basement bathroom</Link> with a shower typically adds $10,000 to $25,000 because of the plumbing complexity, especially if you need to break concrete for drainage or install an ejector pump.</li>
-          <li className="mb-3"><strong>Egress windows:</strong> Which you will almost certainly need for bedrooms, run <Link href="/articles/egress-window-cost" className="text-teal-700 underline">$2,500 to $5,000 each</Link> installed.</li>
-          <li className="mb-3"><strong>Electrical and HVAC work:</strong> Can range from minor to major depending on your existing infrastructure.</li>
-          <li className="mb-3"><strong>Contingency fund:</strong> Set aside 10 to 15 percent of your total budget. Basements almost always have surprises hiding behind the concrete — moisture issues, radon, outdated wiring, or code requirements you did not anticipate.</li>
-        </ul>
-
-        <div className="overflow-x-auto mb-6">
-          <table className="w-full border-collapse border border-gray-300 text-sm">
-            <thead>
-              <tr className="bg-gray-100">
-                <th className="border border-gray-300 px-4 py-3 text-left">Finish Level</th>
-                <th className="border border-gray-300 px-4 py-3 text-left">Cost per Sq Ft</th>
-                <th className="border border-gray-300 px-4 py-3 text-left">1,000 Sq Ft Total</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr><td className="border border-gray-300 px-4 py-3">Budget (basic finish, no bathroom)</td><td className="border border-gray-300 px-4 py-3">$15 – $25</td><td className="border border-gray-300 px-4 py-3">$15,000 – $25,000</td></tr>
-              <tr className="bg-gray-50"><td className="border border-gray-300 px-4 py-3">Mid-range (bathroom, good finishes)</td><td className="border border-gray-300 px-4 py-3">$25 – $50</td><td className="border border-gray-300 px-4 py-3">$25,000 – $50,000</td></tr>
-              <tr><td className="border border-gray-300 px-4 py-3">High-end (full build-out, custom)</td><td className="border border-gray-300 px-4 py-3">$50 – $75+</td><td className="border border-gray-300 px-4 py-3">$50,000 – $75,000+</td></tr>
-            </tbody>
-          </table>
-        </div>
-        <p className="text-sm text-gray-500">See our <Link href="/articles/basement-finishing-cost" className="text-teal-700 underline">full basement finishing cost guide</Link> for detailed breakdowns by room type and region.</p>
+<div dangerouslySetInnerHTML={{ __html: "<p class=\"text-lg leading-relaxed mb-6\">Finishing a basement costs about $32,000 on average, and most homeowners pay $15,000 to $75,000. A basic finish runs about $15 to $30 per square foot, a mid-range finish with a bathroom $35 to $65, and a high-end finish $70 to $120 or more. A bathroom adds $8,000 to $30,000 depending on whether it's a half or full bath, and each egress window adds $2,500 to $5,000 installed. Set aside 10% to 15% for surprises.</p>\n<p class=\"text-lg leading-relaxed mb-6\">For prices by basement size, room-by-room costs, and a full line-item breakdown, see our <a href=\"/articles/basement-finishing-cost\" class=\"text-teal-700 underline\">basement finishing cost guide</a>.</p>\n" }} />
       </section>
 
             {/* Phase 1: Planning and Permits */}
       <section className="max-w-4xl mx-auto px-4 py-12">
         <h2 className="text-3xl font-bold mb-6">Phase 1: Planning, Permitting, and the 2026 Legal Landscape</h2>
-        <p className="text-lg leading-relaxed mb-6">Before a single hammer is swung, you must navigate the regulatory environment. In 2026, building departments have digitized and tightened their requirements, specifically regarding energy efficiency and life safety.</p>
+        <p className="text-lg leading-relaxed mb-6">Before a single hammer is swung, you must navigate the regulatory environment. In 2026, building departments have digitized and tightened their requirements, specifically regarding energy efficiency and life safety. Before you plan the layout, run through our <a href="/articles/pre-finish-audit" className="text-teal-700 underline">pre-finish basement audit</a> to catch moisture, radon, and structural issues early.</p>
 
         <h3 className="text-2xl font-bold mb-4">The Habitable Space Threshold</h3>
         <p className="text-lg leading-relaxed mb-4">Under the 2026 International Residential Code (IRC), &ldquo;Habitable Space&rdquo; is a legal designation. If you intend to have a bedroom, office, or gym, you must meet these metrics:</p>
@@ -158,8 +95,8 @@ export default function HowToFinishBasement() {
         <h3 className="text-2xl font-bold mb-4">Navigating the 2026 Permit Office</h3>
         <p className="text-lg leading-relaxed mb-4">Most modern cities now use e-Permitting systems. You will likely need:</p>
         <ul className="list-disc pl-6 space-y-3 mb-6">
-          <li className="mb-3"><strong>The Structural Permit:</strong> Covers the bones of the build — framing, load-bearing changes, and foundation modifications.</li>
-          <li className="mb-3"><strong>The MEP Permits:</strong> Mechanical, Electrical, and Plumbing — each may require a separate licensed subcontractor to pull.</li>
+          <li className="mb-3"><strong>The Structural Permit:</strong> Covers the bones of the build, framing, load-bearing changes, and foundation modifications.</li>
+          <li className="mb-3"><strong>The MEP Permits:</strong> Mechanical, Electrical, and Plumbing, each may require a separate licensed subcontractor to pull.</li>
           <li className="mb-3"><strong>The 2026 Energy Audit:</strong> Some states now require a HERS (Home Energy Rating System) check for basement finishes to ensure you are not leaking heat into the soil.</li>
         </ul>
         <p className="text-lg leading-relaxed">Skipping permits is never worth it. Unpermitted work can void your homeowner&apos;s insurance, create legal liability, and tank your resale value when a buyer&apos;s inspector discovers the work.</p>
@@ -168,7 +105,7 @@ export default function HowToFinishBasement() {
             {/* Phase 2: Moisture and Waterproofing */}
       <section className="max-w-4xl mx-auto px-4 py-12">
         <h2 className="text-3xl font-bold mb-6">Phase 2: Moisture Science, Vapor Control, and the 2026 Radon Standard</h2>
-        <p className="text-lg leading-relaxed mb-6">Water is the only thing that can truly kill a basement project. In 2026, we no longer just stop leaks — we manage the movement of molecules. Concrete is a sponge. Even if it looks dry, it is constantly breathing water vapor from the soil into your home. For a comprehensive deep dive, see our <Link href="/articles/complete-basement-waterproofing-guide" className="text-teal-700 underline">complete basement waterproofing guide</Link>.</p>
+        <p className="text-lg leading-relaxed mb-6">Water is the only thing that can truly kill a basement project. In 2026, we no longer just stop leaks, we manage the movement of molecules. Concrete is a sponge. Even if it looks dry, it is constantly breathing water vapor from the soil into your home. For a comprehensive deep dive, see our <Link href="/articles/complete-basement-waterproofing-guide" className="text-teal-700 underline">complete basement waterproofing guide</Link>.</p>
 
         <h3 className="text-2xl font-bold mb-4">The Plastic Sheet Test: Your 48-Hour Audit</h3>
         <p className="text-lg leading-relaxed mb-4">Before you frame a single wall, tape a 24x24 inch piece of clear plastic to the floor and walls. Wait 48 hours.</p>
@@ -189,14 +126,14 @@ export default function HowToFinishBasement() {
         </div>
 
         <h3 className="text-2xl font-bold mb-4">Hydrostatic Pressure and Smart Sump Systems</h3>
-        <p className="text-lg leading-relaxed mb-4">Water does not just seep — it is pushed. Hydrostatic pressure occurs when the water table rises and presses against your foundation.</p>
+        <p className="text-lg leading-relaxed mb-4">Water does not just seep, it is pushed. Hydrostatic pressure occurs when the water table rises and presses against your foundation.</p>
         <ul className="list-disc pl-6 space-y-3 mb-6">
           <li className="mb-3"><strong>The Relief Valve:</strong> Ensure your <Link href="/articles/sump-pump-buying-guide" className="text-teal-700 underline">sump pump</Link> pit is a perforated basin surrounded by gravel. This allows water under the slab to enter the pit rather than pushing up through your floor.</li>
           <li className="mb-3"><strong>The 2026 Upgrade:</strong> Install an IoT-enabled pump with a battery backup that alerts your phone if the water level rises during a power outage.</li>
         </ul>
 
         <h3 className="text-2xl font-bold mb-4">Modern Waterproofing: Nano-Coatings and Crystalline Sealers</h3>
-        <p className="text-lg leading-relaxed mb-4">Old-fashioned waterproof paint acts like a balloon — eventually, the water pressure behind it causes it to pop. Use crystalline or nano-penetrating sealers instead. These chemicals migrate into the pores of the concrete and turn the concrete itself into a waterproof barrier. See our <Link href="/articles/waterproof-basement-paint-sealers" className="text-teal-700 underline">paint and sealers review</Link> for product recommendations.</p>
+        <p className="text-lg leading-relaxed mb-4">Old-fashioned waterproof paint acts like a balloon, eventually, the water pressure behind it causes it to pop. Use crystalline or nano-penetrating sealers instead. These chemicals migrate into the pores of the concrete and turn the concrete itself into a waterproof barrier. See our <Link href="/articles/waterproof-basement-paint-sealers" className="text-teal-700 underline">paint and sealers review</Link> for product recommendations.</p>
 
         <h3 className="text-2xl font-bold mb-4">Exterior Discipline: The Cheapest Fix</h3>
         <p className="text-lg leading-relaxed mb-4">Before spending $10,000 on interior waterproofing, spend $500 on your yard.</p>
@@ -206,12 +143,12 @@ export default function HowToFinishBasement() {
         </ul>
 
         <h3 className="text-2xl font-bold mb-4">The Invisible Threat: Radon Mitigation</h3>
-        <p className="text-lg leading-relaxed">2026 building codes now mandate radon testing before a permit can be closed. Radon is a colorless, odorless radioactive gas that leaks from the soil. If your levels test above 4 pCi/L, install a passive radon suction point — a 3 or 4 inch PVC pipe that goes into the gravel under the slab and vents through the roof. This is inexpensive to install during construction and far more costly to retrofit later.</p>
+        <p className="text-lg leading-relaxed">2026 building codes now mandate radon testing before a permit can be closed. Radon is a colorless, odorless radioactive gas that leaks from the soil. If your levels test above 4 pCi/L, install a passive radon suction point, a 3 or 4 inch PVC pipe that goes into the gravel under the slab and vents through the roof. This is inexpensive to install during construction and far more costly to retrofit later.</p>
       </section>
 
             {/* Phase 3: Rough-In */}
       <section className="max-w-4xl mx-auto px-4 py-12">
-        <h2 className="text-3xl font-bold mb-6">Phase 3: The Rough-In — Smart Infrastructure</h2>
+        <h2 className="text-3xl font-bold mb-6">Phase 3: The Rough-In, Smart Infrastructure</h2>
         <p className="text-lg leading-relaxed mb-6">The rough-in phase is where you install everything that will eventually be hidden by drywall. This is your last chance to get the technology right.</p>
 
         <h3 className="text-2xl font-bold mb-4">Plumbing and the Sewage Ejector</h3>
@@ -231,7 +168,7 @@ export default function HowToFinishBasement() {
         <h3 className="text-2xl font-bold mb-4">HVAC and Air Quality</h3>
         <p className="text-lg leading-relaxed mb-4">Basements are naturally stale. Without proper ventilation, you are building a mold incubator.</p>
         <ul className="list-disc pl-6 space-y-3 mb-6">
-          <li className="mb-3"><strong>ERV (Energy Recovery Ventilators):</strong> These pull in fresh outdoor air and exhaust stale indoor air while retaining heat — critical for below-grade spaces.</li>
+          <li className="mb-3"><strong>ERV (Energy Recovery Ventilators):</strong> These pull in fresh outdoor air and exhaust stale indoor air while retaining heat, critical for below-grade spaces.</li>
           <li className="mb-3"><strong>The Mini-Split:</strong> A ductless mini-split is often the most efficient way to provide heating and cooling without overloading your main house furnace. It also gives you independent temperature control.</li>
         </ul>
       </section>
@@ -247,7 +184,7 @@ export default function HowToFinishBasement() {
 
         <h3 className="text-2xl font-bold mb-4">Fireblocking: The Invisible Life Saver</h3>
         <p className="text-lg leading-relaxed mb-4">This is the number one reason DIYers fail inspections. In a fire, the stud bays act like chimneys, sucking fire from the basement to the attic.</p>
-        <p className="text-lg leading-relaxed">You must install fire-rated foam or wood blocks every 10 feet horizontally and at every vertical transition (floor to ceiling, soffits, duct chases) to choke the fire path. Your inspector will look for this — guaranteed.</p>
+        <p className="text-lg leading-relaxed">You must install fire-rated foam or wood blocks every 10 feet horizontally and at every vertical transition (floor to ceiling, soffits, duct chases) to choke the fire path. Your inspector will look for this, guaranteed.</p>
       </section>
 
       {/* Phase 5: Egress */}
@@ -264,17 +201,19 @@ export default function HowToFinishBasement() {
         </ul>
       </section>
 
+      <section data-finishing-code className="max-w-4xl mx-auto px-4 py-12"><div dangerouslySetInnerHTML={{ __html: "<h2 class=\"text-3xl font-bold mb-6\">Finished Basement Code Requirements</h2>\n<p class=\"text-lg leading-relaxed mb-6\">Most U.S. cities follow the International Residential Code (IRC) with local changes. Check with your building department, but these are the requirements that shape most basement plans:</p>\n<div class=\"overflow-x-auto not-prose mb-8 max-w-full\"><table class=\"w-full min-w-[640px] border-collapse border border-gray-300 text-sm\">\n<thead>\n<tr class=\"bg-gray-100\">\n<th class=\"border border-gray-300 px-4 py-3 text-left\">Requirement</th>\n<th class=\"border border-gray-300 px-4 py-3 text-left\">Typical Code Rule</th>\n</tr>\n</thead>\n<tbody><tr class=\"bg-white border-b border-slate-200\">\n<td class=\"border border-gray-300 px-4 py-3\">Ceiling height</td>\n<td class=\"border border-gray-300 px-4 py-3\">At least 7 feet in habitable space. Beams, ducts, and pipes can usually hang down to about 6 feet 4 inches.</td>\n</tr>\n<tr class=\"bg-gray-50 border-b border-slate-200\">\n<td class=\"border border-gray-300 px-4 py-3\">Egress for bedrooms</td>\n<td class=\"border border-gray-300 px-4 py-3\">Every sleeping room needs an emergency escape opening: at least 5.7 sq ft of clear opening, 24 inches high and 20 inches wide, with the sill no more than 44 inches above the floor.</td>\n</tr>\n<tr class=\"bg-white border-b border-slate-200\">\n<td class=\"border border-gray-300 px-4 py-3\">Window wells</td>\n<td class=\"border border-gray-300 px-4 py-3\">A well at least 9 sq ft with 36 inches of projection, and a ladder if it's deeper than 44 inches.</td>\n</tr>\n<tr class=\"bg-gray-50 border-b border-slate-200\">\n<td class=\"border border-gray-300 px-4 py-3\">Smoke and CO alarms</td>\n<td class=\"border border-gray-300 px-4 py-3\">Smoke alarms in each bedroom and on each level, plus CO alarms where there's fuel-burning equipment or an attached garage. Usually interconnected.</td>\n</tr>\n<tr class=\"bg-white border-b border-slate-200\">\n<td class=\"border border-gray-300 px-4 py-3\">Fireblocking</td>\n<td class=\"border border-gray-300 px-4 py-3\">Required at the top and bottom of framed walls and at soffits, to stop fire from spreading through wall cavities.</td>\n</tr>\n<tr class=\"bg-gray-50 border-b border-slate-200\">\n<td class=\"border border-gray-300 px-4 py-3\">Electrical</td>\n<td class=\"border border-gray-300 px-4 py-3\">Permitted, inspected wiring. AFCI protection on most living-space circuits and GFCI protection where required.</td>\n</tr>\n<tr class=\"bg-white border-b border-slate-200\">\n<td class=\"border border-gray-300 px-4 py-3\">Insulation</td>\n<td class=\"border border-gray-300 px-4 py-3\">Foundation wall insulation to your climate zone's energy code, typically installed as continuous rigid foam.</td>\n</tr>\n</tbody></table></div>\n<p class=\"text-lg leading-relaxed mb-6\"><strong>Does every basement need an egress window?</strong> No. Egress is required for bedrooms, and many codes also require one emergency exit for any finished basement, which can be a door or window. A basement rec room with a code-compliant stairway may not need one. A basement bedroom always does. See our <a href=\"/articles/egress-window-cost\" class=\"text-teal-700 underline\">egress window cost guide</a>.</p>\n" }} /></section>
+
             {/* Phase 6: Insulation */}
       <section className="max-w-4xl mx-auto px-4 py-12">
         <h2 className="text-3xl font-bold mb-6">Phase 6: 2026 Insulation Standards and Dew Point Science</h2>
-        <p className="text-lg leading-relaxed mb-6">Insulation in a basement is not just about staying warm — it is about preventing the dew point from occurring inside your wall. If warm air from your heater hits a cold concrete wall, it will condense into liquid water, leading to <Link href="/articles/how-to-prevent-basement-mold" className="text-teal-700 underline">mold growth</Link>.</p>
+        <p className="text-lg leading-relaxed mb-6">Insulation in a basement is not just about staying warm, it is about preventing the dew point from occurring inside your wall. If warm air from your heater hits a cold concrete wall, it will condense into liquid water, leading to <Link href="/articles/how-to-prevent-basement-mold" className="text-teal-700 underline">mold growth</Link>.</p>
 
         <h3 className="text-2xl font-bold mb-4">The Inboard Strategy: Continuous Insulation</h3>
         <p className="text-lg leading-relaxed mb-4">In 2026, the gold standard is Continuous Insulation (CI). Apply 2 inches of rigid foam (XPS or EPS) directly to the concrete wall. This creates a thermal break and prevents condensation. Then add Rockwool batts between your studs for additional R-value.</p>
-        <p className="text-lg leading-relaxed mb-6">If you use XPS foam (R-5 per inch) and then add Rockwool (R-15), your total thermal resistance is R-25 — which exceeds most 2026 energy codes.</p>
+        <p className="text-lg leading-relaxed mb-6">If you use XPS foam (R-5 per inch) and then add Rockwool (R-15), your total thermal resistance is R-25, which exceeds most 2026 energy codes.</p>
 
         <h3 className="text-2xl font-bold mb-4">Why Fiberglass Is Out</h3>
-        <p className="text-lg leading-relaxed">In 2026, professionals avoid standard fiberglass batts in basements. Fiberglass acts like a filter for mold spores and loses all its R-value if it gets damp. Use Rockwool instead — it is fire-resistant, water-repellent, and does not lose performance in high-humidity environments.</p>
+        <p className="text-lg leading-relaxed">In 2026, professionals avoid standard fiberglass batts in basements. Fiberglass acts like a filter for mold spores and loses all its R-value if it gets damp. Use Rockwool instead, it is fire-resistant, water-repellent, and does not lose performance in high-humidity environments.</p>
       </section>
 
       {/* Phase 7: Flooring */}
@@ -299,14 +238,14 @@ export default function HowToFinishBasement() {
         <p className="text-lg leading-relaxed mb-6">Standard drywall is a liability in a basement. We treat these walls like a high-performance envelope.</p>
 
         <h3 className="text-2xl font-bold mb-4">Glass-Mat (Paperless) Drywall</h3>
-        <p className="text-lg leading-relaxed mb-4">In 2026, the industry standard for basements is paperless drywall. By removing the paper — the mold&apos;s food source — you create a wall that can survive high-humidity summers without growing black mold. The <a href="https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home" target="_blank" rel="noopener noreferrer" className="text-teal-700 underline">EPA&apos;s guide to mold and moisture</a> is an excellent resource for understanding how moisture leads to mold in residential spaces.</p>
+        <p className="text-lg leading-relaxed mb-4">In 2026, the industry standard for basements is paperless drywall. By removing the paper, the mold&apos;s food source, you create a wall that can survive high-humidity summers without growing black mold. The <a href="https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home" target="_blank" rel="noopener noreferrer" className="text-teal-700 underline">EPA&apos;s guide to mold and moisture</a> is an excellent resource for understanding how moisture leads to mold in residential spaces.</p>
         <p className="text-lg leading-relaxed mb-6"><strong>The Half-Inch Gap:</strong> Leave a 1/2 inch gap between the bottom of the drywall and the concrete floor. This prevents the board from wicking up any minor moisture spills.</p>
 
         <h3 className="text-2xl font-bold mb-4">Mudding and Taping in the Damp Zone</h3>
         <p className="text-lg leading-relaxed mb-6">In a basement, the relative <Link href="/articles/basement-humidity-guide" className="text-teal-700 underline">humidity</Link> is often 60% or higher. Use setting-type compound (hot mud) for the first two coats. It cures via a chemical reaction regardless of how humid the basement air is, unlike standard pre-mixed compound that relies on evaporation.</p>
 
         <h3 className="text-2xl font-bold mb-4">Painting for Longevity</h3>
-        <p className="text-lg leading-relaxed">Use a high-quality, breathable acrylic latex paint with an anti-microbial additive. This prevents surface mold from growing in stagnant corners behind furniture. Avoid oil-based paints — they trap moisture behind the film.</p>
+        <p className="text-lg leading-relaxed">Use a high-quality, breathable acrylic latex paint with an anti-microbial additive. This prevents surface mold from growing in stagnant corners behind furniture. Avoid oil-based paints, they trap moisture behind the film.</p>
       </section>
 
             {/* Phase 9: Lighting */}
@@ -346,14 +285,14 @@ export default function HowToFinishBasement() {
           <li className="mb-3">Egress window cutting and installation</li>
           <li className="mb-3">Waterproofing systems</li>
         </ul>
-        <p className="text-lg leading-relaxed">A hybrid approach — hiring pros for the rough-in and doing the finishing yourself — can save 30 to 40 percent of the total project cost while keeping your home safe and code-compliant.</p>
+        <p className="text-lg leading-relaxed">A hybrid approach, hiring pros for the rough-in and doing the finishing yourself, can save 30 to 40 percent of the total project cost while keeping your home safe and code-compliant.</p>
       </section>
 
       {/* ROI Section */}
       <section className="max-w-4xl mx-auto px-4 py-12">
         <h2 className="text-3xl font-bold mb-6">Return on Investment: Turning Potential into Equity</h2>
-        <p className="text-lg leading-relaxed mb-6">Finishing a basement is one of the most significant investments a homeowner can make in 2026. According to the <a href="https://www.nar.realtor/research-and-statistics/research-reports/remodeling-impact" target="_blank" rel="noopener noreferrer" className="text-teal-700 underline">2025 NAR Remodeling Impact Report</a>, a basement conversion to living area recovers approximately 67% of the project cost at resale. Beyond the financial return, homeowners report significantly increased enjoyment and functionality in their homes after completing a basement project.</p>
-        <p className="text-lg leading-relaxed mb-6">The true value lies in the details — by prioritizing moisture control, following the 2026 legal codes, and using modern inorganic materials, you ensure that this new square footage remains a healthy and durable part of your home for decades to come.</p>
+        <p className="text-lg leading-relaxed mb-6">Finishing a basement is one of the most significant investments a homeowner can make in 2026. A basement conversion to living area recovers about 70%, according to the 2025 Cost vs Value Report. Beyond the financial return, homeowners report significantly increased enjoyment and functionality in their homes after completing a basement project.</p>
+        <p className="text-lg leading-relaxed mb-6">The true value lies in the details, by prioritizing moisture control, following the 2026 legal codes, and using modern inorganic materials, you ensure that this new square footage remains a healthy and durable part of your home for decades to come.</p>
         <p className="text-lg leading-relaxed">If you are considering converting your finished basement into a rental unit, check out our <Link href="/articles/basement-adu-rental-suite" className="text-teal-700 underline">basement ADU and rental suite guide</Link> for the legal and financial framework.</p>
       </section>
 
@@ -363,37 +302,39 @@ export default function HowToFinishBasement() {
         <div className="space-y-6">
           <div className="border-b border-gray-200 pb-6">
             <h3 className="text-xl font-semibold mb-3">How much does it cost to finish a basement in 2026?</h3>
-            <p className="text-gray-700 leading-relaxed">Most homeowners spend $25 to $50 per square foot to finish a basement, putting a typical 1,000 square foot project in the $25,000 to $50,000 range. Basic finishes with no bathroom run $15 to $25 per square foot. High-end custom projects with a full bathroom, wet bar, home theater, or premium finishes can exceed $75 per square foot. The biggest single cost variable is whether a bathroom is added &mdash; a basement bathroom with shower typically adds $10,000 to $25,000 depending on plumbing complexity. Set aside a 10 to 15 percent contingency on top of your base budget for the surprises that almost always emerge in basement projects: moisture issues, radon, outdated wiring, or code requirements not anticipated in the original scope. See our <Link href="/articles/basement-finishing-cost" className="text-teal-700 underline">full basement finishing cost guide</Link> for detailed breakdowns by room type and component.</p>
+            <div dangerouslySetInnerHTML={{ __html: "<p class=\"text-lg leading-relaxed mb-6\">Finishing a basement costs about $32,000 on average, and most homeowners pay $15,000 to $75,000. A basic finish runs about $15 to $30 per square foot, a mid-range finish with a bathroom $35 to $65, and a high-end finish $70 to $120 or more. A bathroom adds $8,000 to $30,000 depending on whether it's a half or full bath, and each egress window adds $2,500 to $5,000 installed. Set aside 10% to 15% for surprises.</p>\n<p class=\"text-lg leading-relaxed mb-6\">For prices by basement size, room-by-room costs, and a full line-item breakdown, see our <a href=\"/articles/basement-finishing-cost\" class=\"text-teal-700 underline\">basement finishing cost guide</a>.</p>\n" }} />
           </div>
           <div className="border-b border-gray-200 pb-6">
             <h3 className="text-xl font-semibold mb-3">What should I do before finishing a basement?</h3>
-            <p className="text-gray-700 leading-relaxed">Address moisture first &mdash; this is non-negotiable. Perform the plastic sheet test described in this guide to confirm whether vapor migration through the slab is occurring, and inspect all walls for seepage, efflorescence, or staining. Any active water intrusion must be corrected with proper waterproofing before framing begins. Test for radon &mdash; a $15 to $30 test kit determines whether a mitigation system is needed before the space is enclosed. Have any foundation cracks professionally evaluated and repaired. Confirm ceiling height meets your local code minimum (typically 7 feet for habitable space). Check whether egress windows are required for the rooms you plan to add &mdash; any bedroom requires a code-compliant egress window in virtually all US jurisdictions. Doing these things before the first framing nail goes in prevents the most expensive mistakes in basement finishing.</p>
+            <p className="text-gray-700 leading-relaxed">Address moisture first, this is non-negotiable. Perform the plastic sheet test described in this guide to confirm whether vapor migration through the slab is occurring, and inspect all walls for seepage, efflorescence, or staining. Any active water intrusion must be corrected with proper waterproofing before framing begins. Test for radon, a $15 to $30 test kit determines whether a mitigation system is needed before the space is enclosed. Have any foundation cracks professionally evaluated and repaired. Confirm ceiling height meets your local code minimum (typically 7 feet for habitable space). Check whether egress windows are required for the rooms you plan to add, any bedroom requires a code-compliant egress window in virtually all US jurisdictions. Doing these things before the first framing nail goes in prevents the most expensive mistakes in basement finishing.</p>
           </div>
           <div className="border-b border-gray-200 pb-6">
             <h3 className="text-xl font-semibold mb-3">Do I need a permit to finish a basement?</h3>
-            <p className="text-gray-700 leading-relaxed">Yes, in virtually all US jurisdictions. Basement finishing involves framing, electrical, plumbing, and HVAC work that requires permits and inspections at multiple stages &mdash; typically framing, rough electrical, rough plumbing, insulation, and final completion. Skipping permits is never worth it: unpermitted work can void your homeowners insurance for related claims, create legal liability, and cause serious complications at resale when a buyer&apos;s inspector identifies work that does not appear in the permit record. Most cities now use e-Permitting systems that streamline the process. Permit costs typically run $500 to $2,000 for a full basement finishing project.</p>
+            <p className="text-gray-700 leading-relaxed">Yes, in virtually all US jurisdictions. Basement finishing involves framing, electrical, plumbing, and HVAC work that requires permits and inspections at multiple stages, typically framing, rough electrical, rough plumbing, insulation, and final completion. Skipping permits is never worth it: unpermitted work can void your homeowners insurance for related claims, create legal liability, and cause serious complications at resale when a buyer&apos;s inspector identifies work that does not appear in the permit record. Most cities now use e-Permitting systems that streamline the process. Permit costs typically run $500 to $2,000 for a full basement finishing project.</p>
           </div>
           <div className="border-b border-gray-200 pb-6">
             <h3 className="text-xl font-semibold mb-3">Do I need an egress window to finish a basement?</h3>
-            <p className="text-gray-700 leading-relaxed">Any room you intend to use as a bedroom or sleeping area requires a code-compliant egress window in virtually every US jurisdiction. The IRC requires a minimum net clear opening of 5.7 square feet, a minimum width of 20 inches, a minimum height of 24 inches, and a maximum sill height of 44 inches above the finished floor. If the window well is deeper than 44 inches below grade, a permanently attached ladder is required. Egress windows are not optional &mdash; a basement room without a compliant egress window cannot legally be designated as a bedroom. Installation costs run $2,500 to $5,000 per window installed. See our <Link href="/articles/egress-window-cost" className="text-teal-700 underline">egress window cost guide</Link> for full pricing and code details.</p>
+            <p className="text-gray-700 leading-relaxed">Any room you intend to use as a bedroom or sleeping area requires a code-compliant egress window in virtually every US jurisdiction. The IRC requires a minimum net clear opening of 5.7 square feet, a minimum width of 20 inches, a minimum height of 24 inches, and a maximum sill height of 44 inches above the finished floor. If the window well is deeper than 44 inches below grade, a permanently attached ladder is required. Egress windows are not optional, a basement room without a compliant egress window cannot legally be designated as a bedroom. Installation costs run $2,500 to $5,000 per window installed. See our <Link href="/articles/egress-window-cost" className="text-teal-700 underline">egress window cost guide</Link> for full pricing and code details.</p>
           </div>
           <div className="border-b border-gray-200 pb-6">
             <h3 className="text-xl font-semibold mb-3">How do I insulate a basement correctly?</h3>
-            <p className="text-gray-700 leading-relaxed">The correct approach is continuous insulation applied directly to the concrete wall before framing, not fiberglass batts between studs against the concrete. Concrete is cold, and warm interior air contacting a cold concrete wall through a fiberglass batt will condense into liquid water at the dew point inside the wall cavity &mdash; creating hidden mold conditions. The 2026 gold standard is 2 inches of rigid foam (XPS or EPS, R-10) applied directly to the concrete wall as a thermal break, followed by Rockwool mineral wool batts between the studs for additional R-value. This assembly keeps the dew point outside the stud cavity where condensation cannot form on building materials. Avoid standard fiberglass batts against concrete walls entirely.</p>
+            <p className="text-gray-700 leading-relaxed">The correct approach is continuous insulation applied directly to the concrete wall before framing, not fiberglass batts between studs against the concrete. Concrete is cold, and warm interior air contacting a cold concrete wall through a fiberglass batt will condense into liquid water at the dew point inside the wall cavity, creating hidden mold conditions. The 2026 gold standard is 2 inches of rigid foam (XPS or EPS, R-10) applied directly to the concrete wall as a thermal break, followed by Rockwool mineral wool batts between the studs for additional R-value. This assembly keeps the dew point outside the stud cavity where condensation cannot form on building materials. Avoid standard fiberglass batts against concrete walls entirely.</p>
           </div>
           <div className="border-b border-gray-200 pb-6">
             <h3 className="text-xl font-semibold mb-3">Can I finish a basement myself or should I hire a contractor?</h3>
-            <p className="text-gray-700 leading-relaxed">A hybrid approach is the most cost-effective strategy for most homeowners: hire licensed professionals for rough-in trades, DIY the finishing work. Painting, trim work, LVP flooring installation, dimpled underlayment, and basic shelving are all reasonable DIY tasks. Electrical, plumbing, HVAC, structural framing modifications, egress window cutting, and waterproofing systems must be handled by licensed professionals &mdash; these trades require permits and inspections, and unlicensed work creates liability, insurance, and resale complications. A hybrid approach can save 30 to 40 percent of total project cost while keeping all code-required work properly permitted and inspected.</p>
+            <p className="text-gray-700 leading-relaxed">A hybrid approach is the most cost-effective strategy for most homeowners: hire licensed professionals for rough-in trades, DIY the finishing work. Painting, trim work, LVP flooring installation, dimpled underlayment, and basic shelving are all reasonable DIY tasks. Electrical, plumbing, HVAC, structural framing modifications, egress window cutting, and waterproofing systems must be handled by licensed professionals, these trades require permits and inspections, and unlicensed work creates liability, insurance, and resale complications. A hybrid approach can save 30 to 40 percent of total project cost while keeping all code-required work properly permitted and inspected.</p>
           </div>
           <div className="border-b border-gray-200 pb-6">
             <h3 className="text-xl font-semibold mb-3">How long does it take to finish a basement?</h3>
-            <p className="text-gray-700 leading-relaxed">A typical basement finishing project with a general contractor takes 6 to 12 weeks from permit approval through final inspection. Basic finishes with no bathroom run 4 to 6 weeks. Mid-range projects with a half bath take 8 to 12 weeks. High-end custom projects with a full bath, home theater, or wet bar take 12 to 20 weeks or more. DIY projects take significantly longer &mdash; 3 to 6 months or more depending on how much time you can dedicate each week and how quickly you can schedule licensed subcontractors for inspected trades. Permit approval adds 1 to 4 weeks on the front end.</p>
+            <p className="text-gray-700 leading-relaxed">A typical basement finishing project with a general contractor takes 6 to 12 weeks from permit approval through final inspection. Basic finishes with no bathroom run 4 to 6 weeks. Mid-range projects with a half bath take 8 to 12 weeks. High-end custom projects with a full bath, home theater, or wet bar take 12 to 20 weeks or more. DIY projects take significantly longer, 3 to 6 months or more depending on how much time you can dedicate each week and how quickly you can schedule licensed subcontractors for inspected trades. Permit approval adds 1 to 4 weeks on the front end.</p>
           </div>
           <div className="pb-6">
             <h3 className="text-xl font-semibold mb-3">What flooring is best for a finished basement?</h3>
-            <p className="text-gray-700 leading-relaxed">Luxury Vinyl Plank (LVP) is the dominant choice for finished basements in 2026 because it is 100 percent waterproof, dimensionally stable below grade, comfortable underfoot, and available in a wide range of styles at $3 to $8 per square foot installed. If the sump pump fails and water enters, LVP can be lifted, the subfloor dried, and the flooring reinstalled &mdash; a level of resilience no other flooring option matches in a below-grade environment. Always install a dimpled underlayment or thermal break subfloor system beneath any finished floor to create an air gap between the cold concrete and your flooring. Never install carpet directly on concrete, and avoid solid hardwood below grade. See our <Link href="/articles/best-basement-flooring" className="text-teal-700 underline">basement flooring guide</Link> for a full comparison of all below-grade flooring options.</p>
+            <p className="text-gray-700 leading-relaxed">Luxury Vinyl Plank (LVP) is the dominant choice for finished basements in 2026 because it is 100 percent waterproof, dimensionally stable below grade, comfortable underfoot, and available in a wide range of styles at $3 to $8 per square foot installed. If the sump pump fails and water enters, LVP can be lifted, the subfloor dried, and the flooring reinstalled, a level of resilience no other flooring option matches in a below-grade environment. Always install a dimpled underlayment or thermal break subfloor system beneath any finished floor to create an air gap between the cold concrete and your flooring. Never install carpet directly on concrete, and avoid solid hardwood below grade. See our <Link href="/articles/best-basement-flooring" className="text-teal-700 underline">basement flooring guide</Link> for a full comparison of all below-grade flooring options.</p>
           </div>
-        </div>
+        <div className="border-b border-gray-200 pb-6"><h3 className="text-xl font-semibold mb-3">Can any basement be finished?</h3><div dangerouslySetInnerHTML={{ __html: "<p class=\"text-lg leading-relaxed mb-6\">Most can, but not all should be finished as-is. A basement needs to stay dry, have enough ceiling height (about 7 feet for living space), and pass a radon test, or be mitigated, before it's worth finishing. Basements with active leaks, very low ceilings, or structural cracks need those problems fixed first, which can add $5,000 to $25,000. Run through our <a href=\"/articles/pre-finish-audit\" class=\"text-teal-700 underline\">pre-finish basement audit</a> to find out where yours stands.</p>" }} /></div>
+<div className="border-b border-gray-200 pb-6"><h3 className="text-xl font-semibold mb-3">What are the code requirements for a finished basement?</h3><div dangerouslySetInnerHTML={{ __html: "<p class=\"text-lg leading-relaxed mb-6\">Most cities follow the International Residential Code: about 7 feet of ceiling height in living space, an egress window in every bedroom, smoke and carbon monoxide alarms, fireblocking in framed walls, and permitted electrical work. Local rules vary, so confirm with your building department before you frame.</p>" }} /></div>
+</div>
       </section>
 
       {/* Glossary */}
@@ -414,11 +355,11 @@ export default function HowToFinishBasement() {
           </div>
           <div className="bg-gray-50 rounded-xl p-6 border border-gray-200">
             <h4 className="font-bold text-gray-900 mb-2">Fireblocking</h4>
-            <p className="text-gray-600 leading-relaxed text-sm">Fire-rated materials &mdash; solid wood, fire-rated foam, or mineral wool &mdash; installed horizontally in stud bays and at vertical transitions to interrupt the path that fire travels through open wall cavities. Required by code at every 10 feet horizontally and at every floor-ceiling transition, soffit, and duct chase. The most common reason DIY basement finishing projects fail framing inspection.</p>
+            <p className="text-gray-600 leading-relaxed text-sm">Fire-rated materials, solid wood, fire-rated foam, or mineral wool, installed horizontally in stud bays and at vertical transitions to interrupt the path that fire travels through open wall cavities. Required by code at every 10 feet horizontally and at every floor-ceiling transition, soffit, and duct chase. The most common reason DIY basement finishing projects fail framing inspection.</p>
           </div>
           <div className="bg-gray-50 rounded-xl p-6 border border-gray-200">
             <h4 className="font-bold text-gray-900 mb-2">Continuous Insulation (CI)</h4>
-            <p className="text-gray-600 leading-relaxed text-sm">Insulation installed without gaps or thermal bridges, typically rigid foam board applied directly to the concrete wall surface before framing. Creates a complete thermal break that prevents warm interior air from contacting the cold concrete and condensing. The 2026 gold standard for basement wall insulation &mdash; 2 inches of XPS or EPS rigid foam provides R-10 and eliminates dew point condensation risk.</p>
+            <p className="text-gray-600 leading-relaxed text-sm">Insulation installed without gaps or thermal bridges, typically rigid foam board applied directly to the concrete wall surface before framing. Creates a complete thermal break that prevents warm interior air from contacting the cold concrete and condensing. The 2026 gold standard for basement wall insulation, 2 inches of XPS or EPS rigid foam provides R-10 and eliminates dew point condensation risk.</p>
           </div>
           <div className="bg-gray-50 rounded-xl p-6 border border-gray-200">
             <h4 className="font-bold text-gray-900 mb-2">Dew Point</h4>
@@ -426,7 +367,7 @@ export default function HowToFinishBasement() {
           </div>
           <div className="bg-gray-50 rounded-xl p-6 border border-gray-200">
             <h4 className="font-bold text-gray-900 mb-2">Glass-Mat (Paperless) Drywall</h4>
-            <p className="text-gray-600 leading-relaxed text-sm">Drywall manufactured with a fiberglass mat facing instead of paper. By eliminating the paper &mdash; cellulose that mold uses as a food source &mdash; paperless drywall resists mold growth in high-humidity basement environments where standard paper-faced drywall would eventually develop mold. The 2026 industry standard for basement drywall in all locations below grade.</p>
+            <p className="text-gray-600 leading-relaxed text-sm">Drywall manufactured with a fiberglass mat facing instead of paper. By eliminating the paper, cellulose that mold uses as a food source, paperless drywall resists mold growth in high-humidity basement environments where standard paper-faced drywall would eventually develop mold. The 2026 industry standard for basement drywall in all locations below grade.</p>
           </div>
           <div className="bg-gray-50 rounded-xl p-6 border border-gray-200">
             <h4 className="font-bold text-gray-900 mb-2">AFCI / GFCI Protection</h4>
@@ -434,7 +375,7 @@ export default function HowToFinishBasement() {
           </div>
           <div className="bg-gray-50 rounded-xl p-6 border border-gray-200">
             <h4 className="font-bold text-gray-900 mb-2">ERV (Energy Recovery Ventilator)</h4>
-            <p className="text-gray-600 leading-relaxed text-sm">A mechanical ventilation device that exchanges stale indoor air for fresh outdoor air while retaining most of the heat from the outgoing air stream. Critical for finished basements that are too tightly sealed for adequate natural air exchange &mdash; without mechanical ventilation, below-grade spaces accumulate CO2, VOCs, and humidity that degrade air quality.</p>
+            <p className="text-gray-600 leading-relaxed text-sm">A mechanical ventilation device that exchanges stale indoor air for fresh outdoor air while retaining most of the heat from the outgoing air stream. Critical for finished basements that are too tightly sealed for adequate natural air exchange, without mechanical ventilation, below-grade spaces accumulate CO2, VOCs, and humidity that degrade air quality.</p>
           </div>
           <div className="bg-gray-50 rounded-xl p-6 border border-gray-200">
             <h4 className="font-bold text-gray-900 mb-2">Dimpled Underlayment</h4>
@@ -460,7 +401,7 @@ export default function HowToFinishBasement() {
 
       {/* Lead Form */}
       <section className="max-w-4xl mx-auto px-4 py-12">
-        <BeehiivEmailCapture />
+        <BeehiivEmailCapture avoidEmDash />
 
         <LeadForm />
       </section>
