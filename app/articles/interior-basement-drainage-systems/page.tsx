@@ -18,86 +18,160 @@ export default function InteriorBasementDrainageSystems() {
         type='application/ld+json'
         dangerouslySetInnerHTML={{
           __html: JSON.stringify([
-            {
-              '@context': 'https://schema.org',
-              '@type': 'Article',
-              headline: 'Interior Basement Drainage Systems: Types, Costs, and How to Choose the Right One (2026)',
-              description: 'Complete guide to interior basement drainage systems including French drains, WaterGuard, DryTrak, and thin-floor systems with cost comparisons.',
-              image: 'https://thebasement.guide/interiordrainage.jpg',
-              author: { '@type': 'Organization', name: 'The Basement Guide' },
-              publisher: { '@type': 'Organization', name: 'The Basement Guide', url: 'https://thebasement.guide' },
-              datePublished: '2026-03-01',
-              dateModified: '2026-03-11',
-              mainEntityOfPage: 'https://thebasement.guide/articles/interior-basement-drainage-systems',
-            },
-            {
-              '@context': 'https://schema.org',
-              '@type': 'Dataset',
-              name: 'Interior Basement Drainage Systems Comparison 2026',
-              description: 'Structured comparison of interior basement drainage system types including installation location, cost, clog resistance, and best use cases.',
-              creator: { '@type': 'Organization', name: 'The Basement Guide' },
-              license: 'https://creativecommons.org/licenses/by/4.0/',
-              distribution: [
-                {
-                  '@type': 'DataDownload',
-                  encodingFormat: 'application/json',
-                  contentUrl: 'https://thebasement.guide/articles/interior-basement-drainage-systems',
-                },
-              ],
-              variableMeasured: [
-                { '@type': 'PropertyValue', name: 'System Type', value: 'Traditional French Drain, WaterGuard Channel, DryTrak Baseboard, FlowGuard Thin-Floor' },
-                { '@type': 'PropertyValue', name: 'Cost Per Linear Foot', value: '$30-$100' },
-                { '@type': 'PropertyValue', name: 'Full Perimeter Cost', value: '$3,000-$15,000' },
-                { '@type': 'PropertyValue', name: 'Jackhammering Required', value: 'Yes for sub-floor; No for baseboard' },
-              ],
-            },
-            {
-              '@context': 'https://schema.org',
-              '@type': 'FAQPage',
-              mainEntity: [
-                {
-                  '@type': 'Question',
-                  name: 'How much does an interior basement drainage system cost?',
-                  acceptedAnswer: { '@type': 'Answer', text: 'Interior basement drainage systems cost $40 to $100 per linear foot installed depending on the system type. A full perimeter installation for a typical 1,000 square foot basement runs $4,000 to $15,000 total. Baseboard-style systems are the least expensive at $30 to $60 per linear foot since no jackhammering is required. Engineered channel systems like WaterGuard cost $50 to $100 per linear foot including the wall flange and narrower concrete cut. Traditional sub-floor French drains run $40 to $85 per linear foot.' },
-                },
-                {
-                  '@type': 'Question',
-                  name: 'What is the best interior drainage system for a basement?',
-                  acceptedAnswer: { '@type': 'Answer', text: 'The best system depends entirely on your foundation type, not on brand reputation. For standard foundations with a separate floor slab and footing — most homes built after 1970 — an engineered channel system like WaterGuard or a traditional interior French drain is the most effective option. For monolithic foundations where the floor and footing were poured as a single piece of concrete — common in homes built between 1950 and 1970 — a baseboard system like DryTrak is the only safe choice because jackhammering through a monolithic floor would damage the footing itself.' },
-                },
-                {
-                  '@type': 'Question',
-                  name: 'Is WaterGuard better than a French drain?',
-                  acceptedAnswer: { '@type': 'Answer', text: 'WaterGuard and similar engineered channel systems offer meaningful advantages over traditional French drains: they sit above the mud zone at the base of the footing, making them significantly more clog-resistant over time; they include a wall flange that captures water seeping down the wall face that traditional pipe systems can miss; and they require a narrower concrete cut, reducing jackhammering time. However, they are only available through authorized dealer networks and cost more per linear foot than generic French drains. A properly installed traditional French drain with clean washed gravel, quality perforated pipe, and a filter sock will also perform well for 15 to 25 years.' },
-                },
-                {
-                  '@type': 'Question',
-                  name: 'Do interior drainage systems stop water from coming through basement walls?',
-                  acceptedAnswer: { '@type': 'Answer', text: 'No, and this is the most important limitation to understand before installation. Interior drainage systems intercept and manage water after it has entered the foundation — they do not create a barrier that prevents water from reaching or penetrating the wall. The floor stays dry because water is captured at the cove joint and sub-slab and routed to the sump before it spreads across the floor, but the wall itself may continue to show signs of moisture, efflorescence, or minor seepage.' },
-                },
-                {
-                  '@type': 'Question',
-                  name: 'Can I install an interior drainage system myself?',
-                  acceptedAnswer: { '@type': 'Answer', text: 'It is technically possible but not recommended for most homeowners. The job requires jackhammering concrete at a precise width and depth, proper grading of the drainage channel to slope toward the sump pit, correct sump pump sizing for your water volume, and concrete restoration to produce a stable, finished floor. Improper grading is the most common DIY failure — a channel that does not slope consistently will hold water rather than move it.' },
-                },
-                {
-                  '@type': 'Question',
-                  name: 'How long does interior drainage system installation take?',
-                  acceptedAnswer: { '@type': 'Answer', text: 'Total installation time runs 1 to 5 days depending on the system type and perimeter length. Baseboard systems that require no jackhammering are the fastest at 1 to 2 days. Full perimeter sub-floor systems with concrete restoration take 3 to 5 days. New concrete needs 24 to 48 hours to cure before heavy foot traffic.' },
-                },
-                {
-                  '@type': 'Question',
-                  name: 'Will an interior drainage system increase my home value?',
-                  acceptedAnswer: { '@type': 'Answer', text: 'A professionally installed interior drainage system with a documented warranty increases home marketability meaningfully. Buyers and their inspectors view a waterproofed basement with a working sump pump and transferable warranty favorably — it removes a common inspection objection and gives buyers confidence the issue was properly addressed rather than hidden. A transferable lifetime warranty from the installing contractor is particularly valuable because it gives the buyer direct coverage.' },
-                },
-                {
-                  '@type': 'Question',
-                  name: 'What happens if the sump pump fails?',
-                  acceptedAnswer: { '@type': 'Answer', text: 'If the sump pump fails, water collected by the drainage channel has nowhere to go and will eventually back up and overflow onto the basement floor — defeating the entire system. This is the single most important reason a battery backup or water-powered backup sump pump is not optional, it is a required component of any interior drainage system in a home that cannot afford a wet basement. Power outages and pump failures most often occur during the same heavy storms that generate the highest water inflow.' },
-                },
-              ],
-            },
-          ]),
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Interior Basement Drainage Systems, The Complete 2026 Guide",
+    "description": "Complete guide to interior basement drainage systems including French drains, WaterGuard, DryTrak, and thin-floor systems with cost comparisons.",
+    "image": "https://thebasement.guide/interiordrainage.jpg",
+    "author": {
+      "@type": "Organization",
+      "name": "The Basement Guide Editorial Team"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "The Basement Guide",
+      "url": "https://thebasement.guide"
+    },
+    "datePublished": "2026-03-01",
+    "dateModified": "2026-10-25",
+    "mainEntityOfPage": "https://thebasement.guide/articles/interior-basement-drainage-systems"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "Interior Basement Drainage Systems Comparison 2026",
+    "description": "Structured comparison of interior basement drainage system types including installation location, cost, clog resistance, and best use cases.",
+    "creator": {
+      "@type": "Organization",
+      "name": "The Basement Guide"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "distribution": [
+      {
+        "@type": "DataDownload",
+        "encodingFormat": "application/json",
+        "contentUrl": "https://thebasement.guide/articles/interior-basement-drainage-systems"
+      }
+    ],
+    "variableMeasured": [
+      {
+        "@type": "PropertyValue",
+        "name": "System Type",
+        "value": "Traditional French Drain, WaterGuard Channel, DryTrak Baseboard, FlowGuard Thin-Floor"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Cost Per Linear Foot",
+        "value": "$30-$100"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Full Perimeter Cost",
+        "value": "$3,000-$15,000"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Jackhammering Required",
+        "value": "Yes for sub-floor; No for baseboard"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How much does an interior basement drainage system cost?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Interior basement drainage systems cost $40 to $100 per linear foot installed depending on the system type. A full perimeter installation for a typical 1,000 square foot basement runs $4,000 to $15,000 total. Baseboard-style systems are the least expensive at $30 to $60 per linear foot since no jackhammering is required. Engineered channel systems like WaterGuard cost $50 to $100 per linear foot including the wall flange and narrower concrete cut. Traditional sub-floor French drains run $40 to $85 per linear foot. All costs typically include the drainage channel, sump pump and pit, discharge line, and concrete restoration. For detailed pricing by method and basement size see our French drain cost guide and basement waterproofing cost guide."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the best interior drainage system for a basement?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The best system depends entirely on your foundation type, not on brand reputation. For standard foundations with a separate floor slab and footing, most homes built after 1970, an engineered channel system like WaterGuard or a traditional interior French drain is the most effective option. For monolithic foundations where the floor and footing were poured as a single piece of concrete, common in homes built between 1950 and 1970, a baseboard system like DryTrak is the only safe choice because jackhammering through a monolithic floor would damage the footing itself. For basements with unusually thin floor slabs under 2 inches, a thin-floor system like FlowGuard is required. A contractor who recommends a sub-floor system without first confirming your foundation type is not assessing your specific situation."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is WaterGuard better than a French drain?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "WaterGuard and similar engineered channel systems offer meaningful advantages over traditional French drains: they sit above the mud zone at the base of the footing, making them significantly more clog-resistant over time; they include a wall flange that captures water seeping down the wall face that traditional pipe systems can miss; and they require a narrower concrete cut, reducing jackhammering time. However, they are only available through authorized dealer networks and cost more per linear foot than generic French drains. A properly installed traditional French drain with clean washed gravel, quality perforated pipe, and a filter sock will also perform well for 15 to 25 years. The difference matters most in high-sediment soils and high-water-table situations where clogging risk over time is elevated."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do interior drainage systems stop water from coming through basement walls?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No, and this is the most important limitation to understand before installation. Interior drainage systems intercept and manage water after it has entered the foundation: they do not create a barrier that prevents water from reaching or penetrating the wall. The floor stays dry because water is captured at the cove joint and sub-slab and routed to the sump before it spreads across the floor, but the wall itself may continue to show signs of moisture, efflorescence, or minor seepage. If stopping visible wall moisture is a priority, particularly before finishing, a vapor barrier or wall panel system installed over the drainage channel addresses this. Exterior waterproofing is the only method that actually prevents water from contacting the foundation wall."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I install an interior drainage system myself?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It is technically possible but not recommended for most homeowners. The job requires jackhammering concrete at a precise width and depth, proper grading of the drainage channel to slope toward the sump pit, correct sump pump sizing for your water volume, and concrete restoration to produce a stable, finished floor. Improper grading is the most common DIY failure: a channel that does not slope consistently will hold water rather than move it. Professional installation comes with a warranty, proper engineering for your specific foundation type, and accountability if the system underperforms. Baseboard-style systems are the most DIY-accessible since they require no concrete work, but even these require accurate layout and proper sump pump integration."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How long does interior drainage system installation take?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Total installation time runs 1 to 5 days depending on the system type and perimeter length. Baseboard systems that require no jackhammering are the fastest at 1 to 2 days. Full perimeter sub-floor systems with concrete restoration take 2 to 5 days. The jackhammering phase, typically Day 1, is the loudest and dustiest portion. A reputable contractor will hang plastic sheeting to contain dust and seal HVAC vents during this phase. You can typically remain in your home during installation, though the noise and dust make it uncomfortable on jackhammering days. New concrete needs 24 to 48 hours to cure before heavy foot traffic."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Will an interior drainage system increase my home value?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A professionally installed interior drainage system with a documented warranty increases home marketability meaningfully. Buyers and their inspectors view a waterproofed basement with a working sump pump and transferable warranty favorably: it removes a common inspection objection and gives buyers confidence the issue was properly addressed rather than hidden. The system may not add dollar-for-dollar value in a formal appraisal, but it prevents the price reductions a wet or flood-prone basement would cause during negotiations and removes the condition from the inspection report. A transferable lifetime warranty from the installing contractor is particularly valuable because it gives the buyer direct coverage. See our waterproofing and home appraisal value guide."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What happens if the sump pump fails?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A battery backup sump pump isn't technically part of the drainage system, but we consider it essential. If the primary pump fails during a storm, the drain fills and water backs up onto the floor. Most reputable contractors include one or quote it separately."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is an interior drainage system?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "An interior drainage system is a channel or perforated pipe installed along the inside perimeter of a basement, usually beneath the floor at the footing. It collects water that seeps in where the wall meets the floor, or through the wall, and carries it to a sump pit, where a sump pump discharges it outside. It manages water after it reaches the foundation instead of keeping it out of the wall."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is an interior French drain the same as drain tile?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, in a basement they're the same system. Interior French drain, interior drain tile, weeping tile, and interior perimeter drain all describe perforated pipe in gravel beneath the floor along the walls, feeding a sump pump. The name depends mostly on the region and the contractor."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Are interior French drains effective?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, for water coming in at the floor and wall joint, which is the most common basement leak. Installed correctly with a reliable sump pump, they're a permanent fix and usually come with a lifetime transferable warranty. They don't fix bowing or cracking walls, and they won't stop water coming through high on a wall unless paired with a wall drainage membrane."
+        }
+      }
+    ]
+  }
+]),
         }}
       />
 
@@ -118,15 +192,15 @@ export default function InteriorBasementDrainageSystems() {
           </div>
           <h1 className='text-5xl md:text-7xl font-black text-white leading-[0.9] tracking-tight max-w-5xl'>
             Interior Basement<br />
-            Drainage Systems<br />
+            Drainage Systems,<br />
             <span className='text-teal-400'>The Complete 2026 Guide</span>
           </h1>
           <p className='text-xl text-slate-300 max-w-2xl mb-10 mt-8'>Types, costs, and how to choose the right system. Everything contractors won&apos;t always tell you.</p>
           <div className='flex items-center gap-4'>
             <div className='w-10 h-10 rounded-full bg-teal-500 flex items-center justify-center text-white font-bold text-sm'>BG</div>
             <div>
-              <p className='text-white font-semibold'>The Basement Guide</p>
-              <p className='text-slate-400 text-sm'>Updated March 2026 &nbsp;&bull;&nbsp; 28 min read</p>
+              <p className='text-white font-semibold'>By The Basement Guide Editorial Team</p>
+              <p className='text-slate-400 text-sm'>Updated October 2026 &nbsp;&bull;&nbsp; 28 min read</p>
             </div>
           </div>
         </div>
@@ -135,6 +209,8 @@ export default function InteriorBasementDrainageSystems() {
       {/* Main Content */}
       <main className='max-w-7xl mx-auto px-6 py-16'>
         <article className='max-w-4xl mx-auto'>
+
+          <aside data-interior-tldr className='bg-teal-50 border border-teal-200 rounded-xl p-6 mb-12'><h2 className='text-xl font-bold text-slate-900 mb-4'>TL;DR</h2><div dangerouslySetInnerHTML={{ __html: "<ul class=\"list-disc list-inside text-slate-700 space-y-3\">\n<li><strong>An interior drainage system catches water where the wall meets the floor</strong> and carries it to a sump pump, which pumps it out of the house. It stops water from reaching your floor. It doesn't stop water from reaching the wall.</li>\n<li><strong>Most systems cost $4,000 to $15,000</strong> for a full perimeter, or about $40 to $100 per linear foot depending on the type.</li>\n<li><strong>The standard choice is a sub-floor perimeter drain,</strong> also called an interior French drain, drain tile, or weeping tile. Branded channel systems like WaterGuard and above-floor baseboard systems like DryTrak are variations on the same idea.</li>\n<li><strong>Interior drainage is the right fix for most leaks at the floor and wall joint.</strong> It's the wrong fix for bowing walls or water coming through high on the wall.</li>\n<li><strong>Budget for a battery backup sump pump.</strong> The whole system depends on the pump.</li>\n</ul>\n" }} /></aside>
 
           {/* Intro */}
           <section className='mb-12'>
@@ -160,6 +236,7 @@ export default function InteriorBasementDrainageSystems() {
             <h2 className='text-3xl font-bold text-slate-900 mb-4'>How Interior Basement Drainage Systems Work</h2>
             <p className='text-lg text-slate-600 leading-relaxed mb-6'>All interior basement drainage systems follow the same basic principle. Water enters the basement through foundation walls, the floor slab, or the joint where the wall meets the floor (called the cove joint). The drainage system intercepts this water before it reaches the livable area of your basement and channels it through a sloped pipe or channel to a sump pump pit. The sump pump then ejects the water outside and away from the house.</p>
             <p className='text-lg text-slate-600 leading-relaxed'>The key difference between system types is where and how they are installed relative to your basement floor, your foundation footing, and your walls.</p>
+          <div dangerouslySetInnerHTML={{ __html: "<h3 class=\"text-2xl font-bold text-slate-900 mb-4 mt-6\">Interior French Drain, Drain Tile, Weeping Tile: Same System, Different Names</h3>\n<p class=\"text-slate-600 leading-relaxed mb-4\">Contractors and manufacturers use a lot of names for interior basement drainage. Most of them describe the same basic system.</p>\n<div class=\"overflow-x-auto max-w-full mb-6\"><table class=\"w-full text-sm border-collapse\" style=\"min-width:640px\">\n<thead class=\"bg-slate-800 text-white\">\n<tr>\n<th class=\"p-3 text-left font-semibold\">Name You'll Hear</th>\n<th class=\"p-3 text-left font-semibold\">What It Means</th>\n</tr>\n</thead>\n<tbody class=\"text-slate-700\"><tr class=\"border-b border-slate-200\">\n<td class=\"p-3\">Interior French drain</td>\n<td class=\"p-3\">A perforated pipe in gravel, buried beneath the basement floor along the walls. The most common term.</td>\n</tr>\n<tr class=\"border-b border-slate-200 bg-slate-50\">\n<td class=\"p-3\">Interior drain tile</td>\n<td class=\"p-3\">The same thing. \"Tile\" comes from the clay pipe used before plastic. Common in the Midwest.</td>\n</tr>\n<tr class=\"border-b border-slate-200\">\n<td class=\"p-3\">Interior weeping tile or weeping system</td>\n<td class=\"p-3\">The same thing. The common term in Canada.</td>\n</tr>\n<tr class=\"border-b border-slate-200 bg-slate-50\">\n<td class=\"p-3\">Interior perimeter drain</td>\n<td class=\"p-3\">The same thing, named for running around the perimeter of the basement.</td>\n</tr>\n<tr class=\"border-b border-slate-200\">\n<td class=\"p-3\">Basement gutter system</td>\n<td class=\"p-3\">Usually an above-floor or flush channel along the wall that catches water like a gutter. See Type 3 below.</td>\n</tr>\n<tr class=\"border-b border-slate-200 bg-slate-50\">\n<td class=\"p-3\">WaterGuard, DryTrak, FlowGuard, Drain-Eze, FastTrack</td>\n<td class=\"p-3\">Brand names for engineered channel or baseboard systems sold by specific contractors and manufacturers.</td>\n</tr>\n</tbody></table></div>\n<p class=\"text-slate-600 leading-relaxed mb-4\">If two quotes use different names, compare what's physically going in: below the slab or above it, pipe or channel, how many linear feet, and what pump.</p>\n" }} />
           </section>
 
           {/* What Is the Cove Joint */}
@@ -193,9 +270,9 @@ export default function InteriorBasementDrainageSystems() {
                 <div className='bg-red-50 p-4 rounded-lg'>
                   <p className='font-semibold text-red-800 mb-2'>Cons</p>
                   <ul className='text-sm text-red-700 space-y-1 list-disc list-inside'>
-                    <li>Requires jackhammering &mdash; significant dust and noise</li>
+                    <li>Requires jackhammering: significant dust and noise</li>
                     <li>Installation takes 2 to 5 days</li>
-                    <li>Pipe sits in the &ldquo;mud zone&rdquo; &mdash; can clog with sediment over decades</li>
+                    <li>Pipe sits in the &ldquo;mud zone&rdquo;: can clog with sediment over decades</li>
                   </ul>
                 </div>
               </div>
@@ -213,9 +290,9 @@ export default function InteriorBasementDrainageSystems() {
                 <div className='bg-green-50 p-4 rounded-lg'>
                   <p className='font-semibold text-green-800 mb-2'>Pros</p>
                   <ul className='text-sm text-green-700 space-y-1 list-disc list-inside'>
-                    <li>Sits above the mud zone &mdash; highly clog-resistant</li>
+                    <li>Sits above the mud zone: highly clog-resistant</li>
                     <li>Wall flange captures wall seepage traditional systems miss</li>
-                    <li>Narrower trench &mdash; less jackhammering, faster install</li>
+                    <li>Narrower trench: less jackhammering, faster install</li>
                     <li>Often includes lifetime transferable warranties</li>
                   </ul>
                 </div>
@@ -245,7 +322,7 @@ export default function InteriorBasementDrainageSystems() {
                     <li>No jackhammering, no concrete dust, fastest installation (often 1 day)</li>
                     <li>Does not disturb the foundation footing</li>
                     <li>The only practical option for monolithic foundations</li>
-                    <li>Will not clog &mdash; channel sits above the floor</li>
+                    <li>rarely clogs, because it sits above the floor and away from the soil under the slab.</li>
                   </ul>
                 </div>
                 <div className='bg-red-50 p-4 rounded-lg'>
@@ -278,13 +355,14 @@ export default function InteriorBasementDrainageSystems() {
                 <div className='bg-red-50 p-4 rounded-lg'>
                   <p className='font-semibold text-red-800 mb-2'>Cons</p>
                   <ul className='text-sm text-red-700 space-y-1 list-disc list-inside'>
-                    <li>Limited availability &mdash; specialty contractors only</li>
+                    <li>Limited availability: specialty contractors only</li>
                     <li>Slightly less water-handling capacity than full-size systems</li>
                   </ul>
                 </div>
               </div>
               <p className='text-slate-700 font-semibold mt-4'>Cost: $50 to $90 per linear foot installed, similar to standard engineered channel systems.</p>
             </div>
+          <div data-wall-membrane className='bg-slate-50 border border-slate-200 rounded-xl p-6 mb-6'><div dangerouslySetInnerHTML={{ __html: "<h3 class=\"text-2xl font-bold text-slate-900 mb-4 mt-6\">5. Wall Drainage Membrane (Dimple Board), Used With Any of the Above</h3>\n<p class=\"text-slate-600 leading-relaxed mb-4\">A dimpled plastic membrane fastened to the inside of the foundation wall. Water that seeps through the wall runs down behind the membrane and into the perimeter drain instead of soaking the wall surface or any framing in front of it. It's not a standalone system. It's an add-on to a perimeter drain.</p>\n<p class=\"text-slate-600 leading-relaxed mb-4\"><strong>Best for:</strong> block walls that seep across their face, basements you plan to finish, and walls with efflorescence or dampness above the floor joint.</p>\n<p class=\"text-slate-600 leading-relaxed mb-4\"><strong>Cost:</strong> membrane materials typically run $0.50 to $1.50 per square foot, and most contractors price installation as part of the drainage system quote.</p>\n<p class=\"text-slate-600 leading-relaxed mb-4\"><strong>Watch out for:</strong> a membrane hides the wall. Fix active cracks first, and make sure the bottom edge drains into the perimeter system, not onto the floor.</p>\n" }} /></div>
           </section>
 
           {/* Comparison Table */}
@@ -313,7 +391,8 @@ export default function InteriorBasementDrainageSystems() {
                   <tr className='border-b border-slate-200'><td className='p-3 font-medium'>Full perimeter cost</td><td className='p-3'>$4,000 &ndash; $12,000</td><td className='p-3'>$5,000 &ndash; $15,000</td><td className='p-3'>$3,000 &ndash; $8,000</td><td className='p-3'>$5,000 &ndash; $12,000</td></tr>
                   <tr className='border-b border-slate-200 bg-slate-50'><td className='p-3 font-medium'>Visibility after installation</td><td className='p-3'>Completely hidden</td><td className='p-3'>Completely hidden</td><td className='p-3'>Visible along wall base</td><td className='p-3'>Completely hidden</td></tr>
                   <tr><td className='p-3 font-medium'>Warranty</td><td className='p-3'>Varies by contractor</td><td className='p-3'>Often lifetime transferable</td><td className='p-3'>Often lifetime transferable</td><td className='p-3'>Often lifetime transferable</td></tr>
-                </tbody>
+                <tr data-wall-membrane-row className='border-b border-slate-200 bg-slate-50'><td className='p-3 font-medium'>Wall drainage membrane (dimple board)</td><td colSpan={4} className='p-3'><p>Add-on to any perimeter drain</p><p>Materials $0.50 to $1.50 per sq ft, usually bundled</p><p>Seepage across the wall face, finished basements</p></td></tr>
+</tbody>
               </table>
             </div>
             <p className='text-slate-700 leading-relaxed mt-6'>For a complete cost estimate that includes interior drainage system installation along with any associated waterproofing scope, try our <Link href='/cost-guides/basement-waterproofing-cost-calculator' className='text-teal-600 hover:text-teal-700 underline'>basement waterproofing cost calculator</Link>.</p>
@@ -334,7 +413,7 @@ export default function InteriorBasementDrainageSystems() {
               </ul>
               <h3 className='text-xl font-bold text-slate-900 mb-3'>Common add-ons that increase the price:</h3>
               <ul className='text-slate-600 space-y-2 list-disc list-inside'>
-                <li>A backup sump pump (<Link href='/articles/battery-vs-water-powered-sump-pumps' className='text-teal-600 hover:text-teal-700 underline'>battery-powered or water-powered</Link>) for power outage protection</li>
+                <li>A <Link href='/articles/battery-vs-water-powered-sump-pumps' className='text-teal-600 hover:text-teal-700 underline'>battery backup sump pump</Link> isn't technically part of the drainage system, but we consider it essential. If the primary pump fails during a storm, the drain fills and water backs up onto the floor. Most reputable contractors include one or quote it separately.</li>
                 <li>A dehumidifier to control residual humidity</li>
                 <li>Vapor barrier or wall panels (<Link href='/articles/best-vapor-barriers' className='text-teal-600 hover:text-teal-700 underline'>see our best vapor barriers guide</Link>)</li>
                 <li>Weep holes drilled into concrete block walls to drain trapped water</li>
@@ -395,7 +474,7 @@ export default function InteriorBasementDrainageSystems() {
                 </thead>
                 <tbody className='text-slate-700'>
                   <tr className='border-b border-slate-200'><td className='p-3 font-medium'>What it does</td><td className='p-3'>Manages water that has already entered by collecting and removing it</td><td className='p-3'>Prevents water from reaching the foundation in the first place</td></tr>
-                  <tr className='border-b border-slate-200 bg-slate-50'><td className='p-3 font-medium'>Typical cost</td><td className='p-3'>$4,000 to $15,000</td><td className='p-3'>$8,000 to $18,000 (requires excavation)</td></tr>
+                  <tr className='border-b border-slate-200 bg-slate-50'><td className='p-3 font-medium'>Typical cost</td><td className='p-3'>$4,000 to $15,000</td><td className='p-3'>$7,000 to $18,000 (requires excavation)</td></tr>
                   <tr className='border-b border-slate-200'><td className='p-3 font-medium'>Installation disruption</td><td className='p-3'>Indoor noise and dust for 2&ndash;5 days. Yard untouched.</td><td className='p-3'>Major exterior excavation. Landscaping may be destroyed.</td></tr>
                   <tr className='border-b border-slate-200 bg-slate-50'><td className='p-3 font-medium'>Effectiveness</td><td className='p-3'>Highly effective at keeping floor dry. Does not stop wall penetration.</td><td className='p-3'>Stops water before it reaches walls. Protects foundation structure.</td></tr>
                   <tr className='border-b border-slate-200'><td className='p-3 font-medium'>Best for</td><td className='p-3'>Most homes with wall seepage or sub-slab water. The standard for existing homes.</td><td className='p-3'>Homes with severe exterior pressure, failing walls, or new construction.</td></tr>
@@ -449,7 +528,7 @@ export default function InteriorBasementDrainageSystems() {
               </div>
             </div>
             <div className='bg-amber-50 border border-amber-200 rounded-xl p-6 mt-6'>
-              <p className='text-amber-900 font-semibold'>Total timeline: 1 to 5 days depending on the system type and the length of the perimeter being treated. Baseboard (DryTrak-style) systems are the fastest at 1 to 2 days. Full perimeter sub-floor systems take 3 to 5 days.</p>
+              <p className='text-amber-900 font-semibold'>Total timeline: 1 to 5 days depending on the system type and the length of the perimeter being treated. Baseboard (DryTrak-style) systems are the fastest at 1 to 2 days. Full perimeter sub-floor systems take 2 to 5 days.</p>
             </div>
           </section>
 
@@ -480,7 +559,7 @@ export default function InteriorBasementDrainageSystems() {
               <ul className='text-blue-800 space-y-1 list-disc list-inside'>
                 <li>Traditional French drains: 15 to 25 years before potential clogging</li>
                 <li>Engineered channel systems (WaterGuard type): 25+ years due to clog-resistant design</li>
-                <li>Baseboard systems (DryTrak type): Indefinite lifespan for the channel itself</li>
+                <li>Baseboard systems (DryTrak type): the channel itself can last for decades. The sump pump is the part that wears out, usually every 7 to 10 years.</li>
                 <li>Most brand-name systems include a lifetime or 25-year transferable warranty</li>
               </ul>
             </div>
@@ -496,7 +575,7 @@ export default function InteriorBasementDrainageSystems() {
               </details>
               <details className='bg-slate-50 border border-slate-200 rounded-xl p-5 group'>
                 <summary className='font-bold text-slate-900 cursor-pointer'>What is the best interior drainage system for a basement?</summary>
-                <p className='text-slate-600 mt-3'>The best system depends entirely on your foundation type, not on brand reputation. For standard foundations with a separate floor slab and footing &mdash; most homes built after 1970 &mdash; an engineered channel system like WaterGuard or a traditional interior French drain is the most effective option. For monolithic foundations where the floor and footing were poured as a single piece of concrete &mdash; common in homes built between 1950 and 1970 &mdash; a baseboard system like DryTrak is the only safe choice because jackhammering through a monolithic floor would damage the footing itself. For basements with unusually thin floor slabs under 2 inches, a thin-floor system like FlowGuard is required. A contractor who recommends a sub-floor system without first confirming your foundation type is not assessing your specific situation.</p>
+                <p className='text-slate-600 mt-3'>The best system depends entirely on your foundation type, not on brand reputation. For standard foundations with a separate floor slab and footing, most homes built after 1970, an engineered channel system like WaterGuard or a traditional interior French drain is the most effective option. For monolithic foundations where the floor and footing were poured as a single piece of concrete, common in homes built between 1950 and 1970, a baseboard system like DryTrak is the only safe choice because jackhammering through a monolithic floor would damage the footing itself. For basements with unusually thin floor slabs under 2 inches, a thin-floor system like FlowGuard is required. A contractor who recommends a sub-floor system without first confirming your foundation type is not assessing your specific situation.</p>
               </details>
               <details className='bg-slate-50 border border-slate-200 rounded-xl p-5 group'>
                 <summary className='font-bold text-slate-900 cursor-pointer'>Is WaterGuard better than a French drain?</summary>
@@ -504,24 +583,27 @@ export default function InteriorBasementDrainageSystems() {
               </details>
               <details className='bg-slate-50 border border-slate-200 rounded-xl p-5 group'>
                 <summary className='font-bold text-slate-900 cursor-pointer'>Do interior drainage systems stop water from coming through basement walls?</summary>
-                <p className='text-slate-600 mt-3'>No, and this is the most important limitation to understand before installation. Interior drainage systems intercept and manage water after it has entered the foundation &mdash; they do not create a barrier that prevents water from reaching or penetrating the wall. The floor stays dry because water is captured at the cove joint and sub-slab and routed to the sump before it spreads across the floor, but the wall itself may continue to show signs of moisture, efflorescence, or minor seepage. If stopping visible wall moisture is a priority &mdash; particularly before finishing &mdash; a vapor barrier or wall panel system installed over the drainage channel addresses this. Exterior waterproofing is the only method that actually prevents water from contacting the foundation wall.</p>
+                <p className='text-slate-600 mt-3'>No, and this is the most important limitation to understand before installation. Interior drainage systems intercept and manage water after it has entered the foundation: they do not create a barrier that prevents water from reaching or penetrating the wall. The floor stays dry because water is captured at the cove joint and sub-slab and routed to the sump before it spreads across the floor, but the wall itself may continue to show signs of moisture, efflorescence, or minor seepage. If stopping visible wall moisture is a priority, particularly before finishing, a vapor barrier or wall panel system installed over the drainage channel addresses this. Exterior waterproofing is the only method that actually prevents water from contacting the foundation wall.</p>
               </details>
               <details className='bg-slate-50 border border-slate-200 rounded-xl p-5 group'>
                 <summary className='font-bold text-slate-900 cursor-pointer'>Can I install an interior drainage system myself?</summary>
-                <p className='text-slate-600 mt-3'>It is technically possible but not recommended for most homeowners. The job requires jackhammering concrete at a precise width and depth, proper grading of the drainage channel to slope toward the sump pit, correct sump pump sizing for your water volume, and concrete restoration to produce a stable, finished floor. Improper grading is the most common DIY failure &mdash; a channel that does not slope consistently will hold water rather than move it. Professional installation comes with a warranty, proper engineering for your specific foundation type, and accountability if the system underperforms. Baseboard-style systems are the most DIY-accessible since they require no concrete work, but even these require accurate layout and proper sump pump integration.</p>
+                <p className='text-slate-600 mt-3'>It is technically possible but not recommended for most homeowners. The job requires jackhammering concrete at a precise width and depth, proper grading of the drainage channel to slope toward the sump pit, correct sump pump sizing for your water volume, and concrete restoration to produce a stable, finished floor. Improper grading is the most common DIY failure: a channel that does not slope consistently will hold water rather than move it. Professional installation comes with a warranty, proper engineering for your specific foundation type, and accountability if the system underperforms. Baseboard-style systems are the most DIY-accessible since they require no concrete work, but even these require accurate layout and proper sump pump integration.</p>
               </details>
               <details className='bg-slate-50 border border-slate-200 rounded-xl p-5 group'>
                 <summary className='font-bold text-slate-900 cursor-pointer'>How long does interior drainage system installation take?</summary>
-                <p className='text-slate-600 mt-3'>Total installation time runs 1 to 5 days depending on the system type and perimeter length. Baseboard systems that require no jackhammering are the fastest at 1 to 2 days. Full perimeter sub-floor systems with concrete restoration take 3 to 5 days. The jackhammering phase &mdash; typically Day 1 &mdash; is the loudest and dustiest portion. A reputable contractor will hang plastic sheeting to contain dust and seal HVAC vents during this phase. You can typically remain in your home during installation, though the noise and dust make it uncomfortable on jackhammering days. New concrete needs 24 to 48 hours to cure before heavy foot traffic.</p>
+                <p className='text-slate-600 mt-3'>Total installation time runs 1 to 5 days depending on the system type and perimeter length. Baseboard systems that require no jackhammering are the fastest at 1 to 2 days. Full perimeter sub-floor systems with concrete restoration take 2 to 5 days. The jackhammering phase, typically Day 1, is the loudest and dustiest portion. A reputable contractor will hang plastic sheeting to contain dust and seal HVAC vents during this phase. You can typically remain in your home during installation, though the noise and dust make it uncomfortable on jackhammering days. New concrete needs 24 to 48 hours to cure before heavy foot traffic.</p>
               </details>
               <details className='bg-slate-50 border border-slate-200 rounded-xl p-5 group'>
                 <summary className='font-bold text-slate-900 cursor-pointer'>Will an interior drainage system increase my home value?</summary>
-                <p className='text-slate-600 mt-3'>A professionally installed interior drainage system with a documented warranty increases home marketability meaningfully. Buyers and their inspectors view a waterproofed basement with a working sump pump and transferable warranty favorably &mdash; it removes a common inspection objection and gives buyers confidence the issue was properly addressed rather than hidden. The system may not add dollar-for-dollar value in a formal appraisal, but it prevents the price reductions a wet or flood-prone basement would cause during negotiations and removes the condition from the inspection report. A transferable lifetime warranty from the installing contractor is particularly valuable because it gives the buyer direct coverage. See our <Link href='/articles/waterproofing-home-appraisal-value' className='text-teal-600 hover:text-teal-700 underline'>waterproofing and home appraisal value guide</Link>.</p>
+                <p className='text-slate-600 mt-3'>A professionally installed interior drainage system with a documented warranty increases home marketability meaningfully. Buyers and their inspectors view a waterproofed basement with a working sump pump and transferable warranty favorably: it removes a common inspection objection and gives buyers confidence the issue was properly addressed rather than hidden. The system may not add dollar-for-dollar value in a formal appraisal, but it prevents the price reductions a wet or flood-prone basement would cause during negotiations and removes the condition from the inspection report. A transferable lifetime warranty from the installing contractor is particularly valuable because it gives the buyer direct coverage. See our <Link href='/articles/waterproofing-home-appraisal-value' className='text-teal-600 hover:text-teal-700 underline'>waterproofing and home appraisal value guide</Link>.</p>
               </details>
               <details className='bg-slate-50 border border-slate-200 rounded-xl p-5 group'>
                 <summary className='font-bold text-slate-900 cursor-pointer'>What happens if the sump pump fails?</summary>
-                <p className='text-slate-600 mt-3'>If the sump pump fails, water collected by the drainage channel has nowhere to go and will eventually back up and overflow onto the basement floor &mdash; defeating the entire system. This is the single most important reason a battery backup or water-powered backup sump pump is not optional, it is a required component of any interior drainage system in a home that cannot afford a wet basement. Power outages and pump failures most often occur during the same heavy storms that generate the highest water inflow. A battery backup activates automatically when the primary pump loses power or fails mechanically and can handle several hours of moderate inflow. See our <Link href='/articles/backup-power-sump-pumps' className='text-teal-600 hover:text-teal-700 underline'>backup power for sump pumps guide</Link> and <Link href='/articles/battery-vs-water-powered-sump-pumps' className='text-teal-600 hover:text-teal-700 underline'>battery vs water-powered backup guide</Link>.</p>
+                <p className='text-slate-600 mt-3'>A battery backup sump pump isn't technically part of the drainage system, but we consider it essential. If the primary pump fails during a storm, the drain fills and water backs up onto the floor. Most reputable contractors include one or quote it separately.</p>
               </details>
+            <details className='bg-slate-50 border border-slate-200 rounded-xl p-5 group'><summary className='font-bold text-slate-900 cursor-pointer'>What is an interior drainage system?</summary><p className='text-slate-600 mt-3'>An interior drainage system is a channel or perforated pipe installed along the inside perimeter of a basement, usually beneath the floor at the footing. It collects water that seeps in where the wall meets the floor, or through the wall, and carries it to a sump pit, where a sump pump discharges it outside. It manages water after it reaches the foundation instead of keeping it out of the wall.</p></details>
+<details className='bg-slate-50 border border-slate-200 rounded-xl p-5 group'><summary className='font-bold text-slate-900 cursor-pointer'>Is an interior French drain the same as drain tile?</summary><p className='text-slate-600 mt-3'>Yes, in a basement they're the same system. Interior French drain, interior drain tile, weeping tile, and interior perimeter drain all describe perforated pipe in gravel beneath the floor along the walls, feeding a sump pump. The name depends mostly on the region and the contractor.</p></details>
+<details className='bg-slate-50 border border-slate-200 rounded-xl p-5 group'><summary className='font-bold text-slate-900 cursor-pointer'>Are interior French drains effective?</summary><p className='text-slate-600 mt-3'>Yes, for water coming in at the floor and wall joint, which is the most common basement leak. Installed correctly with a reliable sump pump, they're a permanent fix and usually come with a lifetime transferable warranty. They don't fix bowing or cracking walls, and they won't stop water coming through high on a wall unless paired with a wall drainage membrane.</p></details>
             </div>
           </section>
 
@@ -555,15 +637,15 @@ export default function InteriorBasementDrainageSystems() {
               </div>
               <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
                 <h4 className='font-bold text-slate-900 mb-2'>Drain Tile</h4>
-                <p className='text-slate-600 leading-relaxed text-sm'>An older term for the perforated pipe used in interior and exterior drainage systems, originally made from clay tile sections laid end-to-end. Modern drain tile is perforated plastic &mdash; either corrugated flexible pipe or rigid PVC &mdash; often wrapped in a filter sock to reduce sediment intrusion. The term is still widely used by contractors and in building codes even though clay tile has not been installed in new construction for decades.</p>
+                <p className='text-slate-600 leading-relaxed text-sm'>An older term for the perforated pipe used in interior and exterior drainage systems, originally made from clay tile sections laid end-to-end. Modern drain tile is perforated plastic, either corrugated flexible pipe or rigid PVC, often wrapped in a filter sock to reduce sediment intrusion. The term is still widely used by contractors and in building codes even though clay tile has not been installed in new construction for decades.</p>
               </div>
               <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
                 <h4 className='font-bold text-slate-900 mb-2'>Wall Flange</h4>
-                <p className='text-slate-600 leading-relaxed text-sm'>A feature on engineered channel drainage systems where the top edge of the channel extends 3 to 8 inches up the basement wall to intercept water seeping down the wall face above the floor level. Critical for concrete block foundations where water drains through the hollow block cores and exits partway up the wall rather than only at the cove joint. Traditional French drain pipe installed below the floor does not capture this wall-face water without a wall flange.</p>
+                <p className='text-slate-600 leading-relaxed text-sm'>A feature on engineered channel drainage systems where the top edge of the channel extends about 3/8 inch up the basement wall to intercept water seeping down the wall face above the floor level. Critical for concrete block foundations where water drains through the hollow block cores and exits partway up the wall rather than only at the cove joint. Traditional French drain pipe installed below the floor does not capture this wall-face water without a wall flange.</p>
               </div>
               <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
                 <h4 className='font-bold text-slate-900 mb-2'>Discharge Line</h4>
-                <p className='text-slate-600 leading-relaxed text-sm'>The pipe that carries water from the sump pump outlet to an exterior exit point away from the home. Should exit the foundation well above grade, extend at least 10 feet from the foundation, and discharge downhill or into a storm drain to prevent ejected water from re-entering the drainage system. Discharge line freezing in winter is a common cause of pump failure &mdash; freeze-resistant outlet covers or buried discharge lines below the frost line prevent this.</p>
+                <p className='text-slate-600 leading-relaxed text-sm'>The pipe that carries water from the sump pump outlet to an exterior exit point away from the home. Should exit the foundation well above grade, extend at least 10 feet from the foundation, and discharge downhill or into a storm drain to prevent ejected water from re-entering the drainage system. Discharge line freezing in winter is a common cause of pump failure: freeze-resistant outlet covers or buried discharge lines below the frost line prevent this.</p>
               </div>
               <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
                 <h4 className='font-bold text-slate-900 mb-2'>Transferable Warranty</h4>
@@ -616,7 +698,7 @@ export default function InteriorBasementDrainageSystems() {
                 <h3 className='text-lg font-bold text-slate-900 mb-2'>Complete Basement Waterproofing Guide</h3>
                 <p className='text-slate-600 text-sm'>Everything you need to know about stopping basement leaks.</p>
               </Link>
-            </div>
+            <Link href='/articles/sump-pump-cost' className='block bg-white rounded-xl border border-slate-200 hover:shadow-md transition-all p-5'><h3 className='text-lg font-bold text-slate-900 mb-2'>Sump Pump Installation Cost</h3></Link></div>
           </section>
 
           {/* Lead Form CTA */}
