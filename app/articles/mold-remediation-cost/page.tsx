@@ -76,6 +76,30 @@ const faqSchema = {
         "@type": "Answer",
         "text": "Before the crew arrives, clear the work area of furniture, storage bins, and personal items. Remove or bag any clothing, bedding, or soft goods stored near the affected area. Shut off your HVAC system if the mold is near ductwork. Make arrangements for children and pets to stay elsewhere for the duration of active remediation. Document the visible mold with photos before any work begins."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does crawl space mold remediation cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most crawl space mold remediation costs $500 to $4,000, or about $25 to $30 per square foot because of the tight working conditions. If the crawl space needs a new vapor barrier, add $1,500 to $5,000. Without fixing ground moisture and humidity, crawl space mold usually comes back."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does black mold removal cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Black mold usually costs 10% to 25% more to remove than other common molds, because crews use stricter containment and protective gear. For a typical basement project, that means roughly $1,700 to $11,000 instead of $1,500 to $9,000. The extra cost comes from the precautions, not because black mold is harder to remove."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does mold remediation cost per square foot?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most mold remediation costs $10 to $25 per square foot, and $25 to $30 in crawl spaces or behind finished walls. Small jobs don't follow the per-foot rate. Expect a minimum of about $500 to $1,500 even for a patch under 10 square feet."
+      }
     }
   ]
 };
@@ -94,14 +118,16 @@ export default function MoldRemediationCost() {
           <div className="flex items-center justify-center gap-3">
             <span className="bg-teal-600 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold text-sm">BG</span>
             <div className="text-left">
-              <p className="text-white font-medium">The Basement Guide Staff</p>
-              <p>Updated March 2026 &middot; 35 min read</p>
+              <p className="text-white font-medium">By The Basement Guide Editorial Team</p>
+              <p>Updated October 2026 &middot; 20 min read</p>
             </div>
           </div>
         </div>
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-12">
+
+        <aside data-mold-tldr className="bg-teal-50 border border-teal-200 rounded-lg p-6 mb-8"><h2 className="text-xl font-bold text-slate-900 mb-4">TL;DR</h2><div dangerouslySetInnerHTML={{ __html: "<ul class=\"list-disc pl-5 space-y-2 text-slate-700 mb-6\">\n<li><strong>Most basement and crawl space mold remediation costs $1,500 to $9,000.</strong> Large or long-running problems can reach $15,000.</li>\n<li><strong>Small patches cost more per square foot.</strong> A job under 10 sq ft still runs $500 to $1,500, because containment, equipment, and clearance testing cost about the same regardless of size.</li>\n<li><strong>Crawl space jobs run $500 to $4,000,</strong> plus $1,500 to $5,000 if you need a new vapor barrier.</li>\n<li><strong>Black mold usually costs 10% to 25% more</strong> to remove than other common molds.</li>\n<li><strong>Fix the moisture source, or you'll pay again.</strong> Remediation without fixing the leak, humidity, or drainage problem is the most common reason mold comes back.</li>\n</ul>\n" }} /></aside>
 
         {/* Article Image */}
         <div className="mb-10 rounded-2xl overflow-hidden">
@@ -139,6 +165,7 @@ export default function MoldRemediationCost() {
             <h4 className="font-bold text-slate-900 mb-2">Cost Per Square Foot</h4>
             <p className="text-slate-700">Most remediation companies price at $10 to $25 per square foot for standard work. Difficult access areas like <Link href="/articles/basement-vs-crawl-space-vs-slab" className="text-teal-700 underline">crawl spaces</Link> or mold behind finished walls can push that to $25 to $30 per square foot. HVAC duct remediation is priced separately and typically runs $2,000 to $10,000 depending on the size of the system.</p>
           </div>
+        <div data-mold-pricing-note><div dangerouslySetInnerHTML={{ __html: "<p class=\"text-slate-700 leading-relaxed mb-4\"><strong>Why small jobs don't follow the per-square-foot rate:</strong> the $10 to $25 per square foot rate applies to larger jobs. Small jobs are priced closer to a minimum charge because setting up containment, running air scrubbers, and paying for clearance testing cost about the same whether the moldy area is 5 square feet or 50. That's why a 10 sq ft patch can cost $500 to $1,500 even though the per-foot math says less.</p>\n<p class=\"text-slate-700 leading-relaxed mb-4\"><strong>How this compares to national averages:</strong> national cost data puts the average mold remediation job at about $2,200, often $1,100 to $3,400. That average includes small bathroom, closet, and attic jobs. Basement and crawl space projects tend to cover more area and involve moisture problems, which is why they usually land in the $1,500 to $9,000 range on this page.</p>\n" }} /></div>
         </section>
 
         {/* What Factors Drive the Cost Up? */}
@@ -322,7 +349,10 @@ export default function MoldRemediationCost() {
               </tbody>
             </table>
           </div>
+          <div data-mold-location-note><div dangerouslySetInnerHTML={{ __html: "<p class=\"text-slate-700 leading-relaxed mb-4\">Crawl space ranges cover remediation only. A new vapor barrier adds $1,500 to $5,000 when needed. See the crawl space section below.</p>\n" }} /></div>
         </section>
+
+        <section data-mold-crawl-space className="mb-12"><div dangerouslySetInnerHTML={{ __html: "<h2 class=\"text-3xl font-bold text-slate-900 mb-4\">Crawl Space Mold Remediation Cost</h2>\n<p class=\"text-slate-700 leading-relaxed mb-4\">Crawl space mold remediation usually costs <strong>$500 to $4,000</strong> for the remediation itself. If the crawl space needs a new vapor barrier, add <strong>$1,500 to $5,000</strong>, which can push a full project past $4,000.</p>\n<p class=\"text-slate-700 leading-relaxed mb-4\">Crawl spaces cost more per square foot than open basements, typically $25 to $30, because crews work lying down in tight spaces, and many jobs involve treating the underside of the subfloor and the floor joists across the entire crawl space.</p>\n<p class=\"text-slate-700 leading-relaxed mb-4\"><strong>What drives crawl space cost:</strong></p>\n<ul class=\"list-disc pl-5 space-y-2 text-slate-700 mb-6\">\n<li><strong>How much of the subfloor and framing is affected.</strong> Spot treatment costs far less than treating every joist.</li>\n<li><strong>Access.</strong> Low clearance, a small entry hatch, or obstructions like ductwork slow the job.</li>\n<li><strong>Moisture control.</strong> Most crawl space mold comes from ground moisture and humid outdoor air. A vapor barrier, sealing vents, or full encapsulation is often part of a lasting fix. See our <a href=\"/articles/crawl-space-encapsulation-guide\" class=\"text-teal-700 underline\">crawl space encapsulation guide</a>.</li>\n<li><strong>Insulation.</strong> Moldy fiberglass batts between the joists usually have to be removed and replaced.</li>\n</ul>\n<p class=\"text-slate-700 leading-relaxed mb-4\"><strong>Fix the moisture, or plan to do it again.</strong> Crawl space mold treated without a vapor barrier or humidity control almost always returns within a few seasons.</p>\n" }} /></section>
 
         {/* Prevention */}
         <section className="mb-12">
@@ -407,6 +437,9 @@ export default function MoldRemediationCost() {
               <h4 className="font-bold text-slate-900 mb-2">What should I do to prepare for mold remediation?</h4>
               <p className="text-slate-700">Before the crew arrives, clear the work area of furniture, storage bins, and personal items to give the team unobstructed access. Remove or bag any clothing, bedding, or soft goods stored near the affected area since porous materials can harbor spores. Shut off your HVAC system if the mold is near ductwork to prevent spore spread during work. Make arrangements for children and pets to stay elsewhere for the duration of active remediation. Document the visible mold with photos before any work begins, both for your own records and for any insurance claim. Your contractor should walk you through any additional site-specific prep during the inspection.</p>
             </div>
+          <div className="bg-slate-50 rounded-2xl p-6 border border-slate-100"><h4 className="font-bold text-slate-900 mb-2">How much does crawl space mold remediation cost?</h4><p className="text-slate-700">Most crawl space mold remediation costs $500 to $4,000, or about $25 to $30 per square foot because of the tight working conditions. If the crawl space needs a new vapor barrier, add $1,500 to $5,000. Without fixing ground moisture and humidity, crawl space mold usually comes back.</p></div>
+<div className="bg-slate-50 rounded-2xl p-6 border border-slate-100"><h4 className="font-bold text-slate-900 mb-2">How much does black mold removal cost?</h4><p className="text-slate-700">Black mold usually costs 10% to 25% more to remove than other common molds, because crews use stricter containment and protective gear. For a typical basement project, that means roughly $1,700 to $11,000 instead of $1,500 to $9,000. The extra cost comes from the precautions, not because black mold is harder to remove.</p></div>
+<div className="bg-slate-50 rounded-2xl p-6 border border-slate-100"><h4 className="font-bold text-slate-900 mb-2">How much does mold remediation cost per square foot?</h4><p className="text-slate-700">Most mold remediation costs $10 to $25 per square foot, and $25 to $30 in crawl spaces or behind finished walls. Small jobs don't follow the per-foot rate. Expect a minimum of about $500 to $1,500 even for a patch under 10 square feet.</p></div>
           </div>
         </section>
 
@@ -493,7 +526,9 @@ export default function MoldRemediationCost() {
               <h3 className="font-bold text-slate-900 mb-1">How to Dry Out a Basement After Flooding</h3>
               <p className="text-slate-600 text-sm">Step-by-step recovery to prevent mold after water damage.</p>
             </Link>
-          </div>
+          <Link href="/articles/problems/basement-flooding-cleanup" className="block border border-slate-200 rounded-lg p-5 hover:border-teal-400 transition"><h3 className="font-bold text-slate-900 mb-1">Basement Flood Cleanup Cost</h3></Link>
+<Link href="/articles/best-basement-dehumidifiers" className="block border border-slate-200 rounded-lg p-5 hover:border-teal-400 transition"><h3 className="font-bold text-slate-900 mb-1">Best Basement Dehumidifiers</h3></Link>
+<Link href="/articles/crawl-space-encapsulation-guide" className="block border border-slate-200 rounded-lg p-5 hover:border-teal-400 transition"><h3 className="font-bold text-slate-900 mb-1">Crawl Space Encapsulation Guide</h3></Link></div>
         </section>
 
         {/* Our Network */}

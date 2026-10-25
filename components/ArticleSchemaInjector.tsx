@@ -70,6 +70,11 @@ export default function ArticleSchemaInjector() {
     articleSchema.dateModified = '2026-10-25'
   }
 
+  if (slug === 'mold-remediation-cost') {
+    articleSchema.author.name = 'The Basement Guide Editorial Team'
+    articleSchema.dateModified = '2026-10-25'
+  }
+
   const extras = articleSchemas[slug] || {}
   const schemas: object[] = [articleSchema]
 
