@@ -91,6 +91,12 @@ export default function ArticleSchemaInjector() {
     articleSchema.dateModified = '2026-10-25'
   }
 
+  if (slug === 'musty-basement-smell') {
+    articleSchema.author['@type'] = 'Organization'
+    articleSchema.author.name = 'The Basement Guide Editorial Team'
+    articleSchema.dateModified = '2026-10-26'
+  }
+
   const extras = articleSchemas[slug] || {}
   const schemas: object[] = [articleSchema]
 

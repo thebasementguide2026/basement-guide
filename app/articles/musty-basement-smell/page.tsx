@@ -7,20 +7,118 @@ export const metadata: Metadata = {
   title: 'Musty Basement Smell: Causes, Fixes, and How to Eliminate It for Good (2026) | The Basement Guide',
   description: 'Find out what causes that musty basement smell and how to get rid of it permanently. Step-by-step guide covering moisture sources, DIY fixes, long-term solutions, and when to call professionals.',
   alternates: { canonical: 'https://thebasement.guide/articles/musty-basement-smell' },
+  openGraph: {"title":"Musty Basement Smell: Causes, Fixes, and How to Eliminate It for Good (2026) | The Basement Guide","description":"Find out what causes that musty basement smell and how to get rid of it permanently. Step-by-step guide covering moisture sources, DIY fixes, long-term solutions, and when to call professionals.","url":"https://thebasement.guide/articles/musty-basement-smell","type":"article","images":["https://thebasement.guide/%3AMusty%20Basement%20Smell.jpg"]},
 }
 
 const faqSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'FAQPage',
-  mainEntity: [
-    { '@type': 'Question', name: 'What causes a musty smell in a basement?', acceptedAnswer: { '@type': 'Answer', text: 'A musty basement smell is caused by microbial volatile organic compounds (MVOCs) released by mold, mildew, or bacteria growing in damp conditions, and is almost always a moisture problem rather than a ventilation problem alone. The five most common moisture sources are high humidity above 55 percent causing condensation on cool concrete surfaces, minor seepage through foundation cracks or porous concrete, poor exterior drainage directing water toward the foundation, trapped moisture in organic materials like cardboard boxes, old carpet, wood framing, or drywall, and less commonly small plumbing leaks or sewer gas from uncapped drains.' } },
-    { '@type': 'Question', name: 'How do I find the source of the musty smell?', acceptedAnswer: { '@type': 'Answer', text: 'Start by walking slowly around the basement and noting where the smell is most intense, since MVOCs are strongest closest to their source. Use a digital hygrometer ($10 to $30) to measure humidity in multiple locations over several days. Inspect visually for efflorescence, dark spots or fuzzy growth on walls or floor joists, bubbling or peeling paint, and condensation on pipes or windows. Check hidden areas behind shelving, under stairs, inside closets, and behind drywall. A pinless moisture meter ($20 to $50) can detect elevated moisture inside walls and floors without opening them.' } },
-    { '@type': 'Question', name: 'How do I get rid of a musty smell in my basement?', acceptedAnswer: { '@type': 'Answer', text: 'Getting rid of the smell permanently requires addressing the moisture source rather than masking the odor. Start by running a properly sized dehumidifier (50 pint or larger) continuously to bring humidity below 50 percent, and extend downspouts at least 10 feet from the foundation. Remove damp organic materials and replace them with sealed plastic storage bins elevated off the floor. Clean visible mold on hard surfaces with a non-bleach mold cleaner such as Concrobium. If the smell persists after 2 to 4 weeks, the source is likely hidden and requires professional inspection.' } },
-    { '@type': 'Question', name: 'Will a dehumidifier get rid of musty basement smell?', acceptedAnswer: { '@type': 'Answer', text: 'A dehumidifier will significantly reduce or eliminate musty smell in basements where high humidity and condensation are the primary moisture source, because lowering humidity below 50 percent removes the conditions that allow mold and mildew to continue growing. However, a dehumidifier alone will not eliminate the smell if the source is active water intrusion, hidden mold inside wall cavities, contaminated organic materials, or sewer gas from plumbing issues. The correct sequence is to identify and address the moisture source, remove affected materials, and then run the dehumidifier to maintain safe humidity.' } },
-    { '@type': 'Question', name: 'Is a musty basement smell dangerous?', acceptedAnswer: { '@type': 'Answer', text: 'Yes, a musty smell indicates active mold or mildew growth which poses real health risks, particularly for occupants with allergies, asthma, or compromised immune systems. MVOCs can cause headaches, nausea, and respiratory irritation, and the mold spores trigger allergic reactions. The stack effect pulls basement air upward into living areas continuously, meaning basement mold affects whole-house air quality. Children, elderly individuals, and anyone with chronic respiratory conditions are at highest risk.' } },
-    { '@type': 'Question', name: 'How long does it take to get rid of musty basement smell?', acceptedAnswer: { '@type': 'Answer', text: 'If humidity is the primary cause, running a properly sized dehumidifier continuously typically reduces or eliminates the smell within 1 to 2 weeks. If organic materials are harboring mold, removing those items combined with dehumidification typically resolves the smell within 1 to 3 weeks. If the source is active water seepage, the smell will not fully resolve until the water entry is addressed. Persistent smell after 4 weeks of consistent DIY effort indicates the source has not been fully identified and professional inspection is warranted.' } },
-    { '@type': 'Question', name: 'When should I call a professional for a musty basement smell?', acceptedAnswer: { '@type': 'Answer', text: 'Call a professional if the smell persists after 2 to 4 weeks of consistent dehumidification, exterior drainage improvements, and removal of damp organic materials. Also call if you discover visible mold covering more than 10 square feet, suspect mold inside wall cavities, or if anyone is experiencing respiratory symptoms. A mold inspection costs $300 to $600. Many waterproofing contractors offer free assessments for moisture-related smell complaints.' } },
-  ],
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What causes a musty smell in a basement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A musty basement smell is caused by microbial volatile organic compounds (MVOCs) released by mold, mildew, or bacteria growing in damp conditions, and is almost always a moisture problem rather than a ventilation problem alone. The five most common moisture sources are high humidity above 55 percent causing condensation on cool concrete surfaces, minor seepage through foundation cracks or porous concrete, poor exterior drainage directing water toward the foundation, trapped moisture in organic materials like cardboard boxes, old carpet, wood framing, or drywall, and less commonly small plumbing leaks or sewer gas from uncapped drains. The smell worsening after rain or during humid summer weather is the most reliable indicator that moisture from outside the home is the primary driver. Identifying which source applies to your basement determines which fix will actually eliminate the smell rather than temporarily masking it. See our how to prevent basement mold guide for the full moisture management framework."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I find the source of the musty smell?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Start by walking slowly around the basement and noting where the smell is most intense, since MVOCs are strongest closest to their source. Use a digital hygrometer ($10 to $30) to measure humidity in multiple locations over several days, as readings consistently above 55 to 60 percent confirm excess moisture even without visible water. Inspect visually for efflorescence (white mineral deposits on concrete), dark spots or fuzzy growth on walls or floor joists, bubbling or peeling paint, and condensation on pipes or windows. Check hidden areas behind shelving, under stairs, inside closets, and behind drywall if accessible, since mold grows in dark undisturbed spaces long before it appears in open areas. A pinless moisture meter ($20 to $50) can detect elevated moisture inside walls and floors without opening them, confirming hidden dampness that visual inspection alone misses. Smell near floor drains, cleanouts, and pipe penetrations specifically for a sewage-like odor that indicates a dry trap or plumbing issue rather than a mold source."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I get rid of a musty smell in my basement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Getting rid of the smell permanently requires addressing the moisture source rather than masking the odor, because MVOCs are continuously produced as long as the biological growth generating them continues. Start by running a properly sized dehumidifier (22 to 50 pints for most basements under current ratings) continuously to bring humidity below 50 percent, and extend downspouts 6 to 10 feet from the foundation to reduce exterior water contribution. Remove damp organic materials including cardboard boxes, old rugs, and fabric items that may be harboring mold growth and replace them with sealed plastic storage bins elevated off the floor. Clean visible mold on hard surfaces with a non-bleach mold cleaner such as Concrobium and scrub efflorescence from concrete walls to remove the mineral deposits left by migrating moisture. If the smell persists after 2 to 4 weeks of consistent dehumidification and cleanup, the source is likely hidden inside a wall cavity, beneath flooring, or in a location requiring professional inspection. See our mold remediation cost guide for what professional assessment and remediation costs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will a dehumidifier get rid of musty basement smell?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A dehumidifier will significantly reduce or eliminate musty smell in basements where high humidity and condensation are the primary moisture source, because lowering humidity below 50 percent removes the conditions that allow mold and mildew to continue growing and producing MVOCs. However, a dehumidifier alone will not eliminate the smell if the source is active water intrusion through foundation cracks or the cove joint, hidden mold already established inside wall cavities or beneath flooring, organic materials that are already contaminated with mold growth, or sewer gas from dry traps or plumbing issues. In those cases the dehumidifier manages ambient humidity but cannot reach the actual growth source that is producing the smell. The correct sequence is to identify and address the moisture source, remove or remediate any affected organic materials, and then run the dehumidifier to maintain safe humidity going forward. See our dehumidifier myths guide for common sizing and placement mistakes that prevent dehumidifiers from achieving their target humidity."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is a musty basement smell dangerous?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It can be. A musty smell usually means mold, mildew, or bacteria are growing somewhere, which is a real health risk, particularly for people with allergies, asthma, or weakened immune systems. MVOCs themselves can cause headaches, nausea, and respiratory irritation at sustained low-level exposure, and the mold spores that accompany the smell trigger allergic reactions including sneezing, congestion, itchy eyes, and skin irritation in sensitive individuals. The stack effect in homes pulls basement air upward into living areas continuously, meaning basement mold spores and MVOCs affect whole-house air quality rather than remaining contained to the basement. Children, elderly individuals, and anyone with chronic respiratory conditions are at highest risk from prolonged mold exposure, and symptoms that worsen at home and improve when away are a strong indicator that indoor air quality is affected. Do not ignore a persistent musty smell as a minor inconvenience, treat it as an early warning that requires investigation and remediation. See our how to prevent basement mold guide for health context and prevention steps."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does it take to get rid of musty basement smell?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If humidity is the primary cause, running a properly sized dehumidifier continuously typically reduces or eliminates the smell within 1 to 2 weeks as humidity drops and the biological growth slows and stops producing MVOCs at the previous rate. If organic materials like cardboard, old carpet, or stored items are harboring mold, removing those items combined with dehumidification typically resolves the smell within 1 to 3 weeks depending on how extensively the space was affected. If the source is active water seepage, the smell will not fully resolve until the water entry is addressed through crack sealing, drainage improvements, or a sump pump installation, after which dehumidification can clear the residual odor within 1 to 2 weeks. Hidden mold inside wall cavities or beneath flooring takes longest to address because it requires opening the assembly, remediating the growth, and allowing the space to dry fully before the smell dissipates. Persistent smell after 4 weeks of consistent DIY effort is a reliable indicator that the source has not been fully identified or addressed and professional inspection is warranted."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When should I call a professional for a musty basement smell?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Call a professional if the smell persists after 2 to 4 weeks of consistent dehumidification, exterior drainage improvements, and removal of damp organic materials. Also call a professional if you discover visible mold covering more than 10 square feet, if you suspect mold inside wall cavities or beneath flooring based on the smell location but cannot confirm visually, or if anyone in the household is experiencing respiratory symptoms that may be related to mold exposure. A mold inspection costs $300 to $600 and can identify hidden growth and airborne spore counts that DIY investigation cannot. Many waterproofing contractors offer free assessments for moisture-related smell complaints, which is a cost-effective first step when the source appears to be water intrusion rather than surface mold. See our mold remediation cost guide for what professional assessment and remediation costs by scope."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does my basement smell musty when it's dry?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually because the humidity is high even though nothing is visibly wet. At 60% or higher, concrete, dust, wood, and stored items stay damp enough for mold and bacteria to grow. Moisture can also pass through concrete walls and floors as vapor, and mold can grow out of sight behind drywall, under carpet, or in cardboard boxes. Check the humidity with a hygrometer, then run a dehumidifier set to 45% for two weeks. If the smell fades, humidity was the cause. If not, look for a hidden source."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does my basement smell musty after it rains?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Rain soaks the soil around the foundation, and that water either seeps in through the walls and floor or raises the basement's humidity. If the smell is strongest near one wall or corner, water is probably coming in there. Start with the cheap fixes: clean gutters, extend downspouts 6 to 10 feet, and regrade soil so it slopes away from the house. If the smell still follows every rain, you likely need crack repair or an interior drainage system. See our basement water after rain guide."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does my basement smell musty every summer? Dehumidifier or waterproofing first?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dehumidifier first. In summer, warm, humid air hits cool concrete and condenses, which keeps walls, floors, and stored items damp. That's a humidity problem, and a properly sized dehumidifier set to 45% usually fixes it. Waterproofing only makes sense if water is actually getting in: wet spots after rain, water at the base of the wall, or moisture under a plastic sheet taped to the concrete. Keep basement windows closed on humid days, because outside air makes summer humidity worse."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does my basement still smell musty with a dehumidifier running?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Check the hygrometer first. If it's still above 50%, the dehumidifier is too small, set too high, or shutting off when the bucket fills. If the humidity is under 50% and the smell is still there, the dehumidifier isn't the problem. The source is usually something that's already contaminated, like old carpet, cardboard, or drywall, or water coming in that a dehumidifier can't keep up with. Remove damp materials, check for seepage after rain, and get a mold inspection if the smell lasts more than 4 weeks."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does efflorescence smell?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Efflorescence is mineral salt left behind when water moves through concrete or block and evaporates, and it has no odor of its own. It does mean water is moving through that wall, so a musty smell near efflorescence usually comes from the damp wall or materials touching it. See our basement efflorescence guide."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will an air purifier get rid of a musty basement smell?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It helps, but it won't fix the cause. A purifier with an activated carbon filter absorbs odors, and a HEPA filter traps mold spores. The smell will keep coming back as long as the basement stays damp, so use a purifier along with a dehumidifier, not instead of one. See our best basement air purifiers."
+      }
+    }
+  ]
 }
 
 export default function MustyBasementSmellArticle() {
@@ -51,15 +149,16 @@ export default function MustyBasementSmellArticle() {
           <div className='flex items-center space-x-4 mt-8'>
             <div className='w-12 h-12 bg-teal-500 rounded-full flex items-center justify-center text-white font-bold'>BG</div>
             <div className='text-white'>
-              <p className='font-bold'>The Basement Guide</p>
-              <p className='text-slate-400 text-sm'>Updated Feb 2026 &middot; 14 min read</p>
+              <p className='font-bold'>By The Basement Guide Editorial Team</p>
+              <p className='text-slate-400 text-sm'>Updated October 2026 &middot; 14 min read</p>
             </div>
           </div>
         </div>
       </section>
 
       {/* Main Content */}
-      <article className='max-w-4xl mx-auto px-6 py-16'>
+      <div className='max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 lg:grid-cols-12 gap-12'><article className='lg:col-span-8 min-w-0'>
+<aside data-musty-tldr className='bg-indigo-50 border border-indigo-200 rounded-lg p-6 mb-8'><h2 className='text-xl font-bold text-slate-900 mb-4'>TL;DR</h2><div dangerouslySetInnerHTML={{ __html: "<ul class=\"list-disc pl-6 space-y-3 text-slate-700 mb-6\">\n<li><strong>A musty smell means something is damp enough for mold, mildew, or bacteria to grow.</strong> Usually that's high humidity. Sometimes it's water coming in.</li>\n<li><strong>Get a hygrometer first.</strong> If it reads above 60%, run a dehumidifier set to 45%. That alone fixes a lot of musty basements within one to two weeks.</li>\n<li><strong>Worse after rain?</strong> Water is getting in. Fix gutters, downspouts, and grading first, then look at drainage.</li>\n<li><strong>Dry but still musty?</strong> Check stored cardboard, old carpet, behind drywall, and floor drains that may have dried out.</li>\n<li><strong>Air purifiers and odor absorbers help, but the smell comes back</strong> until the moisture is fixed.</li>\n<li><strong>Still there after 2 to 4 weeks?</strong> A professional mold inspection costs $300 to $600.</li>\n</ul>\n" }} /></aside>
         <p className='text-lg text-slate-700 leading-relaxed mb-8'>
           That damp, earthy smell in your basement is extremely common, and it almost always means excess moisture is at work. Even without visible water, hidden dampness creates ideal conditions for mold, mildew, or decaying organic material to release musty microbial odors. Ignoring it can lead to bigger problems like <Link href='/articles/how-to-prevent-basement-mold' className='text-teal-600 underline hover:text-teal-800'>mold growth</Link>, health issues, or damage to stored items and finishes.
         </p>
@@ -136,7 +235,7 @@ export default function MustyBasementSmellArticle() {
             <span className='text-slate-400 font-medium'>Step 1</span>
           </div>
           <h2 className='text-3xl md:text-4xl font-bold text-slate-900 mb-4'>Finding the Source of the Smell</h2>
-          <p className='text-lg text-red-600 font-semibold mb-6'>Do not skip this step. Pinpointing the origin is crucial &mdash; otherwise you are just masking the problem.</p>
+          <p className='text-lg text-red-600 font-semibold mb-6'>Do not skip this step. Pinpointing the origin is crucial, otherwise you are just masking the problem.</p>
           <p className='text-lg text-slate-700 leading-relaxed mb-8'>Here is how to track it down systematically:</p>
 
           <div className='space-y-6 mb-8'>
@@ -200,6 +299,7 @@ export default function MustyBasementSmellArticle() {
           </div>
         </section>
 
+<section data-musty-dry className='mb-16'><div dangerouslySetInnerHTML={{ __html: "" }} /></section>
         {/* Section 3 - Quick Fixes */}
         <section className='mb-16'>
           <div className='flex items-center space-x-3 mb-6'>
@@ -212,7 +312,7 @@ export default function MustyBasementSmellArticle() {
           <div className='grid md:grid-cols-2 gap-6 mb-8'>
             <div className='bg-slate-50 rounded-2xl p-6'>
               <h3 className='text-xl font-bold text-slate-900 mb-3'>Run a Dehumidifier</h3>
-              <p className='text-slate-600'>Get a <Link href='/articles/dehumidifier-myths' className='text-teal-600 underline hover:text-teal-800'>50-pint or larger unit</Link> and run it continuously, aiming for 40&ndash;50% humidity. Connect a drain hose or empty the tank regularly. This alone often cuts the smell significantly within a week.</p>
+              <div dangerouslySetInnerHTML={{ __html: "<p class=\"text-slate-600 leading-relaxed mb-4\"><a href=\"/articles/dehumidifier-myths\" class=\"text-teal-600 underline hover:text-teal-800\">Size it</a> to your basement using current ratings: 22 to 35 pints for up to 1,000 sq ft, 35 to 50 pints for 1,000 to 1,500 sq ft, and 50 pints or a whole-basement system above that. Set it to 45% and run it continuously until the smell clears. Drain it to a floor drain or condensate pump so it doesn't shut off when the bucket fills. This alone often cuts the smell significantly within a week. See our <a href=\"/articles/best-basement-dehumidifiers\" class=\"text-teal-600 underline hover:text-teal-800\">best basement dehumidifiers</a> and <a href=\"/articles/basement-humidity-guide\" class=\"text-teal-600 underline hover:text-teal-800\">basement humidity guide</a>.</p>\n" }} />
             </div>
             <div className='bg-slate-50 rounded-2xl p-6'>
               <h3 className='text-xl font-bold text-slate-900 mb-3'>Improve Airflow</h3>
@@ -220,7 +320,7 @@ export default function MustyBasementSmellArticle() {
             </div>
             <div className='bg-slate-50 rounded-2xl p-6'>
               <h3 className='text-xl font-bold text-slate-900 mb-3'>Fix Exterior Basics</h3>
-              <p className='text-slate-600'>Extend downspouts at least 10 feet away from the foundation, regrade soil to slope away from the house, and clean gutters thoroughly.</p>
+              <p className='text-slate-600'>Extend downspouts 6 to 10 feet from the foundation, regrade soil to slope away from the house, and clean gutters thoroughly.</p>
             </div>
             <div className='bg-slate-50 rounded-2xl p-6'>
               <h3 className='text-xl font-bold text-slate-900 mb-3'>Remove Moisture Sources</h3>
@@ -228,7 +328,7 @@ export default function MustyBasementSmellArticle() {
             </div>
             <div className='bg-slate-50 rounded-2xl p-6'>
               <h3 className='text-xl font-bold text-slate-900 mb-3'>Clean Surfaces</h3>
-              <p className='text-slate-600'>Scrub walls and floors with a 1:3 vinegar-to-water solution or mild bleach solution. Use a HEPA vacuum to capture mold spores.</p>
+              <div dangerouslySetInnerHTML={{ __html: "<p class=\"text-slate-600 leading-relaxed mb-4\">Scrub hard surfaces with detergent and water or a mold cleaner like Concrobium, then let them dry completely. Bleach isn't needed, and the EPA doesn't recommend it for routine mold cleanup. Use a HEPA vacuum to pick up loose spores and dust.</p>\n" }} />
             </div>
             <div className='bg-slate-50 rounded-2xl p-6'>
               <h3 className='text-xl font-bold text-slate-900 mb-3'>Absorb Odors</h3>
@@ -251,7 +351,7 @@ export default function MustyBasementSmellArticle() {
               <span className='flex-shrink-0 w-10 h-10 bg-teal-100 text-teal-700 rounded-xl flex items-center justify-center font-bold'>1</span>
               <div>
                 <h3 className='text-lg font-bold text-slate-900 mb-1'>Whole-Basement Dehumidifier</h3>
-                <p className='text-slate-600'>Install a unit tied to your HVAC system for consistent, automated humidity control throughout the entire space.</p>
+                <p className='text-slate-600'>Install a unit tied to your HVAC system for consistent, automated humidity control throughout the entire space.</p><div dangerouslySetInnerHTML={{ __html: "<p class=\"text-slate-600 leading-relaxed mb-4\">Our pick is the AprilAire E070, a 70-pint whole-basement system that drains continuously, so there's no bucket to empty. It's the step up when a portable unit can't keep your basement under 50% in summer. <a href=\"https://link.amazon/B0aNDuQyc\" class=\"inline-block bg-amber-500 hover:bg-amber-600 text-slate-900 font-bold px-6 py-3 rounded-lg mt-4\" rel=\"sponsored nofollow\" target=\"_blank\">Check Price on Amazon</a></p>\n" }} />
               </div>
             </div>
             <div className='flex items-start space-x-4 p-5 bg-white border border-slate-200 rounded-2xl shadow-sm'>
@@ -272,7 +372,7 @@ export default function MustyBasementSmellArticle() {
               <span className='flex-shrink-0 w-10 h-10 bg-teal-100 text-teal-700 rounded-xl flex items-center justify-center font-bold'>4</span>
               <div>
                 <h3 className='text-lg font-bold text-slate-900 mb-1'>Improved Insulation and Vapor Barriers</h3>
-                <p className='text-slate-600'><Link href='/articles/basement-insulation-guide' className='text-teal-600 underline hover:text-teal-800'>Proper insulation</Link> paired with vapor barriers stops condensation at the source and prevents moisture from reaching interior surfaces.</p>
+                <div dangerouslySetInnerHTML={{ __html: "<p class=\"text-slate-600 leading-relaxed mb-4\">Rigid foam board glued tight to the concrete keeps the wall surface warm, so humid air doesn't condense on it. Don't put plastic sheeting on the inside of basement walls. It traps moisture against the concrete and can cause the musty smell you're trying to fix. Plastic vapor barriers belong on crawl space floors and under slabs. See our <a href=\"/articles/basement-insulation-guide\" class=\"text-teal-600 underline hover:text-teal-800\">basement insulation guide</a> and <a href=\"/articles/best-vapor-barriers\" class=\"text-teal-600 underline hover:text-teal-800\">vapor barrier guide</a>.</p>\n" }} />
               </div>
             </div>
             <div className='flex items-start space-x-4 p-5 bg-white border border-slate-200 rounded-2xl shadow-sm'>
@@ -362,13 +462,13 @@ export default function MustyBasementSmellArticle() {
                 <thead><tr className='bg-slate-800 text-white'><th className='px-4 py-3 text-left font-semibold'>Smell Characteristic</th><th className='px-4 py-3 text-left font-semibold'>Most Likely Source</th><th className='px-4 py-3 text-left font-semibold'>First Action</th><th className='px-4 py-3 text-left font-semibold'>Long-Term Fix</th></tr></thead>
                 <tbody className='divide-y divide-gray-200'>
                   <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Smell strongest near a specific wall, worsens after rain</td><td className='px-4 py-3 text-slate-600'>Water seeping through that wall or cove joint</td><td className='px-4 py-3 text-slate-600'>Run dehumidifier, check exterior drainage</td><td className='px-4 py-3 text-slate-600'>Interior drain tile system and sump pump</td></tr>
-                  <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Smell strongest near floor drains or cleanouts</td><td className='px-4 py-3 text-slate-600'>Dry P-trap or uncapped drain allowing sewer gas entry</td><td className='px-4 py-3 text-slate-600'>Pour water down the drain to refill the trap</td><td className='px-4 py-3 text-slate-600'>Install trap primer or seal unused drains</td></tr>
+                  <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Smell strongest near floor drains or cleanouts</td><td className='px-4 py-3 text-slate-600'>Dry P-trap or uncapped drain allowing sewer gas entry</td><td className='px-4 py-3 text-slate-600'>Pour water down the drain to refill the trap</td><td className='px-4 py-3 text-slate-600'>Install trap primer or seal unused drains</td></tr><tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'><div dangerouslySetInnerHTML={{ __html: "<p class=\"text-slate-600 leading-relaxed mb-4\">Sharp, ammonia-like smell, often in a corner or near stored items</p>\n" }} /></td><td className='px-4 py-3 text-slate-600'><div dangerouslySetInnerHTML={{ __html: "<p class=\"text-slate-600 leading-relaxed mb-4\">Rodent urine and droppings</p>\n" }} /></td><td className='px-4 py-3 text-slate-600'><div dangerouslySetInnerHTML={{ __html: "<p class=\"text-slate-600 leading-relaxed mb-4\">Wear gloves, spray droppings with disinfectant before wiping them up, and don't sweep or vacuum them dry</p>\n" }} /></td><td className='px-4 py-3 text-slate-600'><div dangerouslySetInnerHTML={{ __html: "<p class=\"text-slate-600 leading-relaxed mb-4\">Seal entry points and trap. See our <a href=\"/articles/basement-mice-pest-prevention\" class=\"text-teal-600 underline hover:text-teal-800\">mice and pest prevention guide</a></p>\n" }} /></td></tr>
                   <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Smell strongest under stairs or in closets</td><td className='px-4 py-3 text-slate-600'>Hidden mold on stored organic materials or wall surfaces</td><td className='px-4 py-3 text-slate-600'>Remove stored items, inspect surfaces for mold</td><td className='px-4 py-3 text-slate-600'>Remediate mold, replace affected materials, run dehumidifier</td></tr>
                   <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Smell strongest in summer, less in winter</td><td className='px-4 py-3 text-slate-600'>Condensation from warm humid outdoor air hitting cool concrete</td><td className='px-4 py-3 text-slate-600'>Run dehumidifier continuously, keep basement windows closed on humid days</td><td className='px-4 py-3 text-slate-600'>Dehumidifier plus wall insulation to raise surface temperature above dew point</td></tr>
                   <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Whole-basement smell, no obvious hotspot</td><td className='px-4 py-3 text-slate-600'>High ambient humidity throughout the space</td><td className='px-4 py-3 text-slate-600'>Run dehumidifier, improve airflow</td><td className='px-4 py-3 text-slate-600'>Dehumidifier sized for actual square footage, address exterior drainage</td></tr>
                   <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Smell present after flooding or water event</td><td className='px-4 py-3 text-slate-600'>Mold established in flooring, wall cavities, or framing after wet event</td><td className='px-4 py-3 text-slate-600'>Remove wet materials within 24 to 48 hours</td><td className='px-4 py-3 text-slate-600'>Professional mold remediation if established growth is found</td></tr>
                   <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Smell only in one corner near exterior wall</td><td className='px-4 py-3 text-slate-600'>Seepage through that wall section or window well</td><td className='px-4 py-3 text-slate-600'>Inspect window well drainage, check exterior grading at that corner</td><td className='px-4 py-3 text-slate-600'>Seal cracks, improve window well drainage, regrade soil if needed</td></tr>
-                  <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Smell in finished basement, no visible mold</td><td className='px-4 py-3 text-slate-600'>Mold inside wall cavity behind drywall</td><td className='px-4 py-3 text-slate-600'>Use moisture meter to scan walls, note humidity readings</td><td className='px-4 py-3 text-slate-600'>Open wall at highest moisture reading, remediate, reinstall with vapor barrier</td></tr>
+                  <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Smell in finished basement, no visible mold</td><td className='px-4 py-3 text-slate-600'>Mold inside wall cavity behind drywall</td><td className='px-4 py-3 text-slate-600'>Use moisture meter to scan walls, note humidity readings</td><td className='px-4 py-3 text-slate-600'>Open wall at highest moisture reading, remediate, rebuild with rigid foam against the concrete and no plastic sheeting</td></tr>
                   <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Smell in HVAC ducts throughout house</td><td className='px-4 py-3 text-slate-600'>Mold in basement HVAC components or ductwork distributing basement air</td><td className='px-4 py-3 text-slate-600'>Inspect HVAC air handler and return air ducts in basement</td><td className='px-4 py-3 text-slate-600'>Professional HVAC duct cleaning plus basement moisture source remediation</td></tr>
                   <tr className='bg-gray-50'><td className='px-4 py-3 font-medium text-slate-900'>Musty smell plus visible white powder on concrete</td><td className='px-4 py-3 text-slate-600'>Active moisture migration (efflorescence)</td><td className='px-4 py-3 text-slate-600'>Address exterior drainage, clean efflorescence</td><td className='px-4 py-3 text-slate-600'>Apply penetrating concrete sealer (RadonSeal) to affected walls</td></tr>
                   <tr className='bg-white'><td className='px-4 py-3 font-medium text-slate-900'>Smell from cardboard boxes or stored items</td><td className='px-4 py-3 text-slate-600'>Organic materials absorbing basement moisture and supporting mold</td><td className='px-4 py-3 text-slate-600'>Remove affected items, discard moldy cardboard</td><td className='px-4 py-3 text-slate-600'>Replace with sealed plastic bins elevated on shelves off the floor</td></tr>
@@ -414,7 +514,7 @@ export default function MustyBasementSmellArticle() {
               </div>
               <div className='bg-slate-50 rounded-xl p-6 border border-slate-100'>
                 <h4 className='font-bold text-slate-900 mb-1'>Perimeter drain (interior French drain)</h4>
-                <p className='text-slate-600'>A drainage channel installed beneath the basement floor along the base of the foundation walls that intercepts water entering through the cove joint or floor and routes it to a sump pump for removal, addressing the active water intrusion that creates the persistent damp conditions behind the most serious musty smell problems. Interior perimeter drains are the appropriate solution when musty smell is caused by recurring water entry rather than humidity or condensation alone, because they address the moisture at its entry point before it can wet flooring, walls, and stored organic materials. A complete interior drainage system with sump pump typically costs $3,000 to $8,000 and carries 25-year warranties from reputable contractors. See our <Link href='/articles/french-drain-cost' className='text-teal-600 underline font-semibold'>French drain cost guide</Link> for full pricing by system configuration.</p>
+                <p className='text-slate-600'>A drainage channel installed beneath the basement floor along the base of the foundation walls that intercepts water entering through the cove joint or floor and routes it to a sump pump for removal, addressing the active water intrusion that creates the persistent damp conditions behind the most serious musty smell problems. Interior perimeter drains are the appropriate solution when musty smell is caused by recurring water entry rather than humidity or condensation alone, because they address the moisture at its entry point before it can wet flooring, walls, and stored organic materials. A complete interior drainage system with sump pump typically costs <Link href='/articles/basement-waterproofing-cost' className='text-teal-600 underline hover:text-teal-800'>$3,000 to $8,000</Link>, and reputable contractors usually offer long-term or lifetime transferable warranties. See our <Link href='/articles/french-drain-cost' className='text-teal-600 underline font-semibold'>French drain cost guide</Link> for full pricing by system configuration.</p>
               </div>
             </div>
           </div>
@@ -426,14 +526,28 @@ export default function MustyBasementSmellArticle() {
           <div className='space-y-6'>
             <div><h3 className='text-lg font-bold text-slate-800 mb-2'>What causes a musty smell in a basement?</h3><p className='text-slate-600'>A musty basement smell is caused by microbial volatile organic compounds (MVOCs) released by mold, mildew, or bacteria growing in damp conditions, and is almost always a moisture problem rather than a ventilation problem alone. The five most common moisture sources are high humidity above 55 percent causing condensation on cool concrete surfaces, minor seepage through foundation cracks or porous concrete, poor exterior drainage directing water toward the foundation, trapped moisture in organic materials like cardboard boxes, old carpet, wood framing, or drywall, and less commonly small plumbing leaks or sewer gas from uncapped drains. The smell worsening after rain or during humid summer weather is the most reliable indicator that moisture from outside the home is the primary driver. Identifying which source applies to your basement determines which fix will actually eliminate the smell rather than temporarily masking it. See our <Link href='/articles/how-to-prevent-basement-mold' className='text-teal-600 underline font-semibold'>how to prevent basement mold guide</Link> for the full moisture management framework.</p></div>
             <div><h3 className='text-lg font-bold text-slate-800 mb-2'>How do I find the source of the musty smell?</h3><p className='text-slate-600'>Start by walking slowly around the basement and noting where the smell is most intense, since MVOCs are strongest closest to their source. Use a digital hygrometer ($10 to $30) to measure humidity in multiple locations over several days, as readings consistently above 55 to 60 percent confirm excess moisture even without visible water. Inspect visually for efflorescence (white mineral deposits on concrete), dark spots or fuzzy growth on walls or floor joists, bubbling or peeling paint, and condensation on pipes or windows. Check hidden areas behind shelving, under stairs, inside closets, and behind drywall if accessible, since mold grows in dark undisturbed spaces long before it appears in open areas. A pinless moisture meter ($20 to $50) can detect elevated moisture inside walls and floors without opening them, confirming hidden dampness that visual inspection alone misses. Smell near floor drains, cleanouts, and pipe penetrations specifically for a sewage-like odor that indicates a dry trap or plumbing issue rather than a mold source.</p></div>
-            <div><h3 className='text-lg font-bold text-slate-800 mb-2'>How do I get rid of a musty smell in my basement?</h3><p className='text-slate-600'>Getting rid of the smell permanently requires addressing the moisture source rather than masking the odor, because MVOCs are continuously produced as long as the biological growth generating them continues. Start by running a properly sized dehumidifier (50 pint or larger for most basements) continuously to bring humidity below 50 percent, and extend downspouts at least 10 feet from the foundation to reduce exterior water contribution. Remove damp organic materials including cardboard boxes, old rugs, and fabric items that may be harboring mold growth and replace them with sealed plastic storage bins elevated off the floor. Clean visible mold on hard surfaces with a non-bleach mold cleaner such as Concrobium and scrub efflorescence from concrete walls to remove the mineral deposits left by migrating moisture. If the smell persists after 2 to 4 weeks of consistent dehumidification and cleanup, the source is likely hidden inside a wall cavity, beneath flooring, or in a location requiring professional inspection. See our <Link href='/articles/mold-remediation-cost' className='text-teal-600 underline font-semibold'>mold remediation cost guide</Link> for what professional assessment and remediation costs.</p></div>
+            <div><h3 className='text-lg font-bold text-slate-800 mb-2'>How do I get rid of a musty smell in my basement?</h3><p className='text-slate-600'>Getting rid of the smell permanently requires addressing the moisture source rather than masking the odor, because MVOCs are continuously produced as long as the biological growth generating them continues. Start by running a properly sized dehumidifier (22 to 50 pints for most basements under current ratings) continuously to bring humidity below 50 percent, and extend downspouts 6 to 10 feet from the foundation to reduce exterior water contribution. Remove damp organic materials including cardboard boxes, old rugs, and fabric items that may be harboring mold growth and replace them with sealed plastic storage bins elevated off the floor. Clean visible mold on hard surfaces with a non-bleach mold cleaner such as Concrobium and scrub efflorescence from concrete walls to remove the mineral deposits left by migrating moisture. If the smell persists after 2 to 4 weeks of consistent dehumidification and cleanup, the source is likely hidden inside a wall cavity, beneath flooring, or in a location requiring professional inspection. See our <Link href='/articles/mold-remediation-cost' className='text-teal-600 underline font-semibold'>mold remediation cost guide</Link> for what professional assessment and remediation costs.</p></div>
             <div><h3 className='text-lg font-bold text-slate-800 mb-2'>Will a dehumidifier get rid of musty basement smell?</h3><p className='text-slate-600'>A dehumidifier will significantly reduce or eliminate musty smell in basements where high humidity and condensation are the primary moisture source, because lowering humidity below 50 percent removes the conditions that allow mold and mildew to continue growing and producing MVOCs. However, a dehumidifier alone will not eliminate the smell if the source is active water intrusion through foundation cracks or the cove joint, hidden mold already established inside wall cavities or beneath flooring, organic materials that are already contaminated with mold growth, or sewer gas from dry traps or plumbing issues. In those cases the dehumidifier manages ambient humidity but cannot reach the actual growth source that is producing the smell. The correct sequence is to identify and address the moisture source, remove or remediate any affected organic materials, and then run the dehumidifier to maintain safe humidity going forward. See our <Link href='/articles/dehumidifier-myths' className='text-teal-600 underline font-semibold'>dehumidifier myths guide</Link> for common sizing and placement mistakes that prevent dehumidifiers from achieving their target humidity.</p></div>
-            <div><h3 className='text-lg font-bold text-slate-800 mb-2'>Is a musty basement smell dangerous?</h3><p className='text-slate-600'>Yes, a musty smell indicates active mold or mildew growth which poses real health risks, particularly for occupants with allergies, asthma, or compromised immune systems. MVOCs themselves can cause headaches, nausea, and respiratory irritation at sustained low-level exposure, and the mold spores that accompany the smell trigger allergic reactions including sneezing, congestion, itchy eyes, and skin irritation in sensitive individuals. The stack effect in homes pulls basement air upward into living areas continuously, meaning basement mold spores and MVOCs affect whole-house air quality rather than remaining contained to the basement. Children, elderly individuals, and anyone with chronic respiratory conditions are at highest risk from prolonged mold exposure, and symptoms that worsen at home and improve when away are a strong indicator that indoor air quality is affected. Do not ignore a persistent musty smell as a minor inconvenience &mdash; treat it as an early warning that requires investigation and remediation. See our <Link href='/articles/how-to-prevent-basement-mold' className='text-teal-600 underline font-semibold'>how to prevent basement mold guide</Link> for health context and prevention steps.</p></div>
+            <div><h3 className='text-lg font-bold text-slate-800 mb-2'>Is a musty basement smell dangerous?</h3><p className='text-slate-600'>It can be. A musty smell usually means mold, mildew, or bacteria are growing somewhere, which is a real health risk, particularly for people with allergies, asthma, or weakened immune systems. MVOCs themselves can cause headaches, nausea, and respiratory irritation at sustained low-level exposure, and the mold spores that accompany the smell trigger allergic reactions including sneezing, congestion, itchy eyes, and skin irritation in sensitive individuals. The stack effect in homes pulls basement air upward into living areas continuously, meaning basement mold spores and MVOCs affect whole-house air quality rather than remaining contained to the basement. Children, elderly individuals, and anyone with chronic respiratory conditions are at highest risk from prolonged mold exposure, and symptoms that worsen at home and improve when away are a strong indicator that indoor air quality is affected. Do not ignore a persistent musty smell as a minor inconvenience, treat it as an early warning that requires investigation and remediation. See our <Link href='/articles/how-to-prevent-basement-mold' className='text-teal-600 underline font-semibold'>how to prevent basement mold guide</Link> for health context and prevention steps.</p></div>
             <div><h3 className='text-lg font-bold text-slate-800 mb-2'>How long does it take to get rid of musty basement smell?</h3><p className='text-slate-600'>If humidity is the primary cause, running a properly sized dehumidifier continuously typically reduces or eliminates the smell within 1 to 2 weeks as humidity drops and the biological growth slows and stops producing MVOCs at the previous rate. If organic materials like cardboard, old carpet, or stored items are harboring mold, removing those items combined with dehumidification typically resolves the smell within 1 to 3 weeks depending on how extensively the space was affected. If the source is active water seepage, the smell will not fully resolve until the water entry is addressed through crack sealing, drainage improvements, or a sump pump installation, after which dehumidification can clear the residual odor within 1 to 2 weeks. Hidden mold inside wall cavities or beneath flooring takes longest to address because it requires opening the assembly, remediating the growth, and allowing the space to dry fully before the smell dissipates. Persistent smell after 4 weeks of consistent DIY effort is a reliable indicator that the source has not been fully identified or addressed and professional inspection is warranted.</p></div>
             <div><h3 className='text-lg font-bold text-slate-800 mb-2'>When should I call a professional for a musty basement smell?</h3><p className='text-slate-600'>Call a professional if the smell persists after 2 to 4 weeks of consistent dehumidification, exterior drainage improvements, and removal of damp organic materials. Also call a professional if you discover visible mold covering more than 10 square feet, if you suspect mold inside wall cavities or beneath flooring based on the smell location but cannot confirm visually, or if anyone in the household is experiencing respiratory symptoms that may be related to mold exposure. A mold inspection costs $300 to $600 and can identify hidden growth and airborne spore counts that DIY investigation cannot. Many waterproofing contractors offer free assessments for moisture-related smell complaints, which is a cost-effective first step when the source appears to be water intrusion rather than surface mold. See our <Link href='/articles/mold-remediation-cost' className='text-teal-600 underline font-semibold'>mold remediation cost guide</Link> for what professional assessment and remediation costs by scope.</p></div>
-          </div>
+          <div><h3 className='text-lg font-bold text-slate-800 mb-2'>Why does my basement smell musty when it's dry?</h3><div dangerouslySetInnerHTML={{ __html: "<p class=\"text-slate-600 leading-relaxed mb-4\">Usually because the humidity is high even though nothing is visibly wet. At 60% or higher, concrete, dust, wood, and stored items stay damp enough for mold and bacteria to grow. Moisture can also pass through concrete walls and floors as vapor, and mold can grow out of sight behind drywall, under carpet, or in cardboard boxes. Check the humidity with a hygrometer, then run a dehumidifier set to 45% for two weeks. If the smell fades, humidity was the cause. If not, look for a hidden source.</p>\n" }} /></div>
+<div><h3 className='text-lg font-bold text-slate-800 mb-2'>Why does my basement smell musty after it rains?</h3><div dangerouslySetInnerHTML={{ __html: "<p class=\"text-slate-600 leading-relaxed mb-4\">Rain soaks the soil around the foundation, and that water either seeps in through the walls and floor or raises the basement's humidity. If the smell is strongest near one wall or corner, water is probably coming in there. Start with the cheap fixes: clean gutters, extend downspouts 6 to 10 feet, and regrade soil so it slopes away from the house. If the smell still follows every rain, you likely need crack repair or an interior drainage system. See our <a href=\"/articles/problems/basement-water-after-rain\" class=\"text-teal-600 underline hover:text-teal-800\">basement water after rain guide</a>.</p>\n" }} /></div>
+<div><h3 className='text-lg font-bold text-slate-800 mb-2'>Why does my basement smell musty every summer? Dehumidifier or waterproofing first?</h3><div dangerouslySetInnerHTML={{ __html: "<p class=\"text-slate-600 leading-relaxed mb-4\">Dehumidifier first. In summer, warm, humid air hits cool concrete and condenses, which keeps walls, floors, and stored items damp. That's a humidity problem, and a properly sized dehumidifier set to 45% usually fixes it. Waterproofing only makes sense if water is actually getting in: wet spots after rain, water at the base of the wall, or moisture under a plastic sheet taped to the concrete. Keep basement windows closed on humid days, because outside air makes summer humidity worse.</p>\n" }} /></div>
+<div><h3 className='text-lg font-bold text-slate-800 mb-2'>Why does my basement still smell musty with a dehumidifier running?</h3><div dangerouslySetInnerHTML={{ __html: "<p class=\"text-slate-600 leading-relaxed mb-4\">Check the hygrometer first. If it's still above 50%, the dehumidifier is too small, set too high, or shutting off when the bucket fills. If the humidity is under 50% and the smell is still there, the dehumidifier isn't the problem. The source is usually something that's already contaminated, like old carpet, cardboard, or drywall, or water coming in that a dehumidifier can't keep up with. Remove damp materials, check for seepage after rain, and get a mold inspection if the smell lasts more than 4 weeks.</p>\n" }} /></div>
+<div><h3 className='text-lg font-bold text-slate-800 mb-2'>Does efflorescence smell?</h3><div dangerouslySetInnerHTML={{ __html: "<p class=\"text-slate-600 leading-relaxed mb-4\">No. Efflorescence is mineral salt left behind when water moves through concrete or block and evaporates, and it has no odor of its own. It does mean water is moving through that wall, so a musty smell near efflorescence usually comes from the damp wall or materials touching it. See our <a href=\"/articles/basement-efflorescence\" class=\"text-teal-600 underline hover:text-teal-800\">basement efflorescence guide</a>.</p>\n" }} /></div>
+<div><h3 className='text-lg font-bold text-slate-800 mb-2'>Will an air purifier get rid of a musty basement smell?</h3><div dangerouslySetInnerHTML={{ __html: "<p class=\"text-slate-600 leading-relaxed mb-4\">It helps, but it won't fix the cause. A purifier with an activated carbon filter absorbs odors, and a HEPA filter traps mold spores. The smell will keep coming back as long as the basement stays damp, so use a purifier along with a dehumidifier, not instead of one. See our <a href=\"/articles/best-basement-air-purifiers\" class=\"text-teal-600 underline hover:text-teal-800\">best basement air purifiers</a>.</p>\n" }} /></div></div>
         </section>
-      </article>
+      </article><aside className='lg:col-span-4 min-w-0'>      {/* Lead Form CTA */}
+      <section className='sticky top-24'>
+        <div className='bg-gradient-to-br from-teal-600 to-teal-700 rounded-3xl p-6 text-center'>
+          <h2 className='text-3xl font-bold text-white mb-4'>Get Expert Help With Your Musty Basement</h2>
+          <p className='text-teal-100 text-lg mb-8 max-w-2xl mx-auto'>
+            Connect with pre-vetted waterproofing and mold remediation professionals in your area. Free assessments, no obligation.
+          </p>
+          <LeadForm />
+        </div>
+      </section></aside></div>
 
       {/* Related Guides */}
       <section className='max-w-4xl mx-auto px-6 pb-16'>
@@ -505,7 +619,7 @@ export default function MustyBasementSmellArticle() {
             <h4 className='text-lg font-bold text-slate-900 mb-2'>Wet Basement Walls</h4>
             <p className='text-slate-600 text-sm'>How water enters through foundation walls and the specific repair approaches for each entry pathway, relevant when the musty smell investigation points to wall seepage as the source.</p>
           </Link>
-        </div>
+        <Link href='/articles/basement-ventilation' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'><p className='text-lg font-bold text-slate-900'>Basement Ventilation</p></Link><Link href='/articles/how-to-dry-out-basement-after-flooding' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'><p className='text-lg font-bold text-slate-900'>What to Do When Your Basement Floods</p></Link><Link href='/articles/problems/basement-water-after-rain' className='block bg-slate-50 rounded-2xl p-6 hover:bg-teal-50 transition-colors border border-slate-200 hover:border-teal-300'><p className='text-lg font-bold text-slate-900'>Basement Water After Rain</p></Link></div>
 
         <h3 className='text-sm font-semibold text-slate-500 uppercase tracking-wide mb-3'>From Our Network</h3>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-4 not-prose mb-10'>
@@ -528,18 +642,9 @@ export default function MustyBasementSmellArticle() {
         </div>
       </section>
 
-      {/* Lead Form CTA */}
-      <section className='max-w-4xl mx-auto px-6 pb-20'>
-        <div className='bg-gradient-to-br from-teal-600 to-teal-700 rounded-3xl p-10 text-center'>
-          <h2 className='text-3xl font-bold text-white mb-4'>Get Expert Help With Your Musty Basement</h2>
-          <p className='text-teal-100 text-lg mb-8 max-w-2xl mx-auto'>
-            Connect with pre-vetted waterproofing and mold remediation professionals in your area. Free assessments, no obligation.
-          </p>
-          <LeadForm />
-        </div>
-      </section>
 
-      <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+
+      <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify([faqSchema, {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://thebasement.guide/"},{"@type":"ListItem","position":2,"name":"Problems","item":"https://thebasement.guide/problems"},{"@type":"ListItem","position":3,"name":"Musty Basement Smell","item":"https://thebasement.guide/articles/musty-basement-smell"}]}]) }} />
     </div>
   )
 }
